@@ -42,7 +42,8 @@
       "PowerShell(wsl -d Ubuntu -- bash /home/mktwe/guiadelpiscina/push.sh)",
       "PowerShell(wsl -d Ubuntu -- bash -c \"ls /home/mktwe/.ssh/ 2>&1\")",
       "PowerShell(wsl -d Ubuntu -- bash /home/mktwe/guiadelpiscina/push2.sh 2>&1)",
-      "PowerShell(wsl -d Ubuntu -- bash -c \"cd /home/mktwe/guiadelpiscina && rm -f push.sh push2.sh gitcheck.sh && git add -A && git commit -m 'chore: remove temp build scripts' && git push 2>&1\")"
+      "PowerShell(wsl -d Ubuntu -- bash -c \"cd /home/mktwe/guiadelpiscina && rm -f push.sh push2.sh gitcheck.sh && git add -A && git commit -m 'chore: remove temp build scripts' && git push 2>&1\")",
+      "PowerShell(wsl -d Ubuntu -- bash -c \"cd /home/mktwe/guiadelpiscina && rm -f dopush.sh && git add -A && git commit -m 'chore: final cleanup' && git push && git log --oneline -3\")"
     ]
   }
 }
