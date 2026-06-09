@@ -27,7 +27,22 @@
       "PowerShell(wsl -d Ubuntu -- bash -c 'export PATH=\"/home/mktwe/.local/share/fnm/node-versions/v22.22.3/installation/bin:$PATH\"; cd /home/mktwe/guiadelpiscina && ls -la')",
       "PowerShell(wsl -d Ubuntu -- bash /home/mktwe/guiadelpiscina/setup2.sh 2>&1)",
       "PowerShell(wsl -d Ubuntu -- bash /home/mktwe/guiadelpiscina/build.sh 2>&1)",
-      "PowerShell(wsl -d Ubuntu -- bash /home/mktwe/guiadelpiscina/gitpush.sh 2>&1)"
+      "PowerShell(wsl -d Ubuntu -- bash /home/mktwe/guiadelpiscina/gitpush.sh 2>&1)",
+      "PowerShell(wsl -d Ubuntu -- bash -c \"export PATH='/home/mktwe/.local/share/fnm/node-versions/v22.22.3/installation/bin:$PATH'; cd /home/mktwe/guiadelpiscina && git remote -v && git log --oneline -1 && git status\" 2>&1)",
+      "PowerShell(wsl -d Ubuntu -- bash -c \"which git 2>&1; ls /usr/bin/git 2>&1\")",
+      "PowerShell(wsl -d Ubuntu -- bash /home/mktwe/guiadelpiscina/gitcheck.sh 2>&1)",
+      "PowerShell(wsl -d Ubuntu -- bash /home/mktwe/guiadelpiscina/dopush.sh 2>&1)",
+      "PowerShell(wsl -d Ubuntu -- bash -c \"cat /home/mktwe/.gitconfig 2>&1; cat /home/mktwe/.git-credentials 2>&1; git config --global --list 2>&1\")",
+      "PowerShell(wsl -d Ubuntu -- bash -c \"git config --global credential.helper 2>&1\")",
+      "PowerShell(wsl -d Ubuntu -- bash -c \"ls /mnt/c/Program\\\\ Files/Git/mingw64/bin/git-credential-manager.exe 2>&1 || ls /mnt/c/Program\\\\ Files/Git/mingw64/libexec/git-core/git-credential-manager.exe 2>&1\")",
+      "PowerShell(wsl -d Ubuntu -- bash -c \"ls '/mnt/c/Program Files/Git/' 2>&1\")",
+      "PowerShell(wsl -d Ubuntu -- bash -c \"ls '/mnt/c/Users/mktwe/AppData/Local/Programs/Git/' 2>&1; which git-credential-manager 2>&1\")",
+      "PowerShell(git config *)",
+      "PowerShell(wsl -d Ubuntu -- bash -c \"git config --global credential.helper store; echo 'Credential helper configured'\")",
+      "PowerShell(wsl -d Ubuntu -- bash /home/mktwe/guiadelpiscina/push.sh)",
+      "PowerShell(wsl -d Ubuntu -- bash -c \"ls /home/mktwe/.ssh/ 2>&1\")",
+      "PowerShell(wsl -d Ubuntu -- bash /home/mktwe/guiadelpiscina/push2.sh 2>&1)",
+      "PowerShell(wsl -d Ubuntu -- bash -c \"cd /home/mktwe/guiadelpiscina && rm -f push.sh push2.sh gitcheck.sh && git add -A && git commit -m 'chore: remove temp build scripts' && git push 2>&1\")"
     ]
   }
 }
