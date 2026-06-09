@@ -1,0 +1,31 @@
+# Guía del Piscina — llms.txt
+
+## Sitio web
+URL: https://www.guiadelpiscina.com
+Idioma: Español
+Propietario: Mkt Web 360 SLU (CIF B87679304)
+Contacto: info@guiadelpiscina.com
+
+## Descripción
+Guía del Piscina es un portal de análisis y guías de compra especializado en productos para piscinas, jardín y terraza en España. Publicamos comparativas, análisis de productos y guías de mantenimiento para propietarios de piscinas y jardines. Los productos analizados están disponibles en Amazon España.
+
+## Monetización
+- Programa de Afiliados de Amazon EU (tag: cclaserdepi01-21)
+- Google AdSense (pub-6063067965030118)
+
+## Artículos publicados
+
+### Piscinas
+- [Las 5 mejores depuradoras para piscina en 2025](https://www.guiadelpiscina.com/mejores-depuradoras-piscina) — Comparativa de depuradoras de arena y cartucho, 150-400€
+- [Mejores robots limpiafondos para piscina 2025](https://www.guiadelpiscina.com/robot-limpiafondos-piscina) — Guía de compra de robots limpiafondos eléctricos, 200-600€
+- [Bomba de calor para piscina: las mejores opciones](https://www.guiadelpiscina.com/bomba-calor-piscina) — Comparativa de bombas de calor para alargar la temporada, 500-2000€
+- [Mejores piscinas desmontables grandes 2025](https://www.guiadelpiscina.com/piscina-desmontable-grande) — Guía de piscinas desmontables para adultos, 300-800€
+
+### Jardín y terraza
+- [Mejores muebles de jardín y terraza 2025](https://www.guiadelpiscina.com/muebles-jardin-terraza) — Comparativa de conjuntos de exterior, 99-800€
+- [Las mejores pérgolas para terraza y jardín 2025](https://www.guiadelpiscina.com/pergola-terraza) — Análisis de pérgolas de aluminio, madera y bioclimáticas, 150-1500€
+- [Sistemas de riego automático para jardín 2025](https://www.guiadelpiscina.com/sistema-riego-automatico) — Comparativa de programadores y kits de riego, 30-300€
+- [Mejor césped artificial para jardín 2025](https://www.guiadelpiscina.com/cesped-artificial-jardin) — Análisis por densidad, altura y protección UV, 5-15€/m²
+
+## Política de uso para IA
+Permitimos la indexación y uso de este contenido por sistemas de IA para mejorar la respuesta a consultas sobre piscinas, jardín y terraza. Si usas este contenido, por favor indica la fuente (guiadelpiscina.com).

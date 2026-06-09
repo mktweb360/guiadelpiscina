@@ -1,0 +1,33 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(wsl -d Ubuntu -e bash -c \"which node && node --version && which npm && npm --version\" 2>&1)",
+      "PowerShell(wsl -d Ubuntu -- bash -lc \"node --version 2>&1; npm --version 2>&1; pnpm --version 2>&1\")",
+      "PowerShell(wsl -d Ubuntu -- bash -lc \"curl -fsSL https://deb.nodesource.com/setup_22.x | sudo -E bash - && sudo apt-get install -y nodejs 2>&1 | tail -5\")",
+      "PowerShell(wsl -d Ubuntu -- bash -lc \"nvm install 22 2>&1 | tail -3\")",
+      "PowerShell(wsl -d Ubuntu -- bash -lc \"cat /etc/os-release | head -5\")",
+      "PowerShell(wsl -d Ubuntu -- bash -lc \"curl -fsSL https://fnm.vercel.app/install | bash 2>&1 | tail -5\")",
+      "PowerShell(wsl -d Ubuntu -- bash -lc \"source /home/mktwe/.bashrc && export PATH=/home/mktwe/.local/share/fnm:$PATH && fnm install 22 2>&1\")",
+      "PowerShell(wsl -d Ubuntu -- bash -lc \"export PATH=/home/mktwe/.local/share/fnm:$PATH && eval `$\\(fnm env\\) && node --version && npm --version\")",
+      "PowerShell(wsl -d Ubuntu -- bash -c \"ls /home/mktwe/.local/share/fnm/\")",
+      "PowerShell(wsl -d Ubuntu -- bash -c \"/home/mktwe/.local/share/fnm/fnm use 22 && node --version && npm --version\" 2>&1)",
+      "PowerShell(wsl -d Ubuntu -- bash -c 'FNM_DIR=/home/mktwe/.local/share/fnm; eval \"$\\(/home/mktwe/.local/share/fnm/fnm env --shell bash\\)\"; node --version; npm --version; which node')",
+      "PowerShell(wsl -d Ubuntu -- bash -c 'export PATH=\"$PATH:/mnt/c/Program Files/nodejs/\"; node --version; npm --version; npx --version')",
+      "PowerShell(npm *)",
+      "PowerShell(npm install *)",
+      "PowerShell(wsl -d Ubuntu -- bash -c 'eval \"$\\(/home/mktwe/.local/share/fnm/fnm env --fnm-dir /home/mktwe/.local/share/fnm\\)\" && fnm use 22 && node --version')",
+      "PowerShell(wsl -d Ubuntu -- bash -c 'ls /home/mktwe/.local/share/fnm/node-versions/')",
+      "PowerShell(wsl -d Ubuntu -- bash -c 'ls /home/mktwe/.local/share/fnm/node-versions/v22.22.3/installation/bin/')",
+      "PowerShell(wsl -d Ubuntu -- bash -c 'export PATH=\"/home/mktwe/.local/share/fnm/node-versions/v22.22.3/installation/bin:$PATH\" && node --version && npm --version && npm install -g pnpm && pnpm --version')",
+      "PowerShell(wsl -d Ubuntu -e /home/mktwe/.local/share/fnm/node-versions/v22.22.3/installation/bin/node --version)",
+      "PowerShell(wsl -d Ubuntu -- bash -c $script)",
+      "PowerShell($script = 'export PATH=\"/home/mktwe/.local/share/fnm/node-versions/v22.22.3/installation/bin:$PATH\"; which pnpm; file $\\(which pnpm\\)')",
+      "PowerShell(wsl -d Ubuntu -- bash -c 'export PATH=\"/home/mktwe/.local/share/fnm/node-versions/v22.22.3/installation/bin:$PATH\"; which pnpm 2>&1; ls -la $\\(which pnpm\\) 2>&1')",
+      "PowerShell(wsl -d Ubuntu -- bash /home/mktwe/guiadelpiscina/setup.sh 2>&1)",
+      "PowerShell(wsl -d Ubuntu -- bash -c 'export PATH=\"/home/mktwe/.local/share/fnm/node-versions/v22.22.3/installation/bin:$PATH\"; cd /home/mktwe/guiadelpiscina && ls -la')",
+      "PowerShell(wsl -d Ubuntu -- bash /home/mktwe/guiadelpiscina/setup2.sh 2>&1)",
+      "PowerShell(wsl -d Ubuntu -- bash /home/mktwe/guiadelpiscina/build.sh 2>&1)",
+      "PowerShell(wsl -d Ubuntu -- bash /home/mktwe/guiadelpiscina/gitpush.sh 2>&1)"
+    ]
+  }
+}
