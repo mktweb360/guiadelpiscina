@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import { getFeaturedProducts } from "@/data/products";
 
 export const metadata: Metadata = {
   title: "Guía del Piscina — Todo lo que necesitas para tu piscina y jardín",
@@ -117,7 +118,20 @@ const breadcrumbSchema = {
   ],
 };
 
+function StarRating({ rating }: { rating: number }) {
+  return (
+    <div className="flex items-center gap-0.5">
+      {[1, 2, 3, 4, 5].map((s) => (
+        <span key={s} className={s <= Math.round(rating) ? "text-yellow-400" : "text-gray-300"}>★</span>
+      ))}
+      <span className="text-xs text-gray-500 ml-1">{rating.toFixed(1)}</span>
+    </div>
+  );
+}
+
 export default function HomePage() {
+  const featuredProducts = getFeaturedProducts(4);
+
   return (
     <>
       <script
@@ -176,6 +190,45 @@ export default function HomePage() {
                   {cat.price}
                 </span>
               </Link>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Featured store products */}
+      <section className="py-14 px-4 bg-white">
+        <div className="max-w-6xl mx-auto">
+          <div className="flex items-center justify-between mb-2">
+            <h2 className="text-3xl font-bold text-gray-900">Tienda destacada</h2>
+            <Link href="/tienda" className="text-sky-600 font-semibold hover:underline text-sm">
+              Ver todos →
+            </Link>
+          </div>
+          <p className="text-gray-500 mb-8">Los productos mejor valorados por nuestros lectores</p>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
+            {featuredProducts.map((product) => (
+              <div key={product.slug} className="border border-gray-100 rounded-xl p-5 hover:shadow-md transition-all flex flex-col">
+                <div className="flex items-start justify-between mb-2">
+                  <span className="text-xs text-gray-400 uppercase tracking-wide">{product.categoryName}</span>
+                  {product.badge && (
+                    <span className="text-xs font-bold text-orange-600 bg-orange-50 px-2 py-0.5 rounded-full">
+                      {product.badge}
+                    </span>
+                  )}
+                </div>
+                <h3 className="font-bold text-gray-900 text-sm leading-snug mb-2">{product.name}</h3>
+                <p className="text-xs text-gray-500 mb-3 flex-grow">{product.shortDescription}</p>
+                <StarRating rating={product.rating} />
+                <div className="mt-3 pt-3 border-t border-gray-50 flex items-center justify-between">
+                  <span className="font-extrabold text-gray-900">{product.price}</span>
+                  <Link
+                    href={`/tienda/${product.categorySlug}/${product.slug}`}
+                    className="text-xs font-semibold text-sky-600 hover:text-sky-700"
+                  >
+                    Ver →
+                  </Link>
+                </div>
+              </div>
             ))}
           </div>
         </div>

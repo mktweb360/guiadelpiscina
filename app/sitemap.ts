@@ -1,4 +1,5 @@
 import type { MetadataRoute } from "next";
+import { categories, products } from "@/data/products";
 
 const BASE_URL = "https://www.guiadelpiscina.com";
 
@@ -24,5 +25,23 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${BASE_URL}/piscina-desmontable-grande`, lastModified: "2025-06-09", changeFrequency: "monthly" as const, priority: 0.9 },
   ];
 
-  return [...staticPages, ...articles];
+  const storeRoot = [
+    { url: `${BASE_URL}/tienda`, lastModified: "2025-06-09", changeFrequency: "weekly" as const, priority: 0.9 },
+  ];
+
+  const storeCategories = categories.map((cat) => ({
+    url: `${BASE_URL}/tienda/${cat.slug}`,
+    lastModified: "2025-06-09",
+    changeFrequency: "weekly" as const,
+    priority: 0.8,
+  }));
+
+  const storeProducts = products.map((p) => ({
+    url: `${BASE_URL}/tienda/${p.categorySlug}/${p.slug}`,
+    lastModified: "2025-06-09",
+    changeFrequency: "monthly" as const,
+    priority: 0.7,
+  }));
+
+  return [...staticPages, ...articles, ...storeRoot, ...storeCategories, ...storeProducts];
 }

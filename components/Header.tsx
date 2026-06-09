@@ -1,6 +1,7 @@
 import Link from "next/link";
 
 const navLinks = [
+  { href: "/tienda", label: "Tienda" },
   { href: "/blog", label: "Blog" },
   { href: "/mejores-depuradoras-piscina", label: "Depuradoras" },
   { href: "/robot-limpiafondos-piscina", label: "Robots" },
