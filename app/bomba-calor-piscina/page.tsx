@@ -18,8 +18,8 @@ export const metadata: Metadata = {
 };
 
 const products = [
-  { pos: 1, name: "Bestway Flowclear — 2.200 W", asin: "B07JKXL9G3", price: "€499,99", power: "2,2 kW (calor 12 kW)", cop: "5,5", pool: "Hasta 30 m³", stars: "4,2/5", best: "Mejor precio" },
-  { pos: 2, name: "Hayward HeatPro HP50 — 5.600 W", asin: "B002P6QUTM", price: "€849,00", power: "5,6 kW (calor 14 kW)", cop: "5,5", pool: "Hasta 50 m³", stars: "4,5/5", best: "Mejor calidad-precio" },
+  { pos: 1, name: "Bestway Flowclear — 2.200 W", asin: "B0B6948Q48", price: "€499,99", power: "2,2 kW (calor 12 kW)", cop: "5,5", pool: "Hasta 30 m³", stars: "4,2/5", best: "Mejor precio" },
+  { pos: 2, name: "Hayward HeatPro HP50 — 5.600 W", asin: "B07DKXR8JS", price: "€849,00", power: "5,6 kW (calor 14 kW)", cop: "5,5", pool: "Hasta 50 m³", stars: "4,5/5", best: "Mejor calidad-precio" },
   { pos: 3, name: "Zodiac ZS500 Pro Inverter — 6.000 W", asin: "B08TH3BKGK", price: "€1.199,00", power: "6 kW (calor 16 kW)", cop: "6,2", pool: "Hasta 60 m³", stars: "4,6/5", best: "Mejor eficiencia" },
   { pos: 4, name: "Gre HPM35 — Inverter silenciosa", asin: "B07DKXR8JS", price: "€1.499,00", power: "3,5 kW (calor 14 kW)", cop: "6,8", pool: "Hasta 50 m³", stars: "4,7/5", best: "Más silenciosa" },
   { pos: 5, name: "Hayward HP21004T Pro Logic — 2.100 W", asin: "B00AFZQR9E", price: "€1.899,00", power: "21 kW (calor 105 kW)", cop: "5,0", pool: "Hasta 200 m³", stars: "4,8/5", best: "Mejor piscinas grandes" },

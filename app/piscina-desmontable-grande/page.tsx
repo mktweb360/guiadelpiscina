@@ -18,11 +18,11 @@ export const metadata: Metadata = {
 };
 
 const products = [
-  { pos: 1, name: "Intex 26176 Oval Frame — 732×366 cm", asin: "B00MJVWMKQ", price: "€349,99", dimensions: "732×366×132 cm", volume: "28.620 l", depuradora: "Incluida (7.571 l/h)", type: "Frame oval", stars: "4,4/5", best: "Mejor calidad-precio" },
-  { pos: 2, name: "Bestway Steel Pro 549×274 cm", asin: "B08NTKLM7P", price: "€299,00", dimensions: "549×274×122 cm", volume: "16.805 l", depuradora: "Incluida (5.678 l/h)", type: "Frame rectangular", stars: "4,3/5", best: "Mejor precio" },
-  { pos: 3, name: "Intex 26176 Ultra XTR Frame 732×366 cm", asin: "B07MQDKLM3", price: "€549,99", dimensions: "732×366×132 cm", volume: "28.620 l", depuradora: "Incluida (9.463 l/h)", type: "Ultra XTR Frame", stars: "4,6/5", best: "Mayor calidad" },
-  { pos: 4, name: "Intex 26352 Prism Frame 460×226 cm", asin: "B07BFKPDXT", price: "€399,00", dimensions: "460×226×107 cm", volume: "9.404 l", depuradora: "Incluida (3.028 l/h)", type: "Prism Frame", stars: "4,5/5", best: "Para jardines medianos" },
-  { pos: 5, name: "Bestway Power Steel Elite 732×366 cm", asin: "B08KJ4HKLM", price: "€699,99", dimensions: "732×366×132 cm", volume: "28.620 l", depuradora: "Incluida (9.463 l/h) + bomba calor", type: "Steel Elite", stars: "4,7/5", best: "Conjunto más completo" },
+  { pos: 1, name: "Intex 26176 Oval Frame — 732×366 cm", asin: "B07FJPDX9V", price: "€349,99", dimensions: "732×366×132 cm", volume: "28.620 l", depuradora: "Incluida (7.571 l/h)", type: "Frame oval", stars: "4,4/5", best: "Mejor calidad-precio" },
+  { pos: 2, name: "Bestway Steel Pro 549×274 cm", asin: "B07T99MMKP", price: "€299,00", dimensions: "549×274×122 cm", volume: "16.805 l", depuradora: "Incluida (5.678 l/h)", type: "Frame rectangular", stars: "4,3/5", best: "Mejor precio" },
+  { pos: 3, name: "Intex 26176 Ultra XTR Frame 732×366 cm", asin: "B01MCW9UJU", price: "€549,99", dimensions: "732×366×132 cm", volume: "28.620 l", depuradora: "Incluida (9.463 l/h)", type: "Ultra XTR Frame", stars: "4,6/5", best: "Mayor calidad" },
+  { pos: 4, name: "Intex 26352 Prism Frame 460×226 cm", asin: "B01A17XFCQ", price: "€399,00", dimensions: "460×226×107 cm", volume: "9.404 l", depuradora: "Incluida (3.028 l/h)", type: "Prism Frame", stars: "4,5/5", best: "Para jardines medianos" },
+  { pos: 5, name: "Bestway Power Steel Elite 732×366 cm", asin: "B0CFFSJ556", price: "€699,99", dimensions: "732×366×132 cm", volume: "28.620 l", depuradora: "Incluida (9.463 l/h) + bomba calor", type: "Steel Elite", stars: "4,7/5", best: "Conjunto más completo" },
 ];
 
 const faqs = [

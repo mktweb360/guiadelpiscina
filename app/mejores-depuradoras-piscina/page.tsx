@@ -18,11 +18,11 @@ export const metadata: Metadata = {
 };
 
 const products = [
-  { pos: 1, name: "Intex 28636 — Depuradora de arena", asin: "B074W7D3KJ", price: "€159,99", flow: "8.000 l/h", motor: "0,75 CV", pool: "Hasta 26.500 l", stars: "4,5/5", best: "Mejor calidad-precio" },
-  { pos: 2, name: "Bestway Flowclear 58496 — Depuradora arena", asin: "B07CQGQM3P", price: "€179,99", flow: "9.463 l/h", motor: "0,80 CV", pool: "Hasta 30.000 l", stars: "4,3/5", best: "Mejor para piscinas medianas" },
-  { pos: 3, name: "Gre AR450 — Depuradora arena profesional", asin: "B001DQKUV6", price: "€249,00", flow: "11.000 l/h", motor: "1,00 CV", pool: "Hasta 40.000 l", stars: "4,6/5", best: "Mejor rendimiento" },
-  { pos: 4, name: "Hayward S180T — Depuradora arena premium", asin: "B000BG2J3Q", price: "€329,00", flow: "14.000 l/h", motor: "1,25 CV", pool: "Hasta 55.000 l", stars: "4,7/5", best: "Mejor piscinas grandes" },
-  { pos: 5, name: "Intex 28648 — Depuradora cartucho compacta", asin: "B00AHZXZPU", price: "€89,99", flow: "3.785 l/h", motor: "0,35 CV", pool: "Hasta 15.000 l", stars: "4,1/5", best: "Mejor precio absoluto" },
+  { pos: 1, name: "Intex 28636 — Depuradora de arena", asin: "B095D6VF1Q", price: "€159,99", flow: "8.000 l/h", motor: "0,75 CV", pool: "Hasta 26.500 l", stars: "4,5/5", best: "Mejor calidad-precio" },
+  { pos: 2, name: "Bestway Flowclear 58496 — Depuradora arena", asin: "B0B6948Q48", price: "€179,99", flow: "9.463 l/h", motor: "0,80 CV", pool: "Hasta 30.000 l", stars: "4,3/5", best: "Mejor para piscinas medianas" },
+  { pos: 3, name: "Gre AR450 — Depuradora arena profesional", asin: "B07DKXR8JS", price: "€249,00", flow: "11.000 l/h", motor: "1,00 CV", pool: "Hasta 40.000 l", stars: "4,6/5", best: "Mejor rendimiento" },
+  { pos: 4, name: "Hayward S180T — Depuradora arena premium", asin: "B00G9YZ2Y0", price: "€329,00", flow: "14.000 l/h", motor: "1,25 CV", pool: "Hasta 55.000 l", stars: "4,7/5", best: "Mejor piscinas grandes" },
+  { pos: 5, name: "Intex 28648 — Depuradora cartucho compacta", asin: "B00G9YZ6FK", price: "€89,99", flow: "3.785 l/h", motor: "0,35 CV", pool: "Hasta 15.000 l", stars: "4,1/5", best: "Mejor precio absoluto" },
 ];
 
 const faqs = [

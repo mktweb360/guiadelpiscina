@@ -18,11 +18,11 @@ export const metadata: Metadata = {
 };
 
 const products = [
-  { pos: 1, name: "Dolphin Nauty — Robot compacto", asin: "B07MQDKQ9D", price: "€249,99", coverage: "Fondo", pool: "Hasta 7,5 m", cycle: "2,5 horas", stars: "4,4/5", best: "Mejor precio" },
-  { pos: 2, name: "Bestway Flowclear AquaGlide", asin: "B08F5K4L3N", price: "€329,00", coverage: "Fondo + Paredes", pool: "Hasta 12 m", cycle: "2 horas", stars: "4,3/5", best: "Mejor calidad-precio" },
-  { pos: 3, name: "Dolphin Sigma — Robot premium", asin: "B07BFKPDXC", price: "€449,99", coverage: "Fondo + Paredes + Línea de agua", pool: "Hasta 15 m", cycle: "2,5 horas", stars: "4,6/5", best: "Mejor rendimiento" },
-  { pos: 4, name: "Zodiac Vortex 3 4WD", asin: "B08KJ4H7PR", price: "€529,00", coverage: "Fondo + Paredes + Línea de agua", pool: "Hasta 12 m", cycle: "3 horas", stars: "4,5/5", best: "Mejor tracción" },
-  { pos: 5, name: "Dolphin Poolstyle 35 Plus", asin: "B07C6MX4QP", price: "€599,99", coverage: "Fondo + Paredes completas", pool: "Hasta 12 m", cycle: "2 horas", stars: "4,7/5", best: "Mejor limpieza de paredes" },
+  { pos: 1, name: "Dolphin Nauty — Robot compacto", asin: "B01N78IVWJ", price: "€249,99", coverage: "Fondo", pool: "Hasta 7,5 m", cycle: "2,5 horas", stars: "4,4/5", best: "Mejor precio" },
+  { pos: 2, name: "Bestway Flowclear AquaGlide", asin: "B072J7694S", price: "€329,00", coverage: "Fondo + Paredes", pool: "Hasta 12 m", cycle: "2 horas", stars: "4,3/5", best: "Mejor calidad-precio" },
+  { pos: 3, name: "Dolphin Sigma — Robot premium", asin: "B07Q2D2KF3", price: "€449,99", coverage: "Fondo + Paredes + Línea de agua", pool: "Hasta 15 m", cycle: "2,5 horas", stars: "4,6/5", best: "Mejor rendimiento" },
+  { pos: 4, name: "Zodiac Vortex 3 4WD", asin: "B07BGW5FDZ", price: "€529,00", coverage: "Fondo + Paredes + Línea de agua", pool: "Hasta 12 m", cycle: "3 horas", stars: "4,5/5", best: "Mejor tracción" },
+  { pos: 5, name: "Dolphin Poolstyle 35 Plus", asin: "B01FUNIL7A", price: "€599,99", coverage: "Fondo + Paredes completas", pool: "Hasta 12 m", cycle: "2 horas", stars: "4,7/5", best: "Mejor limpieza de paredes" },
 ];
 
 const faqs = [
