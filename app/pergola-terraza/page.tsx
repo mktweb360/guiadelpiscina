@@ -13,11 +13,11 @@ export const metadata: Metadata = {
 };
 
 const products = [
-  { pos: 1, name: "Outsunny Pérgola 3×4m acero", asin: "B07RKLM9NQ", price: "€149,99", material: "Acero galvanizado", size: "3×4 m", roof: "Tejado PC", stars: "4,2/5", best: "Mejor precio" },
-  { pos: 2, name: "Pergola Aluminio 4×3m con cortinas", asin: "B08JKLM7PR", price: "€299,00", material: "Aluminio", size: "4×3 m", roof: "Cortinas laterales", stars: "4,4/5", best: "Mejor diseño" },
-  { pos: 3, name: "Grasekamp Pérgola de madera 3×4m", asin: "B00AQRKLM5", price: "€399,00", material: "Madera de pino tratada", size: "3×4 m", roof: "Abierta (para toldo)", stars: "4,5/5", best: "Mejor aspecto natural" },
-  { pos: 4, name: "Outsunny Bioclimática lamas orientables", asin: "B09TKLM8RS", price: "€799,00", material: "Aluminio anodizado", size: "3×4 m", roof: "Lamas orientables", stars: "4,6/5", best: "Mejor bioclimática" },
-  { pos: 5, name: "Palram Pérgola Canopia 3×4m", asin: "B07MKLMR4T", price: "€1.199,00", material: "Aluminio + PC UV", size: "4×6 m", roof: "Policarbonato", stars: "4,7/5", best: "Mayor tamaño" },
+  { pos: 1, name: "Outsunny Pérgola 3×4m acero", asin: "B0CS5H2ZFJ", price: "€149,99", material: "Acero galvanizado", size: "3×4 m", roof: "Tejado PC", stars: "4,2/5", best: "Mejor precio" },
+  { pos: 2, name: "Pergola Aluminio 4×3m con cortinas", asin: "B0CXH152HJ", price: "€299,00", material: "Aluminio", size: "4×3 m", roof: "Cortinas laterales", stars: "4,4/5", best: "Mejor diseño" },
+  { pos: 3, name: "Grasekamp Pérgola de madera 3×4m", asin: "B00YHJS354", price: "€399,00", material: "Madera de pino tratada", size: "3×4 m", roof: "Abierta (para toldo)", stars: "4,5/5", best: "Mejor aspecto natural" },
+  { pos: 4, name: "Outsunny Bioclimática lamas orientables", asin: "B0GNDD8T48", price: "€799,00", material: "Aluminio anodizado", size: "3×4 m", roof: "Lamas orientables", stars: "4,6/5", best: "Mejor bioclimática" },
+  { pos: 5, name: "Palram Pérgola Canopia 3×4m", asin: "B007TV3R5S", price: "€1.199,00", material: "Aluminio + PC UV", size: "4×6 m", roof: "Policarbonato", stars: "4,7/5", best: "Mayor tamaño" },
 ];
 
 const faqs = [

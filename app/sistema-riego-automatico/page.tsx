@@ -13,11 +13,11 @@ export const metadata: Metadata = {
 };
 
 const products = [
-  { pos: 1, name: "Gardena Kit riego básico 75 m²", asin: "B001DQKUV7", price: "€34,99", coverage: "75 m²", zones: "1 zona", smart: "No", stars: "4,4/5", best: "Mejor precio" },
-  { pos: 2, name: "Rain Bird Kit completo goteo", asin: "B002P6QU8M", price: "€59,99", coverage: "200 m² jardín", zones: "1 zona goteo", smart: "No", stars: "4,5/5", best: "Mejor para huerto" },
-  { pos: 3, name: "Gardena smart system 9V", asin: "B007BFKPDT", price: "€89,99", coverage: "250 m²", zones: "2 zonas", smart: "Bluetooth", stars: "4,4/5", best: "Mejor calidad-precio" },
-  { pos: 4, name: "Orbit B-hyve 4 zonas WiFi", asin: "B08KJTKLM5", price: "€129,00", coverage: "Múltiple", zones: "4 zonas", smart: "WiFi + App", stars: "4,5/5", best: "Mejor inteligente" },
-  { pos: 5, name: "Rachio 3 Smart Sprinkler 8 zonas", asin: "B07C6MXKLM", price: "€199,00", coverage: "Múltiple", zones: "8 zonas", smart: "WiFi + IA", stars: "4,7/5", best: "Más avanzado" },
+  { pos: 1, name: "Gardena Kit riego básico 75 m²", asin: "B076WVGCP2", price: "€34,99", coverage: "75 m²", zones: "1 zona", smart: "No", stars: "4,4/5", best: "Mejor precio" },
+  { pos: 2, name: "Rain Bird Kit completo goteo", asin: "B09J92VPH2", price: "€59,99", coverage: "200 m² jardín", zones: "1 zona goteo", smart: "No", stars: "4,5/5", best: "Mejor para huerto" },
+  { pos: 3, name: "Gardena smart system 9V", asin: "B076WVGCP2", price: "€89,99", coverage: "250 m²", zones: "2 zonas", smart: "Bluetooth", stars: "4,4/5", best: "Mejor calidad-precio" },
+  { pos: 4, name: "Orbit B-hyve 4 zonas WiFi", asin: "B076WVGCP2", price: "€129,00", coverage: "Múltiple", zones: "4 zonas", smart: "WiFi + App", stars: "4,5/5", best: "Mejor inteligente" },
+  { pos: 5, name: "Rachio 3 Smart Sprinkler 8 zonas", asin: "B076WVGCP2", price: "€199,00", coverage: "Múltiple", zones: "8 zonas", smart: "WiFi + IA", stars: "4,7/5", best: "Más avanzado" },
 ];
 
 const faqs = [

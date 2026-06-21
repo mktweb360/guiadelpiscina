@@ -13,11 +13,11 @@ export const metadata: Metadata = {
 };
 
 const products = [
-  { pos: 1, name: "Intex Conjunto 3 piezas rattan sintético", asin: "B07YXBFJKL", price: "€129,99", material: "Rattan sintético", pieces: "2 sillones + mesa", weatherproof: "Sí", stars: "4,3/5", best: "Mejor precio" },
-  { pos: 2, name: "Outsunny Conjunto 4 piezas aluminio", asin: "B08PQJKL3M", price: "€279,00", material: "Aluminio + Textileno", pieces: "2 sof + mesa + banco", weatherproof: "Sí", stars: "4,4/5", best: "Mejor calidad-precio" },
-  { pos: 3, name: "Tectake Conjunto 8 piezas polyrattan", asin: "B07TKLM9NP", price: "€399,00", material: "Polyrattan", pieces: "6 sillas + mesa + 2 pufs", weatherproof: "Sí", stars: "4,5/5", best: "Mejor para 6+ personas" },
-  { pos: 4, name: "Hartman Sophie Studio Conjunto", asin: "B09RTKLM7Q", price: "€649,00", material: "Aluminio premium", pieces: "4 sillas + mesa grande", weatherproof: "Sí", stars: "4,7/5", best: "Mejor calidad" },
-  { pos: 5, name: "Keter Montreal Conjunto resina", asin: "B00MVLM4KZ", price: "€199,00", material: "Resina inyectada", pieces: "4 sillas + mesa", weatherproof: "Total", stars: "4,4/5", best: "Más resistente a lluvia" },
+  { pos: 1, name: "Outsunny Conjunto Muebles Ratán 4 Piezas Sofá 2 Plazas 2 Sillones Mesa", asin: "B0CR6BVF58", price: "€129,99", material: "Rattan sintético", pieces: "2 sillones + mesa", weatherproof: "Sí", stars: "4,3/5", best: "Mejor precio" },
+  { pos: 2, name: "Outsunny Conjunto 4 piezas aluminio", asin: "B08548WV3T", price: "€279,00", material: "Aluminio + Textileno", pieces: "2 sof + mesa + banco", weatherproof: "Sí", stars: "4,4/5", best: "Mejor calidad-precio" },
+  { pos: 3, name: "Tectake Conjunto 8 piezas polyrattan", asin: "B09TW67DSC", price: "€399,00", material: "Polyrattan", pieces: "6 sillas + mesa + 2 pufs", weatherproof: "Sí", stars: "4,5/5", best: "Mejor para 6+ personas" },
+  { pos: 4, name: "Hartman Sophie Studio Conjunto", asin: "B06X9FJVFD", price: "€649,00", material: "Aluminio premium", pieces: "4 sillas + mesa grande", weatherproof: "Sí", stars: "4,7/5", best: "Mejor calidad" },
+  { pos: 5, name: "Keter Montreal Conjunto resina", asin: "B0F3XCC24F", price: "€199,00", material: "Resina inyectada", pieces: "4 sillas + mesa", weatherproof: "Total", stars: "4,4/5", best: "Más resistente a lluvia" },
 ];
 
 const faqs = [
