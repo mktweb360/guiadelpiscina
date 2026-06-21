@@ -13,11 +13,11 @@ export const metadata: Metadata = {
 };
 
 const products = [
-  { pos: 1, name: "Gardena Kit riego básico 75 m²", asin: "B076WVGCP2", price: "€34,99", coverage: "75 m²", zones: "1 zona", smart: "No", stars: "4,4/5", best: "Mejor precio" },
-  { pos: 2, name: "Rain Bird Kit completo goteo", asin: "B09J92VPH2", price: "€59,99", coverage: "200 m² jardín", zones: "1 zona goteo", smart: "No", stars: "4,5/5", best: "Mejor para huerto" },
-  { pos: 3, name: "Gardena smart system 9V", asin: "B076WVGCP2", price: "€89,99", coverage: "250 m²", zones: "2 zonas", smart: "Bluetooth", stars: "4,4/5", best: "Mejor calidad-precio" },
-  { pos: 4, name: "Orbit B-hyve 4 zonas WiFi", asin: "B076WVGCP2", price: "€129,00", coverage: "Múltiple", zones: "4 zonas", smart: "WiFi + App", stars: "4,5/5", best: "Mejor inteligente" },
-  { pos: 5, name: "Rachio 3 Smart Sprinkler 8 zonas", asin: "B076WVGCP2", price: "€199,00", coverage: "Múltiple", zones: "8 zonas", smart: "WiFi + IA", stars: "4,7/5", best: "Más avanzado" },
+  { pos: 1, name: "Gardena Kit Micro-Drip Inicio Parterres 40m² (13015-20)", asin: "B018E0LAQA", price: "€34,99", coverage: "75 m²", zones: "1 zona", smart: "No", stars: "4,4/5", best: "Mejor precio" },
+  { pos: 2, name: "Gardena Set Macetas M Automático 10 macetas Programador (13002-20)", asin: "B018E0L63C", price: "€59,99", coverage: "200 m² jardín", zones: "1 zona goteo", smart: "No", stars: "4,5/5", best: "Mejor para huerto" },
+  { pos: 3, name: "Gardena Micro-Drip Set Bancal 35 plantas (13455-20)", asin: "B0BNLMFTGL", price: "€89,99", coverage: "250 m²", zones: "2 zonas", smart: "Bluetooth", stars: "4,4/5", best: "Mejor calidad-precio" },
+  { pos: 4, name: "Gardena Riego en Vacaciones 36 plantas sin grifo (13366-20)", asin: "B09J92VPH2", price: "€129,00", coverage: "Múltiple", zones: "4 zonas", smart: "WiFi + App", stars: "4,5/5", best: "Mejor inteligente" },
+  { pos: 5, name: "Gardena Sistema Micro-Drip Goteo Diseño Set completo", asin: "B076WVGCP2", price: "€199,00", coverage: "Múltiple", zones: "8 zonas", smart: "WiFi + IA", stars: "4,7/5", best: "Más avanzado" },
 ];
 
 const faqs = [

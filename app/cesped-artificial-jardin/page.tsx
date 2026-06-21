@@ -13,11 +13,11 @@ export const metadata: Metadata = {
 };
 
 const products = [
-  { pos: 1, name: "Césped artificial básico 20mm", asin: "B09MZDSJXQ", price: "€4,99/m²", height: "20 mm", density: "16.000 fibras/m²", uv: "Básica", feel: "Rígido", stars: "4,0/5", best: "Más económico" },
-  { pos: 2, name: "Césped artificial premium 30mm natural", asin: "B09MZDSJXQ", price: "€7,99/m²", height: "30 mm", density: "25.000 fibras/m²", uv: "Media", feel: "Suave", stars: "4,4/5", best: "Mejor calidad-precio" },
-  { pos: 3, name: "Césped artificial 40mm bicolor", asin: "B09MZDSJXQ", price: "€9,99/m²", height: "40 mm", density: "30.000 fibras/m²", uv: "Alta (10 años)", feel: "Muy suave", stars: "4,5/5", best: "Más natural" },
-  { pos: 4, name: "Césped artificial 35mm para piscina", asin: "B09MZDSJXQ", price: "€11,99/m²", height: "35 mm", density: "28.000 fibras/m²", uv: "Alta + drenaje", feel: "Suave antideslizante", stars: "4,6/5", best: "Mejor para piscinas" },
-  { pos: 5, name: "Césped artificial premium XL 45mm", asin: "B09MZDSJXQ", price: "€14,99/m²", height: "45 mm", density: "38.000 fibras/m²", uv: "Máxima (15 años)", feel: "Lujo", stars: "4,7/5", best: "Máxima calidad" },
+  { pos: 1, name: "LUCATEX Césped Artificial Miami 7mm 2x5m Exterior Económico", asin: "B08BNFLYYD", price: "€4,99/m²", height: "20 mm", density: "16.000 fibras/m²", uv: "Básica", feel: "Rígido", stars: "4,0/5", best: "Más económico" },
+  { pos: 2, name: "Jardin202 Césped Artificial Terraza Plus 22mm Rollo 2x5m", asin: "B07Q45NHKD", price: "€7,99/m²", height: "30 mm", density: "25.000 fibras/m²", uv: "Media", feel: "Suave", stars: "4,4/5", best: "Mejor calidad-precio" },
+  { pos: 3, name: "Jardin202 Césped Artificial Premium 40mm Rollo 4x2m Alta Densidad", asin: "B07N1166PD", price: "€9,99/m²", height: "40 mm", density: "30.000 fibras/m²", uv: "Alta (10 años)", feel: "Muy suave", stars: "4,5/5", best: "Más natural" },
+  { pos: 4, name: "Jardin202 Césped Artificial Palermo 35mm Rollo 2x4m Interior Exterior", asin: "B084BQ3YFH", price: "€11,99/m²", height: "35 mm", density: "28.000 fibras/m²", uv: "Alta + drenaje", feel: "Suave antideslizante", stars: "4,6/5", best: "Mejor para piscinas" },
+  { pos: 5, name: "Floordirekt Césped Artificial 40mm Rollo 2x3m Lujo Piscinas", asin: "B07P6L92NP", price: "€14,99/m²", height: "45 mm", density: "38.000 fibras/m²", uv: "Máxima (15 años)", feel: "Lujo", stars: "4,7/5", best: "Máxima calidad" },
 ];
 
 const faqs = [
