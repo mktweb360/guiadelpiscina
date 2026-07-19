@@ -30,6 +30,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${BASE_URL}/mejores-tumbonas-jardin`, lastModified: "2025-07-15", changeFrequency: "monthly" as const, priority: 0.8 },
     { url: `${BASE_URL}/mejor-manguera-riego-jardin`, lastModified: "2025-07-15", changeFrequency: "monthly" as const, priority: 0.8 },
     { url: `${BASE_URL}/escalera-piscina-desmontable`, lastModified: "2025-07-15", changeFrequency: "monthly" as const, priority: 0.8 },
+    { url: `${BASE_URL}/cubierta-piscina-desmontable`, lastModified: "2025-07-15", changeFrequency: "monthly" as const, priority: 0.8 },
+    { url: `${BASE_URL}/piscina-desmontable-grande-adultos`, lastModified: "2025-07-15", changeFrequency: "monthly" as const, priority: 0.8 },
+    { url: `${BASE_URL}/mejores-sombrillas-jardin`, lastModified: "2025-07-15", changeFrequency: "monthly" as const, priority: 0.8 },
   ];
 
   const storeRoot = [
