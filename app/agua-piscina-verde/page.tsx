@@ -21,16 +21,14 @@ export const metadata: Metadata = {
 
 const products = [
   {
-    name: "Cloro de choque (pastillas 5 acciones)",
-    // TODO: verificar ASIN — buscar "pastillas cloro piscina 5 acciones" más vendido en amazon.es
-    asin: "ASIN_CHOQUE_CLORO",
+    name: "Tamar Cloro 5 Acciones — Pastillas multifunción 5kg",
+    asin: "B0797MNJMY",
     use: "Elimina algas y bacterias de golpe",
     when: "Al inicio del tratamiento de choque",
   },
   {
-    name: "Antialgas piscina",
-    // TODO: verificar ASIN — buscar "antialgas piscina" más vendido en amazon.es
-    asin: "ASIN_ANTIALGAS",
+    name: "Algicida Extra Sunclor 5L — Antialgas piscina",
+    asin: "B0BYT9PMX4",
     use: "Remata las algas y previene su reaparición",
     when: "Tras el cloro de choque",
   },

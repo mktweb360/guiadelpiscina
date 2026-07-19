@@ -19,16 +19,12 @@ export const metadata: Metadata = {
   },
 };
 
-// Productos: ASINs pendientes de verificar en amazon.es
+// Productos enlazados en Amazon.es
 const products = {
-  // TODO: verificar ASIN — buscar "tiras reactivas piscina 7 en 1" más vendido (EASYTEST / RUNBO)
-  tiras: "ASIN_TIRAS_PH",
-  // TODO: verificar ASIN — buscar "medidor ph piscina digital" más vendido
-  medidor: "ASIN_MEDIDOR_DIGITAL",
-  // TODO: verificar ASIN — buscar "ph menos piscina 5L NortemBio o similar"
-  phMinus: "ASIN_PH_MINUS",
-  // TODO: verificar ASIN — buscar "ph mas piscina granulado"
-  phPlus: "ASIN_PH_PLUS",
+  tiras: "B08GL2QL9S",
+  medidor: "B0DCNWPPQK",
+  phMinus: "B07C2XJLMW",
+  phPlus: "B074FV73LX",
 };
 
 const phTable = [
@@ -178,7 +174,7 @@ export default function PhPiscinaPage() {
 
         <div className="not-prose my-4">
           <a href={amazonLink(products.tiras)} target="_blank" rel="nofollow noopener noreferrer sponsored" className="btn-primary">
-            Ver tiras reactivas 7 en 1 en Amazon →
+            Ver EASYTEST 150 Tiras Reactivas 7 en 1 en Amazon →
           </a>
         </div>
 
@@ -191,7 +187,7 @@ export default function PhPiscinaPage() {
 
         <div className="not-prose my-4">
           <a href={amazonLink(products.medidor)} target="_blank" rel="nofollow noopener noreferrer sponsored" className="btn-primary">
-            Ver medidor de pH digital en Amazon →
+            Ver Flintronic Medidor pH Digital en Amazon →
           </a>
         </div>
 
@@ -210,7 +206,7 @@ export default function PhPiscinaPage() {
 
         <div className="not-prose my-4">
           <a href={amazonLink(products.phMinus)} target="_blank" rel="nofollow noopener noreferrer sponsored" className="btn-primary">
-            Ver pH minus en Amazon →
+            Ver NortemBio Pool pH- Minus 5L en Amazon →
           </a>
         </div>
 
@@ -227,7 +223,7 @@ export default function PhPiscinaPage() {
 
         <div className="not-prose my-4">
           <a href={amazonLink(products.phPlus)} target="_blank" rel="nofollow noopener noreferrer sponsored" className="btn-primary">
-            Ver pH plus en Amazon →
+            Ver NortemBio Pool pH+ Plus 5kg en Amazon →
           </a>
         </div>
 
