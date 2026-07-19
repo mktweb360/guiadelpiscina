@@ -26,6 +26,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${BASE_URL}/mantenimiento-piscina-desmontable`, lastModified: "2025-07-01", changeFrequency: "monthly" as const, priority: 0.8 },
     { url: `${BASE_URL}/agua-piscina-verde`, lastModified: "2025-07-05", changeFrequency: "monthly" as const, priority: 0.8 },
     { url: `${BASE_URL}/ph-piscina`, lastModified: "2025-07-10", changeFrequency: "monthly" as const, priority: 0.8 },
+    { url: `${BASE_URL}/mejor-clorador-salino-piscina`, lastModified: "2025-07-15", changeFrequency: "monthly" as const, priority: 0.8 },
+    { url: `${BASE_URL}/mejores-tumbonas-jardin`, lastModified: "2025-07-15", changeFrequency: "monthly" as const, priority: 0.8 },
+    { url: `${BASE_URL}/mejor-manguera-riego-jardin`, lastModified: "2025-07-15", changeFrequency: "monthly" as const, priority: 0.8 },
+    { url: `${BASE_URL}/escalera-piscina-desmontable`, lastModified: "2025-07-15", changeFrequency: "monthly" as const, priority: 0.8 },
   ];
 
   const storeRoot = [
