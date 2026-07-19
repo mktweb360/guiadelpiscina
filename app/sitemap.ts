@@ -23,6 +23,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${BASE_URL}/sistema-riego-automatico`, lastModified: "2025-06-01", changeFrequency: "monthly" as const, priority: 0.8 },
     { url: `${BASE_URL}/cesped-artificial-jardin`, lastModified: "2025-06-01", changeFrequency: "monthly" as const, priority: 0.8 },
     { url: `${BASE_URL}/piscina-desmontable-grande`, lastModified: "2025-06-09", changeFrequency: "monthly" as const, priority: 0.9 },
+    { url: `${BASE_URL}/mantenimiento-piscina-desmontable`, lastModified: "2025-07-01", changeFrequency: "monthly" as const, priority: 0.8 },
+    { url: `${BASE_URL}/agua-piscina-verde`, lastModified: "2025-07-05", changeFrequency: "monthly" as const, priority: 0.8 },
+    { url: `${BASE_URL}/ph-piscina`, lastModified: "2025-07-10", changeFrequency: "monthly" as const, priority: 0.8 },
   ];
 
   const storeRoot = [
