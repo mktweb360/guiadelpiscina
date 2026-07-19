@@ -19,10 +19,10 @@ export const metadata: Metadata = {
 
 const products = [
   { pos: 1, name: "Dolphin Nauty — Robot compacto", asin: "B01N78IVWJ", price: "€249,99", coverage: "Fondo", pool: "Hasta 7,5 m", cycle: "2,5 horas", stars: "4,4/5", best: "Mejor precio" },
-  { pos: 2, name: "Bestway Flowclear AquaGlide", asin: "B072J7694S", price: "€329,00", coverage: "Fondo + Paredes", pool: "Hasta 12 m", cycle: "2 horas", stars: "4,3/5", best: "Mejor calidad-precio" },
-  { pos: 3, name: "Dolphin Sigma — Robot premium", asin: "B07Q2D2KF3", price: "€449,99", coverage: "Fondo + Paredes + Línea de agua", pool: "Hasta 15 m", cycle: "2,5 horas", stars: "4,6/5", best: "Mejor rendimiento" },
-  { pos: 4, name: "Zodiac Vortex 3 4WD", asin: "B07BGW5FDZ", price: "€529,00", coverage: "Fondo + Paredes + Línea de agua", pool: "Hasta 12 m", cycle: "3 horas", stars: "4,5/5", best: "Mejor tracción" },
-  { pos: 5, name: "Dolphin Poolstyle 35 Plus", asin: "B01FUNIL7A", price: "€599,99", coverage: "Fondo + Paredes completas", pool: "Hasta 12 m", cycle: "2 horas", stars: "4,7/5", best: "Mejor limpieza de paredes" },
+  { pos: 2, name: "Bestway Flowclear AquaGlide (batería litio)", asin: "B08J7TMT3K", price: "€329,00", coverage: "Fondo + Paredes", pool: "Hasta 12 m", cycle: "2 horas", stars: "4,3/5", best: "Mejor calidad-precio" },
+  { pos: 3, name: "Dolphin Carrera 35 — Robot premium", asin: "B07Q2D2KF3", price: "€449,99", coverage: "Fondo + Paredes + Línea de agua", pool: "Hasta 15 m", cycle: "2,5 horas", stars: "4,6/5", best: "Mejor rendimiento" },
+  { pos: 4, name: "Dolphin Formula 30 — Piscinas enterradas 12m", asin: "B07BGW5FDZ", price: "€529,00", coverage: "Fondo + Paredes + Línea de agua", pool: "Hasta 12 m", cycle: "2 horas", stars: "4,5/5", best: "Piscinas enterradas" },
+  { pos: 5, name: "Dolphin Poolstyle 35 Plus", asin: "B07SP8GC4R", price: "€599,99", coverage: "Fondo + Paredes completas", pool: "Hasta 12 m", cycle: "2 horas", stars: "4,7/5", best: "Mejor limpieza de paredes" },
 ];
 
 const faqs = [
@@ -124,7 +124,7 @@ export default function RobotLimpiafondosPage() {
                   <td className="px-3 py-3 text-gray-600">{p.cycle}</td>
                   <td className="px-3 py-3 text-yellow-500 font-semibold">⭐ {p.stars}</td>
                   <td className="px-3 py-3">
-                    <a href={amazonLink(p.asin)} target="_blank" rel="noopener noreferrer sponsored"
+                    <a href={amazonLink(p.asin)} target="_blank" rel="nofollow noopener noreferrer sponsored"
                       className="inline-block bg-orange-500 text-white text-xs font-bold px-3 py-1.5 rounded-lg hover:bg-orange-600 transition-colors whitespace-nowrap">
                       Ver precio →
                     </a>
@@ -149,31 +149,31 @@ export default function RobotLimpiafondosPage() {
             <li><strong>Contras:</strong> No sube paredes, cable de 12 metros (limita en piscinas largas)</li>
           </ul>
           <div className="not-prose my-4">
-            <a href={amazonLink("B07MQDKQ9D")} target="_blank" rel="noopener noreferrer sponsored" className="btn-primary">
+            <a href={amazonLink("B01N78IVWJ")} target="_blank" rel="nofollow noopener noreferrer sponsored" className="btn-primary">
               Ver Dolphin Nauty en Amazon →
             </a>
           </div>
 
-          <h3>2. Bestway Flowclear AquaGlide — Mejor calidad-precio (★★★★)</h3>
+          <h3>2. Bestway Flowclear AquaGlide con batería de litio — Mejor calidad-precio (★★★★)</h3>
           <p>
-            El <strong>Bestway AquaGlide</strong> da el salto a la limpieza de paredes a un precio muy competitivo. Su sistema de navegación por giroscopio cubre la piscina de forma eficiente y los filtros son fáciles de limpiar.
+            El <strong>Bestway Flowclear AquaGlide</strong> es un robot inalámbrico con batería de litio que da el salto a la limpieza de paredes a un precio muy competitivo. Sin cables que gestionar, su sistema de navegación por giroscopio cubre la piscina de forma eficiente y los filtros son fáciles de limpiar.
           </p>
           <ul>
-            <li><strong>Pros:</strong> Limpia fondo y paredes, buen precio, fácil mantenimiento</li>
+            <li><strong>Pros:</strong> Sin cables (batería de litio), limpia fondo y paredes, fácil mantenimiento</li>
             <li><strong>Contras:</strong> No alcanza la línea de agua, menos potente en paredes muy inclinadas</li>
           </ul>
 
-          <h3>3. Dolphin Sigma — El más completo (★★★★½)</h3>
+          <h3>3. Dolphin Carrera 35 — El más completo (★★★★½)</h3>
           <p>
-            El <strong>Dolphin Sigma</strong> es el preferido de los usuarios con piscinas medianas-grandes. Limpia fondo, paredes y línea de agua con su cepillo de cobertura total, y el carrito de transporte incluido facilita mucho el almacenamiento.
+            El <strong>Dolphin Carrera 35</strong> es el preferido de los usuarios con piscinas medianas-grandes. Limpia fondo, paredes y línea de agua con su cepillo de cobertura total, y el carrito de transporte incluido facilita mucho el almacenamiento.
           </p>
           <ul>
             <li><strong>Pros:</strong> Cobertura total, excelente filtración, carrito incluido, app Wi-Fi</li>
             <li><strong>Contras:</strong> Precio elevado, el cable puede enredarse en piscinas con muchas esquinas</li>
           </ul>
           <div className="not-prose my-4">
-            <a href={amazonLink("B07BFKPDXC")} target="_blank" rel="noopener noreferrer sponsored" className="btn-primary">
-              Ver Dolphin Sigma en Amazon →
+            <a href={amazonLink("B07Q2D2KF3")} target="_blank" rel="nofollow noopener noreferrer sponsored" className="btn-primary">
+              Ver Dolphin Carrera 35 en Amazon →
             </a>
           </div>
 

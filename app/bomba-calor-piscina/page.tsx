@@ -18,11 +18,11 @@ export const metadata: Metadata = {
 };
 
 const products = [
-  { pos: 1, name: "Bestway Flowclear — 2.200 W", asin: "B0B6948Q48", price: "€499,99", power: "2,2 kW (calor 12 kW)", cop: "5,5", pool: "Hasta 30 m³", stars: "4,2/5", best: "Mejor precio" },
-  { pos: 2, name: "Hayward HeatPro HP50 — 5.600 W", asin: "B07DKXR8JS", price: "€849,00", power: "5,6 kW (calor 14 kW)", cop: "5,5", pool: "Hasta 50 m³", stars: "4,5/5", best: "Mejor calidad-precio" },
-  { pos: 3, name: "Zodiac ZS500 Pro Inverter — 6.000 W", asin: "B08TH3BKGK", price: "€1.199,00", power: "6 kW (calor 16 kW)", cop: "6,2", pool: "Hasta 60 m³", stars: "4,6/5", best: "Mejor eficiencia" },
-  { pos: 4, name: "Gre HPM35 — Inverter silenciosa", asin: "B07DKXR8JS", price: "€1.499,00", power: "3,5 kW (calor 14 kW)", cop: "6,8", pool: "Hasta 50 m³", stars: "4,7/5", best: "Más silenciosa" },
-  { pos: 5, name: "Hayward HP21004T Pro Logic — 2.100 W", asin: "B00AFZQR9E", price: "€1.899,00", power: "21 kW (calor 105 kW)", cop: "5,0", pool: "Hasta 200 m³", stars: "4,8/5", best: "Mejor piscinas grandes" },
+  { pos: 1, name: "Gre HPM20 — Mini Bomba de Calor hasta 20 m³", asin: "B07L491GK5", price: "€499,00", power: "2,5 kW", type: "On/Off", pool: "Hasta 20 m³", stars: "4,2/5", best: "Piscinas pequeñas" },
+  { pos: 2, name: "Gre HPM30 — Mini Bomba de Calor hasta 30 m³", asin: "B07L489LBM", price: "€599,00", power: "4,2 kW", type: "On/Off (COP 4)", pool: "Hasta 30 m³", stars: "4,3/5", best: "Mejor precio" },
+  { pos: 3, name: "Gre HPGIC30 — Full Inverter hasta 30 m³", asin: "B0CPR89ZNR", price: "€999,00", power: "—", type: "Full Inverter", pool: "Hasta 30 m³", stars: "4,5/5", best: "Mejor conectada (WiFi)" },
+  { pos: 4, name: "Gre HPGI50 — Inverter hasta 50 m³", asin: "B08V567FFN", price: "€1.349,00", power: "—", type: "Inverter", pool: "Hasta 50 m³", stars: "4,5/5", best: "Piscinas medianas" },
+  { pos: 5, name: "Poolex Q-Line 7 Full Inverter 7 kW", asin: "B08WH533W5", price: "€1.249,00", power: "7 kW", type: "Full Inverter", pool: "30-45 m³", stars: "4,6/5", best: "Mejor eficiencia" },
 ];
 
 const faqs = [
@@ -96,7 +96,7 @@ export default function BombaCalorPage() {
 
         <div className="prose">
           <p>
-            Las <strong>bombas de calor para piscina</strong> son la forma más eficiente de calentar el agua. Aprovechan la energía del aire exterior para producir hasta 6 veces más calor que el que consumen en electricidad. En esta guía analizamos las mejores opciones del mercado español para 2025, con precios entre 500 y 1.900€.
+            Las <strong>bombas de calor para piscina</strong> son la forma más eficiente de calentar el agua. Aprovechan la energía del aire exterior para producir hasta 6 veces más calor que el que consumen en electricidad. En esta guía analizamos las mejores opciones del mercado español para 2025, con precios entre 500 y 1.500€.
           </p>
           <p>
             Una buena bomba de calor puede alargar la temporada de baño de junio-septiembre a mayo-octubre o incluso todo el año en climas templados del sur de España. La inversión inicial se recupera en 2-3 temporadas gracias al ahorro en la factura eléctrica.
@@ -113,7 +113,7 @@ export default function BombaCalorPage() {
                 <th className="px-3 py-3 text-left">Modelo</th>
                 <th className="px-3 py-3 text-left">Precio</th>
                 <th className="px-3 py-3 text-left">Potencia</th>
-                <th className="px-3 py-3 text-left">COP</th>
+                <th className="px-3 py-3 text-left">Tipo</th>
                 <th className="px-3 py-3 text-left">Piscina</th>
                 <th className="px-3 py-3 text-left">Valoración</th>
                 <th className="px-3 py-3 text-left">Comprar</th>
@@ -126,11 +126,11 @@ export default function BombaCalorPage() {
                   <td className="px-3 py-3 font-medium text-gray-900">{p.name}</td>
                   <td className="px-3 py-3 font-bold text-orange-600">{p.price}</td>
                   <td className="px-3 py-3 text-gray-600 text-xs">{p.power}</td>
-                  <td className="px-3 py-3 text-gray-600">{p.cop}</td>
+                  <td className="px-3 py-3 text-gray-600 text-xs">{p.type}</td>
                   <td className="px-3 py-3 text-gray-600">{p.pool}</td>
                   <td className="px-3 py-3 text-yellow-500 font-semibold">⭐ {p.stars}</td>
                   <td className="px-3 py-3">
-                    <a href={amazonLink(p.asin)} target="_blank" rel="noopener noreferrer sponsored"
+                    <a href={amazonLink(p.asin)} target="_blank" rel="nofollow noopener noreferrer sponsored"
                       className="inline-block bg-orange-500 text-white text-xs font-bold px-3 py-1.5 rounded-lg hover:bg-orange-600 transition-colors whitespace-nowrap">
                       Ver precio →
                     </a>
@@ -146,41 +146,41 @@ export default function BombaCalorPage() {
         <div className="prose">
           <h2>Análisis detallado</h2>
 
-          <h3>1. Bestway Flowclear 2.200 W — La más asequible (★★★★)</h3>
+          <h3>1. Gre HPM30 — Mejor precio para piscinas hasta 30 m³ (★★★★)</h3>
           <p>
-            La <strong>Bestway Flowclear</strong> es la opción de entrada más popular en España. Con 2.200 W de consumo y una potencia térmica de 12 kW (COP 5,5), es ideal para piscinas de hasta 30 m³. Su instalación es sencilla y se conecta directamente al sistema de filtración existente.
+            La <strong>Gre HPM30</strong> es la mini bomba de calor más equilibrada para piscinas desmontables de hasta 30 m³. Funciona en modo <strong>Plug &amp; Play</strong>, sin necesidad de bypass, con conexiones de 32/38 mm compatibles con la mayoría de depuradoras. Con 4,2 kW de potencia y un COP en torno a 4, calienta el agua de forma económica y con una instalación al alcance de cualquiera.
           </p>
           <ul>
-            <li><strong>Pros:</strong> Precio accesible, fácil instalación, buen COP para su precio</li>
-            <li><strong>Contras:</strong> No apta para grandes piscinas, sin función inverter</li>
+            <li><strong>Pros:</strong> Plug &amp; Play sin bypass, conexiones 32/38 mm, marca española (Gre / Fluidra)</li>
+            <li><strong>Contras:</strong> Tecnología On/Off (no inverter), para piscinas de hasta 30 m³</li>
           </ul>
           <div className="not-prose my-4">
-            <a href={amazonLink("B07JKXL9G3")} target="_blank" rel="noopener noreferrer sponsored" className="btn-primary">
-              Ver Bestway Flowclear en Amazon →
+            <a href={amazonLink("B07L489LBM")} target="_blank" rel="nofollow noopener noreferrer sponsored" className="btn-primary">
+              Ver Gre HPM30 en Amazon →
             </a>
           </div>
 
-          <h3>2. Hayward HeatPro HP50 — Mejor calidad-precio (★★★★½)</h3>
+          <h3>2. Gre HPGIC30 — Full Inverter con WiFi (★★★★½)</h3>
           <p>
-            La <strong>Hayward HeatPro</strong> es la más vendida en el segmento profesional residencial. Su COP de 5,5 y la potencia de 14 kW la hacen perfecta para piscinas de 40-60 m³. Hayward es sinónimo de calidad y durabilidad en el sector de las piscinas.
+            La <strong>Gre HPGIC30</strong> da el salto a la tecnología <strong>Full Inverter</strong>: el compresor regula su velocidad según la demanda, reduciendo el consumo y el ruido. Se controla desde la <strong>app Fluidra</strong> por WiFi y ofrece tres modos de funcionamiento (Boost, Smart y EcoSilence). Incluye cubierta de invierno y está pensada para piscinas de hasta 30 m³.
           </p>
           <ul>
-            <li><strong>Pros:</strong> Marca de referencia, buena relación potencia-precio, durabilidad contrastada</li>
-            <li><strong>Contras:</strong> Precio medio-alto, sin control remoto incluido</li>
+            <li><strong>Pros:</strong> Full Inverter, control WiFi con app Fluidra, 3 modos (Boost/Smart/EcoSilence), cubierta de invierno incluida</li>
+            <li><strong>Contras:</strong> Precio superior a los modelos On/Off, requiere red WiFi cercana</li>
           </ul>
           <div className="not-prose my-4">
-            <a href={amazonLink("B002P6QUTM")} target="_blank" rel="noopener noreferrer sponsored" className="btn-primary">
-              Ver Hayward HeatPro en Amazon →
+            <a href={amazonLink("B0CPR89ZNR")} target="_blank" rel="nofollow noopener noreferrer sponsored" className="btn-primary">
+              Ver Gre HPGIC30 en Amazon →
             </a>
           </div>
 
-          <h3>3. Zodiac ZS500 Pro Inverter — La más eficiente (★★★★½)</h3>
+          <h3>3. Poolex Q-Line 7 Full Inverter — La más eficiente (★★★★½)</h3>
           <p>
-            La <strong>Zodiac ZS500</strong> introduce la tecnología <strong>inverter</strong> en el rango doméstico: el compresor regula su velocidad según la demanda, lo que reduce el consumo hasta un 30% adicional. Con COP 6,2, es el modelo más eficiente del comparativo.
+            La <strong>Poolex Q-Line 7</strong> es una bomba de calor <strong>Full Inverter</strong> de 7 kW para piscinas de 30 a 45 m³. Monta compresor <strong>Toshiba</strong> e intercambiador de titanio, con ventilación vertical, WiFi integrado y LEDs de estado. Es la opción más eficiente y silenciosa del comparativo, con garantía de 3 años en la bomba y 5 años en el compresor.
           </p>
           <ul>
-            <li><strong>Pros:</strong> Tecnología inverter, máxima eficiencia, silenciosa en funcionamiento parcial</li>
-            <li><strong>Contras:</strong> Precio elevado, requiere instalación por técnico certificado</li>
+            <li><strong>Pros:</strong> Full Inverter, compresor Toshiba, intercambiador de titanio, WiFi integrado, garantía 5 años compresor</li>
+            <li><strong>Contras:</strong> Precio elevado, instalación recomendada por técnico</li>
           </ul>
 
           <h2>Guía de compra: cómo elegir bomba de calor para piscina</h2>

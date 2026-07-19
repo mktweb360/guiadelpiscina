@@ -20,8 +20,8 @@ export const metadata: Metadata = {
 const products = [
   { pos: 1, name: "Intex 28636 — Depuradora de arena", asin: "B095D6VF1Q", price: "€159,99", flow: "8.000 l/h", motor: "0,75 CV", pool: "Hasta 26.500 l", stars: "4,5/5", best: "Mejor calidad-precio" },
   { pos: 2, name: "Bestway Flowclear 58496 — Depuradora arena", asin: "B0B6948Q48", price: "€179,99", flow: "9.463 l/h", motor: "0,80 CV", pool: "Hasta 30.000 l", stars: "4,3/5", best: "Mejor para piscinas medianas" },
-  { pos: 3, name: "Gre AR450 — Depuradora arena profesional", asin: "B07DKXR8JS", price: "€249,00", flow: "11.000 l/h", motor: "1,00 CV", pool: "Hasta 40.000 l", stars: "4,6/5", best: "Mejor rendimiento" },
-  { pos: 4, name: "Hayward S180T — Depuradora arena premium", asin: "B00G9YZ2Y0", price: "€329,00", flow: "14.000 l/h", motor: "1,25 CV", pool: "Hasta 55.000 l", stars: "4,7/5", best: "Mejor piscinas grandes" },
+  { pos: 3, name: "Gre AR700 — Depuradora de arena 4.000 l/h", asin: "B00DVKH7UM", price: "€199,00", flow: "4.000 l/h", motor: "1/4 CV", pool: "Hasta 24.000 l", stars: "4,5/5", best: "Fabricada en España" },
+  { pos: 4, name: "Intex 55225 — Depuradora de Arena Krystal Clear 5.700 l/h", asin: "B005DUW65O", price: "€189,00", flow: "5.700 l/h", motor: "1/2 CV", pool: "Hasta 30.000 l", stars: "4,4/5", best: "Compatible arena y vidrio" },
   { pos: 5, name: "Intex 28648 — Depuradora cartucho compacta", asin: "B00G9YZ6FK", price: "€89,99", flow: "3.785 l/h", motor: "0,35 CV", pool: "Hasta 15.000 l", stars: "4,1/5", best: "Mejor precio absoluto" },
 ];
 
@@ -91,7 +91,7 @@ export default function DepuradorasPage() {
 
         <div className="prose">
           <p>
-            La depuradora es el corazón de cualquier piscina. Sin una buena filtración, el agua se vuelve turbia y proliferan algas y bacterias que hacen que bañarse sea un riesgo para la salud. En esta guía analizamos las <strong>5 mejores depuradoras de piscina</strong> disponibles en Amazon España en 2025, con precios entre 90 y 330€.
+            La depuradora es el corazón de cualquier piscina. Sin una buena filtración, el agua se vuelve turbia y proliferan algas y bacterias que hacen que bañarse sea un riesgo para la salud. En esta guía analizamos las <strong>5 mejores depuradoras de piscina</strong> disponibles en Amazon España en 2025, con precios entre 89 y 200€.
           </p>
           <p>
             Hemos analizado más de 20 modelos, comparado especificaciones técnicas y revisado miles de reseñas de usuarios para darte las recomendaciones más fiables del mercado.
@@ -126,7 +126,7 @@ export default function DepuradorasPage() {
                   <td className="px-3 py-3 text-gray-600">{p.pool}</td>
                   <td className="px-3 py-3 text-yellow-500 font-semibold">⭐ {p.stars}</td>
                   <td className="px-3 py-3">
-                    <a href={amazonLink(p.asin)} target="_blank" rel="noopener noreferrer sponsored"
+                    <a href={amazonLink(p.asin)} target="_blank" rel="nofollow noopener noreferrer sponsored"
                       className="inline-block bg-orange-500 text-white text-xs font-bold px-3 py-1.5 rounded-lg hover:bg-orange-600 transition-colors whitespace-nowrap">
                       Ver precio →
                     </a>
@@ -159,7 +159,7 @@ export default function DepuradorasPage() {
             <li>El temporizador integrado es básico</li>
           </ul>
           <div className="not-prose my-4">
-            <a href={amazonLink("B074W7D3KJ")} target="_blank" rel="noopener noreferrer sponsored"
+            <a href={amazonLink("B095D6VF1Q")} target="_blank" rel="nofollow noopener noreferrer sponsored"
               className="btn-primary">
               Ver Intex 28636 en Amazon →
             </a>
@@ -181,42 +181,42 @@ export default function DepuradorasPage() {
             <li>Manual de instrucciones mejorable</li>
           </ul>
 
-          <h3>3. Gre AR450 — Mejor rendimiento (★★★★½)</h3>
+          <h3>3. Gre AR700 — Depuradora de arena 4.000 l/h (★★★★½)</h3>
           <p>
-            La <strong>Gre AR450</strong> da un salto de calidad importante. Con 11.000 l/h y motor de 1 CV, es capaz de mantener perfectamente una piscina de 40.000 litros. Su construcción es más robusta y la válvula de 6 vías es de mejor calidad que en los modelos anteriores.
+            La <strong>Gre AR700</strong> es una depuradora de arena fabricada en España, ideal para piscinas desmontables y enterradas de tamaño medio de hasta 24.000 litros. Con un caudal de 4.000 l/h y válvula multiposición de 6 vías, ofrece un filtrado eficaz con un mantenimiento sencillo y recambios fáciles de encontrar.
           </p>
           <p><strong>Pros:</strong></p>
           <ul>
-            <li>Construida para durar (calidad profesional)</li>
-            <li>Fácil mantenimiento y limpieza</li>
-            <li>Bajo nivel de ruido</li>
+            <li>Fabricada en España, con buen servicio de recambios</li>
+            <li>Válvula de 6 vías (filtrado, lavado, enjuague, vaciado, recirculación, cerrado)</li>
+            <li>Bajo nivel de ruido y consumo contenido</li>
           </ul>
           <p><strong>Contras:</strong></p>
           <ul>
-            <li>Precio más elevado</li>
-            <li>Requiere espacio para instalación</li>
+            <li>Caudal ajustado para piscinas de más de 24.000 litros</li>
+            <li>Arena de sílex no incluida</li>
           </ul>
           <div className="not-prose my-4">
-            <a href={amazonLink("B001DQKUV6")} target="_blank" rel="noopener noreferrer sponsored"
+            <a href={amazonLink("B00DVKH7UM")} target="_blank" rel="nofollow noopener noreferrer sponsored"
               className="btn-primary">
-              Ver Gre AR450 en Amazon →
+              Ver Gre AR700 en Amazon →
             </a>
           </div>
 
-          <h3>4. Hayward S180T — Mejor para piscinas grandes (★★★★★)</h3>
+          <h3>4. Intex 55225 — Depuradora de Arena Krystal Clear 5.700 l/h (★★★★½)</h3>
           <p>
-            Si tienes una piscina grande o semiprofesional, la <strong>Hayward S180T</strong> es la elección correcta. Con 14.000 l/h y fabricación de primera calidad, esta depuradora tiene una vida útil de más de 10 años con un mantenimiento adecuado.
+            La <strong>Intex 55225 Krystal Clear</strong> es una depuradora de arena versátil para piscinas medianas de hasta 30.000 litros. Con 5.700 l/h de caudal, es compatible tanto con arena de sílex como con vidrio filtrante, y su válvula de 6 posiciones facilita todo el mantenimiento. Se conecta a la mayoría de piscinas desmontables Intex y Bestway.
           </p>
           <p><strong>Pros:</strong></p>
           <ul>
-            <li>Calidad y durabilidad excepcionales</li>
-            <li>Ideal para piscinas enterradas grandes</li>
-            <li>Excelente soporte técnico de la marca</li>
+            <li>Compatible con arena de sílex y vidrio filtrante</li>
+            <li>Buen caudal para piscinas medianas</li>
+            <li>Compatible con piscinas desmontables Intex y Bestway</li>
           </ul>
           <p><strong>Contras:</strong></p>
           <ul>
-            <li>Precio más alto del comparativo</li>
-            <li>Instalación recomendada por profesional</li>
+            <li>Arena/vidrio no incluidos</li>
+            <li>No apta para piscinas de más de 30.000 litros</li>
           </ul>
 
           <h3>5. Intex 28648 — Mejor precio absoluto (★★★★)</h3>
