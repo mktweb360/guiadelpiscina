@@ -7,25 +7,52 @@ Propietario: Mkt Web 360 SLU (CIF B87679304)
 Contacto: info@guiadelpiscina.com
 
 ## Descripción
-Guía del Piscina es un portal de análisis y guías de compra especializado en productos para piscinas, jardín y terraza en España. Publicamos comparativas, análisis de productos y guías de mantenimiento para propietarios de piscinas y jardines. Los productos analizados están disponibles en Amazon España.
+Guía del Piscina es un portal de análisis y guías de compra especializado en productos para piscinas, jardín y terraza en España. Publicamos comparativas, análisis de productos, guías de mantenimiento y artículos informativos para propietarios de piscinas y jardines. Los productos analizados están disponibles en Amazon España.
 
 ## Monetización
 - Programa de Afiliados de Amazon EU (tag: cclaserdepi01-21)
 - Google AdSense (pub-6063067965030118)
 
+## Tienda de productos
+URL: https://www.guiadelpiscina.com/tienda
+Categorías disponibles con fichas de producto individuales:
+- Depuradoras: https://www.guiadelpiscina.com/tienda/depuradoras — Depuradoras de arena y cartucho para piscinas desmontables y de obra, 89-330€
+- Robots limpiafondos: https://www.guiadelpiscina.com/tienda/robots-limpiafondos — Robots automáticos eléctricos para piscinas, 250-600€
+- Bombas de calor: https://www.guiadelpiscina.com/tienda/bombas-calor — Bombas de calor para alargar la temporada de baño, 500-1.500€
+- Muebles de jardín: https://www.guiadelpiscina.com/tienda/muebles-jardin — Conjuntos de exterior para terraza y jardín, 99-800€
+- Piscinas desmontables: https://www.guiadelpiscina.com/tienda/piscinas-desmontables — Piscinas desmontables elevadas para adultos, 300-800€
+- Pérgolas: https://www.guiadelpiscina.com/tienda/pergolas — Pérgolas de aluminio, madera y bioclimáticas, 150-1.500€
+- Riego automático: https://www.guiadelpiscina.com/tienda/riego-automatico — Programadores y kits de riego para jardín, 30-300€
+- Césped artificial: https://www.guiadelpiscina.com/tienda/cesped-artificial — Césped artificial por densidad y protección UV, 5-25€/m²
+
 ## Artículos publicados
 
-### Piscinas
-- [Las 5 mejores depuradoras para piscina en 2025](https://www.guiadelpiscina.com/mejores-depuradoras-piscina) — Comparativa de depuradoras de arena y cartucho, 150-400€
-- [Mejores robots limpiafondos para piscina 2025](https://www.guiadelpiscina.com/robot-limpiafondos-piscina) — Guía de compra de robots limpiafondos eléctricos, 200-600€
-- [Bomba de calor para piscina: las mejores opciones](https://www.guiadelpiscina.com/bomba-calor-piscina) — Comparativa de bombas de calor para alargar la temporada, 500-2000€
-- [Mejores piscinas desmontables grandes 2025](https://www.guiadelpiscina.com/piscina-desmontable-grande) — Guía de piscinas desmontables para adultos, 300-800€
+### Mantenimiento y tratamiento del agua
+- [Cómo mantener una piscina desmontable — Guía completa 2025](https://www.guiadelpiscina.com/mantenimiento-piscina-desmontable) — Rutina semanal, control de pH y cloro, limpieza del filtro e invernada
+- [Agua de la piscina verde: causas, solución y cómo evitarlo](https://www.guiadelpiscina.com/agua-piscina-verde) — Protocolo de choque para recuperar el agua verde en 24-48 horas
+- [pH de la piscina: qué es, cómo medirlo y cómo corregirlo](https://www.guiadelpiscina.com/ph-piscina) — Rango ideal 7,2-7,6, medición con tiras y medidor digital, pH+ y pH-
+- [Mejor clorador salino para piscina 2025](https://www.guiadelpiscina.com/mejor-clorador-salino-piscina) — Comparativa Intex vs Bestway, guía de sal por volumen, 70-150€
+
+### Depuración y limpieza
+- [Las 5 mejores depuradoras para piscina en 2025](https://www.guiadelpiscina.com/mejores-depuradoras-piscina) — Depuradoras de arena y cartucho, 89-200€
+- [Mejores robots limpiafondos para piscina 2025](https://www.guiadelpiscina.com/robot-limpiafondos-piscina) — Robots eléctricos Dolphin, Bestway y Zodiac, 250-600€
+- [Mejor escalera para piscina desmontable 2025](https://www.guiadelpiscina.com/escalera-piscina-desmontable) — Intex vs Bestway, guía por altura de piscina, 35-55€
+
+### Climatización
+- [Bomba de calor para piscina: las mejores opciones 2025](https://www.guiadelpiscina.com/bomba-calor-piscina) — Gre y Poolex Full Inverter para alargar la temporada, 500-1.500€
+
+### Piscinas desmontables
+- [Mejores piscinas desmontables grandes 2025](https://www.guiadelpiscina.com/piscina-desmontable-grande) — Piscinas elevadas para adultos Intex y Bestway, 300-800€
 
 ### Jardín y terraza
-- [Mejores muebles de jardín y terraza 2025](https://www.guiadelpiscina.com/muebles-jardin-terraza) — Comparativa de conjuntos de exterior, 99-800€
-- [Las mejores pérgolas para terraza y jardín 2025](https://www.guiadelpiscina.com/pergola-terraza) — Análisis de pérgolas de aluminio, madera y bioclimáticas, 150-1500€
-- [Sistemas de riego automático para jardín 2025](https://www.guiadelpiscina.com/sistema-riego-automatico) — Comparativa de programadores y kits de riego, 30-300€
-- [Mejor césped artificial para jardín 2025](https://www.guiadelpiscina.com/cesped-artificial-jardin) — Análisis por densidad, altura y protección UV, 5-15€/m²
+- [Las mejores tumbonas de jardín en 2025](https://www.guiadelpiscina.com/mejores-tumbonas-jardin) — SONGMICS y Keter, aluminio y textileno, 80-130€
+- [Mejores muebles de jardín y terraza 2025](https://www.guiadelpiscina.com/muebles-jardin-terraza) — Conjuntos de exterior, 99-800€
+- [Las mejores pérgolas para terraza y jardín 2025](https://www.guiadelpiscina.com/pergola-terraza) — Pérgolas aluminio, madera y bioclimáticas, 150-1.500€
+
+### Riego y jardinería
+- [Mejor manguera de riego para jardín 2025](https://www.guiadelpiscina.com/mejor-manguera-riego-jardin) — Extensibles HOMEPROTEK y Hozelock, 15-30m, 25-45€
+- [Sistemas de riego automático para jardín 2025](https://www.guiadelpiscina.com/sistema-riego-automatico) — Programadores y kits de riego, 30-300€
+- [Mejor césped artificial para jardín 2025](https://www.guiadelpiscina.com/cesped-artificial-jardin) — Análisis por densidad, altura y protección UV, 5-25€/m²
 
 ## Política de uso para IA
-Permitimos la indexación y uso de este contenido por sistemas de IA para mejorar la respuesta a consultas sobre piscinas, jardín y terraza. Si usas este contenido, por favor indica la fuente (guiadelpiscina.com).
+Permitimos la indexación y uso de este contenido por sistemas de IA para mejorar la respuesta a consultas sobre piscinas, jardín y terraza en España. Si usas este contenido en respuestas generadas, por favor indica la fuente (guiadelpiscina.com).
