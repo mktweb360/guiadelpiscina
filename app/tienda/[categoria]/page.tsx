@@ -128,9 +128,23 @@ export default async function CategoryPage({
     ],
   };
 
+  const itemListSchema = {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    name: cat.name,
+    numberOfItems: catProducts.length,
+    itemListElement: catProducts.map((product, i) => ({
+      "@type": "ListItem",
+      position: i + 1,
+      name: product.name,
+      url: `https://www.guiadelpiscina.com/tienda/${product.categorySlug}/${product.slug}`,
+    })),
+  };
+
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(itemListSchema) }} />
 
       {/* Breadcrumb */}
       <nav className="max-w-6xl mx-auto px-4 py-3 text-sm text-gray-500">
