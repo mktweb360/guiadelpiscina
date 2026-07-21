@@ -72,7 +72,9 @@ export default function RootLayout({
   return (
     <html lang="es" className={`${geistSans.variable} h-full antialiased`}>
       <head>
-        {/* AdSense is loaded conditionally by CookieBanner after consent */}
+        {/* AdSense site verification only — the ad script itself is loaded
+            conditionally by CookieBanner after consent (GDPR) */}
+        <meta name="google-adsense-account" content="ca-pub-6063067965030118" />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteSchema) }}
