@@ -45,7 +45,7 @@ export default function PoliticaCookiesPage() {
             </thead>
             <tbody>
               <tr>
-                <td><code>guiadelpiscina_consent</code></td>
+                <td><code>guiadelpiscina_consent_v2</code></td>
                 <td>Guarda tus preferencias de cookies</td>
                 <td>1 año</td>
               </tr>

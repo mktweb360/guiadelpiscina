@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Script from "next/script";
 import { Geist } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/Header";
@@ -72,6 +73,25 @@ export default function RootLayout({
   return (
     <html lang="es" className={`${geistSans.variable} h-full antialiased`}>
       <head>
+        {/* Google Consent Mode v2 — todo denegado por defecto hasta que el
+            usuario decida en el banner de cookies (CookieBanner) */}
+        <Script
+          id="consent-mode-default"
+          strategy="beforeInteractive"
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('consent', 'default', {
+                ad_storage: 'denied',
+                ad_user_data: 'denied',
+                ad_personalization: 'denied',
+                analytics_storage: 'denied',
+                wait_for_update: 500
+              });
+            `,
+          }}
+        />
         {/* AdSense site verification only — the ad script itself is loaded
             conditionally by CookieBanner after consent (GDPR) */}
         <meta name="google-adsense-account" content="ca-pub-6063067965030118" />
