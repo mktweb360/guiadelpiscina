@@ -212,7 +212,6 @@ export default function MantenimientoPiscinaPage() {
                 <th className="px-3 py-3 text-left">Modelo</th>
                 <th className="px-3 py-3 text-left">Capacidad piscina</th>
                 <th className="px-3 py-3 text-left">Producción Cl</th>
-                <th className="px-3 py-3 text-left">Precio aprox.</th>
                 <th className="px-3 py-3 text-left">Ver en Amazon</th>
               </tr>
             </thead>
@@ -222,7 +221,6 @@ export default function MantenimientoPiscinaPage() {
                   <td className="px-3 py-3 font-medium text-gray-900">{p.name}</td>
                   <td className="px-3 py-3 text-gray-600">{p.capacity}</td>
                   <td className="px-3 py-3 text-gray-600">{p.production}</td>
-                  <td className="px-3 py-3 font-bold text-orange-600">{p.price}</td>
                   <td className="px-3 py-3">
                     <a href={amazonLink(p.asin)} target="_blank" rel="nofollow noopener noreferrer sponsored"
                       className="inline-block bg-orange-500 text-white text-xs font-bold px-3 py-1.5 rounded-lg hover:bg-orange-600 transition-colors whitespace-nowrap">

@@ -169,7 +169,6 @@ export default function CubiertaPiscinaPage() {
                 <th className="px-3 py-3 text-left">Diámetro</th>
                 <th className="px-3 py-3 text-left">Material</th>
                 <th className="px-3 py-3 text-left">Función principal</th>
-                <th className="px-3 py-3 text-left">Precio</th>
                 <th className="px-3 py-3 text-left">Ver</th>
               </tr>
             </thead>
@@ -181,7 +180,6 @@ export default function CubiertaPiscinaPage() {
                   <td className="px-3 py-3 text-gray-600">{p.diameter}</td>
                   <td className="px-3 py-3 text-gray-600">{p.material}</td>
                   <td className="px-3 py-3 text-gray-600">{p.fn}</td>
-                  <td className="px-3 py-3 font-bold text-orange-600">{p.price}</td>
                   <td className="px-3 py-3">
                     <a href={amazonLink(p.asin)} target="_blank" rel="nofollow noopener noreferrer sponsored"
                       className="inline-block bg-orange-500 text-white text-xs font-bold px-3 py-1.5 rounded-lg hover:bg-orange-600 transition-colors whitespace-nowrap">

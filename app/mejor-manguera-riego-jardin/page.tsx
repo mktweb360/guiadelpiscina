@@ -173,7 +173,6 @@ export default function MangueraRiegoPage() {
                 <th className="px-3 py-3 text-left">Material</th>
                 <th className="px-3 py-3 text-left">Funciones pistola</th>
                 <th className="px-3 py-3 text-left">Conectores</th>
-                <th className="px-3 py-3 text-left">Precio</th>
                 <th className="px-3 py-3 text-left">Ver</th>
               </tr>
             </thead>
@@ -185,7 +184,6 @@ export default function MangueraRiegoPage() {
                   <td className="px-3 py-3 text-gray-600">{p.material}</td>
                   <td className="px-3 py-3 text-gray-600">{p.functions}</td>
                   <td className="px-3 py-3 text-gray-600">{p.connectors}</td>
-                  <td className="px-3 py-3 font-bold text-orange-600">{p.price}</td>
                   <td className="px-3 py-3">
                     <a href={amazonLink(p.asin)} target="_blank" rel="nofollow noopener noreferrer sponsored"
                       className="inline-block bg-orange-500 text-white text-xs font-bold px-3 py-1.5 rounded-lg hover:bg-orange-600 transition-colors whitespace-nowrap">

@@ -97,7 +97,6 @@ export default function CespedArtificialPage() {
               <tr className="bg-sky-600 text-white">
                 <th className="px-3 py-3 text-left">#</th>
                 <th className="px-3 py-3 text-left">Modelo</th>
-                <th className="px-3 py-3 text-left">Precio/m²</th>
                 <th className="px-3 py-3 text-left">Altura</th>
                 <th className="px-3 py-3 text-left">Densidad</th>
                 <th className="px-3 py-3 text-left">Protec. UV</th>
@@ -110,7 +109,6 @@ export default function CespedArtificialPage() {
                 <tr key={p.asin} className={i % 2 === 0 ? "bg-white" : "bg-gray-50"}>
                   <td className="px-3 py-3 font-bold text-sky-600">{p.pos}</td>
                   <td className="px-3 py-3 font-medium text-gray-900">{p.name}</td>
-                  <td className="px-3 py-3 font-bold text-orange-600">{p.price}</td>
                   <td className="px-3 py-3 text-gray-600">{p.height}</td>
                   <td className="px-3 py-3 text-gray-600 text-xs">{p.density}</td>
                   <td className="px-3 py-3 text-gray-600 text-xs">{p.uv}</td>

@@ -97,7 +97,6 @@ export default function MueblesJardinPage() {
               <tr className="bg-sky-600 text-white">
                 <th className="px-3 py-3 text-left">#</th>
                 <th className="px-3 py-3 text-left">Modelo</th>
-                <th className="px-3 py-3 text-left">Precio</th>
                 <th className="px-3 py-3 text-left">Material</th>
                 <th className="px-3 py-3 text-left">Piezas</th>
                 <th className="px-3 py-3 text-left">Intemperie</th>
@@ -110,7 +109,6 @@ export default function MueblesJardinPage() {
                 <tr key={p.asin} className={i % 2 === 0 ? "bg-white" : "bg-gray-50"}>
                   <td className="px-3 py-3 font-bold text-sky-600">{p.pos}</td>
                   <td className="px-3 py-3 font-medium text-gray-900">{p.name}</td>
-                  <td className="px-3 py-3 font-bold text-orange-600">{p.price}</td>
                   <td className="px-3 py-3 text-gray-600 text-xs">{p.material}</td>
                   <td className="px-3 py-3 text-gray-600 text-xs">{p.pieces}</td>
                   <td className="px-3 py-3 text-green-600 font-medium">{p.weatherproof}</td>

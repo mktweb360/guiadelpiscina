@@ -64,17 +64,6 @@ const relatedArticles: Record<string, { href: string; title: string }[]> = {
 
 // ── Helpers ───────────────────────────────────────────────────────────────────
 
-function StarRating({ rating }: { rating: number }) {
-  return (
-    <div className="flex items-center gap-0.5">
-      {[1, 2, 3, 4, 5].map((s) => (
-        <span key={s} className={s <= Math.round(rating) ? "text-yellow-400" : "text-gray-300"}>★</span>
-      ))}
-      <span className="text-sm text-gray-500 ml-1">{rating.toFixed(1)}</span>
-    </div>
-  );
-}
-
 // ── Static params ─────────────────────────────────────────────────────────────
 
 export function generateStaticParams() {
@@ -183,10 +172,7 @@ export default async function CategoryPage({
                 </div>
                 <h2 className="font-bold text-gray-900 mb-2 leading-snug">{product.name}</h2>
                 <p className="text-sm text-gray-500 mb-3 flex-grow">{product.shortDescription}</p>
-                <StarRating rating={product.rating} />
-                <p className="text-xs text-gray-400 mt-0.5">{product.reviewCount.toLocaleString()} opiniones</p>
-                <div className="mt-4 pt-4 border-t border-gray-50 flex items-center justify-between">
-                  <span className="text-xl font-extrabold text-gray-900">{product.price}</span>
+                <div className="mt-4 pt-4 border-t border-gray-50 flex items-center justify-end">
                   <div className="flex gap-2">
                     <Link
                       href={`/tienda/${categoria}/${product.slug}`}

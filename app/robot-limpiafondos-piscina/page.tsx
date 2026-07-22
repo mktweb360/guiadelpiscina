@@ -105,7 +105,6 @@ export default function RobotLimpiafondosPage() {
               <tr className="bg-sky-600 text-white">
                 <th className="px-3 py-3 text-left">#</th>
                 <th className="px-3 py-3 text-left">Modelo</th>
-                <th className="px-3 py-3 text-left">Precio</th>
                 <th className="px-3 py-3 text-left">Cobertura</th>
                 <th className="px-3 py-3 text-left">Piscina</th>
                 <th className="px-3 py-3 text-left">Ciclo</th>
@@ -118,7 +117,6 @@ export default function RobotLimpiafondosPage() {
                 <tr key={p.asin} className={i % 2 === 0 ? "bg-white" : "bg-gray-50"}>
                   <td className="px-3 py-3 font-bold text-sky-600">{p.pos}</td>
                   <td className="px-3 py-3 font-medium text-gray-900">{p.name}</td>
-                  <td className="px-3 py-3 font-bold text-orange-600">{p.price}</td>
                   <td className="px-3 py-3 text-gray-600 text-xs">{p.coverage}</td>
                   <td className="px-3 py-3 text-gray-600">{p.pool}</td>
                   <td className="px-3 py-3 text-gray-600">{p.cycle}</td>

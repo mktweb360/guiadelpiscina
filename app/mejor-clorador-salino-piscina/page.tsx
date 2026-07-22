@@ -195,7 +195,6 @@ export default function CloradorSalinoPage() {
                 <th className="px-3 py-3 text-left">Capacidad piscina</th>
                 <th className="px-3 py-3 text-left">Producción Cl/h</th>
                 <th className="px-3 py-3 text-left">Compatible con</th>
-                <th className="px-3 py-3 text-left">Precio</th>
                 <th className="px-3 py-3 text-left">Ver en Amazon</th>
               </tr>
             </thead>
@@ -206,7 +205,6 @@ export default function CloradorSalinoPage() {
                   <td className="px-3 py-3 text-gray-600">{p.capacity}</td>
                   <td className="px-3 py-3 text-gray-600">{p.production}</td>
                   <td className="px-3 py-3 text-gray-600">{p.compatible}</td>
-                  <td className="px-3 py-3 font-bold text-orange-600">{p.price}</td>
                   <td className="px-3 py-3">
                     <a href={amazonLink(p.asin)} target="_blank" rel="nofollow noopener noreferrer sponsored"
                       className="inline-block bg-orange-500 text-white text-xs font-bold px-3 py-1.5 rounded-lg hover:bg-orange-600 transition-colors whitespace-nowrap">

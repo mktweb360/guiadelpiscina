@@ -32,22 +32,6 @@ const breadcrumbSchema = {
   ],
 };
 
-function StarRating({ rating }: { rating: number }) {
-  return (
-    <div className="flex items-center gap-1">
-      {[1, 2, 3, 4, 5].map((star) => (
-        <span
-          key={star}
-          className={star <= Math.round(rating) ? "text-yellow-400" : "text-gray-300"}
-        >
-          ★
-        </span>
-      ))}
-      <span className="text-sm text-gray-600 ml-1">{rating.toFixed(1)}</span>
-    </div>
-  );
-}
-
 export default function TiendaPage() {
   const featured = getFeaturedProducts(6);
 
@@ -99,7 +83,7 @@ export default function TiendaPage() {
                 <p className="text-xs text-gray-500 mb-3">{cat.description}</p>
                 <div className="flex items-center justify-between">
                   <span className="text-xs font-semibold text-sky-600 bg-sky-50 px-2 py-1 rounded-full">
-                    {cat.priceRange}
+                    Ver categoría →
                   </span>
                   <span className="text-xs text-gray-400">{cat.count} productos</span>
                 </div>
@@ -132,9 +116,7 @@ export default function TiendaPage() {
                 </div>
                 <h3 className="font-bold text-gray-900 mb-1 leading-snug">{product.name}</h3>
                 <p className="text-sm text-gray-500 mb-3 flex-grow">{product.shortDescription}</p>
-                <StarRating rating={product.rating} />
-                <div className="mt-3 flex items-center justify-between">
-                  <span className="text-lg font-extrabold text-gray-900">{product.price}</span>
+                <div className="mt-3 flex items-center justify-end">
                   <Link
                     href={`/tienda/${product.categorySlug}/${product.slug}`}
                     className="text-sm font-semibold text-sky-600 hover:text-sky-700"

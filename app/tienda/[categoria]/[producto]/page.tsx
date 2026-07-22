@@ -52,18 +52,6 @@ const categoryFaqs: Record<string, { q: string; a: string }[]> = {
 
 // ── Helpers ───────────────────────────────────────────────────────────────────
 
-function StarRating({ rating, count }: { rating: number; count: number }) {
-  return (
-    <div className="flex items-center gap-1">
-      {[1, 2, 3, 4, 5].map((s) => (
-        <span key={s} className={`text-xl ${s <= Math.round(rating) ? "text-yellow-400" : "text-gray-300"}`}>★</span>
-      ))}
-      <span className="font-bold text-gray-800 ml-1">{rating.toFixed(1)}</span>
-      <span className="text-gray-500 text-sm">({count.toLocaleString()} opiniones)</span>
-    </div>
-  );
-}
-
 // ── Static params ─────────────────────────────────────────────────────────────
 
 export function generateStaticParams() {
@@ -116,21 +104,7 @@ export default async function ProductPage({
     name: product.name,
     description: product.shortDescription,
     brand: { "@type": "Brand", name: product.name.split(" ")[0] },
-    offers: {
-      "@type": "Offer",
-      url: amzLink,
-      priceCurrency: "EUR",
-      price: product.priceMin,
-      availability: "https://schema.org/InStock",
-      seller: { "@type": "Organization", name: "Amazon España" },
-    },
-    aggregateRating: {
-      "@type": "AggregateRating",
-      ratingValue: product.rating,
-      reviewCount: product.reviewCount,
-      bestRating: 5,
-      worstRating: 1,
-    },
+    sku: product.asin,
   };
 
   const faqSchema = faqs.length
@@ -184,14 +158,13 @@ export default async function ProductPage({
           <h1 className="text-3xl md:text-4xl font-extrabold text-gray-900 leading-tight mb-3">
             {product.name} — Análisis y opinión 2025
           </h1>
-          <StarRating rating={product.rating} count={product.reviewCount} />
         </div>
 
         {/* Primary CTA — above the fold */}
         <div className="bg-orange-50 border border-orange-200 rounded-2xl p-5 mb-8 flex flex-col sm:flex-row items-center justify-between gap-4">
           <div>
-            <p className="text-2xl font-extrabold text-gray-900">{product.price}</p>
-            <p className="text-sm text-gray-500">Precio en Amazon España</p>
+            <p className="text-lg font-bold text-gray-900">Disponible en Amazon España</p>
+            <p className="text-sm text-gray-500">Consulta el precio actualizado y las opiniones en Amazon</p>
           </div>
           <a
             href={amzLink}
@@ -261,7 +234,7 @@ export default async function ProductPage({
         <div className="bg-orange-50 border border-orange-200 rounded-2xl p-5 mb-10 flex flex-col sm:flex-row items-center justify-between gap-4">
           <div>
             <p className="font-bold text-gray-900">{product.name}</p>
-            <p className="text-2xl font-extrabold text-orange-600">{product.price}</p>
+            <p className="text-sm text-gray-500">Consulta el precio actualizado en Amazon</p>
           </div>
           <a
             href={amzLink}
@@ -307,7 +280,6 @@ export default async function ProductPage({
                   <h3 className="font-bold text-gray-900 mt-1 mb-1 text-sm leading-snug group-hover:text-sky-600">
                     {rel.name}
                   </h3>
-                  <p className="text-lg font-extrabold text-gray-900">{rel.price}</p>
                   <span className="text-xs text-sky-600 font-semibold mt-1 inline-block">Ver análisis →</span>
                 </Link>
               ))}

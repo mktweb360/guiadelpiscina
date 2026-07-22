@@ -188,7 +188,6 @@ export default function SombrillasJardinPage() {
                 <th className="px-3 py-3 text-left">Material estructura</th>
                 <th className="px-3 py-3 text-left">Mecanismo apertura</th>
                 <th className="px-3 py-3 text-left">Protección UV</th>
-                <th className="px-3 py-3 text-left">Precio</th>
                 <th className="px-3 py-3 text-left">Ver</th>
               </tr>
             </thead>
@@ -201,7 +200,6 @@ export default function SombrillasJardinPage() {
                   <td className="px-3 py-3 text-gray-600">{p.material}</td>
                   <td className="px-3 py-3 text-gray-600">{p.opening}</td>
                   <td className="px-3 py-3 text-gray-600">{p.uv}</td>
-                  <td className="px-3 py-3 font-bold text-orange-600">{p.price}</td>
                   <td className="px-3 py-3">
                     <a href={amazonLink(p.asin)} target="_blank" rel="nofollow noopener noreferrer sponsored"
                       className="inline-block bg-orange-500 text-white text-xs font-bold px-3 py-1.5 rounded-lg hover:bg-orange-600 transition-colors whitespace-nowrap">
