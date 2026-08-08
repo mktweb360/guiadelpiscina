@@ -133,7 +133,7 @@ export default function TiendaPage() {
       {/* Affiliate disclaimer */}
       <section className="py-6 px-4 bg-gray-50 border-t border-gray-100">
         <div className="max-w-3xl mx-auto text-center text-xs text-gray-400">
-          Los precios mostrados son orientativos y pueden variar. Al hacer clic en los enlaces de Amazon obtenemos una pequeña comisión sin coste adicional para ti. Esto nos ayuda a mantener el sitio actualizado.
+          Como Asociado de Amazon obtenemos una pequeña comisión en cada compra realizada a través de nuestros enlaces, sin coste adicional para ti. Los precios y disponibilidad se muestran directamente en Amazon.
         </div>
       </section>
     </>

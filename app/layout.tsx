@@ -31,9 +31,6 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@guiadelpiscina",
   },
-  alternates: {
-    canonical: SITE_URL,
-  },
   verification: {
     google: "rw79NmsZG6imEcrmUUkBXvJG5AJppQ0BfvCS0Igh0Lg",
   },

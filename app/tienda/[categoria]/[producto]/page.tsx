@@ -105,6 +105,11 @@ export default async function ProductPage({
     description: product.shortDescription,
     brand: { "@type": "Brand", name: product.name.split(" ")[0] },
     sku: product.asin,
+    offers: {
+      "@type": "Offer",
+      url: amzLink,
+      seller: { "@type": "Organization", name: "Amazon España" },
+    },
   };
 
   const faqSchema = faqs.length
