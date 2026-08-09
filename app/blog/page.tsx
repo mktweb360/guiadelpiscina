@@ -194,6 +194,46 @@ const articles = [
     price: "400–900€",
     category: "Piscinas",
   },
+  {
+    href: "/cuanto-cloro-echar-piscina",
+    icon: "🧪",
+    title: "¿Cuánto cloro echar en piscina? Dosis exactas por litros (2025)",
+    excerpt:
+      "Calcula exactamente cuánto cloro echar en tu piscina según sus litros: dosis de mantenimiento, choque y corrección. Guía práctica con tablas.",
+    date: "2025-08-01",
+    price: "",
+    category: "Tratamiento del agua",
+  },
+  {
+    href: "/floculante-piscina",
+    icon: "🧪",
+    title: "Floculante para piscina: cuándo usarlo y cómo aplicarlo (2025)",
+    excerpt:
+      "Qué es el floculante para piscina, cuándo usarlo, cómo aplicarlo paso a paso y diferencia con el clarificante. Agua cristalina en 48h.",
+    date: "2025-08-01",
+    price: "",
+    category: "Tratamiento del agua",
+  },
+  {
+    href: "/algas-piscina",
+    icon: "🧪",
+    title: "Algas en la piscina: cómo eliminarlas y evitar que vuelvan (2025)",
+    excerpt:
+      "Identifica y elimina algas verdes, negras y mostaza de tu piscina paso a paso. Tratamiento de choque + prevención definitiva.",
+    date: "2025-08-01",
+    price: "",
+    category: "Tratamiento del agua",
+  },
+  {
+    href: "/como-abrir-piscina-temporada",
+    icon: "🔧",
+    title: "Cómo abrir la piscina para el verano: guía completa paso a paso (2025)",
+    excerpt:
+      "Prepara tu piscina para la temporada en 7 pasos: revisión del equipo, limpieza, tratamiento del agua y puesta a punto. Checklist incluido.",
+    date: "2025-08-01",
+    price: "",
+    category: "Mantenimiento",
+  },
 ];
 
 const breadcrumbSchema = {
