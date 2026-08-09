@@ -92,10 +92,18 @@ const articleSchema = {
     "Los 3 mejores cloradores salinos para piscina desmontable en 2025: Intex, Bestway y Gre. Comparativa por capacidad, producción de cloro y precio.",
   datePublished: "2025-07-15",
   dateModified: "2025-07-15",
-  author: { "@type": "Organization", name: "Guía del Piscina" },
+  author: {
+    "@type": "Person",
+    name: "Miguel Torres",
+    jobTitle: "Técnico Instalador de Piscinas",
+    url: "https://www.guiadelpiscina.com/sobre-nosotros",
+    description: "Técnico instalador de piscinas con 12 años de experiencia en instalación y mantenimiento de piscinas en España.",
+    knowsAbout: ["mantenimiento de piscinas", "tratamiento del agua", "depuradoras", "cloro y pH", "piscinas desmontables"],
+  },
   publisher: { "@type": "Organization", name: "Mkt Web 360 SLU", url: "https://www.guiadelpiscina.com" },
   mainEntityOfPage: "https://www.guiadelpiscina.com/mejor-clorador-salino-piscina",
   image: { "@type": "ImageObject", url: "https://www.guiadelpiscina.com/og-image.png", width: 1200, height: 630 },
+  speakable: { "@type": "SpeakableSpecification", cssSelector: ["#respuesta-directa", "h1"] },
 };
 
 const faqSchema = {
@@ -144,6 +152,11 @@ export default function CloradorSalinoPage() {
           Mejor clorador salino para piscina en 2025 — Comparativa completa
         </h1>
         <p className="text-gray-400 text-sm mb-6">Publicado: 15 julio 2025 · Actualizado: 15 julio 2025 · 9 min lectura</p>
+        <span className="flex items-center gap-1 text-gray-500 text-sm mb-4 block">
+          <span>✍️</span>
+          <a href="/sobre-nosotros" className="font-medium text-sky-700 hover:underline">Miguel Torres</a>
+          <span className="text-gray-400">— Técnico de Piscinas</span>
+        </span>
         <img
           src="/images/blog/mejor-clorador-salino-piscina.jpg"
           alt="Mejor clorador salino para piscina 2025 — Guía completa"
@@ -155,9 +168,10 @@ export default function CloradorSalinoPage() {
 
         <div className="prose">
           <h2>¿Qué es un clorador salino y cómo funciona?</h2>
-          <p>
-            Un clorador salino es un dispositivo que produce cloro de forma natural a partir de sal común disuelta en el agua. Mediante un proceso de <strong>electrólisis</strong>, hace pasar el agua salada por una célula con placas de titanio que transforman el cloruro de sodio en <strong>cloro activo</strong>. Este cloro desinfecta el agua y, una vez cumplida su función, vuelve a convertirse en sal, en un ciclo continuo que apenas consume producto.
-          </p>
+                    <div id="respuesta-directa" className="bg-sky-50 border-l-4 border-sky-500 rounded-r-xl px-5 py-4 mb-6">
+            <p className="text-xs font-bold text-sky-700 uppercase tracking-wide mb-1.5">Respuesta directa</p>
+            <p className="text-gray-800 font-medium leading-relaxed">Un clorador salino es un dispositivo que produce cloro de forma natural a partir de sal común disuelta en el agua. Mediante un proceso de <strong>electrólisis</strong>, hace pasar el agua salada por una célula con placas de titanio que transforman el cloruro de sodio en <strong>cloro activo</strong>. Este cloro desinfecta el agua y, una vez cumplida su función, vuelve a convertirse en sal, en un ciclo continuo que apenas consume producto.</p>
+          </div>
           <p>
             El resultado es una piscina desinfectada de forma automática, sin pastillas que manipular ni almacenar, y con un agua mucho más suave que no irrita los ojos ni la piel. Es, con diferencia, la forma más cómoda de mantener el agua cristalina toda la temporada.
           </p>

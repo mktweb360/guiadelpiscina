@@ -80,10 +80,18 @@ const articleSchema = {
     "Las 3 mejores escaleras para piscina desmontable en 2025. Comparativa Intex vs Bestway por altura, seguridad, materiales y precio.",
   datePublished: "2025-07-15",
   dateModified: "2025-07-15",
-  author: { "@type": "Organization", name: "Guía del Piscina" },
+  author: {
+    "@type": "Person",
+    name: "Miguel Torres",
+    jobTitle: "Técnico Instalador de Piscinas",
+    url: "https://www.guiadelpiscina.com/sobre-nosotros",
+    description: "Técnico instalador de piscinas con 12 años de experiencia en instalación y mantenimiento de piscinas en España.",
+    knowsAbout: ["mantenimiento de piscinas", "tratamiento del agua", "depuradoras", "cloro y pH", "piscinas desmontables"],
+  },
   publisher: { "@type": "Organization", name: "Mkt Web 360 SLU", url: "https://www.guiadelpiscina.com" },
   mainEntityOfPage: "https://www.guiadelpiscina.com/escalera-piscina-desmontable",
   image: { "@type": "ImageObject", url: "https://www.guiadelpiscina.com/og-image.png", width: 1200, height: 630 },
+  speakable: { "@type": "SpeakableSpecification", cssSelector: ["#respuesta-directa", "h1"] },
 };
 
 const faqSchema = {
@@ -132,6 +140,11 @@ export default function EscaleraPiscinaPage() {
           Mejor escalera para piscina desmontable en 2025 — Comparativa completa
         </h1>
         <p className="text-gray-400 text-sm mb-6">Publicado: 15 julio 2025 · Actualizado: 15 julio 2025 · 8 min lectura</p>
+        <span className="flex items-center gap-1 text-gray-500 text-sm mb-4 block">
+          <span>✍️</span>
+          <a href="/sobre-nosotros" className="font-medium text-sky-700 hover:underline">Miguel Torres</a>
+          <span className="text-gray-400">— Técnico de Piscinas</span>
+        </span>
         <img
           src="/images/blog/escalera-piscina-desmontable.jpg"
           alt="Mejor escalera piscina desmontable 2025 — Guía de compra"
@@ -143,9 +156,10 @@ export default function EscaleraPiscinaPage() {
 
         <div className="prose">
           <h2>¿Por qué es imprescindible una escalera en la piscina desmontable?</h2>
-          <p>
-            Una escalera no es un accesorio opcional: es un elemento de <strong>seguridad</strong> imprescindible en cualquier <Link href="/tienda/piscinas-desmontables" className="text-sky-700 hover:underline">piscina desmontable</Link> (que incluyen escalera). Permite entrar y salir del agua sin riesgo de caídas, y es prácticamente obligatoria en piscinas de más de 60 cm de altura, especialmente si hay niños.
-          </p>
+                    <div id="respuesta-directa" className="bg-sky-50 border-l-4 border-sky-500 rounded-r-xl px-5 py-4 mb-6">
+            <p className="text-xs font-bold text-sky-700 uppercase tracking-wide mb-1.5">Respuesta directa</p>
+            <p className="text-gray-800 font-medium leading-relaxed">Una escalera no es un accesorio opcional: es un elemento de <strong>seguridad</strong> imprescindible en cualquier <Link href="/tienda/piscinas-desmontables" className="text-sky-700 hover:underline">piscina desmontable</Link> (que incluyen escalera). Permite entrar y salir del agua sin riesgo de caídas, y es prácticamente obligatoria en piscinas de más de 60 cm de altura, especialmente si hay niños.</p>
+          </div>
           <p>
             Además, evita un problema muy común: <strong>apoyarse en el borde de la piscina para salir</strong>, lo que fuerza la estructura y puede dañar el liner con el tiempo. Con una buena escalera, la piscina dura más y el baño es mucho más seguro.
           </p>

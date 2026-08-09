@@ -54,6 +54,11 @@ const organizationSchema = {
   name: "Mkt Web 360 SLU",
   url: SITE_URL,
   logo: `${SITE_URL}/logo.png`,
+  description: "Portal especializado en mantenimiento y equipamiento de piscinas en España. Guías técnicas, comparativas de depuradoras, robots limpiafondos y productos de tratamiento del agua.",
+  foundingDate: "2024",
+  areaServed: { "@type": "Country", name: "España" },
+  knowsAbout: ["mantenimiento de piscinas", "tratamiento del agua", "depuradoras de piscina", "robots limpiafondos", "piscinas desmontables"],
+  sameAs: ["https://www.instagram.com/guiadelpiscina", "https://www.facebook.com/guiadelpiscina"],
   contactPoint: {
     "@type": "ContactPoint",
     contactType: "customer service",

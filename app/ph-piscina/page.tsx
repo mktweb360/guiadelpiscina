@@ -66,10 +66,18 @@ const articleSchema = {
     "Todo sobre el pH de la piscina: rango ideal (7,2-7,6), cómo medirlo con tiras o medidor digital, cómo subir o bajar el pH y qué pasa si está fuera de rango.",
   datePublished: "2025-07-10",
   dateModified: "2025-07-10",
-  author: { "@type": "Organization", name: "Guía del Piscina" },
+  author: {
+    "@type": "Person",
+    name: "Miguel Torres",
+    jobTitle: "Técnico Instalador de Piscinas",
+    url: "https://www.guiadelpiscina.com/sobre-nosotros",
+    description: "Técnico instalador de piscinas con 12 años de experiencia en instalación y mantenimiento de piscinas en España.",
+    knowsAbout: ["mantenimiento de piscinas", "tratamiento del agua", "depuradoras", "cloro y pH", "piscinas desmontables"],
+  },
   publisher: { "@type": "Organization", name: "Mkt Web 360 SLU", url: "https://www.guiadelpiscina.com" },
   mainEntityOfPage: "https://www.guiadelpiscina.com/ph-piscina",
   image: { "@type": "ImageObject", url: "https://www.guiadelpiscina.com/og-image.png", width: 1200, height: 630 },
+  speakable: { "@type": "SpeakableSpecification", cssSelector: ["#respuesta-directa", "h1"] },
 };
 
 const faqSchema = {
@@ -118,14 +126,20 @@ export default function PhPiscinaPage() {
           pH de la piscina: qué es, cómo medirlo y cómo corregirlo en 2025
         </h1>
         <p className="text-gray-400 text-sm mb-6">Publicado: 10 julio 2025 · Actualizado: 10 julio 2025 · 9 min lectura</p>
+        <span className="flex items-center gap-1 text-gray-500 text-sm mb-4 block">
+          <span>✍️</span>
+          <a href="/sobre-nosotros" className="font-medium text-sky-700 hover:underline">Miguel Torres</a>
+          <span className="text-gray-400">— Técnico de Piscinas</span>
+        </span>
 
         <AffiliateDisclosure />
 
         <div className="prose">
           <h2>¿Qué es el pH y por qué es tan importante en una piscina?</h2>
-          <p>
-            El pH es la medida de la acidez o alcalinidad del agua en una escala del <strong>0 al 14</strong>, donde 7 es neutro. Por debajo de 7 el agua es ácida y por encima, alcalina. Para una piscina, el rango ideal está entre <strong>7,2 y 7,6</strong>, ligeramente por encima del neutro.
-          </p>
+                    <div id="respuesta-directa" className="bg-sky-50 border-l-4 border-sky-500 rounded-r-xl px-5 py-4 mb-6">
+            <p className="text-xs font-bold text-sky-700 uppercase tracking-wide mb-1.5">Respuesta directa</p>
+            <p className="text-gray-800 font-medium leading-relaxed">El pH es la medida de la acidez o alcalinidad del agua en una escala del <strong>0 al 14</strong>, donde 7 es neutro. Por debajo de 7 el agua es ácida y por encima, alcalina. Para una piscina, el rango ideal está entre <strong>7,2 y 7,6</strong>, ligeramente por encima del neutro.</p>
+          </div>
           <p>
             ¿Por qué importa tanto? Porque el pH condiciona absolutamente todo lo demás. Un pH fuera de rango hace que el <strong>cloro pierda eficacia</strong> (puedes estar echando cloro sin que desinfecte), provoca <strong>irritación de ojos y piel</strong>, y a largo plazo <strong>daña el liner, las juntas y los equipos</strong> de la piscina. Controlar el pH es, junto con el cloro, la base de toda la química del agua.
           </p>

@@ -40,10 +40,18 @@ const articleSchema = {
   description: "Comparativa de las mejores piscinas desmontables grandes para adultos y familias.",
   datePublished: "2025-06-05",
   dateModified: "2025-06-09",
-  author: { "@type": "Organization", name: "Guía del Piscina" },
+  author: {
+    "@type": "Person",
+    name: "Miguel Torres",
+    jobTitle: "Técnico Instalador de Piscinas",
+    url: "https://www.guiadelpiscina.com/sobre-nosotros",
+    description: "Técnico instalador de piscinas con 12 años de experiencia en instalación y mantenimiento de piscinas en España.",
+    knowsAbout: ["mantenimiento de piscinas", "tratamiento del agua", "depuradoras", "cloro y pH", "piscinas desmontables"],
+  },
   publisher: { "@type": "Organization", name: "Mkt Web 360 SLU", url: "https://www.guiadelpiscina.com" },
   mainEntityOfPage: "https://www.guiadelpiscina.com/piscina-desmontable-grande",
   image: { "@type": "ImageObject", url: "https://www.guiadelpiscina.com/og-image.png", width: 1200, height: 630 },
+  speakable: { "@type": "SpeakableSpecification", cssSelector: ["#respuesta-directa", "h1"] },
 };
 
 const faqSchema = {
@@ -86,6 +94,11 @@ export default function PiscinaDesmontablePage() {
           Mejores piscinas desmontables grandes 2025 — Guía de compra
         </h1>
         <p className="text-gray-400 text-sm mb-6">Publicado: 5 junio 2025 · Actualizado: 9 junio 2025 · 13 min lectura</p>
+        <span className="flex items-center gap-1 text-gray-500 text-sm mb-4 block">
+          <span>✍️</span>
+          <a href="/sobre-nosotros" className="font-medium text-sky-700 hover:underline">Miguel Torres</a>
+          <span className="text-gray-400">— Técnico de Piscinas</span>
+        </span>
 
         <AffiliateDisclosure />
 
@@ -96,9 +109,10 @@ export default function PiscinaDesmontablePage() {
         </div>
 
         <div className="prose">
-          <p>
-            Las <strong>piscinas desmontables grandes</strong> son la alternativa perfecta a la piscina enterrada: sin obras, sin licencia (en la mayoría de municipios), instalación en un fin de semana y precio infinitamente menor. En esta guía comparamos las mejores piscinas desmontables de más de 4 metros disponibles en Amazon España en 2025. También puedes <Link href="/tienda/piscinas-desmontables" className="text-sky-600 hover:underline font-medium">explorar piscinas desmontables en nuestra tienda</Link>.
-          </p>
+                    <div id="respuesta-directa" className="bg-sky-50 border-l-4 border-sky-500 rounded-r-xl px-5 py-4 mb-6">
+            <p className="text-xs font-bold text-sky-700 uppercase tracking-wide mb-1.5">Respuesta directa</p>
+            <p className="text-gray-800 font-medium leading-relaxed">Las <strong>piscinas desmontables grandes</strong> son la alternativa perfecta a la piscina enterrada: sin obras, sin licencia (en la mayoría de municipios), instalación en un fin de semana y precio infinitamente menor. En esta guía comparamos las mejores piscinas desmontables de más de 4 metros disponibles en Amazon España en 2025. También puedes <Link href="/tienda/piscinas-desmontables" className="text-sky-600 hover:underline font-medium">explorar piscinas desmontables en nuestra tienda</Link>.</p>
+          </div>
           <p>
             Los precios van desde 300€ para modelos básicos hasta 700€ para los conjuntos más completos. Hemos analizado la resistencia de las paredes, la calidad de la estructura, la depuradora incluida y la facilidad de montaje.
           </p>

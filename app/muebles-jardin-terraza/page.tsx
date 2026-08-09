@@ -35,10 +35,18 @@ const articleSchema = {
   description: "Comparativa de los mejores muebles de jardín y terraza para 2025.",
   datePublished: "2025-04-10",
   dateModified: "2025-06-01",
-  author: { "@type": "Organization", name: "Guía del Piscina" },
+  author: {
+    "@type": "Person",
+    name: "Miguel Torres",
+    jobTitle: "Técnico Instalador de Piscinas",
+    url: "https://www.guiadelpiscina.com/sobre-nosotros",
+    description: "Técnico instalador de piscinas con 12 años de experiencia en instalación y mantenimiento de piscinas en España.",
+    knowsAbout: ["mantenimiento de piscinas", "tratamiento del agua", "depuradoras", "cloro y pH", "piscinas desmontables"],
+  },
   publisher: { "@type": "Organization", name: "Mkt Web 360 SLU", url: "https://www.guiadelpiscina.com" },
   mainEntityOfPage: "https://www.guiadelpiscina.com/muebles-jardin-terraza",
   image: { "@type": "ImageObject", url: "https://www.guiadelpiscina.com/og-image.png", width: 1200, height: 630 },
+  speakable: { "@type": "SpeakableSpecification", cssSelector: ["#respuesta-directa", "h1"] },
 };
 
 const faqSchema = {
@@ -81,13 +89,19 @@ export default function MueblesJardinPage() {
           Mejores muebles de jardín y terraza 2025 — Guía completa
         </h1>
         <p className="text-gray-400 text-sm mb-6">Publicado: 10 abril 2025 · Actualizado: 1 junio 2025 · 10 min lectura</p>
+        <span className="flex items-center gap-1 text-gray-500 text-sm mb-4 block">
+          <span>✍️</span>
+          <a href="/sobre-nosotros" className="font-medium text-sky-700 hover:underline">Miguel Torres</a>
+          <span className="text-gray-400">— Técnico de Piscinas</span>
+        </span>
 
         <AffiliateDisclosure />
 
         <div className="prose">
-          <p>
-            Los <strong>muebles de jardín</strong> son la clave para disfrutar al máximo de la terraza o el jardín en verano. Elegir bien marca la diferencia entre un espacio que se deteriora en dos temporadas y uno que dura décadas. En esta guía analizamos los <strong>mejores conjuntos de muebles de jardín y terraza</strong> disponibles en Amazon España en 2025, con precios entre 130 y 650€. Puedes <Link href="/tienda/muebles-jardin" className="text-sky-600 hover:underline font-medium">ver conjuntos de jardín en nuestra tienda</Link> con selección actualizada y precios comparados.
-          </p>
+                    <div id="respuesta-directa" className="bg-sky-50 border-l-4 border-sky-500 rounded-r-xl px-5 py-4 mb-6">
+            <p className="text-xs font-bold text-sky-700 uppercase tracking-wide mb-1.5">Respuesta directa</p>
+            <p className="text-gray-800 font-medium leading-relaxed">Los <strong>muebles de jardín</strong> son la clave para disfrutar al máximo de la terraza o el jardín en verano. Elegir bien marca la diferencia entre un espacio que se deteriora en dos temporadas y uno que dura décadas. En esta guía analizamos los <strong>mejores conjuntos de muebles de jardín y terraza</strong> disponibles en Amazon España en 2025, con precios entre 130 y 650€. Puedes <Link href="/tienda/muebles-jardin" className="text-sky-600 hover:underline font-medium">ver conjuntos de jardín en nuestra tienda</Link> con selección actualizada y precios comparados.</p>
+          </div>
 
           <h2>Comparativa — Mejores muebles de jardín 2025</h2>
         </div>

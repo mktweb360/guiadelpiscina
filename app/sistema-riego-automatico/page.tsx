@@ -35,10 +35,18 @@ const articleSchema = {
   description: "Los mejores sistemas de riego automático para jardín.",
   datePublished: "2025-03-15",
   dateModified: "2025-06-01",
-  author: { "@type": "Organization", name: "Guía del Piscina" },
+  author: {
+    "@type": "Person",
+    name: "Miguel Torres",
+    jobTitle: "Técnico Instalador de Piscinas",
+    url: "https://www.guiadelpiscina.com/sobre-nosotros",
+    description: "Técnico instalador de piscinas con 12 años de experiencia en instalación y mantenimiento de piscinas en España.",
+    knowsAbout: ["mantenimiento de piscinas", "tratamiento del agua", "depuradoras", "cloro y pH", "piscinas desmontables"],
+  },
   publisher: { "@type": "Organization", name: "Mkt Web 360 SLU", url: "https://www.guiadelpiscina.com" },
   mainEntityOfPage: "https://www.guiadelpiscina.com/sistema-riego-automatico",
   image: { "@type": "ImageObject", url: "https://www.guiadelpiscina.com/og-image.png", width: 1200, height: 630 },
+  speakable: { "@type": "SpeakableSpecification", cssSelector: ["#respuesta-directa", "h1"] },
 };
 
 const faqSchema = {
@@ -81,13 +89,19 @@ export default function SistemaRiegoPage() {
           Sistemas de riego automático para jardín — Comparativa 2025
         </h1>
         <p className="text-gray-400 text-sm mb-6">Publicado: 15 marzo 2025 · Actualizado: 1 junio 2025 · 9 min lectura</p>
+        <span className="flex items-center gap-1 text-gray-500 text-sm mb-4 block">
+          <span>✍️</span>
+          <a href="/sobre-nosotros" className="font-medium text-sky-700 hover:underline">Miguel Torres</a>
+          <span className="text-gray-400">— Técnico de Piscinas</span>
+        </span>
 
         <AffiliateDisclosure />
 
         <div className="prose">
-          <p>
-            Un <strong>sistema de riego automático</strong> libera al propietario de la obligación de regar el jardín manualmente y, lo más importante, garantiza que las plantas reciban el agua adecuada en el momento adecuado. Con los sistemas inteligentes actuales, puedes ahorrar hasta un 50% de agua frente al riego manual.
-          </p>
+                    <div id="respuesta-directa" className="bg-sky-50 border-l-4 border-sky-500 rounded-r-xl px-5 py-4 mb-6">
+            <p className="text-xs font-bold text-sky-700 uppercase tracking-wide mb-1.5">Respuesta directa</p>
+            <p className="text-gray-800 font-medium leading-relaxed">Un <strong>sistema de riego automático</strong> libera al propietario de la obligación de regar el jardín manualmente y, lo más importante, garantiza que las plantas reciban el agua adecuada en el momento adecuado. Con los sistemas inteligentes actuales, puedes ahorrar hasta un 50% de agua frente al riego manual.</p>
+          </div>
           <p>
             En esta guía comparamos los <strong>mejores sistemas de riego automático para jardín</strong> disponibles en Amazon España en 2025, desde kits básicos por 35€ hasta controladores inteligentes por 200€. Puedes <Link href="/tienda/riego-automatico" className="text-sky-600 hover:underline font-medium">comparar sistemas de riego inteligente en nuestra tienda</Link>.
           </p>

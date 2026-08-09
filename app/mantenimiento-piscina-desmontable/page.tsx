@@ -81,10 +81,18 @@ const articleSchema = {
     "Todo lo que necesitas saber para mantener tu piscina desmontable limpia y en perfecto estado: control de pH, cloro, limpieza del filtro, invernada y productos imprescindibles.",
   datePublished: "2025-07-01",
   dateModified: "2025-07-01",
-  author: { "@type": "Organization", name: "Guía del Piscina" },
+  author: {
+    "@type": "Person",
+    name: "Miguel Torres",
+    jobTitle: "Técnico Instalador de Piscinas",
+    url: "https://www.guiadelpiscina.com/sobre-nosotros",
+    description: "Técnico instalador de piscinas con 12 años de experiencia en instalación y mantenimiento de piscinas en España.",
+    knowsAbout: ["mantenimiento de piscinas", "tratamiento del agua", "depuradoras", "cloro y pH", "piscinas desmontables"],
+  },
   publisher: { "@type": "Organization", name: "Mkt Web 360 SLU", url: "https://www.guiadelpiscina.com" },
   mainEntityOfPage: "https://www.guiadelpiscina.com/mantenimiento-piscina-desmontable",
   image: { "@type": "ImageObject", url: "https://www.guiadelpiscina.com/og-image.png", width: 1200, height: 630 },
+  speakable: { "@type": "SpeakableSpecification", cssSelector: ["#respuesta-directa", "h1"] },
 };
 
 const faqSchema = {
@@ -133,6 +141,11 @@ export default function MantenimientoPiscinaPage() {
           Cómo mantener una piscina desmontable — Guía completa 2025
         </h1>
         <p className="text-gray-400 text-sm mb-6">Publicado: 1 julio 2025 · Actualizado: 1 julio 2025 · 10 min lectura</p>
+        <span className="flex items-center gap-1 text-gray-500 text-sm mb-4 block">
+          <span>✍️</span>
+          <a href="/sobre-nosotros" className="font-medium text-sky-700 hover:underline">Miguel Torres</a>
+          <span className="text-gray-400">— Técnico de Piscinas</span>
+        </span>
         <img
           src="/images/blog/mantenimiento-piscina-desmontable.jpg"
           alt="Mantenimiento piscina desmontable: guía paso a paso 2025"
@@ -144,9 +157,10 @@ export default function MantenimientoPiscinaPage() {
 
         <div className="prose">
           <h2>Por qué el mantenimiento es la clave de una piscina sana</h2>
-          <p>
-            Una piscina desmontable puede durar muchos años en perfecto estado o convertirse en un problema en cuestión de días. La diferencia está en el <strong>mantenimiento</strong>. Sin una rutina básica, el agua se transforma rápidamente en un caldo de cultivo para algas y bacterias: se enturbia, se vuelve verde y deja de ser segura para bañarse.
-          </p>
+                    <div id="respuesta-directa" className="bg-sky-50 border-l-4 border-sky-500 rounded-r-xl px-5 py-4 mb-6">
+            <p className="text-xs font-bold text-sky-700 uppercase tracking-wide mb-1.5">Respuesta directa</p>
+            <p className="text-gray-800 font-medium leading-relaxed">Una piscina desmontable puede durar muchos años en perfecto estado o convertirse en un problema en cuestión de días. La diferencia está en el <strong>mantenimiento</strong>. Sin una rutina básica, el agua se transforma rápidamente en un caldo de cultivo para algas y bacterias: se enturbia, se vuelve verde y deja de ser segura para bañarse.</p>
+          </div>
           <p>
             La buena noticia es que mantener una piscina desmontable no requiere apenas esfuerzo. Con una rutina de unos <strong>15 minutos a la semana</strong> —medir el agua, ajustar el químico, limpiar el filtro— tu piscina se mantendrá cristalina toda la temporada. En esta guía te explicamos paso a paso todo lo que necesitas, desde los parámetros del agua hasta la preparación para el invierno.
           </p>
