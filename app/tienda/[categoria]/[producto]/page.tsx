@@ -165,20 +165,33 @@ export default async function ProductPage({
           </h1>
         </div>
 
+        {/* Hero image */}
+        <div className="rounded-2xl overflow-hidden bg-gray-100 mb-8">
+          <img
+            src={`/images/products/${product.categorySlug}.jpg`}
+            alt={product.name}
+            className="w-full h-64 object-cover"
+            loading="eager"
+          />
+        </div>
+
         {/* Primary CTA — above the fold */}
         <div className="bg-orange-50 border border-orange-200 rounded-2xl p-5 mb-8 flex flex-col sm:flex-row items-center justify-between gap-4">
           <div>
             <p className="text-lg font-bold text-gray-900">Disponible en Amazon España</p>
             <p className="text-sm text-gray-500">Consulta el precio actualizado y las opiniones en Amazon</p>
           </div>
-          <a
-            href={amzLink}
-            target="_blank"
-            rel="nofollow noopener noreferrer sponsored"
-            className="inline-block px-8 py-3 bg-orange-500 hover:bg-orange-600 text-white font-bold rounded-xl transition-colors text-lg whitespace-nowrap"
-          >
-            Ver precio en Amazon →
-          </a>
+          <div className="flex flex-col items-center sm:items-end gap-1">
+            <a
+              href={amzLink}
+              target="_blank"
+              rel="nofollow noopener noreferrer sponsored"
+              className="inline-block px-8 py-3 bg-orange-500 hover:bg-orange-600 text-white font-bold rounded-xl transition-colors text-lg whitespace-nowrap"
+            >
+              🛒 Comprar en Amazon →
+            </a>
+            <p className="text-xs text-gray-400 text-center mt-1">Se abrirá Amazon.es · Enlace de afiliado</p>
+          </div>
         </div>
 
         <AffiliateDisclosure />
@@ -241,14 +254,17 @@ export default async function ProductPage({
             <p className="font-bold text-gray-900">{product.name}</p>
             <p className="text-sm text-gray-500">Consulta el precio actualizado en Amazon</p>
           </div>
-          <a
-            href={amzLink}
-            target="_blank"
-            rel="nofollow noopener noreferrer sponsored"
-            className="inline-block px-8 py-3 bg-orange-500 hover:bg-orange-600 text-white font-bold rounded-xl transition-colors text-lg whitespace-nowrap"
-          >
-            Ver precio en Amazon →
-          </a>
+          <div className="flex flex-col items-center sm:items-end gap-1">
+            <a
+              href={amzLink}
+              target="_blank"
+              rel="nofollow noopener noreferrer sponsored"
+              className="inline-block px-8 py-3 bg-orange-500 hover:bg-orange-600 text-white font-bold rounded-xl transition-colors text-lg whitespace-nowrap"
+            >
+              🛒 Comprar en Amazon →
+            </a>
+            <p className="text-xs text-gray-400 text-center mt-1">Se abrirá Amazon.es · Enlace de afiliado</p>
+          </div>
         </div>
 
         {/* FAQ */}
