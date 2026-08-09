@@ -96,6 +96,7 @@ const articleSchema = {
   author: { "@type": "Organization", name: "Guía del Piscina" },
   publisher: { "@type": "Organization", name: "Mkt Web 360 SLU", url: "https://www.guiadelpiscina.com" },
   mainEntityOfPage: "https://www.guiadelpiscina.com/piscina-desmontable-grande-adultos",
+  image: { "@type": "ImageObject", url: "https://www.guiadelpiscina.com/og-image.png", width: 1200, height: 630 },
 };
 
 const faqSchema = {
