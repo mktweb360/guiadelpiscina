@@ -133,6 +133,12 @@ export default function MantenimientoPiscinaPage() {
           Cómo mantener una piscina desmontable — Guía completa 2025
         </h1>
         <p className="text-gray-400 text-sm mb-6">Publicado: 1 julio 2025 · Actualizado: 1 julio 2025 · 10 min lectura</p>
+        <img
+          src="/images/blog/mantenimiento-piscina-desmontable.jpg"
+          alt="Mantenimiento piscina desmontable: guía paso a paso 2025"
+          className="w-full h-56 sm:h-72 object-cover rounded-xl mb-8"
+          loading="eager"
+        />
 
         <AffiliateDisclosure />
 

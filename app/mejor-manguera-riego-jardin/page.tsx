@@ -138,6 +138,12 @@ export default function MangueraRiegoPage() {
           Mejor manguera de riego para jardín en 2025 — Comparativa completa
         </h1>
         <p className="text-gray-400 text-sm mb-6">Publicado: 15 julio 2025 · Actualizado: 15 julio 2025 · 8 min lectura</p>
+        <img
+          src="/images/blog/mejor-manguera-riego-jardin.jpg"
+          alt="Mejor manguera de riego para jardín 2025 — Guía de compra"
+          className="w-full h-56 sm:h-72 object-cover rounded-xl mb-8"
+          loading="eager"
+        />
 
         <AffiliateDisclosure />
 

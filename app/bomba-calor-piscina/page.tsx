@@ -86,6 +86,12 @@ export default function BombaCalorPage() {
           Bomba de calor para piscina: las mejores opciones y cómo elegir
         </h1>
         <p className="text-gray-400 text-sm mb-6">Publicado: 1 junio 2025 · Actualizado: 9 junio 2025 · 14 min lectura</p>
+        <img
+          src="/images/blog/bomba-calor-piscina.jpg"
+          alt="Bomba de calor para piscina: las mejores opciones y cómo elegir"
+          className="w-full h-56 sm:h-72 object-cover rounded-xl mb-8"
+          loading="eager"
+        />
 
         <AffiliateDisclosure />
 

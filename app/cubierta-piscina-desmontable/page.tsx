@@ -132,6 +132,12 @@ export default function CubiertaPiscinaPage() {
           Mejor cubierta para piscina desmontable en 2025 — Comparativa completa
         </h1>
         <p className="text-gray-400 text-sm mb-6">Publicado: 20 julio 2025 · Actualizado: 20 julio 2025 · 9 min lectura</p>
+        <img
+          src="/images/blog/cubierta-piscina-desmontable.jpg"
+          alt="Mejor cubierta para piscina desmontable 2025 — Guía completa"
+          className="w-full h-56 sm:h-72 object-cover rounded-xl mb-8"
+          loading="eager"
+        />
 
         <AffiliateDisclosure />
 

@@ -117,6 +117,12 @@ export default function AlgasPiscinaPage() {
           Algas en la piscina: cómo eliminarlas y evitar que vuelvan (2025)
         </h1>
         <p className="text-gray-400 text-sm mb-6">Publicado: 1 agosto 2025 · Actualizado: 1 agosto 2025 · 9 min lectura</p>
+        <img
+          src="/images/blog/algas-piscina.jpg"
+          alt="Algas en la piscina: cómo eliminarlas y evitar que vuelvan"
+          className="w-full h-56 sm:h-72 object-cover rounded-xl mb-8"
+          loading="eager"
+        />
 
         <div className="prose">
           <p>

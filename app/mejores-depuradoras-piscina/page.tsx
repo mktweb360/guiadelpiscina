@@ -87,6 +87,12 @@ export default function DepuradorasPage() {
           Las 5 mejores depuradoras para piscina en 2025 — Análisis y comparativa
         </h1>
         <p className="text-gray-400 text-sm mb-6">Publicado: 15 mayo 2025 · Actualizado: 1 junio 2025 · 12 min lectura</p>
+        <img
+          src="/images/blog/mejores-depuradoras-piscina.jpg"
+          alt="Las 5 mejores depuradoras para piscina en 2025 — Análisis y comparativa"
+          className="w-full h-56 sm:h-72 object-cover rounded-xl mb-8"
+          loading="eager"
+        />
 
         <AffiliateDisclosure />
 

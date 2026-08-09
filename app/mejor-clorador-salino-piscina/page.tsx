@@ -144,6 +144,12 @@ export default function CloradorSalinoPage() {
           Mejor clorador salino para piscina en 2025 — Comparativa completa
         </h1>
         <p className="text-gray-400 text-sm mb-6">Publicado: 15 julio 2025 · Actualizado: 15 julio 2025 · 9 min lectura</p>
+        <img
+          src="/images/blog/mejor-clorador-salino-piscina.jpg"
+          alt="Mejor clorador salino para piscina 2025 — Guía completa"
+          className="w-full h-56 sm:h-72 object-cover rounded-xl mb-8"
+          loading="eager"
+        />
 
         <AffiliateDisclosure />
 

@@ -2,13 +2,25 @@ import Link from "next/link";
 import { amazonLink } from "@/lib/amazon";
 import type { Product } from "@/data/products";
 
+
+const CATEGORY_IMAGES: Record<string, string> = {
+  "productos-quimicos": "/images/products/productos-quimicos.jpg",
+  "bombas-filtros": "/images/products/bombas-filtros.jpg",
+  "limpiafondos": "/images/products/limpiafondos.jpg",
+  "accesorios": "/images/products/accesorios.jpg",
+};
+
 interface Props {
   product: Product;
 }
 
 export default function ProductCard({ product }: Props) {
+  const imgSrc = CATEGORY_IMAGES[product.categorySlug] ?? "/images/products/accesorios.jpg";
   return (
     <div className="bg-white rounded-2xl border border-gray-100 shadow-sm hover:shadow-md transition-shadow overflow-hidden flex flex-col">
+      <a href={amazonLink(product.asin)} target="_blank" rel="noopener noreferrer sponsored" className="block overflow-hidden bg-gray-50">
+        <img src={imgSrc} alt={product.name} className="w-full h-44 object-cover hover:scale-105 transition-transform duration-300" loading="lazy" />
+      </a>
       {product.badge && (
         <div className="bg-cyan-600 text-white text-xs font-bold px-3 py-1 text-center">
           {product.badge}

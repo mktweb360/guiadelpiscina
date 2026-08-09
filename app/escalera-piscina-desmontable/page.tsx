@@ -132,6 +132,12 @@ export default function EscaleraPiscinaPage() {
           Mejor escalera para piscina desmontable en 2025 — Comparativa completa
         </h1>
         <p className="text-gray-400 text-sm mb-6">Publicado: 15 julio 2025 · Actualizado: 15 julio 2025 · 8 min lectura</p>
+        <img
+          src="/images/blog/escalera-piscina-desmontable.jpg"
+          alt="Mejor escalera piscina desmontable 2025 — Guía de compra"
+          className="w-full h-56 sm:h-72 object-cover rounded-xl mb-8"
+          loading="eager"
+        />
 
         <AffiliateDisclosure />
 

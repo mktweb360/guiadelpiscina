@@ -122,6 +122,12 @@ export default function CuantoCloroPage() {
           ¿Cuánto cloro echar en piscina? Dosis exactas por litros (2025)
         </h1>
         <p className="text-gray-400 text-sm mb-6">Publicado: 1 agosto 2025 · Actualizado: 1 agosto 2025 · 8 min lectura</p>
+        <img
+          src="/images/blog/cuanto-cloro-echar-piscina.jpg"
+          alt="¿Cuánto cloro echar en piscina? Dosis exactas por litros"
+          className="w-full h-56 sm:h-72 object-cover rounded-xl mb-8"
+          loading="eager"
+        />
 
         <div className="prose">
           <p>

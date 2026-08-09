@@ -129,6 +129,12 @@ export default function AguaPiscinaVerdePage() {
           Agua de la piscina verde: causas, solución paso a paso y cómo evitarlo
         </h1>
         <p className="text-gray-400 text-sm mb-6">Publicado: 5 julio 2025 · Actualizado: 5 julio 2025 · 8 min lectura</p>
+        <img
+          src="/images/blog/agua-piscina-verde.jpg"
+          alt="Agua de la piscina verde: causas, solución paso a paso y cómo evitarlo"
+          className="w-full h-56 sm:h-72 object-cover rounded-xl mb-8"
+          loading="eager"
+        />
 
         <AffiliateDisclosure />
 

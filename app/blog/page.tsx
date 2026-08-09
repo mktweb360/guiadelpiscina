@@ -16,6 +16,7 @@ export const metadata: Metadata = {
 const articles = [
   {
     href: "/mejores-depuradoras-piscina",
+    img: "/images/blog/mejores-depuradoras-piscina.jpg",
     icon: "💧",
     title: "Las 5 mejores depuradoras para piscina en 2025 — Análisis y comparativa",
     excerpt:
@@ -36,6 +37,7 @@ const articles = [
   },
   {
     href: "/bomba-calor-piscina",
+    img: "/images/blog/bomba-calor-piscina.jpg",
     icon: "🌡️",
     title: "Bomba de calor para piscina: las mejores opciones y cómo elegir",
     excerpt:
@@ -96,6 +98,7 @@ const articles = [
   },
   {
     href: "/agua-piscina-verde",
+    img: "/images/blog/agua-piscina-verde.jpg",
     icon: "💚",
     title: "Agua de la piscina verde: causas y solución definitiva 2025",
     excerpt:
@@ -116,6 +119,7 @@ const articles = [
   },
   {
     href: "/mantenimiento-piscina-desmontable",
+    img: "/images/blog/mantenimiento-piscina-desmontable.jpg",
     icon: "🔧",
     title: "Mantenimiento piscina desmontable: guía paso a paso 2025",
     excerpt:
@@ -126,6 +130,7 @@ const articles = [
   },
   {
     href: "/mejor-clorador-salino-piscina",
+    img: "/images/blog/mejor-clorador-salino-piscina.jpg",
     icon: "🧂",
     title: "Mejor clorador salino para piscina 2025 — Guía completa",
     excerpt:
@@ -136,6 +141,7 @@ const articles = [
   },
   {
     href: "/escalera-piscina-desmontable",
+    img: "/images/blog/escalera-piscina-desmontable.jpg",
     icon: "🪜",
     title: "Mejor escalera piscina desmontable 2025 — Guía de compra",
     excerpt:
@@ -146,6 +152,7 @@ const articles = [
   },
   {
     href: "/cubierta-piscina-desmontable",
+    img: "/images/blog/cubierta-piscina-desmontable.jpg",
     icon: "🏗️",
     title: "Mejor cubierta para piscina desmontable 2025 — Guía completa",
     excerpt:
@@ -166,6 +173,7 @@ const articles = [
   },
   {
     href: "/mejores-sombrillas-jardin",
+    img: "/images/blog/mejores-sombrillas-jardin.jpg",
     icon: "☂️",
     title: "Las mejores sombrillas de jardín en 2025 — Guía de compra",
     excerpt:
@@ -176,6 +184,7 @@ const articles = [
   },
   {
     href: "/mejor-manguera-riego-jardin",
+    img: "/images/blog/mejor-manguera-riego-jardin.jpg",
     icon: "💦",
     title: "Mejor manguera de riego para jardín 2025 — Guía de compra",
     excerpt:
@@ -196,6 +205,7 @@ const articles = [
   },
   {
     href: "/cuanto-cloro-echar-piscina",
+    img: "/images/blog/cuanto-cloro-echar-piscina.jpg",
     icon: "🧪",
     title: "¿Cuánto cloro echar en piscina? Dosis exactas por litros (2025)",
     excerpt:
@@ -206,6 +216,7 @@ const articles = [
   },
   {
     href: "/floculante-piscina",
+    img: "/images/blog/floculante-piscina.jpg",
     icon: "🧪",
     title: "Floculante para piscina: cuándo usarlo y cómo aplicarlo (2025)",
     excerpt:
@@ -216,6 +227,7 @@ const articles = [
   },
   {
     href: "/algas-piscina",
+    img: "/images/blog/algas-piscina.jpg",
     icon: "🧪",
     title: "Algas en la piscina: cómo eliminarlas y evitar que vuelvan (2025)",
     excerpt:
@@ -226,6 +238,7 @@ const articles = [
   },
   {
     href: "/como-abrir-piscina-temporada",
+    img: "/images/blog/como-abrir-piscina-temporada.jpg",
     icon: "🔧",
     title: "Cómo abrir la piscina para el verano: guía completa paso a paso (2025)",
     excerpt:
@@ -264,7 +277,14 @@ export default function BlogPage() {
               href={art.href}
               className="flex flex-col sm:flex-row gap-4 border border-gray-100 rounded-xl p-6 hover:shadow-md hover:border-sky-200 transition-all group"
             >
-              <div className="text-5xl shrink-0">{art.icon}</div>
+              {/* thumbnail image when available, else emoji icon */}
+              <div className="shrink-0 w-24 h-20 sm:w-32 sm:h-24 overflow-hidden rounded-lg bg-gray-100 flex items-center justify-center">
+                {art.img ? (
+                  <img src={art.img} alt={art.title} className="w-full h-full object-cover" loading="lazy" />
+                ) : (
+                  <span className="text-5xl">{art.icon}</span>
+                )}
+              </div>
               <div className="flex-1">
                 <div className="flex flex-wrap gap-2 mb-2">
                   <span className="text-xs font-semibold text-sky-600 bg-sky-50 px-2 py-0.5 rounded-full">

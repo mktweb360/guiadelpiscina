@@ -111,6 +111,12 @@ export default function FloculantePiscinaPage() {
           Floculante para piscina: cuándo usarlo y cómo aplicarlo (2025)
         </h1>
         <p className="text-gray-400 text-sm mb-6">Publicado: 1 agosto 2025 · Actualizado: 1 agosto 2025 · 8 min lectura</p>
+        <img
+          src="/images/blog/floculante-piscina.jpg"
+          alt="Floculante para piscina: cuándo usarlo y cómo aplicarlo"
+          className="w-full h-56 sm:h-72 object-cover rounded-xl mb-8"
+          loading="eager"
+        />
 
         <div className="prose">
           <p>

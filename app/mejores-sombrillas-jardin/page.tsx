@@ -150,6 +150,12 @@ export default function SombrillasJardinPage() {
           Las mejores sombrillas de jardín en 2025 — Análisis completo
         </h1>
         <p className="text-gray-400 text-sm mb-6">Publicado: 20 julio 2025 · Actualizado: 20 julio 2025 · 9 min lectura</p>
+        <img
+          src="/images/blog/mejores-sombrillas-jardin.jpg"
+          alt="Las mejores sombrillas de jardín en 2025 — Guía de compra"
+          className="w-full h-56 sm:h-72 object-cover rounded-xl mb-8"
+          loading="eager"
+        />
 
         <AffiliateDisclosure />
 
