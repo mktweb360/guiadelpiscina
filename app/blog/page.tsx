@@ -94,6 +94,106 @@ const articles = [
     price: "5–25€/m²",
     category: "Jardín",
   },
+  {
+    href: "/agua-piscina-verde",
+    icon: "💚",
+    title: "Agua de la piscina verde: causas y solución definitiva 2025",
+    excerpt:
+      "¿El agua se ha puesto verde? Protocolo de choque paso a paso para recuperarla en 24-48 h y cómo evitar que vuelva a ocurrir.",
+    date: "2025-07-05",
+    price: "",
+    category: "Piscinas",
+  },
+  {
+    href: "/ph-piscina",
+    icon: "🧪",
+    title: "pH piscina: valores ideales, cómo medirlo y corregirlo",
+    excerpt:
+      "Rango ideal de pH (7,2-7,6), cómo medirlo con tiras o medidor digital y cómo subir o bajar el pH de forma segura.",
+    date: "2025-07-10",
+    price: "",
+    category: "Piscinas",
+  },
+  {
+    href: "/mantenimiento-piscina-desmontable",
+    icon: "🔧",
+    title: "Mantenimiento piscina desmontable: guía paso a paso 2025",
+    excerpt:
+      "Todo lo que necesitas para mantener tu piscina desmontable limpia: pH, cloro, filtro, limpieza y preparación para el invierno.",
+    date: "2025-07-01",
+    price: "",
+    category: "Piscinas",
+  },
+  {
+    href: "/mejor-clorador-salino-piscina",
+    icon: "🧂",
+    title: "Mejor clorador salino para piscina 2025 — Guía completa",
+    excerpt:
+      "Los 3 mejores cloradores salinos para piscina desmontable en 2025: Intex, Bestway y Gre. Comparativa, instalación y mantenimiento.",
+    date: "2025-07-15",
+    price: "100–300€",
+    category: "Piscinas",
+  },
+  {
+    href: "/escalera-piscina-desmontable",
+    icon: "🪜",
+    title: "Mejor escalera piscina desmontable 2025 — Guía de compra",
+    excerpt:
+      "Las 3 mejores escaleras para piscina desmontable en 2025. Comparativa Intex vs Bestway por altura, seguridad y precio.",
+    date: "2025-07-15",
+    price: "30–80€",
+    category: "Piscinas",
+  },
+  {
+    href: "/cubierta-piscina-desmontable",
+    icon: "🏗️",
+    title: "Mejor cubierta para piscina desmontable 2025 — Guía completa",
+    excerpt:
+      "Cobertores de invierno, solares y mantas térmicas para piscina desmontable. Qué tipo elegir según tu necesidad y presupuesto.",
+    date: "2025-07-20",
+    price: "20–80€",
+    category: "Piscinas",
+  },
+  {
+    href: "/mejores-tumbonas-jardin",
+    icon: "🌴",
+    title: "Las mejores tumbonas de jardín en 2025 — Comparativa y análisis",
+    excerpt:
+      "Análisis de las mejores tumbonas de jardín para piscina y terraza. Comparativa por material, comodidad y precio.",
+    date: "2025-07-15",
+    price: "40–200€",
+    category: "Jardín",
+  },
+  {
+    href: "/mejores-sombrillas-jardin",
+    icon: "☂️",
+    title: "Las mejores sombrillas de jardín en 2025 — Guía de compra",
+    excerpt:
+      "Las mejores sombrillas de jardín: de palo central y excéntricas para terraza y piscina. Guía de compra con precios y análisis.",
+    date: "2025-07-20",
+    price: "30–150€",
+    category: "Jardín",
+  },
+  {
+    href: "/mejor-manguera-riego-jardin",
+    icon: "💦",
+    title: "Mejor manguera de riego para jardín 2025 — Guía de compra",
+    excerpt:
+      "Las mejores mangueras extensibles y de calidad para jardín en 2025. Comparativa por longitud, material y precio.",
+    date: "2025-07-15",
+    price: "15–60€",
+    category: "Jardín",
+  },
+  {
+    href: "/piscina-desmontable-grande-adultos",
+    icon: "🏊",
+    title: "Mejores piscinas desmontables grandes para adultos 2025",
+    excerpt:
+      "Las mejores piscinas desmontables grandes para adultos: Intex Ultra XTR y Bestway Power Steel. Comparativa completa 2025.",
+    date: "2025-07-20",
+    price: "400–900€",
+    category: "Piscinas",
+  },
 ];
 
 const breadcrumbSchema = {

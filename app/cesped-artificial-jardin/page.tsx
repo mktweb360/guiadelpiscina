@@ -85,7 +85,7 @@ export default function CespedArtificialPage() {
 
         <div className="prose">
           <p>
-            El <strong>césped artificial</strong> ha evolucionado enormemente en los últimos años: las fibras actuales son tan realistas que cuesta distinguirlos del natural a simple vista. Sin riego, sin cortes, sin fertilizantes y verde los 365 días del año. En esta guía comparamos los <strong>mejores céspedes artificiales para jardín</strong> disponibles en Amazon España en 2025, con precios entre 5 y 15€/m².
+            El <strong>césped artificial</strong> ha evolucionado enormemente en los últimos años: las fibras actuales son tan realistas que cuesta distinguirlos del natural a simple vista. Sin riego, sin cortes, sin fertilizantes y verde los 365 días del año. En esta guía comparamos los <strong>mejores céspedes artificiales para jardín</strong> disponibles en Amazon España en 2025, con precios entre 5 y 15€/m². Puedes <Link href="/tienda/cesped-artificial" className="text-sky-600 hover:underline font-medium">ver rollos de césped artificial en nuestra tienda</Link> con los mejores modelos por densidad, altura y precio.
           </p>
 
           <h2>Comparativa — Mejores céspedes artificiales 2025</h2>
@@ -174,6 +174,14 @@ export default function CespedArtificialPage() {
         </div>
 
         <AffiliateDisclosure />
+
+        <div className="mt-6 p-6 bg-blue-50 rounded-xl border border-blue-200">
+          <h3 className="font-bold text-gray-900 mb-2">Ver en nuestra tienda</h3>
+          <p className="text-sm text-gray-600 mb-4">Los mejores céspedes artificiales para jardín, seleccionados por calidad y realismo.</p>
+          <Link href="/tienda/cesped-artificial" className="inline-block bg-sky-600 text-white font-semibold px-5 py-3 rounded-xl hover:bg-sky-700 transition-colors">
+            Ver césped artificial →
+          </Link>
+        </div>
 
         <div className="mt-8 p-6 bg-sky-50 rounded-xl border border-sky-100">
           <h3 className="font-bold text-gray-900 mb-3">También te puede interesar</h3>

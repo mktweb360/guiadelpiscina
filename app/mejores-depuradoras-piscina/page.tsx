@@ -96,6 +96,9 @@ export default function DepuradorasPage() {
           <p>
             Hemos analizado más de 20 modelos, comparado especificaciones técnicas y revisado miles de reseñas de usuarios para darte las recomendaciones más fiables del mercado.
           </p>
+          <p>
+            Si ya sabes lo que buscas, puedes <Link href="/tienda/depuradoras" className="text-sky-600 hover:underline font-medium">ver todas las depuradoras en nuestra tienda</Link> con precios, comparativas y los mejores modelos seleccionados.
+          </p>
 
           <h2>Tabla comparativa — Las mejores depuradoras 2025</h2>
         </div>
@@ -140,7 +143,7 @@ export default function DepuradorasPage() {
         <div className="prose">
           <h2>Análisis detallado de cada depuradora</h2>
 
-          <h3>1. Intex 28636 — Mejor calidad-precio (★★★★½)</h3>
+          <h3>1. <Link href="/tienda/depuradoras/intex-28636-depuradora-cartucho" className="text-sky-700 hover:underline">Intex 28636</Link> — Mejor calidad-precio (★★★★½)</h3>
           <p>
             La <strong>Intex 28636</strong> es la depuradora de arena más vendida en España y con razón. Ofrece un caudal de 8.000 l/h con un motor de 0,75 CV, suficiente para piscinas de hasta 26.500 litros. Su montaje es sencillo y viene con una válvula multiposición de 6 vías que facilita el lavado, enjuague y vaciado.
           </p>
@@ -219,7 +222,7 @@ export default function DepuradorasPage() {
 
           <h3>5. Intex 28648 — Mejor precio absoluto (★★★★)</h3>
           <p>
-            Para piscinas pequeñas de hasta 15.000 litros, la <strong>Intex 28648 de cartucho</strong> es la opción más económica y fácil de usar. Sin arena que gestionar, el mantenimiento se reduce a lavar el cartucho con la manguera.
+            Para piscinas pequeñas de hasta 15.000 litros, la <strong><Link href="/tienda/depuradoras" className="text-sky-700 hover:underline">Intex 28648 de cartucho</Link></strong> es la opción más económica y fácil de usar. Sin arena que gestionar, el mantenimiento se reduce a lavar el cartucho con la manguera.
           </p>
 
           <h2>Guía de compra: cómo elegir la mejor depuradora</h2>
@@ -249,6 +252,14 @@ export default function DepuradorasPage() {
         </div>
 
         <AffiliateDisclosure />
+
+        <div className="mt-6 p-6 bg-blue-50 rounded-xl border border-blue-200">
+          <h3 className="font-bold text-gray-900 mb-2">Ver en nuestra tienda</h3>
+          <p className="text-sm text-gray-600 mb-4">Compara precios y elige la depuradora perfecta para tu piscina.</p>
+          <Link href="/tienda/depuradoras" className="inline-block bg-sky-600 text-white font-semibold px-5 py-3 rounded-xl hover:bg-sky-700 transition-colors">
+            Ver todas las depuradoras →
+          </Link>
+        </div>
 
         <div className="mt-8 p-6 bg-sky-50 rounded-xl border border-sky-100">
           <h3 className="font-bold text-gray-900 mb-3">También te puede interesar</h3>

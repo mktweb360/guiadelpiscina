@@ -273,6 +273,13 @@ export default function PhPiscinaPage() {
 
         <AffiliateDisclosure />
 
+        <div className="mt-6 p-6 bg-blue-50 rounded-xl border border-blue-200">
+          <h3 className="font-bold text-gray-900 mb-2">Ver también</h3>
+          <ul className="space-y-2">
+            <li><Link href="/tienda/depuradoras" className="text-sky-600 hover:underline font-medium">→ Las mejores depuradoras de piscina</Link></li>
+          </ul>
+        </div>
+
         <div className="mt-8 p-6 bg-sky-50 rounded-xl border border-sky-100">
           <h3 className="font-bold text-gray-900 mb-3">También te puede interesar</h3>
           <ul className="space-y-2">

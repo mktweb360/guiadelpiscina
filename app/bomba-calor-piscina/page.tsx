@@ -96,7 +96,7 @@ export default function BombaCalorPage() {
 
         <div className="prose">
           <p>
-            Las <strong>bombas de calor para piscina</strong> son la forma más eficiente de calentar el agua. Aprovechan la energía del aire exterior para producir hasta 6 veces más calor que el que consumen en electricidad. En esta guía analizamos las mejores opciones del mercado español para 2025, con precios entre 500 y 1.500€.
+            Las <strong>bombas de calor para piscina</strong> son la forma más eficiente de calentar el agua. Aprovechan la energía del aire exterior para producir hasta 6 veces más calor que el que consumen en electricidad. En esta guía analizamos las mejores opciones del mercado español para 2025, con precios entre 500 y 1.500€. Consulta nuestra <Link href="/tienda/bombas-calor" className="text-sky-600 hover:underline font-medium">comparativa completa de bombas de calor</Link> para ver todos los modelos disponibles.
           </p>
           <p>
             Una buena bomba de calor puede alargar la temporada de baño de junio-septiembre a mayo-octubre o incluso todo el año en climas templados del sur de España. La inversión inicial se recupera en 2-3 temporadas gracias al ahorro en la factura eléctrica.
@@ -172,7 +172,7 @@ export default function BombaCalorPage() {
             </a>
           </div>
 
-          <h3>3. Poolex Q-Line 7 Full Inverter — La más eficiente (★★★★½)</h3>
+          <h3>3. <Link href="/tienda/bombas-calor/poolex-nano-action-5-bomba-calor" className="text-sky-700 hover:underline">Poolex Q-Line 7 Full Inverter</Link> — La más eficiente (★★★★½)</h3>
           <p>
             La <strong>Poolex Q-Line 7</strong> es una bomba de calor <strong>Full Inverter</strong> de 7 kW para piscinas de 30 a 45 m³. Monta compresor <strong>Toshiba</strong> e intercambiador de titanio, con ventilación vertical, WiFi integrado y LEDs de estado. Es la opción más eficiente y silenciosa del comparativo, con garantía de 3 años en la bomba y 5 años en el compresor.
           </p>
@@ -207,6 +207,14 @@ export default function BombaCalorPage() {
         </div>
 
         <AffiliateDisclosure />
+
+        <div className="mt-6 p-6 bg-blue-50 rounded-xl border border-blue-200">
+          <h3 className="font-bold text-gray-900 mb-2">Ver en nuestra tienda</h3>
+          <p className="text-sm text-gray-600 mb-4">Las mejores bombas de calor para piscina, comparadas y analizadas.</p>
+          <Link href="/tienda/bombas-calor" className="inline-block bg-sky-600 text-white font-semibold px-5 py-3 rounded-xl hover:bg-sky-700 transition-colors">
+            Ver bombas de calor →
+          </Link>
+        </div>
 
         <div className="mt-8 p-6 bg-sky-50 rounded-xl border border-sky-100">
           <h3 className="font-bold text-gray-900 mb-3">También te puede interesar</h3>

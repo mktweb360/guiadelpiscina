@@ -85,7 +85,7 @@ export default function MueblesJardinPage() {
 
         <div className="prose">
           <p>
-            Los <strong>muebles de jardín</strong> son la clave para disfrutar al máximo de la terraza o el jardín en verano. Elegir bien marca la diferencia entre un espacio que se deteriora en dos temporadas y uno que dura décadas. En esta guía analizamos los <strong>mejores conjuntos de muebles de jardín y terraza</strong> disponibles en Amazon España en 2025, con precios entre 130 y 650€.
+            Los <strong>muebles de jardín</strong> son la clave para disfrutar al máximo de la terraza o el jardín en verano. Elegir bien marca la diferencia entre un espacio que se deteriora en dos temporadas y uno que dura décadas. En esta guía analizamos los <strong>mejores conjuntos de muebles de jardín y terraza</strong> disponibles en Amazon España en 2025, con precios entre 130 y 650€. Puedes <Link href="/tienda/muebles-jardin" className="text-sky-600 hover:underline font-medium">ver conjuntos de jardín en nuestra tienda</Link> con selección actualizada y precios comparados.
           </p>
 
           <h2>Comparativa — Mejores muebles de jardín 2025</h2>
@@ -142,7 +142,7 @@ export default function MueblesJardinPage() {
 
           <h3>2. Outsunny Conjunto aluminio 4 piezas — Mejor calidad-precio (★★★★)</h3>
           <p>
-            El aluminio con textileno es la combinación perfecta para uso cercano a la piscina: no se oxida, no pesa y el tejido técnico es resistente al cloro y la humedad. El conjunto de <strong>Outsunny</strong> ofrece un sofá de 2 plazas, dos sillones y una mesa central por menos de 280€.
+            El aluminio con textileno es la combinación perfecta para uso cercano a la piscina: no se oxida, no pesa y el tejido técnico es resistente al cloro y la humedad. El conjunto de <strong><Link href="/tienda/muebles-jardin/outsunny-conjunto-ratan-4-piezas" className="text-sky-700 hover:underline">Outsunny</Link></strong> ofrece un sofá de 2 plazas, dos sillones y una mesa central por menos de 280€.
           </p>
           <div className="not-prose my-4">
             <a href={amazonLink("B08PQJKL3M")} target="_blank" rel="noopener noreferrer sponsored" className="btn-primary">
@@ -180,6 +180,14 @@ export default function MueblesJardinPage() {
         </div>
 
         <AffiliateDisclosure />
+
+        <div className="mt-6 p-6 bg-blue-50 rounded-xl border border-blue-200">
+          <h3 className="font-bold text-gray-900 mb-2">Ver en nuestra tienda</h3>
+          <p className="text-sm text-gray-600 mb-4">Los mejores conjuntos de muebles de jardín, seleccionados por calidad y precio.</p>
+          <Link href="/tienda/muebles-jardin" className="inline-block bg-sky-600 text-white font-semibold px-5 py-3 rounded-xl hover:bg-sky-700 transition-colors">
+            Ver muebles de jardín →
+          </Link>
+        </div>
 
         <div className="mt-8 p-6 bg-sky-50 rounded-xl border border-sky-100">
           <h3 className="font-bold text-gray-900 mb-3">También te puede interesar</h3>

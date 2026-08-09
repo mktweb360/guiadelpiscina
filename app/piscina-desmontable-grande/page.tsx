@@ -96,7 +96,7 @@ export default function PiscinaDesmontablePage() {
 
         <div className="prose">
           <p>
-            Las <strong>piscinas desmontables grandes</strong> son la alternativa perfecta a la piscina enterrada: sin obras, sin licencia (en la mayoría de municipios), instalación en un fin de semana y precio infinitamente menor. En esta guía comparamos las mejores piscinas desmontables de más de 4 metros disponibles en Amazon España en 2025.
+            Las <strong>piscinas desmontables grandes</strong> son la alternativa perfecta a la piscina enterrada: sin obras, sin licencia (en la mayoría de municipios), instalación en un fin de semana y precio infinitamente menor. En esta guía comparamos las mejores piscinas desmontables de más de 4 metros disponibles en Amazon España en 2025. También puedes <Link href="/tienda/piscinas-desmontables" className="text-sky-600 hover:underline font-medium">explorar piscinas desmontables en nuestra tienda</Link>.
           </p>
           <p>
             Los precios van desde 300€ para modelos básicos hasta 700€ para los conjuntos más completos. Hemos analizado la resistencia de las paredes, la calidad de la estructura, la depuradora incluida y la facilidad de montaje.
@@ -168,7 +168,7 @@ export default function PiscinaDesmontablePage() {
             </a>
           </div>
 
-          <h3>3. Intex Ultra XTR Frame — La mejor calidad (★★★★½)</h3>
+          <h3>3. <Link href="/tienda/piscinas-desmontables/intex-ultra-xtr-549x274-depuradora" className="text-sky-700 hover:underline">Intex Ultra XTR Frame</Link> — La mejor calidad (★★★★½)</h3>
           <p>
             La <strong>Intex Ultra XTR</strong> es un escalón por encima en calidad: paredes de 3 capas de PVC más grueso, estructura de aluminio más robusta y conexiones mejoradas. Para quien quiere lo mejor y no tiene dudas sobre el presupuesto.
           </p>
@@ -197,6 +197,14 @@ export default function PiscinaDesmontablePage() {
         </div>
 
         <AffiliateDisclosure />
+
+        <div className="mt-6 p-6 bg-blue-50 rounded-xl border border-blue-200">
+          <h3 className="font-bold text-gray-900 mb-2">Ver en nuestra tienda</h3>
+          <p className="text-sm text-gray-600 mb-4">Las mejores piscinas desmontables grandes, seleccionadas y comparadas.</p>
+          <Link href="/tienda/piscinas-desmontables" className="inline-block bg-sky-600 text-white font-semibold px-5 py-3 rounded-xl hover:bg-sky-700 transition-colors">
+            Ver piscinas desmontables →
+          </Link>
+        </div>
 
         <div className="mt-8 p-6 bg-sky-50 rounded-xl border border-sky-100">
           <h3 className="font-bold text-gray-900 mb-3">Completa tu piscina</h3>

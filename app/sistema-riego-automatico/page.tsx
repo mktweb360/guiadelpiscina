@@ -88,7 +88,7 @@ export default function SistemaRiegoPage() {
             Un <strong>sistema de riego automático</strong> libera al propietario de la obligación de regar el jardín manualmente y, lo más importante, garantiza que las plantas reciban el agua adecuada en el momento adecuado. Con los sistemas inteligentes actuales, puedes ahorrar hasta un 50% de agua frente al riego manual.
           </p>
           <p>
-            En esta guía comparamos los <strong>mejores sistemas de riego automático para jardín</strong> disponibles en Amazon España en 2025, desde kits básicos por 35€ hasta controladores inteligentes por 200€.
+            En esta guía comparamos los <strong>mejores sistemas de riego automático para jardín</strong> disponibles en Amazon España en 2025, desde kits básicos por 35€ hasta controladores inteligentes por 200€. Puedes <Link href="/tienda/riego-automatico" className="text-sky-600 hover:underline font-medium">comparar sistemas de riego inteligente en nuestra tienda</Link>.
           </p>
 
           <h2>Comparativa — Mejores sistemas de riego 2025</h2>
@@ -133,7 +133,7 @@ export default function SistemaRiegoPage() {
         <div className="prose">
           <h2>Análisis detallado</h2>
 
-          <h3>1. Gardena Kit básico 75 m² — Mejor para jardines pequeños (★★★★)</h3>
+          <h3>1. <Link href="/tienda/riego-automatico/gardena-smart-set-riego-gateway" className="text-sky-700 hover:underline">Gardena Kit básico 75 m²</Link> — Mejor para jardines pequeños (★★★★)</h3>
           <p>
             El <strong>kit de Gardena</strong> es el punto de entrada perfecto para quien quiere automatizar el riego por primera vez. Incluye todo lo necesario: programador, tuberías, goteros y conectores para cubrir hasta 75 m² de jardín. La calidad Gardena es garantía de durabilidad.
           </p>
@@ -174,6 +174,14 @@ export default function SistemaRiegoPage() {
         </div>
 
         <AffiliateDisclosure />
+
+        <div className="mt-6 p-6 bg-blue-50 rounded-xl border border-blue-200">
+          <h3 className="font-bold text-gray-900 mb-2">Ver en nuestra tienda</h3>
+          <p className="text-sm text-gray-600 mb-4">Los mejores sistemas de riego inteligente para jardín, comparados y analizados.</p>
+          <Link href="/tienda/riego-automatico" className="inline-block bg-sky-600 text-white font-semibold px-5 py-3 rounded-xl hover:bg-sky-700 transition-colors">
+            Ver sistemas de riego →
+          </Link>
+        </div>
 
         <div className="mt-8 p-6 bg-sky-50 rounded-xl border border-sky-100">
           <h3 className="font-bold text-gray-900 mb-3">También te puede interesar</h3>

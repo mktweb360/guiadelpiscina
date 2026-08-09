@@ -251,6 +251,14 @@ export default function TumbonasJardinPage() {
 
         <AffiliateDisclosure />
 
+        <div className="mt-6 p-6 bg-blue-50 rounded-xl border border-blue-200">
+          <h3 className="font-bold text-gray-900 mb-2">Ver en nuestra tienda</h3>
+          <p className="text-sm text-gray-600 mb-4">Las mejores tumbonas y muebles de jardín para tu terraza o piscina.</p>
+          <Link href="/tienda/muebles-jardin" className="inline-block bg-sky-600 text-white font-semibold px-5 py-3 rounded-xl hover:bg-sky-700 transition-colors">
+            Ver tumbonas y muebles de jardín →
+          </Link>
+        </div>
+
         <div className="mt-8 p-6 bg-sky-50 rounded-xl border border-sky-100">
           <h3 className="font-bold text-gray-900 mb-3">También te puede interesar</h3>
           <ul className="space-y-2">

@@ -176,7 +176,7 @@ export default function AguaPiscinaVerdePage() {
           <ol>
             <li><strong>Mide y ajusta el pH</strong> con objetivo de 7,2-7,4, el rango en el que el cloro actúa al máximo de su potencia.</li>
             <li><strong>Aplica cloro de choque</strong> (hipoclorito cálcico o pastillas de choque) hasta alcanzar 3-5 ppm de cloro libre.</li>
-            <li><strong>Activa la depuradora al máximo</strong>, 24 horas continuas, para hacer circular y filtrar todo el agua.</li>
+            <li><strong>Activa la <Link href="/tienda/depuradoras" className="text-sky-700 hover:underline">depuradora de arena</Link> al máximo</strong>, 24 horas continuas, para hacer circular y filtrar todo el agua.</li>
             <li><strong>Cepilla paredes y fondo</strong> para desprender las algas adheridas y exponerlas al cloro.</li>
             <li><strong>Añade algicida (antialgas)</strong> para rematar las algas y frenar su reaparición.</li>
             <li><strong>Espera 24-48 h y comprueba.</strong> Si el agua está turbia pero ya no verde, el tratamiento está funcionando: las algas han muerto y solo falta filtrarlas.</li>
@@ -262,6 +262,14 @@ export default function AguaPiscinaVerdePage() {
         </div>
 
         <AffiliateDisclosure />
+
+        <div className="mt-6 p-6 bg-blue-50 rounded-xl border border-blue-200">
+          <h3 className="font-bold text-gray-900 mb-2">Ver en nuestra tienda</h3>
+          <p className="text-sm text-gray-600 mb-4">Una buena depuradora es la mejor prevención contra el agua verde.</p>
+          <Link href="/tienda/depuradoras" className="inline-block bg-sky-600 text-white font-semibold px-5 py-3 rounded-xl hover:bg-sky-700 transition-colors">
+            Ver depuradoras de piscina →
+          </Link>
+        </div>
 
         <div className="mt-8 p-6 bg-sky-50 rounded-xl border border-sky-100">
           <h3 className="font-bold text-gray-900 mb-3">También te puede interesar</h3>

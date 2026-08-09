@@ -255,7 +255,7 @@ export default function CloradorSalinoPage() {
           <h2>Cómo instalar un clorador salino paso a paso</h2>
           <ol>
             <li><strong>Añade la sal al agua:</strong> disuelve la cantidad recomendada (según el volumen de tu piscina) y espera a que se disuelva por completo.</li>
-            <li><strong>Conecta el clorador a la depuradora:</strong> se instala en la tubería de retorno, después del filtro.</li>
+            <li><strong>Conecta el clorador a la depuradora:</strong> se instala en la tubería de retorno, después del filtro. Necesitas una <Link href="/tienda/depuradoras" className="text-sky-700 hover:underline">depuradora de arena compatible</Link> para conectarlo correctamente.</li>
             <li><strong>Configura las horas de funcionamiento:</strong> ajusta el temporizador para que trabaje en sincronía con la depuradora (habitualmente 8-12 h en verano).</li>
             <li><strong>Primera carga:</strong> deja funcionar el sistema y comprueba a las pocas horas que el nivel de cloro sube al rango 1-3 ppm.</li>
             <li><strong>Mantenimiento mensual:</strong> revisa y limpia la célula de electrólisis para retirar la cal acumulada y prolongar su vida útil.</li>
@@ -311,6 +311,14 @@ export default function CloradorSalinoPage() {
         </div>
 
         <AffiliateDisclosure />
+
+        <div className="mt-6 p-6 bg-blue-50 rounded-xl border border-blue-200">
+          <h3 className="font-bold text-gray-900 mb-2">Ver también</h3>
+          <p className="text-sm text-gray-600 mb-4">El clorador salino necesita una buena depuradora de arena para funcionar óptimamente.</p>
+          <Link href="/tienda/depuradoras" className="inline-block bg-sky-600 text-white font-semibold px-5 py-3 rounded-xl hover:bg-sky-700 transition-colors">
+            Ver depuradoras de arena compatibles →
+          </Link>
+        </div>
 
         <div className="mt-8 p-6 bg-sky-50 rounded-xl border border-sky-100">
           <h3 className="font-bold text-gray-900 mb-3">También te puede interesar</h3>

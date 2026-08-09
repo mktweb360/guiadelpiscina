@@ -88,7 +88,7 @@ export default function PergolaPage() {
             Una <strong>pérgola</strong> transforma cualquier terraza o jardín en un espacio habitable y confortable incluso en los días más calurosos. Ya sea para protegerte del sol, crear un comedor al aire libre o delimitar una zona de descanso junto a la piscina, la pérgola correcta puede multiplicar el valor y el disfrute de tu espacio exterior.
           </p>
           <p>
-            En esta guía comparamos los <strong>mejores modelos de pérgola para terraza y jardín</strong> disponibles en Amazon España en 2025, desde opciones económicas por 150€ hasta bioclimáticas premium por más de 1.000€.
+            En esta guía comparamos los <strong>mejores modelos de pérgola para terraza y jardín</strong> disponibles en Amazon España en 2025, desde opciones económicas por 150€ hasta bioclimáticas premium por más de 1.000€. Puedes <Link href="/tienda/pergolas" className="text-sky-600 hover:underline font-medium">ver pérgolas bioclimáticas en nuestra tienda</Link> con los mejores modelos seleccionados.
           </p>
 
           <h2>Comparativa — Mejores pérgolas 2025</h2>
@@ -148,7 +148,7 @@ export default function PergolaPage() {
             Incluye tela o lona que protege de la lluvia y el sol. La tela se puede retirar en invierno para protegerla. Buen equilibrio entre precio y funcionalidad.
           </p>
 
-          <h3>Pérgola bioclimática</h3>
+          <h3><Link href="/tienda/pergolas/sweeek-triomphe-v2-pergola-bioclimatica" className="text-sky-700 hover:underline">Pérgola bioclimática</Link></h3>
           <p>
             Las más avanzadas: lamas de aluminio orientables que regulan la entrada de luz solar y permiten la ventilación. Algunas incluyen LED integrado, calefactores opcionales y canales para drenaje del agua de lluvia. Perfectas para usar todo el año.
           </p>
@@ -174,6 +174,14 @@ export default function PergolaPage() {
         </div>
 
         <AffiliateDisclosure />
+
+        <div className="mt-6 p-6 bg-blue-50 rounded-xl border border-blue-200">
+          <h3 className="font-bold text-gray-900 mb-2">Ver en nuestra tienda</h3>
+          <p className="text-sm text-gray-600 mb-4">Pérgolas bioclimáticas y de aluminio seleccionadas para terraza y jardín.</p>
+          <Link href="/tienda/pergolas" className="inline-block bg-sky-600 text-white font-semibold px-5 py-3 rounded-xl hover:bg-sky-700 transition-colors">
+            Ver pérgolas →
+          </Link>
+        </div>
 
         <div className="mt-8 p-6 bg-sky-50 rounded-xl border border-sky-100">
           <h3 className="font-bold text-gray-900 mb-3">También te puede interesar</h3>

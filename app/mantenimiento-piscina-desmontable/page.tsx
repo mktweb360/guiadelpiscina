@@ -257,7 +257,7 @@ export default function MantenimientoPiscinaPage() {
               <strong>Filtro de cartucho:</strong> límpialo cada 2 semanas retirando el cartucho y enjuagándolo a fondo con la manguera. Sustitúyelo al menos una vez por temporada, o antes si notas que el caudal de agua ha bajado de forma notable.
             </li>
             <li>
-              <strong>Filtro de arena:</strong> realiza un <strong>retrolavado</strong> (backwash) semanal para expulsar la suciedad acumulada, y cambia la arena de sílex cada 5 años aproximadamente. La arena filtra mejor y es más cómoda a largo plazo, ideal para piscinas medianas y grandes.
+              <strong><Link href="/tienda/depuradoras" className="text-sky-700 hover:underline">Filtro de arena (depuradora de arena)</Link>:</strong> realiza un <strong>retrolavado</strong> (backwash) semanal para expulsar la suciedad acumulada, y cambia la arena de sílex cada 5 años aproximadamente. La arena filtra mejor y es más cómoda a largo plazo, ideal para piscinas medianas y grandes.
             </li>
           </ul>
 
@@ -266,7 +266,7 @@ export default function MantenimientoPiscinaPage() {
             Si vas a mantener la piscina montada durante el invierno (invernada activa), sigue estos pasos al final de la temporada para reencontrarla en buen estado en primavera:
           </p>
           <ol>
-            <li><strong>Limpieza final:</strong> cepilla paredes y fondo y aspira toda la suciedad.</li>
+            <li><strong>Limpieza final:</strong> cepilla paredes y fondo y aspira toda la suciedad (un <Link href="/tienda/robots-limpiafondos" className="text-sky-700 hover:underline">robot limpiafondos</Link> automatiza esta tarea).</li>
             <li><strong>Tratamiento de choque:</strong> aplica una dosis alta de cloro para eliminar cualquier resto de algas o bacterias.</li>
             <li><strong>Bajar el nivel de agua:</strong> por debajo de los skimmers y boquillas para evitar daños por heladas.</li>
             <li><strong>Proteger el filtro:</strong> vacíalo, límpialo y guárdalo en un lugar seco y protegido del frío.</li>
@@ -297,6 +297,19 @@ export default function MantenimientoPiscinaPage() {
         </div>
 
         <AffiliateDisclosure />
+
+        <div className="mt-6 p-6 bg-blue-50 rounded-xl border border-blue-200">
+          <h3 className="font-bold text-gray-900 mb-2">Productos para mantener tu piscina</h3>
+          <p className="text-sm text-gray-600 mb-4">Todo lo que necesitas para la filtración y limpieza de tu piscina desmontable.</p>
+          <div className="flex flex-wrap gap-3">
+            <Link href="/tienda/depuradoras" className="inline-block bg-sky-600 text-white font-semibold px-4 py-2 rounded-xl hover:bg-sky-700 transition-colors text-sm">
+              Ver depuradoras →
+            </Link>
+            <Link href="/tienda/robots-limpiafondos" className="inline-block bg-sky-600 text-white font-semibold px-4 py-2 rounded-xl hover:bg-sky-700 transition-colors text-sm">
+              Ver robots limpiafondos →
+            </Link>
+          </div>
+        </div>
 
         <div className="mt-8 p-6 bg-sky-50 rounded-xl border border-sky-100">
           <h3 className="font-bold text-gray-900 mb-3">También te puede interesar</h3>

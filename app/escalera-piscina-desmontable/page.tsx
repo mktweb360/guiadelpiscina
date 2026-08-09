@@ -137,7 +137,7 @@ export default function EscaleraPiscinaPage() {
         <div className="prose">
           <h2>¿Por qué es imprescindible una escalera en la piscina desmontable?</h2>
           <p>
-            Una escalera no es un accesorio opcional: es un elemento de <strong>seguridad</strong> imprescindible en cualquier piscina desmontable. Permite entrar y salir del agua sin riesgo de caídas, y es prácticamente obligatoria en piscinas de más de 60 cm de altura, especialmente si hay niños.
+            Una escalera no es un accesorio opcional: es un elemento de <strong>seguridad</strong> imprescindible en cualquier <Link href="/tienda/piscinas-desmontables" className="text-sky-700 hover:underline">piscina desmontable</Link> (que incluyen escalera). Permite entrar y salir del agua sin riesgo de caídas, y es prácticamente obligatoria en piscinas de más de 60 cm de altura, especialmente si hay niños.
           </p>
           <p>
             Además, evita un problema muy común: <strong>apoyarse en el borde de la piscina para salir</strong>, lo que fuerza la estructura y puede dañar el liner con el tiempo. Con una buena escalera, la piscina dura más y el baño es mucho más seguro.
@@ -253,6 +253,14 @@ export default function EscaleraPiscinaPage() {
         </div>
 
         <AffiliateDisclosure />
+
+        <div className="mt-6 p-6 bg-blue-50 rounded-xl border border-blue-200">
+          <h3 className="font-bold text-gray-900 mb-2">Ver también</h3>
+          <p className="text-sm text-gray-600 mb-4">Muchos conjuntos de piscinas desmontables incluyen escalera. Compara aquí.</p>
+          <Link href="/tienda/piscinas-desmontables" className="inline-block bg-sky-600 text-white font-semibold px-5 py-3 rounded-xl hover:bg-sky-700 transition-colors">
+            Ver piscinas desmontables con escalera →
+          </Link>
+        </div>
 
         <div className="mt-8 p-6 bg-sky-50 rounded-xl border border-sky-100">
           <h3 className="font-bold text-gray-900 mb-3">También te puede interesar</h3>

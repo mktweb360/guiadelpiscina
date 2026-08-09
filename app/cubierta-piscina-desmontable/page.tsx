@@ -152,7 +152,7 @@ export default function CubiertaPiscinaPage() {
 
           <h3>Manta isotérmica — La más eficiente para alargar la temporada</h3>
           <p>
-            Fabricada en espuma de polietileno de celda cerrada de 400 micras, retiene el calor generado durante el día e impide que se pierda por la noche. Usada junto a una <strong>bomba de calor</strong> es la combinación más eficaz: la bomba calienta y la manta conserva.
+            Fabricada en espuma de polietileno de celda cerrada de 400 micras, retiene el calor generado durante el día e impide que se pierda por la noche. Usada junto a una <strong><Link href="/tienda/bombas-calor" className="text-sky-700 hover:underline">bomba de calor para piscina</Link></strong> es la combinación más eficaz: la bomba calienta y la manta conserva.
           </p>
 
           <h2>Comparativa de los 3 mejores cobertores para piscina</h2>
@@ -266,6 +266,14 @@ export default function CubiertaPiscinaPage() {
         </div>
 
         <AffiliateDisclosure />
+
+        <div className="mt-6 p-6 bg-blue-50 rounded-xl border border-blue-200">
+          <h3 className="font-bold text-gray-900 mb-2">Ver también</h3>
+          <p className="text-sm text-gray-600 mb-4">La cubierta retiene el calor; la bomba lo genera. La combinación perfecta.</p>
+          <Link href="/tienda/bombas-calor" className="inline-block bg-sky-600 text-white font-semibold px-5 py-3 rounded-xl hover:bg-sky-700 transition-colors">
+            Ver bombas de calor para piscina →
+          </Link>
+        </div>
 
         <div className="mt-8 p-6 bg-sky-50 rounded-xl border border-sky-100">
           <h3 className="font-bold text-gray-900 mb-3">También te puede interesar</h3>
