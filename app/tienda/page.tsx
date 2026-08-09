@@ -46,96 +46,138 @@ export default function TiendaPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
 
       {/* Breadcrumb */}
-      <nav className="max-w-6xl mx-auto px-4 py-3 text-sm text-gray-500">
+      <nav className="max-w-7xl mx-auto px-4 py-3 text-sm text-gray-500">
         <Link href="/" className="hover:text-sky-600">Inicio</Link>
         <span className="mx-2">/</span>
         <span className="text-gray-800 font-medium">Tienda</span>
       </nav>
 
-      {/* Hero */}
-      <section className="bg-gradient-to-br from-sky-600 to-sky-800 text-white py-14 px-4">
-        <div className="max-w-4xl mx-auto text-center">
-          <h1 className="text-3xl md:text-4xl font-extrabold mb-4 leading-tight">
-            Tienda — Los mejores productos para tu piscina y jardín
-          </h1>
-          <p className="text-sky-100 text-lg mb-6">
-            Comparativas honestas y precios actualizados. Compra en Amazon con total confianza.
-          </p>
+      {/* Mobile: category pills */}
+      <div className="md:hidden px-4 pb-4 overflow-x-auto">
+        <div className="flex gap-2 w-max">
+          {categoriesWithCount.map((cat) => (
+            <Link
+              key={cat.slug}
+              href={`/tienda/${cat.slug}`}
+              className="flex items-center gap-1.5 whitespace-nowrap bg-white border border-gray-200 rounded-full px-3 py-1.5 text-sm font-medium text-gray-700 hover:border-sky-400 hover:text-sky-600 transition-colors"
+            >
+              <span>{cat.icon}</span>
+              <span>{cat.name}</span>
+              <span className="text-xs text-gray-400">({cat.count})</span>
+            </Link>
+          ))}
         </div>
-      </section>
+      </div>
 
-      {/* Category grid */}
-      <section className="py-14 px-4 bg-gray-50">
-        <div className="max-w-6xl mx-auto">
-          <h2 className="text-2xl font-bold text-gray-900 mb-2">Categorías</h2>
-          <p className="text-gray-500 mb-8">Elige tu categoría y encuentra el producto perfecto</p>
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
-            {categoriesWithCount.map((cat) => (
-              <Link
-                key={cat.slug}
-                href={`/tienda/${cat.slug}`}
-                className="bg-white rounded-xl border border-gray-100 p-5 hover:shadow-lg hover:border-sky-200 transition-all group"
-              >
-                <div className="text-3xl mb-2">{cat.icon}</div>
-                <h3 className="font-bold text-gray-900 mb-1 group-hover:text-sky-600 transition-colors text-sm leading-snug">
-                  {cat.name}
-                </h3>
-                <p className="text-xs text-gray-500 mb-3">{cat.description}</p>
-                <div className="flex items-center justify-between">
-                  <span className="text-xs font-semibold text-sky-600 bg-sky-50 px-2 py-1 rounded-full">
-                    Ver categoría →
+      {/* Main layout */}
+      <div className="max-w-7xl mx-auto px-4 pb-12 flex gap-8 items-start">
+
+        {/* Sidebar */}
+        <aside className="hidden md:block w-56 lg:w-64 flex-shrink-0 sticky top-4">
+          <div className="bg-white rounded-xl border border-gray-100 overflow-hidden shadow-sm">
+            <div className="bg-sky-600 px-4 py-3">
+              <span className="text-white font-semibold text-sm uppercase tracking-wide">Categorías</span>
+            </div>
+            <nav className="divide-y divide-gray-50">
+              {categoriesWithCount.map((cat) => (
+                <Link
+                  key={cat.slug}
+                  href={`/tienda/${cat.slug}`}
+                  className="flex items-center gap-3 px-4 py-3 hover:bg-sky-50 hover:text-sky-700 transition-colors group"
+                >
+                  <span className="text-xl leading-none">{cat.icon}</span>
+                  <span className="flex-1 text-sm font-medium text-gray-700 group-hover:text-sky-700 leading-tight">
+                    {cat.name}
                   </span>
-                  <span className="text-xs text-gray-400">{cat.count} productos</span>
-                </div>
-              </Link>
-            ))}
+                  <span className="text-xs text-gray-400 bg-gray-100 rounded-full px-1.5 py-0.5 group-hover:bg-sky-100 group-hover:text-sky-600 transition-colors">
+                    {cat.count}
+                  </span>
+                </Link>
+              ))}
+            </nav>
           </div>
-        </div>
-      </section>
+        </aside>
 
-      {/* Featured products */}
-      <section className="py-14 px-4">
-        <div className="max-w-6xl mx-auto">
-          <h2 className="text-2xl font-bold text-gray-900 mb-2">Productos destacados</h2>
-          <p className="text-gray-500 mb-8">Los mejor valorados por nuestros lectores</p>
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-            {featured.map((product) => (
-              <div
-                key={product.slug}
-                className="border border-gray-100 rounded-xl p-5 hover:shadow-md transition-all flex flex-col"
-              >
-                <div className="flex items-start justify-between mb-2">
-                  <span className="text-xs font-semibold text-gray-500 uppercase tracking-wide">
-                    {product.categoryName}
-                  </span>
-                  {product.badge && (
-                    <span className="text-xs font-bold text-orange-600 bg-orange-50 px-2 py-0.5 rounded-full">
-                      {product.badge}
+        {/* Main content */}
+        <main className="flex-1 min-w-0">
+          {/* Page header */}
+          <div className="mb-6">
+            <h1 className="text-2xl font-extrabold text-gray-900 mb-1">
+              Productos para piscina y jardín
+            </h1>
+            <p className="text-gray-500 text-sm">
+              Comparativas honestas y análisis detallados. Elige con confianza.
+            </p>
+          </div>
+
+          {/* Category cards grid */}
+          <section className="mb-10">
+            <h2 className="text-base font-bold text-gray-700 uppercase tracking-wide mb-4">Todas las categorías</h2>
+            <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-4">
+              {categoriesWithCount.map((cat) => (
+                <Link
+                  key={cat.slug}
+                  href={`/tienda/${cat.slug}`}
+                  className="bg-white rounded-xl border border-gray-100 p-4 hover:shadow-md hover:border-sky-200 transition-all group flex items-start gap-3"
+                >
+                  <span className="text-2xl leading-none mt-0.5">{cat.icon}</span>
+                  <div className="flex-1 min-w-0">
+                    <h3 className="font-bold text-gray-900 text-sm leading-snug group-hover:text-sky-600 transition-colors mb-0.5">
+                      {cat.name}
+                    </h3>
+                    <p className="text-xs text-gray-500 mb-2 line-clamp-1">{cat.description}</p>
+                    <div className="flex items-center justify-between">
+                      <span className="text-xs font-semibold text-sky-600">
+                        Ver categoría →
+                      </span>
+                      <span className="text-xs text-gray-400">{cat.count} productos</span>
+                    </div>
+                  </div>
+                </Link>
+              ))}
+            </div>
+          </section>
+
+          {/* Featured products */}
+          <section>
+            <h2 className="text-base font-bold text-gray-700 uppercase tracking-wide mb-4">Productos destacados</h2>
+            <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-5">
+              {featured.map((product) => (
+                <div
+                  key={product.slug}
+                  className="border border-gray-100 rounded-xl p-4 hover:shadow-md transition-all flex flex-col bg-white"
+                >
+                  <div className="flex items-start justify-between mb-2">
+                    <span className="text-xs font-semibold text-gray-400 uppercase tracking-wide">
+                      {product.categoryName}
                     </span>
-                  )}
+                    {product.badge && (
+                      <span className="text-xs font-bold text-orange-600 bg-orange-50 px-2 py-0.5 rounded-full whitespace-nowrap">
+                        {product.badge}
+                      </span>
+                    )}
+                  </div>
+                  <h3 className="font-bold text-gray-900 mb-1 leading-snug text-sm">{product.name}</h3>
+                  <p className="text-xs text-gray-500 mb-3 flex-grow">{product.shortDescription}</p>
+                  <div className="pt-3 border-t border-gray-50 flex items-center justify-end">
+                    <Link
+                      href={`/tienda/${product.categorySlug}/${product.slug}`}
+                      className="text-sm font-semibold text-sky-600 hover:text-sky-700"
+                    >
+                      Ver producto →
+                    </Link>
+                  </div>
                 </div>
-                <h3 className="font-bold text-gray-900 mb-1 leading-snug">{product.name}</h3>
-                <p className="text-sm text-gray-500 mb-3 flex-grow">{product.shortDescription}</p>
-                <div className="mt-3 flex items-center justify-end">
-                  <Link
-                    href={`/tienda/${product.categorySlug}/${product.slug}`}
-                    className="text-sm font-semibold text-sky-600 hover:text-sky-700"
-                  >
-                    Ver producto →
-                  </Link>
-                </div>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
+              ))}
+            </div>
+          </section>
 
-      {/* Affiliate disclaimer */}
-      <section className="py-6 px-4 bg-gray-50 border-t border-gray-100">
-        <div className="max-w-3xl mx-auto text-center text-xs text-gray-400">
-          Como Asociado de Amazon obtenemos una pequeña comisión en cada compra realizada a través de nuestros enlaces, sin coste adicional para ti. Los precios y disponibilidad se muestran directamente en Amazon.
-        </div>
-      </section>
+          {/* Affiliate footnote */}
+          <p className="text-xs text-gray-400 mt-10 pl-3 border-l-2 border-gray-200">
+            Como Asociado de Amazon obtenemos una pequeña comisión en cada compra realizada a través de nuestros enlaces, sin coste adicional para ti. Los precios y disponibilidad se muestran directamente en Amazon.
+          </p>
+        </main>
+      </div>
     </>
   );
 }

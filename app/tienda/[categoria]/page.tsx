@@ -130,13 +130,18 @@ export default async function CategoryPage({
     })),
   };
 
+  const categoriesWithCount = categories.map((c) => ({
+    ...c,
+    count: getProductsByCategory(c.slug).length,
+  }));
+
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(itemListSchema) }} />
 
       {/* Breadcrumb */}
-      <nav className="max-w-6xl mx-auto px-4 py-3 text-sm text-gray-500">
+      <nav className="max-w-7xl mx-auto px-4 py-3 text-sm text-gray-500">
         <Link href="/" className="hover:text-sky-600">Inicio</Link>
         <span className="mx-2">/</span>
         <Link href="/tienda" className="hover:text-sky-600">Tienda</Link>
@@ -144,36 +149,107 @@ export default async function CategoryPage({
         <span className="text-gray-800 font-medium">{cat.name}</span>
       </nav>
 
-      {/* Header */}
-      <section className="bg-gradient-to-br from-sky-50 to-sky-100 py-10 px-4 border-b border-sky-200">
-        <div className="max-w-4xl mx-auto">
-          <div className="flex items-center gap-3 mb-2">
-            <span className="text-4xl">{cat.icon}</span>
-            <h1 className="text-3xl md:text-4xl font-extrabold text-gray-900">
-              {cat.name} — Guía de compra y comparativa 2025
-            </h1>
-          </div>
-          <p className="text-gray-600 mt-2">{cat.description} · {catProducts.length} productos analizados</p>
+      {/* Mobile: category pills */}
+      <div className="md:hidden px-4 pb-4 overflow-x-auto">
+        <div className="flex gap-2 w-max">
+          {categoriesWithCount.map((c) => (
+            <Link
+              key={c.slug}
+              href={`/tienda/${c.slug}`}
+              className={`flex items-center gap-1.5 whitespace-nowrap border rounded-full px-3 py-1.5 text-sm font-medium transition-colors ${
+                c.slug === categoria
+                  ? "bg-sky-600 border-sky-600 text-white"
+                  : "bg-white border-gray-200 text-gray-700 hover:border-sky-400 hover:text-sky-600"
+              }`}
+            >
+              <span>{c.icon}</span>
+              <span>{c.name}</span>
+              <span className={`text-xs ${c.slug === categoria ? "text-sky-100" : "text-gray-400"}`}>({c.count})</span>
+            </Link>
+          ))}
         </div>
-      </section>
+      </div>
 
-      {/* Product grid */}
-      <section className="py-12 px-4">
-        <div className="max-w-6xl mx-auto">
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {catProducts.map((product) => (
-              <div key={product.slug} className="border border-gray-100 rounded-xl p-5 hover:shadow-md transition-all flex flex-col">
-                <div className="flex items-start justify-between mb-2">
-                  {product.badge && (
-                    <span className="text-xs font-bold text-orange-600 bg-orange-50 px-2 py-0.5 rounded-full">
-                      {product.badge}
+      {/* Main layout */}
+      <div className="max-w-7xl mx-auto px-4 pb-12 flex gap-8 items-start">
+
+        {/* Sidebar */}
+        <aside className="hidden md:block w-56 lg:w-64 flex-shrink-0 sticky top-4">
+          <div className="bg-white rounded-xl border border-gray-100 overflow-hidden shadow-sm">
+            <div className="bg-sky-600 px-4 py-3">
+              <span className="text-white font-semibold text-sm uppercase tracking-wide">Categorías</span>
+            </div>
+            <nav className="divide-y divide-gray-50">
+              {categoriesWithCount.map((c) => {
+                const isActive = c.slug === categoria;
+                return (
+                  <Link
+                    key={c.slug}
+                    href={`/tienda/${c.slug}`}
+                    className={`flex items-center gap-3 px-4 py-3 transition-colors group ${
+                      isActive
+                        ? "bg-sky-50 text-sky-700"
+                        : "hover:bg-sky-50 hover:text-sky-700"
+                    }`}
+                  >
+                    <span className="text-xl leading-none">{c.icon}</span>
+                    <span className={`flex-1 text-sm font-medium leading-tight ${
+                      isActive ? "text-sky-700 font-semibold" : "text-gray-700 group-hover:text-sky-700"
+                    }`}>
+                      {c.name}
                     </span>
-                  )}
-                </div>
-                <h2 className="font-bold text-gray-900 mb-2 leading-snug">{product.name}</h2>
-                <p className="text-sm text-gray-500 mb-3 flex-grow">{product.shortDescription}</p>
-                <div className="mt-4 pt-4 border-t border-gray-50 flex items-center justify-end">
-                  <div className="flex gap-2">
+                    <span className={`text-xs rounded-full px-1.5 py-0.5 transition-colors ${
+                      isActive
+                        ? "bg-sky-600 text-white"
+                        : "bg-gray-100 text-gray-400 group-hover:bg-sky-100 group-hover:text-sky-600"
+                    }`}>
+                      {c.count}
+                    </span>
+                  </Link>
+                );
+              })}
+            </nav>
+          </div>
+        </aside>
+
+        {/* Main content */}
+        <main className="flex-1 min-w-0">
+          {/* Compact category header */}
+          <div className="mb-6 flex items-start gap-3">
+            <span className="text-3xl leading-none mt-0.5">{cat.icon}</span>
+            <div>
+              <h1 className="text-2xl font-extrabold text-gray-900 leading-tight">
+                {cat.name} — Guía de compra y comparativa 2025
+              </h1>
+              <p className="text-gray-500 text-sm mt-1">{cat.description}</p>
+            </div>
+          </div>
+
+          {/* Product count bar */}
+          <div className="flex items-center justify-between mb-4 py-2 border-b border-gray-100">
+            <span className="text-sm text-gray-500">
+              <span className="font-semibold text-gray-800">{catProducts.length}</span> productos analizados
+            </span>
+          </div>
+
+          {/* Product grid */}
+          <section className="mb-10">
+            <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-5">
+              {catProducts.map((product) => (
+                <div key={product.slug} className="border border-gray-100 rounded-xl p-4 hover:shadow-md transition-all flex flex-col bg-white">
+                  <div className="flex items-start justify-between mb-2">
+                    <span className="text-xs font-semibold text-gray-400 uppercase tracking-wide">
+                      {product.categoryName}
+                    </span>
+                    {product.badge && (
+                      <span className="text-xs font-bold text-orange-600 bg-orange-50 px-2 py-0.5 rounded-full whitespace-nowrap">
+                        {product.badge}
+                      </span>
+                    )}
+                  </div>
+                  <h2 className="font-bold text-gray-900 mb-1 leading-snug text-sm">{product.name}</h2>
+                  <p className="text-xs text-gray-500 mb-3 flex-grow">{product.shortDescription}</p>
+                  <div className="pt-3 border-t border-gray-50 flex items-center justify-between">
                     <Link
                       href={`/tienda/${categoria}/${product.slug}`}
                       className="text-sm font-semibold text-sky-600 hover:text-sky-700"
@@ -184,49 +260,50 @@ export default async function CategoryPage({
                       href={amazonLink(product.asin)}
                       target="_blank"
                       rel="nofollow noopener noreferrer sponsored"
-                      className="text-sm font-semibold bg-orange-500 text-white px-3 py-1 rounded-lg hover:bg-orange-600 transition-colors"
+                      className="text-xs font-semibold bg-orange-500 text-white px-2.5 py-1 rounded-lg hover:bg-orange-600 transition-colors"
                     >
                       Amazon →
                     </a>
                   </div>
                 </div>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* Buying guide */}
-      {guide && (
-        <section className="py-12 px-4 bg-gray-50 border-t border-gray-100">
-          <div className="max-w-3xl mx-auto">
-            <h2 className="text-2xl font-bold text-gray-900 mb-6">Guía de compra: cómo elegir {cat.name.toLowerCase()}</h2>
-            <div className="space-y-4 text-gray-700 leading-relaxed">
-              <p>{guide.p1}</p>
-              <p>{guide.p2}</p>
-              <p>{guide.p3}</p>
-            </div>
-          </div>
-        </section>
-      )}
-
-      {/* Related articles */}
-      {articles.length > 0 && (
-        <section className="py-10 px-4">
-          <div className="max-w-3xl mx-auto">
-            <h2 className="text-lg font-bold text-gray-800 mb-4">Artículos relacionados</h2>
-            <ul className="space-y-2">
-              {articles.map((art) => (
-                <li key={art.href}>
-                  <Link href={art.href} className="text-sky-600 hover:underline font-medium">
-                    {art.title} →
-                  </Link>
-                </li>
               ))}
-            </ul>
-          </div>
-        </section>
-      )}
+            </div>
+          </section>
+
+          {/* Buying guide */}
+          {guide && (
+            <section className="mb-8 bg-gray-50 rounded-xl p-5 border border-gray-100">
+              <h2 className="text-lg font-bold text-gray-900 mb-4">Guía de compra: cómo elegir {cat.name.toLowerCase()}</h2>
+              <div className="space-y-3 text-sm text-gray-700 leading-relaxed">
+                <p>{guide.p1}</p>
+                <p>{guide.p2}</p>
+                <p>{guide.p3}</p>
+              </div>
+            </section>
+          )}
+
+          {/* Related articles */}
+          {articles.length > 0 && (
+            <section className="mb-8">
+              <h2 className="text-base font-bold text-gray-800 mb-3">Artículos relacionados</h2>
+              <ul className="space-y-2">
+                {articles.map((art) => (
+                  <li key={art.href}>
+                    <Link href={art.href} className="text-sky-600 hover:underline font-medium text-sm">
+                      {art.title} →
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            </section>
+          )}
+
+          {/* Affiliate footnote */}
+          <p className="text-xs text-gray-400 mt-6 pl-3 border-l-2 border-gray-200">
+            Este artículo contiene enlaces de afiliado a Amazon.es. Si compras a través de ellos recibimos una pequeña comisión, sin coste adicional para ti.
+          </p>
+        </main>
+      </div>
     </>
   );
 }
