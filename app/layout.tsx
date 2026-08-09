@@ -70,6 +70,12 @@ export default function RootLayout({
   return (
     <html lang="es" className={`${geistSans.variable} h-full antialiased`}>
       <head>
+        {/* CWV: Preconnect to AdSense — opens TCP early so the script loads
+            faster the moment the user gives consent in the cookie banner.      */}
+        <link rel="preconnect" href="https://pagead2.googlesyndication.com" />
+        <link rel="dns-prefetch" href="https://pagead2.googlesyndication.com" />
+        <link rel="dns-prefetch" href="https://googleads.g.doubleclick.net" />
+
         {/* Google Consent Mode v2 — todo denegado por defecto hasta que el
             usuario decida en el banner de cookies (CookieBanner) */}
         <Script
