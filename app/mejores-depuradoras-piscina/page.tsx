@@ -3,6 +3,7 @@ import Link from "next/link";
 import { amazonLink } from "@/lib/amazon";
 import AffiliateDisclosure from "@/components/AffiliateDisclosure";
 import AdSenseAd from "@/components/AdSenseAd";
+import BlogSidebar from "@/components/BlogSidebar";
 
 export const metadata: Metadata = {
   title: "Las 5 mejores depuradoras para piscina en 2025 — Análisis y comparativa",
@@ -81,7 +82,9 @@ export default function DepuradorasPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
 
-      <article className="max-w-4xl mx-auto px-4 py-10">
+      <div className="max-w-6xl mx-auto px-4 py-10">
+      <div className="lg:grid lg:grid-cols-[1fr_280px] lg:gap-10 lg:items-start">
+        <article>
         {/* Breadcrumb */}
         <nav className="text-sm text-gray-400 mb-6">
           <Link href="/" className="hover:text-sky-600">Inicio</Link>
@@ -291,6 +294,9 @@ export default function DepuradorasPage() {
           </ul>
         </div>
       </article>
+        <BlogSidebar ctaHref="/tienda" ctaText="Ver productos recomendados" />
+      </div>
+    </div>
     </>
   );
 }
