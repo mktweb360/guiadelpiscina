@@ -3,10 +3,15 @@ import type { Product } from "@/data/products";
 
 
 const CATEGORY_IMAGES: Record<string, string> = {
-  "productos-quimicos": "/images/products/productos-quimicos.jpg",
-  "bombas-filtros": "/images/products/bombas-filtros.jpg",
-  "limpiafondos": "/images/products/limpiafondos.jpg",
-  "accesorios": "/images/products/accesorios.jpg",
+  "depuradoras": "/images/products/depuradoras.jpg",
+  "robots-limpiafondos": "/images/products/robots-limpiafondos.jpg",
+  "bombas-calor": "/images/products/bombas-calor.jpg",
+  "muebles-jardin": "/images/products/muebles-jardin.jpg",
+  "piscinas-desmontables": "/images/products/piscinas-desmontables.jpg",
+  "pergolas": "/images/products/pergolas.jpg",
+  "riego-automatico": "/images/products/riego-automatico.jpg",
+  "tratamiento-agua": "/images/products/tratamiento-agua.jpg",
+  "cesped-artificial": "/images/products/cesped-artificial.jpg",
 };
 
 interface Props {
