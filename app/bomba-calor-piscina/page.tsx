@@ -253,5 +253,13 @@ export default function BombaCalorPage() {
       </div>
     </div>
     </>
+
+      <div className="mt-8 pt-4 border-t border-gray-100 max-w-3xl mx-auto px-4 sm:px-6">
+        <p className="text-xs text-gray-400 font-medium mb-1">Referencias</p>
+        <ul className="space-y-0.5">
+          <li><a href="https://www.idae.es" target="_blank" rel="noopener" className="text-xs text-gray-400 hover:text-gray-500 underline transition-colors">IDAE — Guía de bombas de calor y eficiencia energética</a></li>
+          <li><a href="https://energia.gob.es/eficiencia/Paginas/Index.aspx" target="_blank" rel="noopener" className="text-xs text-gray-400 hover:text-gray-500 underline transition-colors">MINCOTUR — Eficiencia energética en instalaciones</a></li>
+        </ul>
+      </div>
   );
 }

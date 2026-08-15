@@ -260,5 +260,13 @@ export default function ComoAbrirPiscinaPage() {
       </div>
     </div>
     </>
+
+      <div className="mt-8 pt-4 border-t border-gray-100 max-w-3xl mx-auto px-4 sm:px-6">
+        <p className="text-xs text-gray-400 font-medium mb-1">Referencias</p>
+        <ul className="space-y-0.5">
+          <li><a href="https://www.sanidad.gob.es/ciudadanos/saludAmbLaboral/agenBiologicos/aguasRec.htm" target="_blank" rel="noopener" className="text-xs text-gray-400 hover:text-gray-500 underline transition-colors">Ministerio de Sanidad — Apertura y mantenimiento de piscinas</a></li>
+          <li><a href="https://www.aesan.gob.es" target="_blank" rel="noopener" className="text-xs text-gray-400 hover:text-gray-500 underline transition-colors">AESAN — Seguridad en instalaciones acuáticas</a></li>
+        </ul>
+      </div>
   );
 }

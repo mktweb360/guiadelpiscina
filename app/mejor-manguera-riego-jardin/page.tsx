@@ -335,5 +335,13 @@ export default function MangueraRiegoPage() {
       </div>
     </div>
     </>
+
+      <div className="mt-8 pt-4 border-t border-gray-100 max-w-3xl mx-auto px-4 sm:px-6">
+        <p className="text-xs text-gray-400 font-medium mb-1">Referencias</p>
+        <ul className="space-y-0.5">
+          <li><a href="https://www.mapa.gob.es/es/agua/temas/gestion-sostenible/" target="_blank" rel="noopener" className="text-xs text-gray-400 hover:text-gray-500 underline transition-colors">MAPA — Guía de uso eficiente del agua en jardines</a></li>
+          <li><a href="https://www.aemet.es/es/portada" target="_blank" rel="noopener" className="text-xs text-gray-400 hover:text-gray-500 underline transition-colors">AEMET — Recomendaciones de riego según clima</a></li>
+        </ul>
+      </div>
   );
 }
