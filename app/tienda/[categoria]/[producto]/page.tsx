@@ -291,7 +291,7 @@ export default async function ProductPage({
                 rel="nofollow noopener noreferrer sponsored"
                 className="flex items-center justify-center gap-2 w-full px-6 py-3.5 bg-orange-500 hover:bg-orange-600 text-white font-bold rounded-xl transition-colors text-base"
               >
-                🛒 Comprar en Amazon →
+                🛒 Ver oferta actualizada →
               </a>
               <Link
                 href={`/tienda/${categoria}`}
@@ -455,7 +455,7 @@ export default async function ProductPage({
               rel="nofollow noopener noreferrer sponsored"
               className="inline-flex items-center gap-2 px-8 py-3.5 bg-orange-500 hover:bg-orange-400 text-white font-extrabold rounded-xl transition-colors text-base shadow-lg whitespace-nowrap"
             >
-              🛒 Ver precio en Amazon →
+              🛒 Ver oferta actualizada →
             </a>
             <p className="text-sky-200 text-xs">Enlace de afiliado · Sin coste adicional para ti</p>
           </div>

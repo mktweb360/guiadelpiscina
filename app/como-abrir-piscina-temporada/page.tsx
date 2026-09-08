@@ -253,13 +253,13 @@ export default function ComoAbrirPiscinaPage() {
             <li><Link href="/algas-piscina" className="text-sky-600 hover:underline">→ Algas en la piscina: cómo eliminarlas y evitar que vuelvan</Link></li>
             <li><Link href="/floculante-piscina" className="text-sky-600 hover:underline">→ Floculante para piscina: cuándo usarlo y cómo aplicarlo</Link></li>
             <li><Link href="/mantenimiento-piscina-desmontable" className="text-sky-600 hover:underline">→ Guía de mantenimiento de piscinas desmontables</Link></li>
+            <li><Link href="/como-cerrar-piscina-invierno" className="text-sky-600 hover:underline">→ Cómo cerrar la piscina para el invierno: guía completa</Link></li>
           </ul>
         </div>
       </article>
         <BlogSidebar ctaHref="/tienda" ctaText="Ver productos recomendados" />
       </div>
     </div>
-    </>
 
       <div className="mt-8 pt-4 border-t border-gray-100 max-w-3xl mx-auto px-4 sm:px-6">
         <p className="text-xs text-gray-400 font-medium mb-1">Referencias</p>
@@ -268,5 +268,6 @@ export default function ComoAbrirPiscinaPage() {
           <li><a href="https://www.aesan.gob.es" target="_blank" rel="noopener" className="text-xs text-gray-400 hover:text-gray-500 underline transition-colors">AESAN — Seguridad en instalaciones acuáticas</a></li>
         </ul>
       </div>
+    </>
   );
 }

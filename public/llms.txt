@@ -23,6 +23,7 @@ Categorías disponibles con fichas de producto individuales:
 - Piscinas desmontables: https://www.guiadelpiscina.com/tienda/piscinas-desmontables — Piscinas elevadas para adultos, 300-800€
 - Pérgolas: https://www.guiadelpiscina.com/tienda/pergolas — Pérgolas de aluminio, madera y bioclimáticas, 150-1.500€
 - Riego automático: https://www.guiadelpiscina.com/tienda/riego-automatico — Programadores y kits de riego, 30-300€
+- Tratamiento del agua: https://www.guiadelpiscina.com/tienda/tratamiento-agua — Cloro, pH, alguicidas y floculantes, 10-30€
 - Césped artificial: https://www.guiadelpiscina.com/tienda/cesped-artificial — Césped artificial UV, 5-25€/m²
 
 ## Artículos publicados
@@ -33,11 +34,18 @@ Categorías disponibles con fichas de producto individuales:
 - [pH de la piscina: qué es, cómo medirlo y cómo corregirlo](https://www.guiadelpiscina.com/ph-piscina) — Rango ideal 7,2-7,6, tiras reactivas, medidor digital, pH+ y pH-
 - [Mejor clorador salino para piscina 2025](https://www.guiadelpiscina.com/mejor-clorador-salino-piscina) — Comparativa Intex vs Bestway, guía de sal por volumen, 70-150€
 - [Mejor cubierta para piscina desmontable 2025](https://www.guiadelpiscina.com/cubierta-piscina-desmontable) — Cobertores de invierno, solares y mantas térmicas, Bestway e Intex, 12-25€
+- [Cómo cerrar la piscina para el invierno — Guía completa 2026](https://www.guiadelpiscina.com/como-cerrar-piscina-invierno) — Tratamiento de choque, algicida de invierno, protección del equipo y comparativa de cubiertas
+- [Invernaje activo o pasivo en la piscina — Cuál elegir 2026](https://www.guiadelpiscina.com/invernaje-activo-o-pasivo-piscina) — Comparativa activo vs pasivo, criterios según clima, guía paso a paso de ambos métodos
+- [Algas en la piscina: cómo eliminarlas y evitar que vuelvan (2025)](https://www.guiadelpiscina.com/algas-piscina) — Algas verdes, negras y mostaza, tratamiento de choque y prevención
+- [¿Cuánto cloro echar en piscina? Dosis exactas por litros (2025)](https://www.guiadelpiscina.com/cuanto-cloro-echar-piscina) — Dosis de mantenimiento, choque y corrección con tablas
+- [Floculante para piscina: cuándo usarlo y cómo aplicarlo (2025)](https://www.guiadelpiscina.com/floculante-piscina) — Diferencia con el clarificante, aplicación paso a paso
+- [Cómo abrir la piscina para el verano — Guía completa 2025](https://www.guiadelpiscina.com/como-abrir-piscina-temporada) — 7 pasos: revisión del equipo, limpieza, tratamiento del agua
 
 ### Depuración y limpieza
 - [Las 5 mejores depuradoras para piscina en 2025](https://www.guiadelpiscina.com/mejores-depuradoras-piscina) — Depuradoras de arena y cartucho, 89-200€
 - [Mejores robots limpiafondos para piscina 2025](https://www.guiadelpiscina.com/robot-limpiafondos-piscina) — Robots Dolphin, Bestway y Zodiac, 250-600€
 - [Mejor escalera para piscina desmontable 2025](https://www.guiadelpiscina.com/escalera-piscina-desmontable) — Intex vs Bestway, guía por altura de piscina, 35-55€
+- [Skimmer de piscina: qué es y cuándo interesa uno automático solar (2026)](https://www.guiadelpiscina.com/skimmer-piscina-automatico-solar) — Skimmer fijo vs robot skimmer solar, complementario al robot de fondo
 
 ### Climatización
 - [Bomba de calor para piscina: las mejores opciones 2025](https://www.guiadelpiscina.com/bomba-calor-piscina) — Gre y Poolex Full Inverter, 500-1.500€
@@ -56,6 +64,10 @@ Categorías disponibles con fichas de producto individuales:
 - [Mejor manguera de riego para jardín 2025](https://www.guiadelpiscina.com/mejor-manguera-riego-jardin) — HOMEPROTEK y Hozelock extensibles, 15-30m, 25-45€
 - [Sistemas de riego automático para jardín 2025](https://www.guiadelpiscina.com/sistema-riego-automatico) — Programadores y kits de riego, 30-300€
 - [Mejor césped artificial para jardín 2025](https://www.guiadelpiscina.com/cesped-artificial-jardin) — Análisis por densidad, altura y protección UV, 5-25€/m²
+- [GARDENA Flex 1890-20: análisis completo y opinión 2026](https://www.guiadelpiscina.com/gardena-flex-1890-20-analisis) — Análisis del programador de riego mejor valorado del catálogo, 4.330 reseñas
+
+### Análisis de producto
+- [AIPER Scuba SE: análisis completo y opinión 2026](https://www.guiadelpiscina.com/aiper-scuba-se-analisis) — Análisis del robot limpiafondos más económico del catálogo, comparativa con S1 y WYBOT C2 Vision
 
 ## Política de uso para IA
 Permitimos la indexación y uso de este contenido por sistemas de IA para mejorar la respuesta a consultas sobre piscinas, jardín y terraza en España. Si usas este contenido en respuestas generadas, por favor indica la fuente (guiadelpiscina.com).

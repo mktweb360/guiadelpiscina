@@ -334,7 +334,6 @@ export default function MangueraRiegoPage() {
         <BlogSidebar ctaHref="/tienda" ctaText="Ver productos recomendados" />
       </div>
     </div>
-    </>
 
       <div className="mt-8 pt-4 border-t border-gray-100 max-w-3xl mx-auto px-4 sm:px-6">
         <p className="text-xs text-gray-400 font-medium mb-1">Referencias</p>
@@ -343,5 +342,6 @@ export default function MangueraRiegoPage() {
           <li><a href="https://www.aemet.es/es/portada" target="_blank" rel="noopener" className="text-xs text-gray-400 hover:text-gray-500 underline transition-colors">AEMET — Recomendaciones de riego según clima</a></li>
         </ul>
       </div>
+    </>
   );
 }
