@@ -4,18 +4,17 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "Sobre nosotros — Guía del Piscina",
   description:
-    "Miguel Torres, técnico instalador de piscinas con 12 años de experiencia, es el autor detrás de Guía del Piscina. Conoce quién redacta las guías y cómo seleccionamos los productos.",
+    "Somos el equipo editorial de Guía del Piscina. Conoce cómo investigamos y comparamos equipamiento de piscinas y jardín antes de recomendarlo, y nuestra política de afiliación.",
   alternates: { canonical: "https://www.guiadelpiscina.com/sobre-nosotros" },
 };
 
 const personSchema = {
   "@context": "https://schema.org",
-  "@type": "Person",
-  name: "Miguel Torres",
-  jobTitle: "Técnico Instalador de Piscinas",
+  "@type": "Organization",
+  name: "Equipo Editorial de Guía del Piscina",
   url: "https://www.guiadelpiscina.com/sobre-nosotros",
   description:
-    "Técnico instalador de piscinas con 12 años de experiencia en instalación y mantenimiento de piscinas en España.",
+    "Equipo editorial de Guía del Piscina (Mkt Web 360 SLU). Comparamos especificaciones técnicas, precios y opiniones verificadas antes de recomendar equipamiento de piscinas y jardín, con apoyo de IA en investigación y redacción bajo revisión editorial.",
   knowsAbout: [
     "mantenimiento de piscinas",
     "tratamiento del agua",
@@ -25,7 +24,7 @@ const personSchema = {
     "robots limpiafondos",
     "bombas de calor para piscina",
   ],
-  worksFor: {
+  parentOrganization: {
     "@type": "Organization",
     name: "Mkt Web 360 SLU",
     url: "https://www.guiadelpiscina.com",
@@ -102,13 +101,13 @@ export default function SobreNosotrosPage() {
         <div className="bg-sky-50 border border-sky-200 rounded-2xl p-6 mb-10 flex gap-5 items-start">
           {/* Avatar */}
           <div className="shrink-0 w-16 h-16 rounded-full bg-sky-600 flex items-center justify-center text-white text-2xl font-extrabold select-none">
-            MT
+            GP
           </div>
           <div className="flex-1">
-            <p className="text-xl font-bold text-gray-900">Miguel Torres</p>
-            <p className="text-sky-700 font-medium text-sm mb-2">Técnico Instalador de Piscinas</p>
+            <p className="text-xl font-bold text-gray-900">Equipo Editorial de Guía del Piscina</p>
+            <p className="text-sky-700 font-medium text-sm mb-2">Mkt Web 360 SLU</p>
             <p className="text-gray-600 text-sm leading-relaxed mb-4">
-              Técnico instalador de piscinas con <strong>12 años de experiencia</strong> en instalación y mantenimiento de piscinas en España. Ha trabajado en proyectos residenciales y comunitarios en toda la Península, con especialización en tratamiento del agua, sistemas de filtración y automatización de la cloración.
+              Comparamos especificaciones técnicas, precios y opiniones verificadas de compradores reales antes de recomendar cualquier equipo de piscina o jardín, con apoyo de IA en investigación y redacción bajo revisión editorial. Nunca inventamos datos de producto ni experiencias de uso.
             </p>
             {/* Expertise tags */}
             <div className="flex flex-wrap gap-2">
@@ -132,7 +131,7 @@ export default function SobreNosotrosPage() {
             <strong>GuíaDeLaPiscina.com</strong> es un portal independiente especializado en mantenimiento y equipamiento de piscinas para el mercado español. Nuestro objetivo es ayudar a los propietarios de piscinas —tanto desmontables como de obra— a tomar decisiones de compra informadas, ahorrar tiempo y dinero, y mantener el agua en perfectas condiciones todo el año.
           </p>
           <p>
-            Publicamos guías técnicas detalladas, comparativas de productos y protocolos de mantenimiento redactados desde la experiencia real en instalación y mantenimiento de piscinas, no desde la teoría. Cada artículo parte de un problema real que tienen los propietarios y ofrece una solución práctica y contrastada.
+            Publicamos guías técnicas detalladas, comparativas de productos y protocolos de mantenimiento basados en especificaciones de fabricante, normativa aplicable y opiniones verificadas de compradores reales, con apoyo de IA en la investigación y redacción y revisión editorial antes de publicar. Cada artículo parte de un problema real que tienen los propietarios y ofrece una solución práctica y contrastada.
           </p>
 
           {/* Section 2 */}

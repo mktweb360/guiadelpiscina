@@ -88,11 +88,10 @@ const articleSchema = {
   datePublished: "2025-07-15",
   dateModified: "2025-07-15",
   author: {
-    "@type": "Person",
-    name: "Miguel Torres",
-    jobTitle: "Técnico Instalador de Piscinas",
+    "@type": "Organization",
+    name: "Equipo Editorial de Guía del Piscina",
     url: "https://www.guiadelpiscina.com/sobre-nosotros",
-    description: "Técnico instalador de piscinas con 12 años de experiencia en instalación y mantenimiento de piscinas en España.",
+    description: "Equipo editorial de Guía del Piscina (Mkt Web 360 SLU). Comparamos especificaciones técnicas, precios y opiniones verificadas, con apoyo de IA en investigación y redacción bajo revisión editorial.",
     knowsAbout: ["mantenimiento de piscinas", "tratamiento del agua", "depuradoras", "cloro y pH", "piscinas desmontables"],
   },
   publisher: { "@type": "Organization", name: "Mkt Web 360 SLU", url: "https://www.guiadelpiscina.com" },
@@ -151,8 +150,8 @@ export default function MangueraRiegoPage() {
         <p className="text-gray-400 text-sm mb-6">Publicado: 15 julio 2025 · Actualizado: 15 julio 2025 · 8 min lectura</p>
         <span className="flex items-center gap-1 text-gray-500 text-sm mb-4 block">
           <span>✍️</span>
-          <a href="/sobre-nosotros" className="font-medium text-sky-700 hover:underline">Miguel Torres</a>
-          <span className="text-gray-400">— Técnico de Piscinas</span>
+          <a href="/sobre-nosotros" className="font-medium text-sky-700 hover:underline">Equipo Editorial</a>
+          <span className="text-gray-400">— Guía del Piscina</span>
         </span>
         <img
           src="/images/blog/mejor-manguera-riego-jardin.jpg"
@@ -334,6 +333,7 @@ export default function MangueraRiegoPage() {
         <BlogSidebar ctaHref="/tienda" ctaText="Ver productos recomendados" />
       </div>
     </div>
+    </>
 
       <div className="mt-8 pt-4 border-t border-gray-100 max-w-3xl mx-auto px-4 sm:px-6">
         <p className="text-xs text-gray-400 font-medium mb-1">Referencias</p>
@@ -342,6 +342,5 @@ export default function MangueraRiegoPage() {
           <li><a href="https://www.aemet.es/es/portada" target="_blank" rel="noopener" className="text-xs text-gray-400 hover:text-gray-500 underline transition-colors">AEMET — Recomendaciones de riego según clima</a></li>
         </ul>
       </div>
-    </>
   );
 }

@@ -1,9 +1,8 @@
 import HeroBackground from "@/components/HeroBackground";
 import type { Metadata } from "next";
 import Link from "next/link";
-import { categories, getFeaturedProducts, getProductsByCategory } from "@/data/products";
+import { getFeaturedProducts } from "@/data/products";
 import EmailCaptureSection from "@/components/EmailCaptureSection";
-import OffersSlider, { type OfferSlide } from "@/components/OffersSlider";
 
 export const metadata: Metadata = {
   title: "Guía del Piscina — Todo lo que necesitas para tu piscina y jardín",
@@ -17,6 +16,65 @@ export const metadata: Metadata = {
     url: "https://www.guiadelpiscina.com",
   },
 };
+
+const categories = [
+  {
+    href: "/mejores-depuradoras-piscina",
+    icon: "💧",
+    title: "Depuradoras de piscina",
+    desc: "Las mejores depuradoras para mantener el agua limpia y cristalina",
+    price: "Desde 150€",
+  },
+  {
+    href: "/robot-limpiafondos-piscina",
+    icon: "🤖",
+    title: "Robots limpiafondos",
+    desc: "Limpieza automática del fondo y paredes sin esfuerzo",
+    price: "Desde 200€",
+  },
+  {
+    href: "/bomba-calor-piscina",
+    icon: "🌡️",
+    title: "Bombas de calor",
+    desc: "Extiende la temporada de baño calentando el agua de tu piscina",
+    price: "Desde 500€",
+  },
+  {
+    href: "/muebles-jardin-terraza",
+    icon: "🪑",
+    title: "Muebles de jardín",
+    desc: "Conjuntos y sillas para disfrutar del exterior todo el verano",
+    price: "Desde 99€",
+  },
+  {
+    href: "/pergola-terraza",
+    icon: "🏠",
+    title: "Pérgolas",
+    desc: "Protégete del sol con las mejores pérgolas para terraza y jardín",
+    price: "Desde 150€",
+  },
+  {
+    href: "/sistema-riego-automatico",
+    icon: "🌱",
+    title: "Riego automático",
+    desc: "Sistemas de riego inteligentes para un jardín siempre verde",
+    price: "Desde 30€",
+  },
+  {
+    href: "/cesped-artificial-jardin",
+    icon: "🌿",
+    title: "Césped artificial",
+    desc: "Césped sintético de alta calidad sin mantenimiento",
+    price: "Desde 5€/m²",
+  },
+  {
+    href: "/piscina-desmontable-grande",
+    icon: "🏊",
+    title: "Piscinas desmontables",
+    desc: "Las mejores piscinas desmontables para toda la familia",
+    price: "Desde 300€",
+  },
+];
 
 const articles = [
   {
@@ -49,34 +107,6 @@ const articles = [
   },
 ];
 
-// Ofertas destacadas del slider — productos reales del catálogo con imagen y badge verificados
-const offerSlides: OfferSlide[] = [
-  {
-    image: "/images/products/intex-26646-depuradora-arena.jpg",
-    badge: "Más vendida",
-    title: "INTEX 55226 Krystal Clear 7.900 L/h",
-    subtitle: "Depuradora de arena para piscinas grandes",
-    price: "€226,21",
-    href: "/tienda/depuradoras/intex-26646-depuradora-arena",
-  },
-  {
-    image: "/images/products/aiper-seagull-se-robot-piscina.jpg",
-    badge: "Más vendido",
-    title: "AIPER Scuba SE — 90 min de autonomía",
-    subtitle: "Robot limpiafondos inalámbrico sin instalación",
-    price: "€149,00",
-    href: "/tienda/robots-limpiafondos/aiper-seagull-se-robot-piscina",
-  },
-  {
-    image: "/images/products/ecopooltech-mini-bomba-calor.jpg",
-    badge: "Mejor relación calidad-precio",
-    title: "POOLEX Nano 3kW Wi-Fi",
-    subtitle: "Bomba de calor para piscinas pequeñas, control por app",
-    price: "€164,51",
-    href: "/tienda/bombas-calor/ecopooltech-mini-bomba-calor",
-  },
-];
-
 const breadcrumbSchema = {
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
@@ -92,10 +122,6 @@ const breadcrumbSchema = {
 
 export default function HomePage() {
   const featuredProducts = getFeaturedProducts(4);
-  const categoriesWithCount = categories.map((cat) => ({
-    ...cat,
-    count: getProductsByCategory(cat.slug).length,
-  }));
 
   return (
     <>
@@ -106,12 +132,12 @@ export default function HomePage() {
 
       {/* Hero */}
       <section className="relative overflow-hidden text-white py-24 px-4" style={{minHeight: "520px"}}>
-        <HeroBackground overlay="from-sky-900/50 via-sky-800/35 to-cyan-900/45" />
+        <HeroBackground overlay="from-sky-900/90 via-sky-800/80 to-cyan-900/85" />
         <div className="relative z-10 max-w-4xl mx-auto text-center">
-          <h1 className="text-4xl md:text-5xl font-extrabold mb-6 leading-tight [text-shadow:0_2px_12px_rgba(0,0,0,0.55)]">
+          <h1 className="text-4xl md:text-5xl font-extrabold mb-6 leading-tight">
             Guía del Piscina — Todo lo que necesitas para tu piscina y jardín
           </h1>
-          <p className="text-xl md:text-2xl text-sky-100 mb-8 max-w-2xl mx-auto [text-shadow:0_2px_10px_rgba(0,0,0,0.55)]">
+          <p className="text-xl md:text-2xl text-sky-100 mb-8 max-w-2xl mx-auto">
             Comparativas, análisis y guías de compra para que elijas el mejor producto sin perder tiempo ni dinero.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -131,48 +157,32 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Categorías + Ofertas destacadas */}
+      {/* Categories */}
       <section className="py-16 px-4 bg-gray-50">
         <div className="max-w-6xl mx-auto">
           <h2 className="text-3xl font-bold text-center text-gray-900 mb-4">
-            Categorías y ofertas destacadas
+            Categorías destacadas
           </h2>
           <p className="text-center text-gray-500 mb-10">
-            Elige tu categoría o descubre los productos mejor valorados del momento
+            Elige tu categoría y encuentra el producto perfecto
           </p>
-          <div className="flex flex-col md:flex-row gap-6 items-stretch">
-            {/* Menú vertical de categorías — 25% */}
-            <aside className="w-full md:w-1/4 flex-shrink-0">
-              <div className="bg-white rounded-xl border border-gray-100 overflow-hidden shadow-sm h-full">
-                <div className="bg-sky-600 px-4 py-3">
-                  <span className="text-white font-semibold text-sm uppercase tracking-wide">
-                    Categorías
-                  </span>
-                </div>
-                <nav className="divide-y divide-gray-50">
-                  {categoriesWithCount.map((cat) => (
-                    <Link
-                      key={cat.slug}
-                      href={`/tienda/${cat.slug}`}
-                      className="flex items-center gap-3 px-4 py-3 hover:bg-sky-50 hover:text-sky-700 transition-colors group"
-                    >
-                      <span className="text-xl leading-none">{cat.icon}</span>
-                      <span className="flex-1 text-sm font-medium text-gray-700 group-hover:text-sky-700 leading-tight">
-                        {cat.name}
-                      </span>
-                      <span className="text-xs text-gray-400 bg-gray-100 rounded-full px-1.5 py-0.5 group-hover:bg-sky-100 group-hover:text-sky-600 transition-colors">
-                        {cat.count}
-                      </span>
-                    </Link>
-                  ))}
-                </nav>
-              </div>
-            </aside>
-
-            {/* Slider de ofertas destacadas — 75% */}
-            <div className="w-full md:w-3/4">
-              <OffersSlider slides={offerSlides} intervalMs={4000} />
-            </div>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+            {categories.map((cat) => (
+              <Link
+                key={cat.href}
+                href={cat.href}
+                className="bg-white rounded-xl border border-gray-100 p-6 hover:shadow-lg hover:border-sky-200 transition-all group"
+              >
+                <div className="text-4xl mb-3">{cat.icon}</div>
+                <h3 className="font-bold text-gray-900 mb-2 group-hover:text-sky-600 transition-colors">
+                  {cat.title}
+                </h3>
+                <p className="text-sm text-gray-500 mb-3">{cat.desc}</p>
+                <span className="text-xs font-semibold text-sky-600 bg-sky-50 px-2 py-1 rounded-full">
+                  Ver productos →
+                </span>
+              </Link>
+            ))}
           </div>
         </div>
       </section>

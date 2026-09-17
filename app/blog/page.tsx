@@ -247,59 +247,6 @@ const articles = [
     price: "",
     category: "Mantenimiento",
   },
-  {
-    href: "/como-cerrar-piscina-invierno",
-    img: "/images/blog/como-cerrar-piscina-invierno.jpg",
-    icon: "❄️",
-    title: "Cómo cerrar la piscina para el invierno: guía completa paso a paso (2026)",
-    excerpt:
-      "Cierra tu piscina desmontable correctamente antes del invierno: tratamiento de choque, equilibrio químico, protección del equipo y elección de cubierta. Checklist incluido.",
-    date: "2026-08-25",
-    price: "",
-    category: "Mantenimiento",
-  },
-  {
-    href: "/invernaje-activo-o-pasivo-piscina",
-    img: "/images/blog/invernaje-activo-o-pasivo-piscina.jpg",
-    icon: "🧊",
-    title: "Invernaje activo o pasivo en la piscina: cuál elegir y cómo hacerlo (2026)",
-    excerpt:
-      "Diferencias entre invernaje activo y pasivo, cuándo elegir cada uno según tu clima y equipo, y cómo hacerlo paso a paso para evitar problemas en primavera.",
-    date: "2026-08-30",
-    price: "",
-    category: "Mantenimiento",
-  },
-  {
-    href: "/skimmer-piscina-automatico-solar",
-    img: "/images/blog/skimmer-piscina-automatico-solar.jpg",
-    icon: "☀️",
-    title: "Skimmer de piscina: qué es y cuándo interesa uno automático solar (2026)",
-    excerpt:
-      "Diferencia entre el skimmer fijo y el robot skimmer solar de superficie, cuándo compensa frente al robot de fondo y checklist para decidir si te interesa.",
-    date: "2026-09-05",
-    price: "",
-    category: "Depuración y limpieza",
-  },
-  {
-    href: "/gardena-flex-1890-20-analisis",
-    icon: "🌱",
-    title: "GARDENA Flex 1890-20: análisis completo y opinión 2026",
-    excerpt:
-      "Función Water Now, instalación en el grifo, autonomía de pilas y comparativa con el resto de programadores Gardena del catálogo.",
-    date: "2026-09-08",
-    price: "49,26€",
-    category: "Jardín",
-  },
-  {
-    href: "/aiper-scuba-se-analisis",
-    icon: "🤖",
-    title: "AIPER Scuba SE: análisis completo y opinión 2026",
-    excerpt:
-      "El robot limpiafondos más económico del catálogo: autonomía, cobertura y comparativa frente al Scuba S1 y el WYBOT C2 Vision Plus.",
-    date: "2026-09-08",
-    price: "149,00€",
-    category: "Piscinas",
-  },
 ];
 
 const breadcrumbSchema = {
