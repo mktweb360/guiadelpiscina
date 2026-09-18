@@ -113,7 +113,7 @@ export default function PiscinaDesmontablePage() {
         <div className="prose">
                     <div id="respuesta-directa" className="bg-sky-50 border-l-4 border-sky-500 rounded-r-xl px-5 py-4 mb-6">
             <p className="text-xs font-bold text-sky-700 uppercase tracking-wide mb-1.5">Respuesta directa</p>
-            <p className="text-gray-800 font-medium leading-relaxed">Las <strong>piscinas desmontables grandes</strong> son la alternativa perfecta a la piscina enterrada: sin obras, sin licencia (en la mayoría de municipios), instalación en un fin de semana y precio infinitamente menor. En esta guía comparamos las mejores piscinas desmontables de más de 4 metros disponibles en Amazon España en 2025. También puedes <Link href="/tienda/piscinas-desmontables" className="text-sky-600 hover:underline font-medium">explorar piscinas desmontables en nuestra tienda</Link>.</p>
+            <p className="text-gray-800 font-medium leading-relaxed">Las <strong>piscinas desmontables grandes</strong> son la alternativa perfecta a la piscina enterrada: sin obras, sin licencia (en la mayoría de municipios), instalación en un fin de semana y precio infinitamente menor. En esta guía comparamos las mejores piscinas desmontables de más de 4 metros disponibles en el mercado en 2025. También puedes <Link href="/tienda/piscinas-desmontables" className="text-sky-600 hover:underline font-medium">explorar piscinas desmontables en nuestra tienda</Link>.</p>
           </div>
           <p>
             Los precios van desde 300€ para modelos básicos hasta 700€ para los conjuntos más completos. Hemos analizado la resistencia de las paredes, la calidad de la estructura, la depuradora incluida y la facilidad de montaje.

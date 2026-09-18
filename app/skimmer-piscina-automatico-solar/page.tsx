@@ -192,7 +192,7 @@ export default function SkimmerPiscinaAutomaticoSolarPage() {
         <div className="prose">
           <h2>Nuestra valoración</h2>
           <p>
-            <strong>Valoración editorial propia:</strong> un robot skimmer solar no es un producto imprescindible para cualquier piscina, pero sí resuelve un problema muy concreto y real: la suciedad de superficie que el skimmer fijo no alcanza a tiempo. Recomendamos valorarlo sobre todo si limpias hojas o insectos de la superficie con la manga varias veces por semana, o si tu piscina pasa buena parte del día con la depuradora apagada. En piscinas pequeñas, sin vegetación cercana y con la bomba en marcha muchas horas al día, el skimmer fijo junto al robot de fondo suele ser suficiente. Esta valoración se basa en la experiencia de mantenimiento del equipo, no en una puntuación de Amazon ni de terceros.
+            <strong>Valoración editorial propia:</strong> un robot skimmer solar no es un producto imprescindible para cualquier piscina, pero sí resuelve un problema muy concreto y real: la suciedad de superficie que el skimmer fijo no alcanza a tiempo. Recomendamos valorarlo sobre todo si limpias hojas o insectos de la superficie con la manga varias veces por semana, o si tu piscina pasa buena parte del día con la depuradora apagada. En piscinas pequeñas, sin vegetación cercana y con la bomba en marcha muchas horas al día, el skimmer fijo junto al robot de fondo suele ser suficiente. Esta valoración se basa en la experiencia de mantenimiento del equipo, no en una puntuación de ninguna plataforma de venta.
           </p>
         </div>
 

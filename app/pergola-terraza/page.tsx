@@ -105,7 +105,7 @@ export default function PergolaPage() {
             <p className="text-gray-800 font-medium leading-relaxed">Una <strong>pérgola</strong> transforma cualquier terraza o jardín en un espacio habitable y confortable incluso en los días más calurosos. Ya sea para protegerte del sol, crear un comedor al aire libre o delimitar una zona de descanso junto a la piscina, la pérgola correcta puede multiplicar el valor y el disfrute de tu espacio exterior.</p>
           </div>
           <p>
-            En esta guía comparamos los <strong>mejores modelos de pérgola para terraza y jardín</strong> disponibles en Amazon España en 2025, desde opciones económicas por 150€ hasta bioclimáticas premium por más de 1.000€. Puedes <Link href="/tienda/pergolas" className="text-sky-600 hover:underline font-medium">ver pérgolas bioclimáticas en nuestra tienda</Link> con los mejores modelos seleccionados.
+            En esta guía comparamos los <strong>mejores modelos de pérgola para terraza y jardín</strong> disponibles en el mercado en 2025, desde opciones económicas por 150€ hasta bioclimáticas premium por más de 1.000€. Puedes <Link href="/tienda/pergolas" className="text-sky-600 hover:underline font-medium">ver pérgolas bioclimáticas en nuestra tienda</Link> con los mejores modelos seleccionados.
           </p>
 
           <h2>Comparativa — Mejores pérgolas 2025</h2>

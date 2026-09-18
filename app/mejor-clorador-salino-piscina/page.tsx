@@ -218,7 +218,7 @@ export default function CloradorSalinoPage() {
                 <th className="px-3 py-3 text-left">Capacidad piscina</th>
                 <th className="px-3 py-3 text-left">Producción Cl/h</th>
                 <th className="px-3 py-3 text-left">Compatible con</th>
-                <th className="px-3 py-3 text-left">Ver en Amazon</th>
+                <th className="px-3 py-3 text-left">Ver precio</th>
               </tr>
             </thead>
             <tbody>

@@ -114,7 +114,7 @@ export default function DepuradorasPage() {
         <div className="prose">
                     <div id="respuesta-directa" className="bg-sky-50 border-l-4 border-sky-500 rounded-r-xl px-5 py-4 mb-6">
             <p className="text-xs font-bold text-sky-700 uppercase tracking-wide mb-1.5">Respuesta directa</p>
-            <p className="text-gray-800 font-medium leading-relaxed">La depuradora es el corazón de cualquier piscina. Sin una buena filtración, el agua se vuelve turbia y proliferan algas y bacterias que hacen que bañarse sea un riesgo para la salud. En esta guía analizamos las <strong>5 mejores depuradoras de piscina</strong> disponibles en Amazon España en 2025, con precios entre 89 y 200€.</p>
+            <p className="text-gray-800 font-medium leading-relaxed">La depuradora es el corazón de cualquier piscina. Sin una buena filtración, el agua se vuelve turbia y proliferan algas y bacterias que hacen que bañarse sea un riesgo para la salud. En esta guía analizamos las <strong>5 mejores depuradoras de piscina</strong> disponibles en el mercado en 2025, con precios entre 89 y 200€.</p>
           </div>
           <p>
             Hemos analizado más de 20 modelos, comparado especificaciones técnicas y revisado miles de reseñas de usuarios para darte las recomendaciones más fiables del mercado.
@@ -137,7 +137,7 @@ export default function DepuradorasPage() {
                 <th className="px-3 py-3 text-left">Motor</th>
                 <th className="px-3 py-3 text-left">Piscina max.</th>
                 <th className="px-3 py-3 text-left">Valoración</th>
-                <th className="px-3 py-3 text-left">Ver en Amazon</th>
+                <th className="px-3 py-3 text-left">Ver precio</th>
               </tr>
             </thead>
             <tbody>

@@ -223,7 +223,7 @@ export default function ComoCerrarPiscinaPage() {
               ))}
             </tbody>
           </table>
-          <p className="text-xs text-gray-400 mt-2">Precios orientativos de mercado, no verificados en tiempo real. Consulta el precio actualizado en Amazon antes de comprar.</p>
+          <p className="text-xs text-gray-400 mt-2">Precios orientativos de mercado, no verificados en tiempo real. Consulta el precio actualizado antes de comprar.</p>
         </div>
 
         <AdSenseAd slot="6789012345" />
@@ -231,7 +231,7 @@ export default function ComoCerrarPiscinaPage() {
         <div className="prose">
           <h2>Nuestra valoración: qué cubierta recomendamos según el caso</h2>
           <p>
-            Para la mayoría de piscinas desmontables familiares en España, la <strong>cubierta de malla o rejilla</strong> suele ser la opción con mejor equilibrio: al dejar pasar el agua de lluvia no acumula peso ni se hunde, y reduce a casi cero el mantenimiento durante el invierno. La cubierta opaca estándar sigue siendo válida y más económica, pero exige vigilar que no se encharque tras lluvias fuertes, sobre todo en zonas con otoños húmedos. La manta térmica no está pensada para un invernaje de meses: es más útil para pausas cortas entre usos en plena temporada. Esta es nuestra valoración editorial basada en el uso real de cada tipo de cubierta, no una puntuación de Amazon.
+            Para la mayoría de piscinas desmontables familiares en España, la <strong>cubierta de malla o rejilla</strong> suele ser la opción con mejor equilibrio: al dejar pasar el agua de lluvia no acumula peso ni se hunde, y reduce a casi cero el mantenimiento durante el invierno. La cubierta opaca estándar sigue siendo válida y más económica, pero exige vigilar que no se encharque tras lluvias fuertes, sobre todo en zonas con otoños húmedos. La manta térmica no está pensada para un invernaje de meses: es más útil para pausas cortas entre usos en plena temporada. Esta es nuestra valoración editorial basada en el uso real de cada tipo de cubierta, no una puntuación de terceros.
           </p>
 
           <h2>Errores más comunes al cerrar la piscina</h2>

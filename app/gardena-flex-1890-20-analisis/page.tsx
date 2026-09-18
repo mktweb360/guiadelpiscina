@@ -80,7 +80,7 @@ const faqs = [
   },
   {
     q: "¿Por qué GARDENA Flex 1890-20 sustituyó a la ficha anterior de este catálogo?",
-    a: "El ASIN que figuraba anteriormente en el catálogo bajo el nombre \"FlexControl\" resultó, tras verificación individual en Amazon.es, corresponder a un producto distinto (\"MultiControl\") y además estar descatalogado. Se sustituyó por este Flex 1890-20, un programador genuinamente vivo y verificado, con la función Water Now que buscábamos destacar.",
+    a: "El ASIN que figuraba anteriormente en el catálogo bajo el nombre \"FlexControl\" resultó, tras verificación individual del producto, corresponder a un producto distinto (\"MultiControl\") y además estar descatalogado. Se sustituyó por este Flex 1890-20, un programador genuinamente vivo y verificado, con la función Water Now que buscábamos destacar.",
   },
 ];
 

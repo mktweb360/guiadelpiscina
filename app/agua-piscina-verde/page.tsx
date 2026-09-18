@@ -215,7 +215,7 @@ export default function AguaPiscinaVerdePage() {
                 <th className="px-3 py-3 text-left">Producto</th>
                 <th className="px-3 py-3 text-left">Para qué sirve</th>
                 <th className="px-3 py-3 text-left">Cuándo usarlo</th>
-                <th className="px-3 py-3 text-left">Ver en Amazon</th>
+                <th className="px-3 py-3 text-left">Ver precio</th>
               </tr>
             </thead>
             <tbody>

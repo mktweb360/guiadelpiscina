@@ -107,7 +107,7 @@ export default function RobotLimpiafondosPage() {
         <div className="prose">
                     <div id="respuesta-directa" className="bg-sky-50 border-l-4 border-sky-500 rounded-r-xl px-5 py-4 mb-6">
             <p className="text-xs font-bold text-sky-700 uppercase tracking-wide mb-1.5">Respuesta directa</p>
-            <p className="text-gray-800 font-medium leading-relaxed">Un <strong>robot limpiafondos</strong> transforma el mantenimiento de la piscina: en lugar de pasar horas con el aspirador manual, el robot limpia el fondo, las paredes e incluso la línea de agua mientras tú disfrutas. En esta guía analizamos los <strong>5 mejores robots limpiafondos</strong> para piscina disponibles en Amazon España en 2025. También puedes <Link href="/tienda/robots-limpiafondos" className="text-sky-600 hover:underline font-medium">comparar todos los robots limpiafondos en nuestra tienda</Link>.</p>
+            <p className="text-gray-800 font-medium leading-relaxed">Un <strong>robot limpiafondos</strong> transforma el mantenimiento de la piscina: en lugar de pasar horas con el aspirador manual, el robot limpia el fondo, las paredes e incluso la línea de agua mientras tú disfrutas. En esta guía analizamos los <strong>5 mejores robots limpiafondos</strong> para piscina disponibles en el mercado en 2025. También puedes <Link href="/tienda/robots-limpiafondos" className="text-sky-600 hover:underline font-medium">comparar todos los robots limpiafondos en nuestra tienda</Link>.</p>
           </div>
           <p>
             Los precios oscilan entre 250 y 600€, una inversión que se amortiza rápidamente si consideras el tiempo y el esfuerzo que ahorras durante toda la temporada.

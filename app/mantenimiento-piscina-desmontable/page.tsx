@@ -235,7 +235,7 @@ export default function MantenimientoPiscinaPage() {
                 <th className="px-3 py-3 text-left">Modelo</th>
                 <th className="px-3 py-3 text-left">Capacidad piscina</th>
                 <th className="px-3 py-3 text-left">Producción Cl</th>
-                <th className="px-3 py-3 text-left">Ver en Amazon</th>
+                <th className="px-3 py-3 text-left">Ver precio</th>
               </tr>
             </thead>
             <tbody>

@@ -105,7 +105,7 @@ export default function SistemaRiegoPage() {
             <p className="text-gray-800 font-medium leading-relaxed">Un <strong>sistema de riego automático</strong> libera al propietario de la obligación de regar el jardín manualmente y, lo más importante, garantiza que las plantas reciban el agua adecuada en el momento adecuado. Con los sistemas inteligentes actuales, puedes ahorrar hasta un 50% de agua frente al riego manual.</p>
           </div>
           <p>
-            En esta guía comparamos los <strong>mejores sistemas de riego automático para jardín</strong> disponibles en Amazon España en 2025, desde kits básicos por 35€ hasta controladores inteligentes por 200€. Puedes <Link href="/tienda/riego-automatico" className="text-sky-600 hover:underline font-medium">comparar sistemas de riego inteligente en nuestra tienda</Link>.
+            En esta guía comparamos los <strong>mejores sistemas de riego automático para jardín</strong> disponibles en el mercado en 2025, desde kits básicos por 35€ hasta controladores inteligentes por 200€. Puedes <Link href="/tienda/riego-automatico" className="text-sky-600 hover:underline font-medium">comparar sistemas de riego inteligente en nuestra tienda</Link>.
           </p>
 
           <h2>Comparativa — Mejores sistemas de riego 2025</h2>
