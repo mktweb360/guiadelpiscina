@@ -156,7 +156,7 @@ export default function PergolaPage() {
           </p>
           <div className="not-prose my-4">
             <a href={amazonLink("B07RKLM9NQ")} target="_blank" rel="noopener noreferrer sponsored" className="btn-primary">
-              Ver pérgola clásica en Amazon →
+              Ver pérgola clásica →
             </a>
           </div>
 
@@ -171,7 +171,7 @@ export default function PergolaPage() {
           </p>
           <div className="not-prose my-4">
             <a href={amazonLink("B09TKLM8RS")} target="_blank" rel="noopener noreferrer sponsored" className="btn-primary">
-              Ver pérgola bioclimática en Amazon →
+              Ver pérgola bioclimática →
             </a>
           </div>
 

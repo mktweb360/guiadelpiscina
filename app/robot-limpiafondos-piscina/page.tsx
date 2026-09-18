@@ -165,7 +165,7 @@ export default function RobotLimpiafondosPage() {
           </ul>
           <div className="not-prose my-4">
             <a href={amazonLink("B01N78IVWJ")} target="_blank" rel="nofollow noopener noreferrer sponsored" className="btn-primary">
-              Ver Dolphin Nauty en Amazon →
+              Ver Dolphin Nauty →
             </a>
           </div>
 
@@ -188,7 +188,7 @@ export default function RobotLimpiafondosPage() {
           </ul>
           <div className="not-prose my-4">
             <a href={amazonLink("B07Q2D2KF3")} target="_blank" rel="nofollow noopener noreferrer sponsored" className="btn-primary">
-              Ver Dolphin Carrera 35 en Amazon →
+              Ver Dolphin Carrera 35 →
             </a>
           </div>
 

@@ -222,7 +222,7 @@ export default function EscaleraPiscinaPage() {
           </p>
           <div className="not-prose my-4">
             <a href={amazonLink("B0195A925O")} target="_blank" rel="nofollow noopener noreferrer sponsored" className="btn-primary">
-              Ver Intex 55058 en Amazon →
+              Ver Intex 55058 →
             </a>
           </div>
 
@@ -232,7 +232,7 @@ export default function EscaleraPiscinaPage() {
           </p>
           <div className="not-prose my-4">
             <a href={amazonLink("B08CB3VBRJ")} target="_blank" rel="nofollow noopener noreferrer sponsored" className="btn-primary">
-              Ver Bestway Flowclear 84 cm en Amazon →
+              Ver Bestway Flowclear 84 cm →
             </a>
           </div>
 
@@ -242,7 +242,7 @@ export default function EscaleraPiscinaPage() {
           </p>
           <div className="not-prose my-4">
             <a href={amazonLink("B095XPMKPX")} target="_blank" rel="nofollow noopener noreferrer sponsored" className="btn-primary">
-              Ver Bestway Flip&amp;Lock en Amazon →
+              Ver Bestway Flip&amp;Lock →
             </a>
           </div>
 

@@ -7,7 +7,7 @@ import EmailCaptureSection from "@/components/EmailCaptureSection";
 export const metadata: Metadata = {
   title: "Guía del Piscina — Todo lo que necesitas para tu piscina y jardín",
   description:
-    "Guías de compra, análisis y comparativas de productos para piscinas, jardín y terraza. Encuentra los mejores productos al mejor precio en Amazon España.",
+    "Guías de compra, análisis y comparativas de productos para piscinas, jardín y terraza. Encuentra los mejores productos al mejor precio del mercado.",
   alternates: { canonical: "https://www.guiadelpiscina.com" },
   openGraph: {
     title: "Guía del Piscina — Todo lo que necesitas para tu piscina y jardín",
@@ -270,7 +270,7 @@ export default function HomePage() {
         <div className="max-w-3xl mx-auto text-center">
           <h2 className="text-2xl font-bold text-gray-900 mb-4">¿Por qué confiar en nosotros?</h2>
           <p className="text-gray-600 mb-6 leading-relaxed">
-            En <strong>Guía del Piscina</strong> analizamos cada producto con criterio y honestidad. Comparamos precios, leemos cientos de opiniones y consultamos con expertos para darte la información que necesitas antes de comprar. No publicamos contenido patrocinado: nuestros ingresos provienen de comisiones de afiliado de Amazon, lo que no afecta a nuestras valoraciones.
+            En <strong>Guía del Piscina</strong> analizamos cada producto con criterio y honestidad. Comparamos precios, leemos cientos de opiniones y consultamos con expertos para darte la información que necesitas antes de comprar. No publicamos contenido patrocinado: nuestros ingresos provienen de comisiones de afiliado, lo que no afecta a nuestras valoraciones.
           </p>
           <Link href="/sobre-nosotros" className="text-sky-600 font-semibold hover:underline">
             Saber más sobre nosotros →

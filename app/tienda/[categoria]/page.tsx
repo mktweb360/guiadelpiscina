@@ -262,7 +262,7 @@ export default async function CategoryPage({
                       rel="nofollow noopener noreferrer sponsored"
                       className="text-xs font-semibold bg-orange-500 text-white px-2.5 py-1 rounded-lg hover:bg-orange-600 transition-colors"
                     >
-                      Amazon →
+                      Ver precio →
                     </a>
                   </div>
                 </div>
@@ -300,7 +300,7 @@ export default async function CategoryPage({
 
           {/* Affiliate footnote */}
           <p className="text-xs text-gray-400 mt-6 pl-3 border-l-2 border-gray-200">
-            Este artículo contiene enlaces de afiliado a Amazon.es. Si compras a través de ellos recibimos una pequeña comisión, sin coste adicional para ti.
+            Este artículo contiene enlaces de afiliado. Si compras a través de ellos recibimos una pequeña comisión, sin coste adicional para ti.
           </p>
         </main>
       </div>

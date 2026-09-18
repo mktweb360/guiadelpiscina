@@ -191,7 +191,7 @@ export default function PhPiscinaPage() {
 
         <div className="not-prose my-4">
           <a href={amazonLink(products.tiras)} target="_blank" rel="nofollow noopener noreferrer sponsored" className="btn-primary">
-            Ver EASYTEST 150 Tiras Reactivas 7 en 1 en Amazon →
+            Ver EASYTEST 150 Tiras Reactivas 7 en 1 →
           </a>
         </div>
 
@@ -204,7 +204,7 @@ export default function PhPiscinaPage() {
 
         <div className="not-prose my-4">
           <a href={amazonLink(products.medidor)} target="_blank" rel="nofollow noopener noreferrer sponsored" className="btn-primary">
-            Ver Flintronic Medidor pH Digital en Amazon →
+            Ver Flintronic Medidor pH Digital →
           </a>
         </div>
 
@@ -223,7 +223,7 @@ export default function PhPiscinaPage() {
 
         <div className="not-prose my-4">
           <a href={amazonLink(products.phMinus)} target="_blank" rel="nofollow noopener noreferrer sponsored" className="btn-primary">
-            Ver NortemBio Pool pH- Minus 5L en Amazon →
+            Ver NortemBio Pool pH- Minus 5L →
           </a>
         </div>
 
@@ -240,7 +240,7 @@ export default function PhPiscinaPage() {
 
         <div className="not-prose my-4">
           <a href={amazonLink(products.phPlus)} target="_blank" rel="nofollow noopener noreferrer sponsored" className="btn-primary">
-            Ver NortemBio Pool pH+ Plus 5kg en Amazon →
+            Ver NortemBio Pool pH+ Plus 5kg →
           </a>
         </div>
 

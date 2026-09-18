@@ -246,7 +246,7 @@ export default function SombrillasJardinPage() {
           </p>
           <div className="not-prose my-4">
             <a href={amazonLink("B07VFN5WM6")} target="_blank" rel="nofollow noopener noreferrer sponsored" className="btn-primary">
-              Ver Outsunny Ø250 cm en Amazon →
+              Ver Outsunny Ø250 cm →
             </a>
           </div>
 
@@ -256,7 +256,7 @@ export default function SombrillasJardinPage() {
           </p>
           <div className="not-prose my-4">
             <a href={amazonLink("B00NP2LJBO")} target="_blank" rel="nofollow noopener noreferrer sponsored" className="btn-primary">
-              Ver Outsunny Ø300 cm en Amazon →
+              Ver Outsunny Ø300 cm →
             </a>
           </div>
 
@@ -266,7 +266,7 @@ export default function SombrillasJardinPage() {
           </p>
           <div className="not-prose my-4">
             <a href={amazonLink("B09T4XVWM9")} target="_blank" rel="nofollow noopener noreferrer sponsored" className="btn-primary">
-              Ver Aktive rectangular en Amazon →
+              Ver Aktive rectangular →
             </a>
           </div>
 

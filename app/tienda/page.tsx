@@ -174,7 +174,7 @@ export default function TiendaPage() {
 
           {/* Affiliate footnote */}
           <p className="text-xs text-gray-400 mt-10 pl-3 border-l-2 border-gray-200">
-            Como Asociado de Amazon obtenemos una pequeña comisión en cada compra realizada a través de nuestros enlaces, sin coste adicional para ti. Los precios y disponibilidad se muestran directamente en Amazon.
+            Como afiliados obtenemos una pequeña comisión en cada compra realizada a través de nuestros enlaces, sin coste adicional para ti. Los precios y disponibilidad se muestran actualizados en destino.
           </p>
         </main>
       </div>

@@ -142,7 +142,7 @@ export default function SobreNosotrosPage() {
               <strong>Análisis de especificaciones técnicas:</strong> capacidad de filtración, potencia, materiales, compatibilidad con distintos tipos de piscina y normativa aplicable en España.
             </li>
             <li>
-              <strong>Evaluación de reseñas verificadas:</strong> revisamos cientos de opiniones de compradores reales en Amazon.es y otras plataformas, prestando especial atención a problemas recurrentes a medio y largo plazo.
+              <strong>Evaluación de reseñas verificadas:</strong> revisamos cientos de opiniones de compradores reales en distintas plataformas online, prestando especial atención a problemas recurrentes a medio y largo plazo.
             </li>
             <li>
               <strong>Relación calidad-precio:</strong> comparamos prestaciones frente a coste y señalamos cuándo un producto de gama alta merece la diferencia y cuándo no.
@@ -157,10 +157,10 @@ export default function SobreNosotrosPage() {
           <div className="bg-amber-50 border border-amber-200 rounded-xl p-4 my-4 not-prose">
             <p className="font-bold text-gray-900 mb-2">Divulgación obligatoria (afiliados)</p>
             <p className="text-gray-700 text-sm leading-relaxed mb-2">
-              <strong>GuíaDeLaPiscina.com</strong> participa en el <strong>Programa de Afiliados de Amazon EU</strong>, un programa diseñado para ofrecer a sitios web un modo de obtener comisiones por publicidad mediante la inclusión de enlaces a Amazon.es.
+              <strong>GuíaDeLaPiscina.com</strong> participa en programas de afiliación con distintos partners comerciales, un modo de obtener comisiones por publicidad mediante la inclusión de enlaces a tiendas asociadas.
             </p>
             <p className="text-gray-700 text-sm leading-relaxed mb-2">
-              Cuando haces clic en un enlace de Amazon en nuestro sitio y realizas una compra, podemos recibir una pequeña comisión <strong>sin coste adicional para ti</strong>. Este sistema nos permite mantener el sitio activo y publicar contenido gratuito.
+              Cuando haces clic en un enlace de afiliado en nuestro sitio y realizas una compra, podemos recibir una pequeña comisión <strong>sin coste adicional para ti</strong>. Este sistema nos permite mantener el sitio activo y publicar contenido gratuito. Más información en nuestra política de privacidad.
             </p>
             <p className="text-gray-700 text-sm leading-relaxed">
               <strong>Política clara:</strong> las comisiones de afiliado no influyen en nuestras valoraciones. Recomendamos los productos que consideramos técnicamente mejores para el usuario, independientemente de la comisión que generen.

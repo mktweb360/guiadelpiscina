@@ -250,7 +250,7 @@ export default function GardenaFlexAnalisisPage() {
             rel="nofollow noopener noreferrer sponsored"
             className="inline-block px-6 py-3 bg-orange-500 hover:bg-orange-600 text-white font-bold rounded-xl transition-colors"
           >
-            Ver precio actual en Amazon →
+            Ver precio actual →
           </a>
         </div>
 

@@ -177,7 +177,7 @@ export default function BombaCalorPage() {
           </ul>
           <div className="not-prose my-4">
             <a href={amazonLink("B07L489LBM")} target="_blank" rel="nofollow noopener noreferrer sponsored" className="btn-primary">
-              Ver Gre HPM30 en Amazon →
+              Ver Gre HPM30 →
             </a>
           </div>
 
@@ -191,7 +191,7 @@ export default function BombaCalorPage() {
           </ul>
           <div className="not-prose my-4">
             <a href={amazonLink("B0CPR89ZNR")} target="_blank" rel="nofollow noopener noreferrer sponsored" className="btn-primary">
-              Ver Gre HPGIC30 en Amazon →
+              Ver Gre HPGIC30 →
             </a>
           </div>
 

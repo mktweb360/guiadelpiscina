@@ -212,7 +212,7 @@ export default function TumbonasJardinPage() {
           </p>
           <div className="not-prose my-4">
             <a href={amazonLink("B07M9BG6ZR")} target="_blank" rel="nofollow noopener noreferrer sponsored" className="btn-primary">
-              Ver SONGMICS GCB19UV1 en Amazon →
+              Ver SONGMICS GCB19UV1 →
             </a>
           </div>
 
@@ -222,7 +222,7 @@ export default function TumbonasJardinPage() {
           </p>
           <div className="not-prose my-4">
             <a href={amazonLink("B07LF2FWGR")} target="_blank" rel="nofollow noopener noreferrer sponsored" className="btn-primary">
-              Ver SONGMICS GCB24GY en Amazon →
+              Ver SONGMICS GCB24GY →
             </a>
           </div>
 
@@ -232,7 +232,7 @@ export default function TumbonasJardinPage() {
           </p>
           <div className="not-prose my-4">
             <a href={amazonLink("B07HP94QTN")} target="_blank" rel="nofollow noopener noreferrer sponsored" className="btn-primary">
-              Ver Keter Jaipur en Amazon →
+              Ver Keter Jaipur →
             </a>
           </div>
 

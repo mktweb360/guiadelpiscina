@@ -249,7 +249,7 @@ export default function PiscinaGrandeAdultosPage() {
           </p>
           <div className="not-prose my-4">
             <a href={amazonLink("B07FB827CP")} target="_blank" rel="nofollow noopener noreferrer sponsored" className="btn-primary">
-              Ver Intex Ultra XTR en Amazon →
+              Ver Intex Ultra XTR →
             </a>
           </div>
 
@@ -259,7 +259,7 @@ export default function PiscinaGrandeAdultosPage() {
           </p>
           <div className="not-prose my-4">
             <a href={amazonLink("B01B19V58E")} target="_blank" rel="nofollow noopener noreferrer sponsored" className="btn-primary">
-              Ver Intex Ultra Frame en Amazon →
+              Ver Intex Ultra Frame →
             </a>
           </div>
 
@@ -269,7 +269,7 @@ export default function PiscinaGrandeAdultosPage() {
           </p>
           <div className="not-prose my-4">
             <a href={amazonLink("B0CFFSJ556")} target="_blank" rel="nofollow noopener noreferrer sponsored" className="btn-primary">
-              Ver Bestway Power Steel en Amazon →
+              Ver Bestway Power Steel →
             </a>
           </div>
 

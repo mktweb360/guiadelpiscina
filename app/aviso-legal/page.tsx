@@ -51,12 +51,12 @@ export default function AvisoLegalPage() {
 
           <h2>4. Exclusión de responsabilidad</h2>
           <p>
-            Mkt Web 360 SLU no se hace responsable de los daños y perjuicios que pudieran derivarse del uso del Sitio ni de los contenidos de los sitios web enlazados. La información publicada tiene carácter orientativo y no constituye asesoramiento profesional. Antes de realizar cualquier compra, el usuario debe verificar las condiciones actuales del producto en Amazon.es u otras plataformas.
+            Mkt Web 360 SLU no se hace responsable de los daños y perjuicios que pudieran derivarse del uso del Sitio ni de los contenidos de los sitios web enlazados. La información publicada tiene carácter orientativo y no constituye asesoramiento profesional. Antes de realizar cualquier compra, el usuario debe verificar las condiciones actuales del producto en la plataforma de venta antes de comprar.
           </p>
 
-          <h2>5. Programa de afiliados de Amazon</h2>
+          <h2>5. Programa de afiliados</h2>
           <p>
-            Este sitio web participa en el Programa de Afiliados de Amazon EU, un programa de publicidad para afiliados diseñado para ofrecer a sitios web un modo de obtener comisiones por publicidad, publicitando e incluyendo enlaces a Amazon.es. Amazon y el logotipo de Amazon son marcas comerciales de Amazon.com, Inc. o de sus afiliados.
+            Este sitio web participa en programas de afiliados de distintos partners comerciales, un modo de obtener comisiones por publicidad mediante la inclusión de enlaces a tiendas asociadas. Consulta el detalle de los programas en nuestra política de privacidad.
           </p>
 
           <h2>6. Legislación aplicable</h2>

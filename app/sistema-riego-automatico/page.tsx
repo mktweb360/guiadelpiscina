@@ -156,7 +156,7 @@ export default function SistemaRiegoPage() {
           </p>
           <div className="not-prose my-4">
             <a href={amazonLink("B001DQKUV7")} target="_blank" rel="noopener noreferrer sponsored" className="btn-primary">
-              Ver Gardena Kit en Amazon →
+              Ver Gardena Kit →
             </a>
           </div>
 
@@ -166,7 +166,7 @@ export default function SistemaRiegoPage() {
           </p>
           <div className="not-prose my-4">
             <a href={amazonLink("B08KJTKLM5")} target="_blank" rel="noopener noreferrer sponsored" className="btn-primary">
-              Ver Orbit B-hyve en Amazon →
+              Ver Orbit B-hyve →
             </a>
           </div>
 

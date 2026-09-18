@@ -153,7 +153,7 @@ export default function CespedArtificialPage() {
           </p>
           <div className="not-prose my-4">
             <a href={amazonLink("B07TKLM9NR")} target="_blank" rel="noopener noreferrer sponsored" className="btn-primary">
-              Ver césped 40mm bicolor en Amazon →
+              Ver césped 40mm bicolor →
             </a>
           </div>
 
@@ -168,7 +168,7 @@ export default function CespedArtificialPage() {
           </p>
           <div className="not-prose my-4">
             <a href={amazonLink("B09RTKLM8Q")} target="_blank" rel="noopener noreferrer sponsored" className="btn-primary">
-              Ver césped para zona piscina en Amazon →
+              Ver césped para zona piscina →
             </a>
           </div>
 

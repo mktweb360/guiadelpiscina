@@ -232,7 +232,7 @@ export default function MangueraRiegoPage() {
           </p>
           <div className="not-prose my-4">
             <a href={amazonLink("B09JWV7TDS")} target="_blank" rel="nofollow noopener noreferrer sponsored" className="btn-primary">
-              Ver HOMEPROTEK 15 m en Amazon →
+              Ver HOMEPROTEK 15 m →
             </a>
           </div>
 
@@ -242,7 +242,7 @@ export default function MangueraRiegoPage() {
           </p>
           <div className="not-prose my-4">
             <a href={amazonLink("B09JWRSCGJ")} target="_blank" rel="nofollow noopener noreferrer sponsored" className="btn-primary">
-              Ver HOMEPROTEK 30 m en Amazon →
+              Ver HOMEPROTEK 30 m →
             </a>
           </div>
 
@@ -252,7 +252,7 @@ export default function MangueraRiegoPage() {
           </p>
           <div className="not-prose my-4">
             <a href={amazonLink("B07KQG1XYR")} target="_blank" rel="nofollow noopener noreferrer sponsored" className="btn-primary">
-              Ver Hozelock SuperHoze en Amazon →
+              Ver Hozelock SuperHoze →
             </a>
           </div>
 

@@ -171,7 +171,7 @@ export default function PiscinaDesmontablePage() {
           </ul>
           <div className="not-prose my-4">
             <a href={amazonLink("B00MJVWMKQ")} target="_blank" rel="noopener noreferrer sponsored" className="btn-primary">
-              Ver Intex Oval Frame en Amazon →
+              Ver Intex Oval Frame →
             </a>
           </div>
 
@@ -181,7 +181,7 @@ export default function PiscinaDesmontablePage() {
           </p>
           <div className="not-prose my-4">
             <a href={amazonLink("B08NTKLM7P")} target="_blank" rel="noopener noreferrer sponsored" className="btn-primary">
-              Ver Bestway Steel Pro en Amazon →
+              Ver Bestway Steel Pro →
             </a>
           </div>
 

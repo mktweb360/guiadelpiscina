@@ -251,7 +251,7 @@ export default function CloradorSalinoPage() {
           </p>
           <div className="not-prose my-4">
             <a href={amazonLink("B08DJ8VLD8")} target="_blank" rel="nofollow noopener noreferrer sponsored" className="btn-primary">
-              Ver Intex 55244 en Amazon →
+              Ver Intex 55244 →
             </a>
           </div>
 
@@ -261,7 +261,7 @@ export default function CloradorSalinoPage() {
           </p>
           <div className="not-prose my-4">
             <a href={amazonLink("B0B69MW8C1")} target="_blank" rel="nofollow noopener noreferrer sponsored" className="btn-primary">
-              Ver Bestway Hydrogenic en Amazon →
+              Ver Bestway Hydrogenic →
             </a>
           </div>
 
@@ -271,7 +271,7 @@ export default function CloradorSalinoPage() {
           </p>
           <div className="not-prose my-4">
             <a href={amazonLink("B07C9JL6RZ")} target="_blank" rel="nofollow noopener noreferrer sponsored" className="btn-primary">
-              Ver Intex 26670 en Amazon →
+              Ver Intex 26670 →
             </a>
           </div>
 

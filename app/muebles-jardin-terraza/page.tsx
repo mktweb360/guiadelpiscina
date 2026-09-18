@@ -153,7 +153,7 @@ export default function MueblesJardinPage() {
           </p>
           <div className="not-prose my-4">
             <a href={amazonLink("B07YXBFJKL")} target="_blank" rel="noopener noreferrer sponsored" className="btn-primary">
-              Ver conjunto 3 piezas en Amazon →
+              Ver conjunto 3 piezas →
             </a>
           </div>
 
@@ -163,7 +163,7 @@ export default function MueblesJardinPage() {
           </p>
           <div className="not-prose my-4">
             <a href={amazonLink("B08PQJKL3M")} target="_blank" rel="noopener noreferrer sponsored" className="btn-primary">
-              Ver Outsunny en Amazon →
+              Ver Outsunny →
             </a>
           </div>
 

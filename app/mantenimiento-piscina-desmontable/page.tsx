@@ -258,13 +258,13 @@ export default function MantenimientoPiscinaPage() {
 
         <div className="not-prose my-4 flex flex-wrap gap-3">
           <a href={amazonLink("B08DJ8VLD8")} target="_blank" rel="nofollow noopener noreferrer sponsored" className="btn-primary">
-            Ver Intex 55244 en Amazon →
+            Ver Intex 55244 →
           </a>
           <a href={amazonLink("B07C9JL6RZ")} target="_blank" rel="nofollow noopener noreferrer sponsored" className="btn-primary">
-            Ver Intex 26670 ECO en Amazon →
+            Ver Intex 26670 ECO →
           </a>
           <a href={amazonLink("B0B69MW8C1")} target="_blank" rel="nofollow noopener noreferrer sponsored" className="btn-primary">
-            Ver Bestway 58678 en Amazon →
+            Ver Bestway 58678 →
           </a>
         </div>
 

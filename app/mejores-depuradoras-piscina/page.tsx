@@ -185,7 +185,7 @@ export default function DepuradorasPage() {
           <div className="not-prose my-4">
             <a href={amazonLink("B095D6VF1Q")} target="_blank" rel="nofollow noopener noreferrer sponsored"
               className="btn-primary">
-              Ver Intex 28636 en Amazon →
+              Ver Intex 28636 →
             </a>
           </div>
 
@@ -223,7 +223,7 @@ export default function DepuradorasPage() {
           <div className="not-prose my-4">
             <a href={amazonLink("B00DVKH7UM")} target="_blank" rel="nofollow noopener noreferrer sponsored"
               className="btn-primary">
-              Ver Gre AR700 en Amazon →
+              Ver Gre AR700 →
             </a>
           </div>
 

@@ -226,7 +226,7 @@ export default function CubiertaPiscinaPage() {
           </p>
           <div className="not-prose my-4">
             <a href={amazonLink("B00N5UOAYO")} target="_blank" rel="nofollow noopener noreferrer sponsored" className="btn-primary">
-              Ver Bestway 58292 en Amazon →
+              Ver Bestway 58292 →
             </a>
           </div>
 
@@ -236,7 +236,7 @@ export default function CubiertaPiscinaPage() {
           </p>
           <div className="not-prose my-4">
             <a href={amazonLink("B00FQD5FSS")} target="_blank" rel="nofollow noopener noreferrer sponsored" className="btn-primary">
-              Ver Bestway 58242 en Amazon →
+              Ver Bestway 58242 →
             </a>
           </div>
 
@@ -246,7 +246,7 @@ export default function CubiertaPiscinaPage() {
           </p>
           <div className="not-prose my-4">
             <a href={amazonLink("B0055CIC26")} target="_blank" rel="nofollow noopener noreferrer sponsored" className="btn-primary">
-              Ver Intex 28031 en Amazon →
+              Ver Intex 28031 →
             </a>
           </div>
 
