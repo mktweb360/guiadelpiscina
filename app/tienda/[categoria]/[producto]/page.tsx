@@ -54,19 +54,19 @@ const categoryFaqs: Record<string, { q: string; a: string }[]> = {
 const genericFaqs = [
   {
     q: "¿Es seguro comprar a través de vuestros enlaces?",
-    a: "Sí, todos nuestros enlaces dirigen directamente a Amazon España, una plataforma con compra 100% segura. Nosotros no procesamos ningún pago ni almacenamos datos personales. El proceso de compra lo gestiona íntegramente Amazon con sus sistemas de seguridad certificados.",
+    a: "Sí, todos nuestros enlaces dirigen directamente a la tienda del vendedor, una plataforma con compra 100% segura. Nosotros no procesamos ningún pago ni almacenamos datos personales. El proceso de compra lo gestiona íntegramente el vendedor con sus sistemas de seguridad certificados.",
   },
   {
     q: "¿El precio que aparece es el precio final?",
-    a: "Los precios pueden variar en tiempo real en Amazon. El precio que mostramos es orientativo y puede cambiar por ofertas, descuentos o variaciones de stock. Siempre verás el precio actualizado y definitivo en la página de Amazon antes de confirmar la compra.",
+    a: "Los precios pueden variar en tiempo real. El precio que mostramos es orientativo y puede cambiar por ofertas, descuentos o variaciones de stock. Siempre verás el precio actualizado y definitivo en la ficha del producto antes de confirmar la compra.",
   },
   {
     q: "¿Cuánto tarda en llegar el pedido?",
-    a: "Los productos con el sello Prime llegan en 1-2 días laborables si realizas el pedido antes de las 14:00h. Para el resto de productos, el plazo habitual es de 3-5 días laborables. Amazon gestiona el envío y te enviará un número de seguimiento por email.",
+    a: "Los productos con envío premium llegan en 1-2 días laborables si realizas el pedido antes de las 14:00h. Para el resto de productos, el plazo habitual es de 3-5 días laborables. El vendedor gestiona el envío y te enviará un número de seguimiento por email.",
   },
   {
     q: "¿Puedo devolver el producto si no estoy satisfecho?",
-    a: "Sí. Amazon ofrece 30 días para devoluciones gratuitas en la mayoría de productos (algunos vendedores externos pueden tener condiciones distintas). El proceso es sencillo desde tu cuenta de Amazon, en el apartado 'Mis pedidos'. Si el producto llega dañado, Amazon lo reemplaza sin coste.",
+    a: "Sí. El vendedor ofrece 30 días para devoluciones gratuitas en la mayoría de productos (algunos vendedores externos pueden tener condiciones distintas). El proceso es sencillo desde tu cuenta, en el apartado 'Mis pedidos'. Si el producto llega dañado, se reemplaza sin coste.",
   },
 ];
 
@@ -168,7 +168,7 @@ export default async function ProductPage({
     offers: {
       "@type": "Offer",
       url: amzLink,
-      seller: { "@type": "Organization", name: "Amazon España" },
+      
       availability: "https://schema.org/InStock",
     },
   };
@@ -221,7 +221,7 @@ export default async function ProductPage({
           {/* Left — imagen con badge overlay */}
           <div className="relative rounded-2xl overflow-hidden bg-gray-100 aspect-square lg:aspect-auto lg:min-h-[420px]">
             <img
-              src={`/images/products/${product.categorySlug}.jpg`}
+              src={product.image ?? `/images/products/${product.categorySlug}.jpg`}
               alt={product.name}
               className="w-full h-full object-cover"
               loading="eager"
@@ -282,7 +282,7 @@ export default async function ProductPage({
             {/* Precio / CTA block */}
             <div className="bg-orange-50 border border-orange-100 rounded-2xl p-5 flex flex-col gap-3">
               <div>
-                <p className="text-base font-bold text-gray-900">Disponible en Amazon España</p>
+                <p className="text-base font-bold text-gray-900">Disponible ahora</p>
                 <p className="text-xs text-gray-500 mt-0.5">Precio actualizado · Compra 100% segura</p>
               </div>
               <a
@@ -291,7 +291,7 @@ export default async function ProductPage({
                 rel="nofollow noopener noreferrer sponsored"
                 className="flex items-center justify-center gap-2 w-full px-6 py-3.5 bg-orange-500 hover:bg-orange-600 text-white font-bold rounded-xl transition-colors text-base"
               >
-                🛒 Comprar en Amazon →
+                🛒 Comprar ahora →
               </a>
               <Link
                 href={`/tienda/${categoria}`}
@@ -300,7 +300,7 @@ export default async function ProductPage({
                 Ver más productos de {product.categoryName}
               </Link>
               <p className="text-xs text-gray-400 text-center">
-                Enlace de afiliado — tag: cclaserdepi01-21 · Se abrirá Amazon.es
+                Enlace de afiliado · Precio actualizado en destino
               </p>
             </div>
 
@@ -309,7 +309,7 @@ export default async function ProductPage({
               {[
                 { icon: "🚚", title: "Envío Prime", sub: "1-2 días laborables" },
                 { icon: "↩️", title: "Devoluciones", sub: "30 días gratis" },
-                { icon: "🔒", title: "Pago seguro", sub: "Gestionado por Amazon" },
+                { icon: "🔒", title: "Pago seguro", sub: "Checkout cifrado" },
               ].map(({ icon, title, sub }) => (
                 <div key={title} className="flex flex-col items-center text-center bg-gray-50 rounded-xl p-3 border border-gray-100">
                   <span className="text-xl mb-1">{icon}</span>
@@ -326,7 +326,7 @@ export default async function ProductPage({
         <div className="text-xs text-gray-400 bg-gray-50 border border-gray-100 rounded-xl px-4 py-3 mb-8 flex items-start gap-2">
           <svg viewBox="0 0 20 20" fill="currentColor" className="w-4 h-4 text-gray-400 flex-shrink-0 mt-0.5"><path fillRule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2v3a1 1 0 001 1h1a1 1 0 100-2v-3a1 1 0 00-1-1H9z" clipRule="evenodd" /></svg>
           <span>
-            <strong className="font-semibold text-gray-500">Transparencia:</strong> Guía del Piscina participa en el Programa de Afiliados de Amazon EU, por lo que recibimos una pequeña comisión cuando compras a través de nuestros enlaces (sin coste adicional para ti). Esto nos permite mantener el sitio con análisis independientes y sin publicidad invasiva.
+            <strong className="font-semibold text-gray-500">Transparencia:</strong> Guía del Piscina participa en programas de afiliación, por lo que recibimos una pequeña comisión cuando compras a través de nuestros enlaces (sin coste adicional para ti). Esto nos permite mantener el sitio con análisis independientes y sin publicidad invasiva. Más información en nuestra política de privacidad.
           </span>
         </div>
 
@@ -445,7 +445,7 @@ export default async function ProductPage({
 
           <div className="relative z-10 text-center sm:text-left">
             <p className="text-white font-extrabold text-xl mb-1">{product.name}</p>
-            <p className="text-sky-100 text-sm">Disponible ahora en Amazon España — compra segura con Prime</p>
+            <p className="text-sky-100 text-sm">Disponible ahora — compra segura con envío rápido</p>
           </div>
 
           <div className="relative z-10 flex flex-col items-center gap-2 flex-shrink-0">
@@ -455,7 +455,7 @@ export default async function ProductPage({
               rel="nofollow noopener noreferrer sponsored"
               className="inline-flex items-center gap-2 px-8 py-3.5 bg-orange-500 hover:bg-orange-400 text-white font-extrabold rounded-xl transition-colors text-base shadow-lg whitespace-nowrap"
             >
-              🛒 Ver precio en Amazon →
+              🛒 Ver precio actualizado →
             </a>
             <p className="text-sky-200 text-xs">Enlace de afiliado · Sin coste adicional para ti</p>
           </div>
