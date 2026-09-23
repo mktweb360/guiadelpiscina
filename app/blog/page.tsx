@@ -247,6 +247,67 @@ const articles = [
     price: "",
     category: "Mantenimiento",
   },
+  // 23/09/2026: artículos de ago-sep 2026 que no figuraban en el listado + artículo nuevo del loop
+  {
+    href: "/como-cerrar-piscina-invierno",
+    icon: "❄️",
+    title: "Cómo cerrar la piscina para el invierno: guía completa paso a paso (2026)",
+    excerpt:
+      "Tratamiento de choque, equilibrio químico, protección del equipo y elección de cubierta para cerrar tu piscina desmontable antes del invierno. Checklist incluido.",
+    date: "2026-08-25",
+    price: "",
+    category: "Mantenimiento",
+  },
+  {
+    href: "/invernaje-activo-o-pasivo-piscina",
+    icon: "🧊",
+    title: "Invernaje activo o pasivo en la piscina: cuál elegir y cómo hacerlo (2026)",
+    excerpt:
+      "Diferencias entre invernaje activo y pasivo, cuándo conviene cada uno según tu clima y equipo, y cómo hacerlo paso a paso.",
+    date: "2026-08-30",
+    price: "",
+    category: "Mantenimiento",
+  },
+  {
+    href: "/skimmer-piscina-automatico-solar",
+    icon: "☀️",
+    title: "Skimmer de piscina: qué es y cuándo interesa uno automático solar (2026)",
+    excerpt:
+      "Diferencia entre el skimmer fijo y el robot skimmer solar de superficie, y cuándo compensa frente a limpiar solo con el robot de fondo.",
+    date: "2026-09-05",
+    price: "",
+    category: "Piscinas",
+  },
+  {
+    href: "/aiper-scuba-se-analisis",
+    icon: "🤖",
+    title: "AIPER Scuba SE: análisis completo y opinión 2026",
+    excerpt:
+      "Autonomía, cobertura y comparativa del robot limpiafondos de entrada de AIPER frente a otros robots de nuestra selección.",
+    date: "2026-09-08",
+    price: "",
+    category: "Piscinas",
+  },
+  {
+    href: "/gardena-flex-1890-20-analisis",
+    icon: "💧",
+    title: "GARDENA Flex 1890-20: análisis completo y opinión 2026",
+    excerpt:
+      "Función Water Now, instalación, alimentación y comparativa con otros programadores Gardena de nuestra selección.",
+    date: "2026-09-08",
+    price: "",
+    category: "Jardín",
+  },
+  {
+    href: "/como-elegir-programador-riego",
+    icon: "⏲️",
+    title: "Programador de riego para grifo: cómo elegir entre mecánico, electrónico y smart (2026)",
+    excerpt:
+      "Temporizador mecánico, programador electrónico o sistema smart con app: qué necesitas según tu jardín, balcón o huerto, en 4 preguntas.",
+    date: "2026-09-23",
+    price: "",
+    category: "Jardín",
+  },
 ];
 
 const breadcrumbSchema = {

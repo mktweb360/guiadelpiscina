@@ -37,6 +37,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${BASE_URL}/cubierta-piscina-desmontable`, lastModified: "2025-07-15", changeFrequency: "monthly" as const, priority: 0.8 },
     { url: `${BASE_URL}/piscina-desmontable-grande-adultos`, lastModified: "2025-07-15", changeFrequency: "monthly" as const, priority: 0.8 },
     { url: `${BASE_URL}/mejores-sombrillas-jardin`, lastModified: "2025-07-15", changeFrequency: "monthly" as const, priority: 0.8 },
+    // 23/09/2026: 5 artículos publicados ago-sep 2026 que no estaban en el sitemap + artículo nuevo del loop
+    { url: `${BASE_URL}/como-cerrar-piscina-invierno`, lastModified: "2026-08-25", changeFrequency: "monthly" as const, priority: 0.8 },
+    { url: `${BASE_URL}/invernaje-activo-o-pasivo-piscina`, lastModified: "2026-08-30", changeFrequency: "monthly" as const, priority: 0.8 },
+    { url: `${BASE_URL}/skimmer-piscina-automatico-solar`, lastModified: "2026-09-05", changeFrequency: "monthly" as const, priority: 0.7 },
+    { url: `${BASE_URL}/aiper-scuba-se-analisis`, lastModified: "2026-09-08", changeFrequency: "monthly" as const, priority: 0.7 },
+    { url: `${BASE_URL}/gardena-flex-1890-20-analisis`, lastModified: "2026-09-08", changeFrequency: "monthly" as const, priority: 0.7 },
+    { url: `${BASE_URL}/como-elegir-programador-riego`, lastModified: "2026-09-23", changeFrequency: "monthly" as const, priority: 0.8 },
   ];
 
   const storeRoot = [

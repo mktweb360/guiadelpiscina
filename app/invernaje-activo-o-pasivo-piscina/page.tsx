@@ -65,11 +65,10 @@ const articleSchema = {
   datePublished: "2026-08-30",
   dateModified: "2026-08-30",
   author: {
-    "@type": "Person",
-    name: "Miguel Torres",
-    jobTitle: "Técnico Instalador de Piscinas",
+    "@type": "Organization",
+    name: "Equipo Editorial de Guía del Piscina",
     url: "https://www.guiadelpiscina.com/sobre-nosotros",
-    description: "Técnico instalador de piscinas con 12 años de experiencia en instalación y mantenimiento de piscinas en España.",
+    description: "Equipo editorial de Guía del Piscina (Mkt Web 360 SLU). Comparamos especificaciones técnicas, precios y opiniones verificadas, con apoyo de IA en investigación y redacción bajo revisión editorial.",
     knowsAbout: ["mantenimiento de piscinas", "tratamiento del agua", "bombas de calor", "invernaje de piscinas", "piscinas desmontables"],
   },
   publisher: { "@type": "Organization", name: "Mkt Web 360 SLU", url: "https://www.guiadelpiscina.com" },
@@ -128,8 +127,7 @@ export default function InvernajeActivoPasivoPage() {
         <p className="text-gray-400 text-sm mb-6">Publicado: 30 agosto 2026 · Actualizado: 30 agosto 2026 · 9 min lectura</p>
         <span className="flex items-center gap-1 text-gray-500 text-sm mb-4 block">
           <span>✍️</span>
-          <a href="/sobre-nosotros" className="font-medium text-sky-700 hover:underline">Miguel Torres</a>
-          <span className="text-gray-400">— Técnico de Piscinas</span>
+          <a href="/sobre-nosotros" className="font-medium text-sky-700 hover:underline">Equipo Editorial de Guía del Piscina</a>
         </span>
         <img
           src="/images/blog/invernaje-activo-o-pasivo-piscina.jpg"
