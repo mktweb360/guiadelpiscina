@@ -117,7 +117,6 @@ export default function MueblesJardinPage() {
                 <th className="px-3 py-3 text-left">Material</th>
                 <th className="px-3 py-3 text-left">Piezas</th>
                 <th className="px-3 py-3 text-left">Intemperie</th>
-                <th className="px-3 py-3 text-left">Valoración</th>
                 <th className="px-3 py-3 text-left">Comprar</th>
               </tr>
             </thead>
@@ -129,7 +128,6 @@ export default function MueblesJardinPage() {
                   <td className="px-3 py-3 text-gray-600 text-xs">{p.material}</td>
                   <td className="px-3 py-3 text-gray-600 text-xs">{p.pieces}</td>
                   <td className="px-3 py-3 text-green-600 font-medium">{p.weatherproof}</td>
-                  <td className="px-3 py-3 text-yellow-500 font-semibold">⭐ {p.stars}</td>
                   <td className="px-3 py-3">
                     <a href={amazonLink(p.asin)} target="_blank" rel="noopener noreferrer sponsored"
                       className="inline-block bg-orange-500 text-white text-xs font-bold px-3 py-1.5 rounded-lg hover:bg-orange-600 transition-colors whitespace-nowrap">

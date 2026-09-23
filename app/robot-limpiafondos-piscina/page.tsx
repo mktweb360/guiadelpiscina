@@ -125,7 +125,6 @@ export default function RobotLimpiafondosPage() {
                 <th className="px-3 py-3 text-left">Cobertura</th>
                 <th className="px-3 py-3 text-left">Piscina</th>
                 <th className="px-3 py-3 text-left">Ciclo</th>
-                <th className="px-3 py-3 text-left">Valoración</th>
                 <th className="px-3 py-3 text-left">Comprar</th>
               </tr>
             </thead>
@@ -137,7 +136,6 @@ export default function RobotLimpiafondosPage() {
                   <td className="px-3 py-3 text-gray-600 text-xs">{p.coverage}</td>
                   <td className="px-3 py-3 text-gray-600">{p.pool}</td>
                   <td className="px-3 py-3 text-gray-600">{p.cycle}</td>
-                  <td className="px-3 py-3 text-yellow-500 font-semibold">⭐ {p.stars}</td>
                   <td className="px-3 py-3">
                     <a href={amazonLink(p.asin)} target="_blank" rel="nofollow noopener noreferrer sponsored"
                       className="inline-block bg-orange-500 text-white text-xs font-bold px-3 py-1.5 rounded-lg hover:bg-orange-600 transition-colors whitespace-nowrap">

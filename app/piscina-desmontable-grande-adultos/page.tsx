@@ -28,7 +28,6 @@ const products = [
     size: "Ø488x122 cm",
     volume: "≈19.000 L",
     filter: "Depuradora de arena incluida",
-    price: "≈650€",
   },
   {
     name: "Intex 28324NP — Ultra Frame Ø488x122 cm",
@@ -37,7 +36,6 @@ const products = [
     size: "Ø488x122 cm",
     volume: "≈19.000 L",
     filter: "Depuradora incluida",
-    price: "≈550€",
   },
   {
     name: "Bestway Power Steel Elite 732x366 cm",
@@ -46,7 +44,6 @@ const products = [
     size: "732x366x132 cm",
     volume: "≈28.620 L",
     filter: "Depuradora (9.463 l/h) + bomba de calor",
-    price: "≈700€",
   },
 ];
 

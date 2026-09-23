@@ -23,32 +23,26 @@ export const metadata: Metadata = {
 const comparison = [
   {
     name: "GARDENA Flex 1890-20",
-    price: "€49,26",
-    reviews: "4.330",
-    rating: "4,5",
+    positioning: "Medio",
     highlight: "Función Water Now + programación flexible",
     href: "/tienda/riego-automatico/gardena-flexcontrol-programador-riego",
   },
   {
     name: "Gardena Smart Set (con Gateway)",
-    price: "€400,64",
-    reviews: "72",
-    rating: "3,9",
+    positioning: "Alto",
     highlight: "Control por app y voz, ecosistema smart completo",
     href: "/tienda/riego-automatico/gardena-smart-set-riego-gateway",
   },
   {
     name: "Gardena Temporizador Estándar",
-    price: "€27,50",
-    reviews: "2.794",
-    rating: "4,2",
+    positioning: "Económico",
     highlight: "Mecánico, sin app, el más económico",
     href: "/tienda/riego-automatico/gardena-temporizador-estandar-riego",
   },
 ];
 
 const pros = [
-  "4.330 reseñas verificadas — el producto de riego mejor valorado del catálogo",
+  "Un volumen de reseñas verificadas muy alto — el producto de riego mejor valorado del catálogo",
   "Función Water Now: riego manual inmediato sin desprogramar el horario automático",
   "Programación flexible por días de la semana o por intervalos, hasta 4 tiempos de riego al día",
   "Funciona con pilas (no requiere corriente ni WiFi), instalación en minutos directamente al grifo",
@@ -163,7 +157,7 @@ export default function GardenaFlexAnalisisPage() {
           <div id="respuesta-directa" className="bg-sky-50 border-l-4 border-sky-500 rounded-r-xl px-5 py-4 mb-6">
             <p className="text-xs font-bold text-sky-700 uppercase tracking-wide mb-1.5">Respuesta directa</p>
             <p className="text-gray-800 font-medium leading-relaxed">
-              El GARDENA Flex 1890-20 es un programador de riego electrónico que se instala directamente en el grifo, con <strong>4.330 reseñas verificadas</strong> — el producto con más valoraciones de toda la categoría de riego automático de este catálogo. Su punto fuerte es la <strong>función Water Now</strong>: permite regar manualmente en cualquier momento sin borrar ni alterar el programa automático guardado. No tiene WiFi ni app — para eso existe el Gardena Smart Set — pero cubre con solvencia la necesidad de la inmensa mayoría de jardines domésticos.
+              El GARDENA Flex 1890-20 es un programador de riego electrónico que se instala directamente en el grifo, con <strong>un volumen de reseñas verificadas muy alto</strong> — el producto con más valoraciones de toda la categoría de riego automático de este catálogo. Su punto fuerte es la <strong>función Water Now</strong>: permite regar manualmente en cualquier momento sin borrar ni alterar el programa automático guardado. No tiene WiFi ni app — para eso existe el Gardena Smart Set — pero cubre con solvencia la necesidad de la inmensa mayoría de jardines domésticos.
             </p>
           </div>
 
@@ -210,9 +204,7 @@ export default function GardenaFlexAnalisisPage() {
             <thead>
               <tr className="bg-sky-600 text-white">
                 <th className="px-3 py-3 text-left">Producto</th>
-                <th className="px-3 py-3 text-left">Precio</th>
-                <th className="px-3 py-3 text-left">Reseñas</th>
-                <th className="px-3 py-3 text-left">Rating</th>
+                <th className="px-3 py-3 text-left">Posicionamiento de precio</th>
                 <th className="px-3 py-3 text-left">Lo que ofrece</th>
               </tr>
             </thead>
@@ -222,9 +214,7 @@ export default function GardenaFlexAnalisisPage() {
                   <td className="px-3 py-3 font-semibold text-gray-900">
                     <Link href={c.href} className="hover:underline hover:text-sky-700">{c.name}</Link>
                   </td>
-                  <td className="px-3 py-3 font-bold text-sky-600">{c.price}</td>
-                  <td className="px-3 py-3 text-gray-600">{c.reviews}</td>
-                  <td className="px-3 py-3 text-gray-600">{c.rating}★</td>
+                  <td className="px-3 py-3 font-bold text-sky-600">{c.positioning}</td>
                   <td className="px-3 py-3 text-gray-600">{c.highlight}</td>
                 </tr>
               ))}

@@ -120,7 +120,6 @@ export default function SistemaRiegoPage() {
                 <th className="px-3 py-3 text-left">Cobertura</th>
                 <th className="px-3 py-3 text-left">Zonas</th>
                 <th className="px-3 py-3 text-left">Inteligente</th>
-                <th className="px-3 py-3 text-left">Valoración</th>
                 <th className="px-3 py-3 text-left">Comprar</th>
               </tr>
             </thead>
@@ -132,7 +131,6 @@ export default function SistemaRiegoPage() {
                   <td className="px-3 py-3 text-gray-600 text-xs">{p.coverage}</td>
                   <td className="px-3 py-3 text-gray-600">{p.zones}</td>
                   <td className="px-3 py-3 text-gray-600 text-xs">{p.smart}</td>
-                  <td className="px-3 py-3 text-yellow-500 font-semibold">⭐ {p.stars}</td>
                   <td className="px-3 py-3">
                     <a href={amazonLink(p.asin)} target="_blank" rel="noopener noreferrer sponsored"
                       className="inline-block bg-orange-500 text-white text-xs font-bold px-3 py-1.5 rounded-lg hover:bg-orange-600 transition-colors whitespace-nowrap">

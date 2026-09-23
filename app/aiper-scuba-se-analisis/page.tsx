@@ -23,41 +23,33 @@ export const metadata: Metadata = {
 const comparison = [
   {
     name: "AIPER Scuba SE",
-    price: "€149,00",
-    reviews: "301",
-    rating: "4,0",
+    positioning: "Económico",
     highlight: "El más económico, 90 min de autonomía",
     href: "/tienda/robots-limpiafondos/aiper-scuba-se-robot-piscina",
   },
   {
     name: "Pooleco 10",
-    price: "€149,99",
-    reviews: "18",
-    rating: "5,0",
-    highlight: "Mismo precio, autoaparcamiento, marca menos consolidada",
+    positioning: "Económico, similar",
+    highlight: "Mismo rango de precio, autoaparcamiento, marca menos consolidada",
     href: "/tienda/robots-limpiafondos/pooleco-10-robot-limpiafondos-90min",
   },
   {
     name: "AIPER Scuba S1 (2026 Upgrade)",
-    price: "€521,00",
-    reviews: "197",
-    rating: "3,8",
+    positioning: "Alto",
     highlight: "270 min de autonomía, gama alta AIPER",
     href: "/tienda/robots-limpiafondos/aiper-scuba-s1-robot-piscina",
   },
   {
     name: "WYBOT C2 Vision Plus",
-    price: "€651,60",
-    reviews: "125",
-    rating: "4,0",
+    positioning: "Alto",
     highlight: "Cámara con IA, cobertura 210 m²",
     href: "/tienda/robots-limpiafondos/wybot-c2-vision-robot-piscina",
   },
 ];
 
 const pros = [
-  "El robot limpiafondos más económico del catálogo (€149,00)",
-  "301 reseñas verificadas con 4,0★ — dato consolidado, no una ficha nueva sin recorrido",
+  "El robot limpiafondos más económico del catálogo",
+  "Un volumen alto de reseñas verificadas con valoración sólida — dato consolidado, no una ficha nueva sin recorrido",
   "90 minutos de autonomía, suficiente para piscinas medianas",
   "Inalámbrico: sin cable que enredar ni necesidad de conexión a la depuradora",
   "Misma marca (AIPER) que el modelo de gama alta del catálogo, con recorrido probado",
@@ -76,11 +68,11 @@ const faqs = [
   },
   {
     q: "¿Merece la pena pagar más por el AIPER Scuba S1 en vez del SE?",
-    a: "Depende del tamaño de la piscina y del uso. Para piscinas desmontables medianas, el SE con sus 90 minutos suele ser suficiente y ofrece la mejor relación precio-reseñas del catálogo. Para piscinas grandes o con mucha suciedad acumulada, la autonomía de 270 minutos del S1 evita tener que recargar a mitad de la limpieza.",
+    a: "Depende del tamaño de la piscina y del uso. Para piscinas desmontables medianas, el SE con sus 90 minutos suele ser suficiente y ofrece la mejor relación calidad-precio del catálogo. Para piscinas grandes o con mucha suciedad acumulada, la autonomía de 270 minutos del S1 evita tener que recargar a mitad de la limpieza.",
   },
   {
     q: "¿Cómo se compara con el Pooleco 10, que tiene el mismo precio?",
-    a: "Ambos rondan los €149. El Pooleco 10 tiene, en el momento de esta comparativa, una valoración perfecta (5,0★) pero basada en solo 18 reseñas — un volumen bajo para sacar conclusiones firmes. El AIPER Scuba SE, con 301 reseñas y 4,0★, ofrece un dato mucho más consolidado y una marca con más recorrido en el catálogo.",
+    a: "Ambos están en un rango de precio muy similar. El Pooleco 10 tiene, en el momento de esta comparativa, una valoración muy alta pero basada en un volumen de reseñas bajo — insuficiente para sacar conclusiones firmes. El AIPER Scuba SE tiene un volumen de reseñas mucho mayor y una valoración sólida, un dato mucho más consolidado y una marca con más recorrido en el catálogo.",
   },
   {
     q: "¿Necesito palo o red para sacarlo del agua?",
@@ -214,9 +206,7 @@ export default function AiperScubaSeAnalisisPage() {
             <thead>
               <tr className="bg-sky-600 text-white">
                 <th className="px-3 py-3 text-left">Producto</th>
-                <th className="px-3 py-3 text-left">Precio</th>
-                <th className="px-3 py-3 text-left">Reseñas</th>
-                <th className="px-3 py-3 text-left">Rating</th>
+                <th className="px-3 py-3 text-left">Posicionamiento de precio</th>
                 <th className="px-3 py-3 text-left">Lo que ofrece</th>
               </tr>
             </thead>
@@ -226,9 +216,7 @@ export default function AiperScubaSeAnalisisPage() {
                   <td className="px-3 py-3 font-semibold text-gray-900">
                     <Link href={c.href} className="hover:underline hover:text-sky-700">{c.name}</Link>
                   </td>
-                  <td className="px-3 py-3 font-bold text-sky-600">{c.price}</td>
-                  <td className="px-3 py-3 text-gray-600">{c.reviews}</td>
-                  <td className="px-3 py-3 text-gray-600">{c.rating}★</td>
+                  <td className="px-3 py-3 font-bold text-sky-600">{c.positioning}</td>
                   <td className="px-3 py-3 text-gray-600">{c.highlight}</td>
                 </tr>
               ))}

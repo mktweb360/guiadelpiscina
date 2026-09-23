@@ -137,7 +137,6 @@ export default function BombaCalorPage() {
                 <th className="px-3 py-3 text-left">Potencia</th>
                 <th className="px-3 py-3 text-left">Tipo</th>
                 <th className="px-3 py-3 text-left">Piscina</th>
-                <th className="px-3 py-3 text-left">Valoración</th>
                 <th className="px-3 py-3 text-left">Comprar</th>
               </tr>
             </thead>
@@ -149,7 +148,6 @@ export default function BombaCalorPage() {
                   <td className="px-3 py-3 text-gray-600 text-xs">{p.power}</td>
                   <td className="px-3 py-3 text-gray-600 text-xs">{p.type}</td>
                   <td className="px-3 py-3 text-gray-600">{p.pool}</td>
-                  <td className="px-3 py-3 text-yellow-500 font-semibold">⭐ {p.stars}</td>
                   <td className="px-3 py-3">
                     <a href={amazonLink(p.asin)} target="_blank" rel="nofollow noopener noreferrer sponsored"
                       className="inline-block bg-orange-500 text-white text-xs font-bold px-3 py-1.5 rounded-lg hover:bg-orange-600 transition-colors whitespace-nowrap">
