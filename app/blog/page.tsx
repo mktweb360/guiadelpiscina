@@ -308,6 +308,16 @@ const articles = [
     price: "",
     category: "Jardín",
   },
+  {
+    href: "/acido-cianurico-piscina",
+    icon: "🧪",
+    title: "Ácido cianúrico en la piscina: qué es, valores ideales y cómo bajarlo (2026)",
+    excerpt:
+      "Qué es el estabilizador del cloro, qué valor mantener, qué cloros lo aportan y cómo corregir un exceso renovando agua. Con fórmula de cálculo.",
+    date: "2026-10-07",
+    price: "",
+    category: "Piscinas",
+  },
 ];
 
 const breadcrumbSchema = {

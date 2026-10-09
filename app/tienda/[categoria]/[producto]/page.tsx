@@ -72,36 +72,6 @@ const genericFaqs = [
 
 // ── Helpers ───────────────────────────────────────────────────────────────────
 
-function stableRating(slug: string): { score: number; count: number } {
-  let hash = 0;
-  for (let i = 0; i < slug.length; i++) {
-    hash = (hash * 31 + slug.charCodeAt(i)) & 0xffffffff;
-  }
-  const h = Math.abs(hash);
-  const score = Math.round((4.1 + (h % 9) * 0.1) * 10) / 10;
-  const count = 120 + (h % 801);
-  return { score, count };
-}
-
-function StarRating({ score }: { score: number }) {
-  const fullStars = Math.floor(score);
-  const hasHalf = score - fullStars >= 0.5;
-  const emptyStars = 5 - fullStars - (hasHalf ? 1 : 0);
-  return (
-    <span className="inline-flex items-center gap-0.5 text-orange-400" aria-label={`${score} de 5 estrellas`}>
-      {Array.from({ length: fullStars }).map((_, i) => (
-        <svg key={`f${i}`} viewBox="0 0 20 20" fill="currentColor" className="w-4 h-4"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.286 3.957a1 1 0 00.95.69h4.162c.969 0 1.371 1.24.588 1.81l-3.37 2.448a1 1 0 00-.364 1.118l1.287 3.957c.3.921-.755 1.688-1.54 1.118L10 14.347l-3.95 2.878c-.784.57-1.838-.197-1.539-1.118l1.287-3.957a1 1 0 00-.364-1.118L2.063 9.384c-.783-.57-.38-1.81.588-1.81h4.162a1 1 0 00.95-.69L9.049 2.927z" /></svg>
-      ))}
-      {hasHalf && (
-        <svg viewBox="0 0 20 20" className="w-4 h-4"><defs><linearGradient id="half"><stop offset="50%" stopColor="#fb923c" /><stop offset="50%" stopColor="#e5e7eb" /></linearGradient></defs><path fill="url(#half)" d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.286 3.957a1 1 0 00.95.69h4.162c.969 0 1.371 1.24.588 1.81l-3.37 2.448a1 1 0 00-.364 1.118l1.287 3.957c.3.921-.755 1.688-1.54 1.118L10 14.347l-3.95 2.878c-.784.57-1.838-.197-1.539-1.118l1.287-3.957a1 1 0 00-.364-1.118L2.063 9.384c-.783-.57-.38-1.81.588-1.81h4.162a1 1 0 00.95-.69L9.049 2.927z" /></svg>
-      )}
-      {Array.from({ length: emptyStars }).map((_, i) => (
-        <svg key={`e${i}`} viewBox="0 0 20 20" fill="#e5e7eb" className="w-4 h-4"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.286 3.957a1 1 0 00.95.69h4.162c.969 0 1.371 1.24.588 1.81l-3.37 2.448a1 1 0 00-.364 1.118l1.287 3.957c.3.921-.755 1.688-1.54 1.118L10 14.347l-3.95 2.878c-.784.57-1.838-.197-1.539-1.118l1.287-3.957a1 1 0 00-.364-1.118L2.063 9.384c-.783-.57-.38-1.81.588-1.81h4.162a1 1 0 00.95-.69L9.049 2.927z" /></svg>
-      ))}
-    </span>
-  );
-}
-
 // ── Static params ─────────────────────────────────────────────────────────────
 
 export function generateStaticParams() {
@@ -148,7 +118,6 @@ export default async function ProductPage({
   const faqs = categoryFaqs[categoria] ?? [];
   const allFaqs = [...faqs, ...genericFaqs];
   const amzLink = amazonLink(product.asin);
-  const { score, count } = stableRating(product.slug);
   const topSpecs = Object.entries(product.specs).slice(0, 4);
 
   const productSchema = {
@@ -158,13 +127,6 @@ export default async function ProductPage({
     description: product.shortDescription,
     brand: { "@type": "Brand", name: product.name.split(" ")[0] },
     sku: product.asin,
-    aggregateRating: {
-      "@type": "AggregateRating",
-      ratingValue: score,
-      reviewCount: count,
-      bestRating: 5,
-      worstRating: 1,
-    },
     offers: {
       "@type": "Offer",
       url: amzLink,
@@ -259,13 +221,6 @@ export default async function ProductPage({
             <h1 className="text-2xl md:text-3xl font-extrabold text-gray-900 leading-tight">
               {product.name}
             </h1>
-
-            {/* Rating */}
-            <div className="flex items-center gap-2">
-              <StarRating score={score} />
-              <span className="text-sm font-bold text-gray-800">{score.toFixed(1)}</span>
-              <span className="text-sm text-gray-400">({count.toLocaleString("es-ES")} valoraciones)</span>
-            </div>
 
             {/* Top 4 specs pills */}
             {topSpecs.length > 0 && (

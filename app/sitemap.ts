@@ -44,6 +44,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${BASE_URL}/aiper-scuba-se-analisis`, lastModified: "2026-09-08", changeFrequency: "monthly" as const, priority: 0.7 },
     { url: `${BASE_URL}/gardena-flex-1890-20-analisis`, lastModified: "2026-09-08", changeFrequency: "monthly" as const, priority: 0.7 },
     { url: `${BASE_URL}/como-elegir-programador-riego`, lastModified: "2026-09-23", changeFrequency: "monthly" as const, priority: 0.8 },
+    { url: `${BASE_URL}/acido-cianurico-piscina`, lastModified: "2026-10-07", changeFrequency: "monthly" as const, priority: 0.8 },
   ];
 
   const storeRoot = [
