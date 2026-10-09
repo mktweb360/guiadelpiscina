@@ -6,9 +6,9 @@ import AdSenseAd from "@/components/AdSenseAd";
 import BlogSidebar from "@/components/BlogSidebar";
 
 export const metadata: Metadata = {
-  title: "Mejores muebles de jardín y terraza 2025 — Guía completa",
+  title: "Mejores muebles de jardín y terraza — Guía completa",
   description:
-    "Comparativa de los mejores muebles de jardín y terraza para 2025. Conjuntos, sillas, mesas y tumbonas para todos los presupuestos.",
+    "Comparativa de los mejores muebles de jardín y terraza. Conjuntos, sillas, mesas y tumbonas para todos los presupuestos.",
   keywords: "muebles jardin, muebles terraza baratos, conjunto jardin, sillas jardin, mesa jardin",
   alternates: { canonical: "https://www.guiadelpiscina.com/muebles-jardin-terraza" },
 };
@@ -32,8 +32,8 @@ const faqs = [
 const articleSchema = {
   "@context": "https://schema.org",
   "@type": "Article",
-  headline: "Mejores muebles de jardín y terraza 2025 — Guía completa",
-  description: "Comparativa de los mejores muebles de jardín y terraza para 2025.",
+  headline: "Mejores muebles de jardín y terraza — Guía completa",
+  description: "Comparativa de los mejores muebles de jardín y terraza.",
   datePublished: "2025-04-10",
   dateModified: "2025-06-01",
   author: {
@@ -45,7 +45,7 @@ const articleSchema = {
   },
   publisher: { "@type": "Organization", name: "Mkt Web 360 SLU", url: "https://www.guiadelpiscina.com" },
   mainEntityOfPage: "https://www.guiadelpiscina.com/muebles-jardin-terraza",
-  image: { "@type": "ImageObject", url: "https://www.guiadelpiscina.com/og-image.png", width: 1200, height: 630 },
+  image: { "@type": "ImageObject", url: "https://www.guiadelpiscina.com/opengraph-image", width: 1200, height: 630 },
   speakable: { "@type": "SpeakableSpecification", cssSelector: ["#respuesta-directa", "h1"] },
 };
 
@@ -88,7 +88,7 @@ export default function MueblesJardinPage() {
         </nav>
 
         <h1 className="text-3xl md:text-4xl font-extrabold text-gray-900 mb-4 leading-tight">
-          Mejores muebles de jardín y terraza 2025 — Guía completa
+          Mejores muebles de jardín y terraza — Guía completa
         </h1>
         <p className="text-gray-400 text-sm mb-6">Publicado: 10 abril 2025 · Actualizado: 1 junio 2025 · 10 min lectura</p>
         <span className="flex items-center gap-1 text-gray-500 text-sm mb-4 block">
@@ -102,10 +102,10 @@ export default function MueblesJardinPage() {
         <div className="prose">
                     <div id="respuesta-directa" className="bg-sky-50 border-l-4 border-sky-500 rounded-r-xl px-5 py-4 mb-6">
             <p className="text-xs font-bold text-sky-700 uppercase tracking-wide mb-1.5">Respuesta directa</p>
-            <p className="text-gray-800 font-medium leading-relaxed">Los <strong>muebles de jardín</strong> son la clave para disfrutar al máximo de la terraza o el jardín en verano. Elegir bien marca la diferencia entre un espacio que se deteriora en dos temporadas y uno que dura décadas. En esta guía analizamos los <strong>mejores conjuntos de muebles de jardín y terraza</strong> disponibles en el mercado en 2025, con precios entre 130 y 650€. Puedes <Link href="/tienda/muebles-jardin" className="text-sky-600 hover:underline font-medium">ver conjuntos de jardín en nuestra tienda</Link> con selección actualizada y precios comparados.</p>
+            <p className="text-gray-800 font-medium leading-relaxed">Los <strong>muebles de jardín</strong> son la clave para disfrutar al máximo de la terraza o el jardín en verano. Elegir bien marca la diferencia entre un espacio que se deteriora en dos temporadas y uno que dura décadas. En esta guía analizamos los <strong>mejores conjuntos de muebles de jardín y terraza</strong> disponibles en el mercado, con precios entre 130 y 650€. Puedes <Link href="/tienda/muebles-jardin" className="text-sky-600 hover:underline font-medium">ver conjuntos de jardín en nuestra tienda</Link> con selección actualizada y precios comparados.</p>
           </div>
 
-          <h2>Comparativa — Mejores muebles de jardín 2025</h2>
+          <h2>Comparativa — Mejores muebles de jardín</h2>
         </div>
 
         <div className="overflow-x-auto my-6">
@@ -145,9 +145,9 @@ export default function MueblesJardinPage() {
         <div className="prose">
           <h2>Los mejores muebles de jardín — Análisis detallado</h2>
 
-          <h3>1. Conjunto de rattan 3 piezas — Mejor precio (★★★★)</h3>
+          <h3>1. Conjunto de rattan 3 piezas — Mejor precio</h3>
           <p>
-            Para terrazas pequeñas o presupuestos ajustados, un conjunto de 3 piezas en rattan sintético por menos de 130€ es una opción muy sólida. El rattan sintético imita la estética del natural pero es mucho más resistente a la humedad y los rayos UV.
+            Para terrazas pequeñas o presupuestos ajustados, un conjunto de 3 piezas en rattan sintético de gama de entrada es una opción muy sólida. El rattan sintético imita la estética del natural pero es mucho más resistente a la humedad y los rayos UV.
           </p>
           <div className="not-prose my-4">
             <a href={amazonLink("B07YXBFJKL")} target="_blank" rel="noopener noreferrer sponsored" className="btn-primary">
@@ -155,9 +155,9 @@ export default function MueblesJardinPage() {
             </a>
           </div>
 
-          <h3>2. Outsunny Conjunto aluminio 4 piezas — Mejor calidad-precio (★★★★)</h3>
+          <h3>2. Outsunny Conjunto aluminio 4 piezas — Mejor calidad-precio</h3>
           <p>
-            El aluminio con textileno es la combinación perfecta para uso cercano a la piscina: no se oxida, no pesa y el tejido técnico es resistente al cloro y la humedad. El conjunto de <strong><Link href="/tienda/muebles-jardin/outsunny-conjunto-ratan-4-piezas" className="text-sky-700 hover:underline">Outsunny</Link></strong> ofrece un sofá de 2 plazas, dos sillones y una mesa central por menos de 280€.
+            El aluminio con textileno es la combinación perfecta para uso cercano a la piscina: no se oxida, no pesa y el tejido técnico es resistente al cloro y la humedad. El conjunto de <strong><Link href="/tienda/muebles-jardin/outsunny-conjunto-ratan-4-piezas" className="text-sky-700 hover:underline">Outsunny</Link></strong> ofrece un sofá de 2 plazas, dos sillones y una mesa central a un precio de gama media.
           </p>
           <div className="not-prose my-4">
             <a href={amazonLink("B08PQJKL3M")} target="_blank" rel="noopener noreferrer sponsored" className="btn-primary">
@@ -165,9 +165,9 @@ export default function MueblesJardinPage() {
             </a>
           </div>
 
-          <h3>3. Tectake 8 piezas polyrattan — Mejor para grupos (★★★★½)</h3>
+          <h3>3. Tectake 8 piezas polyrattan — Mejor para grupos</h3>
           <p>
-            Para familias numerosas o quien quiera montar un comedor de jardín completo, el conjunto de 8 piezas de <strong>Tectake</strong> incluye 6 sillas, mesa grande y 2 pufs por menos de 400€. Ideal para terrazas amplias.
+            Para familias numerosas o quien quiera montar un comedor de jardín completo, el conjunto de 8 piezas de <strong>Tectake</strong> incluye 6 sillas, mesa grande y 2 pufs sin entrar en la gama alta. Ideal para terrazas amplias.
           </p>
 
           <h2>Guía de compra: qué tener en cuenta</h2>
@@ -207,9 +207,9 @@ export default function MueblesJardinPage() {
         <div className="mt-8 p-6 bg-sky-50 rounded-xl border border-sky-100">
           <h3 className="font-bold text-gray-900 mb-3">También te puede interesar</h3>
           <ul className="space-y-2">
-            <li><Link href="/pergola-terraza" className="text-sky-600 hover:underline">→ Las mejores pérgolas para terraza y jardín 2025</Link></li>
-            <li><Link href="/cesped-artificial-jardin" className="text-sky-600 hover:underline">→ Mejor césped artificial para jardín 2025</Link></li>
-            <li><Link href="/sistema-riego-automatico" className="text-sky-600 hover:underline">→ Sistemas de riego automático para jardín 2025</Link></li>
+            <li><Link href="/pergola-terraza" className="text-sky-600 hover:underline">→ Las mejores pérgolas para terraza y jardín</Link></li>
+            <li><Link href="/cesped-artificial-jardin" className="text-sky-600 hover:underline">→ Mejor césped artificial para jardín</Link></li>
+            <li><Link href="/sistema-riego-automatico" className="text-sky-600 hover:underline">→ Sistemas de riego automático para jardín</Link></li>
           </ul>
         </div>
       </article>

@@ -6,14 +6,14 @@ import AdSenseAd from "@/components/AdSenseAd";
 import BlogSidebar from "@/components/BlogSidebar";
 
 export const metadata: Metadata = {
-  title: "Mejor cubierta para piscina desmontable 2025 — Guía completa | Guía del Piscina",
+  title: "Mejor cubierta para piscina desmontable — Guía completa",
   description:
-    "Las mejores cubiertas y cobertores para piscina desmontable en 2025. Comparativa de cobertores de invierno, cobertores solares y mantas térmicas de burbuja.",
+    "Las mejores cubiertas y cobertores para piscina desmontable. Comparativa de cobertores de invierno, cobertores solares y mantas térmicas de burbuja.",
   keywords:
     "cubierta piscina desmontable, cobertor piscina, cobertor solar piscina, manta termica piscina",
   alternates: { canonical: "https://www.guiadelpiscina.com/cubierta-piscina-desmontable" },
   openGraph: {
-    title: "Mejor cubierta para piscina desmontable en 2025 — Comparativa completa",
+    title: "Mejor cubierta para piscina desmontable — Comparativa completa",
     description:
       "Cobertores de invierno, cobertores solares y mantas térmicas: comparativa para piscina desmontable.",
     url: "https://www.guiadelpiscina.com/cubierta-piscina-desmontable",
@@ -76,9 +76,9 @@ const faqs = [
 const articleSchema = {
   "@context": "https://schema.org",
   "@type": "Article",
-  headline: "Mejor cubierta para piscina desmontable en 2025 — Comparativa completa",
+  headline: "Mejor cubierta para piscina desmontable — Comparativa completa",
   description:
-    "Las mejores cubiertas y cobertores para piscina desmontable en 2025. Comparativa de cobertores de invierno, cobertores solares y mantas térmicas de burbuja.",
+    "Las mejores cubiertas y cobertores para piscina desmontable. Comparativa de cobertores de invierno, cobertores solares y mantas térmicas de burbuja.",
   datePublished: "2025-07-20",
   dateModified: "2025-07-20",
   author: {
@@ -90,7 +90,7 @@ const articleSchema = {
   },
   publisher: { "@type": "Organization", name: "Mkt Web 360 SLU", url: "https://www.guiadelpiscina.com" },
   mainEntityOfPage: "https://www.guiadelpiscina.com/cubierta-piscina-desmontable",
-  image: { "@type": "ImageObject", url: "https://www.guiadelpiscina.com/og-image.png", width: 1200, height: 630 },
+  image: { "@type": "ImageObject", url: "https://www.guiadelpiscina.com/opengraph-image", width: 1200, height: 630 },
   speakable: { "@type": "SpeakableSpecification", cssSelector: ["#respuesta-directa", "h1"] },
 };
 
@@ -139,7 +139,7 @@ export default function CubiertaPiscinaPage() {
         </nav>
 
         <h1 className="text-3xl md:text-4xl font-extrabold text-gray-900 mb-4 leading-tight">
-          Mejor cubierta para piscina desmontable en 2025 — Comparativa completa
+          Mejor cubierta para piscina desmontable — Comparativa completa
         </h1>
         <p className="text-gray-400 text-sm mb-6">Publicado: 20 julio 2025 · Actualizado: 20 julio 2025 · 9 min lectura</p>
         <span className="flex items-center gap-1 text-gray-500 text-sm mb-4 block">
@@ -149,7 +149,7 @@ export default function CubiertaPiscinaPage() {
         </span>
         <img
           src="/images/blog/cubierta-piscina-desmontable.jpg"
-          alt="Mejor cubierta para piscina desmontable 2025 — Guía completa"
+          alt="Mejor cubierta para piscina desmontable — Guía completa"
           className="w-full h-56 sm:h-72 object-cover rounded-xl mb-8"
           loading="eager"
         />
@@ -303,7 +303,7 @@ export default function CubiertaPiscinaPage() {
           <ul className="space-y-2">
             <li><Link href="/mantenimiento-piscina-desmontable" className="text-sky-600 hover:underline">→ Cómo mantener una piscina desmontable</Link></li>
             <li><Link href="/bomba-calor-piscina" className="text-sky-600 hover:underline">→ Bomba de calor para piscina: las mejores opciones</Link></li>
-            <li><Link href="/piscina-desmontable-grande" className="text-sky-600 hover:underline">→ Mejores piscinas desmontables grandes 2025</Link></li>
+            <li><Link href="/piscina-desmontable-grande" className="text-sky-600 hover:underline">→ Mejores piscinas desmontables grandes</Link></li>
           </ul>
         </div>
       </article>

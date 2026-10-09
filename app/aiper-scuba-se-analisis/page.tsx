@@ -6,7 +6,7 @@ import AdSenseAd from "@/components/AdSenseAd";
 import BlogSidebar from "@/components/BlogSidebar";
 
 export const metadata: Metadata = {
-  title: "AIPER Scuba SE: análisis completo y opinión 2026 | Guía del Piscina",
+  title: "AIPER Scuba SE: análisis completo y opinión 2026",
   description:
     "Análisis a fondo del robot limpiafondos AIPER Scuba SE: autonomía de 90 minutos, cobertura, comparativa con otros robots del catálogo (AIPER Scuba S1, WYBOT C2 Vision) y opinión final.",
   keywords:
@@ -97,7 +97,7 @@ const articleSchema = {
   },
   publisher: { "@type": "Organization", name: "Mkt Web 360 SLU", url: "https://www.guiadelpiscina.com" },
   mainEntityOfPage: "https://www.guiadelpiscina.com/aiper-scuba-se-analisis",
-  image: { "@type": "ImageObject", url: "https://www.guiadelpiscina.com/og-image.png", width: 1200, height: 630 },
+  image: { "@type": "ImageObject", url: "https://www.guiadelpiscina.com/opengraph-image", width: 1200, height: 630 },
   speakable: { "@type": "SpeakableSpecification", cssSelector: ["#respuesta-directa", "h1"] },
 };
 
@@ -277,8 +277,8 @@ export default function AiperScubaSeAnalisisPage() {
         <div className="mt-8 p-6 bg-sky-50 rounded-xl border border-sky-100">
           <h3 className="font-bold text-gray-900 mb-3">También te puede interesar</h3>
           <ul className="space-y-2">
-            <li><Link href="/robot-limpiafondos-piscina" className="text-sky-600 hover:underline">→ Mejores robots limpiafondos para piscina 2025</Link></li>
-            <li><Link href="/mejores-depuradoras-piscina" className="text-sky-600 hover:underline">→ Las 5 mejores depuradoras para piscina 2025</Link></li>
+            <li><Link href="/robot-limpiafondos-piscina" className="text-sky-600 hover:underline">→ Mejores robots limpiafondos para piscina</Link></li>
+            <li><Link href="/mejores-depuradoras-piscina" className="text-sky-600 hover:underline">→ Las 5 mejores depuradoras para piscina</Link></li>
             <li><Link href="/mantenimiento-piscina-desmontable" className="text-sky-600 hover:underline">→ Cómo mantener una piscina desmontable</Link></li>
           </ul>
         </div>

@@ -6,14 +6,14 @@ import AdSenseAd from "@/components/AdSenseAd";
 import BlogSidebar from "@/components/BlogSidebar";
 
 export const metadata: Metadata = {
-  title: "Mejor manguera de riego para jardín 2025 — Guía de compra | Guía del Piscina",
+  title: "Mejor manguera de riego para jardín — Guía de compra",
   description:
-    "Las 3 mejores mangueras de jardín en 2025: extensibles y de calidad. Comparativa por longitud, material, funciones y precio para elegir la ideal.",
+    "Las 3 mejores mangueras de jardín: extensibles y de calidad. Comparativa por longitud, material, funciones y precio para elegir la ideal.",
   keywords:
     "mejor manguera riego jardin, manguera extensible, manguera jardin, hozelock superhoze",
   alternates: { canonical: "https://www.guiadelpiscina.com/mejor-manguera-riego-jardin" },
   openGraph: {
-    title: "Mejor manguera de riego para jardín en 2025 — Comparativa completa",
+    title: "Mejor manguera de riego para jardín — Comparativa completa",
     description:
       "Comparativa de las mejores mangueras de jardín por longitud, material, funciones y precio.",
     url: "https://www.guiadelpiscina.com/mejor-manguera-riego-jardin",
@@ -82,9 +82,9 @@ const faqs = [
 const articleSchema = {
   "@context": "https://schema.org",
   "@type": "Article",
-  headline: "Mejor manguera de riego para jardín en 2025 — Comparativa completa",
+  headline: "Mejor manguera de riego para jardín — Comparativa completa",
   description:
-    "Las 3 mejores mangueras de jardín en 2025: extensibles y de calidad. Comparativa por longitud, material, funciones y precio para elegir la ideal.",
+    "Las 3 mejores mangueras de jardín: extensibles y de calidad. Comparativa por longitud, material, funciones y precio para elegir la ideal.",
   datePublished: "2025-07-15",
   dateModified: "2025-07-15",
   author: {
@@ -96,7 +96,7 @@ const articleSchema = {
   },
   publisher: { "@type": "Organization", name: "Mkt Web 360 SLU", url: "https://www.guiadelpiscina.com" },
   mainEntityOfPage: "https://www.guiadelpiscina.com/mejor-manguera-riego-jardin",
-  image: { "@type": "ImageObject", url: "https://www.guiadelpiscina.com/og-image.png", width: 1200, height: 630 },
+  image: { "@type": "ImageObject", url: "https://www.guiadelpiscina.com/opengraph-image", width: 1200, height: 630 },
   speakable: { "@type": "SpeakableSpecification", cssSelector: ["#respuesta-directa", "h1"] },
 };
 
@@ -145,7 +145,7 @@ export default function MangueraRiegoPage() {
         </nav>
 
         <h1 className="text-3xl md:text-4xl font-extrabold text-gray-900 mb-4 leading-tight">
-          Mejor manguera de riego para jardín en 2025 — Comparativa completa
+          Mejor manguera de riego para jardín — Comparativa completa
         </h1>
         <p className="text-gray-400 text-sm mb-6">Publicado: 15 julio 2025 · Actualizado: 15 julio 2025 · 8 min lectura</p>
         <span className="flex items-center gap-1 text-gray-500 text-sm mb-4 block">
@@ -155,7 +155,7 @@ export default function MangueraRiegoPage() {
         </span>
         <img
           src="/images/blog/mejor-manguera-riego-jardin.jpg"
-          alt="Mejor manguera de riego para jardín 2025 — Guía de compra"
+          alt="Mejor manguera de riego para jardín — Guía de compra"
           className="w-full h-56 sm:h-72 object-cover rounded-xl mb-8"
           loading="eager"
         />
@@ -324,8 +324,8 @@ export default function MangueraRiegoPage() {
         <div className="mt-8 p-6 bg-sky-50 rounded-xl border border-sky-100">
           <h3 className="font-bold text-gray-900 mb-3">También te puede interesar</h3>
           <ul className="space-y-2">
-            <li><Link href="/sistema-riego-automatico" className="text-sky-600 hover:underline">→ Sistemas de riego automático para jardín 2025</Link></li>
-            <li><Link href="/cesped-artificial-jardin" className="text-sky-600 hover:underline">→ Mejor césped artificial para jardín 2025</Link></li>
+            <li><Link href="/sistema-riego-automatico" className="text-sky-600 hover:underline">→ Sistemas de riego automático para jardín</Link></li>
+            <li><Link href="/cesped-artificial-jardin" className="text-sky-600 hover:underline">→ Mejor césped artificial para jardín</Link></li>
             <li><Link href="/mantenimiento-piscina-desmontable" className="text-sky-600 hover:underline">→ Cómo mantener una piscina desmontable</Link></li>
           </ul>
         </div>

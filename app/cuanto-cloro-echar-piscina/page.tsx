@@ -4,14 +4,14 @@ import AdSenseAd from "@/components/AdSenseAd";
 import BlogSidebar from "@/components/BlogSidebar";
 
 export const metadata: Metadata = {
-  title: "¿Cuánto cloro echar en piscina? Dosis exactas por litros (2025) | Guía del Piscina",
+  title: "¿Cuánto cloro echar en piscina? Dosis exactas por litros",
   description:
     "Calcula exactamente cuánto cloro echar en tu piscina según sus litros: dosis de mantenimiento, choque y corrección. Guía práctica con tablas.",
   keywords:
     "cuanto cloro echar piscina, dosis cloro piscina, cloro piscina litros, choque cloro piscina, cloro granulado piscina",
   alternates: { canonical: "https://www.guiadelpiscina.com/cuanto-cloro-echar-piscina" },
   openGraph: {
-    title: "¿Cuánto cloro echar en piscina? Dosis exactas por litros (2025)",
+    title: "¿Cuánto cloro echar en piscina? Dosis exactas por litros",
     description:
       "Calcula exactamente cuánto cloro echar en tu piscina según sus litros: dosis de mantenimiento, choque y corrección.",
     url: "https://www.guiadelpiscina.com/cuanto-cloro-echar-piscina",
@@ -66,7 +66,7 @@ const faqs = [
 const articleSchema = {
   "@context": "https://schema.org",
   "@type": "Article",
-  headline: "¿Cuánto cloro echar en piscina? Dosis exactas por litros (2025)",
+  headline: "¿Cuánto cloro echar en piscina? Dosis exactas por litros",
   description:
     "Calcula exactamente cuánto cloro echar en tu piscina según sus litros: dosis de mantenimiento, choque y corrección. Guía práctica con tablas.",
   datePublished: "2025-08-01",
@@ -80,7 +80,7 @@ const articleSchema = {
   },
   publisher: { "@type": "Organization", name: "Mkt Web 360 SLU", url: "https://www.guiadelpiscina.com" },
   mainEntityOfPage: "https://www.guiadelpiscina.com/cuanto-cloro-echar-piscina",
-  image: { "@type": "ImageObject", url: "https://www.guiadelpiscina.com/og-image.png", width: 1200, height: 630 },
+  image: { "@type": "ImageObject", url: "https://www.guiadelpiscina.com/opengraph-image", width: 1200, height: 630 },
   speakable: { "@type": "SpeakableSpecification", cssSelector: ["#respuesta-directa", "h1"] },
 };
 
@@ -129,7 +129,7 @@ export default function CuantoCloroPage() {
         </nav>
 
         <h1 className="text-3xl md:text-4xl font-extrabold text-gray-900 mb-4 leading-tight">
-          ¿Cuánto cloro echar en piscina? Dosis exactas por litros (2025)
+          ¿Cuánto cloro echar en piscina? Dosis exactas por litros
         </h1>
         <p className="text-gray-400 text-sm mb-6">Publicado: 1 agosto 2025 · Actualizado: 1 agosto 2025 · 8 min lectura</p>
         <span className="flex items-center gap-1 text-gray-500 text-sm mb-4 block">

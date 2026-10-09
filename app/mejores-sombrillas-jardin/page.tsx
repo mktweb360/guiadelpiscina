@@ -6,14 +6,14 @@ import AdSenseAd from "@/components/AdSenseAd";
 import BlogSidebar from "@/components/BlogSidebar";
 
 export const metadata: Metadata = {
-  title: "Las mejores sombrillas de jardín en 2025 — Guía de compra | Guía del Piscina",
+  title: "Las mejores sombrillas de jardín — Guía de compra",
   description:
-    "Las 3 mejores sombrillas de jardín en 2025: análisis de sombrillas de palo central y excéntricas para terraza y jardín. Comparativa por tamaño, material y precio.",
+    "Las 3 mejores sombrillas de jardín: análisis de sombrillas de palo central y excéntricas para terraza y jardín. Comparativa por tamaño, material y precio.",
   keywords:
     "mejores sombrillas jardin, sombrilla terraza, sombrilla excentrica, sombrilla palo central",
   alternates: { canonical: "https://www.guiadelpiscina.com/mejores-sombrillas-jardin" },
   openGraph: {
-    title: "Las mejores sombrillas de jardín en 2025 — Análisis completo",
+    title: "Las mejores sombrillas de jardín — Análisis completo",
     description:
       "Comparativa de las mejores sombrillas de jardín por tipo, tamaño, material y precio.",
     url: "https://www.guiadelpiscina.com/mejores-sombrillas-jardin",
@@ -94,9 +94,9 @@ const faqs = [
 const articleSchema = {
   "@context": "https://schema.org",
   "@type": "Article",
-  headline: "Las mejores sombrillas de jardín en 2025 — Análisis completo",
+  headline: "Las mejores sombrillas de jardín — Análisis completo",
   description:
-    "Las 3 mejores sombrillas de jardín en 2025: análisis de sombrillas de palo central y excéntricas para terraza y jardín. Comparativa por tamaño, material y precio.",
+    "Las 3 mejores sombrillas de jardín: análisis de sombrillas de palo central y excéntricas para terraza y jardín. Comparativa por tamaño, material y precio.",
   datePublished: "2025-07-20",
   dateModified: "2025-07-20",
   author: {
@@ -108,7 +108,7 @@ const articleSchema = {
   },
   publisher: { "@type": "Organization", name: "Mkt Web 360 SLU", url: "https://www.guiadelpiscina.com" },
   mainEntityOfPage: "https://www.guiadelpiscina.com/mejores-sombrillas-jardin",
-  image: { "@type": "ImageObject", url: "https://www.guiadelpiscina.com/og-image.png", width: 1200, height: 630 },
+  image: { "@type": "ImageObject", url: "https://www.guiadelpiscina.com/opengraph-image", width: 1200, height: 630 },
   speakable: { "@type": "SpeakableSpecification", cssSelector: ["#respuesta-directa", "h1"] },
 };
 
@@ -157,7 +157,7 @@ export default function SombrillasJardinPage() {
         </nav>
 
         <h1 className="text-3xl md:text-4xl font-extrabold text-gray-900 mb-4 leading-tight">
-          Las mejores sombrillas de jardín en 2025 — Análisis completo
+          Las mejores sombrillas de jardín — Análisis completo
         </h1>
         <p className="text-gray-400 text-sm mb-6">Publicado: 20 julio 2025 · Actualizado: 20 julio 2025 · 9 min lectura</p>
         <span className="flex items-center gap-1 text-gray-500 text-sm mb-4 block">
@@ -167,7 +167,7 @@ export default function SombrillasJardinPage() {
         </span>
         <img
           src="/images/blog/mejores-sombrillas-jardin.jpg"
-          alt="Las mejores sombrillas de jardín en 2025 — Guía de compra"
+          alt="Las mejores sombrillas de jardín — Guía de compra"
           className="w-full h-56 sm:h-72 object-cover rounded-xl mb-8"
           loading="eager"
         />
@@ -252,7 +252,7 @@ export default function SombrillasJardinPage() {
 
           <h3>Outsunny Ø300 cm — La más completa para familias</h3>
           <p>
-            La <strong>Outsunny de Ø300 cm</strong> incorpora un sistema de poleas que permite abrirla sin esfuerzo y 8 varillas para una mayor resistencia al viento. Con 3 metros de diámetro, cubre cómodamente mesas de 6-8 personas. Es la opción premium dentro del rango de 70-90€.
+            La <strong>Outsunny de Ø300 cm</strong> incorpora un sistema de poleas que permite abrirla sin esfuerzo y 8 varillas para una mayor resistencia al viento. Con 3 metros de diámetro, cubre cómodamente mesas de 6-8 personas. Es la opción premium de esta comparativa.
           </p>
           <div className="not-prose my-4">
             <a href={amazonLink("B00NP2LJBO")} target="_blank" rel="nofollow noopener noreferrer sponsored" className="btn-primary">
@@ -353,9 +353,9 @@ export default function SombrillasJardinPage() {
         <div className="mt-8 p-6 bg-sky-50 rounded-xl border border-sky-100">
           <h3 className="font-bold text-gray-900 mb-3">También te puede interesar</h3>
           <ul className="space-y-2">
-            <li><Link href="/mejores-tumbonas-jardin" className="text-sky-600 hover:underline">→ Las mejores tumbonas de jardín en 2025</Link></li>
-            <li><Link href="/muebles-jardin-terraza" className="text-sky-600 hover:underline">→ Mejores muebles de jardín y terraza 2025</Link></li>
-            <li><Link href="/pergola-terraza" className="text-sky-600 hover:underline">→ Las mejores pérgolas para terraza y jardín 2025</Link></li>
+            <li><Link href="/mejores-tumbonas-jardin" className="text-sky-600 hover:underline">→ Las mejores tumbonas de jardín</Link></li>
+            <li><Link href="/muebles-jardin-terraza" className="text-sky-600 hover:underline">→ Mejores muebles de jardín y terraza</Link></li>
+            <li><Link href="/pergola-terraza" className="text-sky-600 hover:underline">→ Las mejores pérgolas para terraza y jardín</Link></li>
           </ul>
         </div>
       </article>

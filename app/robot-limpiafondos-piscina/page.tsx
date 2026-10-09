@@ -6,13 +6,13 @@ import AdSenseAd from "@/components/AdSenseAd";
 import BlogSidebar from "@/components/BlogSidebar";
 
 export const metadata: Metadata = {
-  title: "Mejores robots limpiafondos para piscina 2025 — Guía de compra",
+  title: "Mejores robots limpiafondos para piscina — Guía de compra",
   description:
     "Comparativa de los mejores robots limpiafondos para piscina. Analizamos funciones, autonomía y precio para que elijas el robot perfecto para tu piscina.",
   keywords: "robot limpiafondos, limpiafondos automatico piscina, robot piscina, limpiafondos electrico",
   alternates: { canonical: "https://www.guiadelpiscina.com/robot-limpiafondos-piscina" },
   openGraph: {
-    title: "Mejores robots limpiafondos para piscina 2025",
+    title: "Mejores robots limpiafondos para piscina",
     description: "Comparativa completa de robots limpiafondos con análisis de pros y contras.",
     url: "https://www.guiadelpiscina.com/robot-limpiafondos-piscina",
   },
@@ -37,7 +37,7 @@ const faqs = [
 const articleSchema = {
   "@context": "https://schema.org",
   "@type": "Article",
-  headline: "Mejores robots limpiafondos para piscina 2025 — Guía de compra",
+  headline: "Mejores robots limpiafondos para piscina — Guía de compra",
   description: "Comparativa de los mejores robots limpiafondos para piscina.",
   datePublished: "2025-05-20",
   dateModified: "2025-06-01",
@@ -50,7 +50,7 @@ const articleSchema = {
   },
   publisher: { "@type": "Organization", name: "Mkt Web 360 SLU", url: "https://www.guiadelpiscina.com" },
   mainEntityOfPage: "https://www.guiadelpiscina.com/robot-limpiafondos-piscina",
-  image: { "@type": "ImageObject", url: "https://www.guiadelpiscina.com/og-image.png", width: 1200, height: 630 },
+  image: { "@type": "ImageObject", url: "https://www.guiadelpiscina.com/opengraph-image", width: 1200, height: 630 },
   speakable: { "@type": "SpeakableSpecification", cssSelector: ["#respuesta-directa", "h1"] },
 };
 
@@ -93,7 +93,7 @@ export default function RobotLimpiafondosPage() {
         </nav>
 
         <h1 className="text-3xl md:text-4xl font-extrabold text-gray-900 mb-4 leading-tight">
-          Mejores robots limpiafondos para piscina 2025 — Guía de compra
+          Mejores robots limpiafondos para piscina — Guía de compra
         </h1>
         <p className="text-gray-400 text-sm mb-6">Publicado: 20 mayo 2025 · Actualizado: 1 junio 2025 · 11 min lectura</p>
         <span className="flex items-center gap-1 text-gray-500 text-sm mb-4 block">
@@ -107,13 +107,13 @@ export default function RobotLimpiafondosPage() {
         <div className="prose">
                     <div id="respuesta-directa" className="bg-sky-50 border-l-4 border-sky-500 rounded-r-xl px-5 py-4 mb-6">
             <p className="text-xs font-bold text-sky-700 uppercase tracking-wide mb-1.5">Respuesta directa</p>
-            <p className="text-gray-800 font-medium leading-relaxed">Un <strong>robot limpiafondos</strong> transforma el mantenimiento de la piscina: en lugar de pasar horas con el aspirador manual, el robot limpia el fondo, las paredes e incluso la línea de agua mientras tú disfrutas. En esta guía analizamos los <strong>5 mejores robots limpiafondos</strong> para piscina disponibles en el mercado en 2025. También puedes <Link href="/tienda/robots-limpiafondos" className="text-sky-600 hover:underline font-medium">comparar todos los robots limpiafondos en nuestra tienda</Link>.</p>
+            <p className="text-gray-800 font-medium leading-relaxed">Un <strong>robot limpiafondos</strong> transforma el mantenimiento de la piscina: en lugar de pasar horas con el aspirador manual, el robot limpia el fondo, las paredes e incluso la línea de agua mientras tú disfrutas. En esta guía analizamos los <strong>5 mejores robots limpiafondos</strong> para piscina disponibles en el mercado. También puedes <Link href="/tienda/robots-limpiafondos" className="text-sky-600 hover:underline font-medium">comparar todos los robots limpiafondos en nuestra tienda</Link>.</p>
           </div>
           <p>
             Los precios oscilan entre 250 y 600€, una inversión que se amortiza rápidamente si consideras el tiempo y el esfuerzo que ahorras durante toda la temporada.
           </p>
 
-          <h2>Comparativa — Mejores robots limpiafondos 2025</h2>
+          <h2>Comparativa — Mejores robots limpiafondos</h2>
         </div>
 
         <div className="overflow-x-auto my-6">
@@ -153,7 +153,7 @@ export default function RobotLimpiafondosPage() {
         <div className="prose">
           <h2>Análisis detallado</h2>
 
-          <h3>1. Dolphin Nauty — El más asequible (★★★★)</h3>
+          <h3>1. Dolphin Nauty — El más asequible</h3>
           <p>
             El <strong>Dolphin Nauty</strong> es el punto de entrada ideal si quieres un robot de calidad sin gastar demasiado. Solo limpia el fondo, pero lo hace muy bien: doble cepillo de PVC que se adapta a cualquier superficie, filtro de doble paso y ciclo de 2,5 horas.
           </p>
@@ -167,7 +167,7 @@ export default function RobotLimpiafondosPage() {
             </a>
           </div>
 
-          <h3>2. Bestway Flowclear AquaGlide con batería de litio — Mejor calidad-precio (★★★★)</h3>
+          <h3>2. Bestway Flowclear AquaGlide con batería de litio — Mejor calidad-precio</h3>
           <p>
             El <strong>Bestway Flowclear AquaGlide</strong> es un robot inalámbrico con batería de litio que da el salto a la limpieza de paredes a un precio muy competitivo. Sin cables que gestionar, su sistema de navegación por giroscopio cubre la piscina de forma eficiente y los filtros son fáciles de limpiar.
           </p>
@@ -176,7 +176,7 @@ export default function RobotLimpiafondosPage() {
             <li><strong>Contras:</strong> No alcanza la línea de agua, menos potente en paredes muy inclinadas</li>
           </ul>
 
-          <h3>3. Dolphin Carrera 35 — El más completo (★★★★½)</h3>
+          <h3>3. Dolphin Carrera 35 — El más completo</h3>
           <p>
             El <strong>Dolphin Carrera 35</strong> es el preferido de los usuarios con piscinas medianas-grandes. Limpia fondo, paredes y línea de agua con su cepillo de cobertura total, y el carrito de transporte incluido facilita mucho el almacenamiento.
           </p>
@@ -227,7 +227,7 @@ export default function RobotLimpiafondosPage() {
         <div className="mt-8 p-6 bg-sky-50 rounded-xl border border-sky-100">
           <h3 className="font-bold text-gray-900 mb-3">También te puede interesar</h3>
           <ul className="space-y-2">
-            <li><Link href="/mejores-depuradoras-piscina" className="text-sky-600 hover:underline">→ Las 5 mejores depuradoras para piscina 2025</Link></li>
+            <li><Link href="/mejores-depuradoras-piscina" className="text-sky-600 hover:underline">→ Las 5 mejores depuradoras para piscina</Link></li>
             <li><Link href="/bomba-calor-piscina" className="text-sky-600 hover:underline">→ Bomba de calor para piscina: las mejores opciones</Link></li>
           </ul>
         </div>

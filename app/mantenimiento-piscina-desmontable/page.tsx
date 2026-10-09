@@ -6,14 +6,14 @@ import AdSenseAd from "@/components/AdSenseAd";
 import BlogSidebar from "@/components/BlogSidebar";
 
 export const metadata: Metadata = {
-  title: "Mantenimiento piscina desmontable: guía paso a paso 2025 | Guía del Piscina",
+  title: "Mantenimiento piscina desmontable: guía paso a paso",
   description:
     "Todo lo que necesitas saber para mantener tu piscina desmontable limpia y en perfecto estado: control de pH, cloro, limpieza del filtro, invernada y productos imprescindibles.",
   keywords:
     "mantenimiento piscina desmontable, clorador salino piscina, ph piscina, cloro piscina, invernar piscina",
   alternates: { canonical: "https://www.guiadelpiscina.com/mantenimiento-piscina-desmontable" },
   openGraph: {
-    title: "Cómo mantener una piscina desmontable — Guía completa 2025",
+    title: "Cómo mantener una piscina desmontable — Guía completa",
     description:
       "Control de pH, cloro, limpieza del filtro, invernada y productos imprescindibles para tu piscina desmontable.",
     url: "https://www.guiadelpiscina.com/mantenimiento-piscina-desmontable",
@@ -77,7 +77,7 @@ const faqs = [
 const articleSchema = {
   "@context": "https://schema.org",
   "@type": "Article",
-  headline: "Cómo mantener una piscina desmontable — Guía completa 2025",
+  headline: "Cómo mantener una piscina desmontable — Guía completa",
   description:
     "Todo lo que necesitas saber para mantener tu piscina desmontable limpia y en perfecto estado: control de pH, cloro, limpieza del filtro, invernada y productos imprescindibles.",
   datePublished: "2025-07-01",
@@ -91,7 +91,7 @@ const articleSchema = {
   },
   publisher: { "@type": "Organization", name: "Mkt Web 360 SLU", url: "https://www.guiadelpiscina.com" },
   mainEntityOfPage: "https://www.guiadelpiscina.com/mantenimiento-piscina-desmontable",
-  image: { "@type": "ImageObject", url: "https://www.guiadelpiscina.com/og-image.png", width: 1200, height: 630 },
+  image: { "@type": "ImageObject", url: "https://www.guiadelpiscina.com/opengraph-image", width: 1200, height: 630 },
   speakable: { "@type": "SpeakableSpecification", cssSelector: ["#respuesta-directa", "h1"] },
 };
 
@@ -140,7 +140,7 @@ export default function MantenimientoPiscinaPage() {
         </nav>
 
         <h1 className="text-3xl md:text-4xl font-extrabold text-gray-900 mb-4 leading-tight">
-          Cómo mantener una piscina desmontable — Guía completa 2025
+          Cómo mantener una piscina desmontable — Guía completa
         </h1>
         <p className="text-gray-400 text-sm mb-6">Publicado: 1 julio 2025 · Actualizado: 1 julio 2025 · 10 min lectura</p>
         <span className="flex items-center gap-1 text-gray-500 text-sm mb-4 block">
@@ -150,7 +150,7 @@ export default function MantenimientoPiscinaPage() {
         </span>
         <img
           src="/images/blog/mantenimiento-piscina-desmontable.jpg"
-          alt="Mantenimiento piscina desmontable: guía paso a paso 2025"
+          alt="Mantenimiento piscina desmontable: guía paso a paso"
           className="w-full h-56 sm:h-72 object-cover rounded-xl mb-8"
           loading="eager"
         />
@@ -339,7 +339,7 @@ export default function MantenimientoPiscinaPage() {
           <ul className="space-y-2">
             <li><Link href="/agua-piscina-verde" className="text-sky-600 hover:underline">→ Agua de la piscina verde: causas y solución paso a paso</Link></li>
             <li><Link href="/ph-piscina" className="text-sky-600 hover:underline">→ pH de la piscina: cómo medirlo y corregirlo</Link></li>
-            <li><Link href="/piscina-desmontable-grande" className="text-sky-600 hover:underline">→ Mejores piscinas desmontables grandes 2025</Link></li>
+            <li><Link href="/piscina-desmontable-grande" className="text-sky-600 hover:underline">→ Mejores piscinas desmontables grandes</Link></li>
           </ul>
         </div>
       </article>

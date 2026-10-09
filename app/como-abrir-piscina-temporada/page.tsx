@@ -4,14 +4,14 @@ import AdSenseAd from "@/components/AdSenseAd";
 import BlogSidebar from "@/components/BlogSidebar";
 
 export const metadata: Metadata = {
-  title: "Cómo abrir la piscina para el verano: guía completa paso a paso (2025) | Guía del Piscina",
+  title: "Cómo abrir la piscina para el verano: guía completa paso a paso",
   description:
     "Prepara tu piscina para la temporada en 7 pasos: revisión del equipo, limpieza, tratamiento del agua y puesta a punto. Checklist incluido.",
   keywords:
     "como abrir piscina temporada, abrir piscina verano, preparar piscina verano, puesta a punto piscina, apertura piscina",
   alternates: { canonical: "https://www.guiadelpiscina.com/como-abrir-piscina-temporada" },
   openGraph: {
-    title: "Cómo abrir la piscina para el verano: guía completa paso a paso (2025)",
+    title: "Cómo abrir la piscina para el verano: guía completa paso a paso",
     description:
       "Prepara tu piscina para la temporada en 7 pasos: revisión del equipo, limpieza, tratamiento del agua y puesta a punto. Checklist incluido.",
     url: "https://www.guiadelpiscina.com/como-abrir-piscina-temporada",
@@ -52,7 +52,7 @@ const faqs = [
 const articleSchema = {
   "@context": "https://schema.org",
   "@type": "Article",
-  headline: "Cómo abrir la piscina para el verano: guía completa paso a paso (2025)",
+  headline: "Cómo abrir la piscina para el verano: guía completa paso a paso",
   description:
     "Prepara tu piscina para la temporada en 7 pasos: revisión del equipo, limpieza, tratamiento del agua y puesta a punto. Checklist incluido.",
   datePublished: "2025-08-01",
@@ -66,7 +66,7 @@ const articleSchema = {
   },
   publisher: { "@type": "Organization", name: "Mkt Web 360 SLU", url: "https://www.guiadelpiscina.com" },
   mainEntityOfPage: "https://www.guiadelpiscina.com/como-abrir-piscina-temporada",
-  image: { "@type": "ImageObject", url: "https://www.guiadelpiscina.com/og-image.png", width: 1200, height: 630 },
+  image: { "@type": "ImageObject", url: "https://www.guiadelpiscina.com/opengraph-image", width: 1200, height: 630 },
   speakable: { "@type": "SpeakableSpecification", cssSelector: ["#respuesta-directa", "h1"] },
 };
 
@@ -115,7 +115,7 @@ export default function ComoAbrirPiscinaPage() {
         </nav>
 
         <h1 className="text-3xl md:text-4xl font-extrabold text-gray-900 mb-4 leading-tight">
-          Cómo abrir la piscina para el verano: guía completa paso a paso (2025)
+          Cómo abrir la piscina para el verano: guía completa paso a paso
         </h1>
         <p className="text-gray-400 text-sm mb-6">Publicado: 1 agosto 2025 · Actualizado: 1 agosto 2025 · 10 min lectura</p>
         <span className="flex items-center gap-1 text-gray-500 text-sm mb-4 block">

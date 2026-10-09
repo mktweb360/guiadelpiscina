@@ -4,14 +4,14 @@ import AdSenseAd from "@/components/AdSenseAd";
 import BlogSidebar from "@/components/BlogSidebar";
 
 export const metadata: Metadata = {
-  title: "Algas en la piscina: cómo eliminarlas y evitar que vuelvan (2025) | Guía del Piscina",
+  title: "Algas en la piscina: cómo eliminarlas y evitar que vuelvan",
   description:
     "Identifica y elimina algas verdes, negras y mostaza de tu piscina paso a paso. Tratamiento de choque + prevención definitiva.",
   keywords:
     "algas piscina, eliminar algas piscina, algas verdes piscina, algas negras piscina, piscina con algas tratamiento",
   alternates: { canonical: "https://www.guiadelpiscina.com/algas-piscina" },
   openGraph: {
-    title: "Algas en la piscina: cómo eliminarlas y evitar que vuelvan (2025)",
+    title: "Algas en la piscina: cómo eliminarlas y evitar que vuelvan",
     description:
       "Identifica y elimina algas verdes, negras y mostaza de tu piscina paso a paso. Tratamiento de choque + prevención definitiva.",
     url: "https://www.guiadelpiscina.com/algas-piscina",
@@ -61,7 +61,7 @@ const faqs = [
 const articleSchema = {
   "@context": "https://schema.org",
   "@type": "Article",
-  headline: "Algas en la piscina: cómo eliminarlas y evitar que vuelvan (2025)",
+  headline: "Algas en la piscina: cómo eliminarlas y evitar que vuelvan",
   description:
     "Identifica y elimina algas verdes, negras y mostaza de tu piscina paso a paso. Tratamiento de choque + prevención definitiva.",
   datePublished: "2025-08-01",
@@ -75,7 +75,7 @@ const articleSchema = {
   },
   publisher: { "@type": "Organization", name: "Mkt Web 360 SLU", url: "https://www.guiadelpiscina.com" },
   mainEntityOfPage: "https://www.guiadelpiscina.com/algas-piscina",
-  image: { "@type": "ImageObject", url: "https://www.guiadelpiscina.com/og-image.png", width: 1200, height: 630 },
+  image: { "@type": "ImageObject", url: "https://www.guiadelpiscina.com/opengraph-image", width: 1200, height: 630 },
   speakable: { "@type": "SpeakableSpecification", cssSelector: ["#respuesta-directa", "h1"] },
 };
 
@@ -124,7 +124,7 @@ export default function AlgasPiscinaPage() {
         </nav>
 
         <h1 className="text-3xl md:text-4xl font-extrabold text-gray-900 mb-4 leading-tight">
-          Algas en la piscina: cómo eliminarlas y evitar que vuelvan (2025)
+          Algas en la piscina: cómo eliminarlas y evitar que vuelvan
         </h1>
         <p className="text-gray-400 text-sm mb-6">Publicado: 1 agosto 2025 · Actualizado: 1 agosto 2025 · 9 min lectura</p>
         <span className="flex items-center gap-1 text-gray-500 text-sm mb-4 block">

@@ -89,11 +89,11 @@ export async function generateMetadata({
   const product = getProductBySlug(producto);
   if (!product) return {};
   return {
-    title: `${product.name} — Análisis y opinión 2025 | Guía del Piscina`,
+    title: { absolute: `${product.name}: análisis y opinión` },
     description: product.shortDescription,
     alternates: { canonical: `https://www.guiadelpiscina.com/tienda/${product.categorySlug}/${product.slug}` },
     openGraph: {
-      title: `${product.name} — Análisis 2025`,
+      title: `${product.name} — Análisis`,
       description: product.shortDescription,
       url: `https://www.guiadelpiscina.com/tienda/${product.categorySlug}/${product.slug}`,
     },
@@ -120,20 +120,6 @@ export default async function ProductPage({
   const amzLink = amazonLink(product.asin);
   const topSpecs = Object.entries(product.specs).slice(0, 4);
 
-  const productSchema = {
-    "@context": "https://schema.org",
-    "@type": "Product",
-    name: product.name,
-    description: product.shortDescription,
-    brand: { "@type": "Brand", name: product.name.split(" ")[0] },
-    sku: product.asin,
-    offers: {
-      "@type": "Offer",
-      url: amzLink,
-      
-      availability: "https://schema.org/InStock",
-    },
-  };
 
   const faqSchema = allFaqs.length
     ? {
@@ -160,7 +146,6 @@ export default async function ProductPage({
 
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(productSchema) }} />
       {faqSchema && <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />}
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
 
@@ -188,17 +173,12 @@ export default async function ProductPage({
               className="w-full h-full object-cover"
               loading="eager"
             />
-            {/* Badge "Análisis verificado" — esquina inferior derecha */}
-            <div className="absolute bottom-3 right-3 flex items-center gap-1.5 bg-white/90 backdrop-blur-sm text-xs font-semibold text-gray-700 px-3 py-1.5 rounded-full shadow-md">
-              <svg viewBox="0 0 20 20" fill="currentColor" className="w-4 h-4 text-sky-600"><path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" /></svg>
-              Análisis verificado
-            </div>
           </div>
 
           {/* Right — ficha del producto */}
           <div className="flex flex-col gap-4">
 
-            {/* Categoría + En stock */}
+            {/* Categoría */}
             <div className="flex items-center gap-3 flex-wrap">
               <Link
                 href={`/tienda/${categoria}`}
@@ -211,10 +191,6 @@ export default async function ProductPage({
                   {product.badge}
                 </span>
               )}
-              <span className="flex items-center gap-1.5 text-xs font-semibold text-green-700">
-                <span className="w-2 h-2 bg-green-500 rounded-full animate-pulse" />
-                En stock
-              </span>
             </div>
 
             {/* H1 */}
@@ -259,20 +235,6 @@ export default async function ProductPage({
               </p>
             </div>
 
-            {/* Trust bar */}
-            <div className="grid grid-cols-3 gap-2">
-              {[
-                { icon: "🚚", title: "Envío Prime", sub: "1-2 días laborables" },
-                { icon: "↩️", title: "Devoluciones", sub: "30 días gratis" },
-                { icon: "🔒", title: "Pago seguro", sub: "Checkout cifrado" },
-              ].map(({ icon, title, sub }) => (
-                <div key={title} className="flex flex-col items-center text-center bg-gray-50 rounded-xl p-3 border border-gray-100">
-                  <span className="text-xl mb-1">{icon}</span>
-                  <span className="text-xs font-bold text-gray-800">{title}</span>
-                  <span className="text-xs text-gray-500">{sub}</span>
-                </div>
-              ))}
-            </div>
 
           </div>
         </div>

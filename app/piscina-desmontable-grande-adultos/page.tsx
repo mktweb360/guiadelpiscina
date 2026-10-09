@@ -6,14 +6,14 @@ import AdSenseAd from "@/components/AdSenseAd";
 import BlogSidebar from "@/components/BlogSidebar";
 
 export const metadata: Metadata = {
-  title: "Mejores piscinas desmontables grandes para adultos 2025 | Guía del Piscina",
+  title: "Mejores piscinas desmontables grandes para adultos",
   description:
-    "Las mejores piscinas desmontables grandes para adultos en 2025: Intex Ultra XTR y Bestway Power Steel. Comparativa por tamaño, capacidad, materiales y precio.",
+    "Las mejores piscinas desmontables grandes para adultos: Intex Ultra XTR y Bestway Power Steel. Comparativa por tamaño, capacidad, materiales y precio.",
   keywords:
     "piscina desmontable grande adultos, intex ultra xtr, bestway power steel, piscina desmontable 488",
   alternates: { canonical: "https://www.guiadelpiscina.com/piscina-desmontable-grande-adultos" },
   openGraph: {
-    title: "Las mejores piscinas desmontables grandes para adultos en 2025",
+    title: "Las mejores piscinas desmontables grandes para adultos",
     description:
       "Comparativa de piscinas desmontables grandes Intex Ultra XTR y Bestway Power Steel por tamaño, capacidad y precio.",
     url: "https://www.guiadelpiscina.com/piscina-desmontable-grande-adultos",
@@ -86,9 +86,9 @@ const faqs = [
 const articleSchema = {
   "@context": "https://schema.org",
   "@type": "Article",
-  headline: "Las mejores piscinas desmontables grandes para adultos en 2025",
+  headline: "Las mejores piscinas desmontables grandes para adultos",
   description:
-    "Las mejores piscinas desmontables grandes para adultos en 2025: Intex Ultra XTR y Bestway Power Steel. Comparativa por tamaño, capacidad, materiales y precio.",
+    "Las mejores piscinas desmontables grandes para adultos: Intex Ultra XTR y Bestway Power Steel. Comparativa por tamaño, capacidad, materiales y precio.",
   datePublished: "2025-07-20",
   dateModified: "2025-07-20",
   author: {
@@ -100,7 +100,7 @@ const articleSchema = {
   },
   publisher: { "@type": "Organization", name: "Mkt Web 360 SLU", url: "https://www.guiadelpiscina.com" },
   mainEntityOfPage: "https://www.guiadelpiscina.com/piscina-desmontable-grande-adultos",
-  image: { "@type": "ImageObject", url: "https://www.guiadelpiscina.com/og-image.png", width: 1200, height: 630 },
+  image: { "@type": "ImageObject", url: "https://www.guiadelpiscina.com/opengraph-image", width: 1200, height: 630 },
   speakable: { "@type": "SpeakableSpecification", cssSelector: ["#respuesta-directa", "h1"] },
 };
 
@@ -149,7 +149,7 @@ export default function PiscinaGrandeAdultosPage() {
         </nav>
 
         <h1 className="text-3xl md:text-4xl font-extrabold text-gray-900 mb-4 leading-tight">
-          Las mejores piscinas desmontables grandes para adultos en 2025
+          Las mejores piscinas desmontables grandes para adultos en
         </h1>
         <p className="text-gray-400 text-sm mb-6">Publicado: 20 julio 2025 · Actualizado: 20 julio 2025 · 10 min lectura</p>
         <span className="flex items-center gap-1 text-gray-500 text-sm mb-4 block">
@@ -340,7 +340,7 @@ export default function PiscinaGrandeAdultosPage() {
         <div className="mt-8 p-6 bg-sky-50 rounded-xl border border-sky-100">
           <h3 className="font-bold text-gray-900 mb-3">También te puede interesar</h3>
           <ul className="space-y-2">
-            <li><Link href="/piscina-desmontable-grande" className="text-sky-600 hover:underline">→ Mejores piscinas desmontables grandes 2025</Link></li>
+            <li><Link href="/piscina-desmontable-grande" className="text-sky-600 hover:underline">→ Mejores piscinas desmontables grandes</Link></li>
             <li><Link href="/mantenimiento-piscina-desmontable" className="text-sky-600 hover:underline">→ Cómo mantener una piscina desmontable</Link></li>
             <li><Link href="/escalera-piscina-desmontable" className="text-sky-600 hover:underline">→ Mejor escalera para piscina desmontable</Link></li>
           </ul>

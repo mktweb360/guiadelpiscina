@@ -4,14 +4,14 @@ import AdSenseAd from "@/components/AdSenseAd";
 import BlogSidebar from "@/components/BlogSidebar";
 
 export const metadata: Metadata = {
-  title: "Floculante para piscina: cuándo usarlo y cómo aplicarlo (2025) | Guía del Piscina",
+  title: "Floculante para piscina: cuándo usarlo y cómo aplicarlo",
   description:
     "Qué es el floculante para piscina, cuándo usarlo, cómo aplicarlo paso a paso y diferencia con el clarificante. Agua cristalina en 48h.",
   keywords:
     "floculante piscina, como usar floculante piscina, floculante vs clarificante, piscina turbia floculante, aplicar floculante piscina",
   alternates: { canonical: "https://www.guiadelpiscina.com/floculante-piscina" },
   openGraph: {
-    title: "Floculante para piscina: cuándo usarlo y cómo aplicarlo (2025)",
+    title: "Floculante para piscina: cuándo usarlo y cómo aplicarlo",
     description:
       "Qué es el floculante para piscina, cuándo usarlo, cómo aplicarlo paso a paso y diferencia con el clarificante. Agua cristalina en 48h.",
     url: "https://www.guiadelpiscina.com/floculante-piscina",
@@ -55,7 +55,7 @@ const faqs = [
 const articleSchema = {
   "@context": "https://schema.org",
   "@type": "Article",
-  headline: "Floculante para piscina: cuándo usarlo y cómo aplicarlo (2025)",
+  headline: "Floculante para piscina: cuándo usarlo y cómo aplicarlo",
   description:
     "Qué es el floculante para piscina, cuándo usarlo, cómo aplicarlo paso a paso y diferencia con el clarificante. Agua cristalina en 48h.",
   datePublished: "2025-08-01",
@@ -69,7 +69,7 @@ const articleSchema = {
   },
   publisher: { "@type": "Organization", name: "Mkt Web 360 SLU", url: "https://www.guiadelpiscina.com" },
   mainEntityOfPage: "https://www.guiadelpiscina.com/floculante-piscina",
-  image: { "@type": "ImageObject", url: "https://www.guiadelpiscina.com/og-image.png", width: 1200, height: 630 },
+  image: { "@type": "ImageObject", url: "https://www.guiadelpiscina.com/opengraph-image", width: 1200, height: 630 },
   speakable: { "@type": "SpeakableSpecification", cssSelector: ["#respuesta-directa", "h1"] },
 };
 
@@ -118,7 +118,7 @@ export default function FloculantePiscinaPage() {
         </nav>
 
         <h1 className="text-3xl md:text-4xl font-extrabold text-gray-900 mb-4 leading-tight">
-          Floculante para piscina: cuándo usarlo y cómo aplicarlo (2025)
+          Floculante para piscina: cuándo usarlo y cómo aplicarlo
         </h1>
         <p className="text-gray-400 text-sm mb-6">Publicado: 1 agosto 2025 · Actualizado: 1 agosto 2025 · 8 min lectura</p>
         <span className="flex items-center gap-1 text-gray-500 text-sm mb-4 block">

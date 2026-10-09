@@ -9,7 +9,7 @@ import BlogSidebar from "@/components/BlogSidebar";
 // Por cumplimiento (julio 2026) NO se muestran precios ni valoraciones estáticas de Amazon: solo características verificadas.
 
 export const metadata: Metadata = {
-  title: "Programador de riego para grifo: cómo elegir entre mecánico, electrónico y smart (2026) | Guía del Piscina",
+  title: "Programador de riego para grifo: cómo elegir entre mecánico, electrónico y smart (2026)",
   description:
     "Qué tipo de programador de riego necesitas según tu jardín, balcón o huerto: temporizador mecánico, programador electrónico o sistema smart con app. Criterios, comparativa y errores a evitar.",
   keywords:
@@ -121,7 +121,7 @@ const articleSchema = {
   },
   publisher: { "@type": "Organization", name: "Mkt Web 360 SLU", url: "https://www.guiadelpiscina.com" },
   mainEntityOfPage: "https://www.guiadelpiscina.com/como-elegir-programador-riego",
-  image: { "@type": "ImageObject", url: "https://www.guiadelpiscina.com/og-image.png", width: 1200, height: 630 },
+  image: { "@type": "ImageObject", url: "https://www.guiadelpiscina.com/opengraph-image", width: 1200, height: 630 },
   speakable: { "@type": "SpeakableSpecification", cssSelector: ["#respuesta-directa", "h1"] },
 };
 

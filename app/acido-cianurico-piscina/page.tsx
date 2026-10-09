@@ -10,7 +10,7 @@ import BlogSidebar from "@/components/BlogSidebar";
 // y ficha informativa sobre ácido cianúrico del Departamento de Salud de Montana (EE. UU.).
 
 export const metadata: Metadata = {
-  title: "Ácido cianúrico en la piscina: qué es, valores ideales y cómo bajarlo (2026) | Guía del Piscina",
+  title: "Ácido cianúrico en la piscina: qué es, valores ideales y cómo bajarlo (2026)",
   description:
     "Qué es el ácido cianúrico (estabilizador) de la piscina, qué valor es el ideal, por qué un exceso bloquea el cloro y cómo bajarlo. Qué cloros lo aportan y cuáles no.",
   keywords:
@@ -101,7 +101,7 @@ const articleSchema = {
   },
   publisher: { "@type": "Organization", name: "Mkt Web 360 SLU", url: "https://www.guiadelpiscina.com" },
   mainEntityOfPage: "https://www.guiadelpiscina.com/acido-cianurico-piscina",
-  image: { "@type": "ImageObject", url: "https://www.guiadelpiscina.com/og-image.png", width: 1200, height: 630 },
+  image: { "@type": "ImageObject", url: "https://www.guiadelpiscina.com/opengraph-image", width: 1200, height: 630 },
   speakable: { "@type": "SpeakableSpecification", cssSelector: ["#respuesta-directa", "h1"] },
 };
 

@@ -6,14 +6,14 @@ import AdSenseAd from "@/components/AdSenseAd";
 import BlogSidebar from "@/components/BlogSidebar";
 
 export const metadata: Metadata = {
-  title: "pH piscina: valores ideales, cómo medirlo y corregirlo | Guía del Piscina",
+  title: "pH piscina: valores ideales, cómo medirlo y corregirlo",
   description:
     "Todo sobre el pH de la piscina: rango ideal (7,2-7,6), cómo medirlo con tiras o medidor digital, cómo subir o bajar el pH y qué pasa si está fuera de rango.",
   keywords:
     "ph piscina, ph ideal piscina, bajar ph piscina, subir ph piscina, medidor ph piscina",
   alternates: { canonical: "https://www.guiadelpiscina.com/ph-piscina" },
   openGraph: {
-    title: "pH de la piscina: qué es, cómo medirlo y cómo corregirlo en 2025",
+    title: "pH de la piscina: qué es, cómo medirlo y cómo corregirlo",
     description:
       "Rango ideal del pH, cómo medirlo con tiras o medidor digital y cómo subirlo o bajarlo correctamente.",
     url: "https://www.guiadelpiscina.com/ph-piscina",
@@ -62,7 +62,7 @@ const faqs = [
 const articleSchema = {
   "@context": "https://schema.org",
   "@type": "Article",
-  headline: "pH de la piscina: qué es, cómo medirlo y cómo corregirlo en 2025",
+  headline: "pH de la piscina: qué es, cómo medirlo y cómo corregirlo",
   description:
     "Todo sobre el pH de la piscina: rango ideal (7,2-7,6), cómo medirlo con tiras o medidor digital, cómo subir o bajar el pH y qué pasa si está fuera de rango.",
   datePublished: "2025-07-10",
@@ -76,7 +76,7 @@ const articleSchema = {
   },
   publisher: { "@type": "Organization", name: "Mkt Web 360 SLU", url: "https://www.guiadelpiscina.com" },
   mainEntityOfPage: "https://www.guiadelpiscina.com/ph-piscina",
-  image: { "@type": "ImageObject", url: "https://www.guiadelpiscina.com/og-image.png", width: 1200, height: 630 },
+  image: { "@type": "ImageObject", url: "https://www.guiadelpiscina.com/opengraph-image", width: 1200, height: 630 },
   speakable: { "@type": "SpeakableSpecification", cssSelector: ["#respuesta-directa", "h1"] },
 };
 
@@ -125,7 +125,7 @@ export default function PhPiscinaPage() {
         </nav>
 
         <h1 className="text-3xl md:text-4xl font-extrabold text-gray-900 mb-4 leading-tight">
-          pH de la piscina: qué es, cómo medirlo y cómo corregirlo en 2025
+          pH de la piscina: qué es, cómo medirlo y cómo corregirlo en
         </h1>
         <p className="text-gray-400 text-sm mb-6">Publicado: 10 julio 2025 · Actualizado: 10 julio 2025 · 9 min lectura</p>
         <span className="flex items-center gap-1 text-gray-500 text-sm mb-4 block">
@@ -302,7 +302,7 @@ export default function PhPiscinaPage() {
           <ul className="space-y-2">
             <li><Link href="/agua-piscina-verde" className="text-sky-600 hover:underline">→ Agua de la piscina verde: causas y solución</Link></li>
             <li><Link href="/mantenimiento-piscina-desmontable" className="text-sky-600 hover:underline">→ Cómo mantener una piscina desmontable</Link></li>
-            <li><Link href="/mejores-depuradoras-piscina" className="text-sky-600 hover:underline">→ Las 5 mejores depuradoras para piscina 2025</Link></li>
+            <li><Link href="/mejores-depuradoras-piscina" className="text-sky-600 hover:underline">→ Las 5 mejores depuradoras para piscina</Link></li>
           </ul>
         </div>
       </article>

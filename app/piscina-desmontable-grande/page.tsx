@@ -6,13 +6,13 @@ import AdSenseAd from "@/components/AdSenseAd";
 import BlogSidebar from "@/components/BlogSidebar";
 
 export const metadata: Metadata = {
-  title: "Mejores piscinas desmontables grandes 2025 — Guía de compra",
+  title: "Mejores piscinas desmontables grandes — Guía de compra",
   description:
     "Comparativa de las mejores piscinas desmontables grandes para adultos y familias. Intex, Bestway y más. Precios desde 300€.",
   keywords: "piscina desmontable grande, piscina desmontable adultos, piscina jardin grande, piscina intex grande",
   alternates: { canonical: "https://www.guiadelpiscina.com/piscina-desmontable-grande" },
   openGraph: {
-    title: "Mejores piscinas desmontables grandes 2025",
+    title: "Mejores piscinas desmontables grandes",
     description: "Comparativa de piscinas desmontables grandes para familias.",
     url: "https://www.guiadelpiscina.com/piscina-desmontable-grande",
   },
@@ -37,7 +37,7 @@ const faqs = [
 const articleSchema = {
   "@context": "https://schema.org",
   "@type": "Article",
-  headline: "Mejores piscinas desmontables grandes 2025 — Guía de compra",
+  headline: "Mejores piscinas desmontables grandes — Guía de compra",
   description: "Comparativa de las mejores piscinas desmontables grandes para adultos y familias.",
   datePublished: "2025-06-05",
   dateModified: "2025-06-09",
@@ -50,7 +50,7 @@ const articleSchema = {
   },
   publisher: { "@type": "Organization", name: "Mkt Web 360 SLU", url: "https://www.guiadelpiscina.com" },
   mainEntityOfPage: "https://www.guiadelpiscina.com/piscina-desmontable-grande",
-  image: { "@type": "ImageObject", url: "https://www.guiadelpiscina.com/og-image.png", width: 1200, height: 630 },
+  image: { "@type": "ImageObject", url: "https://www.guiadelpiscina.com/opengraph-image", width: 1200, height: 630 },
   speakable: { "@type": "SpeakableSpecification", cssSelector: ["#respuesta-directa", "h1"] },
 };
 
@@ -93,7 +93,7 @@ export default function PiscinaDesmontablePage() {
         </nav>
 
         <h1 className="text-3xl md:text-4xl font-extrabold text-gray-900 mb-4 leading-tight">
-          Mejores piscinas desmontables grandes 2025 — Guía de compra
+          Mejores piscinas desmontables grandes — Guía de compra
         </h1>
         <p className="text-gray-400 text-sm mb-6">Publicado: 5 junio 2025 · Actualizado: 9 junio 2025 · 13 min lectura</p>
         <span className="flex items-center gap-1 text-gray-500 text-sm mb-4 block">
@@ -113,13 +113,13 @@ export default function PiscinaDesmontablePage() {
         <div className="prose">
                     <div id="respuesta-directa" className="bg-sky-50 border-l-4 border-sky-500 rounded-r-xl px-5 py-4 mb-6">
             <p className="text-xs font-bold text-sky-700 uppercase tracking-wide mb-1.5">Respuesta directa</p>
-            <p className="text-gray-800 font-medium leading-relaxed">Las <strong>piscinas desmontables grandes</strong> son la alternativa perfecta a la piscina enterrada: sin obras, sin licencia (en la mayoría de municipios), instalación en un fin de semana y precio infinitamente menor. En esta guía comparamos las mejores piscinas desmontables de más de 4 metros disponibles en el mercado en 2025. También puedes <Link href="/tienda/piscinas-desmontables" className="text-sky-600 hover:underline font-medium">explorar piscinas desmontables en nuestra tienda</Link>.</p>
+            <p className="text-gray-800 font-medium leading-relaxed">Las <strong>piscinas desmontables grandes</strong> son la alternativa perfecta a la piscina enterrada: sin obras, sin licencia (en la mayoría de municipios), instalación en un fin de semana y precio infinitamente menor. En esta guía comparamos las mejores piscinas desmontables de más de 4 metros disponibles en el mercado. También puedes <Link href="/tienda/piscinas-desmontables" className="text-sky-600 hover:underline font-medium">explorar piscinas desmontables en nuestra tienda</Link>.</p>
           </div>
           <p>
             Los precios van desde 300€ para modelos básicos hasta 700€ para los conjuntos más completos. Hemos analizado la resistencia de las paredes, la calidad de la estructura, la depuradora incluida y la facilidad de montaje.
           </p>
 
-          <h2>Comparativa — Mejores piscinas desmontables grandes 2025</h2>
+          <h2>Comparativa — Mejores piscinas desmontables grandes</h2>
         </div>
 
         <div className="overflow-x-auto my-6">
@@ -159,7 +159,7 @@ export default function PiscinaDesmontablePage() {
         <div className="prose">
           <h2>Análisis detallado</h2>
 
-          <h3>1. Intex 26176 Oval Frame — La más vendida en España (★★★★½)</h3>
+          <h3>1. Intex 26176 Oval Frame — La más vendida en España</h3>
           <p>
             La <strong>Intex Oval Frame de 7×3,5 m</strong> es la piscina desmontable grande más vendida en España. Su estructura ovalada con 32 postes de acero es extraordinariamente resistente y puede soportar el volumen de casi 29.000 litros de agua sin problema. La depuradora de arena incluida (7.571 l/h) es suficiente para mantener el agua cristalina.
           </p>
@@ -173,7 +173,7 @@ export default function PiscinaDesmontablePage() {
             </a>
           </div>
 
-          <h3>2. Bestway Steel Pro 549×274 cm — La más económica (★★★★)</h3>
+          <h3>2. Bestway Steel Pro 549×274 cm — La más económica</h3>
           <p>
             La <strong>Bestway Steel Pro</strong> es la opción más asequible para jardines medianos. Con casi 5,5 metros de largo y 17.000 litros de capacidad, es perfecta para familias de 2-4 personas. La estructura rectangular facilita el aprovechamiento del espacio.
           </p>
@@ -183,7 +183,7 @@ export default function PiscinaDesmontablePage() {
             </a>
           </div>
 
-          <h3>3. <Link href="/tienda/piscinas-desmontables/intex-ultra-xtr-549x274-depuradora" className="text-sky-700 hover:underline">Intex Ultra XTR Frame</Link> — La mejor calidad (★★★★½)</h3>
+          <h3>3. <Link href="/tienda/piscinas-desmontables/intex-ultra-xtr-549x274-depuradora" className="text-sky-700 hover:underline">Intex Ultra XTR Frame</Link> — La mejor calidad</h3>
           <p>
             La <strong>Intex Ultra XTR</strong> es un escalón por encima en calidad: paredes de 3 capas de PVC más grueso, estructura de aluminio más robusta y conexiones mejoradas. Para quien quiere lo mejor y no tiene dudas sobre el presupuesto.
           </p>
@@ -224,8 +224,8 @@ export default function PiscinaDesmontablePage() {
         <div className="mt-8 p-6 bg-sky-50 rounded-xl border border-sky-100">
           <h3 className="font-bold text-gray-900 mb-3">Completa tu piscina</h3>
           <ul className="space-y-2">
-            <li><Link href="/mejores-depuradoras-piscina" className="text-sky-600 hover:underline">→ Las 5 mejores depuradoras para piscina 2025</Link></li>
-            <li><Link href="/robot-limpiafondos-piscina" className="text-sky-600 hover:underline">→ Mejores robots limpiafondos para piscina 2025</Link></li>
+            <li><Link href="/mejores-depuradoras-piscina" className="text-sky-600 hover:underline">→ Las 5 mejores depuradoras para piscina</Link></li>
+            <li><Link href="/robot-limpiafondos-piscina" className="text-sky-600 hover:underline">→ Mejores robots limpiafondos para piscina</Link></li>
             <li><Link href="/bomba-calor-piscina" className="text-sky-600 hover:underline">→ Bomba de calor para piscina: calentar el agua eficientemente</Link></li>
           </ul>
         </div>

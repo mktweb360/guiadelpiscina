@@ -6,7 +6,7 @@ import AdSenseAd from "@/components/AdSenseAd";
 import BlogSidebar from "@/components/BlogSidebar";
 
 export const metadata: Metadata = {
-  title: "Mejor césped artificial para jardín 2025 — Análisis y precios",
+  title: "Mejor césped artificial para jardín — Análisis y precios",
   description:
     "Comparativa del mejor césped artificial para jardín y terraza. Analizamos densidad, altura, calidad UV y precio por metro cuadrado.",
   keywords: "cesped artificial jardin, cesped artificial precio, cesped sintetico jardin, cesped artificial terraza",
@@ -32,7 +32,7 @@ const faqs = [
 const articleSchema = {
   "@context": "https://schema.org",
   "@type": "Article",
-  headline: "Mejor césped artificial para jardín 2025 — Análisis y precios",
+  headline: "Mejor césped artificial para jardín — Análisis y precios",
   description: "Comparativa del mejor césped artificial para jardín y terraza.",
   datePublished: "2025-03-28",
   dateModified: "2025-06-01",
@@ -45,7 +45,7 @@ const articleSchema = {
   },
   publisher: { "@type": "Organization", name: "Mkt Web 360 SLU", url: "https://www.guiadelpiscina.com" },
   mainEntityOfPage: "https://www.guiadelpiscina.com/cesped-artificial-jardin",
-  image: { "@type": "ImageObject", url: "https://www.guiadelpiscina.com/og-image.png", width: 1200, height: 630 },
+  image: { "@type": "ImageObject", url: "https://www.guiadelpiscina.com/opengraph-image", width: 1200, height: 630 },
   speakable: { "@type": "SpeakableSpecification", cssSelector: ["#respuesta-directa", "h1"] },
 };
 
@@ -88,7 +88,7 @@ export default function CespedArtificialPage() {
         </nav>
 
         <h1 className="text-3xl md:text-4xl font-extrabold text-gray-900 mb-4 leading-tight">
-          Mejor césped artificial para jardín 2025 — Análisis y precios
+          Mejor césped artificial para jardín — Análisis y precios
         </h1>
         <p className="text-gray-400 text-sm mb-6">Publicado: 28 marzo 2025 · Actualizado: 1 junio 2025 · 11 min lectura</p>
         <span className="flex items-center gap-1 text-gray-500 text-sm mb-4 block">
@@ -102,10 +102,10 @@ export default function CespedArtificialPage() {
         <div className="prose">
                     <div id="respuesta-directa" className="bg-sky-50 border-l-4 border-sky-500 rounded-r-xl px-5 py-4 mb-6">
             <p className="text-xs font-bold text-sky-700 uppercase tracking-wide mb-1.5">Respuesta directa</p>
-            <p className="text-gray-800 font-medium leading-relaxed">El <strong>césped artificial</strong> ha evolucionado enormemente en los últimos años: las fibras actuales son tan realistas que cuesta distinguirlos del natural a simple vista. Sin riego, sin cortes, sin fertilizantes y verde los 365 días del año. En esta guía comparamos los <strong>mejores céspedes artificiales para jardín</strong> disponibles en el mercado en 2025, con precios entre 5 y 15€/m². Puedes <Link href="/tienda/cesped-artificial" className="text-sky-600 hover:underline font-medium">ver rollos de césped artificial en nuestra tienda</Link> con los mejores modelos por densidad, altura y precio.</p>
+            <p className="text-gray-800 font-medium leading-relaxed">El <strong>césped artificial</strong> ha evolucionado enormemente en los últimos años: las fibras actuales son tan realistas que cuesta distinguirlos del natural a simple vista. Sin riego, sin cortes, sin fertilizantes y verde los 365 días del año. En esta guía comparamos los <strong>mejores céspedes artificiales para jardín</strong> disponibles en el mercado, con precios entre 5 y 15€/m². Puedes <Link href="/tienda/cesped-artificial" className="text-sky-600 hover:underline font-medium">ver rollos de césped artificial en nuestra tienda</Link> con los mejores modelos por densidad, altura y precio.</p>
           </div>
 
-          <h2>Comparativa — Mejores céspedes artificiales 2025</h2>
+          <h2>Comparativa — Mejores céspedes artificiales</h2>
         </div>
 
         <div className="overflow-x-auto my-6">
@@ -203,8 +203,8 @@ export default function CespedArtificialPage() {
         <div className="mt-8 p-6 bg-sky-50 rounded-xl border border-sky-100">
           <h3 className="font-bold text-gray-900 mb-3">También te puede interesar</h3>
           <ul className="space-y-2">
-            <li><Link href="/sistema-riego-automatico" className="text-sky-600 hover:underline">→ Sistemas de riego automático para jardín 2025</Link></li>
-            <li><Link href="/muebles-jardin-terraza" className="text-sky-600 hover:underline">→ Mejores muebles de jardín y terraza 2025</Link></li>
+            <li><Link href="/sistema-riego-automatico" className="text-sky-600 hover:underline">→ Sistemas de riego automático para jardín</Link></li>
+            <li><Link href="/muebles-jardin-terraza" className="text-sky-600 hover:underline">→ Mejores muebles de jardín y terraza</Link></li>
           </ul>
         </div>
       </article>

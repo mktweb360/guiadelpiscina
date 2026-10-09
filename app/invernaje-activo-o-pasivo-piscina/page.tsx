@@ -4,7 +4,7 @@ import AdSenseAd from "@/components/AdSenseAd";
 import BlogSidebar from "@/components/BlogSidebar";
 
 export const metadata: Metadata = {
-  title: "Invernaje activo o pasivo en la piscina: cuál elegir y cómo hacerlo (2026) | Guía del Piscina",
+  title: "Invernaje activo o pasivo en la piscina: cuál elegir y cómo hacerlo (2026)",
   description:
     "Diferencias entre invernaje activo y pasivo, cuándo elegir cada uno según tu clima y equipo, y cómo hacerlo paso a paso para evitar problemas en primavera.",
   keywords:
@@ -73,7 +73,7 @@ const articleSchema = {
   },
   publisher: { "@type": "Organization", name: "Mkt Web 360 SLU", url: "https://www.guiadelpiscina.com" },
   mainEntityOfPage: "https://www.guiadelpiscina.com/invernaje-activo-o-pasivo-piscina",
-  image: { "@type": "ImageObject", url: "https://www.guiadelpiscina.com/og-image.png", width: 1200, height: 630 },
+  image: { "@type": "ImageObject", url: "https://www.guiadelpiscina.com/opengraph-image", width: 1200, height: 630 },
   speakable: { "@type": "SpeakableSpecification", cssSelector: ["#respuesta-directa", "h1"] },
 };
 

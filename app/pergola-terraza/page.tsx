@@ -6,7 +6,7 @@ import AdSenseAd from "@/components/AdSenseAd";
 import BlogSidebar from "@/components/BlogSidebar";
 
 export const metadata: Metadata = {
-  title: "Las mejores pérgolas para terraza y jardín 2025 — Guía de compra",
+  title: "Las mejores pérgolas para terraza y jardín — Guía de compra",
   description:
     "Comparativa de las mejores pérgolas para terraza y jardín. Aluminio, madera y bioclimáticas. Encuentra la pérgola perfecta para tu espacio exterior.",
   keywords: "pergola terraza, pergola jardin aluminio, pergola bioclimatica, toldo pergola",
@@ -32,7 +32,7 @@ const faqs = [
 const articleSchema = {
   "@context": "https://schema.org",
   "@type": "Article",
-  headline: "Las mejores pérgolas para terraza y jardín 2025",
+  headline: "Las mejores pérgolas para terraza y jardín",
   description: "Comparativa de las mejores pérgolas para terraza y jardín.",
   datePublished: "2025-04-20",
   dateModified: "2025-06-01",
@@ -45,7 +45,7 @@ const articleSchema = {
   },
   publisher: { "@type": "Organization", name: "Mkt Web 360 SLU", url: "https://www.guiadelpiscina.com" },
   mainEntityOfPage: "https://www.guiadelpiscina.com/pergola-terraza",
-  image: { "@type": "ImageObject", url: "https://www.guiadelpiscina.com/og-image.png", width: 1200, height: 630 },
+  image: { "@type": "ImageObject", url: "https://www.guiadelpiscina.com/opengraph-image", width: 1200, height: 630 },
   speakable: { "@type": "SpeakableSpecification", cssSelector: ["#respuesta-directa", "h1"] },
 };
 
@@ -88,7 +88,7 @@ export default function PergolaPage() {
         </nav>
 
         <h1 className="text-3xl md:text-4xl font-extrabold text-gray-900 mb-4 leading-tight">
-          Las mejores pérgolas para terraza y jardín 2025
+          Las mejores pérgolas para terraza y jardín
         </h1>
         <p className="text-gray-400 text-sm mb-6">Publicado: 20 abril 2025 · Actualizado: 1 junio 2025 · 10 min lectura</p>
         <span className="flex items-center gap-1 text-gray-500 text-sm mb-4 block">
@@ -105,10 +105,10 @@ export default function PergolaPage() {
             <p className="text-gray-800 font-medium leading-relaxed">Una <strong>pérgola</strong> transforma cualquier terraza o jardín en un espacio habitable y confortable incluso en los días más calurosos. Ya sea para protegerte del sol, crear un comedor al aire libre o delimitar una zona de descanso junto a la piscina, la pérgola correcta puede multiplicar el valor y el disfrute de tu espacio exterior.</p>
           </div>
           <p>
-            En esta guía comparamos los <strong>mejores modelos de pérgola para terraza y jardín</strong> disponibles en el mercado en 2025, desde opciones económicas por 150€ hasta bioclimáticas premium por más de 1.000€. Puedes <Link href="/tienda/pergolas" className="text-sky-600 hover:underline font-medium">ver pérgolas bioclimáticas en nuestra tienda</Link> con los mejores modelos seleccionados.
+            En esta guía comparamos los <strong>mejores modelos de pérgola para terraza y jardín</strong> disponibles en el mercado, desde opciones económicas por 150€ hasta bioclimáticas premium por más de 1.000€. Puedes <Link href="/tienda/pergolas" className="text-sky-600 hover:underline font-medium">ver pérgolas bioclimáticas en nuestra tienda</Link> con los mejores modelos seleccionados.
           </p>
 
-          <h2>Comparativa — Mejores pérgolas 2025</h2>
+          <h2>Comparativa — Mejores pérgolas</h2>
         </div>
 
         <div className="overflow-x-auto my-6">
@@ -201,8 +201,8 @@ export default function PergolaPage() {
         <div className="mt-8 p-6 bg-sky-50 rounded-xl border border-sky-100">
           <h3 className="font-bold text-gray-900 mb-3">También te puede interesar</h3>
           <ul className="space-y-2">
-            <li><Link href="/muebles-jardin-terraza" className="text-sky-600 hover:underline">→ Mejores muebles de jardín y terraza 2025</Link></li>
-            <li><Link href="/cesped-artificial-jardin" className="text-sky-600 hover:underline">→ Mejor césped artificial para jardín 2025</Link></li>
+            <li><Link href="/muebles-jardin-terraza" className="text-sky-600 hover:underline">→ Mejores muebles de jardín y terraza</Link></li>
+            <li><Link href="/cesped-artificial-jardin" className="text-sky-600 hover:underline">→ Mejor césped artificial para jardín</Link></li>
           </ul>
         </div>
       </article>

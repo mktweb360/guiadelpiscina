@@ -6,14 +6,14 @@ import AdSenseAd from "@/components/AdSenseAd";
 import BlogSidebar from "@/components/BlogSidebar";
 
 export const metadata: Metadata = {
-  title: "Mejor escalera piscina desmontable 2025 — Guía de compra | Guía del Piscina",
+  title: "Mejor escalera piscina desmontable — Guía de compra",
   description:
-    "Las 3 mejores escaleras para piscina desmontable en 2025. Comparativa Intex vs Bestway por altura, seguridad, materiales y precio.",
+    "Las 3 mejores escaleras para piscina desmontable. Comparativa Intex vs Bestway por altura, seguridad, materiales y precio.",
   keywords:
     "escalera piscina desmontable, escalera intex, escalera bestway, escalera seguridad piscina",
   alternates: { canonical: "https://www.guiadelpiscina.com/escalera-piscina-desmontable" },
   openGraph: {
-    title: "Mejor escalera para piscina desmontable en 2025 — Comparativa completa",
+    title: "Mejor escalera para piscina desmontable — Comparativa completa",
     description:
       "Comparativa Intex vs Bestway de escaleras para piscina desmontable por altura, seguridad y precio.",
     url: "https://www.guiadelpiscina.com/escalera-piscina-desmontable",
@@ -76,9 +76,9 @@ const faqs = [
 const articleSchema = {
   "@context": "https://schema.org",
   "@type": "Article",
-  headline: "Mejor escalera para piscina desmontable en 2025 — Comparativa completa",
+  headline: "Mejor escalera para piscina desmontable — Comparativa completa",
   description:
-    "Las 3 mejores escaleras para piscina desmontable en 2025. Comparativa Intex vs Bestway por altura, seguridad, materiales y precio.",
+    "Las 3 mejores escaleras para piscina desmontable. Comparativa Intex vs Bestway por altura, seguridad, materiales y precio.",
   datePublished: "2025-07-15",
   dateModified: "2025-07-15",
   author: {
@@ -90,7 +90,7 @@ const articleSchema = {
   },
   publisher: { "@type": "Organization", name: "Mkt Web 360 SLU", url: "https://www.guiadelpiscina.com" },
   mainEntityOfPage: "https://www.guiadelpiscina.com/escalera-piscina-desmontable",
-  image: { "@type": "ImageObject", url: "https://www.guiadelpiscina.com/og-image.png", width: 1200, height: 630 },
+  image: { "@type": "ImageObject", url: "https://www.guiadelpiscina.com/opengraph-image", width: 1200, height: 630 },
   speakable: { "@type": "SpeakableSpecification", cssSelector: ["#respuesta-directa", "h1"] },
 };
 
@@ -139,7 +139,7 @@ export default function EscaleraPiscinaPage() {
         </nav>
 
         <h1 className="text-3xl md:text-4xl font-extrabold text-gray-900 mb-4 leading-tight">
-          Mejor escalera para piscina desmontable en 2025 — Comparativa completa
+          Mejor escalera para piscina desmontable — Comparativa completa
         </h1>
         <p className="text-gray-400 text-sm mb-6">Publicado: 15 julio 2025 · Actualizado: 15 julio 2025 · 8 min lectura</p>
         <span className="flex items-center gap-1 text-gray-500 text-sm mb-4 block">
@@ -149,7 +149,7 @@ export default function EscaleraPiscinaPage() {
         </span>
         <img
           src="/images/blog/escalera-piscina-desmontable.jpg"
-          alt="Mejor escalera piscina desmontable 2025 — Guía de compra"
+          alt="Mejor escalera piscina desmontable — Guía de compra"
           className="w-full h-56 sm:h-72 object-cover rounded-xl mb-8"
           loading="eager"
         />
@@ -288,9 +288,9 @@ export default function EscaleraPiscinaPage() {
         <div className="mt-8 p-6 bg-sky-50 rounded-xl border border-sky-100">
           <h3 className="font-bold text-gray-900 mb-3">También te puede interesar</h3>
           <ul className="space-y-2">
-            <li><Link href="/piscina-desmontable-grande" className="text-sky-600 hover:underline">→ Mejores piscinas desmontables grandes 2025</Link></li>
+            <li><Link href="/piscina-desmontable-grande" className="text-sky-600 hover:underline">→ Mejores piscinas desmontables grandes</Link></li>
             <li><Link href="/mantenimiento-piscina-desmontable" className="text-sky-600 hover:underline">→ Cómo mantener una piscina desmontable</Link></li>
-            <li><Link href="/mejores-depuradoras-piscina" className="text-sky-600 hover:underline">→ Las 5 mejores depuradoras para piscina 2025</Link></li>
+            <li><Link href="/mejores-depuradoras-piscina" className="text-sky-600 hover:underline">→ Las 5 mejores depuradoras para piscina</Link></li>
           </ul>
         </div>
       </article>

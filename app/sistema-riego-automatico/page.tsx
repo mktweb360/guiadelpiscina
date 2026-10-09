@@ -6,9 +6,9 @@ import AdSenseAd from "@/components/AdSenseAd";
 import BlogSidebar from "@/components/BlogSidebar";
 
 export const metadata: Metadata = {
-  title: "Sistemas de riego automático para jardín — Comparativa 2025",
+  title: "Sistemas de riego automático para jardín — Comparativa",
   description:
-    "Los mejores sistemas de riego automático para jardín. Programadores, aspersores y riego por goteo. Comparativa actualizada para 2025.",
+    "Los mejores sistemas de riego automático para jardín. Programadores, aspersores y riego por goteo. Comparativa actualizada.",
   keywords: "riego automatico jardin, programador riego, sistema riego goteo, aspersores jardin",
   alternates: { canonical: "https://www.guiadelpiscina.com/sistema-riego-automatico" },
 };
@@ -32,7 +32,7 @@ const faqs = [
 const articleSchema = {
   "@context": "https://schema.org",
   "@type": "Article",
-  headline: "Sistemas de riego automático para jardín — Comparativa 2025",
+  headline: "Sistemas de riego automático para jardín — Comparativa",
   description: "Los mejores sistemas de riego automático para jardín.",
   datePublished: "2025-03-15",
   dateModified: "2025-06-01",
@@ -45,7 +45,7 @@ const articleSchema = {
   },
   publisher: { "@type": "Organization", name: "Mkt Web 360 SLU", url: "https://www.guiadelpiscina.com" },
   mainEntityOfPage: "https://www.guiadelpiscina.com/sistema-riego-automatico",
-  image: { "@type": "ImageObject", url: "https://www.guiadelpiscina.com/og-image.png", width: 1200, height: 630 },
+  image: { "@type": "ImageObject", url: "https://www.guiadelpiscina.com/opengraph-image", width: 1200, height: 630 },
   speakable: { "@type": "SpeakableSpecification", cssSelector: ["#respuesta-directa", "h1"] },
 };
 
@@ -88,7 +88,7 @@ export default function SistemaRiegoPage() {
         </nav>
 
         <h1 className="text-3xl md:text-4xl font-extrabold text-gray-900 mb-4 leading-tight">
-          Sistemas de riego automático para jardín — Comparativa 2025
+          Sistemas de riego automático para jardín — Comparativa
         </h1>
         <p className="text-gray-400 text-sm mb-6">Publicado: 15 marzo 2025 · Actualizado: 1 junio 2025 · 9 min lectura</p>
         <span className="flex items-center gap-1 text-gray-500 text-sm mb-4 block">
@@ -105,10 +105,10 @@ export default function SistemaRiegoPage() {
             <p className="text-gray-800 font-medium leading-relaxed">Un <strong>sistema de riego automático</strong> libera al propietario de la obligación de regar el jardín manualmente y, lo más importante, garantiza que las plantas reciban el agua adecuada en el momento adecuado. Con los sistemas inteligentes actuales, puedes ahorrar hasta un 50% de agua frente al riego manual.</p>
           </div>
           <p>
-            En esta guía comparamos los <strong>mejores sistemas de riego automático para jardín</strong> disponibles en el mercado en 2025, desde kits básicos por 35€ hasta controladores inteligentes por 200€. Puedes <Link href="/tienda/riego-automatico" className="text-sky-600 hover:underline font-medium">comparar sistemas de riego inteligente en nuestra tienda</Link>.
+            En esta guía comparamos los <strong>mejores sistemas de riego automático para jardín</strong> disponibles en el mercado, desde kits básicos por 35€ hasta controladores inteligentes por 200€. Puedes <Link href="/tienda/riego-automatico" className="text-sky-600 hover:underline font-medium">comparar sistemas de riego inteligente en nuestra tienda</Link>.
           </p>
 
-          <h2>Comparativa — Mejores sistemas de riego 2025</h2>
+          <h2>Comparativa — Mejores sistemas de riego</h2>
         </div>
 
         <div className="overflow-x-auto my-6">
@@ -148,7 +148,7 @@ export default function SistemaRiegoPage() {
         <div className="prose">
           <h2>Análisis detallado</h2>
 
-          <h3>1. <Link href="/tienda/riego-automatico/gardena-smart-set-riego-gateway" className="text-sky-700 hover:underline">Gardena Kit básico 75 m²</Link> — Mejor para jardines pequeños (★★★★)</h3>
+          <h3>1. <Link href="/tienda/riego-automatico/gardena-smart-set-riego-gateway" className="text-sky-700 hover:underline">Gardena Kit básico 75 m²</Link> — Mejor para jardines pequeños</h3>
           <p>
             El <strong>kit de Gardena</strong> es el punto de entrada perfecto para quien quiere automatizar el riego por primera vez. Incluye todo lo necesario: programador, tuberías, goteros y conectores para cubrir hasta 75 m² de jardín. La calidad Gardena es garantía de durabilidad.
           </p>
@@ -158,7 +158,7 @@ export default function SistemaRiegoPage() {
             </a>
           </div>
 
-          <h3>2. Orbit B-hyve WiFi 4 zonas — Mejor controlador inteligente (★★★★½)</h3>
+          <h3>2. Orbit B-hyve WiFi 4 zonas — Mejor controlador inteligente</h3>
           <p>
             El <strong>Orbit B-hyve</strong> es la opción ideal para quienes ya tienen infraestructura de riego y quieren hacerla inteligente. Controla 4 zonas por WiFi desde el móvil, consulta la meteorología local y puede ajustar automáticamente el riego según la previsión de lluvia.
           </p>
@@ -168,7 +168,7 @@ export default function SistemaRiegoPage() {
             </a>
           </div>
 
-          <h3>3. Rachio 3 de 8 zonas — Más avanzado (★★★★★)</h3>
+          <h3>3. Rachio 3 de 8 zonas — Más avanzado</h3>
           <p>
             El <strong>Rachio 3</strong> es el Rolls-Royce del riego inteligente. Con IA integrada, aprende los patrones de tu jardín, integra datos meteorológicos en tiempo real y puede controlarse desde Alexa, Google Assistant y Apple HomeKit. Ideal para jardines complejos con múltiples zonas.
           </p>
@@ -201,8 +201,8 @@ export default function SistemaRiegoPage() {
         <div className="mt-8 p-6 bg-sky-50 rounded-xl border border-sky-100">
           <h3 className="font-bold text-gray-900 mb-3">También te puede interesar</h3>
           <ul className="space-y-2">
-            <li><Link href="/cesped-artificial-jardin" className="text-sky-600 hover:underline">→ Mejor césped artificial para jardín 2025</Link></li>
-            <li><Link href="/muebles-jardin-terraza" className="text-sky-600 hover:underline">→ Mejores muebles de jardín y terraza 2025</Link></li>
+            <li><Link href="/cesped-artificial-jardin" className="text-sky-600 hover:underline">→ Mejor césped artificial para jardín</Link></li>
+            <li><Link href="/muebles-jardin-terraza" className="text-sky-600 hover:underline">→ Mejores muebles de jardín y terraza</Link></li>
           </ul>
         </div>
       </article>

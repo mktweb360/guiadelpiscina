@@ -6,13 +6,13 @@ import AdSenseAd from "@/components/AdSenseAd";
 import BlogSidebar from "@/components/BlogSidebar";
 
 export const metadata: Metadata = {
-  title: "Las 5 mejores depuradoras para piscina en 2025 — Análisis y comparativa",
+  title: "Las 5 mejores depuradoras para piscina — Análisis y comparativa",
   description:
     "Comparativa de las mejores depuradoras para piscina del mercado español. Analizamos rendimiento, consumo y precio para que elijas la mejor opción.",
   keywords: "mejores depuradoras piscina, depuradora piscina precio, depuradora arena piscina, filtro piscina",
   alternates: { canonical: "https://www.guiadelpiscina.com/mejores-depuradoras-piscina" },
   openGraph: {
-    title: "Las 5 mejores depuradoras para piscina en 2025",
+    title: "Las 5 mejores depuradoras para piscina",
     description: "Comparativa completa de depuradoras para piscina con análisis de pros y contras.",
     url: "https://www.guiadelpiscina.com/mejores-depuradoras-piscina",
   },
@@ -37,7 +37,7 @@ const faqs = [
 const articleSchema = {
   "@context": "https://schema.org",
   "@type": "Article",
-  headline: "Las 5 mejores depuradoras para piscina en 2025 — Análisis y comparativa",
+  headline: "Las 5 mejores depuradoras para piscina — Análisis y comparativa",
   description: "Comparativa de las mejores depuradoras para piscina del mercado español.",
   datePublished: "2025-05-15",
   dateModified: "2025-06-01",
@@ -50,7 +50,7 @@ const articleSchema = {
   },
   publisher: { "@type": "Organization", name: "Mkt Web 360 SLU", url: "https://www.guiadelpiscina.com" },
   mainEntityOfPage: "https://www.guiadelpiscina.com/mejores-depuradoras-piscina",
-  image: { "@type": "ImageObject", url: "https://www.guiadelpiscina.com/og-image.png", width: 1200, height: 630 },
+  image: { "@type": "ImageObject", url: "https://www.guiadelpiscina.com/opengraph-image", width: 1200, height: 630 },
   speakable: { "@type": "SpeakableSpecification", cssSelector: ["#respuesta-directa", "h1"] },
 };
 
@@ -94,7 +94,7 @@ export default function DepuradorasPage() {
         </nav>
 
         <h1 className="text-3xl md:text-4xl font-extrabold text-gray-900 mb-4 leading-tight">
-          Las 5 mejores depuradoras para piscina en 2025 — Análisis y comparativa
+          Las 5 mejores depuradoras para piscina — Análisis y comparativa
         </h1>
         <p className="text-gray-400 text-sm mb-6">Publicado: 15 mayo 2025 · Actualizado: 1 junio 2025 · 12 min lectura</p>
         <span className="flex items-center gap-1 text-gray-500 text-sm mb-4 block">
@@ -104,7 +104,7 @@ export default function DepuradorasPage() {
         </span>
         <img
           src="/images/blog/mejores-depuradoras-piscina.jpg"
-          alt="Las 5 mejores depuradoras para piscina en 2025 — Análisis y comparativa"
+          alt="Las 5 mejores depuradoras para piscina — Análisis y comparativa"
           className="w-full h-56 sm:h-72 object-cover rounded-xl mb-8"
           loading="eager"
         />
@@ -114,7 +114,7 @@ export default function DepuradorasPage() {
         <div className="prose">
                     <div id="respuesta-directa" className="bg-sky-50 border-l-4 border-sky-500 rounded-r-xl px-5 py-4 mb-6">
             <p className="text-xs font-bold text-sky-700 uppercase tracking-wide mb-1.5">Respuesta directa</p>
-            <p className="text-gray-800 font-medium leading-relaxed">La depuradora es el corazón de cualquier piscina. Sin una buena filtración, el agua se vuelve turbia y proliferan algas y bacterias que hacen que bañarse sea un riesgo para la salud. En esta guía analizamos las <strong>5 mejores depuradoras de piscina</strong> disponibles en el mercado en 2025, con precios entre 89 y 200€.</p>
+            <p className="text-gray-800 font-medium leading-relaxed">La depuradora es el corazón de cualquier piscina. Sin una buena filtración, el agua se vuelve turbia y proliferan algas y bacterias que hacen que bañarse sea un riesgo para la salud. En esta guía analizamos las <strong>5 mejores depuradoras de piscina</strong> disponibles en el mercado, con precios entre 89 y 200€.</p>
           </div>
           <p>
             Hemos analizado más de 20 modelos, comparado especificaciones técnicas y revisado miles de reseñas de usuarios para darte las recomendaciones más fiables del mercado.
@@ -123,7 +123,7 @@ export default function DepuradorasPage() {
             Si ya sabes lo que buscas, puedes <Link href="/tienda/depuradoras" className="text-sky-600 hover:underline font-medium">ver todas las depuradoras en nuestra tienda</Link> con precios, comparativas y los mejores modelos seleccionados.
           </p>
 
-          <h2>Tabla comparativa — Las mejores depuradoras 2025</h2>
+          <h2>Tabla comparativa — Las mejores depuradoras</h2>
         </div>
 
         {/* Comparison table */}
@@ -164,7 +164,7 @@ export default function DepuradorasPage() {
         <div className="prose">
           <h2>Análisis detallado de cada depuradora</h2>
 
-          <h3>1. <Link href="/tienda/depuradoras/intex-28636-depuradora-cartucho" className="text-sky-700 hover:underline">Intex 28636</Link> — Mejor calidad-precio (★★★★½)</h3>
+          <h3>1. <Link href="/tienda/depuradoras/intex-28636-depuradora-cartucho" className="text-sky-700 hover:underline">Intex 28636</Link> — Mejor calidad-precio</h3>
           <p>
             La <strong>Intex 28636</strong> es la depuradora de arena más vendida en España y con razón. Ofrece un caudal de 8.000 l/h con un motor de 0,75 CV, suficiente para piscinas de hasta 26.500 litros. Su montaje es sencillo y viene con una válvula multiposición de 6 vías que facilita el lavado, enjuague y vaciado.
           </p>
@@ -187,7 +187,7 @@ export default function DepuradorasPage() {
             </a>
           </div>
 
-          <h3>2. Bestway Flowclear 58496 — Mejor para piscinas medianas (★★★★)</h3>
+          <h3>2. Bestway Flowclear 58496 — Mejor para piscinas medianas</h3>
           <p>
             La <strong>Bestway Flowclear 58496</strong> es ideal para piscinas de entre 15.000 y 30.000 litros. Con 9.463 l/h de caudal y un diseño compacto, es perfecta para espacios con poco margen. Su sistema de filtrado de arena es altamente eficaz y el mantenimiento es mínimo.
           </p>
@@ -203,7 +203,7 @@ export default function DepuradorasPage() {
             <li>Manual de instrucciones mejorable</li>
           </ul>
 
-          <h3>3. Gre AR700 — Depuradora de arena 4.000 l/h (★★★★½)</h3>
+          <h3>3. Gre AR700 — Depuradora de arena 4.000 l/h</h3>
           <p>
             La <strong>Gre AR700</strong> es una depuradora de arena fabricada en España, ideal para piscinas desmontables y enterradas de tamaño medio de hasta 24.000 litros. Con un caudal de 4.000 l/h y válvula multiposición de 6 vías, ofrece un filtrado eficaz con un mantenimiento sencillo y recambios fáciles de encontrar.
           </p>
@@ -225,7 +225,7 @@ export default function DepuradorasPage() {
             </a>
           </div>
 
-          <h3>4. Intex 55225 — Depuradora de Arena Krystal Clear 5.700 l/h (★★★★½)</h3>
+          <h3>4. Intex 55225 — Depuradora de Arena Krystal Clear 5.700 l/h</h3>
           <p>
             La <strong>Intex 55225 Krystal Clear</strong> es una depuradora de arena versátil para piscinas medianas de hasta 30.000 litros. Con 5.700 l/h de caudal, es compatible tanto con arena de sílex como con vidrio filtrante, y su válvula de 6 posiciones facilita todo el mantenimiento. Se conecta a la mayoría de piscinas desmontables Intex y Bestway.
           </p>
@@ -241,7 +241,7 @@ export default function DepuradorasPage() {
             <li>No apta para piscinas de más de 30.000 litros</li>
           </ul>
 
-          <h3>5. Intex 28648 — Mejor precio absoluto (★★★★)</h3>
+          <h3>5. Intex 28648 — Mejor precio absoluto</h3>
           <p>
             Para piscinas pequeñas de hasta 15.000 litros, la <strong><Link href="/tienda/depuradoras" className="text-sky-700 hover:underline">Intex 28648 de cartucho</Link></strong> es la opción más económica y fácil de usar. Sin arena que gestionar, el mantenimiento se reduce a lavar el cartucho con la manguera.
           </p>
@@ -285,9 +285,9 @@ export default function DepuradorasPage() {
         <div className="mt-8 p-6 bg-sky-50 rounded-xl border border-sky-100">
           <h3 className="font-bold text-gray-900 mb-3">También te puede interesar</h3>
           <ul className="space-y-2">
-            <li><Link href="/robot-limpiafondos-piscina" className="text-sky-600 hover:underline">→ Mejores robots limpiafondos para piscina 2025</Link></li>
+            <li><Link href="/robot-limpiafondos-piscina" className="text-sky-600 hover:underline">→ Mejores robots limpiafondos para piscina</Link></li>
             <li><Link href="/bomba-calor-piscina" className="text-sky-600 hover:underline">→ Bomba de calor para piscina: las mejores opciones</Link></li>
-            <li><Link href="/piscina-desmontable-grande" className="text-sky-600 hover:underline">→ Mejores piscinas desmontables grandes 2025</Link></li>
+            <li><Link href="/piscina-desmontable-grande" className="text-sky-600 hover:underline">→ Mejores piscinas desmontables grandes</Link></li>
           </ul>
         </div>
       </article>

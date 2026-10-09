@@ -6,14 +6,14 @@ import AdSenseAd from "@/components/AdSenseAd";
 import BlogSidebar from "@/components/BlogSidebar";
 
 export const metadata: Metadata = {
-  title: "Mejor clorador salino para piscina 2025 — Guía completa | Guía del Piscina",
+  title: "Mejor clorador salino para piscina — Guía completa",
   description:
-    "Los 3 mejores cloradores salinos para piscina desmontable en 2025: Intex, Bestway y Gre. Comparativa por capacidad, producción de cloro y precio.",
+    "Los 3 mejores cloradores salinos para piscina desmontable: Intex, Bestway y Gre. Comparativa por capacidad, producción de cloro y precio.",
   keywords:
     "mejor clorador salino piscina, clorador salino intex, clorador salino bestway, electrolisis sal piscina",
   alternates: { canonical: "https://www.guiadelpiscina.com/mejor-clorador-salino-piscina" },
   openGraph: {
-    title: "Mejor clorador salino para piscina en 2025 — Comparativa completa",
+    title: "Mejor clorador salino para piscina — Comparativa completa",
     description:
       "Comparativa de los mejores cloradores salinos por capacidad, producción de cloro y precio.",
     url: "https://www.guiadelpiscina.com/mejor-clorador-salino-piscina",
@@ -88,9 +88,9 @@ const faqs = [
 const articleSchema = {
   "@context": "https://schema.org",
   "@type": "Article",
-  headline: "Mejor clorador salino para piscina en 2025 — Comparativa completa",
+  headline: "Mejor clorador salino para piscina — Comparativa completa",
   description:
-    "Los 3 mejores cloradores salinos para piscina desmontable en 2025: Intex, Bestway y Gre. Comparativa por capacidad, producción de cloro y precio.",
+    "Los 3 mejores cloradores salinos para piscina desmontable: Intex, Bestway y Gre. Comparativa por capacidad, producción de cloro y precio.",
   datePublished: "2025-07-15",
   dateModified: "2025-07-15",
   author: {
@@ -102,7 +102,7 @@ const articleSchema = {
   },
   publisher: { "@type": "Organization", name: "Mkt Web 360 SLU", url: "https://www.guiadelpiscina.com" },
   mainEntityOfPage: "https://www.guiadelpiscina.com/mejor-clorador-salino-piscina",
-  image: { "@type": "ImageObject", url: "https://www.guiadelpiscina.com/og-image.png", width: 1200, height: 630 },
+  image: { "@type": "ImageObject", url: "https://www.guiadelpiscina.com/opengraph-image", width: 1200, height: 630 },
   speakable: { "@type": "SpeakableSpecification", cssSelector: ["#respuesta-directa", "h1"] },
 };
 
@@ -151,7 +151,7 @@ export default function CloradorSalinoPage() {
         </nav>
 
         <h1 className="text-3xl md:text-4xl font-extrabold text-gray-900 mb-4 leading-tight">
-          Mejor clorador salino para piscina en 2025 — Comparativa completa
+          Mejor clorador salino para piscina — Comparativa completa
         </h1>
         <p className="text-gray-400 text-sm mb-6">Publicado: 15 julio 2025 · Actualizado: 15 julio 2025 · 9 min lectura</p>
         <span className="flex items-center gap-1 text-gray-500 text-sm mb-4 block">
@@ -161,7 +161,7 @@ export default function CloradorSalinoPage() {
         </span>
         <img
           src="/images/blog/mejor-clorador-salino-piscina.jpg"
-          alt="Mejor clorador salino para piscina 2025 — Guía completa"
+          alt="Mejor clorador salino para piscina — Guía completa"
           className="w-full h-56 sm:h-72 object-cover rounded-xl mb-8"
           loading="eager"
         />

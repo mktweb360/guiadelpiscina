@@ -4,7 +4,7 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "Blog — Guías de compra y análisis de productos",
   description:
-    "Todos nuestros artículos sobre piscinas, jardín y terraza. Comparativas, análisis y guías de compra actualizadas para 2025.",
+    "Todos nuestros artículos sobre piscinas, jardín y terraza. Comparativas, análisis y guías de compra actualizadas.",
   alternates: { canonical: "https://www.guiadelpiscina.com/blog" },
   openGraph: {
     title: "Blog — Guías de compra y análisis de productos | Guía del Piscina",
@@ -18,7 +18,7 @@ const articles = [
     href: "/mejores-depuradoras-piscina",
     img: "/images/blog/mejores-depuradoras-piscina.jpg",
     icon: "💧",
-    title: "Las 5 mejores depuradoras para piscina en 2025 — Análisis y comparativa",
+    title: "Las 5 mejores depuradoras para piscina — Análisis y comparativa",
     excerpt:
       "Comparativa completa de las depuradoras más vendidas en España. Analizamos rendimiento, consumo y precio para ayudarte a elegir.",
     date: "2025-05-15",
@@ -28,7 +28,7 @@ const articles = [
   {
     href: "/robot-limpiafondos-piscina",
     icon: "🤖",
-    title: "Mejores robots limpiafondos para piscina 2025 — Guía de compra",
+    title: "Mejores robots limpiafondos para piscina — Guía de compra",
     excerpt:
       "Guía de compra completa: qué robot elegir según el tamaño de tu piscina y tu presupuesto. Comparamos los modelos más populares.",
     date: "2025-05-20",
@@ -49,7 +49,7 @@ const articles = [
   {
     href: "/piscina-desmontable-grande",
     icon: "🏊",
-    title: "Mejores piscinas desmontables grandes 2025 — Guía de compra",
+    title: "Mejores piscinas desmontables grandes — Guía de compra",
     excerpt:
       "Las piscinas desmontables más grandes y resistentes para disfrutar en familia este verano sin obras.",
     date: "2025-06-05",
@@ -59,7 +59,7 @@ const articles = [
   {
     href: "/muebles-jardin-terraza",
     icon: "🪑",
-    title: "Mejores muebles de jardín y terraza 2025 — Guía completa",
+    title: "Mejores muebles de jardín y terraza — Guía completa",
     excerpt:
       "Conjuntos de jardín, sillas, mesas y tumbonas. Los mejores muebles de exterior para cada presupuesto.",
     date: "2025-04-10",
@@ -69,7 +69,7 @@ const articles = [
   {
     href: "/pergola-terraza",
     icon: "🏠",
-    title: "Las mejores pérgolas para terraza y jardín 2025",
+    title: "Las mejores pérgolas para terraza y jardín",
     excerpt:
       "Pérgolas de aluminio, madera y bioclimáticas. Guía completa para elegir la pérgola perfecta para tu espacio exterior.",
     date: "2025-04-20",
@@ -79,7 +79,7 @@ const articles = [
   {
     href: "/sistema-riego-automatico",
     icon: "🌱",
-    title: "Sistemas de riego automático para jardín — Comparativa 2025",
+    title: "Sistemas de riego automático para jardín — Comparativa",
     excerpt:
       "Los mejores programadores, aspersores y sistemas de riego por goteo para mantener tu jardín siempre verde.",
     date: "2025-03-15",
@@ -89,7 +89,7 @@ const articles = [
   {
     href: "/cesped-artificial-jardin",
     icon: "🌿",
-    title: "Mejor césped artificial para jardín 2025 — Análisis y precios",
+    title: "Mejor césped artificial para jardín — Análisis y precios",
     excerpt:
       "Comparativa de césped artificial por densidad, altura y precio. Cuál elegir y cómo instalarlo correctamente.",
     date: "2025-03-28",
@@ -100,7 +100,7 @@ const articles = [
     href: "/agua-piscina-verde",
     img: "/images/blog/agua-piscina-verde.jpg",
     icon: "💚",
-    title: "Agua de la piscina verde: causas y solución definitiva 2025",
+    title: "Agua de la piscina verde: causas y solución definitiva",
     excerpt:
       "¿El agua se ha puesto verde? Protocolo de choque paso a paso para recuperarla en 24-48 h y cómo evitar que vuelva a ocurrir.",
     date: "2025-07-05",
@@ -121,7 +121,7 @@ const articles = [
     href: "/mantenimiento-piscina-desmontable",
     img: "/images/blog/mantenimiento-piscina-desmontable.jpg",
     icon: "🔧",
-    title: "Mantenimiento piscina desmontable: guía paso a paso 2025",
+    title: "Mantenimiento piscina desmontable: guía paso a paso",
     excerpt:
       "Todo lo que necesitas para mantener tu piscina desmontable limpia: pH, cloro, filtro, limpieza y preparación para el invierno.",
     date: "2025-07-01",
@@ -132,9 +132,9 @@ const articles = [
     href: "/mejor-clorador-salino-piscina",
     img: "/images/blog/mejor-clorador-salino-piscina.jpg",
     icon: "🧂",
-    title: "Mejor clorador salino para piscina 2025 — Guía completa",
+    title: "Mejor clorador salino para piscina — Guía completa",
     excerpt:
-      "Los 3 mejores cloradores salinos para piscina desmontable en 2025: Intex, Bestway y Gre. Comparativa, instalación y mantenimiento.",
+      "Los 3 mejores cloradores salinos para piscina desmontable: Intex, Bestway y Gre. Comparativa, instalación y mantenimiento.",
     date: "2025-07-15",
     price: "100–300€",
     category: "Piscinas",
@@ -143,9 +143,9 @@ const articles = [
     href: "/escalera-piscina-desmontable",
     img: "/images/blog/escalera-piscina-desmontable.jpg",
     icon: "🪜",
-    title: "Mejor escalera piscina desmontable 2025 — Guía de compra",
+    title: "Mejor escalera piscina desmontable — Guía de compra",
     excerpt:
-      "Las 3 mejores escaleras para piscina desmontable en 2025. Comparativa Intex vs Bestway por altura, seguridad y precio.",
+      "Las 3 mejores escaleras para piscina desmontable. Comparativa Intex vs Bestway por altura, seguridad y precio.",
     date: "2025-07-15",
     price: "30–80€",
     category: "Piscinas",
@@ -154,7 +154,7 @@ const articles = [
     href: "/cubierta-piscina-desmontable",
     img: "/images/blog/cubierta-piscina-desmontable.jpg",
     icon: "🏗️",
-    title: "Mejor cubierta para piscina desmontable 2025 — Guía completa",
+    title: "Mejor cubierta para piscina desmontable — Guía completa",
     excerpt:
       "Cobertores de invierno, solares y mantas térmicas para piscina desmontable. Qué tipo elegir según tu necesidad y presupuesto.",
     date: "2025-07-20",
@@ -164,7 +164,7 @@ const articles = [
   {
     href: "/mejores-tumbonas-jardin",
     icon: "🌴",
-    title: "Las mejores tumbonas de jardín en 2025 — Comparativa y análisis",
+    title: "Las mejores tumbonas de jardín — Comparativa y análisis",
     excerpt:
       "Análisis de las mejores tumbonas de jardín para piscina y terraza. Comparativa por material, comodidad y precio.",
     date: "2025-07-15",
@@ -175,7 +175,7 @@ const articles = [
     href: "/mejores-sombrillas-jardin",
     img: "/images/blog/mejores-sombrillas-jardin.jpg",
     icon: "☂️",
-    title: "Las mejores sombrillas de jardín en 2025 — Guía de compra",
+    title: "Las mejores sombrillas de jardín — Guía de compra",
     excerpt:
       "Las mejores sombrillas de jardín: de palo central y excéntricas para terraza y piscina. Guía de compra con precios y análisis.",
     date: "2025-07-20",
@@ -186,9 +186,9 @@ const articles = [
     href: "/mejor-manguera-riego-jardin",
     img: "/images/blog/mejor-manguera-riego-jardin.jpg",
     icon: "💦",
-    title: "Mejor manguera de riego para jardín 2025 — Guía de compra",
+    title: "Mejor manguera de riego para jardín — Guía de compra",
     excerpt:
-      "Las mejores mangueras extensibles y de calidad para jardín en 2025. Comparativa por longitud, material y precio.",
+      "Las mejores mangueras extensibles y de calidad para jardín. Comparativa por longitud, material y precio.",
     date: "2025-07-15",
     price: "15–60€",
     category: "Jardín",
@@ -196,9 +196,9 @@ const articles = [
   {
     href: "/piscina-desmontable-grande-adultos",
     icon: "🏊",
-    title: "Mejores piscinas desmontables grandes para adultos 2025",
+    title: "Mejores piscinas desmontables grandes para adultos",
     excerpt:
-      "Las mejores piscinas desmontables grandes para adultos: Intex Ultra XTR y Bestway Power Steel. Comparativa completa 2025.",
+      "Las mejores piscinas desmontables grandes para adultos: Intex Ultra XTR y Bestway Power Steel. Comparativa completa.",
     date: "2025-07-20",
     price: "400–900€",
     category: "Piscinas",
@@ -207,7 +207,7 @@ const articles = [
     href: "/cuanto-cloro-echar-piscina",
     img: "/images/blog/cuanto-cloro-echar-piscina.jpg",
     icon: "🧪",
-    title: "¿Cuánto cloro echar en piscina? Dosis exactas por litros (2025)",
+    title: "¿Cuánto cloro echar en piscina? Dosis exactas por litros",
     excerpt:
       "Calcula exactamente cuánto cloro echar en tu piscina según sus litros: dosis de mantenimiento, choque y corrección. Guía práctica con tablas.",
     date: "2025-08-01",
@@ -218,7 +218,7 @@ const articles = [
     href: "/floculante-piscina",
     img: "/images/blog/floculante-piscina.jpg",
     icon: "🧪",
-    title: "Floculante para piscina: cuándo usarlo y cómo aplicarlo (2025)",
+    title: "Floculante para piscina: cuándo usarlo y cómo aplicarlo",
     excerpt:
       "Qué es el floculante para piscina, cuándo usarlo, cómo aplicarlo paso a paso y diferencia con el clarificante. Agua cristalina en 48h.",
     date: "2025-08-01",
@@ -229,7 +229,7 @@ const articles = [
     href: "/algas-piscina",
     img: "/images/blog/algas-piscina.jpg",
     icon: "🧪",
-    title: "Algas en la piscina: cómo eliminarlas y evitar que vuelvan (2025)",
+    title: "Algas en la piscina: cómo eliminarlas y evitar que vuelvan",
     excerpt:
       "Identifica y elimina algas verdes, negras y mostaza de tu piscina paso a paso. Tratamiento de choque + prevención definitiva.",
     date: "2025-08-01",
@@ -240,7 +240,7 @@ const articles = [
     href: "/como-abrir-piscina-temporada",
     img: "/images/blog/como-abrir-piscina-temporada.jpg",
     icon: "🔧",
-    title: "Cómo abrir la piscina para el verano: guía completa paso a paso (2025)",
+    title: "Cómo abrir la piscina para el verano: guía completa paso a paso",
     excerpt:
       "Prepara tu piscina para la temporada en 7 pasos: revisión del equipo, limpieza, tratamiento del agua y puesta a punto. Checklist incluido.",
     date: "2025-08-01",
@@ -339,7 +339,7 @@ export default function BlogPage() {
       <div className="max-w-5xl mx-auto px-4 py-12">
         <h1 className="text-4xl font-extrabold text-gray-900 mb-3">Blog</h1>
         <p className="text-lg text-gray-500 mb-10">
-          Guías de compra y análisis actualizados para la temporada 2025
+          Guías de compra y análisis actualizados para esta temporada
         </p>
         <div className="grid grid-cols-1 gap-6">
           {articles.map((art) => (

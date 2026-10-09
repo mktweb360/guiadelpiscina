@@ -6,14 +6,14 @@ import AdSenseAd from "@/components/AdSenseAd";
 import BlogSidebar from "@/components/BlogSidebar";
 
 export const metadata: Metadata = {
-  title: "Las mejores tumbonas de jardín en 2025 — Comparativa y análisis | Guía del Piscina",
+  title: "Las mejores tumbonas de jardín — Comparativa y análisis",
   description:
-    "Análisis de las 3 mejores tumbonas de jardín para piscina y terraza en 2025. Comparativa por material, comodidad, resistencia y precio.",
+    "Análisis de las 3 mejores tumbonas de jardín para piscina y terraza. Comparativa por material, comodidad, resistencia y precio.",
   keywords:
     "mejores tumbonas jardin, tumbona piscina, tumbona aluminio, tumbona plegable jardin",
   alternates: { canonical: "https://www.guiadelpiscina.com/mejores-tumbonas-jardin" },
   openGraph: {
-    title: "Las mejores tumbonas de jardín en 2025 — Análisis completo",
+    title: "Las mejores tumbonas de jardín — Análisis completo",
     description:
       "Comparativa de las mejores tumbonas de jardín por material, comodidad, resistencia y precio.",
     url: "https://www.guiadelpiscina.com/mejores-tumbonas-jardin",
@@ -76,9 +76,9 @@ const faqs = [
 const articleSchema = {
   "@context": "https://schema.org",
   "@type": "Article",
-  headline: "Las mejores tumbonas de jardín en 2025 — Análisis completo",
+  headline: "Las mejores tumbonas de jardín — Análisis completo",
   description:
-    "Análisis de las 3 mejores tumbonas de jardín para piscina y terraza en 2025. Comparativa por material, comodidad, resistencia y precio.",
+    "Análisis de las 3 mejores tumbonas de jardín para piscina y terraza. Comparativa por material, comodidad, resistencia y precio.",
   datePublished: "2025-07-15",
   dateModified: "2025-07-15",
   author: {
@@ -90,7 +90,7 @@ const articleSchema = {
   },
   publisher: { "@type": "Organization", name: "Mkt Web 360 SLU", url: "https://www.guiadelpiscina.com" },
   mainEntityOfPage: "https://www.guiadelpiscina.com/mejores-tumbonas-jardin",
-  image: { "@type": "ImageObject", url: "https://www.guiadelpiscina.com/og-image.png", width: 1200, height: 630 },
+  image: { "@type": "ImageObject", url: "https://www.guiadelpiscina.com/opengraph-image", width: 1200, height: 630 },
   speakable: { "@type": "SpeakableSpecification", cssSelector: ["#respuesta-directa", "h1"] },
 };
 
@@ -139,7 +139,7 @@ export default function TumbonasJardinPage() {
         </nav>
 
         <h1 className="text-3xl md:text-4xl font-extrabold text-gray-900 mb-4 leading-tight">
-          Las mejores tumbonas de jardín en 2025 — Análisis completo
+          Las mejores tumbonas de jardín — Análisis completo
         </h1>
         <p className="text-gray-400 text-sm mb-6">Publicado: 15 julio 2025 · Actualizado: 15 julio 2025 · 9 min lectura</p>
         <span className="flex items-center gap-1 text-gray-500 text-sm mb-4 block">
@@ -279,9 +279,9 @@ export default function TumbonasJardinPage() {
         <div className="mt-8 p-6 bg-sky-50 rounded-xl border border-sky-100">
           <h3 className="font-bold text-gray-900 mb-3">También te puede interesar</h3>
           <ul className="space-y-2">
-            <li><Link href="/muebles-jardin-terraza" className="text-sky-600 hover:underline">→ Mejores muebles de jardín y terraza 2025</Link></li>
-            <li><Link href="/pergola-terraza" className="text-sky-600 hover:underline">→ Las mejores pérgolas para terraza y jardín 2025</Link></li>
-            <li><Link href="/cesped-artificial-jardin" className="text-sky-600 hover:underline">→ Mejor césped artificial para jardín 2025</Link></li>
+            <li><Link href="/muebles-jardin-terraza" className="text-sky-600 hover:underline">→ Mejores muebles de jardín y terraza</Link></li>
+            <li><Link href="/pergola-terraza" className="text-sky-600 hover:underline">→ Las mejores pérgolas para terraza y jardín</Link></li>
+            <li><Link href="/cesped-artificial-jardin" className="text-sky-600 hover:underline">→ Mejor césped artificial para jardín</Link></li>
           </ul>
         </div>
       </article>

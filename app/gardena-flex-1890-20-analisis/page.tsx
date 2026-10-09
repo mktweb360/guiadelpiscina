@@ -6,7 +6,7 @@ import AdSenseAd from "@/components/AdSenseAd";
 import BlogSidebar from "@/components/BlogSidebar";
 
 export const metadata: Metadata = {
-  title: "GARDENA Flex 1890-20: análisis completo y opinión 2026 | Guía del Piscina",
+  title: "GARDENA Flex 1890-20: análisis completo y opinión 2026",
   description:
     "Análisis a fondo del programador de riego GARDENA Flex 1890-20: función Water Now, instalación, autonomía de pilas, comparativa con otros programadores Gardena y opinión final.",
   keywords:
@@ -95,7 +95,7 @@ const articleSchema = {
   },
   publisher: { "@type": "Organization", name: "Mkt Web 360 SLU", url: "https://www.guiadelpiscina.com" },
   mainEntityOfPage: "https://www.guiadelpiscina.com/gardena-flex-1890-20-analisis",
-  image: { "@type": "ImageObject", url: "https://www.guiadelpiscina.com/og-image.png", width: 1200, height: 630 },
+  image: { "@type": "ImageObject", url: "https://www.guiadelpiscina.com/opengraph-image", width: 1200, height: 630 },
   speakable: { "@type": "SpeakableSpecification", cssSelector: ["#respuesta-directa", "h1"] },
 };
 
@@ -271,9 +271,9 @@ export default function GardenaFlexAnalisisPage() {
         <div className="mt-8 p-6 bg-sky-50 rounded-xl border border-sky-100">
           <h3 className="font-bold text-gray-900 mb-3">También te puede interesar</h3>
           <ul className="space-y-2">
-            <li><Link href="/sistema-riego-automatico" className="text-sky-600 hover:underline">→ Sistemas de riego automático para jardín 2025</Link></li>
-            <li><Link href="/cesped-artificial-jardin" className="text-sky-600 hover:underline">→ Mejor césped artificial para jardín 2025</Link></li>
-            <li><Link href="/mejor-manguera-riego-jardin" className="text-sky-600 hover:underline">→ Mejor manguera de riego para jardín 2025</Link></li>
+            <li><Link href="/sistema-riego-automatico" className="text-sky-600 hover:underline">→ Sistemas de riego automático para jardín</Link></li>
+            <li><Link href="/cesped-artificial-jardin" className="text-sky-600 hover:underline">→ Mejor césped artificial para jardín</Link></li>
+            <li><Link href="/mejor-manguera-riego-jardin" className="text-sky-600 hover:underline">→ Mejor manguera de riego para jardín</Link></li>
           </ul>
         </div>
       </article>

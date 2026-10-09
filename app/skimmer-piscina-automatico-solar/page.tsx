@@ -1,12 +1,11 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { amazonLink } from "@/lib/amazon";
 import AffiliateDisclosure from "@/components/AffiliateDisclosure";
 import AdSenseAd from "@/components/AdSenseAd";
 import BlogSidebar from "@/components/BlogSidebar";
 
 export const metadata: Metadata = {
-  title: "Skimmer de piscina: qué es y cuándo interesa uno automático solar (2026) | Guía del Piscina",
+  title: "Skimmer de piscina: qué es y cuándo interesa uno automático solar (2026)",
   description:
     "Qué es un skimmer de piscina, diferencia entre el skimmer fijo y el robot skimmer solar de superficie, y cuándo compensa frente a limpiar solo con el robot de fondo.",
   keywords:
@@ -73,7 +72,7 @@ const articleSchema = {
   },
   publisher: { "@type": "Organization", name: "Mkt Web 360 SLU", url: "https://www.guiadelpiscina.com" },
   mainEntityOfPage: "https://www.guiadelpiscina.com/skimmer-piscina-automatico-solar",
-  image: { "@type": "ImageObject", url: "https://www.guiadelpiscina.com/og-image.png", width: 1200, height: 630 },
+  image: { "@type": "ImageObject", url: "https://www.guiadelpiscina.com/opengraph-image", width: 1200, height: 630 },
   speakable: { "@type": "SpeakableSpecification", cssSelector: ["#respuesta-directa", "h1"] },
 };
 
@@ -206,13 +205,9 @@ export default function SkimmerPiscinaAutomaticoSolarPage() {
             ))}
           </ul>
           <p className="text-sm text-gray-500 mt-4">
-            Si marcas dos o más puntos, un robot skimmer de superficie como el{" "}
-            <a href={amazonLink("B0GCD1M38S")} target="_blank" rel="nofollow noopener noreferrer sponsored" className="text-sky-600 hover:underline font-medium">
-              TALOSBO SK02
-            </a>{" "}
-            (carga solar + batería, control por app, sensor de temperatura) puede ahorrarte varias limpiezas manuales a la semana. Ficha completa en{" "}
-            <Link href="/tienda/robots-limpiafondos/talosbo-sk02-skimmer-solar-piscina" className="text-sky-600 hover:underline font-medium">
-              nuestra tienda
+            Si marcas dos o más puntos, un robot skimmer de superficie con carga solar puede ahorrarte varias limpiezas manuales a la semana. Antes de comprar, comprueba que el modelo esté disponible y que tenga control por app y batería de respaldo para los días nublados. Puedes ver las alternativas que analizamos en{" "}
+            <Link href="/tienda/robots-limpiafondos" className="text-sky-600 hover:underline font-medium">
+              robots limpiafondos y skimmers
             </Link>.
           </p>
         </div>
