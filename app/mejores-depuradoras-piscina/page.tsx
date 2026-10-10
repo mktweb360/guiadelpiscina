@@ -82,7 +82,7 @@ export default function DepuradorasPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
 
       <div className="max-w-6xl mx-auto px-4 py-10">
-      <div className="lg:grid lg:grid-cols-[1fr_280px] lg:gap-10 lg:items-start">
+      <div className="lg:grid lg:grid-cols-[1fr_300px] lg:gap-10 lg:items-start">
         <article>
         {/* Breadcrumb */}
         <nav className="text-sm text-gray-400 mb-6">
@@ -159,7 +159,7 @@ export default function DepuradorasPage() {
           </table>
         </div>
 
-        <AdSenseAd slot="1234567890" />
+        <AdSenseAd placement="contenido" />
 
         <div className="prose">
           <h2>Análisis detallado de cada depuradora</h2>

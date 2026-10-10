@@ -123,7 +123,7 @@ export default function ComoCerrarPiscinaPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
 
       <div className="max-w-6xl mx-auto px-4 py-10">
-      <div className="lg:grid lg:grid-cols-[1fr_280px] lg:gap-10 lg:items-start">
+      <div className="lg:grid lg:grid-cols-[1fr_300px] lg:gap-10 lg:items-start">
         <article>
         {/* Breadcrumb */}
         <nav className="text-sm text-gray-400 mb-6">
@@ -224,7 +224,7 @@ export default function ComoCerrarPiscinaPage() {
           <p className="text-xs text-gray-400 mt-2">Precios orientativos de mercado, no verificados en tiempo real. Consulta el precio actualizado antes de comprar.</p>
         </div>
 
-        <AdSenseAd slot="6789012345" />
+        <AdSenseAd placement="contenido" />
 
         <div className="prose">
           <h2>Nuestra valoración: qué cubierta recomendamos según el caso</h2>

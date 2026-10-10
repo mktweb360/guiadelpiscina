@@ -158,7 +158,7 @@ export default function ComoElegirProgramadorRiegoPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
 
       <div className="max-w-6xl mx-auto px-4 py-10">
-      <div className="lg:grid lg:grid-cols-[1fr_280px] lg:gap-10 lg:items-start">
+      <div className="lg:grid lg:grid-cols-[1fr_300px] lg:gap-10 lg:items-start">
         <article>
         <nav className="text-sm text-gray-400 mb-6">
           <Link href="/" className="hover:text-sky-600">Inicio</Link>
@@ -241,7 +241,7 @@ export default function ComoElegirProgramadorRiegoPage() {
           </table>
         </div>
 
-        <AdSenseAd slot="5678901235" />
+        <AdSenseAd placement="contenido" />
 
         <div className="prose">
           <h2>Cómo elegir en 4 preguntas</h2>
