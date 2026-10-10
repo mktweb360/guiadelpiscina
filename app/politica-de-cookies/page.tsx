@@ -45,9 +45,9 @@ export default function PoliticaCookiesPage() {
             </thead>
             <tbody>
               <tr>
-                <td><code>guiadelpiscina_consent_v2</code></td>
-                <td>Guarda tus preferencias de cookies</td>
-                <td>1 año</td>
+                <td><code>FCCDCF</code></td>
+                <td>Guarda tu decisión de consentimiento (plataforma de consentimiento de Google, estándar TCF del IAB)</td>
+                <td>13 meses</td>
               </tr>
             </tbody>
           </table>
@@ -86,7 +86,7 @@ export default function PoliticaCookiesPage() {
 
           <h2>3. Cómo gestionar las cookies</h2>
           <p>
-            Puedes gestionar tus preferencias de cookies en cualquier momento a través de nuestro <strong>panel de cookies</strong> (que aparece en tu primera visita) o mediante la configuración de tu navegador:
+            Puedes gestionar tus preferencias de cookies en cualquier momento a través del <strong>mensaje de consentimiento de Google</strong> (aparece en tu primera visita y puedes reabrirlo con «Preferencias de cookies» en el pie de página) o mediante la configuración de tu navegador:
           </p>
           <ul>
             <li><a href="https://support.google.com/chrome/answer/95647" className="text-sky-600 hover:underline" target="_blank" rel="noopener noreferrer">Google Chrome</a></li>
