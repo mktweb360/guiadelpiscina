@@ -4,6 +4,7 @@ import Link from "next/link";
 import { products, getProductsByCategory, getProductBySlug } from "@/data/products";
 import { amazonLink } from "@/lib/amazon";
 import ProductCard from "@/components/ProductCard";
+import { productTitle, relatedInCategory } from "@/lib/seo";
 
 // ── FAQs por categoría ────────────────────────────────────────────────────────
 
@@ -89,7 +90,7 @@ export async function generateMetadata({
   const product = getProductBySlug(producto);
   if (!product) return {};
   return {
-    title: { absolute: `${product.name}: análisis y opinión` },
+    title: { absolute: productTitle(product.name, "análisis y opinión") },
     description: product.shortDescription,
     alternates: { canonical: `https://www.guiadelpiscina.com/tienda/${product.categorySlug}/${product.slug}` },
     openGraph: {
@@ -111,9 +112,7 @@ export default async function ProductPage({
   const product = getProductBySlug(producto);
   if (!product || product.categorySlug !== categoria) notFound();
 
-  const related = getProductsByCategory(categoria)
-    .filter((p) => p.slug !== producto)
-    .slice(0, 3);
+  const related = relatedInCategory(getProductsByCategory(categoria), producto, 3);
 
   const faqs = categoryFaqs[categoria] ?? [];
   const allFaqs = [...faqs, ...genericFaqs];

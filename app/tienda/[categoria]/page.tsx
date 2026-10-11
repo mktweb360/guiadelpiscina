@@ -52,14 +52,14 @@ const buyingGuides: Record<string, { p1: string; p2: string; p3: string }> = {
 // ── Related articles per category ─────────────────────────────────────────────
 
 const relatedArticles: Record<string, { href: string; title: string }[]> = {
-  depuradoras: [{ href: "/mejores-depuradoras-piscina", title: "Las 5 mejores depuradoras para piscina en 2025" }],
-  "robots-limpiafondos": [{ href: "/robot-limpiafondos-piscina", title: "Mejores robots limpiafondos para piscina 2025" }],
+  depuradoras: [{ href: "/mejores-depuradoras-piscina", title: "Las 5 mejores depuradoras para piscina" }],
+  "robots-limpiafondos": [{ href: "/robot-limpiafondos-piscina", title: "Mejores robots limpiafondos para piscina" }],
   "bombas-calor": [{ href: "/bomba-calor-piscina", title: "Bomba de calor para piscina: las mejores opciones" }],
-  "muebles-jardin": [{ href: "/muebles-jardin-terraza", title: "Muebles de jardín y terraza: guía de compra 2025" }],
-  "piscinas-desmontables": [{ href: "/piscina-desmontable-grande", title: "Mejores piscinas desmontables grandes 2025" }],
-  pergolas: [{ href: "/pergola-terraza", title: "Las mejores pérgolas para terraza y jardín 2025" }],
-  "riego-automatico": [{ href: "/sistema-riego-automatico", title: "Sistemas de riego automático: guía completa 2025" }],
-  "cesped-artificial": [{ href: "/cesped-artificial-jardin", title: "Césped artificial para jardín: los mejores modelos 2025" }],
+  "muebles-jardin": [{ href: "/muebles-jardin-terraza", title: "Muebles de jardín y terraza: guía de compra" }],
+  "piscinas-desmontables": [{ href: "/piscina-desmontable-grande", title: "Mejores piscinas desmontables grandes" }],
+  pergolas: [{ href: "/pergola-terraza", title: "Las mejores pérgolas para terraza y jardín" }],
+  "riego-automatico": [{ href: "/sistema-riego-automatico", title: "Sistemas de riego automático: guía completa" }],
+  "cesped-artificial": [{ href: "/cesped-artificial-jardin", title: "Césped artificial para jardín: los mejores modelos" }],
 };
 
 // ── Helpers ───────────────────────────────────────────────────────────────────
@@ -81,11 +81,11 @@ export async function generateMetadata({
   const cat = categories.find((c) => c.slug === categoria);
   if (!cat) return {};
   return {
-    title: `${cat.name} — Guía de compra y comparativa 2025 | Guía del Piscina`,
+    title: `${cat.name}: guía de compra y comparativa`,
     description: `Comparativa de los mejores productos de ${cat.name.toLowerCase()}. Analizamos calidad, precio y opiniones para ayudarte a elegir.`,
     alternates: { canonical: `https://www.guiadelpiscina.com/tienda/${categoria}` },
     openGraph: {
-      title: `${cat.name} — Guía de compra 2025`,
+      title: `${cat.name}: guía de compra`,
       description: cat.description,
       url: `https://www.guiadelpiscina.com/tienda/${categoria}`,
     },

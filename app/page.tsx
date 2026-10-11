@@ -79,14 +79,14 @@ const categories = [
 const articles = [
   {
     href: "/mejores-depuradoras-piscina",
-    title: "Las 5 mejores depuradoras para piscina en 2025",
+    title: "Las 5 mejores depuradoras para piscina",
     excerpt:
       "Comparativa completa de las depuradoras más vendidas en España. Analizamos rendimiento, consumo y precio.",
     date: "2025-05-15",
   },
   {
     href: "/robot-limpiafondos-piscina",
-    title: "Mejores robots limpiafondos para piscina 2025",
+    title: "Mejores robots limpiafondos para piscina",
     excerpt:
       "Guía de compra completa: qué robot elegir según el tamaño de tu piscina y tu presupuesto.",
     date: "2025-05-20",
@@ -100,7 +100,7 @@ const articles = [
   },
   {
     href: "/piscina-desmontable-grande",
-    title: "Mejores piscinas desmontables grandes 2025",
+    title: "Mejores piscinas desmontables grandes",
     excerpt:
       "Las piscinas desmontables más grandes y resistentes para disfrutar en familia este verano.",
     date: "2025-06-05",
@@ -135,7 +135,7 @@ export default function HomePage() {
         <HeroBackground overlay="from-sky-900/90 via-sky-800/80 to-cyan-900/85" />
         <div className="relative z-10 max-w-4xl mx-auto text-center">
           <h1 className="text-4xl md:text-5xl font-extrabold mb-6 leading-tight">
-            Guía del Piscina — Todo lo que necesitas para tu piscina y jardín
+            Guías de compra y comparativas para tu piscina, jardín y terraza
           </h1>
           <p className="text-xl md:text-2xl text-sky-100 mb-8 max-w-2xl mx-auto">
             Comparativas, análisis y guías de compra para que elijas el mejor producto sin perder tiempo ni dinero.
