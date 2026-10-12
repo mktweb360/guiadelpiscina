@@ -198,7 +198,7 @@ export default function AiperScubaSeAnalisisPage() {
 
         <div className="prose">
           <h2>Comparativa con el resto de robots limpiafondos del catálogo</h2>
-          <p>Precio, volumen de reseñas y rating de los cuatro robots limpiafondos disponibles, para decidir con datos y no solo por precio:</p>
+          <p>Cómo se sitúa cada robot limpiafondos del catálogo por precio y qué ofrece, para decidir sin fijarse solo en lo que cuesta:</p>
         </div>
 
         <div className="overflow-x-auto my-6">
