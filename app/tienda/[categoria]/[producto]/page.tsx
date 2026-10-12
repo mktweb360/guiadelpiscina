@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { notFound } from "next/navigation";
+import { notFound, redirect } from "next/navigation";
 import Link from "next/link";
 import { products, getProductsByCategory, getProductBySlug } from "@/data/products";
 import { amazonLink } from "@/lib/amazon";
@@ -111,6 +111,7 @@ export default async function ProductPage({
   const { categoria, producto } = await params;
   const product = getProductBySlug(producto);
   if (!product || product.categorySlug !== categoria) notFound();
+  if (product.unavailable) redirect(`/tienda/${product.categorySlug}`);
 
   const related = relatedInCategory(getProductsByCategory(categoria), producto, 3);
 

@@ -17,6 +17,8 @@ export type Product = {
   badge?: string;
   image?: string;
   isHealth?: boolean;
+  /** Fecha en que se comprobó que no se puede comprar en Amazon.es: se oculta de la web. */
+  unavailable?: string;
 };
 
 export const categories = [
@@ -35,6 +37,7 @@ export const products: Product[] = [
   // DEPURADORAS DE ARENA
   {
     slug: "intex-26646-depuradora-arena",
+    unavailable: "2026-10-12",
     name: "INTEX 26646 Krystal Clear Depuradora Arena 7.900 L/h",
     asin: "B0D41BXPGJ",
     image: "/images/products/intex-26646-depuradora-arena.jpg",
@@ -73,6 +76,7 @@ export const products: Product[] = [
   },
   {
     slug: "intex-28646gs-depuradora-arena",
+    unavailable: "2026-10-12",
     name: "Intex 28646GS Depuradora Arena Krystal Clear 6.000 L/h",
     asin: "B00G9YZCL8",
     image: "/images/products/intex-28646gs-depuradora-arena.jpg",
@@ -91,6 +95,7 @@ export const products: Product[] = [
   },
   {
     slug: "bestway-flowclear-depuradora-arena",
+    unavailable: "2026-10-12",
     name: "BESTWAY Flowclear Depuradora Arena 5.678 L/h",
     asin: "B0CFFR9M2X",
     image: "/images/products/bestway-flowclear-depuradora-arena.jpg",
@@ -170,6 +175,7 @@ export const products: Product[] = [
   },
   {
     slug: "aiper-scuba-s1-robot-piscina",
+    unavailable: "2026-10-12",
     name: "AIPER Scuba S1 2025 Robot Piscina Limpiafondos y Paredes 180 min",
     asin: "B0F13S93MS",
     image: "/images/products/aiper-scuba-s1-robot-piscina.jpg",
@@ -189,6 +195,7 @@ export const products: Product[] = [
   },
   {
     slug: "wybot-c2-vision-robot-piscina",
+    unavailable: "2026-10-12",
     name: "WYBOT C2 Vision AI Robot Piscina sin Cable 180 min",
     asin: "B0DL9HJZ58",
     image: "/images/products/wybot-c2-vision-robot-piscina.jpg",
@@ -246,6 +253,7 @@ export const products: Product[] = [
   // BOMBAS DE CALOR
   {
     slug: "ecopooltech-mini-bomba-calor",
+    unavailable: "2026-10-12",
     name: "ECOPOOLTECH Mini Bomba de Calor Piscina 3,9 kW hasta 30 m³",
     asin: "B0CTF91848",
     image: "/images/products/ecopooltech-mini-bomba-calor.jpg",
@@ -265,6 +273,7 @@ export const products: Product[] = [
   },
   {
     slug: "poolex-nano-action-5-bomba-calor",
+    unavailable: "2026-10-12",
     name: "POOLEX Nano Action 5 Bomba de Calor Piscina 990W hasta 35 m³",
     asin: "B08QHX2T8M",
     image: "/images/products/poolex-nano-action-5-bomba-calor.jpg",
@@ -340,6 +349,7 @@ export const products: Product[] = [
   },
   {
     slug: "bestway-steel-pro-max-366x100",
+    unavailable: "2026-10-12",
     name: "Bestway Steel Pro MAX 56418D Piscina 366x100 cm con Depuradora",
     asin: "B08CTGYF8H",
     image: "/images/products/bestway-steel-pro-max-366x100.jpg",
@@ -359,6 +369,7 @@ export const products: Product[] = [
   },
   {
     slug: "bestway-steel-pro-max-366x122",
+    unavailable: "2026-10-12",
     name: "Bestway Steel Pro MAX 56420 Piscina 366x122 cm con Depuradora y Escalera",
     asin: "B07TGKTCWR",
     image: "/images/products/bestway-steel-pro-max-366x122.jpg",
@@ -379,6 +390,7 @@ export const products: Product[] = [
   // MUEBLES DE JARDÍN
   {
     slug: "conjunto-ratan-rantry-4-piezas",
+    unavailable: "2026-10-12",
     name: "Rantry Conjunto Ratán Sintético Jardín 4 Piezas con Cojines Gris",
     asin: "B0CYGT4HGL",
     image: "/images/products/conjunto-ratan-rantry-4-piezas.jpg",
@@ -397,6 +409,7 @@ export const products: Product[] = [
   },
   {
     slug: "outsunny-conjunto-ratan-4-piezas",
+    unavailable: "2026-10-12",
     name: "Outsunny Conjunto Ratán Sintético Exterior 4 Piezas con Cojines",
     asin: "B0F3CH78QJ",
     image: "/images/products/outsunny-conjunto-ratan-4-piezas.jpg",
@@ -415,6 +428,7 @@ export const products: Product[] = [
   },
   {
     slug: "aktive-62611-tumbona-aluminio",
+    unavailable: "2026-10-12",
     name: "AKTIVE 62611 Tumbona Plegable Aluminio con Reposacabezas y Bolsillo",
     asin: "B08F3DQQJ3",
     image: "/images/products/aktive-62611-tumbona-aluminio.jpg",
@@ -434,6 +448,7 @@ export const products: Product[] = [
   },
   {
     slug: "tectake-tumbona-aluminio-7-posiciones",
+    unavailable: "2026-10-12",
     name: "TecTake Tumbona Plegable Aluminio 7 Posiciones Impermeable 120 kg",
     asin: "B08KG2RDHC",
     image: "/images/products/tectake-tumbona-aluminio-7-posiciones.jpg",
@@ -454,6 +469,7 @@ export const products: Product[] = [
   // PÉRGOLAS
   {
     slug: "sweeek-triomphe-v2-pergola-bioclimatica",
+    unavailable: "2026-10-12",
     name: "sweeek Pérgola Bioclimática Aluminio 3x3m Triomphe V2 Lamas Ajustables",
     asin: "B0CS2ZHH1C",
     image: "/images/products/sweeek-triomphe-v2-pergola-bioclimatica.jpg",
@@ -473,6 +489,7 @@ export const products: Product[] = [
   },
   {
     slug: "habitat-jardin-windsor-pergola-3x3",
+    unavailable: "2026-10-12",
     name: "Hábitat y Jardín Pérgola Bioclimática Windsor Aluminio 3x3m Antracita",
     asin: "B0DTMCHWKD",
     image: "/images/products/habitat-jardin-windsor-pergola-3x3.jpg",
@@ -512,6 +529,7 @@ export const products: Product[] = [
   },
   {
     slug: "gardena-set-sensor-control-6-zonas",
+    unavailable: "2026-10-12",
     name: "Gardena Set Control Sensor Inteligente 6 Zonas con Gateway y Sensor",
     asin: "B08LNQFX7G",
     image: "/images/products/gardena-set-sensor-control-6-zonas.jpg",
@@ -791,7 +809,7 @@ export const products: Product[] = [
 ];
 
 export function getProductsByCategory(categorySlug: string): Product[] {
-  return products.filter((p) => p.categorySlug === categorySlug);
+  return products.filter((p) => p.categorySlug === categorySlug && !p.unavailable);
 }
 
 export function getProductBySlug(slug: string): Product | undefined {
@@ -799,5 +817,5 @@ export function getProductBySlug(slug: string): Product | undefined {
 }
 
 export function getFeaturedProducts(n: number): Product[] {
-  return [...products].sort((a, b) => b.rating - a.rating).slice(0, n);
+  return products.filter((p) => !p.unavailable).sort((a, b) => b.rating - a.rating).slice(0, n);
 }
