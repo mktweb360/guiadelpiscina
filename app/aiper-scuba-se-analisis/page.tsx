@@ -159,7 +159,7 @@ export default function AiperScubaSeAnalisisPage() {
           <div id="respuesta-directa" className="bg-sky-50 border-l-4 border-sky-500 rounded-r-xl px-5 py-4 mb-6">
             <p className="text-xs font-bold text-sky-700 uppercase tracking-wide mb-1.5">Respuesta directa</p>
             <p className="text-gray-800 font-medium leading-relaxed">
-              El AIPER Scuba SE es el robot limpiafondos <strong>más económico del catálogo</strong> (€149,00) y, con <strong>301 reseñas verificadas y 4,0★</strong>, también el que tiene el dato más consolidado dentro de su rango de precio. Ofrece 90 minutos de autonomía inalámbrica, suficiente para la mayoría de piscinas desmontables y medianas. Si tu piscina es grande o quieres más autonomía, el AIPER Scuba S1 (2026 Upgrade) del mismo catálogo sube a 270 minutos, a un precio bastante superior.
+              El AIPER Scuba SE es el robot limpiafondos <strong>más asequible de nuestro catálogo</strong> y uno de los más conocidos en su rango de precio. Ofrece 90 minutos de autonomía inalámbrica, suficiente para la mayoría de piscinas desmontables y medianas. Si tu piscina es grande o quieres más autonomía, el AIPER Scuba S1 (2026 Upgrade) del mismo catálogo sube a 270 minutos, a un precio bastante superior.
             </p>
           </div>
 
