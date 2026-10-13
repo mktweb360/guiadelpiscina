@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { amazonLink } from "@/lib/amazon";
 import AffiliateDisclosure from "@/components/AffiliateDisclosure";
 import AdSenseAd from "@/components/AdSenseAd";
 import BlogSidebar from "@/components/BlogSidebar";
@@ -23,7 +22,7 @@ export const metadata: Metadata = {
 const products = [
   {
     name: "Intex 55216 — Ultra XTR Frame Ø488x122 cm",
-    asin: "B07FB827CP",
+    href: "/tienda/piscinas-desmontables",
     shape: "Redonda",
     size: "Ø488x122 cm",
     volume: "≈19.000 L",
@@ -31,7 +30,7 @@ const products = [
   },
   {
     name: "Intex 28324NP — Ultra Frame Ø488x122 cm",
-    asin: "B01B19V58E",
+    href: "/tienda/piscinas-desmontables",
     shape: "Redonda",
     size: "Ø488x122 cm",
     volume: "≈19.000 L",
@@ -39,7 +38,7 @@ const products = [
   },
   {
     name: "Bestway Power Steel Elite 732x366 cm",
-    asin: "B0CFFSJ556",
+    href: "/tienda/piscinas-desmontables",
     shape: "Rectangular",
     size: "732x366x132 cm",
     volume: "≈28.620 L",
@@ -217,17 +216,17 @@ export default function PiscinaGrandeAdultosPage() {
             </thead>
             <tbody>
               {products.map((p, i) => (
-                <tr key={p.asin} className={i % 2 === 0 ? "bg-white" : "bg-gray-50"}>
+                <tr key={p.name} className={i % 2 === 0 ? "bg-white" : "bg-gray-50"}>
                   <td className="px-3 py-3 font-medium text-gray-900">{p.name}</td>
                   <td className="px-3 py-3 text-gray-600">{p.shape}</td>
                   <td className="px-3 py-3 text-gray-600">{p.size}</td>
                   <td className="px-3 py-3 text-gray-600">{p.volume}</td>
                   <td className="px-3 py-3 text-gray-600">{p.filter}</td>
                   <td className="px-3 py-3">
-                    <a href={amazonLink(p.asin)} target="_blank" rel="nofollow noopener noreferrer sponsored"
+                    <Link href={p.href}
                       className="inline-block bg-orange-500 text-white text-xs font-bold px-3 py-1.5 rounded-lg hover:bg-orange-600 transition-colors whitespace-nowrap">
-                      Ver precio →
-                    </a>
+                      Ver opciones →
+                    </Link>
                   </td>
                 </tr>
               ))}
@@ -245,9 +244,9 @@ export default function PiscinaGrandeAdultosPage() {
             La <strong>Intex Ultra XTR</strong> redonda de Ø488x122 cm es la piscina desmontable más robusta que puedes comprar. Su lona tricapa Super-Tough y su estructura anticorrosión están pensadas para durar temporada tras temporada. Con unos 19.000 litros, es perfecta para que los adultos se refresquen e incluso naden en círculos. Incluye depuradora de arena, escalera, tapiz y cobertor.
           </p>
           <div className="not-prose my-4">
-            <a href={amazonLink("B07FB827CP")} target="_blank" rel="nofollow noopener noreferrer sponsored" className="btn-primary">
-              Ver Intex Ultra XTR →
-            </a>
+            <Link href="/tienda/piscinas-desmontables" className="btn-primary">
+              Ver piscinas desmontables y accesorios en la tienda →
+            </Link>
           </div>
 
           <h3>Intex Ultra Frame 488x122 cm — La relación calidad-precio líder</h3>
@@ -255,9 +254,9 @@ export default function PiscinaGrandeAdultosPage() {
             La <strong>Intex Ultra Frame</strong> ofrece las mismas dimensiones y la misma estructura metálica que la XTR, con una lona estándar que cumple perfectamente para un uso doméstico normal. Es la opción más inteligente si quieres el tamaño de la XTR ahorrando en la lona premium.
           </p>
           <div className="not-prose my-4">
-            <a href={amazonLink("B01B19V58E")} target="_blank" rel="nofollow noopener noreferrer sponsored" className="btn-primary">
-              Ver Intex Ultra Frame →
-            </a>
+            <Link href="/tienda/piscinas-desmontables" className="btn-primary">
+              Ver piscinas desmontables y accesorios en la tienda →
+            </Link>
           </div>
 
           <h3>Bestway Power Steel rectangular — Para familias con espacio</h3>
@@ -265,9 +264,9 @@ export default function PiscinaGrandeAdultosPage() {
             La <strong>Bestway Power Steel Elite</strong> rectangular de 732x366 cm es la opción para quien tiene espacio de sobra y quiere una piscina en la que nadar de verdad. Con casi 28.620 litros de capacidad y un conjunto muy completo (depuradora de 9.463 l/h más bomba de calor), es la más ambiciosa del comparativo.
           </p>
           <div className="not-prose my-4">
-            <a href={amazonLink("B0CFFSJ556")} target="_blank" rel="nofollow noopener noreferrer sponsored" className="btn-primary">
-              Ver Bestway Power Steel →
-            </a>
+            <Link href="/tienda/piscinas-desmontables" className="btn-primary">
+              Ver piscinas desmontables y accesorios en la tienda →
+            </Link>
           </div>
 
           <h2>Lo que incluyen y lo que no incluyen</h2>

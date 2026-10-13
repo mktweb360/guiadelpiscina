@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { amazonLink } from "@/lib/amazon";
 import AffiliateDisclosure from "@/components/AffiliateDisclosure";
 import AdSenseAd from "@/components/AdSenseAd";
 import BlogSidebar from "@/components/BlogSidebar";
@@ -23,7 +22,7 @@ export const metadata: Metadata = {
 const products = [
   {
     name: "Intex 55058 — Escalera acero 122 cm",
-    asin: "B0195A925O",
+    href: "/tienda/piscinas-desmontables",
     height: "Hasta 122 cm",
     material: "Acero",
     safety: "Peldaños antideslizantes",
@@ -32,7 +31,7 @@ const products = [
   },
   {
     name: "Bestway Flowclear — Escalera seguridad 84 cm",
-    asin: "B08CB3VBRJ",
+    href: "/tienda/piscinas-desmontables",
     height: "Hasta 84 cm",
     material: "Acero + resina",
     safety: "Peldaños antideslizantes",
@@ -41,7 +40,7 @@ const products = [
   },
   {
     name: "Bestway Flowclear — Escalera Flip&Lock 107 cm",
-    asin: "B095XPMKPX",
+    href: "/tienda/piscinas-desmontables",
     height: "Hasta 107 cm",
     material: "Acero + resina",
     safety: "Flip&Lock (bloqueo infantil)",
@@ -193,17 +192,17 @@ export default function EscaleraPiscinaPage() {
             </thead>
             <tbody>
               {products.map((p, i) => (
-                <tr key={p.asin} className={i % 2 === 0 ? "bg-white" : "bg-gray-50"}>
+                <tr key={p.name} className={i % 2 === 0 ? "bg-white" : "bg-gray-50"}>
                   <td className="px-3 py-3 font-medium text-gray-900">{p.name}</td>
                   <td className="px-3 py-3 text-gray-600">{p.height}</td>
                   <td className="px-3 py-3 text-gray-600">{p.material}</td>
                   <td className="px-3 py-3 text-gray-600">{p.safety}</td>
                   <td className="px-3 py-3 text-gray-600">{p.steps}</td>
                   <td className="px-3 py-3">
-                    <a href={amazonLink(p.asin)} target="_blank" rel="nofollow noopener noreferrer sponsored"
+                    <Link href={p.href}
                       className="inline-block bg-orange-500 text-white text-xs font-bold px-3 py-1.5 rounded-lg hover:bg-orange-600 transition-colors whitespace-nowrap">
-                      Ver precio →
-                    </a>
+                      Ver opciones →
+                    </Link>
                   </td>
                 </tr>
               ))}
@@ -221,9 +220,9 @@ export default function EscaleraPiscinaPage() {
             La <strong>Intex 55058</strong> es la escalera de mayor altura del comparativo, apta para piscinas de hasta 122 cm. Fabricada en acero con peldaños anchos antideslizantes, es robusta y estable. Es la elección para las piscinas desmontables Intex más altas, como las de la gama Ultra o Prism Frame.
           </p>
           <div className="not-prose my-4">
-            <a href={amazonLink("B0195A925O")} target="_blank" rel="nofollow noopener noreferrer sponsored" className="btn-primary">
-              Ver Intex 55058 →
-            </a>
+            <Link href="/tienda/piscinas-desmontables" className="btn-primary">
+              Ver piscinas desmontables y accesorios en la tienda →
+            </Link>
           </div>
 
           <h3>Bestway Flowclear 84 cm — Para piscinas estándar, mejor precio</h3>
@@ -231,9 +230,9 @@ export default function EscaleraPiscinaPage() {
             La <strong>Bestway Flowclear de 84 cm</strong> es la opción más económica, perfecta para piscinas Bestway de altura estándar. Combina estructura de acero con peldaños de resina antideslizante, y su precio ajustado la convierte en la mejor compra para piscinas de tamaño medio.
           </p>
           <div className="not-prose my-4">
-            <a href={amazonLink("B08CB3VBRJ")} target="_blank" rel="nofollow noopener noreferrer sponsored" className="btn-primary">
-              Ver Bestway Flowclear 84 cm →
-            </a>
+            <Link href="/tienda/piscinas-desmontables" className="btn-primary">
+              Ver piscinas desmontables y accesorios en la tienda →
+            </Link>
           </div>
 
           <h3>Bestway Flip&amp;Lock 107 cm — La más segura para niños</h3>
@@ -241,9 +240,9 @@ export default function EscaleraPiscinaPage() {
             La <strong>Bestway Flip&amp;Lock de 107 cm</strong> destaca por su sistema de seguridad: los escalones exteriores se pueden plegar y bloquear para impedir que los niños accedan a la piscina sin supervisión, sin necesidad de desmontar toda la escalera. Es la opción más segura para familias con niños pequeños.
           </p>
           <div className="not-prose my-4">
-            <a href={amazonLink("B095XPMKPX")} target="_blank" rel="nofollow noopener noreferrer sponsored" className="btn-primary">
-              Ver Bestway Flip&amp;Lock →
-            </a>
+            <Link href="/tienda/piscinas-desmontables" className="btn-primary">
+              Ver piscinas desmontables y accesorios en la tienda →
+            </Link>
           </div>
 
           <h2>Intex vs Bestway — ¿Son compatibles las escaleras?</h2>

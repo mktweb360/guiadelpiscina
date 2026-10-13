@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { amazonLink } from "@/lib/amazon";
 import AffiliateDisclosure from "@/components/AffiliateDisclosure";
 import AdSenseAd from "@/components/AdSenseAd";
 import BlogSidebar from "@/components/BlogSidebar";
@@ -19,11 +18,11 @@ export const metadata: Metadata = {
 };
 
 const products = [
-  { pos: 1, name: "Intex 26176 Oval Frame — 732×366 cm", asin: "B07FJPDX9V", price: "€349,99", dimensions: "732×366×132 cm", volume: "28.620 l", depuradora: "Incluida (7.571 l/h)", type: "Frame oval", stars: "4,4/5", best: "Mejor calidad-precio" },
-  { pos: 2, name: "Bestway Steel Pro 549×274 cm", asin: "B07T99MMKP", price: "€299,00", dimensions: "549×274×122 cm", volume: "16.805 l", depuradora: "Incluida (5.678 l/h)", type: "Frame rectangular", stars: "4,3/5", best: "Mejor precio" },
-  { pos: 3, name: "Intex 26176 Ultra XTR Frame 732×366 cm", asin: "B01MCW9UJU", price: "€549,99", dimensions: "732×366×132 cm", volume: "28.620 l", depuradora: "Incluida (9.463 l/h)", type: "Ultra XTR Frame", stars: "4,6/5", best: "Mayor calidad" },
-  { pos: 4, name: "Intex 26352 Prism Frame 460×226 cm", asin: "B01A17XFCQ", price: "€399,00", dimensions: "460×226×107 cm", volume: "9.404 l", depuradora: "Incluida (3.028 l/h)", type: "Prism Frame", stars: "4,5/5", best: "Para jardines medianos" },
-  { pos: 5, name: "Bestway Power Steel Elite 732×366 cm", asin: "B0CFFSJ556", price: "€699,99", dimensions: "732×366×132 cm", volume: "28.620 l", depuradora: "Incluida (9.463 l/h) + bomba calor", type: "Steel Elite", stars: "4,7/5", best: "Conjunto más completo" },
+  { pos: 1, name: "Intex 26176 Oval Frame — 732×366 cm", href: "/tienda/piscinas-desmontables", price: "€349,99", dimensions: "732×366×132 cm", volume: "28.620 l", depuradora: "Incluida (7.571 l/h)", type: "Frame oval", stars: "4,4/5", best: "Mejor calidad-precio" },
+  { pos: 2, name: "Bestway Steel Pro 549×274 cm", href: "/tienda/piscinas-desmontables", price: "€299,00", dimensions: "549×274×122 cm", volume: "16.805 l", depuradora: "Incluida (5.678 l/h)", type: "Frame rectangular", stars: "4,3/5", best: "Mejor precio" },
+  { pos: 3, name: "Intex 26176 Ultra XTR Frame 732×366 cm", href: "/tienda/piscinas-desmontables", price: "€549,99", dimensions: "732×366×132 cm", volume: "28.620 l", depuradora: "Incluida (9.463 l/h)", type: "Ultra XTR Frame", stars: "4,6/5", best: "Mayor calidad" },
+  { pos: 4, name: "Intex 26352 Prism Frame 460×226 cm", href: "/tienda/piscinas-desmontables", price: "€399,00", dimensions: "460×226×107 cm", volume: "9.404 l", depuradora: "Incluida (3.028 l/h)", type: "Prism Frame", stars: "4,5/5", best: "Para jardines medianos" },
+  { pos: 5, name: "Bestway Power Steel Elite 732×366 cm", href: "/tienda/piscinas-desmontables", price: "€699,99", dimensions: "732×366×132 cm", volume: "28.620 l", depuradora: "Incluida (9.463 l/h) + bomba calor", type: "Steel Elite", stars: "4,7/5", best: "Conjunto más completo" },
 ];
 
 const faqs = [
@@ -131,22 +130,22 @@ export default function PiscinaDesmontablePage() {
                 <th className="px-3 py-3 text-left">Dimensiones</th>
                 <th className="px-3 py-3 text-left">Volumen</th>
                 <th className="px-3 py-3 text-left">Depuradora</th>
-                <th className="px-3 py-3 text-left">Comprar</th>
+                <th className="px-3 py-3 text-left">Ver</th>
               </tr>
             </thead>
             <tbody>
               {products.map((p, i) => (
-                <tr key={p.asin} className={i % 2 === 0 ? "bg-white" : "bg-gray-50"}>
+                <tr key={p.name} className={i % 2 === 0 ? "bg-white" : "bg-gray-50"}>
                   <td className="px-3 py-3 font-bold text-sky-600">{p.pos}</td>
                   <td className="px-3 py-3 font-medium text-gray-900">{p.name}</td>
                   <td className="px-3 py-3 text-gray-600 text-xs">{p.dimensions}</td>
                   <td className="px-3 py-3 text-gray-600">{p.volume}</td>
                   <td className="px-3 py-3 text-gray-600 text-xs">{p.depuradora}</td>
                   <td className="px-3 py-3">
-                    <a href={amazonLink(p.asin)} target="_blank" rel="noopener noreferrer sponsored"
+                    <Link href={p.href}
                       className="inline-block bg-orange-500 text-white text-xs font-bold px-3 py-1.5 rounded-lg hover:bg-orange-600 transition-colors whitespace-nowrap">
-                      Ver precio →
-                    </a>
+                      Ver opciones →
+                    </Link>
                   </td>
                 </tr>
               ))}
@@ -168,9 +167,9 @@ export default function PiscinaDesmontablePage() {
             <li><strong>Contras:</strong> Ocupa mucho espacio, el llenado inicial tarda muchas horas</li>
           </ul>
           <div className="not-prose my-4">
-            <a href={amazonLink("B00MJVWMKQ")} target="_blank" rel="noopener noreferrer sponsored" className="btn-primary">
-              Ver Intex Oval Frame →
-            </a>
+            <Link href="/tienda/piscinas-desmontables" className="btn-primary">
+              Ver piscinas desmontables y accesorios en la tienda →
+            </Link>
           </div>
 
           <h3>2. Bestway Steel Pro 549×274 cm — La más económica</h3>
@@ -178,9 +177,9 @@ export default function PiscinaDesmontablePage() {
             La <strong>Bestway Steel Pro</strong> es la opción más asequible para jardines medianos. Con casi 5,5 metros de largo y 17.000 litros de capacidad, es perfecta para familias de 2-4 personas. La estructura rectangular facilita el aprovechamiento del espacio.
           </p>
           <div className="not-prose my-4">
-            <a href={amazonLink("B08NTKLM7P")} target="_blank" rel="noopener noreferrer sponsored" className="btn-primary">
-              Ver Bestway Steel Pro →
-            </a>
+            <Link href="/tienda/piscinas-desmontables" className="btn-primary">
+              Ver piscinas desmontables y accesorios en la tienda →
+            </Link>
           </div>
 
           <h3>3. <Link href="/tienda/piscinas-desmontables/intex-ultra-xtr-549x274-depuradora" className="text-sky-700 hover:underline">Intex Ultra XTR Frame</Link> — La mejor calidad</h3>

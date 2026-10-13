@@ -37,13 +37,13 @@ const comparison = [
     name: "AIPER Scuba S1 (2026 Upgrade)",
     positioning: "Alto",
     highlight: "270 min de autonomía, gama alta AIPER",
-    href: "/tienda/robots-limpiafondos/aiper-scuba-s1-robot-piscina",
+    href: "/tienda/robots-limpiafondos/aiper-scuba-s1-2026-robot-piscina",
   },
   {
     name: "WYBOT C2 Vision Plus",
     positioning: "Alto",
     highlight: "Cámara con IA, cobertura 210 m²",
-    href: "/tienda/robots-limpiafondos/wybot-c2-vision-robot-piscina",
+    href: "/tienda/robots-limpiafondos",
   },
 ];
 
@@ -230,9 +230,9 @@ export default function AiperScubaSeAnalisisPage() {
           <h2>¿Para quién es este robot?</h2>
           <p>
             El AIPER Scuba SE es la opción recomendada para piscinas desmontables o enterradas de tamaño medio, para quien prioriza precio y quiere un robot con reseñas reales que lo respalden. Si tu piscina es grande o tiene mucha suciedad acumulada, la mayor autonomía del{" "}
-            <Link href="/tienda/robots-limpiafondos/aiper-scuba-s1-robot-piscina" className="text-sky-600 hover:underline">AIPER Scuba S1</Link>{" "}
+            <Link href="/tienda/robots-limpiafondos/aiper-scuba-s1-2026-robot-piscina" className="text-sky-600 hover:underline">AIPER Scuba S1</Link>{" "}
             evitará tener que recargarlo a mitad del ciclo. Si además quieres navegación mapeada por cámara, el{" "}
-            <Link href="/tienda/robots-limpiafondos/wybot-c2-vision-robot-piscina" className="text-sky-600 hover:underline">WYBOT C2 Vision Plus</Link>{" "}
+            <Link href="/tienda/robots-limpiafondos" className="text-sky-600 hover:underline">WYBOT C2 Vision Plus</Link>{" "}
             es la opción de tecnología más avanzada del catálogo.
           </p>
         </div>

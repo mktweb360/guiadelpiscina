@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { amazonLink } from "@/lib/amazon";
 import AffiliateDisclosure from "@/components/AffiliateDisclosure";
 import AdSenseAd from "@/components/AdSenseAd";
 import BlogSidebar from "@/components/BlogSidebar";
@@ -23,7 +22,7 @@ export const metadata: Metadata = {
 const products = [
   {
     name: "HOMEPROTEK Manguera extensible 15 m",
-    asin: "B09JWV7TDS",
+    href: "/tienda/riego-automatico",
     length: "15 m (extensible)",
     material: "Látex 3 capas + tejido",
     functions: "9 funciones",
@@ -32,7 +31,7 @@ const products = [
   },
   {
     name: "HOMEPROTEK Manguera extensible 30 m",
-    asin: "B09JWRSCGJ",
+    href: "/tienda/riego-automatico",
     length: "30 m (extensible)",
     material: "Látex 3 capas + tejido",
     functions: "9 funciones",
@@ -41,7 +40,7 @@ const products = [
   },
   {
     name: "Hozelock SuperHoze Extensible 15 m",
-    asin: "B07KQG1XYR",
+    href: "/tienda/riego-automatico",
     length: "15 m (extensible)",
     material: "TPC de alta resistencia",
     functions: "Pistola no incluida",
@@ -203,17 +202,17 @@ export default function MangueraRiegoPage() {
             </thead>
             <tbody>
               {products.map((p, i) => (
-                <tr key={p.asin} className={i % 2 === 0 ? "bg-white" : "bg-gray-50"}>
+                <tr key={p.name} className={i % 2 === 0 ? "bg-white" : "bg-gray-50"}>
                   <td className="px-3 py-3 font-medium text-gray-900">{p.name}</td>
                   <td className="px-3 py-3 text-gray-600">{p.length}</td>
                   <td className="px-3 py-3 text-gray-600">{p.material}</td>
                   <td className="px-3 py-3 text-gray-600">{p.functions}</td>
                   <td className="px-3 py-3 text-gray-600">{p.connectors}</td>
                   <td className="px-3 py-3">
-                    <a href={amazonLink(p.asin)} target="_blank" rel="nofollow noopener noreferrer sponsored"
+                    <Link href={p.href}
                       className="inline-block bg-orange-500 text-white text-xs font-bold px-3 py-1.5 rounded-lg hover:bg-orange-600 transition-colors whitespace-nowrap">
-                      Ver precio →
-                    </a>
+                      Ver opciones →
+                    </Link>
                   </td>
                 </tr>
               ))}
@@ -231,9 +230,9 @@ export default function MangueraRiegoPage() {
             La <strong>HOMEPROTEK de 15 m</strong> es la manguera extensible más popular por su equilibrio entre precio y prestaciones. Su núcleo de látex de 3 capas la hace resistente a la presión, y la pistola de 9 funciones cubre todas las necesidades: regar, lavar el coche o limpiar el suelo. Perfecta para la mayoría de jardines domésticos.
           </p>
           <div className="not-prose my-4">
-            <a href={amazonLink("B09JWV7TDS")} target="_blank" rel="nofollow noopener noreferrer sponsored" className="btn-primary">
-              Ver HOMEPROTEK 15 m →
-            </a>
+            <Link href="/tienda/riego-automatico" className="btn-primary">
+              Ver riego automático en la tienda →
+            </Link>
           </div>
 
           <h3>HOMEPROTEK 30 m — Para jardines grandes</h3>
@@ -241,9 +240,9 @@ export default function MangueraRiegoPage() {
             La versión de <strong>30 m</strong> ofrece las mismas prestaciones que la de 15 m pero con el doble de alcance, ideal para jardines grandes o cuando el grifo está lejos de la zona a regar. Sigue comprimiéndose para guardarse sin ocupar espacio.
           </p>
           <div className="not-prose my-4">
-            <a href={amazonLink("B09JWRSCGJ")} target="_blank" rel="nofollow noopener noreferrer sponsored" className="btn-primary">
-              Ver HOMEPROTEK 30 m →
-            </a>
+            <Link href="/tienda/riego-automatico" className="btn-primary">
+              Ver riego automático en la tienda →
+            </Link>
           </div>
 
           <h3>Hozelock SuperHoze — La más duradera</h3>
@@ -251,9 +250,9 @@ export default function MangueraRiegoPage() {
             La <strong>Hozelock SuperHoze</strong> es la apuesta premium. Fabricada en TPC de alta resistencia (más duradero que el látex convencional) y con la garantía de una marca de referencia en riego, es la opción para quien quiere una manguera extensible que aguante temporada tras temporada.
           </p>
           <div className="not-prose my-4">
-            <a href={amazonLink("B07KQG1XYR")} target="_blank" rel="nofollow noopener noreferrer sponsored" className="btn-primary">
-              Ver Hozelock SuperHoze →
-            </a>
+            <Link href="/tienda/riego-automatico" className="btn-primary">
+              Ver riego automático en la tienda →
+            </Link>
           </div>
 
           <h2>Guía de elección por tamaño de jardín</h2>
@@ -283,7 +282,7 @@ export default function MangueraRiegoPage() {
         <div className="prose">
           <h2>Cómo conectar la manguera al grifo exterior</h2>
           <ol>
-            <li><strong>Coloca el adaptador de rosca</strong> adecuado al tamaño de tu grifo (1/2\" o 3/4\").</li>
+            <li><strong>Coloca el adaptador de rosca</strong> adecuado al tamaño de tu grifo (1/2&quot; o 3/4&quot;).</li>
             <li><strong>Conecta el racor rápido</strong> de la manguera al adaptador hasta que haga clic.</li>
             <li><strong>Abre el grifo y comprueba que no hay fugas.</strong> Si gotea por la conexión, aprieta bien la rosca o añade cinta de teflón.</li>
           </ol>

@@ -78,6 +78,20 @@ const categories = [
 
 const articles = [
   {
+    href: "/black-friday-piscina-jardin",
+    title: "Black Friday 2026 en piscina y jardín: qué comprar en temporada baja",
+    excerpt:
+      "Qué compensa comprar en noviembre para la piscina y el jardín, cómo acertar con el tamaño y qué evitar.",
+    date: "2026-10-13",
+  },
+  {
+    href: "/regalos-navidad-piscina-jardin",
+    title: "Regalos de Navidad y Reyes para amantes del jardín y la piscina",
+    excerpt:
+      "Ideas de regalo por tipo de persona, con el dato que necesitas saber para no equivocarte.",
+    date: "2026-10-13",
+  },
+  {
     href: "/mejores-depuradoras-piscina",
     title: "Las 5 mejores depuradoras para piscina",
     excerpt:

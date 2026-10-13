@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { amazonLink } from "@/lib/amazon";
 import AffiliateDisclosure from "@/components/AffiliateDisclosure";
 import AdSenseAd from "@/components/AdSenseAd";
 import BlogSidebar from "@/components/BlogSidebar";
@@ -23,19 +22,19 @@ export const metadata: Metadata = {
 const products = [
   {
     name: "Tamar Cloro 5 Acciones — Pastillas multifunción 5kg",
-    asin: "B0797MNJMY",
+    href: "/tienda/tratamiento-agua",
     use: "Elimina algas y bacterias de golpe",
     when: "Al inicio del tratamiento de choque",
   },
   {
     name: "Algicida Extra Sunclor 5L — Antialgas piscina",
-    asin: "B0BYT9PMX4",
+    href: "/tienda/tratamiento-agua",
     use: "Remata las algas y previene su reaparición",
     when: "Tras el cloro de choque",
   },
   {
     name: "Intex 26670 — Clorador salino ECO 12 g/h",
-    asin: "B07C9JL6RZ",
+    href: "/tienda/depuradoras",
     use: "Desinfección automática y continua",
     when: "Como prevención a largo plazo",
   },
@@ -215,20 +214,20 @@ export default function AguaPiscinaVerdePage() {
                 <th className="px-3 py-3 text-left">Producto</th>
                 <th className="px-3 py-3 text-left">Para qué sirve</th>
                 <th className="px-3 py-3 text-left">Cuándo usarlo</th>
-                <th className="px-3 py-3 text-left">Ver precio</th>
+                <th className="px-3 py-3 text-left">Ver</th>
               </tr>
             </thead>
             <tbody>
               {products.map((p, i) => (
-                <tr key={p.asin} className={i % 2 === 0 ? "bg-white" : "bg-gray-50"}>
+                <tr key={p.name} className={i % 2 === 0 ? "bg-white" : "bg-gray-50"}>
                   <td className="px-3 py-3 font-medium text-gray-900">{p.name}</td>
                   <td className="px-3 py-3 text-gray-600">{p.use}</td>
                   <td className="px-3 py-3 text-gray-600">{p.when}</td>
                   <td className="px-3 py-3">
-                    <a href={amazonLink(p.asin)} target="_blank" rel="nofollow noopener noreferrer sponsored"
+                    <Link href={p.href}
                       className="inline-block bg-orange-500 text-white text-xs font-bold px-3 py-1.5 rounded-lg hover:bg-orange-600 transition-colors whitespace-nowrap">
-                      Ver precio →
-                    </a>
+                      Ver opciones →
+                    </Link>
                   </td>
                 </tr>
               ))}

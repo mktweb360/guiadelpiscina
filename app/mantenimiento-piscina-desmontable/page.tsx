@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { amazonLink } from "@/lib/amazon";
 import AffiliateDisclosure from "@/components/AffiliateDisclosure";
 import AdSenseAd from "@/components/AdSenseAd";
 import BlogSidebar from "@/components/BlogSidebar";
@@ -23,21 +22,21 @@ export const metadata: Metadata = {
 const products = [
   {
     name: "Intex 55244 — Clorador salino 4 g/h",
-    asin: "B08DJ8VLD8",
+    href: "/tienda/depuradoras",
     capacity: "Hasta 17.000 L",
     production: "4 g/h de cloro",
     price: "≈149€",
   },
   {
     name: "Intex 26670 — Clorador salino ECO 12 g/h",
-    asin: "B07C9JL6RZ",
+    href: "/tienda/depuradoras",
     capacity: "Hasta 56.800 L",
     production: "12 g/h de cloro",
     price: "≈279€",
   },
   {
     name: "Bestway 58678 — Clorador salino Hydrogenic 6 g/h",
-    asin: "B0B69MW8C1",
+    href: "/tienda/depuradoras",
     capacity: "Hasta 30.000 L",
     production: "6 g/h de cloro",
     price: "≈229€",
@@ -235,20 +234,20 @@ export default function MantenimientoPiscinaPage() {
                 <th className="px-3 py-3 text-left">Modelo</th>
                 <th className="px-3 py-3 text-left">Capacidad piscina</th>
                 <th className="px-3 py-3 text-left">Producción Cl</th>
-                <th className="px-3 py-3 text-left">Ver precio</th>
+                <th className="px-3 py-3 text-left">Ver</th>
               </tr>
             </thead>
             <tbody>
               {products.map((p, i) => (
-                <tr key={p.asin} className={i % 2 === 0 ? "bg-white" : "bg-gray-50"}>
+                <tr key={p.name} className={i % 2 === 0 ? "bg-white" : "bg-gray-50"}>
                   <td className="px-3 py-3 font-medium text-gray-900">{p.name}</td>
                   <td className="px-3 py-3 text-gray-600">{p.capacity}</td>
                   <td className="px-3 py-3 text-gray-600">{p.production}</td>
                   <td className="px-3 py-3">
-                    <a href={amazonLink(p.asin)} target="_blank" rel="nofollow noopener noreferrer sponsored"
+                    <Link href={p.href}
                       className="inline-block bg-orange-500 text-white text-xs font-bold px-3 py-1.5 rounded-lg hover:bg-orange-600 transition-colors whitespace-nowrap">
-                      Ver precio →
-                    </a>
+                      Ver opciones →
+                    </Link>
                   </td>
                 </tr>
               ))}
@@ -257,15 +256,9 @@ export default function MantenimientoPiscinaPage() {
         </div>
 
         <div className="not-prose my-4 flex flex-wrap gap-3">
-          <a href={amazonLink("B08DJ8VLD8")} target="_blank" rel="nofollow noopener noreferrer sponsored" className="btn-primary">
-            Ver Intex 55244 →
-          </a>
-          <a href={amazonLink("B07C9JL6RZ")} target="_blank" rel="nofollow noopener noreferrer sponsored" className="btn-primary">
-            Ver Intex 26670 ECO →
-          </a>
-          <a href={amazonLink("B0B69MW8C1")} target="_blank" rel="nofollow noopener noreferrer sponsored" className="btn-primary">
-            Ver Bestway 58678 →
-          </a>
+          <Link href="/tienda/depuradoras" className="btn-primary">
+            Ver depuradoras en la tienda →
+          </Link>
         </div>
 
         <AdSenseAd placement="contenido" />

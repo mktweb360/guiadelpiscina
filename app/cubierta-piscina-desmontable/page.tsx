@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { amazonLink } from "@/lib/amazon";
 import AffiliateDisclosure from "@/components/AffiliateDisclosure";
 import AdSenseAd from "@/components/AdSenseAd";
 import BlogSidebar from "@/components/BlogSidebar";
@@ -23,7 +22,7 @@ export const metadata: Metadata = {
 const products = [
   {
     name: "Bestway 58292 — Cobertor de invierno PE 360 cm",
-    asin: "B00N5UOAYO",
+    href: "/tienda/piscinas-desmontables",
     type: "Cobertor de invierno",
     diameter: "360 cm",
     material: "Polietileno (PE)",
@@ -32,7 +31,7 @@ const products = [
   },
   {
     name: "Bestway 58242 — Cobertor solar de burbujas 360 cm",
-    asin: "B00FQD5FSS",
+    href: "/tienda/piscinas-desmontables",
     type: "Cobertor solar",
     diameter: "360 cm",
     material: "Polietileno con burbujas",
@@ -41,7 +40,7 @@ const products = [
   },
   {
     name: "Intex 28031 — Cobertor Metal Frame vinilo 366 cm",
-    asin: "B0055CIC26",
+    href: "/tienda/piscinas-desmontables",
     type: "Cobertor de protección",
     diameter: "366 cm",
     material: "Vinilo azul",
@@ -197,17 +196,17 @@ export default function CubiertaPiscinaPage() {
             </thead>
             <tbody>
               {products.map((p, i) => (
-                <tr key={p.asin} className={i % 2 === 0 ? "bg-white" : "bg-gray-50"}>
+                <tr key={p.name} className={i % 2 === 0 ? "bg-white" : "bg-gray-50"}>
                   <td className="px-3 py-3 font-medium text-gray-900">{p.name}</td>
                   <td className="px-3 py-3 text-gray-600">{p.type}</td>
                   <td className="px-3 py-3 text-gray-600">{p.diameter}</td>
                   <td className="px-3 py-3 text-gray-600">{p.material}</td>
                   <td className="px-3 py-3 text-gray-600">{p.fn}</td>
                   <td className="px-3 py-3">
-                    <a href={amazonLink(p.asin)} target="_blank" rel="nofollow noopener noreferrer sponsored"
+                    <Link href={p.href}
                       className="inline-block bg-orange-500 text-white text-xs font-bold px-3 py-1.5 rounded-lg hover:bg-orange-600 transition-colors whitespace-nowrap">
-                      Ver precio →
-                    </a>
+                      Ver opciones →
+                    </Link>
                   </td>
                 </tr>
               ))}
@@ -225,9 +224,9 @@ export default function CubiertaPiscinaPage() {
             El <strong>Bestway 58292</strong> es el cobertor de invierno de referencia para piscinas redondas de 360 cm. Su material de PE resistente, los agujeros de drenaje y la cuerda perimetral lo hacen fácil de colocar y muy eficaz para mantener el agua limpia durante los meses de no uso. Imbatible por su precio.
           </p>
           <div className="not-prose my-4">
-            <a href={amazonLink("B00N5UOAYO")} target="_blank" rel="nofollow noopener noreferrer sponsored" className="btn-primary">
-              Ver Bestway 58292 →
-            </a>
+            <Link href="/tienda/piscinas-desmontables" className="btn-primary">
+              Ver piscinas desmontables y accesorios en la tienda →
+            </Link>
           </div>
 
           <h3>Bestway 58242 — El cobertor solar más económico</h3>
@@ -235,9 +234,9 @@ export default function CubiertaPiscinaPage() {
             El <strong>Bestway 58242</strong> es un cobertor solar de burbujas para piscinas de 360 cm. Aprovecha el sol para subir la temperatura del agua varios grados y reduce la evaporación nocturna. Por muy poco dinero, alarga la temporada de baño de forma notable.
           </p>
           <div className="not-prose my-4">
-            <a href={amazonLink("B00FQD5FSS")} target="_blank" rel="nofollow noopener noreferrer sponsored" className="btn-primary">
-              Ver Bestway 58242 →
-            </a>
+            <Link href="/tienda/piscinas-desmontables" className="btn-primary">
+              Ver piscinas desmontables y accesorios en la tienda →
+            </Link>
           </div>
 
           <h3>Intex 28031 — Compatible con piscinas Metal Frame</h3>
@@ -245,9 +244,9 @@ export default function CubiertaPiscinaPage() {
             El <strong>Intex 28031</strong> es el cobertor de vinilo azul diseñado específicamente para las piscinas Intex Metal Frame de 366 cm. Su ajuste a medida y su material resistente lo convierten en la mejor opción si tu piscina es de la marca Intex.
           </p>
           <div className="not-prose my-4">
-            <a href={amazonLink("B0055CIC26")} target="_blank" rel="nofollow noopener noreferrer sponsored" className="btn-primary">
-              Ver Intex 28031 →
-            </a>
+            <Link href="/tienda/piscinas-desmontables" className="btn-primary">
+              Ver piscinas desmontables y accesorios en la tienda →
+            </Link>
           </div>
 
           <h2>Cómo elegir la cubierta correcta para tu piscina</h2>

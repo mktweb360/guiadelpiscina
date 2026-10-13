@@ -318,6 +318,29 @@ const articles = [
     price: "",
     category: "Piscinas",
   },
+  // 13/10/2026: guías de temporada (Black Friday, Navidad y Reyes)
+  {
+    href: "/black-friday-piscina-jardin",
+    img: "/images/products/robots-limpiafondos.jpg",
+    icon: "",
+    title: "Black Friday 2026 en piscina y jardín: qué comprar en temporada baja",
+    excerpt:
+      "Invernaje, robots, depuradoras, bombas de calor, piscinas, muebles, pérgolas y riego: qué compensa comprar en noviembre, cómo elegir y qué evitar.",
+    date: "2026-10-13",
+    price: "",
+    category: "Guías de temporada",
+  },
+  {
+    href: "/regalos-navidad-piscina-jardin",
+    img: "/images/products/muebles-jardin.jpg",
+    icon: "",
+    title: "Regalos de Navidad y Reyes para amantes del jardín y la piscina (2026)",
+    excerpt:
+      "Ideas de regalo por tipo de persona: descanso al aire libre, riego, tecnología, piscina desmontable y regalos para toda la familia.",
+    date: "2026-10-13",
+    price: "",
+    category: "Guías de temporada",
+  },
 ];
 
 const breadcrumbSchema = {

@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { amazonLink } from "@/lib/amazon";
 import AffiliateDisclosure from "@/components/AffiliateDisclosure";
 import AdSenseAd from "@/components/AdSenseAd";
 import BlogSidebar from "@/components/BlogSidebar";
@@ -23,7 +22,7 @@ export const metadata: Metadata = {
 const products = [
   {
     name: "Outsunny Sombrilla Jardín Ø250 cm — Marco de madera, 6 varillas, Anti-UV",
-    asin: "B07VFN5WM6",
+    href: "/tienda/muebles-jardin",
     type: "Palo central",
     size: "Ø250 cm",
     material: "Madera",
@@ -33,7 +32,7 @@ const products = [
   },
   {
     name: "Outsunny Sombrilla Jardín Ø300 cm — Polea, 8 varillas, marco madera",
-    asin: "B00NP2LJBO",
+    href: "/tienda/muebles-jardin",
     type: "Palo central",
     size: "Ø300 cm",
     material: "Madera",
@@ -43,7 +42,7 @@ const products = [
   },
   {
     name: "Aktive Sombrilla Rectangular Pared 160x100 cm — UV50, para balcón y terraza",
-    asin: "B09T4XVWM9",
+    href: "/tienda/muebles-jardin",
     type: "Pared (rectangular)",
     size: "160x100 cm",
     material: "Acero",
@@ -216,7 +215,7 @@ export default function SombrillasJardinPage() {
             </thead>
             <tbody>
               {products.map((p, i) => (
-                <tr key={p.asin} className={i % 2 === 0 ? "bg-white" : "bg-gray-50"}>
+                <tr key={p.name} className={i % 2 === 0 ? "bg-white" : "bg-gray-50"}>
                   <td className="px-3 py-3 font-medium text-gray-900">{p.name}</td>
                   <td className="px-3 py-3 text-gray-600">{p.type}</td>
                   <td className="px-3 py-3 text-gray-600">{p.size}</td>
@@ -224,10 +223,10 @@ export default function SombrillasJardinPage() {
                   <td className="px-3 py-3 text-gray-600">{p.opening}</td>
                   <td className="px-3 py-3 text-gray-600">{p.uv}</td>
                   <td className="px-3 py-3">
-                    <a href={amazonLink(p.asin)} target="_blank" rel="nofollow noopener noreferrer sponsored"
+                    <Link href={p.href}
                       className="inline-block bg-orange-500 text-white text-xs font-bold px-3 py-1.5 rounded-lg hover:bg-orange-600 transition-colors whitespace-nowrap">
-                      Ver precio →
-                    </a>
+                      Ver opciones →
+                    </Link>
                   </td>
                 </tr>
               ))}
@@ -245,9 +244,9 @@ export default function SombrillasJardinPage() {
             La <strong>Outsunny de Ø250 cm</strong> combina un marco de madera de aspecto natural con 6 varillas y apertura manual. Su tela de poliéster con tratamiento Anti-UV protege del sol y es ideal para mesas de hasta 150 cm de diámetro. Ligera y fácil de manejar, es la sombrilla perfecta para la mayoría de mesas de jardín.
           </p>
           <div className="not-prose my-4">
-            <a href={amazonLink("B07VFN5WM6")} target="_blank" rel="nofollow noopener noreferrer sponsored" className="btn-primary">
-              Ver Outsunny Ø250 cm →
-            </a>
+            <Link href="/tienda/muebles-jardin" className="btn-primary">
+              Ver muebles de jardín en la tienda →
+            </Link>
           </div>
 
           <h3>Outsunny Ø300 cm — La más completa para familias</h3>
@@ -255,9 +254,9 @@ export default function SombrillasJardinPage() {
             La <strong>Outsunny de Ø300 cm</strong> incorpora un sistema de poleas que permite abrirla sin esfuerzo y 8 varillas para una mayor resistencia al viento. Con 3 metros de diámetro, cubre cómodamente mesas de 6-8 personas. Es la opción premium de esta comparativa.
           </p>
           <div className="not-prose my-4">
-            <a href={amazonLink("B00NP2LJBO")} target="_blank" rel="nofollow noopener noreferrer sponsored" className="btn-primary">
-              Ver Outsunny Ø300 cm →
-            </a>
+            <Link href="/tienda/muebles-jardin" className="btn-primary">
+              Ver muebles de jardín en la tienda →
+            </Link>
           </div>
 
           <h3>Aktive rectangular — La mejor para terraza pequeña</h3>
@@ -265,9 +264,9 @@ export default function SombrillasJardinPage() {
             La <strong>Aktive rectangular de pared</strong> (160x100 cm) tiene un diseño que se fija a la pared y no ocupa suelo, cubriendo a 2-3 personas. Con protección UV50+, es la solución ideal para apartamentos y terrazas con espacio limitado donde una sombrilla de suelo no cabe.
           </p>
           <div className="not-prose my-4">
-            <a href={amazonLink("B09T4XVWM9")} target="_blank" rel="nofollow noopener noreferrer sponsored" className="btn-primary">
-              Ver Aktive rectangular →
-            </a>
+            <Link href="/tienda/muebles-jardin" className="btn-primary">
+              Ver muebles de jardín en la tienda →
+            </Link>
           </div>
 
           <h2>Guía de elección por tamaño de espacio</h2>

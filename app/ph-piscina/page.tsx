@@ -22,10 +22,7 @@ export const metadata: Metadata = {
 
 // Productos enlazados en Amazon.es
 const products = {
-  tiras: "B08GL2QL9S",
-  medidor: "B0DCNWPPQK",
-  phMinus: "B07C2XJLMW",
-  phPlus: "B074FV73LX",
+  phPlus: "B08XVZ8R8X",
 };
 
 const phTable = [
@@ -190,9 +187,9 @@ export default function PhPiscinaPage() {
         </div>
 
         <div className="not-prose my-4">
-          <a href={amazonLink(products.tiras)} target="_blank" rel="nofollow noopener noreferrer sponsored" className="btn-primary">
-            Ver EASYTEST 150 Tiras Reactivas 7 en 1 →
-          </a>
+          <Link href="/tienda/tratamiento-agua/easytest-tiras-reactivas-7-en-1-piscina-150" className="btn-primary">
+            Ver ficha de EASYTEST 150 Tiras Reactivas 7 en 1 →
+          </Link>
         </div>
 
         <div className="prose">
@@ -203,9 +200,9 @@ export default function PhPiscinaPage() {
         </div>
 
         <div className="not-prose my-4">
-          <a href={amazonLink(products.medidor)} target="_blank" rel="nofollow noopener noreferrer sponsored" className="btn-primary">
-            Ver Flintronic Medidor pH Digital →
-          </a>
+          <Link href="/tienda/tratamiento-agua" className="btn-primary">
+            Ver tratamiento del agua en la tienda →
+          </Link>
         </div>
 
         <AdSenseAd placement="contenido" />
@@ -222,9 +219,9 @@ export default function PhPiscinaPage() {
         </div>
 
         <div className="not-prose my-4">
-          <a href={amazonLink(products.phMinus)} target="_blank" rel="nofollow noopener noreferrer sponsored" className="btn-primary">
-            Ver NortemBio Pool pH- Minus 5L →
-          </a>
+          <Link href="/tienda/tratamiento-agua/nortembiow-ph-minus-liquido-reductor-ph-piscina" className="btn-primary">
+            Ver ficha de NortemBio pH Minus 5L →
+          </Link>
         </div>
 
         <div className="prose">
@@ -240,7 +237,7 @@ export default function PhPiscinaPage() {
 
         <div className="not-prose my-4">
           <a href={amazonLink(products.phPlus)} target="_blank" rel="nofollow noopener noreferrer sponsored" className="btn-primary">
-            Ver NortemBio Pool pH+ Plus 5kg →
+            Ver elevador de pH DIAMAS PH GR 5 kg →
           </a>
         </div>
 

@@ -22,8 +22,8 @@ const products = [
   { pos: 1, name: "Gre HPM20 — Mini Bomba de Calor hasta 20 m³", asin: "B07L491GK5", price: "€499,00", power: "2,5 kW", type: "On/Off", pool: "Hasta 20 m³", stars: "4,2/5", best: "Piscinas pequeñas" },
   { pos: 2, name: "Gre HPM30 — Mini Bomba de Calor hasta 30 m³", asin: "B07L489LBM", price: "€599,00", power: "4,2 kW", type: "On/Off (COP 4)", pool: "Hasta 30 m³", stars: "4,3/5", best: "Mejor precio" },
   { pos: 3, name: "Gre HPGIC30 — Full Inverter hasta 30 m³", asin: "B0CPR89ZNR", price: "€999,00", power: "—", type: "Full Inverter", pool: "Hasta 30 m³", stars: "4,5/5", best: "Mejor conectada (WiFi)" },
-  { pos: 4, name: "Gre HPGI50 — Inverter hasta 50 m³", asin: "B08V567FFN", price: "€1.349,00", power: "—", type: "Inverter", pool: "Hasta 50 m³", stars: "4,5/5", best: "Piscinas medianas" },
-  { pos: 5, name: "Poolex Q-Line 7 Full Inverter 7 kW", asin: "B08WH533W5", price: "€1.249,00", power: "7 kW", type: "Full Inverter", pool: "30-45 m³", stars: "4,6/5", best: "Mejor eficiencia" },
+  { pos: 4, name: "Gre HPGI50 — Inverter hasta 50 m³", href: "/tienda/bombas-calor", price: "€1.349,00", power: "—", type: "Inverter", pool: "Hasta 50 m³", stars: "4,5/5", best: "Piscinas medianas" },
+  { pos: 5, name: "Poolex Q-Line 7 Full Inverter 7 kW", href: "/tienda/bombas-calor", price: "€1.249,00", power: "7 kW", type: "Full Inverter", pool: "30-45 m³", stars: "4,6/5", best: "Mejor eficiencia" },
 ];
 
 const faqs = [
@@ -137,22 +137,29 @@ export default function BombaCalorPage() {
                 <th className="px-3 py-3 text-left">Potencia</th>
                 <th className="px-3 py-3 text-left">Tipo</th>
                 <th className="px-3 py-3 text-left">Piscina</th>
-                <th className="px-3 py-3 text-left">Comprar</th>
+                <th className="px-3 py-3 text-left">Ver</th>
               </tr>
             </thead>
             <tbody>
               {products.map((p, i) => (
-                <tr key={p.asin} className={i % 2 === 0 ? "bg-white" : "bg-gray-50"}>
+                <tr key={p.name} className={i % 2 === 0 ? "bg-white" : "bg-gray-50"}>
                   <td className="px-3 py-3 font-bold text-sky-600">{p.pos}</td>
                   <td className="px-3 py-3 font-medium text-gray-900">{p.name}</td>
                   <td className="px-3 py-3 text-gray-600 text-xs">{p.power}</td>
                   <td className="px-3 py-3 text-gray-600 text-xs">{p.type}</td>
                   <td className="px-3 py-3 text-gray-600">{p.pool}</td>
                   <td className="px-3 py-3">
-                    <a href={amazonLink(p.asin)} target="_blank" rel="nofollow noopener noreferrer sponsored"
-                      className="inline-block bg-orange-500 text-white text-xs font-bold px-3 py-1.5 rounded-lg hover:bg-orange-600 transition-colors whitespace-nowrap">
-                      Ver precio →
-                    </a>
+                    {p.asin ? (
+                      <a href={amazonLink(p.asin)} target="_blank" rel="nofollow noopener noreferrer sponsored"
+                        className="inline-block bg-orange-500 text-white text-xs font-bold px-3 py-1.5 rounded-lg hover:bg-orange-600 transition-colors whitespace-nowrap">
+                        Ver precio →
+                      </a>
+                    ) : (
+                      <Link href={p.href!}
+                        className="inline-block bg-orange-500 text-white text-xs font-bold px-3 py-1.5 rounded-lg hover:bg-orange-600 transition-colors whitespace-nowrap">
+                        Ver opciones →
+                      </Link>
+                    )}
                   </td>
                 </tr>
               ))}
@@ -193,7 +200,7 @@ export default function BombaCalorPage() {
             </a>
           </div>
 
-          <h3>3. <Link href="/tienda/bombas-calor/poolex-nano-action-5-bomba-calor" className="text-sky-700 hover:underline">Poolex Q-Line 7 Full Inverter</Link> — La más eficiente</h3>
+          <h3>3. <Link href="/tienda/bombas-calor" className="text-sky-700 hover:underline">Poolex Q-Line 7 Full Inverter</Link> — La más eficiente</h3>
           <p>
             La <strong>Poolex Q-Line 7</strong> es una bomba de calor <strong>Full Inverter</strong> de 7 kW para piscinas de 30 a 45 m³. Monta compresor <strong>Toshiba</strong> e intercambiador de titanio, con ventilación vertical, WiFi integrado y LEDs de estado. Es la opción más eficiente y silenciosa del comparativo, con garantía de 3 años en la bomba y 5 años en el compresor.
           </p>

@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { amazonLink } from "@/lib/amazon";
 import AffiliateDisclosure from "@/components/AffiliateDisclosure";
 import AdSenseAd from "@/components/AdSenseAd";
 import BlogSidebar from "@/components/BlogSidebar";
@@ -19,11 +18,11 @@ export const metadata: Metadata = {
 };
 
 const products = [
-  { pos: 1, name: "Dolphin Nauty — Robot compacto", asin: "B01N78IVWJ", price: "€249,99", coverage: "Fondo", pool: "Hasta 7,5 m", cycle: "2,5 horas", stars: "4,4/5", best: "Mejor precio" },
-  { pos: 2, name: "Bestway Flowclear AquaGlide (batería litio)", asin: "B08J7TMT3K", price: "€329,00", coverage: "Fondo + Paredes", pool: "Hasta 12 m", cycle: "2 horas", stars: "4,3/5", best: "Mejor calidad-precio" },
-  { pos: 3, name: "Dolphin Carrera 35 — Robot premium", asin: "B07Q2D2KF3", price: "€449,99", coverage: "Fondo + Paredes + Línea de agua", pool: "Hasta 15 m", cycle: "2,5 horas", stars: "4,6/5", best: "Mejor rendimiento" },
-  { pos: 4, name: "Dolphin Formula 30 — Piscinas enterradas 12m", asin: "B07BGW5FDZ", price: "€529,00", coverage: "Fondo + Paredes + Línea de agua", pool: "Hasta 12 m", cycle: "2 horas", stars: "4,5/5", best: "Piscinas enterradas" },
-  { pos: 5, name: "Dolphin Poolstyle 35 Plus", asin: "B07SP8GC4R", price: "€599,99", coverage: "Fondo + Paredes completas", pool: "Hasta 12 m", cycle: "2 horas", stars: "4,7/5", best: "Mejor limpieza de paredes" },
+  { pos: 1, name: "Dolphin Nauty — Robot compacto", href: "/tienda/robots-limpiafondos", price: "€249,99", coverage: "Fondo", pool: "Hasta 7,5 m", cycle: "2,5 horas", stars: "4,4/5", best: "Mejor precio" },
+  { pos: 2, name: "Bestway Flowclear AquaGlide (batería litio)", href: "/tienda/robots-limpiafondos", price: "€329,00", coverage: "Fondo + Paredes", pool: "Hasta 12 m", cycle: "2 horas", stars: "4,3/5", best: "Mejor calidad-precio" },
+  { pos: 3, name: "Dolphin Carrera 35 — Robot premium", href: "/tienda/robots-limpiafondos", price: "€449,99", coverage: "Fondo + Paredes + Línea de agua", pool: "Hasta 15 m", cycle: "2,5 horas", stars: "4,6/5", best: "Mejor rendimiento" },
+  { pos: 4, name: "Dolphin Formula 30 — Piscinas enterradas 12m", href: "/tienda/robots-limpiafondos", price: "€529,00", coverage: "Fondo + Paredes + Línea de agua", pool: "Hasta 12 m", cycle: "2 horas", stars: "4,5/5", best: "Piscinas enterradas" },
+  { pos: 5, name: "Dolphin Poolstyle 35 Plus", href: "/tienda/robots-limpiafondos", price: "€599,99", coverage: "Fondo + Paredes completas", pool: "Hasta 12 m", cycle: "2 horas", stars: "4,7/5", best: "Mejor limpieza de paredes" },
 ];
 
 const faqs = [
@@ -125,22 +124,22 @@ export default function RobotLimpiafondosPage() {
                 <th className="px-3 py-3 text-left">Cobertura</th>
                 <th className="px-3 py-3 text-left">Piscina</th>
                 <th className="px-3 py-3 text-left">Ciclo</th>
-                <th className="px-3 py-3 text-left">Comprar</th>
+                <th className="px-3 py-3 text-left">Ver</th>
               </tr>
             </thead>
             <tbody>
               {products.map((p, i) => (
-                <tr key={p.asin} className={i % 2 === 0 ? "bg-white" : "bg-gray-50"}>
+                <tr key={p.name} className={i % 2 === 0 ? "bg-white" : "bg-gray-50"}>
                   <td className="px-3 py-3 font-bold text-sky-600">{p.pos}</td>
                   <td className="px-3 py-3 font-medium text-gray-900">{p.name}</td>
                   <td className="px-3 py-3 text-gray-600 text-xs">{p.coverage}</td>
                   <td className="px-3 py-3 text-gray-600">{p.pool}</td>
                   <td className="px-3 py-3 text-gray-600">{p.cycle}</td>
                   <td className="px-3 py-3">
-                    <a href={amazonLink(p.asin)} target="_blank" rel="nofollow noopener noreferrer sponsored"
+                    <Link href={p.href}
                       className="inline-block bg-orange-500 text-white text-xs font-bold px-3 py-1.5 rounded-lg hover:bg-orange-600 transition-colors whitespace-nowrap">
-                      Ver precio →
-                    </a>
+                      Ver opciones →
+                    </Link>
                   </td>
                 </tr>
               ))}
@@ -162,9 +161,9 @@ export default function RobotLimpiafondosPage() {
             <li><strong>Contras:</strong> No sube paredes, cable de 12 metros (limita en piscinas largas)</li>
           </ul>
           <div className="not-prose my-4">
-            <a href={amazonLink("B01N78IVWJ")} target="_blank" rel="nofollow noopener noreferrer sponsored" className="btn-primary">
-              Ver Dolphin Nauty →
-            </a>
+            <Link href="/tienda/robots-limpiafondos" className="btn-primary">
+              Ver robots limpiafondos en la tienda →
+            </Link>
           </div>
 
           <h3>2. Bestway Flowclear AquaGlide con batería de litio — Mejor calidad-precio</h3>
@@ -185,9 +184,9 @@ export default function RobotLimpiafondosPage() {
             <li><strong>Contras:</strong> Precio elevado, el cable puede enredarse en piscinas con muchas esquinas</li>
           </ul>
           <div className="not-prose my-4">
-            <a href={amazonLink("B07Q2D2KF3")} target="_blank" rel="nofollow noopener noreferrer sponsored" className="btn-primary">
-              Ver Dolphin Carrera 35 →
-            </a>
+            <Link href="/tienda/robots-limpiafondos" className="btn-primary">
+              Ver robots limpiafondos en la tienda →
+            </Link>
           </div>
 
           <h2>¿Cómo elegir el robot limpiafondos adecuado?</h2>

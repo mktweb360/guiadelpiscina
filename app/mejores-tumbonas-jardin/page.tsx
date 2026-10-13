@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { amazonLink } from "@/lib/amazon";
 import AffiliateDisclosure from "@/components/AffiliateDisclosure";
 import AdSenseAd from "@/components/AdSenseAd";
 import BlogSidebar from "@/components/BlogSidebar";
@@ -23,7 +22,7 @@ export const metadata: Metadata = {
 const products = [
   {
     name: "SONGMICS GCB19UV1 — Tumbona reclinable 193 cm",
-    asin: "B07M9BG6ZR",
+    href: "/tienda/muebles-jardin",
     material: "Acero + textileno",
     cushion: "Sin colchón (textileno)",
     load: "150 kg",
@@ -32,7 +31,7 @@ const products = [
   },
   {
     name: "SONGMICS GCB24GY — Tumbona aluminio con colchón",
-    asin: "B07LF2FWGR",
+    href: "/tienda/muebles-jardin",
     material: "Aluminio",
     cushion: "Colchón 6 cm",
     load: "150 kg",
@@ -41,7 +40,7 @@ const products = [
   },
   {
     name: "Keter Jaipur — Tumbona plegable con cojín",
-    asin: "B07HP94QTN",
+    href: "/tienda/muebles-jardin",
     material: "Resina/plástico",
     cushion: "Cojín gris incluido",
     load: "110 kg",
@@ -183,17 +182,17 @@ export default function TumbonasJardinPage() {
             </thead>
             <tbody>
               {products.map((p, i) => (
-                <tr key={p.asin} className={i % 2 === 0 ? "bg-white" : "bg-gray-50"}>
+                <tr key={p.name} className={i % 2 === 0 ? "bg-white" : "bg-gray-50"}>
                   <td className="px-3 py-3 font-medium text-gray-900">{p.name}</td>
                   <td className="px-3 py-3 text-gray-600">{p.material}</td>
                   <td className="px-3 py-3 text-gray-600">{p.cushion}</td>
                   <td className="px-3 py-3 text-gray-600">{p.load}</td>
                   <td className="px-3 py-3 text-gray-600">{p.folding}</td>
                   <td className="px-3 py-3">
-                    <a href={amazonLink(p.asin)} target="_blank" rel="nofollow noopener noreferrer sponsored"
-                      className="inline-block bg-orange-500 text-white text-xs font-bold px-3 py-1.5 rounded-lg hover:bg-orange-600 transition-colors whitespace-nowrap">
-                      Ver precio →
-                    </a>
+                    <Link href={p.href}
+                        className="inline-block bg-orange-500 text-white text-xs font-bold px-3 py-1.5 rounded-lg hover:bg-orange-600 transition-colors whitespace-nowrap">
+                        Ver opciones →
+                      </Link>
                   </td>
                 </tr>
               ))}
@@ -211,9 +210,9 @@ export default function TumbonasJardinPage() {
             La <strong>SONGMICS GCB19UV1</strong> es la tumbona más vendida por una razón: ofrece lo esencial a un precio imbatible. Con 193 cm de longitud, estructura de acero robusta y tejido textileno transpirable, aguanta hasta 150 kg y se reclina en varias posiciones. Se pliega fácilmente para guardarla en invierno.
           </p>
           <div className="not-prose my-4">
-            <a href={amazonLink("B07M9BG6ZR")} target="_blank" rel="nofollow noopener noreferrer sponsored" className="btn-primary">
-              Ver SONGMICS GCB19UV1 →
-            </a>
+            <Link href="/tienda/muebles-jardin" className="btn-primary">
+              Ver muebles de jardín en la tienda →
+            </Link>
           </div>
 
           <h3>SONGMICS GCB24GY — La más cómoda (colchón 6 cm)</h3>
@@ -221,9 +220,9 @@ export default function TumbonasJardinPage() {
             La <strong>SONGMICS GCB24GY</strong> sube el nivel de confort con un colchón acolchado de 6 cm y estructura de aluminio que no se oxida ni pesa. Es la elección ideal si buscas comodidad para siestas largas junto a la piscina y no te importa invertir algo más.
           </p>
           <div className="not-prose my-4">
-            <a href={amazonLink("B07LF2FWGR")} target="_blank" rel="nofollow noopener noreferrer sponsored" className="btn-primary">
-              Ver SONGMICS GCB24GY →
-            </a>
+            <Link href="/tienda/muebles-jardin" className="btn-primary">
+              Ver muebles de jardín en la tienda →
+            </Link>
           </div>
 
           <h3>Keter Jaipur — La más resistente</h3>
@@ -231,9 +230,9 @@ export default function TumbonasJardinPage() {
             La <strong>Keter Jaipur</strong> apuesta por la resina de alta resistencia con acabado tipo ratán, muy resistente a la intemperie y con un mantenimiento mínimo. Incluye cojín gris y se pliega para guardarla. Perfecta para quien prioriza durabilidad y estética sobre el precio más bajo.
           </p>
           <div className="not-prose my-4">
-            <a href={amazonLink("B07HP94QTN")} target="_blank" rel="nofollow noopener noreferrer sponsored" className="btn-primary">
-              Ver Keter Jaipur →
-            </a>
+            <Link href="/tienda/muebles-jardin" className="btn-primary">
+              Ver muebles de jardín en la tienda →
+            </Link>
           </div>
 
           <h2>¿Tumbona de aluminio o de plástico?</h2>

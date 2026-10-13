@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { amazonLink } from "@/lib/amazon";
 import AffiliateDisclosure from "@/components/AffiliateDisclosure";
 import AdSenseAd from "@/components/AdSenseAd";
 import BlogSidebar from "@/components/BlogSidebar";
@@ -19,11 +18,11 @@ export const metadata: Metadata = {
 };
 
 const products = [
-  { pos: 1, name: "Intex 28636 — Depuradora de arena", asin: "B095D6VF1Q", price: "€159,99", flow: "8.000 l/h", motor: "0,75 CV", pool: "Hasta 26.500 l", stars: "4,5/5", best: "Mejor calidad-precio" },
-  { pos: 2, name: "Bestway Flowclear 58496 — Depuradora arena", asin: "B0B6948Q48", price: "€179,99", flow: "9.463 l/h", motor: "0,80 CV", pool: "Hasta 30.000 l", stars: "4,3/5", best: "Mejor para piscinas medianas" },
-  { pos: 3, name: "Gre AR700 — Depuradora de arena 4.000 l/h", asin: "B00DVKH7UM", price: "€199,00", flow: "4.000 l/h", motor: "1/4 CV", pool: "Hasta 24.000 l", stars: "4,5/5", best: "Fabricada en España" },
-  { pos: 4, name: "Intex 55225 — Depuradora de Arena Krystal Clear 5.700 l/h", asin: "B005DUW65O", price: "€189,00", flow: "5.700 l/h", motor: "1/2 CV", pool: "Hasta 30.000 l", stars: "4,4/5", best: "Compatible arena y vidrio" },
-  { pos: 5, name: "Intex 28648 — Depuradora cartucho compacta", asin: "B00G9YZ6FK", price: "€89,99", flow: "3.785 l/h", motor: "0,35 CV", pool: "Hasta 15.000 l", stars: "4,1/5", best: "Mejor precio absoluto" },
+  { pos: 1, name: "Intex 28636 — Depuradora de arena", href: "/tienda/depuradoras", price: "€159,99", flow: "8.000 l/h", motor: "0,75 CV", pool: "Hasta 26.500 l", stars: "4,5/5", best: "Mejor calidad-precio" },
+  { pos: 2, name: "Bestway Flowclear 58496 — Depuradora arena", href: "/tienda/depuradoras", price: "€179,99", flow: "9.463 l/h", motor: "0,80 CV", pool: "Hasta 30.000 l", stars: "4,3/5", best: "Mejor para piscinas medianas" },
+  { pos: 3, name: "Gre AR700 — Depuradora de arena 4.000 l/h", href: "/tienda/depuradoras", price: "€199,00", flow: "4.000 l/h", motor: "1/4 CV", pool: "Hasta 24.000 l", stars: "4,5/5", best: "Fabricada en España" },
+  { pos: 4, name: "Intex 55225 — Depuradora de Arena Krystal Clear 5.700 l/h", href: "/tienda/depuradoras/intex-55225-depuradora-arena-5700", price: "€189,00", flow: "5.700 l/h", motor: "1/2 CV", pool: "Hasta 30.000 l", stars: "4,4/5", best: "Compatible arena y vidrio" },
+  { pos: 5, name: "Intex 28648 — Depuradora cartucho compacta", href: "/tienda/depuradoras", price: "€89,99", flow: "3.785 l/h", motor: "0,35 CV", pool: "Hasta 15.000 l", stars: "4,1/5", best: "Mejor precio absoluto" },
 ];
 
 const faqs = [
@@ -136,22 +135,22 @@ export default function DepuradorasPage() {
                 <th className="px-3 py-3 text-left">Caudal</th>
                 <th className="px-3 py-3 text-left">Motor</th>
                 <th className="px-3 py-3 text-left">Piscina max.</th>
-                <th className="px-3 py-3 text-left">Ver precio</th>
+                <th className="px-3 py-3 text-left">Ver</th>
               </tr>
             </thead>
             <tbody>
               {products.map((p, i) => (
-                <tr key={p.asin} className={i % 2 === 0 ? "bg-white" : "bg-gray-50"}>
+                <tr key={p.name} className={i % 2 === 0 ? "bg-white" : "bg-gray-50"}>
                   <td className="px-3 py-3 font-bold text-sky-600">{p.pos}</td>
                   <td className="px-3 py-3 font-medium text-gray-900">{p.name}</td>
                   <td className="px-3 py-3 text-gray-600">{p.flow}</td>
                   <td className="px-3 py-3 text-gray-600">{p.motor}</td>
                   <td className="px-3 py-3 text-gray-600">{p.pool}</td>
                   <td className="px-3 py-3">
-                    <a href={amazonLink(p.asin)} target="_blank" rel="nofollow noopener noreferrer sponsored"
+                    <Link href={p.href}
                       className="inline-block bg-orange-500 text-white text-xs font-bold px-3 py-1.5 rounded-lg hover:bg-orange-600 transition-colors whitespace-nowrap">
-                      Ver precio →
-                    </a>
+                      {p.href.split("/").length > 3 ? "Ver ficha →" : "Ver opciones →"}
+                    </Link>
                   </td>
                 </tr>
               ))}
@@ -181,10 +180,10 @@ export default function DepuradorasPage() {
             <li>El temporizador integrado es básico</li>
           </ul>
           <div className="not-prose my-4">
-            <a href={amazonLink("B095D6VF1Q")} target="_blank" rel="nofollow noopener noreferrer sponsored"
+            <Link href="/tienda/depuradoras"
               className="btn-primary">
-              Ver Intex 28636 →
-            </a>
+              Ver depuradoras en la tienda →
+            </Link>
           </div>
 
           <h3>2. Bestway Flowclear 58496 — Mejor para piscinas medianas</h3>
@@ -219,10 +218,10 @@ export default function DepuradorasPage() {
             <li>Arena de sílex no incluida</li>
           </ul>
           <div className="not-prose my-4">
-            <a href={amazonLink("B00DVKH7UM")} target="_blank" rel="nofollow noopener noreferrer sponsored"
+            <Link href="/tienda/depuradoras"
               className="btn-primary">
-              Ver Gre AR700 →
-            </a>
+              Ver depuradoras en la tienda →
+            </Link>
           </div>
 
           <h3>4. Intex 55225 — Depuradora de Arena Krystal Clear 5.700 l/h</h3>
