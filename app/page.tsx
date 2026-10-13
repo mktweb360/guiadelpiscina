@@ -276,7 +276,7 @@ export default function HomePage() {
         <div className="max-w-3xl mx-auto text-center">
           <h2 className="text-2xl font-bold text-gray-900 mb-4">¿Por qué confiar en nosotros?</h2>
           <p className="text-gray-600 mb-6 leading-relaxed">
-            En <strong>Guía del Piscina</strong> analizamos cada producto con criterio y honestidad. Revisamos las especificaciones de cada fabricante, leemos las opiniones de compradores y comparamos modelos para darte la información que necesitas antes de comprar. No publicamos contenido patrocinado: nuestros ingresos provienen de comisiones de afiliado, lo que no afecta a nuestras valoraciones.
+            En <strong>Guía del Piscina</strong> analizamos cada producto con criterio y honestidad. Revisamos las especificaciones y fichas de cada fabricante y comparamos modelos por sus características para darte la información que necesitas antes de comprar. No publicamos contenido patrocinado: nuestros ingresos provienen de comisiones de afiliado, lo que no afecta a nuestras valoraciones.
           </p>
           <Link href="/sobre-nosotros" className="text-sky-600 font-semibold hover:underline">
             Saber más sobre nosotros →
