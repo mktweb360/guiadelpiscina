@@ -34,19 +34,19 @@ const coberturas = [
     tipo: "Cubierta de invierno estándar (lona opaca)",
     proteccion: "Bloquea luz y hojas, retrasa aparición de algas",
     mantenimiento: "Retirar agua/nieve acumulada tras lluvias",
-    precioOrientativo: "20-50€",
+    gama: "Entrada",
   },
   {
     tipo: "Cubierta de malla o rejilla",
     proteccion: "Filtra hojas, deja pasar agua de lluvia (no acumula peso)",
     mantenimiento: "Muy bajo, no requiere vaciado tras lluvia",
-    precioOrientativo: "30-70€",
+    gama: "Media",
   },
   {
     tipo: "Manta térmica / cobertor solar",
     proteccion: "Reduce evaporación y pérdida de calor, no aísla del frío tanto como una cubierta opaca",
     mantenimiento: "Medio, más pensada para pausas cortas que para invernaje completo",
-    precioOrientativo: "25-80€",
+    gama: "Entrada a media, según medida",
   },
 ];
 
@@ -81,7 +81,7 @@ const articleSchema = {
     "@type": "Organization",
     name: "Equipo Editorial de Guía del Piscina",
     url: "https://www.guiadelpiscina.com/sobre-nosotros",
-    description: "Equipo editorial de Guía del Piscina (Mkt Web 360 SLU). Comparamos especificaciones técnicas, precios y opiniones verificadas, con apoyo de IA en investigación y redacción bajo revisión editorial.",
+    description: "Equipo editorial de Guía del Piscina (Mkt Web 360 SLU). Analizamos especificaciones técnicas, fichas de fabricante y experiencia de uso, con apoyo de IA en investigación y redacción bajo revisión editorial.",
     knowsAbout: ["mantenimiento de piscinas", "tratamiento del agua", "depuradoras", "cloro y pH", "piscinas desmontables"],
   },
   publisher: { "@type": "Organization", name: "Mkt Web 360 SLU", url: "https://www.guiadelpiscina.com" },
@@ -207,7 +207,7 @@ export default function ComoCerrarPiscinaPage() {
                 <th className="py-3 px-4 text-left font-bold text-gray-700">Tipo de cubierta</th>
                 <th className="py-3 px-4 text-left font-bold text-gray-700">Protección</th>
                 <th className="py-3 px-4 text-left font-bold text-gray-700">Mantenimiento</th>
-                <th className="py-3 px-4 text-left font-bold text-gray-700">Precio orientativo</th>
+                <th className="py-3 px-4 text-left font-bold text-gray-700">Gama</th>
               </tr>
             </thead>
             <tbody>
@@ -216,7 +216,7 @@ export default function ComoCerrarPiscinaPage() {
                   <td className="py-3 px-4 font-semibold text-gray-700">{c.tipo}</td>
                   <td className="py-3 px-4 text-gray-600">{c.proteccion}</td>
                   <td className="py-3 px-4 text-gray-600">{c.mantenimiento}</td>
-                  <td className="py-3 px-4 text-gray-600">{c.precioOrientativo}</td>
+                  <td className="py-3 px-4 text-gray-600">{c.gama}</td>
                 </tr>
               ))}
             </tbody>

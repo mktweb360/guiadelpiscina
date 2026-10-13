@@ -39,7 +39,7 @@ const articleSchema = {
     "@type": "Organization",
     name: "Equipo Editorial de Guía del Piscina",
     url: "https://www.guiadelpiscina.com/sobre-nosotros",
-    description: "Equipo editorial de Guía del Piscina (Mkt Web 360 SLU). Comparamos especificaciones técnicas, precios y opiniones verificadas, con apoyo de IA en investigación y redacción bajo revisión editorial.",
+    description: "Equipo editorial de Guía del Piscina (Mkt Web 360 SLU). Analizamos especificaciones técnicas, fichas de fabricante y experiencia de uso, con apoyo de IA en investigación y redacción bajo revisión editorial.",
     knowsAbout: ["mantenimiento de piscinas", "tratamiento del agua", "depuradoras", "cloro y pH", "piscinas desmontables"],
   },
   publisher: { "@type": "Organization", name: "Mkt Web 360 SLU", url: "https://www.guiadelpiscina.com" },
@@ -104,7 +104,7 @@ export default function PergolaPage() {
             <p className="text-gray-800 font-medium leading-relaxed">Una <strong>pérgola</strong> transforma cualquier terraza o jardín en un espacio habitable y confortable incluso en los días más calurosos. Ya sea para protegerte del sol, crear un comedor al aire libre o delimitar una zona de descanso junto a la piscina, la pérgola correcta puede multiplicar el valor y el disfrute de tu espacio exterior.</p>
           </div>
           <p>
-            En esta guía comparamos los <strong>mejores modelos de pérgola para terraza y jardín</strong> disponibles en el mercado, desde opciones económicas por 150€ hasta bioclimáticas premium por más de 1.000€. Puedes <Link href="/tienda/pergolas" className="text-sky-600 hover:underline font-medium">ver pérgolas bioclimáticas en nuestra tienda</Link> con los mejores modelos seleccionados.
+            En esta guía comparamos los <strong>mejores modelos de pérgola para terraza y jardín</strong> disponibles en el mercado, desde opciones sencillas de toldo hasta bioclimáticas de lamas de gama alta. Puedes <Link href="/tienda/pergolas" className="text-sky-600 hover:underline font-medium">ver pérgolas bioclimáticas en nuestra tienda</Link> con los mejores modelos seleccionados.
           </p>
 
           <h2>Comparativa — Mejores pérgolas</h2>

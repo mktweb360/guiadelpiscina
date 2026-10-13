@@ -84,7 +84,7 @@ const articleSchema = {
     "@type": "Organization",
     name: "Equipo Editorial de Guía del Piscina",
     url: "https://www.guiadelpiscina.com/sobre-nosotros",
-    description: "Equipo editorial de Guía del Piscina (Mkt Web 360 SLU). Comparamos especificaciones técnicas, precios y opiniones verificadas, con apoyo de IA en investigación y redacción bajo revisión editorial.",
+    description: "Equipo editorial de Guía del Piscina (Mkt Web 360 SLU). Analizamos especificaciones técnicas, fichas de fabricante y experiencia de uso, con apoyo de IA en investigación y redacción bajo revisión editorial.",
     knowsAbout: ["mantenimiento de piscinas", "tratamiento del agua", "depuradoras", "cloro y pH", "piscinas desmontables"],
   },
   publisher: { "@type": "Organization", name: "Mkt Web 360 SLU", url: "https://www.guiadelpiscina.com" },
@@ -219,7 +219,7 @@ export default function CubiertaPiscinaPage() {
         <div className="prose">
           <h2>Análisis detallado</h2>
 
-          <h3>Bestway 58292 — El cobertor de invierno más vendido</h3>
+          <h3>Bestway 58292 — El cobertor de invierno de referencia</h3>
           <p>
             El <strong>Bestway 58292</strong> es el cobertor de invierno de referencia para piscinas redondas de 360 cm. Su material de PE resistente, los agujeros de drenaje y la cuerda perimetral lo hacen fácil de colocar y muy eficaz para mantener el agua limpia durante los meses de no uso. Imbatible por su precio.
           </p>

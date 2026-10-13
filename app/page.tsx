@@ -7,7 +7,7 @@ import EmailCaptureSection from "@/components/EmailCaptureSection";
 export const metadata: Metadata = {
   title: "Guía del Piscina — Todo lo que necesitas para tu piscina y jardín",
   description:
-    "Guías de compra, análisis y comparativas de productos para piscinas, jardín y terraza. Encuentra los mejores productos al mejor precio del mercado.",
+    "Guías de compra, análisis y comparativas de productos para piscinas, jardín y terraza. Criterios claros para elegir bien cada equipo.",
   alternates: { canonical: "https://www.guiadelpiscina.com" },
   openGraph: {
     title: "Guía del Piscina — Todo lo que necesitas para tu piscina y jardín",
@@ -23,56 +23,48 @@ const categories = [
     icon: "💧",
     title: "Depuradoras de piscina",
     desc: "Las mejores depuradoras para mantener el agua limpia y cristalina",
-    price: "Desde 150€",
   },
   {
     href: "/robot-limpiafondos-piscina",
     icon: "🤖",
     title: "Robots limpiafondos",
     desc: "Limpieza automática del fondo y paredes sin esfuerzo",
-    price: "Desde 200€",
   },
   {
     href: "/bomba-calor-piscina",
     icon: "🌡️",
     title: "Bombas de calor",
     desc: "Extiende la temporada de baño calentando el agua de tu piscina",
-    price: "Desde 500€",
   },
   {
     href: "/muebles-jardin-terraza",
     icon: "🪑",
     title: "Muebles de jardín",
     desc: "Conjuntos y sillas para disfrutar del exterior todo el verano",
-    price: "Desde 99€",
   },
   {
     href: "/pergola-terraza",
     icon: "🏠",
     title: "Pérgolas",
     desc: "Protégete del sol con las mejores pérgolas para terraza y jardín",
-    price: "Desde 150€",
   },
   {
     href: "/sistema-riego-automatico",
     icon: "🌱",
     title: "Riego automático",
     desc: "Sistemas de riego inteligentes para un jardín siempre verde",
-    price: "Desde 30€",
   },
   {
     href: "/cesped-artificial-jardin",
     icon: "🌿",
     title: "Césped artificial",
     desc: "Césped sintético de alta calidad sin mantenimiento",
-    price: "Desde 5€/m²",
   },
   {
     href: "/piscina-desmontable-grande",
     icon: "🏊",
     title: "Piscinas desmontables",
     desc: "Las mejores piscinas desmontables para toda la familia",
-    price: "Desde 300€",
   },
 ];
 
@@ -95,7 +87,7 @@ const articles = [
     href: "/mejores-depuradoras-piscina",
     title: "Las 5 mejores depuradoras para piscina",
     excerpt:
-      "Comparativa completa de las depuradoras más vendidas en España. Analizamos rendimiento, consumo y precio.",
+      "Comparativa de depuradoras de arena y cartucho: caudal, tamaño de piscina y mantenimiento.",
     date: "2025-05-15",
   },
   {
@@ -210,7 +202,7 @@ export default function HomePage() {
               Ver todos →
             </Link>
           </div>
-          <p className="text-gray-500 mb-8">Los productos mejor valorados por nuestros lectores</p>
+          <p className="text-gray-500 mb-8">Una selección de nuestra tienda</p>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
             {featuredProducts.map((product) => (
               <div key={product.slug} className="border border-gray-100 rounded-xl p-5 hover:shadow-md transition-all flex flex-col">

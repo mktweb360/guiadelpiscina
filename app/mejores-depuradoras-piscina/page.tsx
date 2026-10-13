@@ -30,7 +30,7 @@ const faqs = [
   { q: "¿Cuántas horas al día debe funcionar la depuradora?", a: "En verano, con temperaturas superiores a 25°C, se recomienda que la depuradora funcione entre 8 y 12 horas diarias. En primavera y otoño, con 4-6 horas es suficiente. Programa el funcionamiento en las horas de menor coste eléctrico." },
   { q: "¿Depuradora de arena o de cartucho?", a: "Las depuradoras de arena son más eficientes y duraderas para piscinas medianas y grandes. Las de cartucho son más económicas y fáciles de mantener, pero adecuadas solo para piscinas pequeñas. Si tu piscina tiene más de 10.000 litros, elige arena." },
   { q: "¿Con qué frecuencia hay que cambiar la arena?", a: "La arena de sílex de las depuradoras suele durar entre 3 y 5 años si se mantiene correctamente. Señales de que hay que cambiarla: el agua no se clarifica bien incluso con el cloro en niveles correctos, o la presión del filtro sube mucho." },
-  { q: "¿Qué consumo eléctrico tiene una depuradora de piscina?", a: "Depende del motor. Una depuradora de 0,75 CV consume aproximadamente 550 vatios por hora. Si funciona 8 horas al día, supone unos 4,4 kWh diarios. Con un precio de 0,15€/kWh, el coste sería de aproximadamente 0,66€ al día o 60€ en una temporada de 90 días." },
+  { q: "¿Qué consumo eléctrico tiene una depuradora de piscina?", a: "Depende del motor. Una depuradora de 0,75 CV consume aproximadamente 550 vatios por hora. Si funciona 8 horas al día, supone unos 4,4 kWh diarios, unos 400 kWh en una temporada de 90 días. Multiplica esa cifra por el precio del kWh de tu tarifa para estimar el coste." },
 ];
 
 const articleSchema = {
@@ -44,7 +44,7 @@ const articleSchema = {
     "@type": "Organization",
     name: "Equipo Editorial de Guía del Piscina",
     url: "https://www.guiadelpiscina.com/sobre-nosotros",
-    description: "Equipo editorial de Guía del Piscina (Mkt Web 360 SLU). Comparamos especificaciones técnicas, precios y opiniones verificadas, con apoyo de IA en investigación y redacción bajo revisión editorial.",
+    description: "Equipo editorial de Guía del Piscina (Mkt Web 360 SLU). Analizamos especificaciones técnicas, fichas de fabricante y experiencia de uso, con apoyo de IA en investigación y redacción bajo revisión editorial.",
     knowsAbout: ["mantenimiento de piscinas", "tratamiento del agua", "depuradoras", "cloro y pH", "piscinas desmontables"],
   },
   publisher: { "@type": "Organization", name: "Mkt Web 360 SLU", url: "https://www.guiadelpiscina.com" },
@@ -113,10 +113,10 @@ export default function DepuradorasPage() {
         <div className="prose">
                     <div id="respuesta-directa" className="bg-sky-50 border-l-4 border-sky-500 rounded-r-xl px-5 py-4 mb-6">
             <p className="text-xs font-bold text-sky-700 uppercase tracking-wide mb-1.5">Respuesta directa</p>
-            <p className="text-gray-800 font-medium leading-relaxed">La depuradora es el corazón de cualquier piscina. Sin una buena filtración, el agua se vuelve turbia y proliferan algas y bacterias que hacen que bañarse sea un riesgo para la salud. En esta guía analizamos las <strong>5 mejores depuradoras de piscina</strong> disponibles en el mercado, con precios entre 89 y 200€.</p>
+            <p className="text-gray-800 font-medium leading-relaxed">La depuradora es el corazón de cualquier piscina. Sin una buena filtración, el agua se vuelve turbia y proliferan algas y bacterias que hacen que bañarse sea un riesgo para la salud. En esta guía analizamos las <strong>5 mejores depuradoras de piscina</strong> disponibles en el mercado, de arena y de cartucho, para piscinas pequeñas, medianas y grandes.</p>
           </div>
           <p>
-            Hemos analizado más de 20 modelos, comparado especificaciones técnicas y revisado miles de reseñas de usuarios para darte las recomendaciones más fiables del mercado.
+            Hemos revisado más de 20 modelos y comparado sus especificaciones técnicas (caudal, potencia, tipo de filtro y tamaño de piscina admitido) para que elijas con criterio.
           </p>
           <p>
             Si ya sabes lo que buscas, puedes <Link href="/tienda/depuradoras" className="text-sky-600 hover:underline font-medium">ver todas las depuradoras en nuestra tienda</Link> con precios, comparativas y los mejores modelos seleccionados.
@@ -165,7 +165,7 @@ export default function DepuradorasPage() {
 
           <h3>1. <Link href="/tienda/depuradoras/intex-28636-depuradora-cartucho" className="text-sky-700 hover:underline">Intex 28636</Link> — Mejor calidad-precio</h3>
           <p>
-            La <strong>Intex 28636</strong> es la depuradora de arena más vendida en España y con razón. Ofrece un caudal de 8.000 l/h con un motor de 0,75 CV, suficiente para piscinas de hasta 26.500 litros. Su montaje es sencillo y viene con una válvula multiposición de 6 vías que facilita el lavado, enjuague y vaciado.
+            La <strong>Intex 28636</strong> es una depuradora de arena muy extendida en piscinas desmontables. Ofrece un caudal de 8.000 l/h con un motor de 0,75 CV, suficiente para piscinas de hasta 26.500 litros. Su montaje es sencillo y viene con una válvula multiposición de 6 vías que facilita el lavado, enjuague y vaciado.
           </p>
           <p><strong>Pros:</strong></p>
           <ul>
@@ -240,7 +240,7 @@ export default function DepuradorasPage() {
             <li>No apta para piscinas de más de 30.000 litros</li>
           </ul>
 
-          <h3>5. Intex 28648 — Mejor precio absoluto</h3>
+          <h3>5. Intex 28648 — Opción compacta de entrada</h3>
           <p>
             Para piscinas pequeñas de hasta 15.000 litros, la <strong><Link href="/tienda/depuradoras" className="text-sky-700 hover:underline">Intex 28648 de cartucho</Link></strong> es la opción más económica y fácil de usar. Sin arena que gestionar, el mantenimiento se reduce a lavar el cartucho con la manguera.
           </p>
@@ -250,7 +250,7 @@ export default function DepuradorasPage() {
           <ul>
             <li><strong>Volumen de tu piscina:</strong> El caudal debe filtrar todo el agua en máximo 6 horas.</li>
             <li><strong>Tipo de filtro:</strong> Arena para piscinas medianas-grandes, cartucho para pequeñas.</li>
-            <li><strong>Consumo eléctrico:</strong> Busca motores eficientes. La diferencia entre marcas puede ser de 100€/año.</li>
+            <li><strong>Consumo eléctrico:</strong> Busca motores eficientes. Entre un motor eficiente y uno que no lo es, la diferencia de consumo a lo largo de la temporada es notable.</li>
             <li><strong>Ruido:</strong> Si la piscina está cerca de la casa o de los vecinos, prioritiza modelos silenciosos.</li>
             <li><strong>Garantía y recambios:</strong> Elige marcas con buena red de servicio técnico en España.</li>
           </ul>

@@ -39,7 +39,7 @@ const articleSchema = {
     "@type": "Organization",
     name: "Equipo Editorial de Guía del Piscina",
     url: "https://www.guiadelpiscina.com/sobre-nosotros",
-    description: "Equipo editorial de Guía del Piscina (Mkt Web 360 SLU). Comparamos especificaciones técnicas, precios y opiniones verificadas, con apoyo de IA en investigación y redacción bajo revisión editorial.",
+    description: "Equipo editorial de Guía del Piscina (Mkt Web 360 SLU). Analizamos especificaciones técnicas, fichas de fabricante y experiencia de uso, con apoyo de IA en investigación y redacción bajo revisión editorial.",
     knowsAbout: ["mantenimiento de piscinas", "tratamiento del agua", "depuradoras", "cloro y pH", "piscinas desmontables"],
   },
   publisher: { "@type": "Organization", name: "Mkt Web 360 SLU", url: "https://www.guiadelpiscina.com" },
@@ -104,7 +104,7 @@ export default function SistemaRiegoPage() {
             <p className="text-gray-800 font-medium leading-relaxed">Un <strong>sistema de riego automático</strong> libera al propietario de la obligación de regar el jardín manualmente y, lo más importante, garantiza que las plantas reciban el agua adecuada en el momento adecuado. Con los sistemas inteligentes actuales, puedes ahorrar hasta un 50% de agua frente al riego manual.</p>
           </div>
           <p>
-            En esta guía comparamos los <strong>mejores sistemas de riego automático para jardín</strong> disponibles en el mercado, desde kits básicos por 35€ hasta controladores inteligentes por 200€. Puedes <Link href="/tienda/riego-automatico" className="text-sky-600 hover:underline font-medium">comparar sistemas de riego inteligente en nuestra tienda</Link>.
+            En esta guía comparamos los <strong>mejores sistemas de riego automático para jardín</strong> disponibles en el mercado, desde kits básicos de goteo hasta controladores inteligentes con app. Puedes <Link href="/tienda/riego-automatico" className="text-sky-600 hover:underline font-medium">comparar sistemas de riego inteligente en nuestra tienda</Link>.
           </p>
 
           <h2>Comparativa — Mejores sistemas de riego</h2>

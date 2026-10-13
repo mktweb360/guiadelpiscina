@@ -84,7 +84,7 @@ const articleSchema = {
     "@type": "Organization",
     name: "Equipo Editorial de Guía del Piscina",
     url: "https://www.guiadelpiscina.com/sobre-nosotros",
-    description: "Equipo editorial de Guía del Piscina (Mkt Web 360 SLU). Comparamos especificaciones técnicas, precios y opiniones verificadas, con apoyo de IA en investigación y redacción bajo revisión editorial.",
+    description: "Equipo editorial de Guía del Piscina (Mkt Web 360 SLU). Analizamos especificaciones técnicas, fichas de fabricante y experiencia de uso, con apoyo de IA en investigación y redacción bajo revisión editorial.",
     knowsAbout: ["mantenimiento de piscinas", "tratamiento del agua", "depuradoras", "cloro y pH", "piscinas desmontables"],
   },
   publisher: { "@type": "Organization", name: "Mkt Web 360 SLU", url: "https://www.guiadelpiscina.com" },
@@ -205,9 +205,9 @@ export default function TumbonasJardinPage() {
         <div className="prose">
           <h2>Análisis detallado</h2>
 
-          <h3>SONGMICS GCB19UV1 — La más vendida en España</h3>
+          <h3>SONGMICS GCB19UV1 — La opción sencilla</h3>
           <p>
-            La <strong>SONGMICS GCB19UV1</strong> es la tumbona más vendida por una razón: ofrece lo esencial a un precio imbatible. Con 193 cm de longitud, estructura de acero robusta y tejido textileno transpirable, aguanta hasta 150 kg y se reclina en varias posiciones. Se pliega fácilmente para guardarla en invierno.
+            La <strong>SONGMICS GCB19UV1</strong> es una tumbona de gama de entrada que ofrece lo esencial. Con 193 cm de longitud, estructura de acero robusta y tejido textileno transpirable, aguanta hasta 150 kg y se reclina en varias posiciones. Se pliega fácilmente para guardarla en invierno.
           </p>
           <div className="not-prose my-4">
             <Link href="/tienda/muebles-jardin" className="btn-primary">
@@ -227,7 +227,7 @@ export default function TumbonasJardinPage() {
 
           <h3>Keter Jaipur — La más resistente</h3>
           <p>
-            La <strong>Keter Jaipur</strong> apuesta por la resina de alta resistencia con acabado tipo ratán, muy resistente a la intemperie y con un mantenimiento mínimo. Incluye cojín gris y se pliega para guardarla. Perfecta para quien prioriza durabilidad y estética sobre el precio más bajo.
+            La <strong>Keter Jaipur</strong> apuesta por la resina de alta resistencia con acabado tipo ratán, muy resistente a la intemperie y con un mantenimiento mínimo. Incluye cojín gris y se pliega para guardarla. Perfecta para quien prioriza durabilidad y estética por encima de todo.
           </p>
           <div className="not-prose my-4">
             <Link href="/tienda/muebles-jardin" className="btn-primary">

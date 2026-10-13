@@ -14,7 +14,7 @@ const personSchema = {
   name: "Equipo Editorial de Guía del Piscina",
   url: "https://www.guiadelpiscina.com/sobre-nosotros",
   description:
-    "Equipo editorial de Guía del Piscina (Mkt Web 360 SLU). Comparamos especificaciones técnicas, precios y opiniones verificadas antes de recomendar equipamiento de piscinas y jardín, con apoyo de IA en investigación y redacción bajo revisión editorial.",
+    "Equipo editorial de Guía del Piscina (Mkt Web 360 SLU). Analizamos especificaciones técnicas, fichas de fabricante y experiencia de uso antes de recomendar equipamiento de piscinas y jardín, con apoyo de IA en investigación y redacción bajo revisión editorial.",
   knowsAbout: [
     "mantenimiento de piscinas",
     "tratamiento del agua",
@@ -107,7 +107,7 @@ export default function SobreNosotrosPage() {
             <p className="text-xl font-bold text-gray-900">Equipo Editorial de Guía del Piscina</p>
             <p className="text-sky-700 font-medium text-sm mb-2">Mkt Web 360 SLU</p>
             <p className="text-gray-600 text-sm leading-relaxed mb-4">
-              Comparamos especificaciones técnicas, precios y opiniones verificadas de compradores reales antes de recomendar cualquier equipo de piscina o jardín, con apoyo de IA en investigación y redacción bajo revisión editorial. Nunca inventamos datos de producto ni experiencias de uso.
+              Analizamos especificaciones técnicas, fichas de fabricante y experiencia de uso antes de recomendar cualquier equipo de piscina o jardín, con apoyo de IA en investigación y redacción bajo revisión editorial. Nunca inventamos datos de producto ni experiencias de uso.
             </p>
             {/* Expertise tags */}
             <div className="flex flex-wrap gap-2">

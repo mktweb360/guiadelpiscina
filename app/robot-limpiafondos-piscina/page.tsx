@@ -30,7 +30,7 @@ const faqs = [
   { q: "¿Cuántas veces a la semana debe limpiar el robot?", a: "Lo ideal es usarlo 2-3 veces por semana en temporada alta (julio-agosto) y 1 vez por semana en primavera y otoño. Con hojas cerca de la piscina, puede ser necesario a diario." },
   { q: "¿Robot limpiafondos o limpiafondos hidráulico?", a: "Los robots eléctricos son más eficaces (limpian fondo, paredes y línea de agua) y no dependen de la depuradora. Los hidráulicos son más baratos pero necesitan la bomba encendida y solo limpian el fondo. Para piscinas de más de 40 m², el robot merece la inversión." },
   { q: "¿Qué pasa con las hojas y el pelo?", a: "La mayoría de robots tienen cesta o bolsa de filtrado que recoge hojas, pelo y suciedad fina. Asegúrate de vaciarla después de cada uso. Los modelos premium tienen filtros de doble etapa que recogen partículas muy pequeñas." },
-  { q: "¿Cuánto consume un robot limpiafondos?", a: "El consumo es muy bajo, entre 150 y 250 vatios por hora. Un ciclo de 2,5 horas supone apenas 0,4-0,6 kWh, menos de 0,10€ al precio actual de la electricidad. Son notablemente más eficientes que la bomba de la depuradora." },
+  { q: "¿Cuánto consume un robot limpiafondos?", a: "El consumo es muy bajo, entre 150 y 250 vatios por hora. Un ciclo de 2,5 horas supone apenas 0,4-0,6 kWh. Son notablemente más eficientes que la bomba de la depuradora." },
 ];
 
 const articleSchema = {
@@ -44,7 +44,7 @@ const articleSchema = {
     "@type": "Organization",
     name: "Equipo Editorial de Guía del Piscina",
     url: "https://www.guiadelpiscina.com/sobre-nosotros",
-    description: "Equipo editorial de Guía del Piscina (Mkt Web 360 SLU). Comparamos especificaciones técnicas, precios y opiniones verificadas, con apoyo de IA en investigación y redacción bajo revisión editorial.",
+    description: "Equipo editorial de Guía del Piscina (Mkt Web 360 SLU). Analizamos especificaciones técnicas, fichas de fabricante y experiencia de uso, con apoyo de IA en investigación y redacción bajo revisión editorial.",
     knowsAbout: ["mantenimiento de piscinas", "tratamiento del agua", "depuradoras", "cloro y pH", "piscinas desmontables"],
   },
   publisher: { "@type": "Organization", name: "Mkt Web 360 SLU", url: "https://www.guiadelpiscina.com" },
@@ -109,7 +109,7 @@ export default function RobotLimpiafondosPage() {
             <p className="text-gray-800 font-medium leading-relaxed">Un <strong>robot limpiafondos</strong> transforma el mantenimiento de la piscina: en lugar de pasar horas con el aspirador manual, el robot limpia el fondo, las paredes e incluso la línea de agua mientras tú disfrutas. En esta guía analizamos los <strong>5 mejores robots limpiafondos</strong> para piscina disponibles en el mercado. También puedes <Link href="/tienda/robots-limpiafondos" className="text-sky-600 hover:underline font-medium">comparar todos los robots limpiafondos en nuestra tienda</Link>.</p>
           </div>
           <p>
-            Los precios oscilan entre 250 y 600€, una inversión que se amortiza rápidamente si consideras el tiempo y el esfuerzo que ahorras durante toda la temporada.
+            Hay modelos de entrada que solo limpian el fondo y modelos de gama alta que también suben por paredes y línea de agua; cualquiera de ellos se nota en el tiempo y el esfuerzo que ahorras durante toda la temporada.
           </p>
 
           <h2>Comparativa — Mejores robots limpiafondos</h2>

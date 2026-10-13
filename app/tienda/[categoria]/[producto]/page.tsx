@@ -46,7 +46,7 @@ const categoryFaqs: Record<string, { q: string; a: string }[]> = {
   ],
   "cesped-artificial": [
     { q: "¿El césped artificial se calienta mucho en verano?", a: "Sí, el césped artificial puede alcanzar temperaturas de 50-60°C en verano cuando le da el sol directo, significativamente más que el césped natural. Para mitigarlo, elige fibras de color más claro (menos absorción de calor), instala el césped en zonas con sombra parcial, o riégalo brevemente antes de usarlo para bajarlo de temperatura." },
-    { q: "¿Cuánto cuesta instalar césped artificial por m²?", a: "El precio total (material + instalación profesional) suele estar entre 25 y 45 €/m², dependiendo de la calidad del césped, la preparación del suelo necesaria y la complejidad de la instalación. Solo el material, para instalación propia, va de 8 a 25 €/m² según la calidad." },
+    { q: "¿Qué influye en el coste de instalar césped artificial?", a: "Sobre todo tres cosas: la calidad del césped (altura del pelo, densidad de puntadas y número de tonalidades), la preparación del suelo que necesite la zona y si lo instalas tú o un profesional. Para instalarlo por tu cuenta, además del rollo, cuenta con cinta de unión, adhesivo y piquetas." },
     { q: "¿El césped artificial es seguro para niños y mascotas?", a: "Los céspedes artificiales de calidad certificada son seguros para niños y mascotas. Busca modelos sin plomo (libre de metales pesados) y con certificación REACH europea. Las mascotas pueden usarlo sin problema; los orines se limpian fácilmente con agua y un desinfectante específico para césped artificial." },
   ],
 };

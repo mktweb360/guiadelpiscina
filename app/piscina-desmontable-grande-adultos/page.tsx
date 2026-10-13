@@ -70,7 +70,7 @@ const faqs = [
   },
   {
     q: "¿Cuánto consume la depuradora de arena que incluye?",
-    a: "Las depuradoras de arena que incluyen estos modelos consumen entre 80 y 200 W. Con 8 horas de funcionamiento diario, el coste eléctrico es de 0,10-0,25€/día a tarifas medias españolas.",
+    a: "Las depuradoras de arena que incluyen estos modelos consumen entre 80 y 200 W. Con 8 horas de funcionamiento diario, eso son entre 0,6 y 1,6 kWh al día: un consumo bajo comparado con otros electrodomésticos de la casa.",
   },
   {
     q: "¿Se puede dejar la piscina montada todo el año?",
@@ -94,7 +94,7 @@ const articleSchema = {
     "@type": "Organization",
     name: "Equipo Editorial de Guía del Piscina",
     url: "https://www.guiadelpiscina.com/sobre-nosotros",
-    description: "Equipo editorial de Guía del Piscina (Mkt Web 360 SLU). Comparamos especificaciones técnicas, precios y opiniones verificadas, con apoyo de IA en investigación y redacción bajo revisión editorial.",
+    description: "Equipo editorial de Guía del Piscina (Mkt Web 360 SLU). Analizamos especificaciones técnicas, fichas de fabricante y experiencia de uso, con apoyo de IA en investigación y redacción bajo revisión editorial.",
     knowsAbout: ["mantenimiento de piscinas", "tratamiento del agua", "depuradoras", "cloro y pH", "piscinas desmontables"],
   },
   publisher: { "@type": "Organization", name: "Mkt Web 360 SLU", url: "https://www.guiadelpiscina.com" },

@@ -39,7 +39,7 @@ const articleSchema = {
     "@type": "Organization",
     name: "Equipo Editorial de Guía del Piscina",
     url: "https://www.guiadelpiscina.com/sobre-nosotros",
-    description: "Equipo editorial de Guía del Piscina (Mkt Web 360 SLU). Comparamos especificaciones técnicas, precios y opiniones verificadas, con apoyo de IA en investigación y redacción bajo revisión editorial.",
+    description: "Equipo editorial de Guía del Piscina (Mkt Web 360 SLU). Analizamos especificaciones técnicas, fichas de fabricante y experiencia de uso, con apoyo de IA en investigación y redacción bajo revisión editorial.",
     knowsAbout: ["mantenimiento de piscinas", "tratamiento del agua", "depuradoras", "cloro y pH", "piscinas desmontables"],
   },
   publisher: { "@type": "Organization", name: "Mkt Web 360 SLU", url: "https://www.guiadelpiscina.com" },
@@ -101,7 +101,7 @@ export default function MueblesJardinPage() {
         <div className="prose">
                     <div id="respuesta-directa" className="bg-sky-50 border-l-4 border-sky-500 rounded-r-xl px-5 py-4 mb-6">
             <p className="text-xs font-bold text-sky-700 uppercase tracking-wide mb-1.5">Respuesta directa</p>
-            <p className="text-gray-800 font-medium leading-relaxed">Los <strong>muebles de jardín</strong> son la clave para disfrutar al máximo de la terraza o el jardín en verano. Elegir bien marca la diferencia entre un espacio que se deteriora en dos temporadas y uno que dura décadas. En esta guía analizamos los <strong>mejores conjuntos de muebles de jardín y terraza</strong> disponibles en el mercado, con precios entre 130 y 650€. Puedes <Link href="/tienda/muebles-jardin" className="text-sky-600 hover:underline font-medium">ver conjuntos de jardín en nuestra tienda</Link> con selección actualizada y precios comparados.</p>
+            <p className="text-gray-800 font-medium leading-relaxed">Los <strong>muebles de jardín</strong> son la clave para disfrutar al máximo de la terraza o el jardín en verano. Elegir bien marca la diferencia entre un espacio que se deteriora en dos temporadas y uno que dura décadas. En esta guía analizamos los <strong>mejores conjuntos de muebles de jardín y terraza</strong> disponibles en el mercado, de la gama de entrada a la gama alta. Puedes <Link href="/tienda/muebles-jardin" className="text-sky-600 hover:underline font-medium">ver conjuntos de jardín en nuestra tienda</Link> con selección actualizada.</p>
           </div>
 
           <h2>Comparativa — Mejores muebles de jardín</h2>
@@ -144,7 +144,7 @@ export default function MueblesJardinPage() {
         <div className="prose">
           <h2>Los mejores muebles de jardín — Análisis detallado</h2>
 
-          <h3>1. Conjunto de rattan 3 piezas — Mejor precio</h3>
+          <h3>1. Conjunto de rattan 3 piezas — Gama de entrada</h3>
           <p>
             Para terrazas pequeñas o presupuestos ajustados, un conjunto de 3 piezas en rattan sintético de gama de entrada es una opción muy sólida. El rattan sintético imita la estética del natural pero es mucho más resistente a la humedad y los rayos UV.
           </p>

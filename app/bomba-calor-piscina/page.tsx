@@ -27,7 +27,7 @@ const products = [
 ];
 
 const faqs = [
-  { q: "¿Cuánto ahorra una bomba de calor frente a una resistencia eléctrica?", a: "Mucho. Una bomba de calor con COP 5 produce 5 kWh de calor por cada 1 kWh consumido. Una resistencia eléctrica produce 1 kWh por 1 kWh consumido. Esto supone un ahorro del 80% en el coste de calentamiento. Con la electricidad a 0,15€/kWh, calentar una piscina de 50 m³ puede costar unos 150€ la temporada con bomba de calor vs. 750€ con resistencia." },
+  { q: "¿Cuánto ahorra una bomba de calor frente a una resistencia eléctrica?", a: "Mucho. Una bomba de calor con COP 5 produce 5 kWh de calor por cada 1 kWh consumido. Una resistencia eléctrica produce 1 kWh por 1 kWh consumido. Para el mismo calor, la bomba consume del orden de cinco veces menos electricidad que la resistencia, así que el ahorro en la factura es muy grande a lo largo de la temporada." },
   { q: "¿A qué temperatura puede calentar el agua?", a: "La mayoría de bombas de calor domésticas pueden calentar el agua hasta 35-40°C, más que suficiente para nadar cómodamente. La temperatura ideal para bañarse es entre 26 y 29°C." },
   { q: "¿Funciona la bomba de calor en invierno?", a: "Las bombas de calor convencionales funcionan con temperaturas exteriores por encima de 10-15°C. Los modelos inverter de última generación pueden operar hasta con temperaturas de 5°C. En invierno en el norte de España puede ser insuficiente; en el sur y en piscinas cubiertas funciona bien durante gran parte del año." },
   { q: "¿Cuánto tiempo tarda en calentar la piscina?", a: "Depende de la potencia de la bomba y del volumen de agua. Una bomba de 14 kW calienta una piscina de 50 m³ a 3-4°C por día en condiciones ideales (temperatura exterior 25°C). Para pasar de 20°C a 27°C necesitarías entre 2 y 3 días. Las de mayor potencia lo hacen más rápido." },
@@ -45,7 +45,7 @@ const articleSchema = {
     "@type": "Organization",
     name: "Equipo Editorial de Guía del Piscina",
     url: "https://www.guiadelpiscina.com/sobre-nosotros",
-    description: "Equipo editorial de Guía del Piscina (Mkt Web 360 SLU). Comparamos especificaciones técnicas, precios y opiniones verificadas, con apoyo de IA en investigación y redacción bajo revisión editorial.",
+    description: "Equipo editorial de Guía del Piscina (Mkt Web 360 SLU). Analizamos especificaciones técnicas, fichas de fabricante y experiencia de uso, con apoyo de IA en investigación y redacción bajo revisión editorial.",
     knowsAbout: ["mantenimiento de piscinas", "tratamiento del agua", "depuradoras", "cloro y pH", "piscinas desmontables"],
   },
   publisher: { "@type": "Organization", name: "Mkt Web 360 SLU", url: "https://www.guiadelpiscina.com" },
@@ -172,7 +172,7 @@ export default function BombaCalorPage() {
         <div className="prose">
           <h2>Análisis detallado</h2>
 
-          <h3>1. Gre HPM30 — Mejor precio para piscinas hasta 30 m³</h3>
+          <h3>1. Gre HPM30 — Gama de entrada para piscinas hasta 30 m³</h3>
           <p>
             La <strong>Gre HPM30</strong> es la mini bomba de calor más equilibrada para piscinas desmontables de hasta 30 m³. Funciona en modo <strong>Plug &amp; Play</strong>, sin necesidad de bypass, con conexiones de 32/38 mm compatibles con la mayoría de depuradoras. Con 4,2 kW de potencia y un COP en torno a 4, calienta el agua de forma económica y con una instalación al alcance de cualquiera.
           </p>
