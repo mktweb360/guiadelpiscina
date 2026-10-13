@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { amazonLink } from "@/lib/amazon";
 import AffiliateDisclosure from "@/components/AffiliateDisclosure";
 import AdSenseAd from "@/components/AdSenseAd";
 import BlogSidebar from "@/components/BlogSidebar";
@@ -23,7 +22,7 @@ export const metadata: Metadata = {
 const products = [
   {
     name: "Intex 55244 — Clorador salino 4 g/h",
-    asin: "B08DJ8VLD8",
+    href: "/tienda/depuradoras",
     capacity: "Hasta 17.000 L",
     production: "4 g/h",
     compatible: "Piscinas Intex y Bestway",
@@ -31,7 +30,7 @@ const products = [
   },
   {
     name: "Bestway 58678 — Clorador salino Hydrogenic 6 g/h",
-    asin: "B0B69MW8C1",
+    href: "/tienda/depuradoras",
     capacity: "Hasta 30.000 L",
     production: "6 g/h",
     compatible: "Piscinas Bestway",
@@ -39,7 +38,7 @@ const products = [
   },
   {
     name: "Intex 26670 — Clorador salino ECO 12 g/h",
-    asin: "B07C9JL6RZ",
+    href: "/tienda/depuradoras",
     capacity: "Hasta 56.800 L",
     production: "12 g/h",
     compatible: "Piscinas Intex",
@@ -97,7 +96,7 @@ const articleSchema = {
     "@type": "Organization",
     name: "Equipo Editorial de Guía del Piscina",
     url: "https://www.guiadelpiscina.com/sobre-nosotros",
-    description: "Equipo editorial de Guía del Piscina (Mkt Web 360 SLU). Comparamos especificaciones técnicas, precios y opiniones verificadas, con apoyo de IA en investigación y redacción bajo revisión editorial.",
+    description: "Equipo editorial de Guía del Piscina (Mkt Web 360 SLU). Analizamos especificaciones técnicas, fichas de fabricante y experiencia de uso, con apoyo de IA en investigación y redacción bajo revisión editorial.",
     knowsAbout: ["mantenimiento de piscinas", "tratamiento del agua", "depuradoras", "cloro y pH", "piscinas desmontables"],
   },
   publisher: { "@type": "Organization", name: "Mkt Web 360 SLU", url: "https://www.guiadelpiscina.com" },
@@ -218,21 +217,21 @@ export default function CloradorSalinoPage() {
                 <th className="px-3 py-3 text-left">Capacidad piscina</th>
                 <th className="px-3 py-3 text-left">Producción Cl/h</th>
                 <th className="px-3 py-3 text-left">Compatible con</th>
-                <th className="px-3 py-3 text-left">Ver precio</th>
+                <th className="px-3 py-3 text-left">Ver</th>
               </tr>
             </thead>
             <tbody>
               {products.map((p, i) => (
-                <tr key={p.asin} className={i % 2 === 0 ? "bg-white" : "bg-gray-50"}>
+                <tr key={p.name} className={i % 2 === 0 ? "bg-white" : "bg-gray-50"}>
                   <td className="px-3 py-3 font-medium text-gray-900">{p.name}</td>
                   <td className="px-3 py-3 text-gray-600">{p.capacity}</td>
                   <td className="px-3 py-3 text-gray-600">{p.production}</td>
                   <td className="px-3 py-3 text-gray-600">{p.compatible}</td>
                   <td className="px-3 py-3">
-                    <a href={amazonLink(p.asin)} target="_blank" rel="nofollow noopener noreferrer sponsored"
+                    <Link href={p.href}
                       className="inline-block bg-orange-500 text-white text-xs font-bold px-3 py-1.5 rounded-lg hover:bg-orange-600 transition-colors whitespace-nowrap">
-                      Ver precio →
-                    </a>
+                      Ver opciones →
+                    </Link>
                   </td>
                 </tr>
               ))}
@@ -250,9 +249,9 @@ export default function CloradorSalinoPage() {
             El <strong>Intex 55244</strong> es el punto de entrada perfecto a la cloración salina. Con una producción de 4 g/h de cloro, es ideal para piscinas desmontables de hasta 17.000 litros. Es sencillo de instalar, se conecta directamente a la depuradora y su precio lo convierte en la opción más accesible para dar el salto desde las pastillas.
           </p>
           <div className="not-prose my-4">
-            <a href={amazonLink("B08DJ8VLD8")} target="_blank" rel="nofollow noopener noreferrer sponsored" className="btn-primary">
-              Ver Intex 55244 →
-            </a>
+            <Link href="/tienda/depuradoras" className="btn-primary">
+              Ver depuradoras en la tienda →
+            </Link>
           </div>
 
           <h3>Bestway Hydrogenic — Equilibrio calidad-precio</h3>
@@ -260,9 +259,9 @@ export default function CloradorSalinoPage() {
             El <strong>Bestway 58678 Hydrogenic</strong> es la opción más equilibrada para piscinas Bestway de tamaño medio, hasta 30.000 litros. Con 6 g/h de producción, ofrece un buen margen para mantener el agua estable incluso en pleno verano, a un precio muy razonable.
           </p>
           <div className="not-prose my-4">
-            <a href={amazonLink("B0B69MW8C1")} target="_blank" rel="nofollow noopener noreferrer sponsored" className="btn-primary">
-              Ver Bestway Hydrogenic →
-            </a>
+            <Link href="/tienda/depuradoras" className="btn-primary">
+              Ver depuradoras en la tienda →
+            </Link>
           </div>
 
           <h3>Intex 26670 — Para piscinas grandes hasta 56.800 L</h3>
@@ -270,9 +269,9 @@ export default function CloradorSalinoPage() {
             El <strong>Intex 26670 ECO</strong> es el más potente del comparativo, con 12 g/h de producción para piscinas grandes de hasta 56.800 litros. Incorpora además el sistema ECO de esterilización que mejora la calidad del agua. Es la elección para quien tiene una piscina familiar grande y quiere desinfección automática y sin preocupaciones.
           </p>
           <div className="not-prose my-4">
-            <a href={amazonLink("B07C9JL6RZ")} target="_blank" rel="nofollow noopener noreferrer sponsored" className="btn-primary">
-              Ver Intex 26670 →
-            </a>
+            <Link href="/tienda/depuradoras" className="btn-primary">
+              Ver depuradoras en la tienda →
+            </Link>
           </div>
 
           <h2>Cómo instalar un clorador salino paso a paso</h2>

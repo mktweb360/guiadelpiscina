@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { amazonLink } from "@/lib/amazon";
 import AffiliateDisclosure from "@/components/AffiliateDisclosure";
 import AdSenseAd from "@/components/AdSenseAd";
 import BlogSidebar from "@/components/BlogSidebar";
@@ -19,11 +18,11 @@ export const metadata: Metadata = {
 };
 
 const products = [
-  { pos: 1, name: "Dolphin Nauty — Robot compacto", asin: "B01N78IVWJ", price: "€249,99", coverage: "Fondo", pool: "Hasta 7,5 m", cycle: "2,5 horas", stars: "4,4/5", best: "Mejor precio" },
-  { pos: 2, name: "Bestway Flowclear AquaGlide (batería litio)", asin: "B08J7TMT3K", price: "€329,00", coverage: "Fondo + Paredes", pool: "Hasta 12 m", cycle: "2 horas", stars: "4,3/5", best: "Mejor calidad-precio" },
-  { pos: 3, name: "Dolphin Carrera 35 — Robot premium", asin: "B07Q2D2KF3", price: "€449,99", coverage: "Fondo + Paredes + Línea de agua", pool: "Hasta 15 m", cycle: "2,5 horas", stars: "4,6/5", best: "Mejor rendimiento" },
-  { pos: 4, name: "Dolphin Formula 30 — Piscinas enterradas 12m", asin: "B07BGW5FDZ", price: "€529,00", coverage: "Fondo + Paredes + Línea de agua", pool: "Hasta 12 m", cycle: "2 horas", stars: "4,5/5", best: "Piscinas enterradas" },
-  { pos: 5, name: "Dolphin Poolstyle 35 Plus", asin: "B07SP8GC4R", price: "€599,99", coverage: "Fondo + Paredes completas", pool: "Hasta 12 m", cycle: "2 horas", stars: "4,7/5", best: "Mejor limpieza de paredes" },
+  { pos: 1, name: "Dolphin Nauty — Robot compacto", href: "/tienda/robots-limpiafondos", price: "€249,99", coverage: "Fondo", pool: "Hasta 7,5 m", cycle: "2,5 horas", stars: "4,4/5", best: "Mejor precio" },
+  { pos: 2, name: "Bestway Flowclear AquaGlide (batería litio)", href: "/tienda/robots-limpiafondos", price: "€329,00", coverage: "Fondo + Paredes", pool: "Hasta 12 m", cycle: "2 horas", stars: "4,3/5", best: "Mejor calidad-precio" },
+  { pos: 3, name: "Dolphin Carrera 35 — Robot premium", href: "/tienda/robots-limpiafondos", price: "€449,99", coverage: "Fondo + Paredes + Línea de agua", pool: "Hasta 15 m", cycle: "2,5 horas", stars: "4,6/5", best: "Mejor rendimiento" },
+  { pos: 4, name: "Dolphin Formula 30 — Piscinas enterradas 12m", href: "/tienda/robots-limpiafondos", price: "€529,00", coverage: "Fondo + Paredes + Línea de agua", pool: "Hasta 12 m", cycle: "2 horas", stars: "4,5/5", best: "Piscinas enterradas" },
+  { pos: 5, name: "Dolphin Poolstyle 35 Plus", href: "/tienda/robots-limpiafondos", price: "€599,99", coverage: "Fondo + Paredes completas", pool: "Hasta 12 m", cycle: "2 horas", stars: "4,7/5", best: "Mejor limpieza de paredes" },
 ];
 
 const faqs = [
@@ -31,7 +30,7 @@ const faqs = [
   { q: "¿Cuántas veces a la semana debe limpiar el robot?", a: "Lo ideal es usarlo 2-3 veces por semana en temporada alta (julio-agosto) y 1 vez por semana en primavera y otoño. Con hojas cerca de la piscina, puede ser necesario a diario." },
   { q: "¿Robot limpiafondos o limpiafondos hidráulico?", a: "Los robots eléctricos son más eficaces (limpian fondo, paredes y línea de agua) y no dependen de la depuradora. Los hidráulicos son más baratos pero necesitan la bomba encendida y solo limpian el fondo. Para piscinas de más de 40 m², el robot merece la inversión." },
   { q: "¿Qué pasa con las hojas y el pelo?", a: "La mayoría de robots tienen cesta o bolsa de filtrado que recoge hojas, pelo y suciedad fina. Asegúrate de vaciarla después de cada uso. Los modelos premium tienen filtros de doble etapa que recogen partículas muy pequeñas." },
-  { q: "¿Cuánto consume un robot limpiafondos?", a: "El consumo es muy bajo, entre 150 y 250 vatios por hora. Un ciclo de 2,5 horas supone apenas 0,4-0,6 kWh, menos de 0,10€ al precio actual de la electricidad. Son notablemente más eficientes que la bomba de la depuradora." },
+  { q: "¿Cuánto consume un robot limpiafondos?", a: "El consumo es muy bajo, entre 150 y 250 vatios por hora. Un ciclo de 2,5 horas supone apenas 0,4-0,6 kWh. Son notablemente más eficientes que la bomba de la depuradora." },
 ];
 
 const articleSchema = {
@@ -45,7 +44,7 @@ const articleSchema = {
     "@type": "Organization",
     name: "Equipo Editorial de Guía del Piscina",
     url: "https://www.guiadelpiscina.com/sobre-nosotros",
-    description: "Equipo editorial de Guía del Piscina (Mkt Web 360 SLU). Comparamos especificaciones técnicas, precios y opiniones verificadas, con apoyo de IA en investigación y redacción bajo revisión editorial.",
+    description: "Equipo editorial de Guía del Piscina (Mkt Web 360 SLU). Analizamos especificaciones técnicas, fichas de fabricante y experiencia de uso, con apoyo de IA en investigación y redacción bajo revisión editorial.",
     knowsAbout: ["mantenimiento de piscinas", "tratamiento del agua", "depuradoras", "cloro y pH", "piscinas desmontables"],
   },
   publisher: { "@type": "Organization", name: "Mkt Web 360 SLU", url: "https://www.guiadelpiscina.com" },
@@ -110,7 +109,7 @@ export default function RobotLimpiafondosPage() {
             <p className="text-gray-800 font-medium leading-relaxed">Un <strong>robot limpiafondos</strong> transforma el mantenimiento de la piscina: en lugar de pasar horas con el aspirador manual, el robot limpia el fondo, las paredes e incluso la línea de agua mientras tú disfrutas. En esta guía analizamos los <strong>5 mejores robots limpiafondos</strong> para piscina disponibles en el mercado. También puedes <Link href="/tienda/robots-limpiafondos" className="text-sky-600 hover:underline font-medium">comparar todos los robots limpiafondos en nuestra tienda</Link>.</p>
           </div>
           <p>
-            Los precios oscilan entre 250 y 600€, una inversión que se amortiza rápidamente si consideras el tiempo y el esfuerzo que ahorras durante toda la temporada.
+            Hay modelos de entrada que solo limpian el fondo y modelos de gama alta que también suben por paredes y línea de agua; cualquiera de ellos se nota en el tiempo y el esfuerzo que ahorras durante toda la temporada.
           </p>
 
           <h2>Comparativa — Mejores robots limpiafondos</h2>
@@ -125,22 +124,22 @@ export default function RobotLimpiafondosPage() {
                 <th className="px-3 py-3 text-left">Cobertura</th>
                 <th className="px-3 py-3 text-left">Piscina</th>
                 <th className="px-3 py-3 text-left">Ciclo</th>
-                <th className="px-3 py-3 text-left">Comprar</th>
+                <th className="px-3 py-3 text-left">Ver</th>
               </tr>
             </thead>
             <tbody>
               {products.map((p, i) => (
-                <tr key={p.asin} className={i % 2 === 0 ? "bg-white" : "bg-gray-50"}>
+                <tr key={p.name} className={i % 2 === 0 ? "bg-white" : "bg-gray-50"}>
                   <td className="px-3 py-3 font-bold text-sky-600">{p.pos}</td>
                   <td className="px-3 py-3 font-medium text-gray-900">{p.name}</td>
                   <td className="px-3 py-3 text-gray-600 text-xs">{p.coverage}</td>
                   <td className="px-3 py-3 text-gray-600">{p.pool}</td>
                   <td className="px-3 py-3 text-gray-600">{p.cycle}</td>
                   <td className="px-3 py-3">
-                    <a href={amazonLink(p.asin)} target="_blank" rel="nofollow noopener noreferrer sponsored"
+                    <Link href={p.href}
                       className="inline-block bg-orange-500 text-white text-xs font-bold px-3 py-1.5 rounded-lg hover:bg-orange-600 transition-colors whitespace-nowrap">
-                      Ver precio →
-                    </a>
+                      Ver opciones →
+                    </Link>
                   </td>
                 </tr>
               ))}
@@ -162,9 +161,9 @@ export default function RobotLimpiafondosPage() {
             <li><strong>Contras:</strong> No sube paredes, cable de 12 metros (limita en piscinas largas)</li>
           </ul>
           <div className="not-prose my-4">
-            <a href={amazonLink("B01N78IVWJ")} target="_blank" rel="nofollow noopener noreferrer sponsored" className="btn-primary">
-              Ver Dolphin Nauty →
-            </a>
+            <Link href="/tienda/robots-limpiafondos" className="btn-primary">
+              Ver robots limpiafondos en la tienda →
+            </Link>
           </div>
 
           <h3>2. Bestway Flowclear AquaGlide con batería de litio — Mejor calidad-precio</h3>
@@ -185,9 +184,9 @@ export default function RobotLimpiafondosPage() {
             <li><strong>Contras:</strong> Precio elevado, el cable puede enredarse en piscinas con muchas esquinas</li>
           </ul>
           <div className="not-prose my-4">
-            <a href={amazonLink("B07Q2D2KF3")} target="_blank" rel="nofollow noopener noreferrer sponsored" className="btn-primary">
-              Ver Dolphin Carrera 35 →
-            </a>
+            <Link href="/tienda/robots-limpiafondos" className="btn-primary">
+              Ver robots limpiafondos en la tienda →
+            </Link>
           </div>
 
           <h2>¿Cómo elegir el robot limpiafondos adecuado?</h2>

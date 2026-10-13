@@ -37,19 +37,19 @@ const comparison = [
     name: "AIPER Scuba S1 (2026 Upgrade)",
     positioning: "Alto",
     highlight: "270 min de autonomía, gama alta AIPER",
-    href: "/tienda/robots-limpiafondos/aiper-scuba-s1-robot-piscina",
+    href: "/tienda/robots-limpiafondos/aiper-scuba-s1-2026-robot-piscina",
   },
   {
     name: "WYBOT C2 Vision Plus",
     positioning: "Alto",
     highlight: "Cámara con IA, cobertura 210 m²",
-    href: "/tienda/robots-limpiafondos/wybot-c2-vision-robot-piscina",
+    href: "/tienda/robots-limpiafondos",
   },
 ];
 
 const pros = [
-  "El robot limpiafondos más económico del catálogo",
-  "Un volumen alto de reseñas verificadas con valoración sólida — dato consolidado, no una ficha nueva sin recorrido",
+  "Robot de entrada de gama dentro del catálogo",
+  "Marca con recorrido en robots de piscina y garantía de 3 años del fabricante",
   "90 minutos de autonomía, suficiente para piscinas medianas",
   "Inalámbrico: sin cable que enredar ni necesidad de conexión a la depuradora",
   "Misma marca (AIPER) que el modelo de gama alta del catálogo, con recorrido probado",
@@ -71,8 +71,8 @@ const faqs = [
     a: "Depende del tamaño de la piscina y del uso. Para piscinas desmontables medianas, el SE con sus 90 minutos suele ser suficiente y ofrece la mejor relación calidad-precio del catálogo. Para piscinas grandes o con mucha suciedad acumulada, la autonomía de 270 minutos del S1 evita tener que recargar a mitad de la limpieza.",
   },
   {
-    q: "¿Cómo se compara con el Pooleco 10, que tiene el mismo precio?",
-    a: "Ambos están en un rango de precio muy similar. El Pooleco 10 tiene, en el momento de esta comparativa, una valoración muy alta pero basada en un volumen de reseñas bajo — insuficiente para sacar conclusiones firmes. El AIPER Scuba SE tiene un volumen de reseñas mucho mayor y una valoración sólida, un dato mucho más consolidado y una marca con más recorrido en el catálogo.",
+    q: "¿Cómo se compara con el Pooleco 10, de la misma gama?",
+    a: "Ambos son robots de entrada de gama para el fondo, con unos 90 minutos de autonomía y hasta 80 m². El Pooleco 10 aporta flotador para recogerlo sin pértiga y un filtro fino de 180 μm, pero es una marca con poco recorrido en España. El AIPER Scuba SE es de una marca más asentada en robots de piscina y ofrece 3 años de garantía del fabricante.",
   },
   {
     q: "¿Necesito palo o red para sacarlo del agua?",
@@ -92,7 +92,7 @@ const articleSchema = {
     "@type": "Organization",
     name: "Equipo Editorial de Guía del Piscina",
     url: "https://www.guiadelpiscina.com/sobre-nosotros",
-    description: "Equipo editorial de Guía del Piscina (Mkt Web 360 SLU). Comparamos especificaciones técnicas, precios y opiniones verificadas, con apoyo de IA en investigación y redacción bajo revisión editorial.",
+    description: "Equipo editorial de Guía del Piscina (Mkt Web 360 SLU). Analizamos especificaciones técnicas, fichas de fabricante y experiencia de uso, con apoyo de IA en investigación y redacción bajo revisión editorial.",
     knowsAbout: ["robots limpiafondos", "mantenimiento de piscinas", "depuradoras"],
   },
   publisher: { "@type": "Organization", name: "Mkt Web 360 SLU", url: "https://www.guiadelpiscina.com" },
@@ -165,7 +165,7 @@ export default function AiperScubaSeAnalisisPage() {
 
           <h2>Por qué destaca este producto</h2>
           <p>
-            El catálogo de robots limpiafondos de esta web incluye cuatro opciones con enfoques distintos: el Scuba SE (entrada de gama, precio ajustado), el Pooleco 10 (mismo precio, marca menos consolidada), el AIPER Scuba S1 (gama alta de la misma marca, mucha más autonomía) y el WYBOT C2 Vision Plus (tecnología de cámara con IA, el más caro). El Scuba SE es la recomendación por defecto para quien busca automatizar la limpieza del fondo sin gastar de más, con el respaldo de un volumen de reseñas muy superior a las alternativas de precio similar.
+            El catálogo de robots limpiafondos de esta web incluye cuatro opciones con enfoques distintos: el Scuba SE (entrada de gama), el Pooleco 10 (misma gama, marca menos consolidada), el AIPER Scuba S1 (gama alta de la misma marca, mucha más autonomía) y el WYBOT C2 Vision Plus (tecnología de cámara con IA, gama alta). El Scuba SE es la recomendación por defecto para quien busca automatizar la limpieza del fondo sin irse a la gama alta, con el respaldo de una marca con recorrido.
           </p>
 
           <h2>Pros y contras</h2>
@@ -229,10 +229,10 @@ export default function AiperScubaSeAnalisisPage() {
         <div className="prose">
           <h2>¿Para quién es este robot?</h2>
           <p>
-            El AIPER Scuba SE es la opción recomendada para piscinas desmontables o enterradas de tamaño medio, para quien prioriza precio y quiere un robot con reseñas reales que lo respalden. Si tu piscina es grande o tiene mucha suciedad acumulada, la mayor autonomía del{" "}
-            <Link href="/tienda/robots-limpiafondos/aiper-scuba-s1-robot-piscina" className="text-sky-600 hover:underline">AIPER Scuba S1</Link>{" "}
+            El AIPER Scuba SE es la opción recomendada para piscinas desmontables o enterradas de tamaño medio, para quien busca un robot de entrada de gama de una marca con recorrido. Si tu piscina es grande o tiene mucha suciedad acumulada, la mayor autonomía del{" "}
+            <Link href="/tienda/robots-limpiafondos/aiper-scuba-s1-2026-robot-piscina" className="text-sky-600 hover:underline">AIPER Scuba S1</Link>{" "}
             evitará tener que recargarlo a mitad del ciclo. Si además quieres navegación mapeada por cámara, el{" "}
-            <Link href="/tienda/robots-limpiafondos/wybot-c2-vision-robot-piscina" className="text-sky-600 hover:underline">WYBOT C2 Vision Plus</Link>{" "}
+            <Link href="/tienda/robots-limpiafondos" className="text-sky-600 hover:underline">WYBOT C2 Vision Plus</Link>{" "}
             es la opción de tecnología más avanzada del catálogo.
           </p>
         </div>

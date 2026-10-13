@@ -14,11 +14,11 @@ export const metadata: Metadata = {
 };
 
 const products = [
-  { pos: 1, name: "LUCATEX Césped Artificial Miami 7mm 2x5m Exterior Económico", asin: "B08BNFLYYD", height: "20 mm", density: "16.000 fibras/m²", uv: "Básica", feel: "Rígido", best: "Más económico" },
-  { pos: 2, name: "Jardin202 Césped Artificial Terraza Plus 22mm Rollo 2x5m", asin: "B07Q45NHKD", height: "30 mm", density: "25.000 fibras/m²", uv: "Media", feel: "Suave", best: "Mejor calidad-precio" },
+  { pos: 1, name: "LUCATEX Césped Artificial Miami 7mm 2x5m Exterior Económico", href: "/tienda/cesped-artificial", height: "20 mm", density: "16.000 fibras/m²", uv: "Básica", feel: "Rígido", best: "Más económico" },
+  { pos: 2, name: "Jardin202 Césped Artificial Terraza Plus 22mm Rollo 2x5m", href: "/tienda/cesped-artificial", height: "30 mm", density: "25.000 fibras/m²", uv: "Media", feel: "Suave", best: "Mejor calidad-precio" },
   { pos: 3, name: "Jardin202 Césped Artificial Premium 40mm Rollo 4x2m Alta Densidad", asin: "B07N1166PD", height: "40 mm", density: "30.000 fibras/m²", uv: "Alta (10 años)", feel: "Muy suave", best: "Más natural" },
-  { pos: 4, name: "Jardin202 Césped Artificial Palermo 35mm Rollo 2x4m Interior Exterior", asin: "B084BQ3YFH", height: "35 mm", density: "28.000 fibras/m²", uv: "Alta + drenaje", feel: "Suave antideslizante", best: "Mejor para piscinas" },
-  { pos: 5, name: "Floordirekt Césped Artificial 40mm Rollo 2x3m Lujo Piscinas", asin: "B07P6L92NP", height: "45 mm", density: "38.000 fibras/m²", uv: "Máxima (15 años)", feel: "Lujo", best: "Máxima calidad" },
+  { pos: 4, name: "Jardin202 Césped Artificial Palermo 35mm Rollo 2x4m Interior Exterior", href: "/tienda/cesped-artificial", height: "35 mm", density: "28.000 fibras/m²", uv: "Alta + drenaje", feel: "Suave antideslizante", best: "Mejor para piscinas" },
+  { pos: 5, name: "Floordirekt Césped Artificial 40mm Rollo 2x3m Lujo Piscinas", href: "/tienda/cesped-artificial", height: "45 mm", density: "38.000 fibras/m²", uv: "Máxima (15 años)", feel: "Lujo", best: "Máxima calidad" },
 ];
 
 const faqs = [
@@ -40,7 +40,7 @@ const articleSchema = {
     "@type": "Organization",
     name: "Equipo Editorial de Guía del Piscina",
     url: "https://www.guiadelpiscina.com/sobre-nosotros",
-    description: "Equipo editorial de Guía del Piscina (Mkt Web 360 SLU). Comparamos especificaciones técnicas, precios y opiniones verificadas, con apoyo de IA en investigación y redacción bajo revisión editorial.",
+    description: "Equipo editorial de Guía del Piscina (Mkt Web 360 SLU). Analizamos especificaciones técnicas, fichas de fabricante y experiencia de uso, con apoyo de IA en investigación y redacción bajo revisión editorial.",
     knowsAbout: ["mantenimiento de piscinas", "tratamiento del agua", "depuradoras", "cloro y pH", "piscinas desmontables"],
   },
   publisher: { "@type": "Organization", name: "Mkt Web 360 SLU", url: "https://www.guiadelpiscina.com" },
@@ -102,7 +102,7 @@ export default function CespedArtificialPage() {
         <div className="prose">
                     <div id="respuesta-directa" className="bg-sky-50 border-l-4 border-sky-500 rounded-r-xl px-5 py-4 mb-6">
             <p className="text-xs font-bold text-sky-700 uppercase tracking-wide mb-1.5">Respuesta directa</p>
-            <p className="text-gray-800 font-medium leading-relaxed">El <strong>césped artificial</strong> ha evolucionado enormemente en los últimos años: las fibras actuales son tan realistas que cuesta distinguirlos del natural a simple vista. Sin riego, sin cortes, sin fertilizantes y verde los 365 días del año. En esta guía comparamos los <strong>mejores céspedes artificiales para jardín</strong> disponibles en el mercado, con precios entre 5 y 15€/m². Puedes <Link href="/tienda/cesped-artificial" className="text-sky-600 hover:underline font-medium">ver rollos de césped artificial en nuestra tienda</Link> con los mejores modelos por densidad, altura y precio.</p>
+            <p className="text-gray-800 font-medium leading-relaxed">El <strong>césped artificial</strong> ha evolucionado enormemente en los últimos años: las fibras actuales son tan realistas que cuesta distinguirlos del natural a simple vista. Sin riego, sin cortes, sin fertilizantes y verde los 365 días del año. En esta guía comparamos los <strong>mejores céspedes artificiales para jardín</strong> disponibles en el mercado, de la gama de entrada a la de alta densidad. Puedes <Link href="/tienda/cesped-artificial" className="text-sky-600 hover:underline font-medium">ver rollos de césped artificial en nuestra tienda</Link> ordenados por densidad y altura del pelo.</p>
           </div>
 
           <h2>Comparativa — Mejores céspedes artificiales</h2>
@@ -118,12 +118,12 @@ export default function CespedArtificialPage() {
                 <th className="px-3 py-3 text-left">Densidad</th>
                 <th className="px-3 py-3 text-left">Protec. UV</th>
                 <th className="px-3 py-3 text-left">Tacto</th>
-                <th className="px-3 py-3 text-left">Comprar</th>
+                <th className="px-3 py-3 text-left">Ver</th>
               </tr>
             </thead>
             <tbody>
               {products.map((p, i) => (
-                <tr key={p.asin} className={i % 2 === 0 ? "bg-white" : "bg-gray-50"}>
+                <tr key={p.name} className={i % 2 === 0 ? "bg-white" : "bg-gray-50"}>
                   <td className="px-3 py-3 font-bold text-sky-600">{p.pos}</td>
                   <td className="px-3 py-3 font-medium text-gray-900">{p.name}</td>
                   <td className="px-3 py-3 text-gray-600">{p.height}</td>
@@ -131,10 +131,17 @@ export default function CespedArtificialPage() {
                   <td className="px-3 py-3 text-gray-600 text-xs">{p.uv}</td>
                   <td className="px-3 py-3 text-gray-600 text-xs">{p.feel}</td>
                   <td className="px-3 py-3">
-                    <a href={amazonLink(p.asin)} target="_blank" rel="noopener noreferrer sponsored"
-                      className="inline-block bg-orange-500 text-white text-xs font-bold px-3 py-1.5 rounded-lg hover:bg-orange-600 transition-colors whitespace-nowrap">
-                      Ver precio →
-                    </a>
+                    {p.asin ? (
+                      <a href={amazonLink(p.asin)} target="_blank" rel="nofollow noopener noreferrer sponsored"
+                        className="inline-block bg-orange-500 text-white text-xs font-bold px-3 py-1.5 rounded-lg hover:bg-orange-600 transition-colors whitespace-nowrap">
+                        Ver precio →
+                      </a>
+                    ) : (
+                      <Link href={p.href!}
+                        className="inline-block bg-orange-500 text-white text-xs font-bold px-3 py-1.5 rounded-lg hover:bg-orange-600 transition-colors whitespace-nowrap">
+                        Ver opciones →
+                      </Link>
+                    )}
                   </td>
                 </tr>
               ))}
@@ -152,9 +159,9 @@ export default function CespedArtificialPage() {
             Las fibras de 20-25 mm son más cortas, con aspecto más deportivo y resistente al uso intensivo. Las de 30-45 mm tienen un aspecto más natural y suave, ideal para zonas de descanso y juego. Para terrazas, 20-25 mm suele ser suficiente; para jardines, 30-40 mm da un resultado más natural.
           </p>
           <div className="not-prose my-4">
-            <a href={amazonLink("B07TKLM9NR")} target="_blank" rel="noopener noreferrer sponsored" className="btn-primary">
-              Ver césped 40mm bicolor →
-            </a>
+            <Link href="/tienda/cesped-artificial" className="btn-primary">
+              Ver césped artificial en la tienda →
+            </Link>
           </div>
 
           <h3>Densidad de fibras</h3>
@@ -167,9 +174,9 @@ export default function CespedArtificialPage() {
             Imprescindible en zonas soleadas de España. Sin protección UV, el color amarillea en 2-3 años. Los mejores modelos llevan protección UV para 10-15 años.
           </p>
           <div className="not-prose my-4">
-            <a href={amazonLink("B09RTKLM8Q")} target="_blank" rel="noopener noreferrer sponsored" className="btn-primary">
-              Ver césped para zona piscina →
-            </a>
+            <Link href="/tienda/cesped-artificial" className="btn-primary">
+              Ver césped artificial en la tienda →
+            </Link>
           </div>
 
           <h2>Cómo calcular cuánto césped artificial necesitas</h2>

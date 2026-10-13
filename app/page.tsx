@@ -7,7 +7,7 @@ import EmailCaptureSection from "@/components/EmailCaptureSection";
 export const metadata: Metadata = {
   title: "Guía del Piscina — Todo lo que necesitas para tu piscina y jardín",
   description:
-    "Guías de compra, análisis y comparativas de productos para piscinas, jardín y terraza. Encuentra los mejores productos al mejor precio del mercado.",
+    "Guías de compra, análisis y comparativas de productos para piscinas, jardín y terraza. Criterios claros para elegir bien cada equipo.",
   alternates: { canonical: "https://www.guiadelpiscina.com" },
   openGraph: {
     title: "Guía del Piscina — Todo lo que necesitas para tu piscina y jardín",
@@ -23,65 +23,71 @@ const categories = [
     icon: "💧",
     title: "Depuradoras de piscina",
     desc: "Las mejores depuradoras para mantener el agua limpia y cristalina",
-    price: "Desde 150€",
   },
   {
     href: "/robot-limpiafondos-piscina",
     icon: "🤖",
     title: "Robots limpiafondos",
     desc: "Limpieza automática del fondo y paredes sin esfuerzo",
-    price: "Desde 200€",
   },
   {
     href: "/bomba-calor-piscina",
     icon: "🌡️",
     title: "Bombas de calor",
     desc: "Extiende la temporada de baño calentando el agua de tu piscina",
-    price: "Desde 500€",
   },
   {
     href: "/muebles-jardin-terraza",
     icon: "🪑",
     title: "Muebles de jardín",
     desc: "Conjuntos y sillas para disfrutar del exterior todo el verano",
-    price: "Desde 99€",
   },
   {
     href: "/pergola-terraza",
     icon: "🏠",
     title: "Pérgolas",
     desc: "Protégete del sol con las mejores pérgolas para terraza y jardín",
-    price: "Desde 150€",
   },
   {
     href: "/sistema-riego-automatico",
     icon: "🌱",
     title: "Riego automático",
     desc: "Sistemas de riego inteligentes para un jardín siempre verde",
-    price: "Desde 30€",
   },
   {
     href: "/cesped-artificial-jardin",
     icon: "🌿",
     title: "Césped artificial",
     desc: "Césped sintético de alta calidad sin mantenimiento",
-    price: "Desde 5€/m²",
   },
   {
     href: "/piscina-desmontable-grande",
     icon: "🏊",
     title: "Piscinas desmontables",
     desc: "Las mejores piscinas desmontables para toda la familia",
-    price: "Desde 300€",
   },
 ];
 
 const articles = [
   {
+    href: "/black-friday-piscina-jardin",
+    title: "Black Friday 2026 en piscina y jardín: qué comprar en temporada baja",
+    excerpt:
+      "Qué compensa comprar en noviembre para la piscina y el jardín, cómo acertar con el tamaño y qué evitar.",
+    date: "2026-10-13",
+  },
+  {
+    href: "/regalos-navidad-piscina-jardin",
+    title: "Regalos de Navidad y Reyes para amantes del jardín y la piscina",
+    excerpt:
+      "Ideas de regalo por tipo de persona, con el dato que necesitas saber para no equivocarte.",
+    date: "2026-10-13",
+  },
+  {
     href: "/mejores-depuradoras-piscina",
     title: "Las 5 mejores depuradoras para piscina",
     excerpt:
-      "Comparativa completa de las depuradoras más vendidas en España. Analizamos rendimiento, consumo y precio.",
+      "Comparativa de depuradoras de arena y cartucho: caudal, tamaño de piscina y mantenimiento.",
     date: "2025-05-15",
   },
   {
@@ -196,7 +202,7 @@ export default function HomePage() {
               Ver todos →
             </Link>
           </div>
-          <p className="text-gray-500 mb-8">Los productos mejor valorados por nuestros lectores</p>
+          <p className="text-gray-500 mb-8">Una selección de nuestra tienda</p>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
             {featuredProducts.map((product) => (
               <div key={product.slug} className="border border-gray-100 rounded-xl p-5 hover:shadow-md transition-all flex flex-col">
@@ -270,7 +276,7 @@ export default function HomePage() {
         <div className="max-w-3xl mx-auto text-center">
           <h2 className="text-2xl font-bold text-gray-900 mb-4">¿Por qué confiar en nosotros?</h2>
           <p className="text-gray-600 mb-6 leading-relaxed">
-            En <strong>Guía del Piscina</strong> analizamos cada producto con criterio y honestidad. Revisamos las especificaciones de cada fabricante, leemos las opiniones de compradores y comparamos modelos para darte la información que necesitas antes de comprar. No publicamos contenido patrocinado: nuestros ingresos provienen de comisiones de afiliado, lo que no afecta a nuestras valoraciones.
+            En <strong>Guía del Piscina</strong> analizamos cada producto con criterio y honestidad. Revisamos las especificaciones y fichas de cada fabricante y comparamos modelos por sus características para darte la información que necesitas antes de comprar. No publicamos contenido patrocinado: nuestros ingresos provienen de comisiones de afiliado, lo que no afecta a nuestras valoraciones.
           </p>
           <Link href="/sobre-nosotros" className="text-sky-600 font-semibold hover:underline">
             Saber más sobre nosotros →

@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { amazonLink } from "@/lib/amazon";
 import AffiliateDisclosure from "@/components/AffiliateDisclosure";
 import AdSenseAd from "@/components/AdSenseAd";
 import BlogSidebar from "@/components/BlogSidebar";
@@ -8,7 +7,7 @@ import BlogSidebar from "@/components/BlogSidebar";
 export const metadata: Metadata = {
   title: "Mejores piscinas desmontables grandes — Guía de compra",
   description:
-    "Comparativa de las mejores piscinas desmontables grandes para adultos y familias. Intex, Bestway y más. Precios desde 300€.",
+    "Comparativa de las mejores piscinas desmontables grandes para adultos y familias. Intex, Bestway y más, con criterios de tamaño, estructura y depuradora.",
   keywords: "piscina desmontable grande, piscina desmontable adultos, piscina jardin grande, piscina intex grande",
   alternates: { canonical: "https://www.guiadelpiscina.com/piscina-desmontable-grande" },
   openGraph: {
@@ -19,17 +18,17 @@ export const metadata: Metadata = {
 };
 
 const products = [
-  { pos: 1, name: "Intex 26176 Oval Frame — 732×366 cm", asin: "B07FJPDX9V", price: "€349,99", dimensions: "732×366×132 cm", volume: "28.620 l", depuradora: "Incluida (7.571 l/h)", type: "Frame oval", stars: "4,4/5", best: "Mejor calidad-precio" },
-  { pos: 2, name: "Bestway Steel Pro 549×274 cm", asin: "B07T99MMKP", price: "€299,00", dimensions: "549×274×122 cm", volume: "16.805 l", depuradora: "Incluida (5.678 l/h)", type: "Frame rectangular", stars: "4,3/5", best: "Mejor precio" },
-  { pos: 3, name: "Intex 26176 Ultra XTR Frame 732×366 cm", asin: "B01MCW9UJU", price: "€549,99", dimensions: "732×366×132 cm", volume: "28.620 l", depuradora: "Incluida (9.463 l/h)", type: "Ultra XTR Frame", stars: "4,6/5", best: "Mayor calidad" },
-  { pos: 4, name: "Intex 26352 Prism Frame 460×226 cm", asin: "B01A17XFCQ", price: "€399,00", dimensions: "460×226×107 cm", volume: "9.404 l", depuradora: "Incluida (3.028 l/h)", type: "Prism Frame", stars: "4,5/5", best: "Para jardines medianos" },
-  { pos: 5, name: "Bestway Power Steel Elite 732×366 cm", asin: "B0CFFSJ556", price: "€699,99", dimensions: "732×366×132 cm", volume: "28.620 l", depuradora: "Incluida (9.463 l/h) + bomba calor", type: "Steel Elite", stars: "4,7/5", best: "Conjunto más completo" },
+  { pos: 1, name: "Intex 26176 Oval Frame — 732×366 cm", href: "/tienda/piscinas-desmontables", price: "€349,99", dimensions: "732×366×132 cm", volume: "28.620 l", depuradora: "Incluida (7.571 l/h)", type: "Frame oval", stars: "4,4/5", best: "Mejor calidad-precio" },
+  { pos: 2, name: "Bestway Steel Pro 549×274 cm", href: "/tienda/piscinas-desmontables", price: "€299,00", dimensions: "549×274×122 cm", volume: "16.805 l", depuradora: "Incluida (5.678 l/h)", type: "Frame rectangular", stars: "4,3/5", best: "Mejor precio" },
+  { pos: 3, name: "Intex 26176 Ultra XTR Frame 732×366 cm", href: "/tienda/piscinas-desmontables", price: "€549,99", dimensions: "732×366×132 cm", volume: "28.620 l", depuradora: "Incluida (9.463 l/h)", type: "Ultra XTR Frame", stars: "4,6/5", best: "Mayor calidad" },
+  { pos: 4, name: "Intex 26352 Prism Frame 460×226 cm", href: "/tienda/piscinas-desmontables", price: "€399,00", dimensions: "460×226×107 cm", volume: "9.404 l", depuradora: "Incluida (3.028 l/h)", type: "Prism Frame", stars: "4,5/5", best: "Para jardines medianos" },
+  { pos: 5, name: "Bestway Power Steel Elite 732×366 cm", href: "/tienda/piscinas-desmontables", price: "€699,99", dimensions: "732×366×132 cm", volume: "28.620 l", depuradora: "Incluida (9.463 l/h) + bomba calor", type: "Steel Elite", stars: "4,7/5", best: "Conjunto más completo" },
 ];
 
 const faqs = [
   { q: "¿Cuánto tiempo se tarda en montar una piscina desmontable grande?", a: "Una piscina tipo Frame grande (7×3 m) requiere generalmente entre 2 y 4 horas para montarla entre dos personas. Las instrucciones suelen ser claras y no necesitas herramientas especiales. El llenado de agua (30.000 litros con una manguera normal de 15 l/min) puede tardar hasta 33 horas, así que planifícalo con antelación." },
   { q: "¿Necesito permiso para instalar una piscina desmontable grande?", a: "En la mayoría de municipios españoles, las piscinas desmontables están exentas de licencia de obras por ser instalaciones temporales no fijas. Sin embargo, algunos ayuntamientos tienen ordenanzas específicas. Consulta con tu ayuntamiento local para estar seguro. Las piscinas enterradas sí requieren licencia." },
-  { q: "¿Cuánto cuesta el mantenimiento anual de una piscina desmontable?", a: "El mantenimiento anual incluye: cloro (aprox. 80-150€/temporada), algicida (20-40€), flocculante (20€), mantenimiento de la depuradora (30-50€) y electricidad de la depuradora (60-100€). En total, entre 200 y 350€ por temporada dependiendo del tamaño y uso." },
+  { q: "¿Cuánto cuesta el mantenimiento anual de una piscina desmontable?", a: "El mantenimiento de una temporada incluye: cloro (la partida principal), algicida, floculante, carga filtrante o cartuchos para la depuradora y la electricidad de la depuradora. El total depende sobre todo del tamaño de la piscina, de las horas de filtración y de si la cubres cuando no la usas." },
   { q: "¿Es mejor una piscina rectangular u ovalada?", a: "Las piscinas rectangulares aprovechan mejor el espacio del jardín si tienes forma rectangular y permiten nadar en línea recta. Las ovaladas tienen un aspecto más estético y suelen caber mejor en jardines cuadrados. Funcionalmente son equivalentes; elige según tu espacio disponible." },
   { q: "¿Puedo dejar la piscina desmontable en el jardín en invierno?", a: "No es recomendable. Las bajas temperaturas pueden dañar las paredes de PVC y la estructura metálica si queda agua. Lo correcto es vaciarla, limpiarla bien, dejar secar completamente y guardarla doblada en un lugar seco. Algunas personas la cubren con una lona de invierno y añaden anticongelante, pero esto solo funciona en climas templados." },
 ];
@@ -45,7 +44,7 @@ const articleSchema = {
     "@type": "Organization",
     name: "Equipo Editorial de Guía del Piscina",
     url: "https://www.guiadelpiscina.com/sobre-nosotros",
-    description: "Equipo editorial de Guía del Piscina (Mkt Web 360 SLU). Comparamos especificaciones técnicas, precios y opiniones verificadas, con apoyo de IA en investigación y redacción bajo revisión editorial.",
+    description: "Equipo editorial de Guía del Piscina (Mkt Web 360 SLU). Analizamos especificaciones técnicas, fichas de fabricante y experiencia de uso, con apoyo de IA en investigación y redacción bajo revisión editorial.",
     knowsAbout: ["mantenimiento de piscinas", "tratamiento del agua", "depuradoras", "cloro y pH", "piscinas desmontables"],
   },
   publisher: { "@type": "Organization", name: "Mkt Web 360 SLU", url: "https://www.guiadelpiscina.com" },
@@ -116,7 +115,7 @@ export default function PiscinaDesmontablePage() {
             <p className="text-gray-800 font-medium leading-relaxed">Las <strong>piscinas desmontables grandes</strong> son la alternativa perfecta a la piscina enterrada: sin obras, sin licencia (en la mayoría de municipios), instalación en un fin de semana y precio infinitamente menor. En esta guía comparamos las mejores piscinas desmontables de más de 4 metros disponibles en el mercado. También puedes <Link href="/tienda/piscinas-desmontables" className="text-sky-600 hover:underline font-medium">explorar piscinas desmontables en nuestra tienda</Link>.</p>
           </div>
           <p>
-            Los precios van desde 300€ para modelos básicos hasta 700€ para los conjuntos más completos. Hemos analizado la resistencia de las paredes, la calidad de la estructura, la depuradora incluida y la facilidad de montaje.
+            Hay desde modelos básicos sin depuradora hasta conjuntos completos con depuradora de arena, escalera y cobertor. Hemos analizado la resistencia de las paredes, la calidad de la estructura, la depuradora incluida y la facilidad de montaje.
           </p>
 
           <h2>Comparativa — Mejores piscinas desmontables grandes</h2>
@@ -131,22 +130,22 @@ export default function PiscinaDesmontablePage() {
                 <th className="px-3 py-3 text-left">Dimensiones</th>
                 <th className="px-3 py-3 text-left">Volumen</th>
                 <th className="px-3 py-3 text-left">Depuradora</th>
-                <th className="px-3 py-3 text-left">Comprar</th>
+                <th className="px-3 py-3 text-left">Ver</th>
               </tr>
             </thead>
             <tbody>
               {products.map((p, i) => (
-                <tr key={p.asin} className={i % 2 === 0 ? "bg-white" : "bg-gray-50"}>
+                <tr key={p.name} className={i % 2 === 0 ? "bg-white" : "bg-gray-50"}>
                   <td className="px-3 py-3 font-bold text-sky-600">{p.pos}</td>
                   <td className="px-3 py-3 font-medium text-gray-900">{p.name}</td>
                   <td className="px-3 py-3 text-gray-600 text-xs">{p.dimensions}</td>
                   <td className="px-3 py-3 text-gray-600">{p.volume}</td>
                   <td className="px-3 py-3 text-gray-600 text-xs">{p.depuradora}</td>
                   <td className="px-3 py-3">
-                    <a href={amazonLink(p.asin)} target="_blank" rel="noopener noreferrer sponsored"
+                    <Link href={p.href}
                       className="inline-block bg-orange-500 text-white text-xs font-bold px-3 py-1.5 rounded-lg hover:bg-orange-600 transition-colors whitespace-nowrap">
-                      Ver precio →
-                    </a>
+                      Ver opciones →
+                    </Link>
                   </td>
                 </tr>
               ))}
@@ -159,18 +158,18 @@ export default function PiscinaDesmontablePage() {
         <div className="prose">
           <h2>Análisis detallado</h2>
 
-          <h3>1. Intex 26176 Oval Frame — La más vendida en España</h3>
+          <h3>1. Intex 26176 Oval Frame — La más grande de la comparativa</h3>
           <p>
-            La <strong>Intex Oval Frame de 7×3,5 m</strong> es la piscina desmontable grande más vendida en España. Su estructura ovalada con 32 postes de acero es extraordinariamente resistente y puede soportar el volumen de casi 29.000 litros de agua sin problema. La depuradora de arena incluida (7.571 l/h) es suficiente para mantener el agua cristalina.
+            La <strong>Intex Oval Frame de 7×3,5 m</strong> es una de las piscinas desmontables grandes más conocidas. Su estructura ovalada con 32 postes de acero es extraordinariamente resistente y puede soportar el volumen de casi 29.000 litros de agua sin problema. La depuradora de arena incluida (7.571 l/h) es suficiente para mantener el agua cristalina.
           </p>
           <ul>
             <li><strong>Pros:</strong> Gran resistencia, fácil montaje, depuradora de arena incluida, excelente valor</li>
             <li><strong>Contras:</strong> Ocupa mucho espacio, el llenado inicial tarda muchas horas</li>
           </ul>
           <div className="not-prose my-4">
-            <a href={amazonLink("B00MJVWMKQ")} target="_blank" rel="noopener noreferrer sponsored" className="btn-primary">
-              Ver Intex Oval Frame →
-            </a>
+            <Link href="/tienda/piscinas-desmontables" className="btn-primary">
+              Ver piscinas desmontables y accesorios en la tienda →
+            </Link>
           </div>
 
           <h3>2. Bestway Steel Pro 549×274 cm — La más económica</h3>
@@ -178,9 +177,9 @@ export default function PiscinaDesmontablePage() {
             La <strong>Bestway Steel Pro</strong> es la opción más asequible para jardines medianos. Con casi 5,5 metros de largo y 17.000 litros de capacidad, es perfecta para familias de 2-4 personas. La estructura rectangular facilita el aprovechamiento del espacio.
           </p>
           <div className="not-prose my-4">
-            <a href={amazonLink("B08NTKLM7P")} target="_blank" rel="noopener noreferrer sponsored" className="btn-primary">
-              Ver Bestway Steel Pro →
-            </a>
+            <Link href="/tienda/piscinas-desmontables" className="btn-primary">
+              Ver piscinas desmontables y accesorios en la tienda →
+            </Link>
           </div>
 
           <h3>3. <Link href="/tienda/piscinas-desmontables/intex-ultra-xtr-549x274-depuradora" className="text-sky-700 hover:underline">Intex Ultra XTR Frame</Link> — La mejor calidad</h3>

@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { amazonLink } from "@/lib/amazon";
 import AffiliateDisclosure from "@/components/AffiliateDisclosure";
 import AdSenseAd from "@/components/AdSenseAd";
 import BlogSidebar from "@/components/BlogSidebar";
@@ -14,11 +13,11 @@ export const metadata: Metadata = {
 };
 
 const products = [
-  { pos: 1, name: "Gardena Kit Micro-Drip Inicio Parterres 40m² (13015-20)", asin: "B018E0LAQA", price: "€34,99", coverage: "75 m²", zones: "1 zona", smart: "No", stars: "4,4/5", best: "Mejor precio" },
-  { pos: 2, name: "Gardena Set Macetas M Automático 10 macetas Programador (13002-20)", asin: "B018E0L63C", price: "€59,99", coverage: "200 m² jardín", zones: "1 zona goteo", smart: "No", stars: "4,5/5", best: "Mejor para huerto" },
-  { pos: 3, name: "Gardena Micro-Drip Set Bancal 35 plantas (13455-20)", asin: "B0BNLMFTGL", price: "€89,99", coverage: "250 m²", zones: "2 zonas", smart: "Bluetooth", stars: "4,4/5", best: "Mejor calidad-precio" },
-  { pos: 4, name: "Gardena Riego en Vacaciones 36 plantas sin grifo (13366-20)", asin: "B09J92VPH2", price: "€129,00", coverage: "Múltiple", zones: "4 zonas", smart: "WiFi + App", stars: "4,5/5", best: "Mejor inteligente" },
-  { pos: 5, name: "Gardena Sistema Micro-Drip Goteo Diseño Set completo", asin: "B076WVGCP2", price: "€199,00", coverage: "Múltiple", zones: "8 zonas", smart: "WiFi + IA", stars: "4,7/5", best: "Más avanzado" },
+  { pos: 1, name: "Gardena Kit Micro-Drip Inicio Parterres 40m² (13015-20)", href: "/tienda/riego-automatico", price: "€34,99", coverage: "75 m²", zones: "1 zona", smart: "No", stars: "4,4/5", best: "Mejor precio" },
+  { pos: 2, name: "Gardena Set Macetas M Automático 10 macetas Programador (13002-20)", href: "/tienda/riego-automatico", price: "€59,99", coverage: "200 m² jardín", zones: "1 zona goteo", smart: "No", stars: "4,5/5", best: "Mejor para huerto" },
+  { pos: 3, name: "Gardena Micro-Drip Set Bancal 35 plantas (13455-20)", href: "/tienda/riego-automatico", price: "€89,99", coverage: "250 m²", zones: "2 zonas", smart: "Bluetooth", stars: "4,4/5", best: "Mejor calidad-precio" },
+  { pos: 4, name: "Gardena Riego en Vacaciones 36 plantas sin grifo (13366-20)", href: "/tienda/riego-automatico", price: "€129,00", coverage: "Múltiple", zones: "4 zonas", smart: "WiFi + App", stars: "4,5/5", best: "Mejor inteligente" },
+  { pos: 5, name: "Gardena Sistema Micro-Drip Goteo Diseño Set completo", href: "/tienda/riego-automatico", price: "€199,00", coverage: "Múltiple", zones: "8 zonas", smart: "WiFi + IA", stars: "4,7/5", best: "Más avanzado" },
 ];
 
 const faqs = [
@@ -40,7 +39,7 @@ const articleSchema = {
     "@type": "Organization",
     name: "Equipo Editorial de Guía del Piscina",
     url: "https://www.guiadelpiscina.com/sobre-nosotros",
-    description: "Equipo editorial de Guía del Piscina (Mkt Web 360 SLU). Comparamos especificaciones técnicas, precios y opiniones verificadas, con apoyo de IA en investigación y redacción bajo revisión editorial.",
+    description: "Equipo editorial de Guía del Piscina (Mkt Web 360 SLU). Analizamos especificaciones técnicas, fichas de fabricante y experiencia de uso, con apoyo de IA en investigación y redacción bajo revisión editorial.",
     knowsAbout: ["mantenimiento de piscinas", "tratamiento del agua", "depuradoras", "cloro y pH", "piscinas desmontables"],
   },
   publisher: { "@type": "Organization", name: "Mkt Web 360 SLU", url: "https://www.guiadelpiscina.com" },
@@ -105,7 +104,7 @@ export default function SistemaRiegoPage() {
             <p className="text-gray-800 font-medium leading-relaxed">Un <strong>sistema de riego automático</strong> libera al propietario de la obligación de regar el jardín manualmente y, lo más importante, garantiza que las plantas reciban el agua adecuada en el momento adecuado. Con los sistemas inteligentes actuales, puedes ahorrar hasta un 50% de agua frente al riego manual.</p>
           </div>
           <p>
-            En esta guía comparamos los <strong>mejores sistemas de riego automático para jardín</strong> disponibles en el mercado, desde kits básicos por 35€ hasta controladores inteligentes por 200€. Puedes <Link href="/tienda/riego-automatico" className="text-sky-600 hover:underline font-medium">comparar sistemas de riego inteligente en nuestra tienda</Link>.
+            En esta guía comparamos los <strong>mejores sistemas de riego automático para jardín</strong> disponibles en el mercado, desde kits básicos de goteo hasta controladores inteligentes con app. Puedes <Link href="/tienda/riego-automatico" className="text-sky-600 hover:underline font-medium">comparar sistemas de riego inteligente en nuestra tienda</Link>.
           </p>
 
           <h2>Comparativa — Mejores sistemas de riego</h2>
@@ -120,22 +119,22 @@ export default function SistemaRiegoPage() {
                 <th className="px-3 py-3 text-left">Cobertura</th>
                 <th className="px-3 py-3 text-left">Zonas</th>
                 <th className="px-3 py-3 text-left">Inteligente</th>
-                <th className="px-3 py-3 text-left">Comprar</th>
+                <th className="px-3 py-3 text-left">Ver</th>
               </tr>
             </thead>
             <tbody>
               {products.map((p, i) => (
-                <tr key={p.asin} className={i % 2 === 0 ? "bg-white" : "bg-gray-50"}>
+                <tr key={p.name} className={i % 2 === 0 ? "bg-white" : "bg-gray-50"}>
                   <td className="px-3 py-3 font-bold text-sky-600">{p.pos}</td>
                   <td className="px-3 py-3 font-medium text-gray-900">{p.name}</td>
                   <td className="px-3 py-3 text-gray-600 text-xs">{p.coverage}</td>
                   <td className="px-3 py-3 text-gray-600">{p.zones}</td>
                   <td className="px-3 py-3 text-gray-600 text-xs">{p.smart}</td>
                   <td className="px-3 py-3">
-                    <a href={amazonLink(p.asin)} target="_blank" rel="noopener noreferrer sponsored"
+                    <Link href={p.href}
                       className="inline-block bg-orange-500 text-white text-xs font-bold px-3 py-1.5 rounded-lg hover:bg-orange-600 transition-colors whitespace-nowrap">
-                      Ver precio →
-                    </a>
+                      Ver opciones →
+                    </Link>
                   </td>
                 </tr>
               ))}
@@ -153,9 +152,9 @@ export default function SistemaRiegoPage() {
             El <strong>kit de Gardena</strong> es el punto de entrada perfecto para quien quiere automatizar el riego por primera vez. Incluye todo lo necesario: programador, tuberías, goteros y conectores para cubrir hasta 75 m² de jardín. La calidad Gardena es garantía de durabilidad.
           </p>
           <div className="not-prose my-4">
-            <a href={amazonLink("B001DQKUV7")} target="_blank" rel="noopener noreferrer sponsored" className="btn-primary">
-              Ver Gardena Kit →
-            </a>
+            <Link href="/tienda/riego-automatico" className="btn-primary">
+              Ver riego automático en la tienda →
+            </Link>
           </div>
 
           <h3>2. Orbit B-hyve WiFi 4 zonas — Mejor controlador inteligente</h3>
@@ -163,9 +162,9 @@ export default function SistemaRiegoPage() {
             El <strong>Orbit B-hyve</strong> es la opción ideal para quienes ya tienen infraestructura de riego y quieren hacerla inteligente. Controla 4 zonas por WiFi desde el móvil, consulta la meteorología local y puede ajustar automáticamente el riego según la previsión de lluvia.
           </p>
           <div className="not-prose my-4">
-            <a href={amazonLink("B08KJTKLM5")} target="_blank" rel="noopener noreferrer sponsored" className="btn-primary">
-              Ver Orbit B-hyve →
-            </a>
+            <Link href="/tienda/riego-automatico" className="btn-primary">
+              Ver riego automático en la tienda →
+            </Link>
           </div>
 
           <h3>3. Rachio 3 de 8 zonas — Más avanzado</h3>

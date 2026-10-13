@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { amazonLink } from "@/lib/amazon";
 import AffiliateDisclosure from "@/components/AffiliateDisclosure";
 import AdSenseAd from "@/components/AdSenseAd";
 import BlogSidebar from "@/components/BlogSidebar";
@@ -14,11 +13,11 @@ export const metadata: Metadata = {
 };
 
 const products = [
-  { pos: 1, name: "Outsunny Pérgola 3×4m acero", asin: "B0CS5H2ZFJ", price: "€149,99", material: "Acero galvanizado", size: "3×4 m", roof: "Tejado PC", stars: "4,2/5", best: "Mejor precio" },
-  { pos: 2, name: "Pergola Aluminio 4×3m con cortinas", asin: "B0CXH152HJ", price: "€299,00", material: "Aluminio", size: "4×3 m", roof: "Cortinas laterales", stars: "4,4/5", best: "Mejor diseño" },
-  { pos: 3, name: "Grasekamp Pérgola de madera 3×4m", asin: "B00YHJS354", price: "€399,00", material: "Madera de pino tratada", size: "3×4 m", roof: "Abierta (para toldo)", stars: "4,5/5", best: "Mejor aspecto natural" },
-  { pos: 4, name: "Outsunny Bioclimática lamas orientables", asin: "B0GNDD8T48", price: "€799,00", material: "Aluminio anodizado", size: "3×4 m", roof: "Lamas orientables", stars: "4,6/5", best: "Mejor bioclimática" },
-  { pos: 5, name: "Palram Pérgola Canopia 3×4m", asin: "B007TV3R5S", price: "€1.199,00", material: "Aluminio + PC UV", size: "4×6 m", roof: "Policarbonato", stars: "4,7/5", best: "Mayor tamaño" },
+  { pos: 1, name: "Outsunny Pérgola 3×4m acero", href: "/tienda/pergolas", price: "€149,99", material: "Acero galvanizado", size: "3×4 m", roof: "Tejado PC", stars: "4,2/5", best: "Mejor precio" },
+  { pos: 2, name: "Pergola Aluminio 4×3m con cortinas", href: "/tienda/pergolas", price: "€299,00", material: "Aluminio", size: "4×3 m", roof: "Cortinas laterales", stars: "4,4/5", best: "Mejor diseño" },
+  { pos: 3, name: "Grasekamp Pérgola de madera 3×4m", href: "/tienda/pergolas", price: "€399,00", material: "Madera de pino tratada", size: "3×4 m", roof: "Abierta (para toldo)", stars: "4,5/5", best: "Mejor aspecto natural" },
+  { pos: 4, name: "Outsunny Bioclimática lamas orientables", href: "/tienda/pergolas", price: "€799,00", material: "Aluminio anodizado", size: "3×4 m", roof: "Lamas orientables", stars: "4,6/5", best: "Mejor bioclimática" },
+  { pos: 5, name: "Palram Pérgola Canopia 3×4m", href: "/tienda/pergolas", price: "€1.199,00", material: "Aluminio + PC UV", size: "4×6 m", roof: "Policarbonato", stars: "4,7/5", best: "Mayor tamaño" },
 ];
 
 const faqs = [
@@ -40,7 +39,7 @@ const articleSchema = {
     "@type": "Organization",
     name: "Equipo Editorial de Guía del Piscina",
     url: "https://www.guiadelpiscina.com/sobre-nosotros",
-    description: "Equipo editorial de Guía del Piscina (Mkt Web 360 SLU). Comparamos especificaciones técnicas, precios y opiniones verificadas, con apoyo de IA en investigación y redacción bajo revisión editorial.",
+    description: "Equipo editorial de Guía del Piscina (Mkt Web 360 SLU). Analizamos especificaciones técnicas, fichas de fabricante y experiencia de uso, con apoyo de IA en investigación y redacción bajo revisión editorial.",
     knowsAbout: ["mantenimiento de piscinas", "tratamiento del agua", "depuradoras", "cloro y pH", "piscinas desmontables"],
   },
   publisher: { "@type": "Organization", name: "Mkt Web 360 SLU", url: "https://www.guiadelpiscina.com" },
@@ -105,7 +104,7 @@ export default function PergolaPage() {
             <p className="text-gray-800 font-medium leading-relaxed">Una <strong>pérgola</strong> transforma cualquier terraza o jardín en un espacio habitable y confortable incluso en los días más calurosos. Ya sea para protegerte del sol, crear un comedor al aire libre o delimitar una zona de descanso junto a la piscina, la pérgola correcta puede multiplicar el valor y el disfrute de tu espacio exterior.</p>
           </div>
           <p>
-            En esta guía comparamos los <strong>mejores modelos de pérgola para terraza y jardín</strong> disponibles en el mercado, desde opciones económicas por 150€ hasta bioclimáticas premium por más de 1.000€. Puedes <Link href="/tienda/pergolas" className="text-sky-600 hover:underline font-medium">ver pérgolas bioclimáticas en nuestra tienda</Link> con los mejores modelos seleccionados.
+            En esta guía comparamos los <strong>mejores modelos de pérgola para terraza y jardín</strong> disponibles en el mercado, desde opciones sencillas de toldo hasta bioclimáticas de lamas de gama alta. Puedes <Link href="/tienda/pergolas" className="text-sky-600 hover:underline font-medium">ver pérgolas bioclimáticas en nuestra tienda</Link> con los mejores modelos seleccionados.
           </p>
 
           <h2>Comparativa — Mejores pérgolas</h2>
@@ -120,22 +119,22 @@ export default function PergolaPage() {
                 <th className="px-3 py-3 text-left">Material</th>
                 <th className="px-3 py-3 text-left">Tamaño</th>
                 <th className="px-3 py-3 text-left">Cubierta</th>
-                <th className="px-3 py-3 text-left">Comprar</th>
+                <th className="px-3 py-3 text-left">Ver</th>
               </tr>
             </thead>
             <tbody>
               {products.map((p, i) => (
-                <tr key={p.asin} className={i % 2 === 0 ? "bg-white" : "bg-gray-50"}>
+                <tr key={p.name} className={i % 2 === 0 ? "bg-white" : "bg-gray-50"}>
                   <td className="px-3 py-3 font-bold text-sky-600">{p.pos}</td>
                   <td className="px-3 py-3 font-medium text-gray-900">{p.name}</td>
                   <td className="px-3 py-3 text-gray-600 text-xs">{p.material}</td>
                   <td className="px-3 py-3 text-gray-600">{p.size}</td>
                   <td className="px-3 py-3 text-gray-600 text-xs">{p.roof}</td>
                   <td className="px-3 py-3">
-                    <a href={amazonLink(p.asin)} target="_blank" rel="noopener noreferrer sponsored"
+                    <Link href={p.href}
                       className="inline-block bg-orange-500 text-white text-xs font-bold px-3 py-1.5 rounded-lg hover:bg-orange-600 transition-colors whitespace-nowrap">
-                      Ver precio →
-                    </a>
+                      Ver opciones →
+                    </Link>
                   </td>
                 </tr>
               ))}
@@ -153,9 +152,9 @@ export default function PergolaPage() {
             Estructura con postes y travesaños, sin cubierta impermeable. Perfecta para enredaderas, plantas trepadoras o instalar un toldo a medida. La más económica y versátil.
           </p>
           <div className="not-prose my-4">
-            <a href={amazonLink("B07RKLM9NQ")} target="_blank" rel="noopener noreferrer sponsored" className="btn-primary">
-              Ver pérgola clásica →
-            </a>
+            <Link href="/tienda/pergolas" className="btn-primary">
+              Ver pérgolas en la tienda →
+            </Link>
           </div>
 
           <h3>Pérgola con toldo integrado</h3>
@@ -163,14 +162,14 @@ export default function PergolaPage() {
             Incluye tela o lona que protege de la lluvia y el sol. La tela se puede retirar en invierno para protegerla. Buen equilibrio entre precio y funcionalidad.
           </p>
 
-          <h3><Link href="/tienda/pergolas/sweeek-triomphe-v2-pergola-bioclimatica" className="text-sky-700 hover:underline">Pérgola bioclimática</Link></h3>
+          <h3><Link href="/tienda/pergolas" className="text-sky-700 hover:underline">Pérgola bioclimática</Link></h3>
           <p>
             Las más avanzadas: lamas de aluminio orientables que regulan la entrada de luz solar y permiten la ventilación. Algunas incluyen LED integrado, calefactores opcionales y canales para drenaje del agua de lluvia. Perfectas para usar todo el año.
           </p>
           <div className="not-prose my-4">
-            <a href={amazonLink("B09TKLM8RS")} target="_blank" rel="noopener noreferrer sponsored" className="btn-primary">
-              Ver pérgola bioclimática →
-            </a>
+            <Link href="/tienda/pergolas" className="btn-primary">
+              Ver pérgolas en la tienda →
+            </Link>
           </div>
 
           <h2>Preguntas frecuentes</h2>

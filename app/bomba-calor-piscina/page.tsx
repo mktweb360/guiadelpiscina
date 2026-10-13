@@ -22,12 +22,12 @@ const products = [
   { pos: 1, name: "Gre HPM20 — Mini Bomba de Calor hasta 20 m³", asin: "B07L491GK5", price: "€499,00", power: "2,5 kW", type: "On/Off", pool: "Hasta 20 m³", stars: "4,2/5", best: "Piscinas pequeñas" },
   { pos: 2, name: "Gre HPM30 — Mini Bomba de Calor hasta 30 m³", asin: "B07L489LBM", price: "€599,00", power: "4,2 kW", type: "On/Off (COP 4)", pool: "Hasta 30 m³", stars: "4,3/5", best: "Mejor precio" },
   { pos: 3, name: "Gre HPGIC30 — Full Inverter hasta 30 m³", asin: "B0CPR89ZNR", price: "€999,00", power: "—", type: "Full Inverter", pool: "Hasta 30 m³", stars: "4,5/5", best: "Mejor conectada (WiFi)" },
-  { pos: 4, name: "Gre HPGI50 — Inverter hasta 50 m³", asin: "B08V567FFN", price: "€1.349,00", power: "—", type: "Inverter", pool: "Hasta 50 m³", stars: "4,5/5", best: "Piscinas medianas" },
-  { pos: 5, name: "Poolex Q-Line 7 Full Inverter 7 kW", asin: "B08WH533W5", price: "€1.249,00", power: "7 kW", type: "Full Inverter", pool: "30-45 m³", stars: "4,6/5", best: "Mejor eficiencia" },
+  { pos: 4, name: "Gre HPGI50 — Inverter hasta 50 m³", href: "/tienda/bombas-calor", price: "€1.349,00", power: "—", type: "Inverter", pool: "Hasta 50 m³", stars: "4,5/5", best: "Piscinas medianas" },
+  { pos: 5, name: "Poolex Q-Line 7 Full Inverter 7 kW", href: "/tienda/bombas-calor", price: "€1.249,00", power: "7 kW", type: "Full Inverter", pool: "30-45 m³", stars: "4,6/5", best: "Mejor eficiencia" },
 ];
 
 const faqs = [
-  { q: "¿Cuánto ahorra una bomba de calor frente a una resistencia eléctrica?", a: "Mucho. Una bomba de calor con COP 5 produce 5 kWh de calor por cada 1 kWh consumido. Una resistencia eléctrica produce 1 kWh por 1 kWh consumido. Esto supone un ahorro del 80% en el coste de calentamiento. Con la electricidad a 0,15€/kWh, calentar una piscina de 50 m³ puede costar unos 150€ la temporada con bomba de calor vs. 750€ con resistencia." },
+  { q: "¿Cuánto ahorra una bomba de calor frente a una resistencia eléctrica?", a: "Mucho. Una bomba de calor con COP 5 produce 5 kWh de calor por cada 1 kWh consumido. Una resistencia eléctrica produce 1 kWh por 1 kWh consumido. Para el mismo calor, la bomba consume del orden de cinco veces menos electricidad que la resistencia, así que el ahorro en la factura es muy grande a lo largo de la temporada." },
   { q: "¿A qué temperatura puede calentar el agua?", a: "La mayoría de bombas de calor domésticas pueden calentar el agua hasta 35-40°C, más que suficiente para nadar cómodamente. La temperatura ideal para bañarse es entre 26 y 29°C." },
   { q: "¿Funciona la bomba de calor en invierno?", a: "Las bombas de calor convencionales funcionan con temperaturas exteriores por encima de 10-15°C. Los modelos inverter de última generación pueden operar hasta con temperaturas de 5°C. En invierno en el norte de España puede ser insuficiente; en el sur y en piscinas cubiertas funciona bien durante gran parte del año." },
   { q: "¿Cuánto tiempo tarda en calentar la piscina?", a: "Depende de la potencia de la bomba y del volumen de agua. Una bomba de 14 kW calienta una piscina de 50 m³ a 3-4°C por día en condiciones ideales (temperatura exterior 25°C). Para pasar de 20°C a 27°C necesitarías entre 2 y 3 días. Las de mayor potencia lo hacen más rápido." },
@@ -45,7 +45,7 @@ const articleSchema = {
     "@type": "Organization",
     name: "Equipo Editorial de Guía del Piscina",
     url: "https://www.guiadelpiscina.com/sobre-nosotros",
-    description: "Equipo editorial de Guía del Piscina (Mkt Web 360 SLU). Comparamos especificaciones técnicas, precios y opiniones verificadas, con apoyo de IA en investigación y redacción bajo revisión editorial.",
+    description: "Equipo editorial de Guía del Piscina (Mkt Web 360 SLU). Analizamos especificaciones técnicas, fichas de fabricante y experiencia de uso, con apoyo de IA en investigación y redacción bajo revisión editorial.",
     knowsAbout: ["mantenimiento de piscinas", "tratamiento del agua", "depuradoras", "cloro y pH", "piscinas desmontables"],
   },
   publisher: { "@type": "Organization", name: "Mkt Web 360 SLU", url: "https://www.guiadelpiscina.com" },
@@ -137,22 +137,29 @@ export default function BombaCalorPage() {
                 <th className="px-3 py-3 text-left">Potencia</th>
                 <th className="px-3 py-3 text-left">Tipo</th>
                 <th className="px-3 py-3 text-left">Piscina</th>
-                <th className="px-3 py-3 text-left">Comprar</th>
+                <th className="px-3 py-3 text-left">Ver</th>
               </tr>
             </thead>
             <tbody>
               {products.map((p, i) => (
-                <tr key={p.asin} className={i % 2 === 0 ? "bg-white" : "bg-gray-50"}>
+                <tr key={p.name} className={i % 2 === 0 ? "bg-white" : "bg-gray-50"}>
                   <td className="px-3 py-3 font-bold text-sky-600">{p.pos}</td>
                   <td className="px-3 py-3 font-medium text-gray-900">{p.name}</td>
                   <td className="px-3 py-3 text-gray-600 text-xs">{p.power}</td>
                   <td className="px-3 py-3 text-gray-600 text-xs">{p.type}</td>
                   <td className="px-3 py-3 text-gray-600">{p.pool}</td>
                   <td className="px-3 py-3">
-                    <a href={amazonLink(p.asin)} target="_blank" rel="nofollow noopener noreferrer sponsored"
-                      className="inline-block bg-orange-500 text-white text-xs font-bold px-3 py-1.5 rounded-lg hover:bg-orange-600 transition-colors whitespace-nowrap">
-                      Ver precio →
-                    </a>
+                    {p.asin ? (
+                      <a href={amazonLink(p.asin)} target="_blank" rel="nofollow noopener noreferrer sponsored"
+                        className="inline-block bg-orange-500 text-white text-xs font-bold px-3 py-1.5 rounded-lg hover:bg-orange-600 transition-colors whitespace-nowrap">
+                        Ver precio →
+                      </a>
+                    ) : (
+                      <Link href={p.href!}
+                        className="inline-block bg-orange-500 text-white text-xs font-bold px-3 py-1.5 rounded-lg hover:bg-orange-600 transition-colors whitespace-nowrap">
+                        Ver opciones →
+                      </Link>
+                    )}
                   </td>
                 </tr>
               ))}
@@ -165,7 +172,7 @@ export default function BombaCalorPage() {
         <div className="prose">
           <h2>Análisis detallado</h2>
 
-          <h3>1. Gre HPM30 — Mejor precio para piscinas hasta 30 m³</h3>
+          <h3>1. Gre HPM30 — Gama de entrada para piscinas hasta 30 m³</h3>
           <p>
             La <strong>Gre HPM30</strong> es la mini bomba de calor más equilibrada para piscinas desmontables de hasta 30 m³. Funciona en modo <strong>Plug &amp; Play</strong>, sin necesidad de bypass, con conexiones de 32/38 mm compatibles con la mayoría de depuradoras. Con 4,2 kW de potencia y un COP en torno a 4, calienta el agua de forma económica y con una instalación al alcance de cualquiera.
           </p>
@@ -193,7 +200,7 @@ export default function BombaCalorPage() {
             </a>
           </div>
 
-          <h3>3. <Link href="/tienda/bombas-calor/poolex-nano-action-5-bomba-calor" className="text-sky-700 hover:underline">Poolex Q-Line 7 Full Inverter</Link> — La más eficiente</h3>
+          <h3>3. <Link href="/tienda/bombas-calor" className="text-sky-700 hover:underline">Poolex Q-Line 7 Full Inverter</Link> — La más eficiente</h3>
           <p>
             La <strong>Poolex Q-Line 7</strong> es una bomba de calor <strong>Full Inverter</strong> de 7 kW para piscinas de 30 a 45 m³. Monta compresor <strong>Toshiba</strong> e intercambiador de titanio, con ventilación vertical, WiFi integrado y LEDs de estado. Es la opción más eficiente y silenciosa del comparativo, con garantía de 3 años en la bomba y 5 años en el compresor.
           </p>

@@ -20,9 +20,9 @@ const articles = [
     icon: "💧",
     title: "Las 5 mejores depuradoras para piscina — Análisis y comparativa",
     excerpt:
-      "Comparativa completa de las depuradoras más vendidas en España. Analizamos rendimiento, consumo y precio para ayudarte a elegir.",
+      "Comparativa de depuradoras de arena y cartucho: caudal, tamaño de piscina y mantenimiento para ayudarte a elegir.",
     date: "2025-05-15",
-    price: "150–400€",
+    price: "",
     category: "Piscinas",
   },
   {
@@ -32,7 +32,7 @@ const articles = [
     excerpt:
       "Guía de compra completa: qué robot elegir según el tamaño de tu piscina y tu presupuesto. Comparamos los modelos más populares.",
     date: "2025-05-20",
-    price: "200–600€",
+    price: "",
     category: "Piscinas",
   },
   {
@@ -43,7 +43,7 @@ const articles = [
     excerpt:
       "Cómo elegir la bomba de calor perfecta, ahorro vs resistencia eléctrica y los mejores modelos del mercado.",
     date: "2025-06-01",
-    price: "500–2000€",
+    price: "",
     category: "Piscinas",
   },
   {
@@ -53,7 +53,7 @@ const articles = [
     excerpt:
       "Las piscinas desmontables más grandes y resistentes para disfrutar en familia este verano sin obras.",
     date: "2025-06-05",
-    price: "300–800€",
+    price: "",
     category: "Piscinas",
   },
   {
@@ -63,7 +63,7 @@ const articles = [
     excerpt:
       "Conjuntos de jardín, sillas, mesas y tumbonas. Los mejores muebles de exterior para cada presupuesto.",
     date: "2025-04-10",
-    price: "99–800€",
+    price: "",
     category: "Jardín",
   },
   {
@@ -73,7 +73,7 @@ const articles = [
     excerpt:
       "Pérgolas de aluminio, madera y bioclimáticas. Guía completa para elegir la pérgola perfecta para tu espacio exterior.",
     date: "2025-04-20",
-    price: "150–1500€",
+    price: "",
     category: "Jardín",
   },
   {
@@ -83,7 +83,7 @@ const articles = [
     excerpt:
       "Los mejores programadores, aspersores y sistemas de riego por goteo para mantener tu jardín siempre verde.",
     date: "2025-03-15",
-    price: "30–300€",
+    price: "",
     category: "Jardín",
   },
   {
@@ -93,7 +93,7 @@ const articles = [
     excerpt:
       "Comparativa de césped artificial por densidad, altura y precio. Cuál elegir y cómo instalarlo correctamente.",
     date: "2025-03-28",
-    price: "5–25€/m²",
+    price: "",
     category: "Jardín",
   },
   {
@@ -136,7 +136,7 @@ const articles = [
     excerpt:
       "Los 3 mejores cloradores salinos para piscina desmontable: Intex, Bestway y Gre. Comparativa, instalación y mantenimiento.",
     date: "2025-07-15",
-    price: "100–300€",
+    price: "",
     category: "Piscinas",
   },
   {
@@ -147,7 +147,7 @@ const articles = [
     excerpt:
       "Las 3 mejores escaleras para piscina desmontable. Comparativa Intex vs Bestway por altura, seguridad y precio.",
     date: "2025-07-15",
-    price: "30–80€",
+    price: "",
     category: "Piscinas",
   },
   {
@@ -158,7 +158,7 @@ const articles = [
     excerpt:
       "Cobertores de invierno, solares y mantas térmicas para piscina desmontable. Qué tipo elegir según tu necesidad y presupuesto.",
     date: "2025-07-20",
-    price: "20–80€",
+    price: "",
     category: "Piscinas",
   },
   {
@@ -168,7 +168,7 @@ const articles = [
     excerpt:
       "Análisis de las mejores tumbonas de jardín para piscina y terraza. Comparativa por material, comodidad y precio.",
     date: "2025-07-15",
-    price: "40–200€",
+    price: "",
     category: "Jardín",
   },
   {
@@ -179,7 +179,7 @@ const articles = [
     excerpt:
       "Las mejores sombrillas de jardín: de palo central y excéntricas para terraza y piscina. Guía de compra con precios y análisis.",
     date: "2025-07-20",
-    price: "30–150€",
+    price: "",
     category: "Jardín",
   },
   {
@@ -190,7 +190,7 @@ const articles = [
     excerpt:
       "Las mejores mangueras extensibles y de calidad para jardín. Comparativa por longitud, material y precio.",
     date: "2025-07-15",
-    price: "15–60€",
+    price: "",
     category: "Jardín",
   },
   {
@@ -200,7 +200,7 @@ const articles = [
     excerpt:
       "Las mejores piscinas desmontables grandes para adultos: Intex Ultra XTR y Bestway Power Steel. Comparativa completa.",
     date: "2025-07-20",
-    price: "400–900€",
+    price: "",
     category: "Piscinas",
   },
   {
@@ -317,6 +317,29 @@ const articles = [
     date: "2026-10-07",
     price: "",
     category: "Piscinas",
+  },
+  // 13/10/2026: guías de temporada (Black Friday, Navidad y Reyes)
+  {
+    href: "/black-friday-piscina-jardin",
+    img: "/images/products/robots-limpiafondos.jpg",
+    icon: "",
+    title: "Black Friday 2026 en piscina y jardín: qué comprar en temporada baja",
+    excerpt:
+      "Invernaje, robots, depuradoras, bombas de calor, piscinas, muebles, pérgolas y riego: qué compensa comprar en noviembre, cómo elegir y qué evitar.",
+    date: "2026-10-13",
+    price: "",
+    category: "Guías de temporada",
+  },
+  {
+    href: "/regalos-navidad-piscina-jardin",
+    img: "/images/products/muebles-jardin.jpg",
+    icon: "",
+    title: "Regalos de Navidad y Reyes para amantes del jardín y la piscina (2026)",
+    excerpt:
+      "Ideas de regalo por tipo de persona: descanso al aire libre, riego, tecnología, piscina desmontable y regalos para toda la familia.",
+    date: "2026-10-13",
+    price: "",
+    category: "Guías de temporada",
   },
 ];
 

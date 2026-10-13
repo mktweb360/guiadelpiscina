@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { amazonLink } from "@/lib/amazon";
 import AffiliateDisclosure from "@/components/AffiliateDisclosure";
 import AdSenseAd from "@/components/AdSenseAd";
 import BlogSidebar from "@/components/BlogSidebar";
@@ -14,11 +13,11 @@ export const metadata: Metadata = {
 };
 
 const products = [
-  { pos: 1, name: "Outsunny Conjunto Muebles Ratán 4 Piezas Sofá 2 Plazas 2 Sillones Mesa", asin: "B0CR6BVF58", price: "€129,99", material: "Rattan sintético", pieces: "2 sillones + mesa", weatherproof: "Sí", stars: "4,3/5", best: "Mejor precio" },
-  { pos: 2, name: "Outsunny Conjunto 4 piezas aluminio", asin: "B08548WV3T", price: "€279,00", material: "Aluminio + Textileno", pieces: "2 sof + mesa + banco", weatherproof: "Sí", stars: "4,4/5", best: "Mejor calidad-precio" },
-  { pos: 3, name: "Tectake Conjunto 8 piezas polyrattan", asin: "B09TW67DSC", price: "€399,00", material: "Polyrattan", pieces: "6 sillas + mesa + 2 pufs", weatherproof: "Sí", stars: "4,5/5", best: "Mejor para 6+ personas" },
-  { pos: 4, name: "Hartman Sophie Studio Conjunto", asin: "B06X9FJVFD", price: "€649,00", material: "Aluminio premium", pieces: "4 sillas + mesa grande", weatherproof: "Sí", stars: "4,7/5", best: "Mejor calidad" },
-  { pos: 5, name: "Keter Montreal Conjunto resina", asin: "B0F3XCC24F", price: "€199,00", material: "Resina inyectada", pieces: "4 sillas + mesa", weatherproof: "Total", stars: "4,4/5", best: "Más resistente a lluvia" },
+  { pos: 1, name: "Outsunny Conjunto Muebles Ratán 4 Piezas Sofá 2 Plazas 2 Sillones Mesa", href: "/tienda/muebles-jardin", price: "€129,99", material: "Rattan sintético", pieces: "2 sillones + mesa", weatherproof: "Sí", stars: "4,3/5", best: "Mejor precio" },
+  { pos: 2, name: "Outsunny Conjunto 4 piezas aluminio", href: "/tienda/muebles-jardin", price: "€279,00", material: "Aluminio + Textileno", pieces: "2 sof + mesa + banco", weatherproof: "Sí", stars: "4,4/5", best: "Mejor calidad-precio" },
+  { pos: 3, name: "Tectake Conjunto 8 piezas polyrattan", href: "/tienda/muebles-jardin", price: "€399,00", material: "Polyrattan", pieces: "6 sillas + mesa + 2 pufs", weatherproof: "Sí", stars: "4,5/5", best: "Mejor para 6+ personas" },
+  { pos: 4, name: "Hartman Sophie Studio Conjunto", href: "/tienda/muebles-jardin", price: "€649,00", material: "Aluminio premium", pieces: "4 sillas + mesa grande", weatherproof: "Sí", stars: "4,7/5", best: "Mejor calidad" },
+  { pos: 5, name: "Keter Montreal Conjunto resina", href: "/tienda/muebles-jardin", price: "€199,00", material: "Resina inyectada", pieces: "4 sillas + mesa", weatherproof: "Total", stars: "4,4/5", best: "Más resistente a lluvia" },
 ];
 
 const faqs = [
@@ -40,7 +39,7 @@ const articleSchema = {
     "@type": "Organization",
     name: "Equipo Editorial de Guía del Piscina",
     url: "https://www.guiadelpiscina.com/sobre-nosotros",
-    description: "Equipo editorial de Guía del Piscina (Mkt Web 360 SLU). Comparamos especificaciones técnicas, precios y opiniones verificadas, con apoyo de IA en investigación y redacción bajo revisión editorial.",
+    description: "Equipo editorial de Guía del Piscina (Mkt Web 360 SLU). Analizamos especificaciones técnicas, fichas de fabricante y experiencia de uso, con apoyo de IA en investigación y redacción bajo revisión editorial.",
     knowsAbout: ["mantenimiento de piscinas", "tratamiento del agua", "depuradoras", "cloro y pH", "piscinas desmontables"],
   },
   publisher: { "@type": "Organization", name: "Mkt Web 360 SLU", url: "https://www.guiadelpiscina.com" },
@@ -102,7 +101,7 @@ export default function MueblesJardinPage() {
         <div className="prose">
                     <div id="respuesta-directa" className="bg-sky-50 border-l-4 border-sky-500 rounded-r-xl px-5 py-4 mb-6">
             <p className="text-xs font-bold text-sky-700 uppercase tracking-wide mb-1.5">Respuesta directa</p>
-            <p className="text-gray-800 font-medium leading-relaxed">Los <strong>muebles de jardín</strong> son la clave para disfrutar al máximo de la terraza o el jardín en verano. Elegir bien marca la diferencia entre un espacio que se deteriora en dos temporadas y uno que dura décadas. En esta guía analizamos los <strong>mejores conjuntos de muebles de jardín y terraza</strong> disponibles en el mercado, con precios entre 130 y 650€. Puedes <Link href="/tienda/muebles-jardin" className="text-sky-600 hover:underline font-medium">ver conjuntos de jardín en nuestra tienda</Link> con selección actualizada y precios comparados.</p>
+            <p className="text-gray-800 font-medium leading-relaxed">Los <strong>muebles de jardín</strong> son la clave para disfrutar al máximo de la terraza o el jardín en verano. Elegir bien marca la diferencia entre un espacio que se deteriora en dos temporadas y uno que dura décadas. En esta guía analizamos los <strong>mejores conjuntos de muebles de jardín y terraza</strong> disponibles en el mercado, de la gama de entrada a la gama alta. Puedes <Link href="/tienda/muebles-jardin" className="text-sky-600 hover:underline font-medium">ver conjuntos de jardín en nuestra tienda</Link> con selección actualizada.</p>
           </div>
 
           <h2>Comparativa — Mejores muebles de jardín</h2>
@@ -117,22 +116,22 @@ export default function MueblesJardinPage() {
                 <th className="px-3 py-3 text-left">Material</th>
                 <th className="px-3 py-3 text-left">Piezas</th>
                 <th className="px-3 py-3 text-left">Intemperie</th>
-                <th className="px-3 py-3 text-left">Comprar</th>
+                <th className="px-3 py-3 text-left">Ver</th>
               </tr>
             </thead>
             <tbody>
               {products.map((p, i) => (
-                <tr key={p.asin} className={i % 2 === 0 ? "bg-white" : "bg-gray-50"}>
+                <tr key={p.name} className={i % 2 === 0 ? "bg-white" : "bg-gray-50"}>
                   <td className="px-3 py-3 font-bold text-sky-600">{p.pos}</td>
                   <td className="px-3 py-3 font-medium text-gray-900">{p.name}</td>
                   <td className="px-3 py-3 text-gray-600 text-xs">{p.material}</td>
                   <td className="px-3 py-3 text-gray-600 text-xs">{p.pieces}</td>
                   <td className="px-3 py-3 text-green-600 font-medium">{p.weatherproof}</td>
                   <td className="px-3 py-3">
-                    <a href={amazonLink(p.asin)} target="_blank" rel="noopener noreferrer sponsored"
+                    <Link href={p.href}
                       className="inline-block bg-orange-500 text-white text-xs font-bold px-3 py-1.5 rounded-lg hover:bg-orange-600 transition-colors whitespace-nowrap">
-                      Ver precio →
-                    </a>
+                      Ver opciones →
+                    </Link>
                   </td>
                 </tr>
               ))}
@@ -145,24 +144,24 @@ export default function MueblesJardinPage() {
         <div className="prose">
           <h2>Los mejores muebles de jardín — Análisis detallado</h2>
 
-          <h3>1. Conjunto de rattan 3 piezas — Mejor precio</h3>
+          <h3>1. Conjunto de rattan 3 piezas — Gama de entrada</h3>
           <p>
             Para terrazas pequeñas o presupuestos ajustados, un conjunto de 3 piezas en rattan sintético de gama de entrada es una opción muy sólida. El rattan sintético imita la estética del natural pero es mucho más resistente a la humedad y los rayos UV.
           </p>
           <div className="not-prose my-4">
-            <a href={amazonLink("B07YXBFJKL")} target="_blank" rel="noopener noreferrer sponsored" className="btn-primary">
-              Ver conjunto 3 piezas →
-            </a>
+            <Link href="/tienda/muebles-jardin" className="btn-primary">
+              Ver muebles de jardín en la tienda →
+            </Link>
           </div>
 
           <h3>2. Outsunny Conjunto aluminio 4 piezas — Mejor calidad-precio</h3>
           <p>
-            El aluminio con textileno es la combinación perfecta para uso cercano a la piscina: no se oxida, no pesa y el tejido técnico es resistente al cloro y la humedad. El conjunto de <strong><Link href="/tienda/muebles-jardin/outsunny-conjunto-ratan-4-piezas" className="text-sky-700 hover:underline">Outsunny</Link></strong> ofrece un sofá de 2 plazas, dos sillones y una mesa central a un precio de gama media.
+            El aluminio con textileno es la combinación perfecta para uso cercano a la piscina: no se oxida, no pesa y el tejido técnico es resistente al cloro y la humedad. El conjunto de <strong><Link href="/tienda/muebles-jardin" className="text-sky-700 hover:underline">Outsunny</Link></strong> ofrece un sofá de 2 plazas, dos sillones y una mesa central a un precio de gama media.
           </p>
           <div className="not-prose my-4">
-            <a href={amazonLink("B08PQJKL3M")} target="_blank" rel="noopener noreferrer sponsored" className="btn-primary">
-              Ver Outsunny →
-            </a>
+            <Link href="/tienda/muebles-jardin" className="btn-primary">
+              Ver muebles de jardín en la tienda →
+            </Link>
           </div>
 
           <h3>3. Tectake 8 piezas polyrattan — Mejor para grupos</h3>

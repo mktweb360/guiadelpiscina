@@ -14,7 +14,7 @@ const personSchema = {
   name: "Equipo Editorial de Guía del Piscina",
   url: "https://www.guiadelpiscina.com/sobre-nosotros",
   description:
-    "Equipo editorial de Guía del Piscina (Mkt Web 360 SLU). Comparamos especificaciones técnicas, precios y opiniones verificadas antes de recomendar equipamiento de piscinas y jardín, con apoyo de IA en investigación y redacción bajo revisión editorial.",
+    "Equipo editorial de Guía del Piscina (Mkt Web 360 SLU). Analizamos especificaciones técnicas, fichas de fabricante y experiencia de uso antes de recomendar equipamiento de piscinas y jardín, con apoyo de IA en investigación y redacción bajo revisión editorial.",
   knowsAbout: [
     "mantenimiento de piscinas",
     "tratamiento del agua",
@@ -107,7 +107,7 @@ export default function SobreNosotrosPage() {
             <p className="text-xl font-bold text-gray-900">Equipo Editorial de Guía del Piscina</p>
             <p className="text-sky-700 font-medium text-sm mb-2">Mkt Web 360 SLU</p>
             <p className="text-gray-600 text-sm leading-relaxed mb-4">
-              Comparamos especificaciones técnicas, precios y opiniones verificadas de compradores reales antes de recomendar cualquier equipo de piscina o jardín, con apoyo de IA en investigación y redacción bajo revisión editorial. Nunca inventamos datos de producto ni experiencias de uso.
+              Analizamos especificaciones técnicas, fichas de fabricante y experiencia de uso antes de recomendar cualquier equipo de piscina o jardín, con apoyo de IA en investigación y redacción bajo revisión editorial. Nunca inventamos datos de producto ni experiencias de uso.
             </p>
             {/* Expertise tags */}
             <div className="flex flex-wrap gap-2">
@@ -131,7 +131,7 @@ export default function SobreNosotrosPage() {
             <strong>GuíaDeLaPiscina.com</strong> es un portal independiente especializado en mantenimiento y equipamiento de piscinas para el mercado español. Nuestro objetivo es ayudar a los propietarios de piscinas —tanto desmontables como de obra— a tomar decisiones de compra informadas, ahorrar tiempo y dinero, y mantener el agua en perfectas condiciones todo el año.
           </p>
           <p>
-            Publicamos guías técnicas detalladas, comparativas de productos y protocolos de mantenimiento basados en especificaciones de fabricante, normativa aplicable y opiniones verificadas de compradores reales, con apoyo de IA en la investigación y redacción y revisión editorial antes de publicar. Cada artículo parte de un problema real que tienen los propietarios y ofrece una solución práctica y contrastada.
+            Publicamos guías técnicas detalladas, comparativas de productos y protocolos de mantenimiento basados en especificaciones de fabricante, normativa aplicable y experiencia de mantenimiento, con apoyo de IA en la investigación y redacción y revisión editorial antes de publicar. Cada artículo parte de un problema real que tienen los propietarios y ofrece una solución práctica y contrastada.
           </p>
 
           {/* Section 2 */}
@@ -142,7 +142,7 @@ export default function SobreNosotrosPage() {
               <strong>Análisis de especificaciones técnicas:</strong> capacidad de filtración, potencia, materiales, compatibilidad con distintos tipos de piscina y normativa aplicable en España.
             </li>
             <li>
-              <strong>Evaluación de reseñas verificadas:</strong> revisamos cientos de opiniones de compradores reales en distintas plataformas online, prestando especial atención a problemas recurrentes a medio y largo plazo.
+              <strong>Análisis de especificaciones y fichas de fabricante:</strong> revisamos caudales, potencias, materiales, compatibilidades e instrucciones de cada modelo, con especial atención a los puntos que suelen dar problemas a medio y largo plazo (juntas, conexiones, filtros y baterías).
             </li>
             <li>
               <strong>Relación calidad-precio:</strong> comparamos prestaciones frente a coste y señalamos cuándo un producto de gama alta merece la diferencia y cuándo no.

@@ -42,7 +42,7 @@ const comparison = [
 ];
 
 const pros = [
-  "Un volumen de reseñas verificadas muy alto — el producto de riego mejor valorado del catálogo",
+  "Fabricado en Alemania por una marca especializada en riego",
   "Función Water Now: riego manual inmediato sin desprogramar el horario automático",
   "Programación flexible por días de la semana o por intervalos, hasta 4 tiempos de riego al día",
   "Funciona con pilas (no requiere corriente ni WiFi), instalación en minutos directamente al grifo",
@@ -90,7 +90,7 @@ const articleSchema = {
     "@type": "Organization",
     name: "Equipo Editorial de Guía del Piscina",
     url: "https://www.guiadelpiscina.com/sobre-nosotros",
-    description: "Equipo editorial de Guía del Piscina (Mkt Web 360 SLU). Comparamos especificaciones técnicas, precios y opiniones verificadas, con apoyo de IA en investigación y redacción bajo revisión editorial.",
+    description: "Equipo editorial de Guía del Piscina (Mkt Web 360 SLU). Analizamos especificaciones técnicas, fichas de fabricante y experiencia de uso, con apoyo de IA en investigación y redacción bajo revisión editorial.",
     knowsAbout: ["riego automático de jardín", "mantenimiento de piscinas", "tratamiento del agua"],
   },
   publisher: { "@type": "Organization", name: "Mkt Web 360 SLU", url: "https://www.guiadelpiscina.com" },
@@ -157,13 +157,13 @@ export default function GardenaFlexAnalisisPage() {
           <div id="respuesta-directa" className="bg-sky-50 border-l-4 border-sky-500 rounded-r-xl px-5 py-4 mb-6">
             <p className="text-xs font-bold text-sky-700 uppercase tracking-wide mb-1.5">Respuesta directa</p>
             <p className="text-gray-800 font-medium leading-relaxed">
-              El GARDENA Flex 1890-20 es un programador de riego electrónico que se instala directamente en el grifo, con <strong>un volumen de reseñas verificadas muy alto</strong> — el producto con más valoraciones de toda la categoría de riego automático de este catálogo. Su punto fuerte es la <strong>función Water Now</strong>: permite regar manualmente en cualquier momento sin borrar ni alterar el programa automático guardado. No tiene WiFi ni app — para eso existe el Gardena Smart Set — pero cubre con solvencia la necesidad de la inmensa mayoría de jardines domésticos.
+              El GARDENA Flex 1890-20 es un programador de riego electrónico que se instala directamente en el grifo, funciona con una pila de 9 V y no necesita corriente ni conexión. Su punto fuerte es la <strong>función Water Now</strong>: permite regar manualmente en cualquier momento sin borrar ni alterar el programa automático guardado. No tiene WiFi ni app — para eso existe el Gardena Smart Set — pero cubre con solvencia la necesidad de la inmensa mayoría de jardines domésticos.
             </p>
           </div>
 
           <h2>Por qué destaca este producto</h2>
           <p>
-            Dentro de la categoría de riego automático de este catálogo conviven tres filosofías distintas: el temporizador puramente mecánico (barato y sin programación por días), el programador electrónico de grifo como este Flex 1890-20 (el término medio ideal para la mayoría), y el sistema smart con Gateway y app (máximo control, máximo precio). El Flex 1890-20 es, con diferencia, el que más reseñas acumula de los tres — un indicador claro de que es la opción que compra la mayoría de la gente quien busca automatizar el riego sin complicarse con conectividad.
+            Dentro de la categoría de riego automático de este catálogo conviven tres filosofías distintas: el temporizador puramente mecánico (barato y sin programación por días), el programador electrónico de grifo como este Flex 1890-20 (el término medio ideal para la mayoría), y el sistema smart con Gateway y app (máximo control, máximo precio). El Flex 1890-20 es la opción que mejor encaja con quien busca automatizar el riego sin complicarse con conectividad.
           </p>
 
           <h2>Pros y contras</h2>

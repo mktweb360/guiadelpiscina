@@ -82,7 +82,7 @@ export async function generateMetadata({
   if (!cat) return {};
   return {
     title: `${cat.name}: guía de compra y comparativa`,
-    description: `Comparativa de los mejores productos de ${cat.name.toLowerCase()}. Analizamos calidad, precio y opiniones para ayudarte a elegir.`,
+    description: `Comparativa de los mejores productos de ${cat.name.toLowerCase()}. Analizamos especificaciones, materiales y usos para ayudarte a elegir.`,
     alternates: { canonical: `https://www.guiadelpiscina.com/tienda/${categoria}` },
     openGraph: {
       title: `${cat.name}: guía de compra`,
