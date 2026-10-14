@@ -17,8 +17,8 @@ export default async function Image({
   const { producto } = await params;
   const product = getProductBySlug(producto);
   const name = product?.name ?? "Producto";
-  const description = product?.shortDescription ?? "Análisis y opinión 2025";
-  const badge = product?.badge;
+  const description = product?.shortDescription ?? "Análisis y opinión";
+  // Cumplimiento Amazon Associates: sin precios, valoraciones ni distintivos tipo «más vendido» (no se pinta product.badge).
 
   return new ImageResponse(
     (
@@ -66,22 +66,8 @@ export default async function Image({
               fontWeight: "700",
             }}
           >
-            Análisis 2025
+            Análisis
           </div>
-          {badge && (
-            <div
-              style={{
-                background: "#f97316",
-                color: "#ffffff",
-                borderRadius: "9999px",
-                padding: "8px 22px",
-                fontSize: "17px",
-                fontWeight: "700",
-              }}
-            >
-              {badge}
-            </div>
-          )}
         </div>
 
         {/* Product name */}
