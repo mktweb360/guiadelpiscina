@@ -24,7 +24,7 @@ export default function PoliticaCookiesPage() {
       />
       <div className="max-w-3xl mx-auto px-4 py-12">
         <h1 className="text-4xl font-extrabold text-gray-900 mb-6">Política de cookies</h1>
-        <p className="text-sm text-gray-400 mb-8">Última actualización: junio de 2025</p>
+        <p className="text-sm text-gray-400 mb-8">Última actualización: octubre de 2026</p>
 
         <div className="prose">
           <h2>1. ¿Qué son las cookies?</h2>
@@ -52,7 +52,27 @@ export default function PoliticaCookiesPage() {
             </tbody>
           </table>
 
-          <h3>2.2 Cookies de publicidad (requieren consentimiento)</h3>
+          <h3>2.2 Cookies de analítica (requieren consentimiento)</h3>
+          <table>
+            <thead>
+              <tr>
+                <th>Cookie</th>
+                <th>Proveedor</th>
+                <th>Finalidad</th>
+                <th>Duración</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><code>_ga</code>, <code>_ga_*</code></td>
+                <td>Google</td>
+                <td>Medir de forma agregada las visitas y los clics a Amazon (Google Analytics 4; solo con consentimiento)</td>
+                <td>2 años</td>
+              </tr>
+            </tbody>
+          </table>
+
+          <h3>2.3 Cookies de publicidad (requieren consentimiento)</h3>
           <table>
             <thead>
               <tr>
