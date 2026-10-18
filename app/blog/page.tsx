@@ -318,6 +318,16 @@ const articles = [
     price: "",
     category: "Piscinas",
   },
+  {
+    href: "/alcalinidad-piscina",
+    icon: "🧪",
+    title: "Alcalinidad de la piscina: valor ideal, cómo subirla y cómo bajarla (2026)",
+    excerpt:
+      "Por qué el pH sube y baja sin control: la alcalinidad es el amortiguador. Rango ideal 80-120 mg/L, orden de ajuste y ejemplo de dosificación.",
+    date: "2026-10-17",
+    price: "",
+    category: "Piscinas",
+  },
   // 13/10/2026: guías de temporada (Black Friday, Navidad y Reyes)
   {
     href: "/black-friday-piscina-jardin",

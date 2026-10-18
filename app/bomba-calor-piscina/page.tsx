@@ -6,7 +6,7 @@ import AdSenseAd from "@/components/AdSenseAd";
 import BlogSidebar from "@/components/BlogSidebar";
 
 export const metadata: Metadata = {
-  title: "Bomba de calor para piscina: las mejores opciones y cómo elegir |",
+  title: "Bomba de calor para piscina: las mejores opciones y cómo elegir",
   description:
     "Las mejores bombas de calor para piscina en España. Comparativa por potencia, COP y precio. Aprende a elegir la bomba perfecta para alargar la temporada de baño.",
   keywords: "bomba calor piscina, calentador piscina, bomba calor piscina precio, calentar piscina",
