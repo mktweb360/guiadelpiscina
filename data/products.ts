@@ -158,6 +158,7 @@ export const products: Product[] = [
     slug: "aiper-seagull-se-robot-piscina",
     name: "AIPER Seagull SE Robot Limpiafondos Piscina 90 min",
     asin: "B0BLRC1TFM",
+    unavailable: "2026-10-18",
     image: "/images/products/aiper-seagull-se-robot-piscina.jpg",
     category: "Robots limpiafondos",
     categorySlug: "robots-limpiafondos",
