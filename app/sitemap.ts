@@ -5,7 +5,7 @@ const BASE_URL = "https://www.guiadelpiscina.com";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const staticPages = [
-    { url: `${BASE_URL}`, lastModified: "2025-06-09", changeFrequency: "weekly" as const, priority: 1.0 },
+    { url: `${BASE_URL}/`, lastModified: "2026-10-18", changeFrequency: "weekly" as const, priority: 1.0 },
     { url: `${BASE_URL}/blog`, lastModified: "2025-06-09", changeFrequency: "weekly" as const, priority: 0.9 },
     { url: `${BASE_URL}/sobre-nosotros`, lastModified: "2025-06-01", changeFrequency: "monthly" as const, priority: 0.5 },
     { url: `${BASE_URL}/contacto`, lastModified: "2025-06-01", changeFrequency: "yearly" as const, priority: 0.4 },
