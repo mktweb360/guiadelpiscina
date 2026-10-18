@@ -4,7 +4,7 @@ import Link from "next/link";
 import { products, getProductsByCategory, getProductBySlug } from "@/data/products";
 import { amazonLink } from "@/lib/amazon";
 import ProductCard from "@/components/ProductCard";
-import { productTitle, relatedInCategory } from "@/lib/seo";
+import { productTitle, productTitleUnique, relatedInCategory } from "@/lib/seo";
 
 // ── FAQs por categoría ────────────────────────────────────────────────────────
 
@@ -90,7 +90,7 @@ export async function generateMetadata({
   const product = getProductBySlug(producto);
   if (!product) return {};
   return {
-    title: { absolute: productTitle(product.name, "análisis y opinión") },
+    title: { absolute: productTitleUnique(product, products, "análisis y opinión") },
     description: product.shortDescription,
     alternates: { canonical: `https://www.guiadelpiscina.com/tienda/${product.categorySlug}/${product.slug}` },
     openGraph: {
