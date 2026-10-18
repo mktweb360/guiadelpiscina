@@ -45,7 +45,7 @@ const tabla = [
   { slug: "intex-26784np-prism-frame-rectangular-300x175x80", modelo: "Intex Prism Frame 300 × 175", medidas: "300 × 175 × 80 cm", litros: "3.539 L", depuradora: "Cartucho 2.006 l/h + escalera", renovacion: "≈ 1 h 45 min" },
   { slug: "intex-28272np-piscina-small-frame-300x200", modelo: "Intex Small Frame 300 × 200", medidas: "300 × 200 × 75 cm", litros: "3.834 L", depuradora: "No incluida", renovacion: "—" },
   { slug: "intex-chevron-prism-frame-premium-400x200x100", modelo: "Intex Chevron Prism Frame Premium", medidas: "400 × 200 × 100 cm", litros: "6.836 L", depuradora: "Cartucho 2.006 l/h + escalera", renovacion: "≈ 3 h 25 min" },
-  { slug: "intex-28273np-piscina-small-frame-450x220", modelo: "Intex Small Frame 450 × 220", medidas: "450 × 220 × 84 cm", litros: "7.127 L", depuradora: "No incluida", renovacion: "—" },
+  { slug: "intex-28273np-piscina-small-frame-450x220", modelo: "Intex Small Frame 450 × 220", medidas: "450 × 220 × 84 cm", litros: "7.127 L", depuradora: "Cartucho 2.006 l/h + cobertor", renovacion: "≈ 3 h 35 min" },
   { slug: "intex-55212-prism-frame-rectangular-488x244x107", modelo: "Intex Prism Frame 488 × 244", medidas: "488 × 244 × 107 cm", litros: "10.874 L", depuradora: "Cartucho 3.785 l/h + escalera, tapiz y cobertor", renovacion: "≈ 2 h 50 min" },
   { slug: "bestway-steel-pro-max-rectangular-488x244x122", modelo: "Bestway Steel Pro MAX 488 × 244", medidas: "488 × 244 × 122 cm", litros: "11.532 L", depuradora: "Cartucho 3.028 l/h + escalera y cobertor", renovacion: "≈ 3 h 50 min" },
   { slug: "intex-26352np-ultra-frame", modelo: "Intex Ultra Frame 549 × 274", medidas: "549 × 274 × 132 cm", litros: "17.203 L", depuradora: "No incluida", renovacion: "—" },
@@ -247,8 +247,9 @@ export default function PiscinaDesmontableRectangularPage() {
             <li><strong>17.203 litros</strong> (Intex Ultra Frame 549 × 274, sin depuradora): entre 2.867 y 4.301 l/h.</li>
           </ul>
           <p>
-            Al revés también funciona: litros ÷ caudal = horas para renovar el agua. Ten en cuenta que el caudal anunciado es el máximo de la bomba; con el filtro sucio rinde menos, así que conviene algo de margen. Si tu piscina no trae depuradora, tienes la comparativa de{" "}
-            <Link href="/mejores-depuradoras-piscina" className="text-sky-600 hover:underline">mejores depuradoras para piscina</Link>.
+            Al revés también funciona: litros ÷ caudal = horas para renovar el agua. Ten en cuenta que el caudal anunciado es el máximo de la bomba; con el filtro sucio rinde menos, así que conviene algo de margen. Si tu piscina no trae depuradora, tienes la guía de{" "}
+            <Link href="/mejores-depuradoras-piscina" className="text-sky-600 hover:underline">depuradora de piscina</Link> y, para las rectangulares pequeñas, la de{" "}
+            <Link href="/depuradora-piscina-pequena" className="text-sky-600 hover:underline">depuradora para piscina pequeña</Link>.
           </p>
         </div>
 
@@ -398,7 +399,7 @@ export default function PiscinaDesmontableRectangularPage() {
           <ul className="space-y-2">
             <li><Link href="/piscina-desmontable-grande" className="text-sky-600 hover:underline">→ Mejores piscinas desmontables grandes</Link></li>
             <li><Link href="/piscina-desmontable-grande-adultos" className="text-sky-600 hover:underline">→ Piscinas desmontables grandes para adultos</Link></li>
-            <li><Link href="/mejores-depuradoras-piscina" className="text-sky-600 hover:underline">→ Las mejores depuradoras para piscina</Link></li>
+            <li><Link href="/mejores-depuradoras-piscina" className="text-sky-600 hover:underline">→ Depuradora de piscina: tipos, caudal y comparativa</Link></li>
             <li><Link href="/mantenimiento-piscina-desmontable" className="text-sky-600 hover:underline">→ Cómo mantener una piscina desmontable</Link></li>
           </ul>
         </div>

@@ -15,7 +15,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   ];
 
   const articles = [
-    { url: `${BASE_URL}/mejores-depuradoras-piscina`, lastModified: "2025-06-01", changeFrequency: "monthly" as const, priority: 0.9 },
+    { url: `${BASE_URL}/mejores-depuradoras-piscina`, lastModified: "2026-10-18", changeFrequency: "monthly" as const, priority: 0.9 },
     { url: `${BASE_URL}/robot-limpiafondos-piscina`, lastModified: "2025-06-01", changeFrequency: "monthly" as const, priority: 0.9 },
     { url: `${BASE_URL}/bomba-calor-piscina`, lastModified: "2025-06-09", changeFrequency: "monthly" as const, priority: 0.9 },
     { url: `${BASE_URL}/muebles-jardin-terraza`, lastModified: "2025-06-01", changeFrequency: "monthly" as const, priority: 0.8 },
@@ -49,6 +49,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${BASE_URL}/alcalinidad-piscina`, lastModified: "2026-10-17", changeFrequency: "monthly" as const, priority: 0.8 },
     // 18/10/2026: artículo nuevo (piscina desmontable rectangular)
     { url: `${BASE_URL}/piscina-desmontable-rectangular`, lastModified: "2026-10-18", changeFrequency: "monthly" as const, priority: 0.8 },
+    // 18/10/2026: artículo nuevo (depuradora para piscina pequeña)
+    { url: `${BASE_URL}/depuradora-piscina-pequena`, lastModified: "2026-10-18", changeFrequency: "monthly" as const, priority: 0.8 },
     // 13/10/2026: guías de temporada Black Friday, Navidad y Reyes
     { url: `${BASE_URL}/black-friday-piscina-jardin`, lastModified: "2026-10-13", changeFrequency: "weekly" as const, priority: 0.9 },
     { url: `${BASE_URL}/regalos-navidad-piscina-jardin`, lastModified: "2026-10-13", changeFrequency: "weekly" as const, priority: 0.9 },

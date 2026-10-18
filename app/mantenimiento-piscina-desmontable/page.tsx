@@ -276,6 +276,11 @@ export default function MantenimientoPiscinaPage() {
               <strong><Link href="/tienda/depuradoras" className="text-sky-700 hover:underline">Filtro de arena (depuradora de arena)</Link>:</strong> realiza un <strong>retrolavado</strong> (backwash) semanal para expulsar la suciedad acumulada, y cambia la arena de sílex cada 5 años aproximadamente. La arena filtra mejor y es más cómoda a largo plazo, ideal para piscinas medianas y grandes.
             </li>
           </ul>
+          <p>
+            Si todavía tienes que elegirla, la guía de{" "}
+            <Link href="/mejores-depuradoras-piscina" className="text-sky-600 hover:underline">depuradora de piscina</Link> explica cómo calcular el caudal y qué conexiones necesitas, y la de{" "}
+            <Link href="/depuradora-piscina-pequena" className="text-sky-600 hover:underline">depuradora para piscina pequeña</Link> se centra en las de menos de 10.000 litros.
+          </p>
 
           <h2>Cómo preparar la piscina para el invierno</h2>
           <p>
@@ -334,6 +339,7 @@ export default function MantenimientoPiscinaPage() {
             <li><Link href="/ph-piscina" className="text-sky-600 hover:underline">→ pH de la piscina: cómo medirlo y corregirlo</Link></li>
             <li><Link href="/piscina-desmontable-grande" className="text-sky-600 hover:underline">→ Mejores piscinas desmontables grandes</Link></li>
             <li><Link href="/piscina-desmontable-rectangular" className="text-sky-600 hover:underline">→ Piscina desmontable rectangular: cómo calcular litros y depuradora</Link></li>
+            <li><Link href="/depuradora-piscina-pequena" className="text-sky-600 hover:underline">→ Depuradora para piscina pequeña: cuál elegir</Link></li>
           </ul>
         </div>
       </article>

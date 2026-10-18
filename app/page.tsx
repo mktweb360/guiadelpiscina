@@ -85,10 +85,10 @@ const articles = [
   },
   {
     href: "/mejores-depuradoras-piscina",
-    title: "Las 5 mejores depuradoras para piscina",
+    title: "Depuradora de piscina: tipos, caudal y comparativa",
     excerpt:
-      "Comparativa de depuradoras de arena y cartucho: caudal, tamaño de piscina y mantenimiento.",
-    date: "2025-05-15",
+      "Arena, cartucho o cristal, cómo calcular el caudal, conexiones de 32 o 38 mm, contralavado y comparativa de modelos.",
+    date: "2026-10-18",
   },
   {
     href: "/robot-limpiafondos-piscina",
@@ -157,7 +157,7 @@ export default function HomePage() {
               href="/mejores-depuradoras-piscina"
               className="px-8 py-3 bg-orange-500 text-white font-bold rounded-xl hover:bg-orange-600 transition-colors text-lg"
             >
-              Depuradoras 2025 →
+              Depuradoras →
             </Link>
           </div>
         </div>

@@ -16,15 +16,15 @@ Guía del Piscina es un portal de análisis y guías de compra especializado en 
 ## Tienda de productos
 URL: https://www.guiadelpiscina.com/tienda
 Categorías disponibles con fichas de producto individuales:
-- Depuradoras: https://www.guiadelpiscina.com/tienda/depuradoras — Depuradoras de arena y cartucho, 89-330€
-- Robots limpiafondos: https://www.guiadelpiscina.com/tienda/robots-limpiafondos — Robots automáticos eléctricos, 250-600€
-- Bombas de calor: https://www.guiadelpiscina.com/tienda/bombas-calor — Bombas de calor inverter, 500-1.500€
-- Muebles de jardín: https://www.guiadelpiscina.com/tienda/muebles-jardin — Conjuntos de exterior, 99-800€
-- Piscinas desmontables: https://www.guiadelpiscina.com/tienda/piscinas-desmontables — Piscinas elevadas para adultos, 300-800€
-- Pérgolas: https://www.guiadelpiscina.com/tienda/pergolas — Pérgolas de aluminio, madera y bioclimáticas, 150-1.500€
-- Riego automático: https://www.guiadelpiscina.com/tienda/riego-automatico — Programadores y kits de riego, 30-300€
-- Tratamiento del agua: https://www.guiadelpiscina.com/tienda/tratamiento-agua — Cloro, pH, alguicidas y floculantes, 10-30€
-- Césped artificial: https://www.guiadelpiscina.com/tienda/cesped-artificial — Césped artificial UV, 5-25€/m²
+- Depuradoras: https://www.guiadelpiscina.com/tienda/depuradoras — Depuradoras de arena y cartucho de Intex, Gre y Bestway, de 1.250 a 10.500 l/h
+- Robots limpiafondos: https://www.guiadelpiscina.com/tienda/robots-limpiafondos — Robots automáticos eléctricos
+- Bombas de calor: https://www.guiadelpiscina.com/tienda/bombas-calor — Bombas de calor inverter
+- Muebles de jardín: https://www.guiadelpiscina.com/tienda/muebles-jardin — Conjuntos de exterior
+- Piscinas desmontables: https://www.guiadelpiscina.com/tienda/piscinas-desmontables — Piscinas elevadas para adultos
+- Pérgolas: https://www.guiadelpiscina.com/tienda/pergolas — Pérgolas de aluminio, madera y bioclimáticas
+- Riego automático: https://www.guiadelpiscina.com/tienda/riego-automatico — Programadores y kits de riego
+- Tratamiento del agua: https://www.guiadelpiscina.com/tienda/tratamiento-agua — Cloro, pH, alguicidas y floculantes
+- Césped artificial: https://www.guiadelpiscina.com/tienda/cesped-artificial — Césped artificial UV
 
 ## Artículos publicados
 
@@ -34,8 +34,8 @@ Categorías disponibles con fichas de producto individuales:
 - [pH de la piscina: qué es, cómo medirlo y cómo corregirlo](https://www.guiadelpiscina.com/ph-piscina) — Rango ideal 7,2-7,6, tiras reactivas, medidor digital, pH+ y pH-
 - [Ácido cianúrico en la piscina: qué es, valores ideales y cómo bajarlo (2026)](https://www.guiadelpiscina.com/acido-cianurico-piscina) — Función del estabilizador, rango 30-50 ppm en piscina privada (máx. 75 mg/L en piscinas públicas, RD 742/2013), qué cloros lo aportan y cómo reducirlo por dilución
 - [Alcalinidad de la piscina: valor ideal, cómo subirla y cómo bajarla (2026)](https://www.guiadelpiscina.com/alcalinidad-piscina) — Alcalinidad total como amortiguador del pH, rango ideal 80-120 mg/L, orden de ajuste (alcalinidad antes que pH) y ejemplo de dosificación
-- [Mejor clorador salino para piscina 2025](https://www.guiadelpiscina.com/mejor-clorador-salino-piscina) — Comparativa Intex vs Bestway, guía de sal por volumen, 70-150€
-- [Mejor cubierta para piscina desmontable 2025](https://www.guiadelpiscina.com/cubierta-piscina-desmontable) — Cobertores de invierno, solares y mantas térmicas, Bestway e Intex, 12-25€
+- [Mejor clorador salino para piscina 2025](https://www.guiadelpiscina.com/mejor-clorador-salino-piscina) — Comparativa Intex vs Bestway, guía de sal por volumen
+- [Mejor cubierta para piscina desmontable 2025](https://www.guiadelpiscina.com/cubierta-piscina-desmontable) — Cobertores de invierno, solares y mantas térmicas, Bestway e Intex
 - [Cómo cerrar la piscina para el invierno — Guía completa 2026](https://www.guiadelpiscina.com/como-cerrar-piscina-invierno) — Tratamiento de choque, algicida de invierno, protección del equipo y comparativa de cubiertas
 - [Invernaje activo o pasivo en la piscina — Cuál elegir 2026](https://www.guiadelpiscina.com/invernaje-activo-o-pasivo-piscina) — Comparativa activo vs pasivo, criterios según clima, guía paso a paso de ambos métodos
 - [Algas en la piscina: cómo eliminarlas y evitar que vuelvan (2025)](https://www.guiadelpiscina.com/algas-piscina) — Algas verdes, negras y mostaza, tratamiento de choque y prevención
@@ -44,29 +44,30 @@ Categorías disponibles con fichas de producto individuales:
 - [Cómo abrir la piscina para el verano — Guía completa 2025](https://www.guiadelpiscina.com/como-abrir-piscina-temporada) — 7 pasos: revisión del equipo, limpieza, tratamiento del agua
 
 ### Depuración y limpieza
-- [Las 5 mejores depuradoras para piscina en 2025](https://www.guiadelpiscina.com/mejores-depuradoras-piscina) — Depuradoras de arena y cartucho, 89-200€
-- [Mejores robots limpiafondos para piscina 2025](https://www.guiadelpiscina.com/robot-limpiafondos-piscina) — Robots Dolphin, Bestway y Zodiac, 250-600€
-- [Mejor escalera para piscina desmontable 2025](https://www.guiadelpiscina.com/escalera-piscina-desmontable) — Intex vs Bestway, guía por altura de piscina, 35-55€
+- [Depuradora de piscina: arena, cartucho o cristal, qué caudal necesitas y modelos recomendados](https://www.guiadelpiscina.com/mejores-depuradoras-piscina) — Tipos de filtro, caudal = litros ÷ 4-6 h con ejemplos, horas de filtrado, conexiones de 32/38 mm con Intex y Bestway, consumo, contralavado, invernaje y comparativa de 10 depuradoras
+- [Depuradora para piscina pequeña: qué caudal necesitas, cartucho o arena y modelos para menos de 10.000 litros](https://www.guiadelpiscina.com/depuradora-piscina-pequena) — Caudal para piscinas de 2.000 a 8.000 litros, cartucho frente a arena compacta, mangueras de 32 mm y consumo
+- [Mejores robots limpiafondos para piscina 2025](https://www.guiadelpiscina.com/robot-limpiafondos-piscina) — Robots Dolphin, Bestway y Zodiac
+- [Mejor escalera para piscina desmontable 2025](https://www.guiadelpiscina.com/escalera-piscina-desmontable) — Intex vs Bestway, guía por altura de piscina
 - [Skimmer de piscina: qué es y cuándo interesa uno automático solar (2026)](https://www.guiadelpiscina.com/skimmer-piscina-automatico-solar) — Skimmer fijo vs robot skimmer solar, complementario al robot de fondo
 
 ### Climatización
-- [Bomba de calor para piscina: las mejores opciones 2025](https://www.guiadelpiscina.com/bomba-calor-piscina) — Gre y Poolex Full Inverter, 500-1.500€
+- [Bomba de calor para piscina: las mejores opciones 2025](https://www.guiadelpiscina.com/bomba-calor-piscina) — Gre y Poolex Full Inverter
 
 ### Piscinas desmontables
-- [Mejores piscinas desmontables grandes 2025](https://www.guiadelpiscina.com/piscina-desmontable-grande) — Piscinas elevadas Intex y Bestway para adultos, 300-800€
-- [Mejores piscinas desmontables grandes para adultos 2025](https://www.guiadelpiscina.com/piscina-desmontable-grande-adultos) — Intex Ultra XTR y Bestway Power Steel, 488-732cm, 500-900€
+- [Mejores piscinas desmontables grandes 2025](https://www.guiadelpiscina.com/piscina-desmontable-grande) — Piscinas elevadas Intex y Bestway para adultos
+- [Mejores piscinas desmontables grandes para adultos 2025](https://www.guiadelpiscina.com/piscina-desmontable-grande-adultos) — Intex Ultra XTR y Bestway Power Steel, 488-732cm
 - [Piscina desmontable rectangular: cómo elegir medidas, altura y depuradora](https://www.guiadelpiscina.com/piscina-desmontable-rectangular) — Rectangular vs redonda, cálculo de litros (largo × ancho × altura del agua), caudal de depuradora para renovar el agua en 4-6 h, terreno, montaje y comparativa de rectangulares Intex y Bestway de 300 a 640 cm
 
 ### Jardín y terraza
-- [Las mejores tumbonas de jardín en 2025](https://www.guiadelpiscina.com/mejores-tumbonas-jardin) — SONGMICS y Keter, aluminio y textileno, 80-130€
-- [Mejores sombrillas de jardín en 2025](https://www.guiadelpiscina.com/mejores-sombrillas-jardin) — Outsunny y Aktive, palo central y rectangular, guía por tamaño de espacio, 40-90€
-- [Mejores muebles de jardín y terraza 2025](https://www.guiadelpiscina.com/muebles-jardin-terraza) — Conjuntos de exterior, 99-800€
-- [Las mejores pérgolas para terraza y jardín 2025](https://www.guiadelpiscina.com/pergola-terraza) — Pérgolas aluminio, madera y bioclimáticas, 150-1.500€
+- [Las mejores tumbonas de jardín en 2025](https://www.guiadelpiscina.com/mejores-tumbonas-jardin) — SONGMICS y Keter, aluminio y textileno
+- [Mejores sombrillas de jardín en 2025](https://www.guiadelpiscina.com/mejores-sombrillas-jardin) — Outsunny y Aktive, palo central y rectangular, guía por tamaño de espacio
+- [Mejores muebles de jardín y terraza 2025](https://www.guiadelpiscina.com/muebles-jardin-terraza) — Conjuntos de exterior
+- [Las mejores pérgolas para terraza y jardín 2025](https://www.guiadelpiscina.com/pergola-terraza) — Pérgolas aluminio, madera y bioclimáticas
 
 ### Riego y jardinería
-- [Mejor manguera de riego para jardín 2025](https://www.guiadelpiscina.com/mejor-manguera-riego-jardin) — HOMEPROTEK y Hozelock extensibles, 15-30m, 25-45€
-- [Sistemas de riego automático para jardín 2025](https://www.guiadelpiscina.com/sistema-riego-automatico) — Programadores y kits de riego, 30-300€
-- [Mejor césped artificial para jardín 2025](https://www.guiadelpiscina.com/cesped-artificial-jardin) — Análisis por densidad, altura y protección UV, 5-25€/m²
+- [Mejor manguera de riego para jardín 2025](https://www.guiadelpiscina.com/mejor-manguera-riego-jardin) — HOMEPROTEK y Hozelock extensibles, 15-30m
+- [Sistemas de riego automático para jardín 2025](https://www.guiadelpiscina.com/sistema-riego-automatico) — Programadores y kits de riego
+- [Mejor césped artificial para jardín 2025](https://www.guiadelpiscina.com/cesped-artificial-jardin) — Análisis por densidad, altura y protección UV
 - [GARDENA Flex 1890-20: análisis completo y opinión 2026](https://www.guiadelpiscina.com/gardena-flex-1890-20-analisis) — Análisis del programador de riego mejor valorado del catálogo, 4.330 reseñas
 - [Programador de riego para grifo: cómo elegir entre mecánico, electrónico y smart (2026)](https://www.guiadelpiscina.com/como-elegir-programador-riego) — Diferencias entre temporizador mecánico, programador electrónico (1 o varios programas) y sistema smart con app; criterios de elección y errores habituales
 

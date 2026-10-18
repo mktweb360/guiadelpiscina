@@ -104,7 +104,7 @@ const bloques: Bloque[] = [
       { slug: "intex-55249-depuradora-arena-3500", note: "Arena compacta para piscinas de hasta 17.000 litros, con programación diaria y manómetro." },
       { slug: "intex-55225-depuradora-arena-5700", note: "Arena para piscinas de hasta 29.100 litros, válvula de 6 funciones y admite arena, vidrio o bolas." },
       { slug: "intex-c2500-depuradora-cartucho", note: "Cartucho tipo B con mucho caudal para piscinas Intex grandes, con indicador de filtro y temporizador." },
-      { slug: "intex-28648-depuradora-arena-14", note: "Depósito de 14 pulgadas para piscinas de hasta 40.000 litros. Sobredimensionada para una desmontable pequeña." },
+      { slug: "intex-28648-depuradora-arena-14", note: "Arena con tanque de 14 pulgadas y 10.500 l/h para piscinas de hasta 57.500 litros. Sobredimensionada para una desmontable pequeña." },
     ],
   },
   {
@@ -146,7 +146,7 @@ const bloques: Bloque[] = [
     ],
     picks: [
       { slug: "intex-28166-easy-set-457x107", note: "Set completo de aro hinchable con depuradora de cartucho, escalera, tapiz y cobertor." },
-      { slug: "intex-28273np-piscina-small-frame-450x220", note: "Rectangular tubular de 7.127 litros para familias. No incluye depuradora." },
+      { slug: "intex-28273np-piscina-small-frame-450x220", note: "Rectangular tubular de 7.127 litros para familias, con depuradora de cartucho y cobertor." },
       { slug: "intex-ultra-xtr-549x274-depuradora", note: "La más grande de la selección: 549 × 274 × 132 cm con depuradora de arena, escalera, tapiz y cobertor." },
       { slug: "intex-28075-escalera-piscina-91-107cm", note: "Escalera de acero para paredes de 91 a 107 cm, con peldaños exteriores extraíbles." },
     ],

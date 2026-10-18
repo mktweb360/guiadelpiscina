@@ -18,10 +18,10 @@ const articles = [
     href: "/mejores-depuradoras-piscina",
     img: "/images/blog/mejores-depuradoras-piscina.jpg",
     icon: "💧",
-    title: "Las 5 mejores depuradoras para piscina — Análisis y comparativa",
+    title: "Depuradora de piscina: arena, cartucho o cristal, qué caudal necesitas y modelos recomendados",
     excerpt:
-      "Comparativa de depuradoras de arena y cartucho: caudal, tamaño de piscina y mantenimiento para ayudarte a elegir.",
-    date: "2025-05-15",
+      "Arena, cartucho o cristal, cómo calcular el caudal según litros y horas, conexiones de 32 o 38 mm con Intex y Bestway, consumo, contralavado y comparativa.",
+    date: "2026-10-18",
     price: "",
     category: "Piscinas",
   },
@@ -334,6 +334,16 @@ const articles = [
     title: "Piscina desmontable rectangular: cómo elegir medidas, altura y depuradora",
     excerpt:
       "Rectangular o redonda, cómo calcular los litros de verdad, qué caudal de depuradora necesitas y comparativa de las rectangulares de nuestra selección.",
+    date: "2026-10-18",
+    price: "",
+    category: "Piscinas",
+  },
+  {
+    href: "/depuradora-piscina-pequena",
+    icon: "💧",
+    title: "Depuradora para piscina pequeña: qué caudal necesitas, cartucho o arena y modelos para menos de 10.000 litros",
+    excerpt:
+      "Caudal según los litros de tu piscina pequeña, cartucho o arena, conexiones de 32 mm, consumo y las depuradoras pequeñas de nuestra selección.",
     date: "2026-10-18",
     price: "",
     category: "Piscinas",

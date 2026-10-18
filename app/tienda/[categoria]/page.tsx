@@ -52,7 +52,10 @@ const buyingGuides: Record<string, { p1: string; p2: string; p3: string }> = {
 // ── Related articles per category ─────────────────────────────────────────────
 
 const relatedArticles: Record<string, { href: string; title: string }[]> = {
-  depuradoras: [{ href: "/mejores-depuradoras-piscina", title: "Las 5 mejores depuradoras para piscina" }],
+  depuradoras: [
+    { href: "/mejores-depuradoras-piscina", title: "Depuradora de piscina: tipos, caudal y comparativa" },
+    { href: "/depuradora-piscina-pequena", title: "Depuradora para piscina pequeña: cuál elegir" },
+  ],
   "robots-limpiafondos": [{ href: "/robot-limpiafondos-piscina", title: "Mejores robots limpiafondos para piscina" }],
   "bombas-calor": [{ href: "/bomba-calor-piscina", title: "Bomba de calor para piscina: las mejores opciones" }],
   "muebles-jardin": [{ href: "/muebles-jardin-terraza", title: "Muebles de jardín y terraza: guía de compra" }],
