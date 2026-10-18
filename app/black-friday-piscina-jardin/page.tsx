@@ -12,11 +12,13 @@ import GuideProductPick, { availableBySlug } from "@/components/GuideProductPick
 
 const URL = "https://www.guiadelpiscina.com/black-friday-piscina-jardin";
 const TITLE = "Black Friday 2026 en piscina y jardín: qué comprar en temporada baja";
+// Title SEO (≤ 70 con la marca), distinto del H1
+const SEO_TITLE = "Black Friday piscina y jardín: qué comprar";
 const DESCRIPTION =
   "Qué merece la pena comprar en Black Friday para la piscina y el jardín (invernaje, robots, depuradoras, bombas de calor, muebles, pérgolas y riego), cómo elegir y qué evitar.";
 
 export const metadata: Metadata = {
-  title: TITLE,
+  title: SEO_TITLE,
   description: DESCRIPTION,
   keywords:
     "black friday piscina, black friday jardín, black friday robot limpiafondos, black friday depuradora, black friday bomba de calor piscina, comprar piscina en invierno, muebles de jardín black friday",

@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Política de cookies — Guía del Piscina",
+  title: { absolute: "Política de cookies — Guía del Piscina" },
   description: "Política de cookies de Guía del Piscina. Qué cookies utilizamos, para qué y cómo puedes gestionarlas.",
   alternates: { canonical: "https://www.guiadelpiscina.com/politica-de-cookies" },
 };

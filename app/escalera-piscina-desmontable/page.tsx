@@ -5,7 +5,7 @@ import AdSenseAd from "@/components/AdSenseAd";
 import BlogSidebar from "@/components/BlogSidebar";
 
 export const metadata: Metadata = {
-  title: "Mejor escalera piscina desmontable — Guía de compra",
+  title: "Escalera para piscina desmontable: cuál elegir",
   description:
     "Las 3 mejores escaleras para piscina desmontable. Comparativa Intex vs Bestway por altura, seguridad, materiales y precio.",
   keywords:

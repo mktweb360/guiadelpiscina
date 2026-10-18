@@ -4,7 +4,7 @@ import AdSenseAd from "@/components/AdSenseAd";
 import BlogSidebar from "@/components/BlogSidebar";
 
 export const metadata: Metadata = {
-  title: "Cómo abrir la piscina para el verano: guía completa paso a paso",
+  title: "Cómo abrir la piscina en verano: paso a paso",
   description:
     "Prepara tu piscina para la temporada en 7 pasos: revisión del equipo, limpieza, tratamiento del agua y puesta a punto. Checklist incluido.",
   keywords:
@@ -156,7 +156,7 @@ export default function ComoAbrirPiscinaPage() {
           <h3>Día 1 — Limpieza física</h3>
           <ol>
             <li><strong>Retira la cubierta</strong> y guárdala seca y limpia para evitar que se deteriore.</li>
-            <li><strong>Limpia el skimmer</strong> y la canastilla de la bomba: extrae hojas, insectos y cualquier residuo acumulado durante el invierno.</li>
+            <li><strong>Limpia el <Link href="/skimmer-piscina-automatico-solar" className="text-sky-600 hover:underline">skimmer</Link></strong> y la canastilla de la bomba: extrae hojas, insectos y cualquier residuo acumulado durante el invierno.</li>
             <li><strong>Cepilla paredes y fondo</strong> de la piscina para soltar la suciedad adherida y las posibles <Link href="/algas-piscina" className="text-sky-600 hover:underline">algas</Link> incipientes.</li>
             <li><strong>Aspira el fondo al desagüe</strong> con <Link href="/tienda/robots-limpiafondos" className="text-sky-600 hover:underline">robots limpiafondos</Link> o con la manguera de aspiración manual en posición desagüe para eliminar los sedimentos sin que pasen por el filtro.</li>
             <li><strong>Llena hasta el nivel correcto:</strong> el agua debe llegar a la mitad del skimmer para que aspire correctamente.</li>

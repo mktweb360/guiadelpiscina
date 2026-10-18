@@ -4,7 +4,7 @@ import AdSenseAd from "@/components/AdSenseAd";
 import BlogSidebar from "@/components/BlogSidebar";
 
 export const metadata: Metadata = {
-  title: "Floculante para piscina: cuándo usarlo y cómo aplicarlo",
+  title: "Floculante para piscina: cuándo y cómo usarlo",
   description:
     "Qué es el floculante para piscina, cuándo usarlo, cómo aplicarlo paso a paso y diferencia con el clarificante. Agua cristalina en 48h.",
   keywords:

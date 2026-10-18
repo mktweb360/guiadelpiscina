@@ -5,7 +5,7 @@ import AdSenseAd from "@/components/AdSenseAd";
 import BlogSidebar from "@/components/BlogSidebar";
 
 export const metadata: Metadata = {
-  title: "Mejores robots limpiafondos para piscina — Guía de compra",
+  title: "Robot limpiafondos piscina: mejores modelos",
   description:
     "Comparativa de los mejores robots limpiafondos para piscina. Analizamos funciones, autonomía y precio para que elijas el robot perfecto para tu piscina.",
   keywords: "robot limpiafondos, limpiafondos automatico piscina, robot piscina, limpiafondos electrico",

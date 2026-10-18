@@ -5,7 +5,7 @@ import AdSenseAd from "@/components/AdSenseAd";
 import BlogSidebar from "@/components/BlogSidebar";
 
 export const metadata: Metadata = {
-  title: "Sistemas de riego automático para jardín — Comparativa",
+  title: "Sistema de riego automático para jardín",
   description:
     "Los mejores sistemas de riego automático para jardín. Programadores, aspersores y riego por goteo. Comparativa actualizada.",
   keywords: "riego automatico jardin, programador riego, sistema riego goteo, aspersores jardin",

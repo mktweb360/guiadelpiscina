@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Política de privacidad — Guía del Piscina",
+  title: { absolute: "Política de privacidad — Guía del Piscina" },
   description: "Política de privacidad de Guía del Piscina. Información sobre el tratamiento de datos personales, Google AdSense y el programa de afiliados de Amazon.",
   alternates: { canonical: "https://www.guiadelpiscina.com/politica-de-privacidad" },
 };
@@ -33,14 +33,15 @@ export default function PoliticaPrivacidadPage() {
             <li><strong>CIF:</strong> B87679304</li>
             <li><strong>Dirección postal:</strong> España</li>
             <li><strong>Correo electrónico:</strong> info@guiadelpiscina.com</li>
+            <li><strong>Datos del titular:</strong> <a href="/aviso-legal" className="text-sky-600 hover:underline">Aviso legal</a></li>
           </ul>
 
           <h2>2. Datos que recopilamos</h2>
           <p>Recopilamos los siguientes tipos de datos:</p>
           <ul>
             <li><strong>Datos de uso:</strong> Páginas visitadas, tiempo en el sitio, fuente de tráfico. Recopilados mediante Google Analytics (si das tu consentimiento).</li>
-            <li><strong>Datos de contacto:</strong> Nombre, email y mensaje, cuando nos escribes a través del formulario de contacto.</li>
-            <li><strong>Datos de cookies:</strong> Identificadores de sesión y preferencias. Ver nuestra Política de cookies.</li>
+            <li><strong>Datos de contacto:</strong> Nombre, email y mensaje, cuando nos escribes a través del <a href="/contacto" className="text-sky-600 hover:underline">formulario de contacto</a>.</li>
+            <li><strong>Datos de cookies:</strong> Identificadores de sesión y preferencias. Ver nuestra <a href="/politica-de-cookies" className="text-sky-600 hover:underline">Política de cookies</a>.</li>
           </ul>
 
           <h2>3. Finalidad del tratamiento</h2>

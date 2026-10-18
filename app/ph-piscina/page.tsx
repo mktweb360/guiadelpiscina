@@ -6,7 +6,7 @@ import AdSenseAd from "@/components/AdSenseAd";
 import BlogSidebar from "@/components/BlogSidebar";
 
 export const metadata: Metadata = {
-  title: "pH piscina: valores ideales, cómo medirlo y corregirlo",
+  title: "pH piscina: valor ideal y cómo corregirlo",
   description:
     "Todo sobre el pH de la piscina: rango ideal (7,2-7,6), cómo medirlo con tiras o medidor digital, cómo subir o bajar el pH y qué pasa si está fuera de rango.",
   keywords:
@@ -122,7 +122,7 @@ export default function PhPiscinaPage() {
         </nav>
 
         <h1 className="text-3xl md:text-4xl font-extrabold text-gray-900 mb-4 leading-tight">
-          pH de la piscina: qué es, cómo medirlo y cómo corregirlo en
+          pH de la piscina: qué es, cómo medirlo y cómo corregirlo
         </h1>
         <p className="text-gray-400 text-sm mb-6">Publicado: 10 julio 2025 · Actualizado: 10 julio 2025 · 9 min lectura</p>
         <span className="flex items-center gap-1 text-gray-500 text-sm mb-4 block">
@@ -179,7 +179,7 @@ export default function PhPiscinaPage() {
 
           <h3>Tiras reactivas (económico, rápido)</h3>
           <p>
-            Las tiras reactivas son la forma más rápida y barata de medir el pH. Sumerges una tira en el agua durante unos segundos, la sacas y comparas el color resultante con la escala impresa en el bote. Las tiras «7 en 1» miden además cloro, alcalinidad, dureza y otros parámetros de una sola vez.
+            Las tiras reactivas son la forma más rápida y barata de medir el pH. Sumerges una tira en el agua durante unos segundos, la sacas y comparas el color resultante con la escala impresa en el bote. Las tiras «7 en 1» miden además cloro, <Link href="/alcalinidad-piscina" className="text-sky-600 hover:underline">alcalinidad</Link>, dureza y otros parámetros de una sola vez.
           </p>
           <p>
             Su limitación es la <strong>precisión</strong>: la lectura por color es aproximada y depende de la luz y de tu apreciación. Son perfectas para el control rutinario, pero menos fiables en el límite del rango.

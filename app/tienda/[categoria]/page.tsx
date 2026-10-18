@@ -84,7 +84,7 @@ export async function generateMetadata({
   const cat = categories.find((c) => c.slug === categoria);
   if (!cat) return {};
   return {
-    title: `${cat.name}: guía de compra y comparativa`,
+    title: `${cat.name}: guía de compra`,
     description: `Comparativa de los mejores productos de ${cat.name.toLowerCase()}. Analizamos especificaciones, materiales y usos para ayudarte a elegir.`,
     alternates: { canonical: `https://www.guiadelpiscina.com/tienda/${categoria}` },
     openGraph: {
@@ -222,7 +222,7 @@ export default async function CategoryPage({
             <span className="text-3xl leading-none mt-0.5">{cat.icon}</span>
             <div>
               <h1 className="text-2xl font-extrabold text-gray-900 leading-tight">
-                {cat.name} — Guía de compra y comparativa 2025
+                {cat.name}: guía de compra y comparativa
               </h1>
               <p className="text-gray-500 text-sm mt-1">{cat.description}</p>
             </div>

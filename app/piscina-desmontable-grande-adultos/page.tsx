@@ -5,7 +5,7 @@ import AdSenseAd from "@/components/AdSenseAd";
 import BlogSidebar from "@/components/BlogSidebar";
 
 export const metadata: Metadata = {
-  title: "Mejores piscinas desmontables grandes para adultos",
+  title: "Piscinas desmontables grandes para adultos",
   description:
     "Las mejores piscinas desmontables grandes para adultos: Intex Ultra XTR y Bestway Power Steel. Comparativa por tamaño, capacidad, materiales y precio.",
   keywords:
@@ -148,7 +148,7 @@ export default function PiscinaGrandeAdultosPage() {
         </nav>
 
         <h1 className="text-3xl md:text-4xl font-extrabold text-gray-900 mb-4 leading-tight">
-          Las mejores piscinas desmontables grandes para adultos en
+          Las mejores piscinas desmontables grandes para adultos
         </h1>
         <p className="text-gray-400 text-sm mb-6">Publicado: 20 julio 2025 · Actualizado: 20 julio 2025 · 10 min lectura</p>
         <span className="flex items-center gap-1 text-gray-500 text-sm mb-4 block">

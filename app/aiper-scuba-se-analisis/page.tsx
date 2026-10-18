@@ -6,7 +6,7 @@ import AdSenseAd from "@/components/AdSenseAd";
 import BlogSidebar from "@/components/BlogSidebar";
 
 export const metadata: Metadata = {
-  title: "AIPER Scuba SE: análisis completo y opinión 2026",
+  title: "AIPER Scuba SE: análisis y opinión",
   description:
     "Análisis a fondo del robot limpiafondos AIPER Scuba SE: autonomía de 90 minutos, cobertura, comparativa con otros robots del catálogo (AIPER Scuba S1, WYBOT C2 Vision) y opinión final.",
   keywords:

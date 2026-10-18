@@ -11,10 +11,12 @@ import BlogSidebar from "@/components/BlogSidebar";
 // Dosis de Alca-Plus (180 g por 10 m³ → +10 mg/L) según la ficha del fabricante recogida en data/products.ts.
 
 const TITLE = "Alcalinidad de la piscina: valor ideal, cómo subirla y cómo bajarla (2026)";
+// Title SEO (≤ 70 con la marca), distinto del H1
+const SEO_TITLE = "Alcalinidad piscina: cómo subirla o bajarla";
 const URL = "https://www.guiadelpiscina.com/alcalinidad-piscina";
 
 export const metadata: Metadata = {
-  title: TITLE,
+  title: SEO_TITLE,
   description:
     "Qué es la alcalinidad total de la piscina, qué valor mantener (80-120 mg/L), por qué hace que el pH suba y baje sin control y cómo corregirla paso a paso.",
   keywords:

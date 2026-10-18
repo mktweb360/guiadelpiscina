@@ -12,13 +12,15 @@ import GuideProductPick, { availableBySlug } from "@/components/GuideProductPick
 // Los productos salen de data/products.ts por slug y se ocultan solos si se marcan `unavailable`.
 
 const TITLE = "Piscina desmontable rectangular: medidas, litros y modelos";
+// Title SEO (≤ 70 con la marca), distinto del H1
+const SEO_TITLE = "Piscina desmontable rectangular: cómo elegir";
 const H1 = "Piscina desmontable rectangular: cómo elegir medidas, altura y depuradora";
 const URL = "https://www.guiadelpiscina.com/piscina-desmontable-rectangular";
 const DESCRIPTION =
   "Cómo elegir una piscina desmontable rectangular: litros bien calculados, altura, depuradora según el volumen, terreno, montaje y comparativa de modelos.";
 
 export const metadata: Metadata = {
-  title: TITLE,
+  title: SEO_TITLE,
   description: DESCRIPTION,
   keywords:
     "piscina desmontable rectangular, piscinas rectangulares desmontables, piscina rectangular desmontable, piscina desmontable con depuradora, piscinas desmontables grandes, piscinas desmontables 1,50 altura, litros piscina rectangular",

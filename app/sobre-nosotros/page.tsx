@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Sobre nosotros — Guía del Piscina",
+  title: { absolute: "Sobre nosotros — Guía del Piscina" },
   description:
     "Somos el equipo editorial de Guía del Piscina. Conoce cómo investigamos y comparamos equipamiento de piscinas y jardín antes de recomendarlo, y nuestra política de afiliación.",
   alternates: { canonical: "https://www.guiadelpiscina.com/sobre-nosotros" },
@@ -160,7 +160,7 @@ export default function SobreNosotrosPage() {
               <strong>GuíaDeLaPiscina.com</strong> participa en programas de afiliación con distintos partners comerciales, un modo de obtener comisiones por publicidad mediante la inclusión de enlaces a tiendas asociadas.
             </p>
             <p className="text-gray-700 text-sm leading-relaxed mb-2">
-              Cuando haces clic en un enlace de afiliado en nuestro sitio y realizas una compra, podemos recibir una pequeña comisión <strong>sin coste adicional para ti</strong>. Este sistema nos permite mantener el sitio activo y publicar contenido gratuito. Más información en nuestra política de privacidad.
+              Cuando haces clic en un enlace de afiliado en nuestro sitio y realizas una compra, podemos recibir una pequeña comisión <strong>sin coste adicional para ti</strong>. Este sistema nos permite mantener el sitio activo y publicar contenido gratuito. Más información en nuestra <Link href="/politica-de-privacidad" className="text-sky-600 hover:underline">política de privacidad</Link>.
             </p>
             <p className="text-gray-700 text-sm leading-relaxed">
               <strong>Política clara:</strong> las comisiones de afiliado no influyen en nuestras valoraciones. Recomendamos los productos que consideramos técnicamente mejores para el usuario, independientemente de la comisión que generen.
@@ -189,6 +189,10 @@ export default function SobreNosotrosPage() {
             <div className="flex gap-2">
               <dt className="font-semibold w-32 shrink-0">País:</dt>
               <dd>España</dd>
+            </div>
+            <div className="flex gap-2">
+              <dt className="font-semibold w-32 shrink-0">Datos legales:</dt>
+              <dd><Link href="/aviso-legal" className="text-sky-600 hover:underline">Aviso legal</Link></dd>
             </div>
             <div className="flex gap-2">
               <dt className="font-semibold w-32 shrink-0">Contacto:</dt>

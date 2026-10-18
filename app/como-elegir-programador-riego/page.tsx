@@ -9,7 +9,7 @@ import BlogSidebar from "@/components/BlogSidebar";
 // Por cumplimiento (julio 2026) NO se muestran precios ni valoraciones estáticas de Amazon: solo características verificadas.
 
 export const metadata: Metadata = {
-  title: "Programador de riego para grifo: cómo elegir entre mecánico, electrónico y smart (2026)",
+  title: "Programador de riego para grifo: cómo elegir",
   description:
     "Qué tipo de programador de riego necesitas según tu jardín, balcón o huerto: temporizador mecánico, programador electrónico o sistema smart con app. Criterios, comparativa y errores a evitar.",
   keywords:

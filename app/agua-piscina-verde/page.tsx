@@ -5,7 +5,7 @@ import AdSenseAd from "@/components/AdSenseAd";
 import BlogSidebar from "@/components/BlogSidebar";
 
 export const metadata: Metadata = {
-  title: "Agua piscina verde: causas y solución definitiva",
+  title: "Agua de piscina verde: causas y solución",
   description:
     "¿El agua de tu piscina se ha puesto verde? Descubre las causas, el protocolo de choque para recuperarla en 24-48h y cómo evitar que vuelva a ocurrir.",
   keywords:

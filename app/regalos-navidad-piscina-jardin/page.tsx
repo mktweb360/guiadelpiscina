@@ -12,11 +12,13 @@ import GuideProductPick, { availableBySlug } from "@/components/GuideProductPick
 
 const URL = "https://www.guiadelpiscina.com/regalos-navidad-piscina-jardin";
 const TITLE = "Regalos de Navidad y Reyes para amantes del jardín y la piscina (2026)";
+// Title SEO (≤ 70 con la marca), distinto del H1
+const SEO_TITLE = "Regalos de Navidad y Reyes: jardín y piscina";
 const DESCRIPTION =
   "Ideas de regalo para Navidad y Reyes para quien tiene jardín, terraza o piscina: descanso al aire libre, riego, robots, accesorios y regalos para toda la familia. Qué acertar y qué evitar.";
 
 export const metadata: Metadata = {
-  title: TITLE,
+  title: SEO_TITLE,
   description: DESCRIPTION,
   keywords:
     "regalos jardín navidad, regalos para amantes del jardín, regalos piscina, regalos reyes jardín, regalo programador riego, regalo hamaca jardín, regalo robot piscina",

@@ -5,7 +5,7 @@ import AdSenseAd from "@/components/AdSenseAd";
 import BlogSidebar from "@/components/BlogSidebar";
 
 export const metadata: Metadata = {
-  title: "Las mejores sombrillas de jardín — Guía de compra",
+  title: "Mejores sombrillas de jardín: guía de compra",
   description:
     "Las 3 mejores sombrillas de jardín: análisis de sombrillas de palo central y excéntricas para terraza y jardín. Comparativa por tamaño, material y precio.",
   keywords:

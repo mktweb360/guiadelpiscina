@@ -5,7 +5,7 @@ import AdSenseAd from "@/components/AdSenseAd";
 import BlogSidebar from "@/components/BlogSidebar";
 
 export const metadata: Metadata = {
-  title: "Mejores piscinas desmontables grandes — Guía de compra",
+  title: "Piscinas desmontables grandes: guía de compra",
   description:
     "Comparativa de las mejores piscinas desmontables grandes para adultos y familias. Intex, Bestway y más, con criterios de tamaño, estructura y depuradora.",
   keywords: "piscina desmontable grande, piscina desmontable adultos, piscina jardin grande, piscina intex grande",

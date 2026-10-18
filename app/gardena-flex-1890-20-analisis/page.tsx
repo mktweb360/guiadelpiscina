@@ -6,7 +6,7 @@ import AdSenseAd from "@/components/AdSenseAd";
 import BlogSidebar from "@/components/BlogSidebar";
 
 export const metadata: Metadata = {
-  title: "GARDENA Flex 1890-20: análisis completo y opinión 2026",
+  title: "GARDENA Flex 1890-20: análisis y opinión",
   description:
     "Análisis a fondo del programador de riego GARDENA Flex 1890-20: función Water Now, instalación, autonomía de pilas, comparativa con otros programadores Gardena y opinión final.",
   keywords:

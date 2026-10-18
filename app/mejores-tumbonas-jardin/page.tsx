@@ -5,7 +5,7 @@ import AdSenseAd from "@/components/AdSenseAd";
 import BlogSidebar from "@/components/BlogSidebar";
 
 export const metadata: Metadata = {
-  title: "Las mejores tumbonas de jardín — Comparativa y análisis",
+  title: "Mejores tumbonas de jardín: comparativa",
   description:
     "Análisis de las 3 mejores tumbonas de jardín para piscina y terraza. Comparativa por material, comodidad, resistencia y precio.",
   keywords:

@@ -5,7 +5,7 @@ import AdSenseAd from "@/components/AdSenseAd";
 import BlogSidebar from "@/components/BlogSidebar";
 
 export const metadata: Metadata = {
-  title: "Mejores muebles de jardín y terraza — Guía completa",
+  title: "Mejores muebles de jardín y terraza",
   description:
     "Comparativa de los mejores muebles de jardín y terraza. Conjuntos, sillas, mesas y tumbonas para todos los presupuestos.",
   keywords: "muebles jardin, muebles terraza baratos, conjunto jardin, sillas jardin, mesa jardin",

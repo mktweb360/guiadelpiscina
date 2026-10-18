@@ -5,7 +5,7 @@ import AdSenseAd from "@/components/AdSenseAd";
 import BlogSidebar from "@/components/BlogSidebar";
 
 export const metadata: Metadata = {
-  title: "Las mejores pérgolas para terraza y jardín — Guía de compra",
+  title: "Pérgolas para terraza y jardín: guía de compra",
   description:
     "Comparativa de las mejores pérgolas para terraza y jardín. Aluminio, madera y bioclimáticas. Encuentra la pérgola perfecta para tu espacio exterior.",
   keywords: "pergola terraza, pergola jardin aluminio, pergola bioclimatica, toldo pergola",

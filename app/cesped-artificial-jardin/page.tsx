@@ -6,7 +6,7 @@ import AdSenseAd from "@/components/AdSenseAd";
 import BlogSidebar from "@/components/BlogSidebar";
 
 export const metadata: Metadata = {
-  title: "Mejor césped artificial para jardín — Análisis y precios",
+  title: "Mejor césped artificial para jardín: precios",
   description:
     "Comparativa del mejor césped artificial para jardín y terraza. Analizamos densidad, altura, calidad UV y precio por metro cuadrado.",
   keywords: "cesped artificial jardin, cesped artificial precio, cesped sintetico jardin, cesped artificial terraza",

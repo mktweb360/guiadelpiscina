@@ -4,7 +4,7 @@ import AdSenseAd from "@/components/AdSenseAd";
 import BlogSidebar from "@/components/BlogSidebar";
 
 export const metadata: Metadata = {
-  title: "Invernaje activo o pasivo en la piscina: cuál elegir y cómo hacerlo (2026)",
+  title: "Invernaje activo o pasivo de la piscina",
   description:
     "Diferencias entre invernaje activo y pasivo, cuándo elegir cada uno según tu clima y equipo, y cómo hacerlo paso a paso para evitar problemas en primavera.",
   keywords:

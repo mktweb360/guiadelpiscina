@@ -4,7 +4,7 @@ import AdSenseAd from "@/components/AdSenseAd";
 import BlogSidebar from "@/components/BlogSidebar";
 
 export const metadata: Metadata = {
-  title: "¿Cuánto cloro echar en piscina? Dosis exactas por litros",
+  title: "Cuánto cloro echar en la piscina según litros",
   description:
     "Calcula exactamente cuánto cloro echar en tu piscina según sus litros: dosis de mantenimiento, choque y corrección. Guía práctica con tablas.",
   keywords:

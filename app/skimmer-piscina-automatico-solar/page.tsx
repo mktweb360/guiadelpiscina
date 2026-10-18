@@ -5,7 +5,7 @@ import AdSenseAd from "@/components/AdSenseAd";
 import BlogSidebar from "@/components/BlogSidebar";
 
 export const metadata: Metadata = {
-  title: "Skimmer de piscina: qué es y cuándo interesa uno automático solar (2026)",
+  title: "Skimmer automático solar para piscina: qué es",
   description:
     "Qué es un skimmer de piscina, diferencia entre el skimmer fijo y el robot skimmer solar de superficie, y cuándo compensa frente a limpiar solo con el robot de fondo.",
   keywords:

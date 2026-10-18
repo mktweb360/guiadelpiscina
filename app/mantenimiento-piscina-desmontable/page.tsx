@@ -5,7 +5,7 @@ import AdSenseAd from "@/components/AdSenseAd";
 import BlogSidebar from "@/components/BlogSidebar";
 
 export const metadata: Metadata = {
-  title: "Mantenimiento piscina desmontable: guía paso a paso",
+  title: "Mantenimiento piscina desmontable: paso a paso",
   description:
     "Todo lo que necesitas saber para mantener tu piscina desmontable limpia y en perfecto estado: control de pH, cloro, limpieza del filtro, invernada y productos imprescindibles.",
   keywords:
@@ -206,7 +206,7 @@ export default function MantenimientoPiscinaPage() {
             <li><strong>Ajustar si es necesario:</strong> corrige el pH con pH+ o pH−, y añade cloro si está por debajo de 1 ppm.</li>
             <li><strong>Limpiar las paredes</strong> con un cepillo de piscina para desprender la suciedad adherida antes de que se convierta en algas.</li>
             <li><strong>Limpiar o sustituir el filtro</strong> (cartucho o retrolavado de arena, según tu sistema).</li>
-            <li><strong>Vaciar la cesta del skimmer</strong> si tu piscina tiene uno, para retirar hojas e insectos.</li>
+            <li><strong>Vaciar la cesta del <Link href="/skimmer-piscina-automatico-solar" className="text-sky-600 hover:underline">skimmer</Link></strong> si tu piscina tiene uno, para retirar hojas e insectos.</li>
             <li><strong>Revisar el clorador salino</strong> (si lo usas): comprobar el nivel de sal y que las placas de electrólisis estén limpias.</li>
           </ol>
           <p>

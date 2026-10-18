@@ -5,7 +5,7 @@ import AdSenseAd from "@/components/AdSenseAd";
 import BlogSidebar from "@/components/BlogSidebar";
 
 export const metadata: Metadata = {
-  title: "Las 5 mejores depuradoras para piscina — Análisis y comparativa",
+  title: "Mejores depuradoras para piscina: comparativa",
   description:
     "Comparativa de las mejores depuradoras para piscina del mercado español. Analizamos rendimiento, consumo y precio para que elijas la mejor opción.",
   keywords: "mejores depuradoras piscina, depuradora piscina precio, depuradora arena piscina, filtro piscina",

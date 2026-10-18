@@ -4,7 +4,7 @@ import AdSenseAd from "@/components/AdSenseAd";
 import BlogSidebar from "@/components/BlogSidebar";
 
 export const metadata: Metadata = {
-  title: "Algas en la piscina: cómo eliminarlas y evitar que vuelvan",
+  title: "Algas en la piscina: eliminarlas y prevenirlas",
   description:
     "Identifica y elimina algas verdes, negras y mostaza de tu piscina paso a paso. Tratamiento de choque + prevención definitiva.",
   keywords:

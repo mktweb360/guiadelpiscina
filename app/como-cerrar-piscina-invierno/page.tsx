@@ -5,7 +5,7 @@ import AffiliateDisclosure from "@/components/AffiliateDisclosure";
 import BlogSidebar from "@/components/BlogSidebar";
 
 export const metadata: Metadata = {
-  title: "Cómo cerrar la piscina para el invierno: guía completa paso a paso (2026)",
+  title: "Cómo cerrar la piscina en invierno",
   description:
     "Cierra tu piscina desmontable correctamente antes del invierno: tratamiento de choque, equilibrio químico, protección del equipo y elección de cubierta. Checklist incluido.",
   keywords:

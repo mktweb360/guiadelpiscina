@@ -5,7 +5,7 @@ import AdSenseAd from "@/components/AdSenseAd";
 import BlogSidebar from "@/components/BlogSidebar";
 
 export const metadata: Metadata = {
-  title: "Mejor manguera de riego para jardín — Guía de compra",
+  title: "Mejor manguera de riego para jardín",
   description:
     "Las 3 mejores mangueras de jardín: extensibles y de calidad. Comparativa por longitud, material, funciones y precio para elegir la ideal.",
   keywords:

@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Aviso legal — Guía del Piscina",
+  title: { absolute: "Aviso legal — Guía del Piscina" },
   description: "Aviso legal de Guía del Piscina. Información sobre el titular del sitio web, condiciones de uso y responsabilidades.",
   alternates: { canonical: "https://www.guiadelpiscina.com/aviso-legal" },
 };
@@ -36,6 +36,7 @@ export default function AvisoLegalPage() {
             <li><strong>CIF:</strong> B87679304</li>
             <li><strong>Domicilio social:</strong> España</li>
             <li><strong>Correo electrónico:</strong> info@guiadelpiscina.com</li>
+            <li><strong>Formulario:</strong> <a href="/contacto" className="text-sky-600 hover:underline">página de contacto</a></li>
             <li><strong>Sitio web:</strong> https://www.guiadelpiscina.com</li>
           </ul>
 
@@ -56,7 +57,7 @@ export default function AvisoLegalPage() {
 
           <h2>5. Programa de afiliados</h2>
           <p>
-            Este sitio web participa en programas de afiliados de distintos partners comerciales, un modo de obtener comisiones por publicidad mediante la inclusión de enlaces a tiendas asociadas. Consulta el detalle de los programas en nuestra política de privacidad.
+            Este sitio web participa en programas de afiliados de distintos partners comerciales, un modo de obtener comisiones por publicidad mediante la inclusión de enlaces a tiendas asociadas. Consulta el detalle de los programas en nuestra <a href="/politica-de-privacidad" className="text-sky-600 hover:underline">política de privacidad</a> y las cookies que pueden instalar en la <a href="/politica-de-cookies" className="text-sky-600 hover:underline">política de cookies</a>.
           </p>
 
           <h2>6. Legislación aplicable</h2>

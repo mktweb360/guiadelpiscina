@@ -5,7 +5,7 @@ import AdSenseAd from "@/components/AdSenseAd";
 import BlogSidebar from "@/components/BlogSidebar";
 
 export const metadata: Metadata = {
-  title: "Mejor cubierta para piscina desmontable — Guía completa",
+  title: "Cubierta para piscina desmontable: cuál elegir",
   description:
     "Las mejores cubiertas y cobertores para piscina desmontable. Comparativa de cobertores de invierno, cobertores solares y mantas térmicas de burbuja.",
   keywords:

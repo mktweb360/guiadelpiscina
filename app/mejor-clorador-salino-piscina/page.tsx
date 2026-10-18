@@ -5,7 +5,7 @@ import AdSenseAd from "@/components/AdSenseAd";
 import BlogSidebar from "@/components/BlogSidebar";
 
 export const metadata: Metadata = {
-  title: "Mejor clorador salino para piscina — Guía completa",
+  title: "Clorador salino para piscina: comparativa",
   description:
     "Los 3 mejores cloradores salinos para piscina desmontable: Intex, Bestway y Gre. Comparativa por capacidad, producción de cloro y precio.",
   keywords:

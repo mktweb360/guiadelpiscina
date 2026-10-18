@@ -10,7 +10,7 @@ import BlogSidebar from "@/components/BlogSidebar";
 // y ficha informativa sobre ácido cianúrico del Departamento de Salud de Montana (EE. UU.).
 
 export const metadata: Metadata = {
-  title: "Ácido cianúrico en la piscina: qué es, valores ideales y cómo bajarlo (2026)",
+  title: "Ácido cianúrico en la piscina: cómo bajarlo",
   description:
     "Qué es el ácido cianúrico (estabilizador) de la piscina, qué valor es el ideal, por qué un exceso bloquea el cloro y cómo bajarlo. Qué cloros lo aportan y cuáles no.",
   keywords:
@@ -236,7 +236,7 @@ export default function AcidoCianuricoPiscinaPage() {
 
           <h2>Cómo medir el ácido cianúrico</h2>
           <p>
-            Las tiras 3 en 1 más comunes miden pH, cloro libre y alcalinidad, no cianúrico. Es el caso de las <Link href="/tienda/tratamiento-agua/easytest-kit-tiras-ph-cloro-piscina-150" className="text-sky-600 hover:underline">tiras EASYTEST 3 en 1</Link>, útiles para el control diario pero que no sustituyen a un test específico. Para el estabilizador necesitas tiras que lo incluyan expresamente, como las <Link href="/tienda/tratamiento-agua/easytest-tiras-reactivas-7-en-1-piscina-150" className="text-sky-600 hover:underline">EASYTEST 7 en 1</Link> (según su ficha, miden también ácido cianúrico, con precisión orientativa), un kit de turbidez (el reactivo enturbia el agua y se compara contra una marca) o un análisis en una tienda de piscinas. Mídelo al empezar la temporada y cada mes si usas cloro estabilizado.
+            Las tiras 3 en 1 más comunes miden pH, cloro libre y <Link href="/alcalinidad-piscina" className="text-sky-600 hover:underline">alcalinidad</Link>, no cianúrico. Es el caso de las <Link href="/tienda/tratamiento-agua/easytest-kit-tiras-ph-cloro-piscina-150" className="text-sky-600 hover:underline">tiras EASYTEST 3 en 1</Link>, útiles para el control diario pero que no sustituyen a un test específico. Para el estabilizador necesitas tiras que lo incluyan expresamente, como las <Link href="/tienda/tratamiento-agua/easytest-tiras-reactivas-7-en-1-piscina-150" className="text-sky-600 hover:underline">EASYTEST 7 en 1</Link> (según su ficha, miden también ácido cianúrico, con precisión orientativa), un kit de turbidez (el reactivo enturbia el agua y se compara contra una marca) o un análisis en una tienda de piscinas. Mídelo al empezar la temporada y cada mes si usas cloro estabilizado.
           </p>
 
           <h2>Cómo bajar el ácido cianúrico</h2>

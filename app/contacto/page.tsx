@@ -1,7 +1,8 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Contacto — Guía del Piscina",
+  title: { absolute: "Contacto — Guía del Piscina" },
   description: "Contacta con el equipo de Guía del Piscina para consultas, colaboraciones o sugerencias.",
   alternates: { canonical: "https://www.guiadelpiscina.com/contacto" },
 };
@@ -25,8 +26,32 @@ export default function ContactoPage() {
       <div className="max-w-2xl mx-auto px-4 py-12">
         <h1 className="text-4xl font-extrabold text-gray-900 mb-4">Contacto</h1>
         <p className="text-gray-500 mb-8">
-          ¿Tienes alguna pregunta, sugerencia o propuesta de colaboración? Escríbenos y te responderemos en menos de 48 horas.
+          ¿Tienes alguna pregunta, sugerencia o propuesta de colaboración? Escríbenos y te responderemos por email.
         </p>
+
+        <div className="space-y-6 mb-8 text-gray-700 leading-relaxed">
+          <section>
+            <h2 className="font-bold text-gray-900 text-xl mb-2">Para qué puedes escribirnos</h2>
+            <ul className="list-disc pl-5 space-y-1">
+              <li><strong>Dudas sobre una guía:</strong> si algo de un artículo no queda claro (por ejemplo, una dosis de producto químico o un paso del mantenimiento), cuéntanos qué guía estabas leyendo y qué parte te genera dudas.</li>
+              <li><strong>Sugerencias de productos o temas:</strong> si echas en falta un modelo de depuradora, robot, piscina desmontable o artículo de jardín, o un tema que te gustaría que tratáramos, lo tendremos en cuenta para próximas comparativas.</li>
+              <li><strong>Errores detectados:</strong> una medida equivocada, un enlace que no funciona o un producto que ya no está disponible. Indícanos la página y lo revisaremos.</li>
+              <li><strong>Propuestas de colaboración:</strong> explícanos brevemente la propuesta y la valoraremos.</li>
+            </ul>
+          </section>
+          <section>
+            <h2 className="font-bold text-gray-900 text-xl mb-2">Lo que no hacemos</h2>
+            <p>
+              No vendemos productos directamente: los enlaces de compra llevan a Amazon.es, donde se gestionan el pedido, el envío, las devoluciones y la garantía. Para cualquier incidencia con una compra debes dirigirte a Amazon o al vendedor del producto. Tampoco realizamos instalaciones ni visitas, y nuestras guías no sustituyen a las instrucciones del fabricante ni al asesoramiento de un profesional en trabajos eléctricos o de instalación.
+            </p>
+          </section>
+          <section>
+            <h2 className="font-bold text-gray-900 text-xl mb-2">Cómo elegimos y actualizamos los productos</h2>
+            <p>
+              Seleccionamos los productos a partir de sus especificaciones técnicas, las fichas del fabricante y la relación calidad-precio, y revisamos las comparativas para reflejar cambios de modelos y disponibilidad. Puedes leer el proceso completo y nuestra política de afiliación en <Link href="/sobre-nosotros" className="text-sky-600 hover:underline">Sobre nosotros</Link>.
+            </p>
+          </section>
+        </div>
 
         <div className="bg-sky-50 border border-sky-100 rounded-xl p-6 mb-8">
           <h2 className="font-bold text-gray-900 mb-3">Información de contacto</h2>
@@ -41,6 +66,9 @@ export default function ContactoPage() {
             <a href="mailto:info@guiadelpiscina.com" className="text-sky-600 hover:underline">
               info@guiadelpiscina.com
             </a>
+          </p>
+          <p className="text-gray-700 mb-1">
+            <strong>Datos legales:</strong> <Link href="/aviso-legal" className="text-sky-600 hover:underline">Aviso legal</Link>
           </p>
           <p className="text-gray-700">
             <strong>Web:</strong>{" "}
@@ -110,7 +138,7 @@ export default function ContactoPage() {
           </button>
         </form>
         <p className="text-xs text-gray-400 mt-4">
-          Al enviar este formulario aceptas nuestra política de privacidad. No compartiremos tus datos con terceros.
+          Al enviar este formulario aceptas nuestra <Link href="/politica-de-privacidad" className="text-sky-600 hover:underline">política de privacidad</Link>. No compartiremos tus datos con terceros.
         </p>
       </div>
     </>

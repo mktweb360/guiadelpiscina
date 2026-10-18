@@ -3,7 +3,7 @@ import Link from "next/link";
 import { categories, getFeaturedProducts, getProductsByCategory } from "@/data/products";
 
 export const metadata: Metadata = {
-  title: "Tienda — Los mejores productos para tu piscina y jardín",
+  title: "Tienda: productos para piscina y jardín",
   description:
     "Encuentra los mejores productos para piscina y jardín. Depuradoras, robots limpiafondos, bombas de calor, muebles y más. Comparativas honestas y precios actualizados.",
   alternates: { canonical: "https://www.guiadelpiscina.com/tienda" },
