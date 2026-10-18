@@ -217,7 +217,7 @@ export default function RobotLimpiafondosPage() {
 
         <div className="mt-6 p-6 bg-blue-50 rounded-xl border border-blue-200">
           <h3 className="font-bold text-gray-900 mb-2">Ver en nuestra tienda</h3>
-          <p className="text-sm text-gray-600 mb-4">Todos los robots limpiafondos seleccionados con los mejores precios.</p>
+          <p className="text-sm text-gray-600 mb-4">Todos los robots limpiafondos que hemos analizado, con sus pros y contras.</p>
           <Link href="/tienda/robots-limpiafondos" className="inline-block bg-sky-600 text-white font-semibold px-5 py-3 rounded-xl hover:bg-sky-700 transition-colors">
             Ver robots limpiafondos →
           </Link>

@@ -56,7 +56,10 @@ const relatedArticles: Record<string, { href: string; title: string }[]> = {
   "robots-limpiafondos": [{ href: "/robot-limpiafondos-piscina", title: "Mejores robots limpiafondos para piscina" }],
   "bombas-calor": [{ href: "/bomba-calor-piscina", title: "Bomba de calor para piscina: las mejores opciones" }],
   "muebles-jardin": [{ href: "/muebles-jardin-terraza", title: "Muebles de jardín y terraza: guía de compra" }],
-  "piscinas-desmontables": [{ href: "/piscina-desmontable-grande", title: "Mejores piscinas desmontables grandes" }],
+  "piscinas-desmontables": [
+    { href: "/piscina-desmontable-grande", title: "Mejores piscinas desmontables grandes" },
+    { href: "/piscina-desmontable-rectangular", title: "Piscina desmontable rectangular: medidas, litros y cómo elegir" },
+  ],
   pergolas: [{ href: "/pergola-terraza", title: "Las mejores pérgolas para terraza y jardín" }],
   "riego-automatico": [{ href: "/sistema-riego-automatico", title: "Sistemas de riego automático: guía completa" }],
   "cesped-artificial": [{ href: "/cesped-artificial-jardin", title: "Césped artificial para jardín: los mejores modelos" }],

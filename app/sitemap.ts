@@ -47,6 +47,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${BASE_URL}/acido-cianurico-piscina`, lastModified: "2026-10-07", changeFrequency: "monthly" as const, priority: 0.8 },
     // 17/10/2026: artículo nuevo del loop (alcalinidad)
     { url: `${BASE_URL}/alcalinidad-piscina`, lastModified: "2026-10-17", changeFrequency: "monthly" as const, priority: 0.8 },
+    // 18/10/2026: artículo nuevo (piscina desmontable rectangular)
+    { url: `${BASE_URL}/piscina-desmontable-rectangular`, lastModified: "2026-10-18", changeFrequency: "monthly" as const, priority: 0.8 },
     // 13/10/2026: guías de temporada Black Friday, Navidad y Reyes
     { url: `${BASE_URL}/black-friday-piscina-jardin`, lastModified: "2026-10-13", changeFrequency: "weekly" as const, priority: 0.9 },
     { url: `${BASE_URL}/regalos-navidad-piscina-jardin`, lastModified: "2026-10-13", changeFrequency: "weekly" as const, priority: 0.9 },

@@ -193,6 +193,11 @@ export default function PiscinaDesmontablePage() {
             <li><strong>4-6 adultos / familia numerosa:</strong> 6-7 metros de largo (22.000-30.000 litros).</li>
             <li><strong>Para nadar (no solo bañarse):</strong> Mínimo 6 metros de largo y profundidad de 1,3 m.</li>
           </ul>
+          <p>
+            Si tu jardín es alargado, la forma importa tanto como el tamaño: en la guía de{" "}
+            <Link href="/piscina-desmontable-rectangular" className="text-sky-600 hover:underline">piscina desmontable rectangular</Link>{" "}
+            explicamos cómo calcular los litros, qué depuradora necesita cada medida y comparamos los modelos rectangulares de la tienda.
+          </p>
           <p>Recuerda verificar que el suelo de tu jardín está suficientemente nivelado (diferencia máxima de 5 cm) y que aguantará el peso del agua (1.000 kg por m³).</p>
 
           <h2>Preguntas frecuentes</h2>
@@ -223,6 +228,7 @@ export default function PiscinaDesmontablePage() {
         <div className="mt-8 p-6 bg-sky-50 rounded-xl border border-sky-100">
           <h3 className="font-bold text-gray-900 mb-3">Completa tu piscina</h3>
           <ul className="space-y-2">
+            <li><Link href="/piscina-desmontable-rectangular" className="text-sky-600 hover:underline">→ Piscina desmontable rectangular: medidas, litros y cómo elegir</Link></li>
             <li><Link href="/mejores-depuradoras-piscina" className="text-sky-600 hover:underline">→ Las 5 mejores depuradoras para piscina</Link></li>
             <li><Link href="/robot-limpiafondos-piscina" className="text-sky-600 hover:underline">→ Mejores robots limpiafondos para piscina</Link></li>
             <li><Link href="/bomba-calor-piscina" className="text-sky-600 hover:underline">→ Bomba de calor para piscina: calentar el agua eficientemente</Link></li>

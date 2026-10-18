@@ -328,6 +328,16 @@ const articles = [
     price: "",
     category: "Piscinas",
   },
+  {
+    href: "/piscina-desmontable-rectangular",
+    icon: "🏊",
+    title: "Piscina desmontable rectangular: cómo elegir medidas, altura y depuradora",
+    excerpt:
+      "Rectangular o redonda, cómo calcular los litros de verdad, qué caudal de depuradora necesitas y comparativa de las rectangulares de nuestra selección.",
+    date: "2026-10-18",
+    price: "",
+    category: "Piscinas",
+  },
   // 13/10/2026: guías de temporada (Black Friday, Navidad y Reyes)
   {
     href: "/black-friday-piscina-jardin",

@@ -333,6 +333,7 @@ export default function MantenimientoPiscinaPage() {
             <li><Link href="/agua-piscina-verde" className="text-sky-600 hover:underline">→ Agua de la piscina verde: causas y solución paso a paso</Link></li>
             <li><Link href="/ph-piscina" className="text-sky-600 hover:underline">→ pH de la piscina: cómo medirlo y corregirlo</Link></li>
             <li><Link href="/piscina-desmontable-grande" className="text-sky-600 hover:underline">→ Mejores piscinas desmontables grandes</Link></li>
+            <li><Link href="/piscina-desmontable-rectangular" className="text-sky-600 hover:underline">→ Piscina desmontable rectangular: cómo calcular litros y depuradora</Link></li>
           </ul>
         </div>
       </article>
