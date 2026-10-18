@@ -72,7 +72,7 @@ export default function ContactoPage() {
           </p>
           <p className="text-gray-700">
             <strong>Web:</strong>{" "}
-            <a href="https://www.guiadelpiscina.com" className="text-sky-600 hover:underline">
+            <a href="/" className="text-sky-600 hover:underline">
               www.guiadelpiscina.com
             </a>
           </p>
