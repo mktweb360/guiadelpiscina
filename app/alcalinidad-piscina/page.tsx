@@ -154,15 +154,15 @@ export default function AlcalinidadPiscinaPage() {
           </div>
 
           <p>
-            Es el parámetro que más confunde a quien empieza. Muchos propietarios de piscina desmontable echan «pH menos» una semana y «pH más» la siguiente sin entender por qué el valor no se queda quieto. Cuando el pH no se queda quieto, el origen suele estar en la alcalinidad, que es la que decide si el agua aguanta los cambios o los exagera. Esta guía explica qué es, cuánto debe valer, cómo reconocer si te falta o te sobra y cómo corregirla en el orden correcto. Si aún no dominas el pH, empieza por nuestra guía del <Link href="/ph-piscina" className="text-sky-600 hover:underline">pH de la piscina</Link>.
+            Es el parámetro que más confunde a quien empieza. Muchos propietarios de piscina desmontable echan «pH menos» una semana y «pH más» la siguiente sin entender por qué el valor no se queda quieto. Lo habitual es que el origen esté en la alcalinidad, que decide si el agua aguanta los cambios o los exagera. Si aún no dominas el pH, empieza por nuestra guía del <Link href="/ph-piscina" className="text-sky-600 hover:underline">pH de la piscina</Link>.
           </p>
 
           <h2>Qué es la alcalinidad y por qué importa</h2>
           <p>
-            La alcalinidad total mide las sales alcalinas disueltas en el agua, principalmente bicarbonatos. Su función práctica es amortiguar: cuando añades cloro, entra lluvia o corriges con un producto químico, el agua con una alcalinidad adecuada absorbe parte del cambio y el pH se mueve poco. Con la alcalinidad en su sitio, el pH se mantiene estable durante días. Con la alcalinidad baja, cualquier aporte lo desplaza de golpe, lo que se conoce como «rebote» del pH.
+            La alcalinidad total mide las sales alcalinas disueltas en el agua, principalmente bicarbonatos. Su función práctica es amortiguar: cuando añades cloro, entra lluvia o corriges con un producto químico, el agua con una alcalinidad adecuada absorbe parte del cambio y el pH se mueve poco y aguanta estable durante días. Si la alcalinidad es baja, cualquier aporte lo desplaza de golpe, lo que se conoce como «rebote» del pH.
           </p>
           <p>
-            No es lo mismo que el pH. El pH dice cómo de ácida o alcalina está el agua <em>ahora</em>; la alcalinidad dice cuánta capacidad tiene para <em>resistir</em> que ese valor cambie. Por eso se miden y se corrigen por separado.
+            Conviene no confundirla con el pH. El pH dice cómo de ácida o alcalina está el agua <em>ahora</em>; la alcalinidad dice cuánta capacidad tiene para <em>resistir</em> que ese valor cambie. Por eso se miden y se corrigen por separado.
           </p>
 
           <h2>Valor ideal de alcalinidad</h2>
@@ -230,7 +230,7 @@ export default function AlcalinidadPiscinaPage() {
 
           <h2>Cómo bajar la alcalinidad</h2>
           <p>
-            Cuando está alta, se baja con un producto de carácter ácido, como el bisulfato sódico o el ácido muriático, dosificado según la etiqueta y por etapas. Son productos corrosivos: guantes, gafas, y nunca mezclar con cloro ni entre sí. Vierte cada producto por separado, con la depuradora en marcha, y vuelve a medir antes de repetir. Ten en cuenta que estos productos también bajan el pH, así que revisa ambos parámetros después. Un reductor de pH como el <Link href="/tienda/tratamiento-agua/nortembiow-ph-minus-liquido-reductor-ph-piscina" className="text-sky-600 hover:underline">NortemBio pH Minus líquido</Link> sirve para el ajuste final del pH, pero su ficha lo define como corrector de pH, no como reductor de alcalinidad: no lo confundas con el paso 2.
+            Cuando está alta, se baja con un producto de carácter ácido, como el bisulfato sódico o el ácido muriático, dosificado según la etiqueta y por etapas. Son productos corrosivos: guantes, gafas, y nunca mezclar con cloro ni entre sí. Vierte cada producto por separado, con la depuradora en marcha, y vuelve a medir antes de repetir. Estos productos también bajan el pH, así que revisa ambos parámetros después. Un reductor de pH como el <Link href="/tienda/tratamiento-agua/nortembiow-ph-minus-liquido-reductor-ph-piscina" className="text-sky-600 hover:underline">NortemBio pH Minus líquido</Link> sirve para el ajuste final del pH, pero su ficha lo define como corrector de pH, no como reductor de alcalinidad: no lo confundas con el paso 2.
           </p>
 
           <h2>Y el pH, ¿cuándo se toca?</h2>

@@ -58,7 +58,7 @@ const faqs = [
   },
   {
     q: "¿Puedo poner una depuradora grande en una piscina pequeña?",
-    a: "Funcionar, funciona, pero no compensa: consume más electricidad, ocupa más y no deja el agua más limpia que una del tamaño correcto. Además, las depuradoras grandes suelen llevar mangueras de 38 mm y las piscinas pequeñas, boquillas de 32 mm, así que necesitarías adaptadores. Intex indica en cada ficha con qué piscinas es compatible cada depuradora.",
+    a: "Funcionar, funciona, pero no compensa: consume más electricidad, ocupa más y no deja el agua más limpia que una del tamaño correcto. Y las depuradoras grandes suelen llevar mangueras de 38 mm y las piscinas pequeñas, boquillas de 32 mm, así que necesitarías adaptadores. Intex indica en cada ficha con qué piscinas es compatible cada depuradora.",
   },
   {
     q: "¿Cuántas horas al día tiene que funcionar la depuradora de una piscina pequeña?",
@@ -193,18 +193,16 @@ export default function DepuradoraPiscinaPequenaPage() {
             Con esos números, la <strong>Intex C330</strong> (1.250 l/h, para piscinas de hasta 7.900 litros) cubre las cuatro primeras: renueva los 3.834 litros de una Small Frame de 300 × 200 en unas 3 horas y los 6.503 de una Metal Frame de Ø366 en unas 5 horas y 12 minutos. Para la rectangular de 450 × 220 (7.127 litros) se queda en unas 5 horas y 42 minutos, dentro del rango pero al límite: ahí compensa algo más de caudal, como los 3.500 l/h de la Intex 55249, que la renueva en algo más de 2 horas.
           </p>
           <p>
-            Recuerda que el caudal anunciado es el máximo de la bomba; con el cartucho sucio baja. Por eso conviene no ir justo.
+            El caudal anunciado es el máximo de la bomba y baja con el cartucho sucio, así que conviene no ir justo.
           </p>
 
           <h2>Cartucho o arena en una piscina pequeña</h2>
-          <ul>
-            <li>
-              <strong>Cartucho:</strong> es lo que traen de serie muchos sets pequeños (la Intex Small Frame de 450 × 220 del catálogo, por ejemplo, viene con una de 2.006 l/h). Es ligera y se instala en minutos. A cambio, el cartucho se lava con la manguera cada pocos días en verano y se cambia cuando ya no queda limpio. La C330 usa el cartucho tipo H mejorado, con más pliegues y papel más grueso, según Intex; el recambio tipo H se vende suelto (Intex 29007).
-            </li>
-            <li>
-              <strong>Arena:</strong> aguanta mucho más entre limpiezas, porque se limpia con un contralavado sin abrir el filtro. La <strong>Intex 55249</strong> es de las más compactas: tanque de 20,3 cm para 6,5 kg de arena de sílice (o 5 kg de vidrio, o 200 g de bolas), válvula de 4 funciones, manómetro y programación diaria de 1 a 12 horas. Intex la indica para piscinas Easy Set y Metal Frame de hasta 17.000 litros.
-            </li>
-          </ul>
+          <p>
+            La de <strong>cartucho</strong> es la que traen de serie muchos sets pequeños (la Intex Small Frame de 450 × 220 del catálogo, por ejemplo, viene con una de 2.006 l/h). Es ligera y se instala en minutos. A cambio, el cartucho se lava con la manguera cada pocos días en verano y se cambia cuando ya no queda limpio. La C330 usa el cartucho tipo H mejorado, con más pliegues y papel más grueso, según Intex; el recambio tipo H se vende suelto (Intex 29007).
+          </p>
+          <p>
+            La de <strong>arena</strong> aguanta mucho más entre limpiezas, porque se limpia con un contralavado sin abrir el filtro. La <strong>Intex 55249</strong> es de las más compactas: tanque de 20,3 cm para 6,5 kg de arena de sílice (o 5 kg de vidrio, o 200 g de bolas), válvula de 4 funciones, manómetro y programación diaria de 1 a 12 horas. Intex la indica para piscinas Easy Set y Metal Frame de hasta 17.000 litros.
+          </p>
           <p>
             Regla práctica: si montas la piscina solo unas semanas, cartucho; si está montada todo el verano y te molesta cambiar filtros, arena compacta.
           </p>

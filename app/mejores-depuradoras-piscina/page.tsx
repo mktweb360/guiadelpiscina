@@ -161,7 +161,7 @@ export default function DepuradorasPage() {
           </div>
 
           <p>
-            En esta guía explicamos cómo funciona cada tipo de filtro, cómo calcular el caudal con ejemplos reales, qué pasa con las conexiones de las piscinas desmontables Intex y Bestway, cuánto consume y cómo se mantiene. Al final tienes una tabla con todas las depuradoras de nuestra selección y sus datos de ficha. Si tu piscina es pequeña (hasta unos 8.000-10.000 litros), tienes una guía específica de{" "}
+            Al final hay una tabla con todas las depuradoras de nuestra selección y sus datos de ficha. Si tu piscina es pequeña (hasta unos 8.000-10.000 litros), tienes una guía específica de{" "}
             <Link href="/depuradora-piscina-pequena" className="text-sky-600 hover:underline">depuradora para piscina pequeña</Link>. Todos los modelos están en nuestra sección de{" "}
             <Link href="/tienda/depuradoras" className="text-sky-600 hover:underline">depuradoras</Link>.
           </p>
@@ -188,7 +188,7 @@ export default function DepuradorasPage() {
           </p>
           <h3>Cristal (vidrio filtrante) y bolas</h3>
           <p>
-            No son otro tipo de depuradora, sino otra carga para el mismo tanque de arena. El vidrio se usa en menor cantidad: según las fichas de Intex, la 55225 admite 12 kg de arena o 8,5 kg de vidrio, y la 55227, 35 kg de arena o 25 kg de vidrio. Las bolas filtrantes pesan mucho menos (350 g en la 55225). Usa solo las cargas que admita tu modelo y con el grano que indique la ficha: de 0,45 a 0,85 mm en las Intex de arena y en la Bestway 58497.
+            El vidrio y las bolas se cargan en el mismo tanque de la depuradora de arena. El vidrio se usa en menor cantidad: según las fichas de Intex, la 55225 admite 12 kg de arena o 8,5 kg de vidrio, y la 55227, 35 kg de arena o 25 kg de vidrio. Las bolas filtrantes pesan mucho menos (350 g en la 55225). Usa solo las cargas que admita tu modelo y con el grano que indique la ficha: de 0,45 a 0,85 mm en las Intex de arena y en la Bestway 58497.
           </p>
           <h3>Depuradora de cartucho</h3>
           <p>
@@ -216,7 +216,7 @@ export default function DepuradorasPage() {
             <li><strong>Piscina de 30.000 L:</strong> entre 5.000 y 7.500 l/h. La Bestway 58497, de 5.678 l/h, tarda unas 5 h 15 min; la Intex 55227, de 10.500 l/h, unas 2 h 50 min.</li>
           </ul>
           <p>
-            Dos matices importantes. Primero, el caudal anunciado es el máximo de la bomba: con el filtro sucio, las mangueras y el desnivel, rinde menos. Intex llegó a indicar en la ficha de su antigua depuradora de 14 pulgadas (la 28648) un caudal efectivo de 8.000 l/h para 10.500 nominales, así que deja margen. Segundo, el «para piscinas de hasta X litros» es un máximo, no el tamaño ideal: en la mayoría de las Intex de nuestra tabla equivale a renovar el agua en 5-6 horas con el caudal nominal (17.000 L ÷ 3.500 l/h ≈ 4,9 h en la 55249; 57.500 ÷ 10.500 ≈ 5,5 h en la 55227), y en la 26644 pasa de 7 horas. Si tu piscina está cerca de ese límite, sube un escalón.
+            El caudal anunciado es el máximo de la bomba: con el filtro sucio, las mangueras y el desnivel, rinde menos. Intex llegó a indicar en la ficha de su antigua depuradora de 14 pulgadas (la 28648) un caudal efectivo de 8.000 l/h para 10.500 nominales, así que deja margen. Y el «para piscinas de hasta X litros» indica un máximo: en la mayoría de las Intex de nuestra tabla equivale a renovar el agua en 5-6 horas con el caudal nominal (17.000 L ÷ 3.500 l/h ≈ 4,9 h en la 55249; 57.500 ÷ 10.500 ≈ 5,5 h en la 55227), y en la 26644 pasa de 7 horas. Si tu piscina está cerca de ese límite, sube un escalón.
           </p>
 
           <h3>Horas de filtrado al día</h3>
@@ -239,7 +239,7 @@ export default function DepuradorasPage() {
 
           <h2>Potencia y consumo eléctrico</h2>
           <p>
-            La potencia no es el caudal: indica cuánto consume el motor, no cuánta agua mueve. En nuestra selección van de los 70 W de la Gre AR125 y los 90 W de la Intex 55249 a los 0,60 HP (unos 450 W) de la Intex 55227. Para estimar el consumo, multiplica vatios por horas:
+            La potencia indica cuánto consume el motor, no cuánta agua mueve. En nuestra selección van de los 70 W de la Gre AR125 y los 90 W de la Intex 55249 a los 0,60 HP (unos 450 W) de la Intex 55227. Para estimar el consumo, multiplica vatios por horas:
           </p>
           <ul>
             <li>Intex 55249 (90 W) × 8 h = 0,72 kWh al día.</li>
@@ -259,7 +259,7 @@ export default function DepuradorasPage() {
           <p>En una depuradora de arena con válvula de 6 posiciones (filtrado, lavado, enjuague, recirculación, vaciado y cerrado):</p>
           <ol>
             <li><strong>Apaga siempre la bomba antes de girar la válvula.</strong> Cambiar de posición con el motor en marcha puede dañarla.</li>
-            <li>Haz el contralavado (posición «lavado») cuando el manómetro suba claramente respecto a la presión con la arena limpia, o con la frecuencia que indique el manual. Deja salir agua hasta que el visor se vea limpio.</li>
+            <li>Haz el contralavado (posición «lavado») cuando el manómetro marque bastante más que con la arena limpia, o con la frecuencia que indique el manual. Deja salir agua hasta que el visor se vea limpio.</li>
             <li>Pon la posición «enjuague» unos instantes para asentar la arena y vuelve a «filtrado».</li>
             <li>Limpia el prefiltro o la cestilla cada semana: si se obstruye, la bomba trabaja forzada.</li>
             <li>Cambia la carga filtrante cuando el agua deje de aclararse aunque el pH y el cloro estén bien. Como orientación, la arena dura varias temporadas; sigue lo que indique el fabricante de la carga.</li>

@@ -150,12 +150,12 @@ export default function PiscinaDesmontableRectangularPage() {
           <div id="respuesta-directa" className="bg-sky-50 border-l-4 border-sky-500 rounded-r-xl px-5 py-4 mb-6">
             <p className="text-xs font-bold text-sky-700 uppercase tracking-wide mb-1.5">Respuesta directa</p>
             <p className="text-gray-800 font-medium leading-relaxed">
-              Una <strong>piscina desmontable rectangular</strong> es la mejor opción cuando el hueco del jardín es alargado: aprovecha todo el espacio y da una línea recta más larga para bañarse. Para elegirla, calcula los litros con <strong>largo × ancho × altura del agua</strong>, escoge la altura según quién se va a bañar (de 75-84 cm para refrescarse a 122-132 cm para adultos) y asegúrate de que la depuradora <strong>renueva todo el agua en 4-6 horas</strong>.
+              Una <strong>piscina desmontable rectangular</strong> encaja mejor que una redonda cuando el hueco del jardín es alargado: aprovecha todo el espacio y da una línea recta más larga para bañarse. Para elegirla, calcula los litros con <strong>largo × ancho × altura del agua</strong>, escoge la altura según quién se va a bañar (de 75-84 cm para refrescarse a 122-132 cm para adultos) y asegúrate de que la depuradora <strong>renueva todo el agua en 4-6 horas</strong>.
             </p>
           </div>
 
           <p>
-            Esta guía se centra en la forma rectangular: cuándo compensa frente a una redonda, cómo calcular bien sus litros y qué depuradora necesita cada tamaño. Si lo que buscas son sobre todo piscinas desmontables grandes, sea cual sea su forma, tienes la guía de{" "}
+            Aquí hablamos solo de la forma rectangular. Si lo que buscas son sobre todo piscinas desmontables grandes, sea cual sea su forma, tienes la guía de{" "}
             <Link href="/piscina-desmontable-grande" className="text-sky-600 hover:underline">piscinas desmontables grandes</Link> y la de{" "}
             <Link href="/piscina-desmontable-grande-adultos" className="text-sky-600 hover:underline">piscinas desmontables grandes para adultos</Link>. Todos los modelos que citamos están en nuestra sección de{" "}
             <Link href="/tienda/piscinas-desmontables" className="text-sky-600 hover:underline">piscinas desmontables</Link>.
@@ -174,17 +174,15 @@ export default function PiscinaDesmontableRectangularPage() {
 
         <div className="prose">
           <h2>Rectangular o redonda: qué cambia de verdad</h2>
-          <ul>
-            <li>
-              <strong>Uso del espacio.</strong> Una redonda de 366 cm de diámetro ocupa un cuadrado de 3,66 × 3,66 m (13,4 m²) para ofrecer 10,5 m² de agua. Una rectangular de 400 × 200 cm convierte en agua prácticamente todo lo que ocupa. En un patio de 4,5 × 2,5 m no cabe ninguna redonda de más de 2,5 m, pero sí una rectangular de 400 × 200.
-            </li>
-            <li>
-              <strong>Nado.</strong> La rectangular ofrece la línea recta más larga: 6,40 m en la Bestway Steel Pro MAX de 640 × 274 cm. No es una piscina para entrenar, pero permite unas brazadas que en una redonda de tamaño parecido no caben.
-            </li>
-            <li>
-              <strong>Estabilidad.</strong> En una redonda, el agua empuja por igual sobre toda la pared. En una rectangular, la estructura tiene que sujetar lados rectos, por eso lleva más apoyos: la Intex Prism Frame de 488 × 244 cm usa 12 contrafuertes de acero.
-            </li>
-          </ul>
+          <p>
+            Lo primero es el <strong>espacio</strong>. Una redonda de 366 cm de diámetro ocupa un cuadrado de 3,66 × 3,66 m (13,4 m²) para ofrecer 10,5 m² de agua, mientras que una rectangular de 400 × 200 cm convierte en agua prácticamente todo lo que ocupa. En un patio de 4,5 × 2,5 m no cabe ninguna redonda de más de 2,5 m, pero sí una rectangular de 400 × 200.
+          </p>
+          <p>
+            La rectangular también da la línea recta más larga para <strong>nadar</strong>: 6,40 m en la Bestway Steel Pro MAX de 640 × 274 cm. No sirve para entrenar, pero permite unas brazadas que en una redonda de tamaño parecido no caben.
+          </p>
+          <p>
+            A cambio, necesita más <strong>estructura</strong>. En una redonda, el agua empuja por igual sobre toda la pared; en una rectangular, hay que sujetar lados rectos y por eso lleva más apoyos: la Intex Prism Frame de 488 × 244 cm usa 12 contrafuertes de acero.
+          </p>
 
           <h2>Tipos de estructura</h2>
           <ul>
@@ -196,7 +194,7 @@ export default function PiscinaDesmontableRectangularPage() {
 
           <h2>Medidas habituales y cómo calcular los litros</h2>
           <p>
-            La fórmula es <strong>largo × ancho × altura del agua</strong>, todo en metros; el resultado son metros cúbicos y cada m³ son 1.000 litros. La clave está en usar la altura del agua y no la de la pared, porque la piscina nunca se llena hasta el borde. Tres ejemplos:
+            La fórmula es <strong>largo × ancho × altura del agua</strong>, todo en metros; el resultado son metros cúbicos y cada m³ son 1.000 litros. Usa la altura del agua y no la de la pared, porque la piscina nunca se llena hasta el borde. Tres ejemplos:
           </p>
           <ul>
             <li><strong>300 × 200 cm con el agua a 65 cm:</strong> 3 × 2 × 0,65 = 3,9 m³ → unos 3.900 litros (Intex declara 3.834 L para su Small Frame de 300 × 200 × 75).</li>
@@ -247,7 +245,7 @@ export default function PiscinaDesmontableRectangularPage() {
             <li><strong>17.203 litros</strong> (Intex Ultra Frame 549 × 274, sin depuradora): entre 2.867 y 4.301 l/h.</li>
           </ul>
           <p>
-            Al revés también funciona: litros ÷ caudal = horas para renovar el agua. Ten en cuenta que el caudal anunciado es el máximo de la bomba; con el filtro sucio rinde menos, así que conviene algo de margen. Si tu piscina no trae depuradora, tienes la guía de{" "}
+            Al revés también funciona: litros ÷ caudal = horas para renovar el agua. El caudal anunciado es el máximo de la bomba y con el filtro sucio rinde menos, así que conviene algo de margen. Si tu piscina no trae depuradora, tienes la guía de{" "}
             <Link href="/mejores-depuradoras-piscina" className="text-sky-600 hover:underline">depuradora de piscina</Link> y, para las rectangulares pequeñas, la de{" "}
             <Link href="/depuradora-piscina-pequena" className="text-sky-600 hover:underline">depuradora para piscina pequeña</Link>.
           </p>
@@ -301,7 +299,7 @@ export default function PiscinaDesmontableRectangularPage() {
         <div className="prose">
           <h2>Terreno y nivelación</h2>
           <p>
-            El agua pesa 1.000 kg por metro cúbico. Una rectangular de 549 × 274 cm con 17.203 litros carga unos 1.140 kg por cada metro cuadrado de suelo, y una de 640 × 274 cm, unos 1.100 kg. Por eso el terreno decide más que la propia piscina:
+            El agua pesa 1.000 kg por metro cúbico. Una rectangular de 549 × 274 cm con 17.203 litros carga unos 1.140 kg por cada metro cuadrado de suelo, y una de 640 × 274 cm, unos 1.100 kg. Por eso hay que preparar bien el terreno:
           </p>
           <ul>
             <li>Elige una zona plana, firme y sin pendiente. Si hay desnivel, se rebaja la parte alta; no se rellena la baja con tierra suelta.</li>
