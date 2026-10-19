@@ -242,7 +242,7 @@ export default function AlcalinidadPiscinaPage() {
           <ul>
             <li><strong>Tu pH sube y baja cada pocos días:</strong> mide la alcalinidad antes de seguir echando correctores de pH. Es la causa más probable.</li>
             <li><strong>Piscina desmontable recién llenada:</strong> mide la alcalinidad al llenar, antes de añadir ningún producto, y corrígela desde el principio si sale fuera de rango.</li>
-            <li><strong>Agua turbia con pH alto que no baja:</strong> comprueba si la alcalinidad está por encima de 120 mg/L antes de añadir más reductor.</li>
+            <li><strong>Agua turbia con pH alto que no baja:</strong> comprueba si la alcalinidad está por encima de 120 mg/L antes de añadir más reductor. Si el agua sigue turbia con el pH y la alcalinidad en rango, el problema son partículas finas y entonces sí toca un <Link href="/floculante-piscina" className="text-sky-600 hover:underline">floculante o un clarificante</Link>.</li>
             <li><strong>Quieres controlar todo con una sola compra:</strong> unas tiras que midan alcalinidad (3 en 1 como mínimo) son la inversión más útil; los productos químicos se compran después, según lo que midas.</li>
           </ul>
           <p>

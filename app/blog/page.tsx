@@ -220,8 +220,8 @@ const articles = [
     icon: "🧪",
     title: "Floculante para piscina: cuándo usarlo y cómo aplicarlo",
     excerpt:
-      "Qué es el floculante para piscina, cuándo usarlo, cómo aplicarlo paso a paso y diferencia con el clarificante. Agua cristalina en 48h.",
-    date: "2025-08-01",
+      "Floculante líquido, en cartuchos o en pastillas: cuándo usarlo, diferencia con el clarificante, dosis del fabricante y paso a paso según tu filtro.",
+    date: "2026-10-19",
     price: "",
     category: "Tratamiento del agua",
   },

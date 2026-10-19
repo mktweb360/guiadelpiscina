@@ -28,7 +28,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${BASE_URL}/algas-piscina`, lastModified: "2025-07-10", changeFrequency: "monthly" as const, priority: 0.8 },
     { url: `${BASE_URL}/como-abrir-piscina-temporada`, lastModified: "2025-07-10", changeFrequency: "monthly" as const, priority: 0.8 },
     { url: `${BASE_URL}/cuanto-cloro-echar-piscina`, lastModified: "2025-07-10", changeFrequency: "monthly" as const, priority: 0.8 },
-    { url: `${BASE_URL}/floculante-piscina`, lastModified: "2025-07-10", changeFrequency: "monthly" as const, priority: 0.8 },
+    { url: `${BASE_URL}/floculante-piscina`, lastModified: "2026-10-19", changeFrequency: "monthly" as const, priority: 0.8 },
     { url: `${BASE_URL}/ph-piscina`, lastModified: "2025-07-10", changeFrequency: "monthly" as const, priority: 0.8 },
     { url: `${BASE_URL}/mejor-clorador-salino-piscina`, lastModified: "2025-07-15", changeFrequency: "monthly" as const, priority: 0.8 },
     { url: `${BASE_URL}/mejores-tumbonas-jardin`, lastModified: "2025-07-15", changeFrequency: "monthly" as const, priority: 0.8 },

@@ -63,6 +63,11 @@ const relatedArticles: Record<string, { href: string; title: string }[]> = {
     { href: "/piscina-desmontable-grande", title: "Mejores piscinas desmontables grandes" },
     { href: "/piscina-desmontable-rectangular", title: "Piscina desmontable rectangular: medidas, litros y cómo elegir" },
   ],
+  "tratamiento-agua": [
+    { href: "/floculante-piscina", title: "Floculante para piscina: cuándo usarlo y cómo aplicarlo" },
+    { href: "/alcalinidad-piscina", title: "Alcalinidad de la piscina: valor ideal y cómo corregirla" },
+    { href: "/ph-piscina", title: "pH de la piscina: cómo medirlo y corregirlo" },
+  ],
   pergolas: [{ href: "/pergola-terraza", title: "Las mejores pérgolas para terraza y jardín" }],
   "riego-automatico": [{ href: "/sistema-riego-automatico", title: "Sistemas de riego automático: guía completa" }],
   "cesped-artificial": [{ href: "/cesped-artificial-jardin", title: "Césped artificial para jardín: los mejores modelos" }],

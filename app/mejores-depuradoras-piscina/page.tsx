@@ -265,7 +265,7 @@ export default function DepuradorasPage() {
             <li>Cambia la carga filtrante cuando el agua deje de aclararse aunque el pH y el cloro estén bien. Como orientación, la arena dura varias temporadas; sigue lo que indique el fabricante de la carga.</li>
           </ol>
           <p>
-            Las válvulas de 4 funciones, como la de la Intex 55249 (lavado, filtración, recirculación y desagüe), no tienen posición de enjuague. En las de cartucho, el mantenimiento consiste en sacar el cartucho, lavarlo con la manguera y cambiarlo cuando ya no queda limpio. Para el resto de la rutina (cloro, pH, limpieza del fondo), tienes la guía de{" "}
+            Las válvulas de 4 funciones, como la de la Intex 55249 (lavado, filtración, recirculación y desagüe), no tienen posición de enjuague. En las de cartucho, el mantenimiento consiste en sacar el cartucho, lavarlo con la manguera y cambiarlo cuando ya no queda limpio. Si usas floculante, aspira los flóculos del fondo con la válvula en desagüe y haz después un contralavado; con cartucho, evita que lleguen al filtro (lo explicamos en la guía de <Link href="/floculante-piscina" className="text-sky-600 hover:underline">cómo usar floculante en la piscina</Link>). Para el resto de la rutina (cloro, pH, limpieza del fondo), tienes la guía de{" "}
             <Link href="/mantenimiento-piscina-desmontable" className="text-sky-600 hover:underline">mantenimiento de una piscina desmontable</Link>.
           </p>
 

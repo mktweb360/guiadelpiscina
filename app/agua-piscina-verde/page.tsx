@@ -201,7 +201,7 @@ export default function AguaPiscinaVerdePage() {
             <li><strong>Activa la <Link href="/tienda/depuradoras" className="text-sky-700 hover:underline">depuradora de arena</Link> al máximo</strong>, 24 horas continuas, para hacer circular y filtrar todo el agua.</li>
             <li><strong>Cepilla paredes y fondo</strong> para desprender las algas adheridas y exponerlas al cloro.</li>
             <li><strong>Añade algicida (antialgas)</strong> para rematar las algas y frenar su reaparición.</li>
-            <li><strong>Espera 24-48 h y comprueba.</strong> Si el agua está turbia pero ya no verde, el tratamiento está funcionando: las algas han muerto y solo falta filtrarlas.</li>
+            <li><strong>Espera 24-48 h y comprueba.</strong> Si el agua está turbia pero ya no verde, el tratamiento está funcionando: las algas han muerto y solo falta filtrarlas. Si el filtro no consigue aclararla, un <Link href="/floculante-piscina" className="text-sky-700 hover:underline">floculante para piscina</Link> agrupa esos restos para retirarlos del fondo.</li>
             <li><strong>Limpia o retrolava el filtro</strong> para expulsar las algas muertas acumuladas.</li>
           </ol>
         </div>
