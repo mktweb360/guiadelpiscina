@@ -1729,6 +1729,7 @@ export const products: Product[] = [
   },
   {
     slug: "decathlon-paruv-sombrilla-160-upf50",
+    unavailable: "2026-10-26",
     name: "Decathlon Paruv Sombrilla 160 cm UPF 50+",
     offers: [{ store: "decathlon", path: "sombrilla-playa-paruv-160-upf-50-2-plazas/_/R-p-345048", mc: "8790338" }],
     category: "Muebles de jardín",
