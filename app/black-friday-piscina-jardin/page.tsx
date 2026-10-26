@@ -171,6 +171,28 @@ const bloques: Bloque[] = [
       { slug: "yaheetech-conjunto-jardin-ratan-cojines", note: "Ratán de polietileno con fundas de cojín lavables a máquina y patas regulables." },
       { slug: "outsunny-2-tumbonas-plegables-aluminio", note: "Pareja de tumbonas de aluminio con respaldo en 5 posiciones. Plegadas ocupan muy poco." },
       { slug: "pack-2-tumbonas-gravedad-cero-bandeja", note: "Dos sillas reclinables de gravedad cero con bandeja lateral desmontable." },
+      { slug: "quechua-tumbona-relax-plegable-acolchada", note: "Tumbona reclinable de Decathlon con reposacabezas y reposapiés; plegada mide 104 × 23 × 23 cm." },
+    ],
+  },
+  {
+    id: "natacion",
+    titulo: "Natación: para la piscina cubierta del invierno",
+    intro: (
+      <>
+        En noviembre la piscina de casa está cerrada, pero la cubierta del barrio no. El material de natación de Decathlon de nuestra{" "}
+        <Link href="/tienda/natacion" className="text-sky-600 hover:underline">categoría de natación</Link> sirve ahora y en verano.
+      </>
+    ),
+    claves: [
+      "En gafas, elige por el tamaño de la cara: un puente nasal ajustable o intercambiable ayuda a que no entre agua.",
+      "Un gorro de silicona sujeta más y deja pasar menos agua; uno de tela es más cómodo pero no es impermeable.",
+      "Las ayudas a la flotación infantiles no sustituyen la vigilancia de un adulto.",
+    ],
+    picks: [
+      { slug: "decathlon-bfit-gafas-natacion-antivaho-ahumadas", note: "Antivaho de larga duración, cristales ahumados y tres puentes nasales intercambiables." },
+      { slug: "decathlon-gorro-natacion-silicona", note: "Gorro de silicona de talla única, con buena sujeción y que limita la entrada de agua." },
+      { slug: "decathlon-silifins-500-aletas-cortas", note: "Aletas cortas y blandas de silicona para trabajar piernas y técnica." },
+      { slug: "nabaiji-swimvest-chaleco-flotador-ninos", note: "Chaleco de espuma para aprender a nadar con brazos libres, en tallas de 15-25 y 25-35 kg." },
     ],
   },
   {

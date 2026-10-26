@@ -235,6 +235,16 @@ export default function TumbonasJardinPage() {
             </Link>
           </div>
 
+          <h3>Quechua Relax (Decathlon) — Para llevar a la playa o al camping</h3>
+          <p>
+            Si quieres una tumbona que no se quede en el jardín, la <strong>Quechua Relax</strong> de Decathlon es reclinable, tiene reposabrazos, reposacabezas y reposapiés, y plegada mide 104 × 23 × 23 cm, con funda de transporte. La estructura es de acero y pesa 8,7 kg (datos de decathlon.es, comprobados el 26/10/2026).
+          </p>
+          <div className="not-prose my-4">
+            <Link href="/tienda/muebles-jardin/quechua-tumbona-relax-plegable-acolchada" className="btn-primary">
+              Ver la Quechua Relax →
+            </Link>
+          </div>
+
           <h2>¿Tumbona de aluminio o de plástico?</h2>
           <p>Es la duda más habitual. Aquí tienes la comparativa rápida:</p>
           <ul>

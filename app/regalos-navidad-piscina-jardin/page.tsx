@@ -56,6 +56,7 @@ const grupos: Grupo[] = [
       { slug: "tectake-silla-colgante-jardin-con-soporte", note: "Sillón colgante tipo huevo con soporte propio, cojín extragrueso y funda protectora." },
       { slug: "outsunny-2-tumbonas-plegables-aluminio", note: "Pareja de tumbonas de aluminio con respaldo en 5 posiciones. Plegadas apenas ocupan." },
       { slug: "pack-2-tumbonas-gravedad-cero-bandeja", note: "Dos sillas reclinables de gravedad cero con bandeja lateral. Regalo para dos." },
+      { slug: "quechua-tumbona-relax-plegable-acolchada", note: "Tumbona reclinable de Decathlon con reposacabezas y reposapiés. Plegada mide 104 × 23 × 23 cm y trae funda: también sirve para camping." },
     ],
   },
   {
@@ -113,6 +114,7 @@ const grupos: Grupo[] = [
       { slug: "intex-28075-escalera-piscina-91-107cm", note: "Escalera de acero para paredes de 91 a 107 cm con peldaños exteriores extraíbles para más seguridad." },
       { slug: "vevor-cubierta-solar-piscina-732x366", note: "Manta térmica de burbujas recortable: conserva el calor y frena la suciedad durante la temporada." },
       { slug: "aquachek-tiras-4-en-1-cloro-ph", note: "Tiras que miden cloro libre, pH, alcalinidad y estabilizador en una inmersión." },
+      { slug: "quechua-ducha-solar-presion-10l", note: "Ducha solar de Decathlon de 10 litros con bomba de presión: no hay que colgarla. Para enjuagarse antes de entrar al agua." },
     ],
   },
   {
@@ -147,6 +149,23 @@ const grupos: Grupo[] = [
       { slug: "songmics-cenador-plegable-3x3-paneles", note: "Carpa plegable de 3 × 3 m con paneles laterales y bolsa de transporte. Se monta y se recoge según la ocasión." },
       { slug: "casaria-conjunto-jardin-poliratan-4-piezas", note: "Conjunto de cuatro plazas en poliratán sobre acero galvanizado, con fundas de cojín lavables." },
       { slug: "yaheetech-conjunto-jardin-ratan-cojines", note: "Conjunto de ratán con cojines de fundas lavables y mesa auxiliar de cristal templado." },
+    ],
+  },
+  {
+    id: "natacion",
+    titulo: "Para quien nada: material de piscina de Decathlon",
+    intro: (
+      <>
+        Para quien nada en una piscina cubierta durante el invierno o quiere aprender en verano, el material de natación es un regalo pequeño que se usa cada semana. Lo tienes reunido en la{" "}
+        <Link href="/tienda/natacion" className="text-sky-600 hover:underline">categoría de natación</Link>.
+      </>
+    ),
+    acierto: "En gafas y aletas, la talla importa: las Xbase se venden por tallas de cara y las aletas Silifins van del 33-34 al 45-46.",
+    picks: [
+      { slug: "decathlon-bfit-gafas-natacion-antivaho-ahumadas", note: "Antivaho de larga duración, cristales ahumados y tres puentes nasales intercambiables para ajustarlas a cada cara." },
+      { slug: "decathlon-silifins-500-aletas-cortas", note: "Aletas cortas y blandas de silicona para entrenar piernas y técnica sin cargar los tobillos." },
+      { slug: "nabaiji-tabla-natacion-piscina", note: "Tabla de 48 × 28 cm con agarre ergonómico para trabajar las piernas." },
+      { slug: "decathlon-easybreath-mascara-snorkel-ninos", note: "Máscara de snorkel de cara completa para niños de 6 a 10 años, con tubo seco. Regalo para el verano." },
     ],
   },
 ];
