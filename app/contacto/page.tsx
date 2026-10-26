@@ -42,7 +42,7 @@ export default function ContactoPage() {
           <section>
             <h2 className="font-bold text-gray-900 text-xl mb-2">Lo que no hacemos</h2>
             <p>
-              No vendemos productos directamente: los enlaces de compra llevan a Amazon.es, donde se gestionan el pedido, el envío, las devoluciones y la garantía. Para cualquier incidencia con una compra debes dirigirte a Amazon o al vendedor del producto. Tampoco realizamos instalaciones ni visitas, y nuestras guías no sustituyen a las instrucciones del fabricante ni al asesoramiento de un profesional en trabajos eléctricos o de instalación.
+              No vendemos productos directamente: los enlaces de compra llevan a Amazon.es o a Decathlon.es, donde se gestionan el pedido, el envío, las devoluciones y la garantía. Para cualquier incidencia con una compra debes dirigirte a la tienda o al vendedor del producto. Tampoco realizamos instalaciones ni visitas, y nuestras guías no sustituyen a las instrucciones del fabricante ni al asesoramiento de un profesional en trabajos eléctricos o de instalación.
             </p>
           </section>
           <section>

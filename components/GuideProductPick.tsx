@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { products, type Product } from "@/data/products";
-import { amazonLink } from "@/lib/amazon";
+import { primaryOffer, offerUrl, STORE_NAME } from "@/lib/affiliate";
 
 /**
  * Productos de products.ts por slug, descartando los que no existen o están marcados `unavailable`.
@@ -9,7 +9,7 @@ import { amazonLink } from "@/lib/amazon";
 export function availableBySlug(slugs: string[]): Product[] {
   return slugs
     .map((slug) => products.find((p) => p.slug === slug))
-    .filter((p): p is Product => Boolean(p) && !p?.unavailable);
+    .filter((p): p is Product => Boolean(p) && !p?.unavailable && Boolean(p && primaryOffer(p)));
 }
 
 /** Ficha breve de producto para guías de temporada: sin precio, sin valoraciones y sin distintivos. */
@@ -37,12 +37,12 @@ export default function GuideProductPick({ product, note }: { product: Product; 
         )}
         <div className="flex flex-wrap gap-2 mt-auto">
           <a
-            href={amazonLink(product.asin)}
+            href={offerUrl(primaryOffer(product)!)}
             target="_blank"
             rel="nofollow noopener noreferrer sponsored"
             className="inline-block bg-orange-500 hover:bg-orange-600 text-white text-sm font-bold px-4 py-2 rounded-xl transition-colors"
           >
-            Ver en Amazon →
+            Ver en {STORE_NAME[primaryOffer(product)!.store]} →
           </a>
           <Link
             href={href}

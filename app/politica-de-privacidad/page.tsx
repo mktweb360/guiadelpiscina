@@ -39,7 +39,7 @@ export default function PoliticaPrivacidadPage() {
           <h2>2. Datos que recopilamos</h2>
           <p>Recopilamos los siguientes tipos de datos:</p>
           <ul>
-            <li><strong>Datos de uso:</strong> Páginas visitadas, clics en enlaces a Amazon, fuente de tráfico, navegador y dispositivo. Recopilados mediante Google Analytics 4, con cookies solo si das tu consentimiento (ver apartado 5).</li>
+            <li><strong>Datos de uso:</strong> Páginas visitadas, clics en enlaces a Amazon y Decathlon, fuente de tráfico, navegador y dispositivo. Recopilados mediante Google Analytics 4, con cookies solo si das tu consentimiento (ver apartado 5).</li>
             <li><strong>Datos de contacto:</strong> Nombre, email y mensaje, cuando nos escribes a través del <a href="/contacto" className="text-sky-600 hover:underline">formulario de contacto</a>.</li>
             <li><strong>Datos de cookies:</strong> Identificadores de sesión y preferencias. Ver nuestra <a href="/politica-de-cookies" className="text-sky-600 hover:underline">Política de cookies</a>.</li>
           </ul>
@@ -77,13 +77,16 @@ export default function PoliticaPrivacidadPage() {
             .
           </p>
 
-          <h2>7. Programa de afiliados de Amazon</h2>
+          <h2>7. Programas de afiliados (Amazon y Decathlon)</h2>
           <p>
             Participamos en el <strong>Programa de Afiliados de Amazon EU</strong>. Cuando haces clic en un enlace de Amazon y realizas una compra, Amazon puede colocar cookies en tu dispositivo. Consulta la{" "}
             <a href="https://www.amazon.es/gp/help/customer/display.html?nodeId=201909010" className="text-sky-600 hover:underline" target="_blank" rel="noopener noreferrer">
               política de privacidad de Amazon
             </a>{" "}
             para más información.
+          </p>
+          <p>
+            También participamos en el <strong>programa de afiliados de Decathlon España</strong>. Sus enlaces pasan por afiliacion.decathlon.es antes de llevarte a decathlon.es, y Decathlon puede recopilar datos según su propia política de privacidad.
           </p>
 
           <h2>8. Tus derechos</h2>

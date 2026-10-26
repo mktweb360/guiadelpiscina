@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import { categories, getProductsByCategory } from "@/data/products";
-import { amazonLink } from "@/lib/amazon";
+import { primaryOffer, offerUrl } from "@/lib/affiliate";
 
 // ── Buying guides per category ────────────────────────────────────────────────
 
@@ -268,7 +268,7 @@ export default async function CategoryPage({
                       Ver análisis →
                     </Link>
                     <a
-                      href={amazonLink(product.asin)}
+                      href={offerUrl(primaryOffer(product)!)}
                       target="_blank"
                       rel="nofollow noopener noreferrer sponsored"
                       className="text-xs font-semibold bg-orange-500 text-white px-2.5 py-1 rounded-lg hover:bg-orange-600 transition-colors"

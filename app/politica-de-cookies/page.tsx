@@ -66,7 +66,7 @@ export default function PoliticaCookiesPage() {
               <tr>
                 <td><code>_ga</code>, <code>_ga_*</code></td>
                 <td>Google</td>
-                <td>Medir de forma agregada las visitas y los clics a Amazon (Google Analytics 4; solo con consentimiento)</td>
+                <td>Medir de forma agregada las visitas y los clics a Amazon y Decathlon (Google Analytics 4; solo con consentimiento)</td>
                 <td>2 años</td>
               </tr>
             </tbody>
@@ -101,6 +101,12 @@ export default function PoliticaCookiesPage() {
                 <td>Seguimiento de afiliados</td>
                 <td>Sesión / 365 días</td>
               </tr>
+              <tr>
+                <td>Cookies de Decathlon</td>
+                <td>Decathlon (eMarketingSolutions)</td>
+                <td>Atribuir a nuestro enlace la compra hecha en decathlon.es</td>
+                <td>Según Decathlon</td>
+              </tr>
             </tbody>
           </table>
 
@@ -129,6 +135,9 @@ export default function PoliticaCookiesPage() {
               Política de privacidad de Amazon
             </a>
             .
+          </p>
+          <p>
+            <strong>Decathlon España</strong> (con su plataforma de afiliación, eMarketingSolutions) puede instalar cookies de seguimiento en decathlon.es cuando haces clic en nuestros enlaces de Decathlon, que pasan por afiliacion.decathlon.es.
           </p>
 
           <h2>5. Más información</h2>

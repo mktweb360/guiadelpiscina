@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { notFound, redirect } from "next/navigation";
 import Link from "next/link";
 import { products, getProductsByCategory, getProductBySlug } from "@/data/products";
-import { amazonLink } from "@/lib/amazon";
+import { offersOf, offerUrl, STORE_NAME } from "@/lib/affiliate";
 import ProductCard from "@/components/ProductCard";
 import { productTitle, productTitleUnique, relatedInCategory } from "@/lib/seo";
 
@@ -111,13 +111,15 @@ export default async function ProductPage({
   const { categoria, producto } = await params;
   const product = getProductBySlug(producto);
   if (!product || product.categorySlug !== categoria) notFound();
-  if (product.unavailable) redirect(`/tienda/${product.categorySlug}`);
+  const [mainOffer, ...otherOffers] = offersOf(product);
+  if (product.unavailable || !mainOffer) redirect(`/tienda/${product.categorySlug}`);
 
   const related = relatedInCategory(getProductsByCategory(categoria), producto, 3);
 
   const faqs = categoryFaqs[categoria] ?? [];
   const allFaqs = [...faqs, ...genericFaqs];
-  const amzLink = amazonLink(product.asin);
+  const amzLink = offerUrl(mainOffer);
+  const storeName = STORE_NAME[mainOffer.store];
   const topSpecs = Object.entries(product.specs).slice(0, 4);
 
 
@@ -222,8 +224,19 @@ export default async function ProductPage({
                 rel="nofollow noopener noreferrer sponsored"
                 className="flex items-center justify-center gap-2 w-full px-6 py-3.5 bg-orange-500 hover:bg-orange-600 text-white font-bold rounded-xl transition-colors text-base"
               >
-                🛒 Comprar ahora →
+                🛒 Comprar en {storeName} →
               </a>
+              {otherOffers.map((o) => (
+                <a
+                  key={o.store}
+                  href={offerUrl(o)}
+                  target="_blank"
+                  rel="nofollow noopener noreferrer sponsored"
+                  className="flex items-center justify-center w-full px-6 py-3 bg-white hover:bg-orange-50 text-orange-700 font-semibold border border-orange-300 rounded-xl transition-colors text-sm"
+                >
+                  También disponible en {STORE_NAME[o.store]} →
+                </a>
+              ))}
               <Link
                 href={`/tienda/${categoria}`}
                 className="flex items-center justify-center gap-2 w-full px-6 py-3 bg-white hover:bg-gray-50 text-sky-700 font-semibold border border-sky-200 rounded-xl transition-colors text-sm"
@@ -372,7 +385,7 @@ export default async function ProductPage({
               rel="nofollow noopener noreferrer sponsored"
               className="inline-flex items-center gap-2 px-8 py-3.5 bg-orange-500 hover:bg-orange-400 text-white font-extrabold rounded-xl transition-colors text-base shadow-lg whitespace-nowrap"
             >
-              🛒 Ver precio actualizado →
+              🛒 Ver precio en {storeName} →
             </a>
             <p className="text-sky-200 text-xs">Enlace de afiliado · Sin coste adicional para ti</p>
           </div>

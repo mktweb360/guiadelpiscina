@@ -39,7 +39,7 @@ export default function Footer() {
         </div>
         <div className="border-t border-gray-700 pt-6">
           <p className="text-xs text-gray-500 mb-2">
-            <strong>Divulgación de afiliados:</strong> guiadelpiscina.com participa en el Programa de Afiliados de Amazon EU, un programa de publicidad para afiliados diseñado para ofrecer a sitios web un modo de obtener comisiones por publicidad, publicitando e incluyendo enlaces a Amazon.es.
+            <strong>Divulgación de afiliados:</strong> guiadelpiscina.com participa en el Programa de Afiliados de Amazon EU, un programa de publicidad para afiliados diseñado para ofrecer a sitios web un modo de obtener comisiones por publicidad, publicitando e incluyendo enlaces a Amazon.es, y en el programa de afiliados de Decathlon España. Si compras a través de nuestros enlaces podemos ganar una comisión sin coste adicional para ti.
           </p>
           <p className="text-xs text-gray-500">
             © {new Date().getFullYear()} Guía del Piscina — guiadelpiscina.com | Mkt Web 360 SLU, CIF B87679304

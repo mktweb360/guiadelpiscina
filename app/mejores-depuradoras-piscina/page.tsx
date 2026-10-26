@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { amazonLink } from "@/lib/amazon";
+import { primaryOffer, offerUrl } from "@/lib/affiliate";
 import AffiliateDisclosure from "@/components/AffiliateDisclosure";
 import AdSenseAd from "@/components/AdSenseAd";
 import BlogSidebar from "@/components/BlogSidebar";
@@ -323,7 +324,7 @@ export default function DepuradorasPage() {
                   <td className="px-3 py-3 text-gray-600 whitespace-nowrap">{row.potencia}</td>
                   <td className="px-3 py-3">
                     <a
-                      href={amazonLink(product.asin)}
+                      href={offerUrl(primaryOffer(product)!)}
                       target="_blank"
                       rel="nofollow noopener noreferrer sponsored"
                       className="inline-block bg-orange-500 text-white text-xs font-bold px-3 py-1.5 rounded-lg hover:bg-orange-600 transition-colors whitespace-nowrap"

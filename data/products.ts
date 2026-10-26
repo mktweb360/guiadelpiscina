@@ -1,7 +1,12 @@
+import type { Offer } from "@/lib/affiliate";
+
 export type Product = {
   slug: string;
   name: string;
-  asin: string;
+  /** ASIN de Amazon. Las fichas solo de Decathlon no lo llevan. */
+  asin?: string;
+  /** Comercios con enlace de afiliado, en orden de botón (el más barato primero). Sin `offers`, se usa `asin`. */
+  offers?: Offer[];
   category: string;
   categorySlug: string;
   categoryName: string;
