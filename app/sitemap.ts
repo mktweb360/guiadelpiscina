@@ -50,6 +50,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     // 18/10/2026: artículo nuevo (piscina desmontable rectangular)
     { url: `${BASE_URL}/piscina-desmontable-rectangular`, lastModified: "2026-10-27", changeFrequency: "monthly" as const, priority: 0.8 },
     { url: `${BASE_URL}/piscina-desmontable-redonda`, lastModified: "2026-10-27", changeFrequency: "monthly" as const, priority: 0.8 },
+    { url: `${BASE_URL}/arena-depuradora-piscina`, lastModified: "2026-10-27", changeFrequency: "monthly" as const, priority: 0.8 },
     // 18/10/2026: artículo nuevo (depuradora para piscina pequeña)
     { url: `${BASE_URL}/depuradora-piscina-pequena`, lastModified: "2026-10-18", changeFrequency: "monthly" as const, priority: 0.8 },
     // 13/10/2026: guías de temporada Black Friday, Navidad y Reyes

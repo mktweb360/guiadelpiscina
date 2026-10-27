@@ -329,6 +329,16 @@ const articles = [
     category: "Piscinas",
   },
   {
+    href: "/arena-depuradora-piscina",
+    icon: "💧",
+    title: "Arena, vidrio o bolas para la depuradora y cartuchos de recambio",
+    excerpt:
+      "Cuántos kilos de arena, vidrio o bolas lleva cada depuradora, qué grano usar, cómo cambiar la carga paso a paso y qué cartucho tipo A o H necesitas.",
+    date: "2026-10-27",
+    price: "",
+    category: "Depuradoras",
+  },
+  {
     href: "/piscina-desmontable-redonda",
     icon: "🏊",
     title: "Piscina desmontable redonda: cómo elegir diámetro, altura y depuradora",

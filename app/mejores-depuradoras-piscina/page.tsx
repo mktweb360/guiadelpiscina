@@ -191,6 +191,10 @@ export default function DepuradorasPage() {
           <p>
             El vidrio y las bolas se cargan en el mismo tanque de la depuradora de arena. El vidrio se usa en menor cantidad: según las fichas de Intex, la 55225 admite 12 kg de arena o 8,5 kg de vidrio, y la 55227, 35 kg de arena o 25 kg de vidrio. Las bolas filtrantes pesan mucho menos (350 g en la 55225). Usa solo las cargas que admita tu modelo y con el grano que indique la ficha: de 0,45 a 0,85 mm en las Intex de arena y en la Bestway 58497.
           </p>
+          <p>
+            Si ya tienes depuradora y toca cambiar la carga, tienes la guía de{" "}
+            <Link href="/arena-depuradora-piscina" className="text-sky-600 hover:underline">arena, vidrio o bolas para la depuradora</Link>, con los kilos de cada modelo y los cartuchos de recambio.
+          </p>
           <h3>Depuradora de cartucho</h3>
           <p>
             El filtro es un cartucho de papel plisado. Es más compacta y más sencilla de instalar, pero el cartucho se ensucia antes: hay que sacarlo y lavarlo con la manguera a menudo y cambiarlo varias veces por temporada. Intex, por ejemplo, recomienda cambiar cada dos semanas el cartucho tipo A de su 28636. Encaja en piscinas pequeñas o si solo usas la piscina unas semanas al año.
