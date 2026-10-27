@@ -182,9 +182,9 @@ export default function PiscinaDesmontablePage() {
             </Link>
           </div>
 
-          <h3>3. <Link href="/tienda/piscinas-desmontables/intex-ultra-xtr-549x274-depuradora" className="text-sky-700 hover:underline">Intex Ultra XTR Frame</Link> — La mejor calidad</h3>
+          <h3>3. <Link href="/tienda/piscinas-desmontables/intex-26352np-ultra-frame" className="text-sky-700 hover:underline">Intex Ultra Frame 549 × 274 × 132</Link> — Para nadar unas brazadas</h3>
           <p>
-            La <strong>Intex Ultra XTR</strong> es un escalón por encima en calidad: paredes de 3 capas de PVC más grueso, estructura de aluminio más robusta y conexiones mejoradas. Para quien quiere lo mejor y no tiene dudas sobre el presupuesto.
+            La <strong>Intex Ultra Frame 26352NP</strong> mide 549 × 274 × 132 cm (17.203 litros): la profundidad de 1,3 m que hace falta para nadar. Estructura de acero galvanizado con epoxi y lona de triple capa. No incluye depuradora: hay que elegirla aparte según el volumen.
           </p>
 
           <h2>¿Qué tamaño de piscina desmontable elegir?</h2>

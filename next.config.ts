@@ -30,7 +30,7 @@ const productRedirects = [
   { source: "/tienda/muebles-jardin/conjunto-rattan-4-piezas", destination: "/tienda/muebles-jardin/casaria-conjunto-jardin-poliratan-4-piezas", permanent: true },
   { source: "/tienda/muebles-jardin/tumbona-plegable-aluminio", destination: "/tienda/muebles-jardin/outsunny-2-tumbonas-plegables-aluminio", permanent: true },
   { source: "/tienda/piscinas-desmontables/intex-28101np-easy-set-piscina-pequena", destination: "/tienda/piscinas-desmontables", permanent: true },
-  { source: "/tienda/piscinas-desmontables/intex-ultra-xtr-rectangular", destination: "/tienda/piscinas-desmontables/intex-ultra-xtr-549x274-depuradora", permanent: true },
+  { source: "/tienda/piscinas-desmontables/intex-ultra-xtr-rectangular", destination: "/tienda/piscinas-desmontables/intex-26352np-ultra-frame", permanent: true },
   { source: "/tienda/piscinas-desmontables/bestway-steel-pro-max-366", destination: "/tienda/piscinas-desmontables/bestway-steel-pro-max-366x100", permanent: true },
   { source: "/tienda/depuradoras/intex-28636", destination: "/tienda/depuradoras/intex-28636-depuradora-cartucho", permanent: true },
   { source: "/tienda/depuradoras/bestway-flowclear-58496", destination: "/tienda/depuradoras", permanent: true },
