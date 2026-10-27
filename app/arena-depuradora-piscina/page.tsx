@@ -13,7 +13,7 @@ import GuideProductPick, { availableBySlug } from "@/components/GuideProductPick
 
 const TITLE = "Arena para depuradora: cuánta poner, cuál elegir y cómo cambiarla";
 // Title SEO (≤ 70 con la marca), distinto del H1
-const SEO_TITLE = "Arena para depuradora: cuánta poner y cómo cambiarla";
+const SEO_TITLE = "Arena para depuradora: cuánta y cómo cambiarla";
 const H1 = "Arena, vidrio o bolas para la depuradora y cartuchos de recambio: cuál poner y cómo cambiarlos";
 const URL = "https://www.guiadelpiscina.com/arena-depuradora-piscina";
 const DESCRIPTION =
