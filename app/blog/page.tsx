@@ -329,6 +329,16 @@ const articles = [
     category: "Piscinas",
   },
   {
+    href: "/piscina-desmontable-redonda",
+    icon: "🏊",
+    title: "Piscina desmontable redonda: cómo elegir diámetro, altura y depuradora",
+    excerpt:
+      "Qué diámetro cabe en tu jardín, cuántos litros tiene de verdad, aro hinchable o estructura tubular y comparativa de las redondas de nuestra selección.",
+    date: "2026-10-27",
+    price: "",
+    category: "Piscinas",
+  },
+  {
     href: "/piscina-desmontable-rectangular",
     icon: "🏊",
     title: "Piscina desmontable rectangular: cómo elegir medidas, altura y depuradora",

@@ -46,7 +46,7 @@ const tabla = [
   { slug: "intex-26784np-prism-frame-rectangular-300x175x80", modelo: "Intex Prism Frame 300 × 175", medidas: "300 × 175 × 80 cm", litros: "3.539 L", depuradora: "Cartucho 2.006 l/h + escalera", renovacion: "≈ 1 h 45 min" },
   { slug: "intex-28272np-piscina-small-frame-300x200", modelo: "Intex Small Frame 300 × 200", medidas: "300 × 200 × 75 cm", litros: "3.834 L", depuradora: "No incluida", renovacion: "—" },
   { slug: "intex-chevron-prism-frame-premium-400x200x100", modelo: "Intex Chevron Prism Frame Premium", medidas: "400 × 200 × 100 cm", litros: "6.836 L", depuradora: "Cartucho 2.006 l/h + escalera", renovacion: "≈ 3 h 25 min" },
-  { slug: "intex-28273np-piscina-small-frame-450x220", modelo: "Intex Small Frame 450 × 220", medidas: "450 × 220 × 84 cm", litros: "7.127 L", depuradora: "Cartucho 2.006 l/h + cobertor", renovacion: "≈ 3 h 35 min" },
+  { slug: "intex-28273np-piscina-small-frame-450x220", modelo: "Intex Small Frame 450 × 220", medidas: "450 × 220 × 84 cm", litros: "7.127 L", depuradora: "No incluida", renovacion: "—" },
   { slug: "intex-55212-prism-frame-rectangular-488x244x107", modelo: "Intex Prism Frame 488 × 244", medidas: "488 × 244 × 107 cm", litros: "10.874 L", depuradora: "Cartucho 3.785 l/h + escalera, tapiz y cobertor", renovacion: "≈ 2 h 50 min" },
   { slug: "bestway-steel-pro-max-rectangular-488x244x122", modelo: "Bestway Steel Pro MAX 488 × 244", medidas: "488 × 244 × 122 cm", litros: "11.532 L", depuradora: "Cartucho 3.028 l/h + escalera y cobertor", renovacion: "≈ 3 h 50 min" },
   { slug: "intex-26352np-ultra-frame", modelo: "Intex Ultra Frame 549 × 274", medidas: "549 × 274 × 132 cm", litros: "17.203 L", depuradora: "No incluida", renovacion: "—" },
@@ -175,6 +175,10 @@ export default function PiscinaDesmontableRectangularPage() {
 
         <div className="prose">
           <h2>Rectangular o redonda: qué cambia de verdad</h2>
+          <p>
+            Si tu hueco es más o menos cuadrado, mira también la guía de{" "}
+            <Link href="/piscina-desmontable-redonda" className="text-sky-600 hover:underline">piscina desmontable redonda</Link>.
+          </p>
           <p>
             Lo primero es el <strong>espacio</strong>. Una redonda de 366 cm de diámetro ocupa un cuadrado de 3,66 × 3,66 m (13,4 m²) para ofrecer 10,5 m² de agua, mientras que una rectangular de 400 × 200 cm convierte en agua prácticamente todo lo que ocupa. En un patio de 4,5 × 2,5 m no cabe ninguna redonda de más de 2,5 m, pero sí una rectangular de 400 × 200.
           </p>
