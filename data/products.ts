@@ -455,7 +455,6 @@ export const products: Product[] = [
   },
   {
     slug: "tectake-tumbona-aluminio-7-posiciones",
-    unavailable: "2026-10-12",
     name: "TecTake Tumbona Plegable Aluminio 7 Posiciones Impermeable 120 kg",
     asin: "B08KG2RDHC",
     image: "/images/products/tectake-tumbona-aluminio-7-posiciones.jpg",
