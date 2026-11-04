@@ -329,6 +329,16 @@ const articles = [
     category: "Piscinas",
   },
   {
+    href: "/manta-termica-piscina",
+    icon: "☀️",
+    title: "Manta térmica o cubierta solar para la piscina: espesor, medida y cuál elegir",
+    excerpt:
+      "Qué hace una manta térmica de burbujas y qué no, cómo elegir el espesor, cómo medirla y colocarla y cinco modelos del catálogo.",
+    date: "2026-11-04",
+    price: "",
+    category: "Piscinas",
+  },
+  {
     href: "/arena-depuradora-piscina",
     icon: "💧",
     title: "Arena, vidrio o bolas para la depuradora y cartuchos de recambio",
