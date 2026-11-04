@@ -220,7 +220,7 @@ export default function CuantoCloroPage() {
             <li><strong>Máximo tolerable para bañarse:</strong> 5 ppm</li>
           </ul>
           <p>
-            Mide el cloro libre con tiras reactivas o un kit de análisis antes de cada tratamiento. Si ya estás en 2 ppm, no añadas más: podrías superar el límite tolerable.
+            Mide el cloro libre con tiras reactivas o un kit de análisis antes de cada tratamiento. Si ya estás en 2 ppm, no añadas más: podrías superar el límite tolerable. Como referencia legal, el Real Decreto 742/2013 fija 0,5-2,0 mg/L de cloro libre en piscinas públicas; en una piscina unifamiliar la norma no impone esos valores, así que los 1–3 ppm de esta guía son una referencia práctica y manda siempre la etiqueta de tu producto.
           </p>
 
           <h2>Cuándo hacer un tratamiento de choque</h2>
