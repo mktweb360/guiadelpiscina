@@ -339,6 +339,46 @@ const articles = [
     category: "Piscinas",
   },
   {
+    href: "/calendario-mantenimiento-piscina",
+    icon: "🗓️",
+    title: "Calendario de mantenimiento de la piscina: tareas por semana y mes a mes del año",
+    excerpt:
+      "Qué hacer cada día, cada semana y cada mes, con un calendario mes a mes y los rangos del Real Decreto 742/2013 como referencia.",
+    date: "2026-11-04",
+    price: "",
+    category: "Piscinas",
+  },
+  {
+    href: "/calcular-litros-piscina",
+    icon: "📐",
+    title: "Cómo calcular los litros de una piscina rectangular, redonda u ovalada (con ejemplos resueltos)",
+    excerpt:
+      "Fórmulas, ejemplos con modelos reales, por qué la capacidad declarada es menor que el volumen bruto y qué cálculos dependen de los litros.",
+    date: "2026-11-04",
+    price: "",
+    category: "Piscinas",
+  },
+  {
+    href: "/seguridad-infantil-piscina",
+    icon: "🛟",
+    title: "Seguridad infantil en la piscina: vallado, cubierta, vigilancia y qué dice la normativa",
+    excerpt:
+      "Lo que recomienda la AEP, qué exige el Código Técnico y a quién, y una lista de comprobación para familias con piscina.",
+    date: "2026-11-04",
+    price: "",
+    category: "Piscinas",
+  },
+  {
+    href: "/ahorrar-agua-energia-piscina",
+    icon: "💡",
+    title: "Ahorrar agua y energía en la piscina: horas de filtrado, cubierta y bomba, con números",
+    excerpt:
+      "Cómo calcular lo que gasta la bomba, cuántas horas de filtrado necesitas, qué ahorra una cubierta y qué dice el IDAE.",
+    date: "2026-11-04",
+    price: "",
+    category: "Piscinas",
+  },
+  {
     href: "/arena-depuradora-piscina",
     icon: "💧",
     title: "Arena, vidrio o bolas para la depuradora y cartuchos de recambio",

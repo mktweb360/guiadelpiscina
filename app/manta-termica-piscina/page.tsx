@@ -149,7 +149,8 @@ export default function MantaTermicaPiscinaPage() {
                 Esta guía es para quien ya tiene piscina y quiere alargar la temporada sin gastar más en calentarla. Si lo que buscas es proteger la piscina en invierno, mira la guía de{" "}
                 <Link href="/como-cerrar-piscina-invierno" className="text-sky-600 hover:underline">cómo cerrar la piscina en invierno</Link> o la de{" "}
                 <Link href="/cubierta-piscina-desmontable" className="text-sky-600 hover:underline">cubiertas para piscinas desmontables</Link>; si prefieres calentar el agua de forma activa, la de{" "}
-                <Link href="/bomba-calor-piscina" className="text-sky-600 hover:underline">bomba de calor</Link>.
+                <Link href="/bomba-calor-piscina" className="text-sky-600 hover:underline">bomba de calor</Link>. Para ver dónde se pierden el calor y el agua y qué más puedes hacer, mira{" "}
+                <Link href="/ahorrar-agua-energia-piscina" className="text-sky-600 hover:underline">cómo ahorrar agua y energía en la piscina</Link>.
               </p>
 
               <h2>Nuestras recomendaciones rápidas</h2>

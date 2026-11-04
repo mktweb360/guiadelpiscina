@@ -200,7 +200,7 @@ export default function MantenimientoPiscinaPage() {
           </p>
 
           <h2>Rutina semanal de mantenimiento</h2>
-          <p>Esta es la rutina que deberías seguir cada semana durante la temporada de baño:</p>
+          <p>Esta es la rutina que deberías seguir cada semana durante la temporada de baño (si prefieres verla repartida por meses, con las tareas de apertura, verano y cierre, tienes el <a href="/calendario-mantenimiento-piscina" className="text-sky-600 hover:underline">calendario de mantenimiento de la piscina</a>):</p>
           <ol>
             <li><strong>Medir el pH y el cloro</strong> con tiras reactivas o medidor digital.</li>
             <li><strong>Ajustar si es necesario:</strong> corrige el pH con pH+ o pH−, y añade cloro si está por debajo de 1 ppm.</li>

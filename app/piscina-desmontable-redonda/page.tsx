@@ -211,7 +211,8 @@ export default function PiscinaDesmontableRedondaPage() {
             <li><strong>122 cm:</strong> para adultos y niños que nadan con soltura.</li>
           </ul>
           <p>
-            Intex recomienda sus Easy Set y Prism Frame a partir de 6 años. Retira o bloquea la escalera cuando nadie vigila y recuerda que un cobertor no soporta el peso de un niño. Más detalles en la guía de{" "}
+            Intex recomienda sus Easy Set y Prism Frame a partir de 6 años. Retira o bloquea la escalera cuando nadie vigila y recuerda que un cobertor no soporta el peso de un niño. Para el resto de medidas (vallado, vigilancia y normativa) tienes la guía de{" "}
+            <Link href="/seguridad-infantil-piscina" className="text-sky-600 hover:underline">seguridad infantil en la piscina</Link>. Más detalles sobre escaleras en la guía de{" "}
             <Link href="/escalera-piscina-desmontable" className="text-sky-600 hover:underline">escaleras para piscina desmontable</Link>.
           </p>
         </div>

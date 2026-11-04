@@ -155,7 +155,7 @@ export default function CuantoCloroPage() {
 
         <div className="prose">
           <h2>Cómo calcular el volumen de tu piscina</h2>
-          <p>Antes de saber cuánto cloro echar, necesitas conocer el volumen en litros. Usa estas fórmulas:</p>
+          <p>Antes de saber cuánto cloro echar, necesitas conocer el volumen en litros. Usa estas fórmulas (con ejemplos resueltos y los errores más habituales en <a href="/calcular-litros-piscina" className="text-sky-600 hover:underline">cómo calcular los litros de una piscina</a>):</p>
           <ul>
             <li><strong>Rectangular:</strong> largo × ancho × profundidad media × 1.000</li>
             <li><strong>Circular:</strong> radio² × π × profundidad media × 1.000</li>
