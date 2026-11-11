@@ -220,7 +220,7 @@ export default async function ProductPage({
             <div className="bg-orange-50 border border-orange-100 rounded-2xl p-5 flex flex-col gap-3">
               <div>
                 <p className="text-base font-bold text-gray-900">Disponible ahora</p>
-                <p className="text-xs text-gray-500 mt-0.5">Precio actualizado · Compra 100% segura</p>
+                <p className="text-xs text-gray-500 mt-0.5">Consulta precio y disponibilidad en la tienda</p>
               </div>
               <a
                 href={amzLink}
@@ -408,7 +408,7 @@ export default async function ProductPage({
 
           <div className="relative z-10 text-center sm:text-left">
             <p className="text-white font-extrabold text-xl mb-1">{product.name}</p>
-            <p className="text-sky-100 text-sm">Disponible ahora — compra segura con envío rápido</p>
+            <p className="text-sky-100 text-sm">Consulta precio, disponibilidad y envío en la tienda del vendedor</p>
           </div>
 
           <div className="relative z-10 flex flex-col items-center gap-2 flex-shrink-0">
