@@ -87,10 +87,12 @@ const articleSchema = {
   datePublished: "2026-09-08",
   dateModified: "2026-09-08",
   author: {
-    "@type": "Organization",
-    name: "Equipo Editorial de Guía del Piscina",
+    "@type": "Person",
+    name: "José Marcos Galindo Sánchez",
+    jobTitle: "Editor responsable",
+    worksFor: { "@type": "Organization", name: "Mkt Web 360 SLU", url: "https://www.mktweb360.com" },
     url: "https://www.guiadelpiscina.com/sobre-nosotros",
-    description: "Equipo editorial de Guía del Piscina (Mkt Web 360 SLU). Analizamos especificaciones técnicas, fichas de fabricante y experiencia de uso, con apoyo de IA en investigación y redacción bajo revisión editorial.",
+    description: "Editor responsable de Guía del Piscina (Mkt Web 360 SLU). Contrasta especificaciones técnicas y fichas de fabricante, con apoyo de IA en investigación y redacción bajo revisión editorial.",
     knowsAbout: ["riego automático de jardín", "mantenimiento de piscinas", "tratamiento del agua"],
   },
   publisher: { "@type": "Organization", name: "Mkt Web 360 SLU", url: "https://www.guiadelpiscina.com" },
@@ -148,7 +150,7 @@ export default function GardenaFlexAnalisisPage() {
         <p className="text-gray-400 text-sm mb-6">Publicado: 8 septiembre 2026 · Actualizado: 8 septiembre 2026 · 6 min lectura</p>
         <span className="flex items-center gap-1 text-gray-500 text-sm mb-4 block">
           <span>✍️</span>
-          <a href="/sobre-nosotros" className="font-medium text-sky-700 hover:underline">Equipo Editorial de Guía del Piscina</a>
+          <a href="/sobre-nosotros" className="font-medium text-sky-700 hover:underline">José Marcos Galindo Sánchez · Editor responsable</a>
         </span>
 
         <AffiliateDisclosure />

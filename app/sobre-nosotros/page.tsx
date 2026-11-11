@@ -10,11 +10,13 @@ export const metadata: Metadata = {
 
 const personSchema = {
   "@context": "https://schema.org",
-  "@type": "Organization",
-  name: "Equipo Editorial de Guía del Piscina",
+  "@type": "Person",
+  name: "José Marcos Galindo Sánchez",
+  jobTitle: "Editor responsable",
+  worksFor: { "@type": "Organization", name: "Mkt Web 360 SLU", url: "https://www.mktweb360.com" },
   url: "https://www.guiadelpiscina.com/sobre-nosotros",
   description:
-    "Equipo editorial de Guía del Piscina (Mkt Web 360 SLU). Analizamos especificaciones técnicas, fichas de fabricante y experiencia de uso antes de recomendar equipamiento de piscinas y jardín, con apoyo de IA en investigación y redacción bajo revisión editorial.",
+    "Editor responsable de Guía del Piscina y fundador de Mkt Web 360 SLU, agencia de marketing digital (SEO, analítica y desarrollo web) con sede en El Viso de San Juan (Toledo). Contrasta especificaciones técnicas, fichas de fabricante y normativa antes de recomendar equipamiento de piscina y jardín, con apoyo de IA bajo revisión editorial.",
   knowsAbout: [
     "mantenimiento de piscinas",
     "tratamiento del agua",
@@ -24,11 +26,6 @@ const personSchema = {
     "robots limpiafondos",
     "bombas de calor para piscina",
   ],
-  parentOrganization: {
-    "@type": "Organization",
-    name: "Mkt Web 360 SLU",
-    url: "https://www.guiadelpiscina.com",
-  },
 };
 
 const orgSchema = {
@@ -101,13 +98,13 @@ export default function SobreNosotrosPage() {
         <div className="bg-sky-50 border border-sky-200 rounded-2xl p-6 mb-10 flex gap-5 items-start">
           {/* Avatar */}
           <div className="shrink-0 w-16 h-16 rounded-full bg-sky-600 flex items-center justify-center text-white text-2xl font-extrabold select-none">
-            GP
+            JG
           </div>
           <div className="flex-1">
-            <p className="text-xl font-bold text-gray-900">Equipo Editorial de Guía del Piscina</p>
-            <p className="text-sky-700 font-medium text-sm mb-2">Mkt Web 360 SLU</p>
+            <p className="text-xl font-bold text-gray-900">José Marcos Galindo Sánchez</p>
+            <p className="text-sky-700 font-medium text-sm mb-2">Editor responsable · Fundador de Mkt Web 360 SLU</p>
             <p className="text-gray-600 text-sm leading-relaxed mb-4">
-              Analizamos especificaciones técnicas, fichas de fabricante y experiencia de uso antes de recomendar cualquier equipo de piscina o jardín, con apoyo de IA en investigación y redacción bajo revisión editorial. Nunca inventamos datos de producto ni experiencias de uso.
+              No pruebo personalmente cada producto: mi trabajo es editorial. Contrasto especificaciones técnicas, fichas de fabricante y normativa antes de recomendar cualquier equipo de piscina o jardín, con apoyo de IA en investigación y redacción bajo revisión editorial. Nunca invento datos de producto ni experiencias de uso.
             </p>
             {/* Expertise tags */}
             <div className="flex flex-wrap gap-2">

@@ -44,6 +44,9 @@ export default function Footer() {
           <p className="text-xs text-gray-500">
             © {new Date().getFullYear()} Guía del Piscina — guiadelpiscina.com | Mkt Web 360 SLU, CIF B87679304
           </p>
+          <p className="text-xs text-gray-500 mt-2">
+            Editor responsable: <a href="/sobre-nosotros" className="underline hover:text-gray-300">José Marcos Galindo Sánchez</a>
+          </p>
         </div>
       </div>
     </footer>
