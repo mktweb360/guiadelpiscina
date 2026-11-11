@@ -16,6 +16,7 @@ export const metadata: Metadata = {
 const articles = [
   {
     href: "/montar-piscina-desmontable-suelo-nivelado-llenado",
+    img: "/images/blog/montar-piscina-desmontable-suelo-nivelado-llenado.jpg",
     icon: "🛠️",
     title: "Cómo montar una piscina desmontable: suelo, nivelado y llenado",
     excerpt:

@@ -16,6 +16,7 @@ export const metadata: Metadata = {
     description:
       "Superficies válidas, preparación del suelo, montaje y llenado según los manuales de Bestway e Intex.",
     url: "https://www.guiadelpiscina.com/montar-piscina-desmontable-suelo-nivelado-llenado",
+    images: ["/images/blog/montar-piscina-desmontable-suelo-nivelado-llenado.jpg"],
   },
 };
 
@@ -117,6 +118,12 @@ export default function MontarPiscinaDesmontablePage() {
           <a href="/sobre-nosotros" className="font-medium text-sky-700 hover:underline">José Marcos Galindo Sánchez · Editor responsable</a>
           <span className="text-gray-400">— Guía del Piscina</span>
         </span>
+        <img
+          src="/images/blog/montar-piscina-desmontable-suelo-nivelado-llenado.jpg"
+          alt="Piscina desmontable montada sobre un césped nivelado"
+          className="w-full h-56 sm:h-72 object-cover rounded-xl mb-8"
+          loading="eager"
+        />
 
         <AffiliateDisclosure />
 
