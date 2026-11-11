@@ -399,6 +399,16 @@ const articles = [
     category: "Piscinas",
   },
   {
+    href: "/gafas-gorro-natacion",
+    icon: "🥽",
+    title: "Gafas y gorro de natación: cómo elegirlos y qué más necesitas para nadar en tu piscina (2026)",
+    excerpt:
+      "Cómo probar el sellado de unas gafas, cristales claros o ahumados, gorro de silicona o de tela y qué accesorios de entrenamiento compensan en la piscina de casa.",
+    date: "2026-10-29",
+    price: "",
+    category: "Piscinas",
+  },
+  {
     href: "/piscina-desmontable-rectangular",
     icon: "🏊",
     title: "Piscina desmontable rectangular: cómo elegir medidas, altura y depuradora",
