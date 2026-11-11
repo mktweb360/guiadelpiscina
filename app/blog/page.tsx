@@ -15,6 +15,16 @@ export const metadata: Metadata = {
 
 const articles = [
   {
+    href: "/montar-piscina-desmontable-suelo-nivelado-llenado",
+    icon: "🛠️",
+    title: "Cómo montar una piscina desmontable: suelo, nivelado y llenado",
+    excerpt:
+      "Dónde colocarla, cómo preparar y nivelar el suelo y cómo llenarla sin riesgos, según los manuales de Bestway e Intex.",
+    date: "2026-11-11",
+    price: "",
+    category: "Piscinas",
+  },
+  {
     href: "/mejores-depuradoras-piscina",
     img: "/images/blog/mejores-depuradoras-piscina.jpg",
     icon: "💧",
