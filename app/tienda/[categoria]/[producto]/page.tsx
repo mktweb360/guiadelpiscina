@@ -57,23 +57,12 @@ const categoryFaqs: Record<string, { q: string; a: string }[]> = {
   ],
 };
 
-// Preguntas genéricas de compra (seguridad, precio, envío, devoluciones)
+// Pregunta sobre el funcionamiento de los enlaces. Se retiran las FAQ genéricas de envío, plazos y devoluciones:
+// dependen del vendedor y de Amazon, no de este sitio, y no se pueden afirmar con carácter general.
 const genericFaqs = [
   {
     q: "¿Es seguro comprar a través de vuestros enlaces?",
-    a: "Sí, todos nuestros enlaces dirigen directamente a la tienda del vendedor, una plataforma con compra 100% segura. Nosotros no procesamos ningún pago ni almacenamos datos personales. El proceso de compra lo gestiona íntegramente el vendedor con sus sistemas de seguridad certificados.",
-  },
-  {
-    q: "¿El precio que aparece es el precio final?",
-    a: "Los precios pueden variar en tiempo real. El precio que mostramos es orientativo y puede cambiar por ofertas, descuentos o variaciones de stock. Siempre verás el precio actualizado y definitivo en la ficha del producto antes de confirmar la compra.",
-  },
-  {
-    q: "¿Cuánto tarda en llegar el pedido?",
-    a: "Los productos con envío premium llegan en 1-2 días laborables si realizas el pedido antes de las 14:00h. Para el resto de productos, el plazo habitual es de 3-5 días laborables. El vendedor gestiona el envío y te enviará un número de seguimiento por email.",
-  },
-  {
-    q: "¿Puedo devolver el producto si no estoy satisfecho?",
-    a: "Sí. El vendedor ofrece 30 días para devoluciones gratuitas en la mayoría de productos (algunos vendedores externos pueden tener condiciones distintas). El proceso es sencillo desde tu cuenta, en el apartado 'Mis pedidos'. Si el producto llega dañado, se reemplaza sin coste.",
+    a: "Sí, todos nuestros enlaces dirigen directamente a la tienda del vendedor, donde se completa la compra. Nosotros no procesamos ningún pago ni almacenamos datos de pago: el proceso lo gestiona íntegramente la tienda del vendedor.",
   },
 ];
 
@@ -124,7 +113,15 @@ export default async function ProductPage({
   const related = relatedInCategory(getProductsByCategory(categoria), producto, 3);
 
   const faqs = categoryFaqs[categoria] ?? [];
-  const allFaqs = [...faqs, ...genericFaqs];
+  const especificaciones = Object.entries(product.specs).map(([k, v]) => `${k}: ${v}`).join("; ");
+  const clavesComparativa = Object.keys(product.specs).slice(0, 3);
+  // Preguntas propias de la ficha (datos reales del producto) antes de las de la categoría.
+  const faqsProducto = [
+    { q: `¿Qué características tiene ${product.name}?`, a: especificaciones ? `Según los datos del fabricante: ${especificaciones}.` : "Consulta la ficha del fabricante." },
+    { q: `¿Qué aspectos hay que tener en cuenta de ${product.name}?`, a: product.cons.length ? `${product.cons.join(". ")}.` : "Consulta la ficha del fabricante." },
+    { q: "¿Con qué otros productos se puede comparar?", a: related.length ? `En esta misma categoría tienes también ${related.map((r) => r.name).join(", ")}; más abajo los comparamos.` : "Consulta el resto de la categoría." },
+  ];
+  const allFaqs = [...faqsProducto, ...faqs, ...genericFaqs];
   const amzLink = offerUrl(mainOffer);
   const storeName = STORE_NAME[mainOffer.store];
   const topSpecs = Object.entries(product.specs).slice(0, 4);
@@ -325,11 +322,40 @@ export default async function ProductPage({
           </div>
         </section>
 
-        {/* ── Análisis completo ── */}
+        {/* ── Qué ofrece este producto ── */}
         <section className="mb-10">
-          <h2 className="text-xl font-extrabold text-gray-900 mb-4">Análisis completo</h2>
+          <h2 className="text-xl font-extrabold text-gray-900 mb-4">Qué ofrece este producto</h2>
           <p className="text-gray-700 leading-relaxed">{product.fullDescription}</p>
+          <p className="text-xs text-gray-400 mt-2">Resumen basado en la información del fabricante. No hemos probado personalmente el producto.</p>
         </section>
+
+        {/* ── Comparativa con alternativas de la categoría ── */}
+        {related.length > 0 && clavesComparativa.length > 0 && (
+          <section className="mb-10">
+            <h2 className="text-xl font-extrabold text-gray-900 mb-4">Comparado con otras opciones de la categoría</h2>
+            <div className="overflow-x-auto rounded-2xl border border-gray-100">
+              <table className="w-full text-sm">
+                <thead className="bg-gray-50 text-left text-gray-600">
+                  <tr>
+                    <th className="px-4 py-3">Producto</th>
+                    {clavesComparativa.map((k) => (<th key={k} className="px-4 py-3 capitalize">{k}</th>))}
+                  </tr>
+                </thead>
+                <tbody>
+                  {[product, ...related].map((p) => (
+                    <tr key={p.slug} className={p.slug === product.slug ? "bg-sky-50 font-semibold" : "border-t border-gray-100"}>
+                      <td className="px-4 py-3">
+                        {p.slug === product.slug ? p.name : <Link href={`/tienda/${p.categorySlug}/${p.slug}`} className="text-sky-700 hover:underline">{p.name}</Link>}
+                      </td>
+                      {clavesComparativa.map((k) => (<td key={k} className="px-4 py-3 text-gray-600">{p.specs[k] ?? "—"}</td>))}
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+            <p className="text-xs text-gray-400 mt-2">Datos del fabricante. «—» indica que ese dato no figura en la ficha del otro producto.</p>
+          </section>
+        )}
 
         {/* ── FAQ expandible ── */}
         <section className="mb-10">
