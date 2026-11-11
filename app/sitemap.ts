@@ -1,5 +1,6 @@
 import type { MetadataRoute } from "next";
 import { categories, products } from "@/data/products";
+import { isFeaturedProduct } from "@/lib/indexable";
 
 const BASE_URL = "https://www.guiadelpiscina.com";
 
@@ -76,7 +77,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.8,
   }));
 
-  const storeProducts = products.filter((p) => !p.unavailable).map((p) => ({
+  const storeProducts = products.filter((p) => !p.unavailable && isFeaturedProduct(p.slug)).map((p) => ({
     url: `${BASE_URL}/tienda/${p.categorySlug}/${p.slug}`,
     lastModified: "2025-06-09",
     changeFrequency: "monthly" as const,

@@ -228,8 +228,10 @@ const articleSchema = {
   datePublished: "2026-10-13",
   dateModified: "2026-10-13",
   author: {
-    "@type": "Organization",
-    name: "Equipo Editorial de Guía del Piscina",
+    "@type": "Person",
+    name: "José Marcos Galindo Sánchez",
+    jobTitle: "Editor responsable",
+    worksFor: { "@type": "Organization", name: "Mkt Web 360 SLU", url: "https://www.mktweb360.com" },
     url: "https://www.guiadelpiscina.com/sobre-nosotros",
     knowsAbout: ["piscinas desmontables", "robots limpiafondos", "riego", "muebles de jardín", "pérgolas"],
   },
@@ -295,7 +297,7 @@ export default function RegalosNavidadPiscinaJardinPage() {
             </h1>
             <p className="text-gray-400 text-sm mb-6">Publicado: 13 octubre 2026 · Actualizado: 13 octubre 2026 · 8 min lectura</p>
             <span className="flex items-center gap-1 text-gray-500 text-sm mb-4 block">
-              <Link href="/sobre-nosotros" className="font-medium text-sky-700 hover:underline">Equipo Editorial de Guía del Piscina</Link>
+              <Link href="/sobre-nosotros" className="font-medium text-sky-700 hover:underline">José Marcos Galindo Sánchez · Editor responsable</Link>
             </span>
 
             <AffiliateDisclosure />

@@ -72,10 +72,12 @@ const articleSchema = {
   datePublished: "2025-08-01",
   dateModified: "2025-08-01",
   author: {
-    "@type": "Organization",
-    name: "Equipo Editorial de Guía del Piscina",
+    "@type": "Person",
+    name: "José Marcos Galindo Sánchez",
+    jobTitle: "Editor responsable",
+    worksFor: { "@type": "Organization", name: "Mkt Web 360 SLU", url: "https://www.mktweb360.com" },
     url: "https://www.guiadelpiscina.com/sobre-nosotros",
-    description: "Equipo editorial de Guía del Piscina (Mkt Web 360 SLU). Analizamos especificaciones técnicas, fichas de fabricante y experiencia de uso, con apoyo de IA en investigación y redacción bajo revisión editorial.",
+    description: "Editor responsable de Guía del Piscina (Mkt Web 360 SLU). Contrasta especificaciones técnicas y fichas de fabricante, con apoyo de IA en investigación y redacción bajo revisión editorial.",
     knowsAbout: ["mantenimiento de piscinas", "tratamiento del agua", "depuradoras", "cloro y pH", "piscinas desmontables"],
   },
   publisher: { "@type": "Organization", name: "Mkt Web 360 SLU", url: "https://www.guiadelpiscina.com" },
@@ -134,7 +136,7 @@ export default function CuantoCloroPage() {
         <p className="text-gray-400 text-sm mb-6">Publicado: 1 agosto 2025 · Actualizado: 1 agosto 2025 · 8 min lectura</p>
         <span className="flex items-center gap-1 text-gray-500 text-sm mb-4 block">
           <span>✍️</span>
-          <a href="/sobre-nosotros" className="font-medium text-sky-700 hover:underline">Equipo Editorial</a>
+          <a href="/sobre-nosotros" className="font-medium text-sky-700 hover:underline">José Marcos Galindo Sánchez · Editor responsable</a>
           <span className="text-gray-400">— Guía del Piscina</span>
         </span>
         <img
