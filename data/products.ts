@@ -2150,6 +2150,24 @@ export const products: Product[] = [
     cons: ["Se puede acortar, pero no se recomienda cortar de más","No es una cubierta de seguridad: no soporta peso","Ocupa espacio al enrollarla"],
     specs: {"Medidas":"500 × 800 cm","Espesor":"400 micras","Color":"Azul","Forma":"Rectangular, acortable"},
   },
+  {
+    slug: "bestway-tapiz-protector-suelo-335x335",
+    name: "Bestway Tapiz Protector de Suelo para Piscina 335 × 335 cm",
+    asin: "B0CDXN85QM",
+    image: "/images/products/bestway-tapiz-protector-suelo-335x335.jpg",
+    category: "Piscinas desmontables",
+    categorySlug: "piscinas-desmontables",
+    categoryName: "Piscinas desmontables",
+    price: "Consultar precio",
+    priceMin: 0,
+    rating: 0,
+    reviewCount: 0,
+    shortDescription: "Tapiz protector de suelo Bestway de 335 × 335 cm para colocar bajo una piscina desmontable.",
+    fullDescription: "Verificado en vivo en Amazon.es el 11/11/2026 (ASIN B0CDXN85QM; dato interno, no se muestra). Tapiz protector de suelo de Bestway de 335 × 335 cm, pensado para ir bajo una piscina desmontable. Ayuda a aislar el fondo de la piscina de pequeñas irregularidades, pero no sustituye a un suelo bien nivelado y limpio. No se ha probado el producto: comprueba que la medida cubre la base de tu piscina y las condiciones en la ficha de Amazon.",
+    pros: ["Medida 335 × 335 cm","Marca Bestway, la misma de muchas piscinas desmontables","Protege el fondo del contacto directo con el suelo"],
+    cons: ["Vendido por un tercero","No corrige un suelo desnivelado","Hay que elegir una medida acorde al diámetro de la piscina"],
+    specs: {"Medidas":"335 × 335 cm","Marca":"Bestway","Uso":"Bajo piscina desmontable"},
+  },
 ];
 
 export function getProductsByCategory(categorySlug: string): Product[] {
