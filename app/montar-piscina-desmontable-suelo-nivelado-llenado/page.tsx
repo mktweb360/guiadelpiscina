@@ -5,7 +5,7 @@ import AdSenseAd from "@/components/AdSenseAd";
 import BlogSidebar from "@/components/BlogSidebar";
 
 export const metadata: Metadata = {
-  title: "Cómo montar una piscina desmontable: suelo, nivelado y llenado",
+  title: "Montar una piscina desmontable: suelo y llenado",
   description:
     "Cómo elegir el sitio, preparar y nivelar el suelo y llenar una piscina desmontable según los manuales de Bestway e Intex: superficies válidas, errores y comprobaciones.",
   keywords:
