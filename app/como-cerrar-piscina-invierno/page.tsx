@@ -5,6 +5,7 @@ import AffiliateDisclosure from "@/components/AffiliateDisclosure";
 import BlogSidebar from "@/components/BlogSidebar";
 import ArticleTocAuto from "@/components/ArticleTocAuto";
 import MktPromo from "@/components/MktPromo";
+import MoreGuides from "@/components/MoreGuides";
 
 export const metadata: Metadata = {
   title: "Cómo cerrar la piscina en invierno",
@@ -294,6 +295,7 @@ export default function ComoCerrarPiscinaPage() {
             <li><Link href="/mejor-clorador-salino-piscina" className="text-sky-600 hover:underline">→ Mejor clorador salino para piscina</Link></li>
           </ul>
         </div>
+        <MoreGuides className="mt-10" />
         <MktPromo className="lg:hidden mt-10" />
       </article>
         <BlogSidebar ctaHref="/tienda" ctaText="Ver productos recomendados" />

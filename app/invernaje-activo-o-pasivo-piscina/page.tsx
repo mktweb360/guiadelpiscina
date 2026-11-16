@@ -4,6 +4,7 @@ import AdSenseAd from "@/components/AdSenseAd";
 import BlogSidebar from "@/components/BlogSidebar";
 import ArticleTocAuto from "@/components/ArticleTocAuto";
 import MktPromo from "@/components/MktPromo";
+import MoreGuides from "@/components/MoreGuides";
 
 export const metadata: Metadata = {
   title: "Invernaje activo o pasivo de la piscina",
@@ -257,6 +258,7 @@ export default function InvernajeActivoPasivoPage() {
             <li><Link href="/mejor-clorador-salino-piscina" className="text-sky-600 hover:underline">→ Mejor clorador salino para piscina</Link></li>
           </ul>
         </div>
+        <MoreGuides className="mt-10" />
         <MktPromo className="lg:hidden mt-10" />
       </article>
         <BlogSidebar ctaHref="/tienda/bombas-calor" ctaText="Ver bombas de calor" />

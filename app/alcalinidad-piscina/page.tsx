@@ -6,6 +6,7 @@ import AdSenseAd from "@/components/AdSenseAd";
 import BlogSidebar from "@/components/BlogSidebar";
 import ArticleTocAuto from "@/components/ArticleTocAuto";
 import MktPromo from "@/components/MktPromo";
+import MoreGuides from "@/components/MoreGuides";
 
 // Artículo generado 17/10/2026 (loop blogs-monetizacion). Sin precios ni valoraciones estáticas de Amazon (cumplimiento julio 2026).
 // Fuentes de los valores: rango de alcalinidad total 80-120 mg/L (ideal) y 60-180 mg/L (aceptable) según el documento
@@ -314,6 +315,7 @@ export default function AlcalinidadPiscinaPage() {
             <li><Link href="/cuanto-cloro-echar-piscina" className="text-sky-600 hover:underline">→ ¿Cuánto cloro echar en la piscina?</Link></li>
           </ul>
         </div>
+        <MoreGuides className="mt-10" />
         <MktPromo className="lg:hidden mt-10" />
       </article>
         <BlogSidebar ctaHref="/tienda/tratamiento-agua" ctaText="Ver productos de tratamiento del agua" />

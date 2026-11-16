@@ -6,6 +6,7 @@ import AdSenseAd from "@/components/AdSenseAd";
 import BlogSidebar from "@/components/BlogSidebar";
 import ArticleTocAuto from "@/components/ArticleTocAuto";
 import MktPromo from "@/components/MktPromo";
+import MoreGuides from "@/components/MoreGuides";
 import GuideProductPick, { availableBySlug } from "@/components/GuideProductPick";
 
 // Guía de temporada (13/10/2026) para Black Friday 2026 (27/11) y Cyber Monday (30/11).
@@ -499,6 +500,7 @@ export default function BlackFridayPiscinaJardinPage() {
                 <li><Link href="/como-abrir-piscina-temporada" className="text-sky-600 hover:underline">→ Cómo abrir la piscina para el verano</Link></li>
               </ul>
             </div>
+        <MoreGuides className="mt-10" />
         <MktPromo className="lg:hidden mt-10" />
           </article>
           <BlogSidebar ctaHref="/tienda/robots-limpiafondos" ctaText="Ver robots limpiafondos" />

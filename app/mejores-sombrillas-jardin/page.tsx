@@ -5,6 +5,7 @@ import AdSenseAd from "@/components/AdSenseAd";
 import BlogSidebar from "@/components/BlogSidebar";
 import ArticleTocAuto from "@/components/ArticleTocAuto";
 import MktPromo from "@/components/MktPromo";
+import MoreGuides from "@/components/MoreGuides";
 
 export const metadata: Metadata = {
   title: "Mejores sombrillas de jardín: guía de compra",
@@ -362,6 +363,7 @@ export default function SombrillasJardinPage() {
             <li><Link href="/pergola-terraza" className="text-sky-600 hover:underline">→ Las mejores pérgolas para terraza y jardín</Link></li>
           </ul>
         </div>
+        <MoreGuides className="mt-10" />
         <MktPromo className="lg:hidden mt-10" />
       </article>
         <BlogSidebar ctaHref="/tienda" ctaText="Ver productos recomendados" />
