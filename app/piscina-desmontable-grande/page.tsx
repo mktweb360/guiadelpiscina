@@ -3,6 +3,8 @@ import Link from "next/link";
 import AffiliateDisclosure from "@/components/AffiliateDisclosure";
 import AdSenseAd from "@/components/AdSenseAd";
 import BlogSidebar from "@/components/BlogSidebar";
+import ArticleTocAuto from "@/components/ArticleTocAuto";
+import MktPromo from "@/components/MktPromo";
 
 export const metadata: Metadata = {
   title: "Piscinas desmontables grandes: guía de compra",
@@ -120,6 +122,7 @@ export default function PiscinaDesmontablePage() {
             Hay desde modelos básicos sin depuradora hasta conjuntos completos con depuradora de arena, escalera y cobertor. Hemos analizado la resistencia de las paredes, la calidad de la estructura, la depuradora incluida y la facilidad de montaje.
           </p>
 
+          <ArticleTocAuto variant="mobile" />
           <h2>Comparativa — Mejores piscinas desmontables grandes</h2>
         </div>
 
@@ -236,6 +239,7 @@ export default function PiscinaDesmontablePage() {
             <li><Link href="/bomba-calor-piscina" className="text-sky-600 hover:underline">→ Bomba de calor para piscina: calentar el agua eficientemente</Link></li>
           </ul>
         </div>
+        <MktPromo className="lg:hidden mt-10" />
       </article>
         <BlogSidebar ctaHref="/tienda" ctaText="Ver productos recomendados" />
       </div>

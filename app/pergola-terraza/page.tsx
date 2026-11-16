@@ -3,6 +3,8 @@ import Link from "next/link";
 import AffiliateDisclosure from "@/components/AffiliateDisclosure";
 import AdSenseAd from "@/components/AdSenseAd";
 import BlogSidebar from "@/components/BlogSidebar";
+import ArticleTocAuto from "@/components/ArticleTocAuto";
+import MktPromo from "@/components/MktPromo";
 
 export const metadata: Metadata = {
   title: "Pérgolas para terraza y jardín: guía de compra",
@@ -109,6 +111,7 @@ export default function PergolaPage() {
             En esta guía comparamos los <strong>mejores modelos de pérgola para terraza y jardín</strong> disponibles en el mercado, desde opciones sencillas de toldo hasta bioclimáticas de lamas de gama alta. Puedes <Link href="/tienda/pergolas" className="text-sky-600 hover:underline font-medium">ver pérgolas bioclimáticas en nuestra tienda</Link> con los mejores modelos seleccionados.
           </p>
 
+          <ArticleTocAuto variant="mobile" />
           <h2>Comparativa — Mejores pérgolas</h2>
         </div>
 
@@ -206,6 +209,7 @@ export default function PergolaPage() {
             <li><Link href="/cesped-artificial-jardin" className="text-sky-600 hover:underline">→ Mejor césped artificial para jardín</Link></li>
           </ul>
         </div>
+        <MktPromo className="lg:hidden mt-10" />
       </article>
         <BlogSidebar ctaHref="/tienda" ctaText="Ver productos recomendados" />
       </div>

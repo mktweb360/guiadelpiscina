@@ -4,6 +4,8 @@ import { amazonLink } from "@/lib/amazon";
 import AffiliateDisclosure from "@/components/AffiliateDisclosure";
 import AdSenseAd from "@/components/AdSenseAd";
 import BlogSidebar from "@/components/BlogSidebar";
+import ArticleTocAuto from "@/components/ArticleTocAuto";
+import MktPromo from "@/components/MktPromo";
 
 export const metadata: Metadata = {
   title: "Mejor césped artificial para jardín: precios",
@@ -107,6 +109,7 @@ export default function CespedArtificialPage() {
             <p className="text-gray-800 font-medium leading-relaxed">El <strong>césped artificial</strong> ha evolucionado enormemente en los últimos años: las fibras actuales son tan realistas que cuesta distinguirlos del natural a simple vista. Sin riego, sin cortes, sin fertilizantes y verde los 365 días del año. En esta guía comparamos los <strong>mejores céspedes artificiales para jardín</strong> disponibles en el mercado, de la gama de entrada a la de alta densidad. Puedes <Link href="/tienda/cesped-artificial" className="text-sky-600 hover:underline font-medium">ver rollos de césped artificial en nuestra tienda</Link> ordenados por densidad y altura del pelo.</p>
           </div>
 
+          <ArticleTocAuto variant="mobile" />
           <h2>Comparativa — Mejores céspedes artificiales</h2>
         </div>
 
@@ -216,6 +219,7 @@ export default function CespedArtificialPage() {
             <li><Link href="/muebles-jardin-terraza" className="text-sky-600 hover:underline">→ Mejores muebles de jardín y terraza</Link></li>
           </ul>
         </div>
+        <MktPromo className="lg:hidden mt-10" />
       </article>
         <BlogSidebar ctaHref="/tienda" ctaText="Ver productos recomendados" />
       </div>

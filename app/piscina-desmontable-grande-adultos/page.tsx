@@ -3,6 +3,8 @@ import Link from "next/link";
 import AffiliateDisclosure from "@/components/AffiliateDisclosure";
 import AdSenseAd from "@/components/AdSenseAd";
 import BlogSidebar from "@/components/BlogSidebar";
+import ArticleTocAuto from "@/components/ArticleTocAuto";
+import MktPromo from "@/components/MktPromo";
 
 export const metadata: Metadata = {
   title: "Piscinas desmontables grandes para adultos",
@@ -162,6 +164,7 @@ export default function PiscinaGrandeAdultosPage() {
         <AffiliateDisclosure />
 
         <div className="prose">
+          <ArticleTocAuto variant="mobile" />
           <h2>¿Qué hace grande a una piscina desmontable para adultos?</h2>
                     <div id="respuesta-directa" className="bg-sky-50 border-l-4 border-sky-500 rounded-r-xl px-5 py-4 mb-6">
             <p className="text-xs font-bold text-sky-700 uppercase tracking-wide mb-1.5">Respuesta directa</p>
@@ -346,6 +349,7 @@ export default function PiscinaGrandeAdultosPage() {
             <li><Link href="/escalera-piscina-desmontable" className="text-sky-600 hover:underline">→ Mejor escalera para piscina desmontable</Link></li>
           </ul>
         </div>
+        <MktPromo className="lg:hidden mt-10" />
       </article>
         <BlogSidebar ctaHref="/tienda" ctaText="Ver productos recomendados" />
       </div>

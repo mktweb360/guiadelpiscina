@@ -4,6 +4,8 @@ import { amazonLink } from "@/lib/amazon";
 import AffiliateDisclosure from "@/components/AffiliateDisclosure";
 import AdSenseAd from "@/components/AdSenseAd";
 import BlogSidebar from "@/components/BlogSidebar";
+import ArticleTocAuto from "@/components/ArticleTocAuto";
+import MktPromo from "@/components/MktPromo";
 
 export const metadata: Metadata = {
   title: "Bomba de calor para piscina: cómo elegir",
@@ -127,6 +129,7 @@ export default function BombaCalorPage() {
             Una buena bomba de calor puede alargar la temporada de baño de junio-septiembre a mayo-octubre o incluso todo el año en climas templados del sur de España. La inversión inicial se recupera en 2-3 temporadas gracias al ahorro en la factura eléctrica.
           </p>
 
+          <ArticleTocAuto variant="mobile" />
           <h2>Comparativa — Mejores bombas de calor para piscina</h2>
         </div>
 
@@ -254,6 +257,7 @@ export default function BombaCalorPage() {
             <li><Link href="/piscina-desmontable-grande" className="text-sky-600 hover:underline">→ Mejores piscinas desmontables grandes</Link></li>
           </ul>
         </div>
+        <MktPromo className="lg:hidden mt-10" />
       </article>
         <BlogSidebar ctaHref="/tienda" ctaText="Ver productos recomendados" />
       </div>

@@ -4,6 +4,8 @@ import { amazonLink } from "@/lib/amazon";
 import AffiliateDisclosure from "@/components/AffiliateDisclosure";
 import AdSenseAd from "@/components/AdSenseAd";
 import BlogSidebar from "@/components/BlogSidebar";
+import ArticleTocAuto from "@/components/ArticleTocAuto";
+import MktPromo from "@/components/MktPromo";
 
 // Artículo generado 17/10/2026 (loop blogs-monetizacion). Sin precios ni valoraciones estáticas de Amazon (cumplimiento julio 2026).
 // Fuentes de los valores: rango de alcalinidad total 80-120 mg/L (ideal) y 60-180 mg/L (aceptable) según el documento
@@ -159,6 +161,7 @@ export default function AlcalinidadPiscinaPage() {
             Es el parámetro que más confunde a quien empieza. Muchos propietarios de piscina desmontable echan «pH menos» una semana y «pH más» la siguiente sin entender por qué el valor no se queda quieto. Lo habitual es que el origen esté en la alcalinidad, que decide si el agua aguanta los cambios o los exagera. Si aún no dominas el pH, empieza por nuestra guía del <Link href="/ph-piscina" className="text-sky-600 hover:underline">pH de la piscina</Link>.
           </p>
 
+          <ArticleTocAuto variant="mobile" />
           <h2>Qué es la alcalinidad y por qué importa</h2>
           <p>
             La alcalinidad total mide las sales alcalinas disueltas en el agua, principalmente bicarbonatos. Su función práctica es amortiguar: cuando añades cloro, entra lluvia o corriges con un producto químico, el agua con una alcalinidad adecuada absorbe parte del cambio y el pH se mueve poco y aguanta estable durante días. Si la alcalinidad es baja, cualquier aporte lo desplaza de golpe, lo que se conoce como «rebote» del pH.
@@ -311,6 +314,7 @@ export default function AlcalinidadPiscinaPage() {
             <li><Link href="/cuanto-cloro-echar-piscina" className="text-sky-600 hover:underline">→ ¿Cuánto cloro echar en la piscina?</Link></li>
           </ul>
         </div>
+        <MktPromo className="lg:hidden mt-10" />
       </article>
         <BlogSidebar ctaHref="/tienda/tratamiento-agua" ctaText="Ver productos de tratamiento del agua" />
       </div>

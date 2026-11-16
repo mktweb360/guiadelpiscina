@@ -3,6 +3,8 @@ import Link from "next/link";
 import AffiliateDisclosure from "@/components/AffiliateDisclosure";
 import AdSenseAd from "@/components/AdSenseAd";
 import BlogSidebar from "@/components/BlogSidebar";
+import ArticleTocAuto from "@/components/ArticleTocAuto";
+import MktPromo from "@/components/MktPromo";
 import GuideProductPick, { availableBySlug } from "@/components/GuideProductPick";
 
 // Artículo 04/11/2026. Sin precios ni valoraciones de Amazon (cumplimiento Amazon Associates).
@@ -151,6 +153,7 @@ export default function AhorrarAguaEnergiaPiscinaPage() {
                 Esta guía va de ahorrar sin renunciar al agua limpia. Para elegir equipo, tienes las guías de <Link href="/mejores-depuradoras-piscina" className="text-sky-600 hover:underline">depuradoras</Link> y de <Link href="/bomba-calor-piscina" className="text-sky-600 hover:underline">bombas de calor</Link>; aquí nos centramos en cómo usar lo que ya tienes y en qué cifras hay detrás de cada consejo. Donde no hay una fuente oficial que dé un porcentaje de ahorro, no lo damos.
               </p>
 
+              <ArticleTocAuto variant="mobile" />
               <h2>Material que ayuda a gastar menos</h2>
             </div>
 
@@ -330,6 +333,7 @@ export default function AhorrarAguaEnergiaPiscinaPage() {
                 <li><Link href="/calcular-litros-piscina" className="text-sky-600 hover:underline">→ Cómo calcular los litros de una piscina</Link></li>
               </ul>
             </div>
+        <MktPromo className="lg:hidden mt-10" />
           </article>
           <BlogSidebar ctaHref="/tienda/piscinas-desmontables" ctaText="Ver piscinas desmontables" />
         </div>

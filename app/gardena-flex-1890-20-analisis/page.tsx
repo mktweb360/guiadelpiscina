@@ -4,6 +4,8 @@ import { amazonLink } from "@/lib/amazon";
 import AffiliateDisclosure from "@/components/AffiliateDisclosure";
 import AdSenseAd from "@/components/AdSenseAd";
 import BlogSidebar from "@/components/BlogSidebar";
+import ArticleTocAuto from "@/components/ArticleTocAuto";
+import MktPromo from "@/components/MktPromo";
 
 export const metadata: Metadata = {
   title: "GARDENA Flex 1890-20: análisis y opinión",
@@ -163,6 +165,7 @@ export default function GardenaFlexAnalisisPage() {
             </p>
           </div>
 
+          <ArticleTocAuto variant="mobile" />
           <h2>Por qué destaca este producto</h2>
           <p>
             Dentro de la categoría de riego automático de este catálogo conviven tres filosofías distintas: el temporizador puramente mecánico (barato y sin programación por días), el programador electrónico de grifo como este Flex 1890-20 (el término medio ideal para la mayoría), y el sistema smart con Gateway y app (máximo control, máximo precio). El Flex 1890-20 es la opción que mejor encaja con quien busca automatizar el riego sin complicarse con conectividad.
@@ -278,6 +281,7 @@ export default function GardenaFlexAnalisisPage() {
             <li><Link href="/mejor-manguera-riego-jardin" className="text-sky-600 hover:underline">→ Mejor manguera de riego para jardín</Link></li>
           </ul>
         </div>
+        <MktPromo className="lg:hidden mt-10" />
       </article>
         <BlogSidebar ctaHref="/tienda/riego-automatico" ctaText="Ver productos de riego" />
       </div>

@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import AdSenseAd from "@/components/AdSenseAd";
 import BlogSidebar from "@/components/BlogSidebar";
+import ArticleTocAuto from "@/components/ArticleTocAuto";
+import MktPromo from "@/components/MktPromo";
 
 export const metadata: Metadata = {
   title: "Cuánto cloro echar en la piscina según litros",
@@ -156,6 +158,7 @@ export default function CuantoCloroPage() {
         <AdSenseAd placement="contenido" />
 
         <div className="prose">
+          <ArticleTocAuto variant="mobile" />
           <h2>Cómo calcular el volumen de tu piscina</h2>
           <p>Antes de saber cuánto cloro echar, necesitas conocer el volumen en litros. Usa estas fórmulas (con ejemplos resueltos y los errores más habituales en <a href="/calcular-litros-piscina" className="text-sky-600 hover:underline">cómo calcular los litros de una piscina</a>):</p>
           <ul>
@@ -284,6 +287,7 @@ export default function CuantoCloroPage() {
             <li><Link href="/mantenimiento-piscina-desmontable" className="text-sky-600 hover:underline">→ Guía de mantenimiento de piscinas desmontables</Link></li>
           </ul>
         </div>
+        <MktPromo className="lg:hidden mt-10" />
       </article>
         <BlogSidebar ctaHref="/tienda" ctaText="Ver productos recomendados" />
       </div>

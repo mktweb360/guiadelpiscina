@@ -4,6 +4,8 @@ import { amazonLink } from "@/lib/amazon";
 import AffiliateDisclosure from "@/components/AffiliateDisclosure";
 import AdSenseAd from "@/components/AdSenseAd";
 import BlogSidebar from "@/components/BlogSidebar";
+import ArticleTocAuto from "@/components/ArticleTocAuto";
+import MktPromo from "@/components/MktPromo";
 
 export const metadata: Metadata = {
   title: "AIPER Scuba SE: análisis y opinión",
@@ -165,6 +167,7 @@ export default function AiperScubaSeAnalisisPage() {
             </p>
           </div>
 
+          <ArticleTocAuto variant="mobile" />
           <h2>Por qué destaca este producto</h2>
           <p>
             El catálogo de robots limpiafondos de esta web incluye cuatro opciones con enfoques distintos: el Scuba SE (entrada de gama), el Pooleco 10 (misma gama, marca menos consolidada), el AIPER Scuba S1 (gama alta de la misma marca, mucha más autonomía) y el WYBOT C2 Vision Plus (tecnología de cámara con IA, gama alta). El Scuba SE es la recomendación por defecto para quien busca automatizar la limpieza del fondo sin irse a la gama alta, con el respaldo de una marca con recorrido.
@@ -284,6 +287,7 @@ export default function AiperScubaSeAnalisisPage() {
             <li><Link href="/mantenimiento-piscina-desmontable" className="text-sky-600 hover:underline">→ Cómo mantener una piscina desmontable</Link></li>
           </ul>
         </div>
+        <MktPromo className="lg:hidden mt-10" />
       </article>
         <BlogSidebar ctaHref="/tienda/robots-limpiafondos" ctaText="Ver robots limpiafondos" />
       </div>

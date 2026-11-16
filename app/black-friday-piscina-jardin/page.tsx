@@ -4,6 +4,8 @@ import Link from "next/link";
 import AffiliateDisclosure from "@/components/AffiliateDisclosure";
 import AdSenseAd from "@/components/AdSenseAd";
 import BlogSidebar from "@/components/BlogSidebar";
+import ArticleTocAuto from "@/components/ArticleTocAuto";
+import MktPromo from "@/components/MktPromo";
 import GuideProductPick, { availableBySlug } from "@/components/GuideProductPick";
 
 // Guía de temporada (13/10/2026) para Black Friday 2026 (27/11) y Cyber Monday (30/11).
@@ -394,6 +396,7 @@ export default function BlackFridayPiscinaJardinPage() {
                 Esta guía no anuncia descuentos: no sabemos qué rebajará cada vendedor, y los precios cambian cada día. Lo que sí podemos decirte es qué modelos de nuestra selección encajan con cada caso, qué medir antes de comprar y qué errores vemos cada año. Si llegas al día 27 con la lista hecha, solo tendrás que comprobar el precio.
               </p>
 
+              <ArticleTocAuto variant="mobile" />
               <h2>Índice</h2>
               <ul>
                 {bloques.map((b) => (
@@ -496,6 +499,7 @@ export default function BlackFridayPiscinaJardinPage() {
                 <li><Link href="/como-abrir-piscina-temporada" className="text-sky-600 hover:underline">→ Cómo abrir la piscina para el verano</Link></li>
               </ul>
             </div>
+        <MktPromo className="lg:hidden mt-10" />
           </article>
           <BlogSidebar ctaHref="/tienda/robots-limpiafondos" ctaText="Ver robots limpiafondos" />
         </div>

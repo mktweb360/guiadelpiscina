@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import AdSenseAd from "@/components/AdSenseAd";
 import BlogSidebar from "@/components/BlogSidebar";
+import ArticleTocAuto from "@/components/ArticleTocAuto";
+import MktPromo from "@/components/MktPromo";
 
 export const metadata: Metadata = {
   title: "Cómo abrir la piscina en verano: paso a paso",
@@ -138,6 +140,7 @@ export default function ComoAbrirPiscinaPage() {
             <p className="text-gray-800 font-medium leading-relaxed">Abrir correctamente la piscina marca la diferencia entre disfrutarla <strong>la primera semana</strong> o pasar 15 días arreglando problemas. Un agua verde, un filtro obstruido o una bomba con fugas son consecuencias directas de saltarse pasos. El proceso completo dura entre <strong>3 y 5 días</strong> y no requiere conocimientos técnicos, solo seguir el orden correcto.</p>
           </div>
 
+          <ArticleTocAuto variant="mobile" />
           <h2>Cuándo abrir la piscina</h2>
           <p>
             La señal más fiable es que la temperatura ambiente sea <strong>estable por encima de 15 °C</strong> durante el día (habitualmente abril-mayo en España, antes en el sur). Abrir antes no tiene sentido: el agua estará fría y no la usarás. Abrirla tarde tiene un coste: cuanto más tiempo pase con el agua parada o cubierta sin tratar, más algas y suciedad se habrán acumulado y más trabajo tendrás.
@@ -256,6 +259,7 @@ export default function ComoAbrirPiscinaPage() {
             <li><Link href="/mantenimiento-piscina-desmontable" className="text-sky-600 hover:underline">→ Guía de mantenimiento de piscinas desmontables</Link></li>
           </ul>
         </div>
+        <MktPromo className="lg:hidden mt-10" />
       </article>
         <BlogSidebar ctaHref="/tienda" ctaText="Ver productos recomendados" />
       </div>

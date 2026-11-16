@@ -3,6 +3,8 @@ import Link from "next/link";
 import AffiliateDisclosure from "@/components/AffiliateDisclosure";
 import AdSenseAd from "@/components/AdSenseAd";
 import BlogSidebar from "@/components/BlogSidebar";
+import ArticleTocAuto from "@/components/ArticleTocAuto";
+import MktPromo from "@/components/MktPromo";
 import GuideProductPick, { availableBySlug } from "@/components/GuideProductPick";
 
 // Artículo 04/11/2026. Sin precios ni valoraciones de Amazon (cumplimiento Amazon Associates).
@@ -155,6 +157,7 @@ export default function MantaTermicaPiscinaPage() {
                 <Link href="/ahorrar-agua-energia-piscina" className="text-sky-600 hover:underline">cómo ahorrar agua y energía en la piscina</Link>.
               </p>
 
+              <ArticleTocAuto variant="mobile" />
               <h2>Nuestras recomendaciones rápidas</h2>
             </div>
 
@@ -283,6 +286,7 @@ export default function MantaTermicaPiscinaPage() {
                 <li><Link href="/como-cerrar-piscina-invierno" className="text-sky-600 hover:underline">→ Cómo cerrar la piscina en invierno</Link></li>
               </ul>
             </div>
+        <MktPromo className="lg:hidden mt-10" />
           </article>
           <BlogSidebar ctaHref="/tienda/piscinas-desmontables" ctaText="Ver piscinas desmontables" />
         </div>

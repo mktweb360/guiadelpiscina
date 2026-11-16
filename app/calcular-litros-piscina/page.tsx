@@ -3,6 +3,8 @@ import Link from "next/link";
 import AffiliateDisclosure from "@/components/AffiliateDisclosure";
 import AdSenseAd from "@/components/AdSenseAd";
 import BlogSidebar from "@/components/BlogSidebar";
+import ArticleTocAuto from "@/components/ArticleTocAuto";
+import MktPromo from "@/components/MktPromo";
 
 // Artículo 04/11/2026. Sin precios ni valoraciones de Amazon (cumplimiento Amazon Associates).
 // Fórmulas: geometría estándar (sin fuente normativa). Capacidades declaradas: fichas de Intex y Bestway en Amazon.es (data/products.ts), consultadas el 04/11/2026. Sin dosis de producto: se remite a la etiqueta.
@@ -135,6 +137,7 @@ export default function CalcularLitrosPiscinaPage() {
 
 <div className="prose">
 
+              <ArticleTocAuto variant="mobile" />
               <h2>Qué hay que medir y con qué</h2>
               <p>
                 Un metro o una cinta de obra, y mide en metros con dos decimales (1,07 m, no «un metro y pico»). Lo que importa es el agua, no la estructura:
@@ -274,6 +277,7 @@ export default function CalcularLitrosPiscinaPage() {
                 <li><Link href="/mejores-depuradoras-piscina" className="text-sky-600 hover:underline">→ Mejores depuradoras de piscina</Link></li>
               </ul>
             </div>
+        <MktPromo className="lg:hidden mt-10" />
           </article>
           <BlogSidebar ctaHref="/tienda/piscinas-desmontables" ctaText="Ver piscinas desmontables" />
         </div>

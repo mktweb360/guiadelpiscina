@@ -3,6 +3,8 @@ import Link from "next/link";
 import AffiliateDisclosure from "@/components/AffiliateDisclosure";
 import AdSenseAd from "@/components/AdSenseAd";
 import BlogSidebar from "@/components/BlogSidebar";
+import ArticleTocAuto from "@/components/ArticleTocAuto";
+import MktPromo from "@/components/MktPromo";
 import GuideProductPick, { availableBySlug } from "@/components/GuideProductPick";
 
 // Artículo 04/11/2026. Sin precios ni valoraciones de Amazon (cumplimiento Amazon Associates).
@@ -143,6 +145,7 @@ export default function SeguridadInfantilPiscinaPage() {
                 Esta guía es para familias con piscina propia, de obra o desmontable, y con niños en casa o de visita. La parte normativa tiene un matiz importante: la piscina unifamiliar queda fuera de la mayoría de las exigencias técnicas, así que la protección depende de lo que decidas hacer tú. Sobre la altura de la pared, la escalera y la edad que indica el fabricante, la guía de <Link href="/piscina-desmontable-redonda" className="text-sky-600 hover:underline">piscinas redondas</Link> tiene un apartado propio.
               </p>
 
+              <ArticleTocAuto variant="mobile" />
               <h2>Un complemento, no una protección</h2>
             </div>
 
@@ -314,6 +317,7 @@ export default function SeguridadInfantilPiscinaPage() {
                 <li><Link href="/manta-termica-piscina" className="text-sky-600 hover:underline">→ Manta térmica para piscina</Link></li>
               </ul>
             </div>
+        <MktPromo className="lg:hidden mt-10" />
           </article>
           <BlogSidebar ctaHref="/tienda/piscinas-desmontables" ctaText="Ver piscinas desmontables" />
         </div>

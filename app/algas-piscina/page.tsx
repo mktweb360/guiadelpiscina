@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import AdSenseAd from "@/components/AdSenseAd";
 import BlogSidebar from "@/components/BlogSidebar";
+import ArticleTocAuto from "@/components/ArticleTocAuto";
+import MktPromo from "@/components/MktPromo";
 
 export const metadata: Metadata = {
   title: "Algas en la piscina: eliminarlas y prevenirlas",
@@ -147,6 +149,7 @@ export default function AlgasPiscinaPage() {
             <p className="text-gray-800 font-medium leading-relaxed">Las algas proliferan cuando el cloro cae por debajo de <strong>1 ppm</strong>, el <Link href="/ph-piscina" className="text-sky-600 hover:underline">pH</Link> sube por encima de 7,8 o la circulación del agua es insuficiente. Son distintas de la turbidez por partículas: mientras que el agua turbia sin algas puede ser blanca o grisácea, las algas tiñen el agua de <strong>verde intenso</strong> o dejan <strong>manchas visibles</strong> en paredes y fondo. Identificar el tipo correcto es el primer paso para tratarlas eficazmente.</p>
           </div>
 
+          <ArticleTocAuto variant="mobile" />
           <h2>Tipos de algas en piscinas</h2>
         </div>
 
@@ -247,6 +250,7 @@ export default function AlgasPiscinaPage() {
             <li><Link href="/floculante-piscina" className="text-sky-600 hover:underline">→ Floculante para piscina: cuándo usarlo y cómo aplicarlo</Link></li>
           </ul>
         </div>
+        <MktPromo className="lg:hidden mt-10" />
       </article>
         <BlogSidebar ctaHref="/tienda" ctaText="Ver productos recomendados" />
       </div>

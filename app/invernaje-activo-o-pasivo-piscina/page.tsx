@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import AdSenseAd from "@/components/AdSenseAd";
 import BlogSidebar from "@/components/BlogSidebar";
+import ArticleTocAuto from "@/components/ArticleTocAuto";
+import MktPromo from "@/components/MktPromo";
 
 export const metadata: Metadata = {
   title: "Invernaje activo o pasivo de la piscina",
@@ -146,6 +148,7 @@ export default function InvernajeActivoPasivoPage() {
             </p>
           </div>
 
+          <ArticleTocAuto variant="mobile" />
           <h2>Qué es el invernaje activo y el invernaje pasivo</h2>
           <p>
             El <strong>invernaje pasivo</strong> consiste en detener por completo el sistema de filtración durante los meses fríos: se vacía el agua de tuberías, bomba y depuradora, se baja el nivel del agua por debajo de los skimmers y se cubre la piscina hasta la primavera. Es el método tradicional y el más habitual en piscinas desmontables, sobre todo en zonas con heladas.
@@ -254,6 +257,7 @@ export default function InvernajeActivoPasivoPage() {
             <li><Link href="/mejor-clorador-salino-piscina" className="text-sky-600 hover:underline">→ Mejor clorador salino para piscina</Link></li>
           </ul>
         </div>
+        <MktPromo className="lg:hidden mt-10" />
       </article>
         <BlogSidebar ctaHref="/tienda/bombas-calor" ctaText="Ver bombas de calor" />
       </div>

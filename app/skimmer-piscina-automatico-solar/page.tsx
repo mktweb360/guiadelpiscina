@@ -3,6 +3,8 @@ import Link from "next/link";
 import AffiliateDisclosure from "@/components/AffiliateDisclosure";
 import AdSenseAd from "@/components/AdSenseAd";
 import BlogSidebar from "@/components/BlogSidebar";
+import ArticleTocAuto from "@/components/ArticleTocAuto";
+import MktPromo from "@/components/MktPromo";
 
 export const metadata: Metadata = {
   title: "Skimmer automático solar para piscina: qué es",
@@ -147,6 +149,7 @@ export default function SkimmerPiscinaAutomaticoSolarPage() {
             </p>
           </div>
 
+          <ArticleTocAuto variant="mobile" />
           <h2>Qué es el skimmer y por qué no basta por sí solo</h2>
           <p>
             El skimmer fijo es esa boca rectangular integrada en la pared de la piscina (o el cesto flotante en los modelos desmontables más sencillos) que succiona el agua de la superficie hacia el filtro cuando la depuradora está en marcha. Es un elemento pasivo: no se mueve ni recorre la piscina, simplemente atrapa lo que la corriente de agua le acerca. Si una hoja cae en el extremo opuesto de la piscina y no hay suficiente corriente para arrastrarla hasta el skimmer, se queda flotando hasta que alguien la retira a mano o acaba hundiéndose y sumándose a la suciedad del fondo.
@@ -248,6 +251,7 @@ export default function SkimmerPiscinaAutomaticoSolarPage() {
             <li><Link href="/invernaje-activo-o-pasivo-piscina" className="text-sky-600 hover:underline">→ Invernaje activo o pasivo en la piscina</Link></li>
           </ul>
         </div>
+        <MktPromo className="lg:hidden mt-10" />
       </article>
         <BlogSidebar ctaHref="/tienda/robots-limpiafondos" ctaText="Ver robots y skimmers" />
       </div>
