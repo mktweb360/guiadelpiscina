@@ -3,6 +3,8 @@ import Link from "next/link";
 import AffiliateDisclosure from "@/components/AffiliateDisclosure";
 import AdSenseAd from "@/components/AdSenseAd";
 import BlogSidebar from "@/components/BlogSidebar";
+import ArticleTocAuto from "@/components/ArticleTocAuto";
+import MktPromo from "@/components/MktPromo";
 import GuideProductPick, { availableBySlug } from "@/components/GuideProductPick";
 
 // Artículo 04/11/2026. Sin precios ni valoraciones de Amazon (cumplimiento Amazon Associates).
@@ -152,6 +154,7 @@ export default function CalendarioMantenimientoPiscinaPage() {
                 <Link href="/como-abrir-piscina-temporada" className="text-sky-600 hover:underline">abrir la piscina</Link>, <Link href="/ph-piscina" className="text-sky-600 hover:underline">ajustar el pH</Link>, <Link href="/alcalinidad-piscina" className="text-sky-600 hover:underline">la alcalinidad</Link> y <Link href="/como-cerrar-piscina-invierno" className="text-sky-600 hover:underline">cerrarla en invierno</Link>. Los meses son orientativos para clima peninsular: en el norte la temporada empieza más tarde y en Canarias casi no se interrumpe.
               </p>
 
+              <ArticleTocAuto variant="mobile" />
               <h2>Material para el calendario</h2>
             </div>
 
@@ -333,6 +336,7 @@ export default function CalendarioMantenimientoPiscinaPage() {
                 <li><Link href="/como-cerrar-piscina-invierno" className="text-sky-600 hover:underline">→ Cómo cerrar la piscina en invierno</Link></li>
               </ul>
             </div>
+        <MktPromo className="lg:hidden mt-10" />
           </article>
           <BlogSidebar ctaHref="/tienda/tratamiento-agua" ctaText="Ver tratamiento del agua" />
         </div>

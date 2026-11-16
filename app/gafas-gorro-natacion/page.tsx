@@ -3,6 +3,8 @@ import Link from "next/link";
 import AffiliateDisclosure from "@/components/AffiliateDisclosure";
 import AdSenseAd from "@/components/AdSenseAd";
 import BlogSidebar from "@/components/BlogSidebar";
+import ArticleTocAuto from "@/components/ArticleTocAuto";
+import MktPromo from "@/components/MktPromo";
 import GuideProductPick, { availableBySlug } from "@/components/GuideProductPick";
 
 // Artículo generado 29/10/2026 (loop blogs-monetizacion). Sin precios ni valoraciones estáticas (cumplimiento Amazon Associates).
@@ -174,6 +176,7 @@ export default function GafasGorroNatacionPage() {
             Tener piscina en casa cambia la forma de nadar: no hay calle ni socorrista, pero tampoco prisa. Muchas personas empiezan con unas gafas baratas, se les empañan o les entra agua, y acaban dejando de nadar. El problema casi siempre es de ajuste, no de precio. Esta guía recoge qué mirar en cada pieza, con los datos de las fichas de nuestra <Link href="/tienda/natacion" className="text-sky-600 hover:underline">categoría de natación</Link>. Si aún te estás planteando qué piscina comprar, empieza por la guía de <Link href="/piscina-desmontable-grande" className="text-sky-600 hover:underline">piscinas desmontables grandes</Link>.
           </p>
 
+          <ArticleTocAuto variant="mobile" />
           <h2>Nuestras recomendaciones rápidas</h2>
         </div>
 
@@ -303,6 +306,7 @@ export default function GafasGorroNatacionPage() {
             <li><Link href="/mejores-tumbonas-jardin" className="text-sky-600 hover:underline">→ Mejores tumbonas para el jardín</Link></li>
           </ul>
         </div>
+        <MktPromo className="lg:hidden mt-10" />
       </article>
         <BlogSidebar ctaHref="/tienda/natacion" ctaText="Ver productos de natación" />
       </div>

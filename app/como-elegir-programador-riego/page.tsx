@@ -4,6 +4,8 @@ import { amazonLink } from "@/lib/amazon";
 import AffiliateDisclosure from "@/components/AffiliateDisclosure";
 import AdSenseAd from "@/components/AdSenseAd";
 import BlogSidebar from "@/components/BlogSidebar";
+import ArticleTocAuto from "@/components/ArticleTocAuto";
+import MktPromo from "@/components/MktPromo";
 
 // Artículo generado 23/09/2026 (loop blogs-monetizacion). Datos de producto verificados en vivo en Amazon.es el 23/09/2026.
 // Por cumplimiento (julio 2026) NO se muestran precios ni valoraciones estáticas de Amazon: solo características verificadas.
@@ -193,6 +195,7 @@ export default function ComoElegirProgramadorRiegoPage() {
             Elegir mal un programador de riego es fácil: muchos compradores pagan por conectividad que nunca usan, y otros compran un temporizador pensando que regará solo durante las vacaciones. En esta guía explicamos qué hace cada tipo, cómo decidir en cuatro preguntas y qué modelos de nuestra selección encajan en cada caso. Si todavía estás definiendo el sistema completo (goteo, aspersores, zonas), empieza por nuestra guía de <Link href="/sistema-riego-automatico" className="text-sky-600 hover:underline">sistemas de riego automático para jardín</Link>.
           </p>
 
+          <ArticleTocAuto variant="mobile" />
           <h2>Los tres tipos de programador de riego, explicados</h2>
 
           <h3>1. Temporizador mecánico: el que se apaga solo</h3>
@@ -338,6 +341,7 @@ export default function ComoElegirProgramadorRiegoPage() {
             <li><Link href="/mejor-manguera-riego-jardin" className="text-sky-600 hover:underline">→ Mejor manguera de riego para jardín</Link></li>
           </ul>
         </div>
+        <MktPromo className="lg:hidden mt-10" />
       </article>
         <BlogSidebar ctaHref="/tienda/riego-automatico" ctaText="Ver productos de riego" />
       </div>

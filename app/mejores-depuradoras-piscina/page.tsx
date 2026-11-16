@@ -5,6 +5,8 @@ import { primaryOffer, offerUrl } from "@/lib/affiliate";
 import AffiliateDisclosure from "@/components/AffiliateDisclosure";
 import AdSenseAd from "@/components/AdSenseAd";
 import BlogSidebar from "@/components/BlogSidebar";
+import ArticleTocAuto from "@/components/ArticleTocAuto";
+import MktPromo from "@/components/MktPromo";
 import GuideProductPick, { availableBySlug } from "@/components/GuideProductPick";
 
 // Reescrita y ampliada el 18/10/2026 (mismo slug). Sin precios ni valoraciones de Amazon (cumplimiento Amazon Associates).
@@ -169,6 +171,7 @@ export default function DepuradorasPage() {
             <Link href="/tienda/depuradoras" className="text-sky-600 hover:underline">depuradoras</Link>.
           </p>
 
+          <ArticleTocAuto variant="mobile" />
           <h2>Nuestras recomendaciones rápidas</h2>
         </div>
 
@@ -419,6 +422,7 @@ export default function DepuradorasPage() {
             <li><Link href="/mejor-clorador-salino-piscina" className="text-sky-600 hover:underline">→ Clorador salino para piscina</Link></li>
           </ul>
         </div>
+        <MktPromo className="lg:hidden mt-10" />
       </article>
         <BlogSidebar ctaHref="/tienda/depuradoras" ctaText="Ver depuradoras" />
       </div>

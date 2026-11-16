@@ -3,6 +3,8 @@ import Link from "next/link";
 import AffiliateDisclosure from "@/components/AffiliateDisclosure";
 import AdSenseAd from "@/components/AdSenseAd";
 import BlogSidebar from "@/components/BlogSidebar";
+import ArticleTocAuto from "@/components/ArticleTocAuto";
+import MktPromo from "@/components/MktPromo";
 
 export const metadata: Metadata = {
   title: "Montar una piscina desmontable: suelo y llenado",
@@ -133,6 +135,7 @@ export default function MontarPiscinaDesmontablePage() {
             <p className="text-gray-800 font-medium leading-relaxed">Lo que más importa al montar una piscina desmontable es el suelo: tiene que ser plano, liso, firme y sin objetos que puedan dañar el liner. Los manuales de Bestway e Intex advierten de que una superficie inclinada, blanda o irregular puede provocar el colapso de la piscina, y Bestway añade que los daños por una superficie incorrecta no cubren la garantía.</p>
           </div>
 
+          <ArticleTocAuto variant="mobile" />
           <h2>Dónde colocar la piscina</h2>
           <p>
             Antes de abrir la caja, decide el sitio con el manual de tu modelo delante. El de Bestway pide que la superficie sea plana y sin agujeros que puedan dañar el revestimiento. Entre las superficies que sugiere están el césped, la tierra y el hormigón. Entre las que desaconseja, el barro, la arena, la grava, la terraza, el balcón, el camino de entrada, la plataforma y cualquier suelo blando o flojo.
@@ -247,6 +250,7 @@ export default function MontarPiscinaDesmontablePage() {
             <li><Link href="/cubierta-piscina-desmontable" className="text-sky-600 hover:underline">→ Cubierta para piscina desmontable</Link></li>
           </ul>
         </div>
+        <MktPromo className="lg:hidden mt-10" />
       </article>
         <BlogSidebar ctaHref="/tienda" ctaText="Ver productos recomendados" />
       </div>

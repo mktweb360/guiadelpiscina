@@ -3,6 +3,8 @@ import Link from "next/link";
 import AffiliateDisclosure from "@/components/AffiliateDisclosure";
 import AdSenseAd from "@/components/AdSenseAd";
 import BlogSidebar from "@/components/BlogSidebar";
+import ArticleTocAuto from "@/components/ArticleTocAuto";
+import MktPromo from "@/components/MktPromo";
 
 export const metadata: Metadata = {
   title: "Robot limpiafondos piscina: mejores modelos",
@@ -114,6 +116,7 @@ export default function RobotLimpiafondosPage() {
             Hay modelos de entrada que solo limpian el fondo y modelos de gama alta que también suben por paredes y línea de agua; cualquiera de ellos se nota en el tiempo y el esfuerzo que ahorras durante toda la temporada.
           </p>
 
+          <ArticleTocAuto variant="mobile" />
           <h2>Comparativa — Mejores robots limpiafondos</h2>
         </div>
 
@@ -232,6 +235,7 @@ export default function RobotLimpiafondosPage() {
             <li><Link href="/bomba-calor-piscina" className="text-sky-600 hover:underline">→ Bomba de calor para piscina: las mejores opciones</Link></li>
           </ul>
         </div>
+        <MktPromo className="lg:hidden mt-10" />
       </article>
         <BlogSidebar ctaHref="/tienda" ctaText="Ver productos recomendados" />
       </div>

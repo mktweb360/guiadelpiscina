@@ -3,6 +3,8 @@ import Link from "next/link";
 import AdSenseAd from "@/components/AdSenseAd";
 import AffiliateDisclosure from "@/components/AffiliateDisclosure";
 import BlogSidebar from "@/components/BlogSidebar";
+import ArticleTocAuto from "@/components/ArticleTocAuto";
+import MktPromo from "@/components/MktPromo";
 
 export const metadata: Metadata = {
   title: "Cómo cerrar la piscina en invierno",
@@ -161,6 +163,7 @@ export default function ComoCerrarPiscinaPage() {
             </p>
           </div>
 
+          <ArticleTocAuto variant="mobile" />
           <h2>Cuándo cerrar la piscina</h2>
           <p>
             No hay una fecha fija: depende de la temperatura, no del calendario. La señal fiable es que el agua baje de forma sostenida de <strong>15-16°C</strong> y ya no te bañes, lo que en la mayor parte de España ocurre entre finales de septiembre y octubre. Cerrarla demasiado pronto, con el agua todavía templada, es un error habitual: las algas y bacterias siguen activas bajo una cubierta cerrada sin luz ni filtrado, y te encontrarás la piscina peor de lo que la dejaste.
@@ -291,6 +294,7 @@ export default function ComoCerrarPiscinaPage() {
             <li><Link href="/mejor-clorador-salino-piscina" className="text-sky-600 hover:underline">→ Mejor clorador salino para piscina</Link></li>
           </ul>
         </div>
+        <MktPromo className="lg:hidden mt-10" />
       </article>
         <BlogSidebar ctaHref="/tienda" ctaText="Ver productos recomendados" />
       </div>

@@ -4,6 +4,8 @@ import { primaryOffer, offerUrl, STORE_NAME } from "@/lib/affiliate";
 import AffiliateDisclosure from "@/components/AffiliateDisclosure";
 import AdSenseAd from "@/components/AdSenseAd";
 import BlogSidebar from "@/components/BlogSidebar";
+import ArticleTocAuto from "@/components/ArticleTocAuto";
+import MktPromo from "@/components/MktPromo";
 import GuideProductPick, { availableBySlug } from "@/components/GuideProductPick";
 
 // Artículo 27/10/2026. Sin precios ni valoraciones de Amazon (cumplimiento Amazon Associates).
@@ -159,6 +161,7 @@ export default function ArenaDepuradoraPiscinaPage() {
             <Link href="/depuradora-piscina-pequena" className="text-sky-600 hover:underline">depuradora para piscina pequeña</Link>.
           </p>
 
+          <ArticleTocAuto variant="mobile" />
           <h2>Nuestras recomendaciones rápidas</h2>
         </div>
 
@@ -355,6 +358,7 @@ export default function ArenaDepuradoraPiscinaPage() {
             <li><Link href="/agua-piscina-verde" className="text-sky-600 hover:underline">→ Agua de la piscina verde: qué hacer</Link></li>
           </ul>
         </div>
+        <MktPromo className="lg:hidden mt-10" />
       </article>
         <BlogSidebar ctaHref="/tienda/depuradoras" ctaText="Ver depuradoras y recambios" />
       </div>

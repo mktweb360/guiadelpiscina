@@ -3,6 +3,8 @@ import Link from "next/link";
 import AffiliateDisclosure from "@/components/AffiliateDisclosure";
 import AdSenseAd from "@/components/AdSenseAd";
 import BlogSidebar from "@/components/BlogSidebar";
+import ArticleTocAuto from "@/components/ArticleTocAuto";
+import MktPromo from "@/components/MktPromo";
 
 export const metadata: Metadata = {
   title: "Sistema de riego automático para jardín",
@@ -109,6 +111,7 @@ export default function SistemaRiegoPage() {
             En esta guía comparamos los <strong>mejores sistemas de riego automático para jardín</strong> disponibles en el mercado, desde kits básicos de goteo hasta controladores inteligentes con app. Puedes <Link href="/tienda/riego-automatico" className="text-sky-600 hover:underline font-medium">comparar sistemas de riego inteligente en nuestra tienda</Link>.
           </p>
 
+          <ArticleTocAuto variant="mobile" />
           <h2>Comparativa — Mejores sistemas de riego</h2>
         </div>
 
@@ -206,6 +209,7 @@ export default function SistemaRiegoPage() {
             <li><Link href="/muebles-jardin-terraza" className="text-sky-600 hover:underline">→ Mejores muebles de jardín y terraza</Link></li>
           </ul>
         </div>
+        <MktPromo className="lg:hidden mt-10" />
       </article>
         <BlogSidebar ctaHref="/tienda" ctaText="Ver productos recomendados" />
       </div>

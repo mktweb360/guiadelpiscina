@@ -4,6 +4,8 @@ import { amazonLink } from "@/lib/amazon";
 import AffiliateDisclosure from "@/components/AffiliateDisclosure";
 import AdSenseAd from "@/components/AdSenseAd";
 import BlogSidebar from "@/components/BlogSidebar";
+import ArticleTocAuto from "@/components/ArticleTocAuto";
+import MktPromo from "@/components/MktPromo";
 
 // Artículo generado 07/10/2026 (loop blogs-monetizacion). Sin precios ni valoraciones estáticas de Amazon (cumplimiento julio 2026).
 // Fuentes de los valores: RD 742/2013 (piscinas de uso público; resumen de parámetros en la guía de control de calidad del Gobierno de Aragón)
@@ -173,6 +175,7 @@ export default function AcidoCianuricoPiscinaPage() {
             Es uno de los parámetros que más se pasa por alto en el mantenimiento de una piscina: se mide poco, no aparece en las tiras reactivas más comunes y, sin embargo, se acumula en silencio cada vez que echas pastillas de cloro. Esta guía explica para qué sirve, qué valor te conviene, de dónde viene el exceso y cómo corregirlo. Si aún no tienes controlado el resto de parámetros, empieza por nuestra guía del <Link href="/ph-piscina" className="text-sky-600 hover:underline">pH de la piscina</Link>.
           </p>
 
+          <ArticleTocAuto variant="mobile" />
           <h2>Para qué sirve el ácido cianúrico</h2>
           <p>
             El cloro libre de la piscina se degrada con la radiación ultravioleta. El ácido cianúrico forma un enlace débil con el cloro libre y lo protege de esa radiación, de modo que se reduce la pérdida de cloro bajo el sol. Por eso tiene sentido en piscinas exteriores, y mucho menos en piscinas cubiertas o con sombra casi todo el día, donde el sol apenas destruye cloro.
@@ -325,6 +328,7 @@ export default function AcidoCianuricoPiscinaPage() {
             <li><Link href="/algas-piscina" className="text-sky-600 hover:underline">→ Algas en la piscina: cómo eliminarlas</Link></li>
           </ul>
         </div>
+        <MktPromo className="lg:hidden mt-10" />
       </article>
         <BlogSidebar ctaHref="/tienda/tratamiento-agua" ctaText="Ver productos de tratamiento del agua" />
       </div>

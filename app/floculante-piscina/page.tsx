@@ -4,6 +4,8 @@ import { amazonLink } from "@/lib/amazon";
 import AffiliateDisclosure from "@/components/AffiliateDisclosure";
 import AdSenseAd from "@/components/AdSenseAd";
 import BlogSidebar from "@/components/BlogSidebar";
+import ArticleTocAuto from "@/components/ArticleTocAuto";
+import MktPromo from "@/components/MktPromo";
 import GuideProductPick, { availableBySlug } from "@/components/GuideProductPick";
 
 // Reescrita 19/10/2026 (ronda 3, palabra clave «floculante piscina»). Sin precios ni valoraciones de Amazon (cumplimiento Amazon Associates).
@@ -162,6 +164,7 @@ export default function FloculantePiscinaPage() {
             <Link href="/tienda/tratamiento-agua" className="text-sky-600 hover:underline">tratamiento del agua</Link>.
           </p>
 
+          <ArticleTocAuto variant="mobile" />
           <h2>Nuestras recomendaciones rápidas</h2>
         </div>
 
@@ -350,6 +353,7 @@ export default function FloculantePiscinaPage() {
             <li><Link href="/algas-piscina" className="text-sky-600 hover:underline">→ Algas en la piscina: cómo eliminarlas y evitar que vuelvan</Link></li>
           </ul>
         </div>
+        <MktPromo className="lg:hidden mt-10" />
       </article>
         <BlogSidebar ctaHref="/tienda/tratamiento-agua" ctaText="Ver productos de tratamiento del agua" />
       </div>
