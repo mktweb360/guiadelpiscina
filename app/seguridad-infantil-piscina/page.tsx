@@ -13,7 +13,7 @@ import GuideProductPick, { availableBySlug } from "@/components/GuideProductPick
 // Los productos salen de data/products.ts por slug y se ocultan solos si se marcan `unavailable`.
 
 const TITLE = "Seguridad infantil en la piscina: vallado, cubiertas y vigilancia, qué recomiendan los pediatras";
-const SEO_TITLE = "Seguridad infantil en la piscina: guía familiar";
+const SEO_TITLE = "Seguridad en la piscina para niños: guía familiar";
 const H1 = "Seguridad infantil en la piscina: vallado, cubierta, vigilancia y qué dice la normativa";
 const URL = "https://www.guiadelpiscina.com/seguridad-infantil-piscina";
 const DESCRIPTION =

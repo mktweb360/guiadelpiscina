@@ -13,7 +13,7 @@ import GuideProductPick, { availableBySlug } from "@/components/GuideProductPick
 // Los productos salen de data/products.ts por slug y se ocultan solos si se marcan `unavailable`.
 
 const TITLE = "Manta térmica o cubierta solar para la piscina: cómo elegirla y colocarla";
-const SEO_TITLE = "Manta térmica para piscina: cómo elegirla";
+const SEO_TITLE = "Mejor manta térmica para piscinas: cómo elegirla";
 const H1 = "Manta térmica o cubierta solar para la piscina: espesor, medida y cuál elegir";
 const URL = "https://www.guiadelpiscina.com/manta-termica-piscina";
 const DESCRIPTION =
