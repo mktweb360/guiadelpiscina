@@ -5,6 +5,7 @@ import AdSenseAd from "@/components/AdSenseAd";
 import BlogSidebar from "@/components/BlogSidebar";
 import ArticleTocAuto from "@/components/ArticleTocAuto";
 import MktPromo from "@/components/MktPromo";
+import MoreGuides from "@/components/MoreGuides";
 import GuideProductPick, { availableBySlug } from "@/components/GuideProductPick";
 
 // Artículo generado 29/10/2026 (loop blogs-monetizacion). Sin precios ni valoraciones estáticas (cumplimiento Amazon Associates).
@@ -306,6 +307,7 @@ export default function GafasGorroNatacionPage() {
             <li><Link href="/mejores-tumbonas-jardin" className="text-sky-600 hover:underline">→ Mejores tumbonas para el jardín</Link></li>
           </ul>
         </div>
+        <MoreGuides className="mt-10" />
         <MktPromo className="lg:hidden mt-10" />
       </article>
         <BlogSidebar ctaHref="/tienda/natacion" ctaText="Ver productos de natación" />

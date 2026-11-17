@@ -6,6 +6,7 @@ import AdSenseAd from "@/components/AdSenseAd";
 import BlogSidebar from "@/components/BlogSidebar";
 import ArticleTocAuto from "@/components/ArticleTocAuto";
 import MktPromo from "@/components/MktPromo";
+import MoreGuides from "@/components/MoreGuides";
 import GuideProductPick, { availableBySlug } from "@/components/GuideProductPick";
 
 // Guía de temporada (13/10/2026) para Navidad (25/12/2026) y Reyes (06/01/2027).
@@ -399,6 +400,7 @@ export default function RegalosNavidadPiscinaJardinPage() {
                 <li><Link href="/mejor-manguera-riego-jardin" className="text-sky-600 hover:underline">→ Mejor manguera de riego para el jardín</Link></li>
               </ul>
             </div>
+        <MoreGuides className="mt-10" />
         <MktPromo className="lg:hidden mt-10" />
           </article>
           <BlogSidebar ctaHref="/tienda/muebles-jardin" ctaText="Ver muebles de jardín" />

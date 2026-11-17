@@ -5,6 +5,7 @@ import AdSenseAd from "@/components/AdSenseAd";
 import BlogSidebar from "@/components/BlogSidebar";
 import ArticleTocAuto from "@/components/ArticleTocAuto";
 import MktPromo from "@/components/MktPromo";
+import MoreGuides from "@/components/MoreGuides";
 
 // Artículo 04/11/2026. Sin precios ni valoraciones de Amazon (cumplimiento Amazon Associates).
 // Fórmulas: geometría estándar (sin fuente normativa). Capacidades declaradas: fichas de Intex y Bestway en Amazon.es (data/products.ts), consultadas el 04/11/2026. Sin dosis de producto: se remite a la etiqueta.
@@ -277,6 +278,7 @@ export default function CalcularLitrosPiscinaPage() {
                 <li><Link href="/mejores-depuradoras-piscina" className="text-sky-600 hover:underline">→ Mejores depuradoras de piscina</Link></li>
               </ul>
             </div>
+        <MoreGuides className="mt-10" />
         <MktPromo className="lg:hidden mt-10" />
           </article>
           <BlogSidebar ctaHref="/tienda/piscinas-desmontables" ctaText="Ver piscinas desmontables" />

@@ -6,6 +6,7 @@ import AdSenseAd from "@/components/AdSenseAd";
 import BlogSidebar from "@/components/BlogSidebar";
 import ArticleTocAuto from "@/components/ArticleTocAuto";
 import MktPromo from "@/components/MktPromo";
+import MoreGuides from "@/components/MoreGuides";
 import GuideProductPick, { availableBySlug } from "@/components/GuideProductPick";
 
 // Artículo 27/10/2026. Sin precios ni valoraciones de Amazon (cumplimiento Amazon Associates).
@@ -358,6 +359,7 @@ export default function ArenaDepuradoraPiscinaPage() {
             <li><Link href="/agua-piscina-verde" className="text-sky-600 hover:underline">→ Agua de la piscina verde: qué hacer</Link></li>
           </ul>
         </div>
+        <MoreGuides className="mt-10" />
         <MktPromo className="lg:hidden mt-10" />
       </article>
         <BlogSidebar ctaHref="/tienda/depuradoras" ctaText="Ver depuradoras y recambios" />

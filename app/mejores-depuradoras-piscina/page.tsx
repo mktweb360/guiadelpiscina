@@ -7,6 +7,7 @@ import AdSenseAd from "@/components/AdSenseAd";
 import BlogSidebar from "@/components/BlogSidebar";
 import ArticleTocAuto from "@/components/ArticleTocAuto";
 import MktPromo from "@/components/MktPromo";
+import MoreGuides from "@/components/MoreGuides";
 import GuideProductPick, { availableBySlug } from "@/components/GuideProductPick";
 
 // Reescrita y ampliada el 18/10/2026 (mismo slug). Sin precios ni valoraciones de Amazon (cumplimiento Amazon Associates).
@@ -422,6 +423,7 @@ export default function DepuradorasPage() {
             <li><Link href="/mejor-clorador-salino-piscina" className="text-sky-600 hover:underline">→ Clorador salino para piscina</Link></li>
           </ul>
         </div>
+        <MoreGuides className="mt-10" />
         <MktPromo className="lg:hidden mt-10" />
       </article>
         <BlogSidebar ctaHref="/tienda/depuradoras" ctaText="Ver depuradoras" />

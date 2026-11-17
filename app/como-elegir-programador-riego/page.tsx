@@ -6,6 +6,7 @@ import AdSenseAd from "@/components/AdSenseAd";
 import BlogSidebar from "@/components/BlogSidebar";
 import ArticleTocAuto from "@/components/ArticleTocAuto";
 import MktPromo from "@/components/MktPromo";
+import MoreGuides from "@/components/MoreGuides";
 
 // Artículo generado 23/09/2026 (loop blogs-monetizacion). Datos de producto verificados en vivo en Amazon.es el 23/09/2026.
 // Por cumplimiento (julio 2026) NO se muestran precios ni valoraciones estáticas de Amazon: solo características verificadas.
@@ -341,6 +342,7 @@ export default function ComoElegirProgramadorRiegoPage() {
             <li><Link href="/mejor-manguera-riego-jardin" className="text-sky-600 hover:underline">→ Mejor manguera de riego para jardín</Link></li>
           </ul>
         </div>
+        <MoreGuides className="mt-10" />
         <MktPromo className="lg:hidden mt-10" />
       </article>
         <BlogSidebar ctaHref="/tienda/riego-automatico" ctaText="Ver productos de riego" />
