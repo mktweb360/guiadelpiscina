@@ -16,7 +16,7 @@ import GuideProductPick, { availableBySlug } from "@/components/GuideProductPick
 
 const TITLE = "Piscina desmontable redonda: medidas, litros y modelos";
 // Title SEO (≤ 70 con la marca), distinto del H1
-const SEO_TITLE = "Piscina desmontable redonda: cómo elegirla";
+const SEO_TITLE = "Piscinas redondas desmontables: cómo elegirlas";
 const H1 = "Piscina desmontable redonda: cómo elegir diámetro, altura y depuradora";
 const URL = "https://www.guiadelpiscina.com/piscina-desmontable-redonda";
 const DESCRIPTION =

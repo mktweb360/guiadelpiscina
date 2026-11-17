@@ -17,10 +17,10 @@ import GuideProductPick, { availableBySlug } from "@/components/GuideProductPick
 
 const URL = "https://www.guiadelpiscina.com/mejores-depuradoras-piscina";
 // Title SEO (≤ 70 con la marca), distinto del H1
-const SEO_TITLE = "Depuradora de piscina: cómo elegirla y modelos";
+const SEO_TITLE = "Mejores sistemas de depuración para piscinas";
 const H1 = "Depuradora de piscina: arena, cartucho o cristal, qué caudal necesitas y modelos recomendados";
 const DESCRIPTION =
-  "Cómo elegir depuradora de piscina: arena, cartucho o cristal, caudal según litros y horas, conexiones de 32 o 38 mm, consumo, contralavado y comparativa.";
+  "Mejores sistemas de depuración para piscinas: arena, cartucho o cristal, caudal según litros y horas, conexiones de 32 o 38 mm, consumo y contralavado.";
 
 export const metadata: Metadata = {
   title: SEO_TITLE,

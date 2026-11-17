@@ -8,9 +8,9 @@ import MktPromo from "@/components/MktPromo";
 import MoreGuides from "@/components/MoreGuides";
 
 export const metadata: Metadata = {
-  title: "Robot limpiafondos piscina: mejores modelos",
+  title: "Mejor robot limpiafondos de piscina: cómo elegirlo",
   description:
-    "Comparativa de los mejores robots limpiafondos para piscina. Analizamos funciones, autonomía y precio para que elijas el robot perfecto para tu piscina.",
+    "Cómo elegir el mejor robot limpiafondos para tu piscina: tipos, autonomía, filtrado, superficie y modelos que merece la pena mirar.",
   keywords: "robot limpiafondos, limpiafondos automatico piscina, robot piscina, limpiafondos electrico",
   alternates: { canonical: "https://www.guiadelpiscina.com/robot-limpiafondos-piscina" },
   openGraph: {
