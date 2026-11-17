@@ -4,6 +4,21 @@ import type { NextConfig } from "next";
 // 17/10/2026: 8 destinos que apuntaban a fichas marcadas `unavailable` (doble salto 301 + redirect de página) reapuntados a producto vivo/categoría.
 // Destino: producto vivo equivalente o, si no lo hay, categoría padre / artículo relacionado. Mantener al retirar URLs en el futuro.
 const productRedirects = [
+  { source: "/tienda/depuradoras/intex-26646-depuradora-arena", destination: "/tienda/depuradoras/intex-28648-depuradora-arena-14", permanent: true },
+  { source: "/tienda/depuradoras/intex-28646gs-depuradora-arena", destination: "/tienda/depuradoras/intex-28648-depuradora-arena-14", permanent: true },
+  { source: "/tienda/depuradoras/bestway-flowclear-depuradora-arena", destination: "/tienda/depuradoras/bestway-58497-depuradora-arena-5678", permanent: true },
+  { source: "/tienda/robots-limpiafondos/aiper-scuba-s1-robot-piscina", destination: "/tienda/robots-limpiafondos/aiper-seagull-se-robot-piscina", permanent: true },
+  { source: "/tienda/robots-limpiafondos/wybot-c2-vision-robot-piscina", destination: "/tienda/robots-limpiafondos/wybot-os600-robot-piscina", permanent: true },
+  { source: "/tienda/bombas-calor/ecopooltech-mini-bomba-calor", destination: "/tienda/bombas-calor/gre-hpm20-bomba-calor", permanent: true },
+  { source: "/tienda/bombas-calor/poolex-nano-action-5-bomba-calor", destination: "/tienda/bombas-calor/poolex-silverline-inverter-70-bomba-calor", permanent: true },
+  { source: "/tienda/piscinas-desmontables/intex-ultra-xtr-549x274-depuradora", destination: "/tienda/piscinas-desmontables", permanent: true },
+  { source: "/tienda/piscinas-desmontables/bestway-steel-pro-max-366x122", destination: "/tienda/piscinas-desmontables/bestway-steel-pro-max-366x100", permanent: true },
+  { source: "/tienda/muebles-jardin/conjunto-ratan-rantry-4-piezas", destination: "/tienda/muebles-jardin", permanent: true },
+  { source: "/tienda/muebles-jardin/outsunny-conjunto-ratan-4-piezas", destination: "/tienda/muebles-jardin", permanent: true },
+  { source: "/tienda/muebles-jardin/aktive-62611-tumbona-aluminio", destination: "/tienda/muebles-jardin", permanent: true },
+  { source: "/tienda/pergolas/sweeek-triomphe-v2-pergola-bioclimatica", destination: "/tienda/pergolas/devoko-pergola-3x3-aluminio-techo-retractil", permanent: true },
+  { source: "/tienda/pergolas/habitat-jardin-windsor-pergola-3x3", destination: "/tienda/pergolas/devoko-pergola-3x3-aluminio-techo-retractil", permanent: true },
+  { source: "/tienda/riego-automatico/gardena-set-sensor-control-6-zonas", destination: "/tienda/riego-automatico/gardena-smart-set-riego-gateway", permanent: true },
   { source: "/tienda/pergolas/outsunny-pergola-bioclimatica-3x4-aluminio", destination: "/tienda/pergolas/cazeboo-pergola-bioclimatica-adosada-3x3", permanent: true },
   { source: "/tienda/pergolas/vidaxl-pergola-jardin-banco-madera", destination: "/tienda/pergolas", permanent: true },
   { source: "/tienda/pergolas/outsunny-pergola-3x3-techo-retractil", destination: "/tienda/pergolas/devoko-pergola-3x3-aluminio-techo-retractil", permanent: true },
