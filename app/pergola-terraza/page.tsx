@@ -208,6 +208,7 @@ export default function PergolaPage() {
           <ul className="space-y-2">
             <li><Link href="/muebles-jardin-terraza" className="text-sky-600 hover:underline">→ Mejores muebles de jardín y terraza</Link></li>
             <li><Link href="/cesped-artificial-jardin" className="text-sky-600 hover:underline">→ Mejor césped artificial para jardín</Link></li>
+            <li><Link href="/mejores-sombrillas-jardin" className="text-sky-600 hover:underline">→ Mejores sombrillas de jardín: guía de compra</Link></li>
           </ul>
         </div>
         <MoreGuides className="mt-10" />

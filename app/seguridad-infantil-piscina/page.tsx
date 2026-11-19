@@ -316,6 +316,7 @@ export default function SeguridadInfantilPiscinaPage() {
                 <li><Link href="/escalera-piscina-desmontable" className="text-sky-600 hover:underline">→ Escalera para piscina desmontable</Link></li>
                 <li><Link href="/cubierta-piscina-desmontable" className="text-sky-600 hover:underline">→ Cubierta para piscina desmontable</Link></li>
                 <li><Link href="/manta-termica-piscina" className="text-sky-600 hover:underline">→ Manta térmica para piscina</Link></li>
+                <li><Link href="/gafas-gorro-natacion" className="text-sky-600 hover:underline">→ Gafas y gorro de natación: cómo elegirlos</Link></li>
               </ul>
             </div>
         <MoreGuides className="mt-10" />

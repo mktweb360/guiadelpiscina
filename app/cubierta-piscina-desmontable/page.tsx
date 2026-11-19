@@ -309,6 +309,7 @@ export default function CubiertaPiscinaPage() {
             <li><Link href="/mantenimiento-piscina-desmontable" className="text-sky-600 hover:underline">→ Cómo mantener una piscina desmontable</Link></li>
             <li><Link href="/bomba-calor-piscina" className="text-sky-600 hover:underline">→ Bomba de calor para piscina: las mejores opciones</Link></li>
             <li><Link href="/piscina-desmontable-grande" className="text-sky-600 hover:underline">→ Mejores piscinas desmontables grandes</Link></li>
+            <li><Link href="/ahorrar-agua-energia-piscina" className="text-sky-600 hover:underline">→ Ahorrar agua y energía en la piscina</Link></li>
           </ul>
         </div>
         <MoreGuides className="mt-10" />

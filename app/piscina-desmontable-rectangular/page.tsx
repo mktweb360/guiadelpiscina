@@ -410,6 +410,7 @@ export default function PiscinaDesmontableRectangularPage() {
             <li><Link href="/piscina-desmontable-grande-adultos" className="text-sky-600 hover:underline">→ Piscinas desmontables grandes para adultos</Link></li>
             <li><Link href="/mejores-depuradoras-piscina" className="text-sky-600 hover:underline">→ Depuradora de piscina: tipos, caudal y comparativa</Link></li>
             <li><Link href="/mantenimiento-piscina-desmontable" className="text-sky-600 hover:underline">→ Cómo mantener una piscina desmontable</Link></li>
+            <li><Link href="/montar-piscina-desmontable-suelo-nivelado-llenado" className="text-sky-600 hover:underline">→ Cómo montar una piscina desmontable: suelo y llenado</Link></li>
           </ul>
         </div>
         <MoreGuides className="mt-10" />

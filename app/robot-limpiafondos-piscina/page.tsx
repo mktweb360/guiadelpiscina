@@ -234,6 +234,7 @@ export default function RobotLimpiafondosPage() {
           <ul className="space-y-2">
             <li><Link href="/mejores-depuradoras-piscina" className="text-sky-600 hover:underline">→ Las 5 mejores depuradoras para piscina</Link></li>
             <li><Link href="/bomba-calor-piscina" className="text-sky-600 hover:underline">→ Bomba de calor para piscina: las mejores opciones</Link></li>
+            <li><Link href="/aiper-scuba-se-analisis" className="text-sky-600 hover:underline">→ AIPER Scuba SE: análisis y opinión</Link></li>
           </ul>
         </div>
         <MoreGuides className="mt-10" />

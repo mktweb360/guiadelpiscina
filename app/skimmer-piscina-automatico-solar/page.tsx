@@ -250,6 +250,7 @@ export default function SkimmerPiscinaAutomaticoSolarPage() {
             <li><Link href="/mantenimiento-piscina-desmontable" className="text-sky-600 hover:underline">→ Mantenimiento de piscina desmontable: guía paso a paso</Link></li>
             <li><Link href="/agua-piscina-verde" className="text-sky-600 hover:underline">→ Agua de la piscina verde: causas y solución</Link></li>
             <li><Link href="/invernaje-activo-o-pasivo-piscina" className="text-sky-600 hover:underline">→ Invernaje activo o pasivo en la piscina</Link></li>
+            <li><Link href="/ahorrar-agua-energia-piscina" className="text-sky-600 hover:underline">→ Ahorrar agua y energía en la piscina</Link></li>
           </ul>
         </div>
         <MoreGuides className="mt-10" />
