@@ -238,6 +238,7 @@ export default function PiscinaDesmontablePage() {
             <li><Link href="/mejores-depuradoras-piscina" className="text-sky-600 hover:underline">→ Las 5 mejores depuradoras para piscina</Link></li>
             <li><Link href="/robot-limpiafondos-piscina" className="text-sky-600 hover:underline">→ Mejores robots limpiafondos para piscina</Link></li>
             <li><Link href="/bomba-calor-piscina" className="text-sky-600 hover:underline">→ Bomba de calor para piscina: calentar el agua eficientemente</Link></li>
+            <li><Link href="/montar-piscina-desmontable-suelo-nivelado-llenado" className="text-sky-600 hover:underline">→ Cómo montar una piscina desmontable: suelo y llenado</Link></li>
           </ul>
         </div>
         <MoreGuides className="mt-10" />

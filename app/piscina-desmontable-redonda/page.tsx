@@ -383,6 +383,7 @@ export default function PiscinaDesmontableRedondaPage() {
             <li><Link href="/piscina-desmontable-grande" className="text-sky-600 hover:underline">→ Mejores piscinas desmontables grandes</Link></li>
             <li><Link href="/depuradora-piscina-pequena" className="text-sky-600 hover:underline">→ Depuradora para piscina pequeña</Link></li>
             <li><Link href="/mantenimiento-piscina-desmontable" className="text-sky-600 hover:underline">→ Cómo mantener una piscina desmontable</Link></li>
+            <li><Link href="/montar-piscina-desmontable-suelo-nivelado-llenado" className="text-sky-600 hover:underline">→ Cómo montar una piscina desmontable: suelo y llenado</Link></li>
           </ul>
         </div>
         <MoreGuides className="mt-10" />

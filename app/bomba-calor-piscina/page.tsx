@@ -256,6 +256,7 @@ export default function BombaCalorPage() {
             <li><Link href="/mejores-depuradoras-piscina" className="text-sky-600 hover:underline">→ Las 5 mejores depuradoras para piscina</Link></li>
             <li><Link href="/robot-limpiafondos-piscina" className="text-sky-600 hover:underline">→ Mejores robots limpiafondos para piscina</Link></li>
             <li><Link href="/piscina-desmontable-grande" className="text-sky-600 hover:underline">→ Mejores piscinas desmontables grandes</Link></li>
+            <li><Link href="/ahorrar-agua-energia-piscina" className="text-sky-600 hover:underline">→ Ahorrar agua y energía en la piscina</Link></li>
           </ul>
         </div>
         <MoreGuides className="mt-10" />
