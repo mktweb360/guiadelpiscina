@@ -1161,7 +1161,7 @@ export const products: Product[] = [
   {
     slug: "intex-escalera-piscina-122-cm-55058",
     // Comprobada en amazon.es el 19/11/2026: botón de compra activo, vendida y enviada por Amazon. Datos solo de la ficha de Amazon.
-    name: "Intex Escalera para Piscina Elevada 122 cm (55058)",
+    name: "Intex Escalera Piscina Elevada 122 cm 55058",
     asin: "B0195A925O",
     category: "Piscinas desmontables",
     categorySlug: "piscinas-desmontables",
@@ -1180,7 +1180,7 @@ export const products: Product[] = [
   {
     slug: "gre-ar109-escalera-acero-galvanizado-98-cm",
     // Comprobada en amazon.es el 19/11/2026: botón de compra activo, vendida y enviada por Amazon. Datos solo de la ficha de Amazon.
-    name: "Gre AR109 Escalera de Acero Galvanizado Antideslizante para Piscinas Elevadas 98 cm",
+    name: "Gre AR109 Escalera Acero Galvanizado 98 cm",
     asin: "B00DVKFBWI",
     category: "Piscinas desmontables",
     categorySlug: "piscinas-desmontables",
@@ -1199,7 +1199,7 @@ export const products: Product[] = [
   {
     slug: "intex-escalera-piscina-132-cm-4-peldanos",
     // Comprobada en amazon.es el 19/11/2026: botón de compra activo, vendida por un tercero (Distria). Datos solo de la ficha de Amazon.
-    name: "Intex Escalera Desmontable para Piscinas de 132 cm, 4 Peldaños por Lado",
+    name: "Intex Escalera Desmontable Piscina 132 cm",
     asin: "B004DCANOY",
     category: "Piscinas desmontables",
     categorySlug: "piscinas-desmontables",
@@ -1218,7 +1218,7 @@ export const products: Product[] = [
   {
     slug: "jardin202-cesped-artificial-ibiza-35mm-4x2",
     // Comprobada en amazon.es el 19/11/2026: botón de compra activo, vendido y enviado por Jardin202 (marca). Datos solo de la ficha de Amazon.
-    name: "Jardin202 Césped Artificial Ibiza 35 mm Rollo 4x2 m",
+    name: "Jardin202 Césped Artificial Ibiza 35 mm 4x2 m",
     asin: "B0DVH1PPYY",
     category: "Césped artificial",
     categorySlug: "cesped-artificial",
