@@ -1,7 +1,8 @@
-// Fichas de producto que se mantienen indexables (11/2026).
-// Criterio: las más citadas por las guías del sitio. El resto de fichas siguen accesibles para el
-// usuario, pero con noindex,follow y fuera del sitemap: Google AdSense evalúa el sitio completo y
-// las fichas plantilla de afiliado restaban valor al conjunto.
+// Fichas de producto indexables (revisado 22/11/2026).
+// Criterio: ficha viva (sin `unavailable`), citada al menos por un artículo del blog y con contenido propio
+// (descripción de 300 caracteres o más, 3 ventajas o más y 2 contras o más). Las 15 primeras son las ya
+// indexables antes de esta revisión. El resto de fichas siguen accesibles con noindex,follow y fuera del
+// sitemap. Si Google AdSense vuelve a señalar contenido de poco valor, se reduce esta lista.
 export const FEATURED_PRODUCT_SLUGS = new Set<string>([
   "intex-55249-depuradora-arena-3500",
   "intex-28166-easy-set-457x107",
@@ -18,6 +19,56 @@ export const FEATURED_PRODUCT_SLUGS = new Set<string>([
   "pack-2-tumbonas-gravedad-cero-bandeja",
   "gre-ar125-depuradora-cartucho-3800",
   "intex-28272np-piscina-small-frame-300x200",
+  "intex-28636-depuradora-cartucho",
+  "aiper-scuba-se-robot-piscina",
+  "gardena-smart-set-riego-gateway",
+  "gardena-flexcontrol-programador-riego",
+  "gardena-select-programador-riego-1891-20",
+  "gardena-temporizador-estandar-riego",
+  "diaquat-spa-alguicida-ultraconcentrado-1l",
+  "diafloc-floculante-liquido-superconcentrado-piscina",
+  "easytest-tiras-reactivas-7-en-1-piscina-150",
+  "diaclor-gr-60-cloro-choque-granulado-5kg",
+  "yaheetech-conjunto-jardin-ratan-cojines",
+  "casaria-conjunto-jardin-poliratan-4-piezas",
+  "outsunny-2-tumbonas-plegables-aluminio",
+  "devoko-pergola-3x3-aluminio-techo-retractil",
+  "cazeboo-pergola-bioclimatica-adosada-3x3",
+  "songmics-cenador-plegable-3x3-paneles",
+  "gre-mini-bomba-calor-30m3",
+  "poolex-silverline-inverter-70-bomba-calor",
+  "intex-28273np-piscina-small-frame-450x220",
+  "gre-inverter-bomba-calor-wifi-30m3",
+  "aqua-control-c4099n-programador-riego-grifo",
+  "johgee-programador-riego-pantalla-lcd",
+  "forever-speed-kit-riego-goteo-315-piezas",
+  "vivere-hamaca-doble-con-soporte",
+  "bestway-steel-pro-max-305x76-depuradora",
+  "aiper-scuba-s1-2026-robot-piscina",
+  "toolport-cenador-3x4-aluminio-paneles",
+  "poolex-nano-3kw-wifi-bomba-calor",
+  "wybot-c2-robot-piscina-180min",
+  "wybot-c1-robot-piscina-155min",
+  "intex-28075-escalera-piscina-91-107cm",
+  "tectake-silla-colgante-jardin-con-soporte",
+  "intex-56007-easy-set-redonda-305x76",
+  "intex-26784np-prism-frame-rectangular-300x175x80",
+  "intex-chevron-prism-frame-premium-400x200x100",
+  "intex-55212-prism-frame-rectangular-488x244x107",
+  "bestway-steel-pro-max-rectangular-488x244x122",
+  "bestway-steel-pro-max-rectangular-640x274x132",
+  "intex-c330-depuradora-cartucho-1250",
+  "bestway-58497-depuradora-arena-5678",
+  "astralpool-floculante-solido-saquitos-8x125g",
+  "gre-floculante-liquido-5l",
+  "bayrol-quickflock-super-floculante-liquido-1l",
+  "bayrol-superklar-clarificante-liquido-05l",
+  "ctx-floculante-cartuchos-8x125g",
+  "intex-prism-frame-piscina-redonda-366x76",
+  "quechua-tumbona-relax-plegable-acolchada",
+  "quechua-ducha-solar-presion-10l",
+  "nabaiji-swimvest-chaleco-flotador-ninos",
+  "decathlon-easybreath-mascara-snorkel-ninos",
 ]);
 
 export const isFeaturedProduct = (slug: string) => FEATURED_PRODUCT_SLUGS.has(slug);
