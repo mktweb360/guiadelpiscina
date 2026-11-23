@@ -4,6 +4,10 @@
 // redirigen con 301 a una página permanente. Si Google AdSense vuelve a señalar contenido de poco valor,
 // se reduce esta lista. Lista generada: al añadir una ficha nueva que cumpla el criterio, hay que sumarla aquí.
 export const FEATURED_PRODUCT_SLUGS = new Set<string>([
+  "tamar-algicida-larga-duracion-abrillantador",
+  "compacto-5-acciones-aquapool-pastillas-cloro-5kg",
+  "intex-28037-cobertor-rectangular-prism-frame-400x200",
+  "vounot-lona-piscina-rectangular-8x4-pe-160",
   "intex-55249-depuradora-arena-3500",
   "intex-28166-easy-set-457x107",
   "intex-55225-depuradora-arena-5700",
