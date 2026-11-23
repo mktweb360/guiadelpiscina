@@ -16,11 +16,11 @@ export const metadata: Metadata = {
 };
 
 const products = [
-  { pos: 1, name: "Gardena Kit Micro-Drip Inicio Parterres 40m² (13015-20)", href: "/tienda/riego-automatico", price: "€34,99", coverage: "75 m²", zones: "1 zona", smart: "No", stars: "4,4/5", best: "Mejor precio" },
-  { pos: 2, name: "Gardena Set Macetas M Automático 10 macetas Programador (13002-20)", href: "/tienda/riego-automatico", price: "€59,99", coverage: "200 m² jardín", zones: "1 zona goteo", smart: "No", stars: "4,5/5", best: "Mejor para huerto" },
-  { pos: 3, name: "Gardena Micro-Drip Set Bancal 35 plantas (13455-20)", href: "/tienda/riego-automatico", price: "€89,99", coverage: "250 m²", zones: "2 zonas", smart: "Bluetooth", stars: "4,4/5", best: "Mejor calidad-precio" },
-  { pos: 4, name: "Gardena Riego en Vacaciones 36 plantas sin grifo (13366-20)", href: "/tienda/riego-automatico", price: "€129,00", coverage: "Múltiple", zones: "4 zonas", smart: "WiFi + App", stars: "4,5/5", best: "Mejor inteligente" },
-  { pos: 5, name: "Gardena Sistema Micro-Drip Goteo Diseño Set completo", href: "/tienda/riego-automatico", price: "€199,00", coverage: "Múltiple", zones: "8 zonas", smart: "WiFi + IA", stars: "4,7/5", best: "Más avanzado" },
+  { pos: 1, name: "Gardena Kit Micro-Drip Inicio Parterres 40m² (13015-20)", href: "/tienda/riego-automatico", coverage: "75 m²", zones: "1 zona", smart: "No", },
+  { pos: 2, name: "Gardena Set Macetas M Automático 10 macetas Programador (13002-20)", href: "/tienda/riego-automatico", coverage: "200 m² jardín", zones: "1 zona goteo", smart: "No", },
+  { pos: 3, name: "Gardena Micro-Drip Set Bancal 35 plantas (13455-20)", href: "/tienda/riego-automatico", coverage: "250 m²", zones: "2 zonas", smart: "Bluetooth", },
+  { pos: 4, name: "Gardena Riego en Vacaciones 36 plantas sin grifo (13366-20)", href: "/tienda/riego-automatico", coverage: "Múltiple", zones: "4 zonas", smart: "WiFi + App", },
+  { pos: 5, name: "Gardena Sistema Micro-Drip Goteo Diseño Set completo", href: "/tienda/riego-automatico", coverage: "Múltiple", zones: "8 zonas", smart: "WiFi + IA", },
 ];
 
 const faqs = [

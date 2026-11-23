@@ -16,11 +16,11 @@ export const metadata: Metadata = {
 };
 
 const products = [
-  { pos: 1, name: "Outsunny Conjunto Muebles Ratán 4 Piezas Sofá 2 Plazas 2 Sillones Mesa", href: "/tienda/muebles-jardin", price: "€129,99", material: "Rattan sintético", pieces: "2 sillones + mesa", weatherproof: "Sí", stars: "4,3/5", best: "Mejor precio" },
-  { pos: 2, name: "Outsunny Conjunto 4 piezas aluminio", href: "/tienda/muebles-jardin", price: "€279,00", material: "Aluminio + Textileno", pieces: "2 sof + mesa + banco", weatherproof: "Sí", stars: "4,4/5", best: "Mejor calidad-precio" },
-  { pos: 3, name: "Tectake Conjunto 8 piezas polyrattan", href: "/tienda/muebles-jardin", price: "€399,00", material: "Polyrattan", pieces: "6 sillas + mesa + 2 pufs", weatherproof: "Sí", stars: "4,5/5", best: "Mejor para 6+ personas" },
-  { pos: 4, name: "Hartman Sophie Studio Conjunto", href: "/tienda/muebles-jardin", price: "€649,00", material: "Aluminio premium", pieces: "4 sillas + mesa grande", weatherproof: "Sí", stars: "4,7/5", best: "Mejor calidad" },
-  { pos: 5, name: "Keter Montreal Conjunto resina", href: "/tienda/muebles-jardin", price: "€199,00", material: "Resina inyectada", pieces: "4 sillas + mesa", weatherproof: "Total", stars: "4,4/5", best: "Más resistente a lluvia" },
+  { pos: 1, name: "Outsunny Conjunto Muebles Ratán 4 Piezas Sofá 2 Plazas 2 Sillones Mesa", href: "/tienda/muebles-jardin", material: "Rattan sintético", pieces: "2 sillones + mesa", weatherproof: "Sí", },
+  { pos: 2, name: "Outsunny Conjunto 4 piezas aluminio", href: "/tienda/muebles-jardin", material: "Aluminio + Textileno", pieces: "2 sof + mesa + banco", weatherproof: "Sí", },
+  { pos: 3, name: "Tectake Conjunto 8 piezas polyrattan", href: "/tienda/muebles-jardin", material: "Polyrattan", pieces: "6 sillas + mesa + 2 pufs", weatherproof: "Sí", },
+  { pos: 4, name: "Hartman Sophie Studio Conjunto", href: "/tienda/muebles-jardin", material: "Aluminio premium", pieces: "4 sillas + mesa grande", weatherproof: "Sí", },
+  { pos: 5, name: "Keter Montreal Conjunto resina", href: "/tienda/muebles-jardin", material: "Resina inyectada", pieces: "4 sillas + mesa", weatherproof: "Total", },
 ];
 
 const faqs = [
