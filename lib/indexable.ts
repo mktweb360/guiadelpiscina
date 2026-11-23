@@ -1,8 +1,8 @@
-// Fichas de producto indexables (revisado 22/11/2026).
-// Criterio: ficha viva (sin `unavailable`), citada al menos por un artículo del blog y con contenido propio
-// (descripción de 300 caracteres o más, 3 ventajas o más y 2 contras o más). Las 15 primeras son las ya
-// indexables antes de esta revisión. El resto de fichas siguen accesibles con noindex,follow y fuera del
-// sitemap. Si Google AdSense vuelve a señalar contenido de poco valor, se reduce esta lista.
+// Fichas de producto indexables (revisado 23/11/2026, decisión de José: sin indexación no hay tráfico).
+// Criterio: ficha viva (sin `unavailable`) y con contenido propio (descripción de 300 caracteres o más,
+// 3 ventajas o más y 2 contras o más). Ya no hace falta que un artículo la cite. Las fichas retiradas
+// redirigen con 301 a una página permanente. Si Google AdSense vuelve a señalar contenido de poco valor,
+// se reduce esta lista. Lista generada: al añadir una ficha nueva que cumpla el criterio, hay que sumarla aquí.
 export const FEATURED_PRODUCT_SLUGS = new Set<string>([
   "intex-55249-depuradora-arena-3500",
   "intex-28166-easy-set-457x107",
@@ -69,6 +69,29 @@ export const FEATURED_PRODUCT_SLUGS = new Set<string>([
   "quechua-ducha-solar-presion-10l",
   "nabaiji-swimvest-chaleco-flotador-ninos",
   "decathlon-easybreath-mascara-snorkel-ninos",
+  "aiper-seagull-se-robot-piscina",
+  "pooleco-10-robot-limpiafondos-90min",
+  "intex-clorador-salino-55250-2-g-h",
+  "espa-leader-clorador-salino-20g",
+  "gre-gss25-clorador-salino-dream-salt",
+  "diaclor-multi-5-acciones-5kg-pastillas-cloro",
+  "nortembiow-ph-minus-liquido-reductor-ph-piscina",
+  "easytest-kit-tiras-ph-cloro-piscina-150",
+  "diamas-ph-gr-elevador-ph-granulado-5kg",
+  "bayrol-alca-plus-granulado-5kg",
+  "gosvor-litevac-g1-robot-piscina",
+  "wybot-os600-robot-piscina",
+  "cesped-artificial-40mm-4-tonos-rollo-2x5",
+  "intex-escalera-piscina-122-cm-55058",
+  "intex-escalera-piscina-132-cm-4-peldanos",
+  "jardin202-cesped-artificial-ibiza-35mm-4x2",
+  "tamar-cloro-5-acciones-tabletas-20g-1kg",
+  "aktive-silla-playa-plegable-baja-posavasos",
+  "decathlon-paruv-sombrilla-160-upf50",
+  "nabaiji-manguitos-ninos-11-30kg",
+  "bestway-tapiz-protector-suelo-335x335",
+  "tamar-cloro-5-acciones-tabletas-200g-5kg",
+  "tamar-invernador-liquido-5-litros",
 ]);
 
 export const isFeaturedProduct = (slug: string) => FEATURED_PRODUCT_SLUGS.has(slug);
