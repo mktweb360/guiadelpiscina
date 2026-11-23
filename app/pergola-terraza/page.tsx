@@ -16,11 +16,11 @@ export const metadata: Metadata = {
 };
 
 const products = [
-  { pos: 1, name: "Outsunny Pérgola 3×4m acero", href: "/tienda/pergolas", price: "€149,99", material: "Acero galvanizado", size: "3×4 m", roof: "Tejado PC", stars: "4,2/5", best: "Mejor precio" },
-  { pos: 2, name: "Pergola Aluminio 4×3m con cortinas", href: "/tienda/pergolas", price: "€299,00", material: "Aluminio", size: "4×3 m", roof: "Cortinas laterales", stars: "4,4/5", best: "Mejor diseño" },
-  { pos: 3, name: "Grasekamp Pérgola de madera 3×4m", href: "/tienda/pergolas", price: "€399,00", material: "Madera de pino tratada", size: "3×4 m", roof: "Abierta (para toldo)", stars: "4,5/5", best: "Mejor aspecto natural" },
-  { pos: 4, name: "Outsunny Bioclimática lamas orientables", href: "/tienda/pergolas", price: "€799,00", material: "Aluminio anodizado", size: "3×4 m", roof: "Lamas orientables", stars: "4,6/5", best: "Mejor bioclimática" },
-  { pos: 5, name: "Palram Pérgola Canopia 3×4m", href: "/tienda/pergolas", price: "€1.199,00", material: "Aluminio + PC UV", size: "4×6 m", roof: "Policarbonato", stars: "4,7/5", best: "Mayor tamaño" },
+  { pos: 1, name: "Outsunny Pérgola 3×4m acero", href: "/tienda/pergolas", material: "Acero galvanizado", size: "3×4 m", roof: "Tejado PC", },
+  { pos: 2, name: "Pergola Aluminio 4×3m con cortinas", href: "/tienda/pergolas", material: "Aluminio", size: "4×3 m", roof: "Cortinas laterales", },
+  { pos: 3, name: "Grasekamp Pérgola de madera 3×4m", href: "/tienda/pergolas", material: "Madera de pino tratada", size: "3×4 m", roof: "Abierta (para toldo)", },
+  { pos: 4, name: "Outsunny Bioclimática lamas orientables", href: "/tienda/pergolas", material: "Aluminio anodizado", size: "3×4 m", roof: "Lamas orientables", },
+  { pos: 5, name: "Palram Pérgola Canopia 3×4m", href: "/tienda/pergolas", material: "Aluminio + PC UV", size: "4×6 m", roof: "Policarbonato", },
 ];
 
 const faqs = [

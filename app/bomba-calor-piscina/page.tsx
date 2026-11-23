@@ -22,11 +22,11 @@ export const metadata: Metadata = {
 };
 
 const products = [
-  { pos: 1, name: "Gre HPM20 — Mini Bomba de Calor hasta 20 m³", asin: "B07L491GK5", price: "€499,00", power: "2,5 kW", type: "On/Off", pool: "Hasta 20 m³", stars: "4,2/5", best: "Piscinas pequeñas" },
-  { pos: 2, name: "Gre HPM30 — Mini Bomba de Calor hasta 30 m³", asin: "B07L489LBM", price: "€599,00", power: "4,2 kW", type: "On/Off (COP 4)", pool: "Hasta 30 m³", stars: "4,3/5", best: "Mejor precio" },
-  { pos: 3, name: "Gre HPGIC30 — Full Inverter hasta 30 m³", asin: "B0CPR89ZNR", price: "€999,00", power: "—", type: "Full Inverter", pool: "Hasta 30 m³", stars: "4,5/5", best: "Mejor conectada (WiFi)" },
-  { pos: 4, name: "Gre HPGI50 — Inverter hasta 50 m³", href: "/tienda/bombas-calor", price: "€1.349,00", power: "—", type: "Inverter", pool: "Hasta 50 m³", stars: "4,5/5", best: "Piscinas medianas" },
-  { pos: 5, name: "Poolex Q-Line 7 Full Inverter 7 kW", href: "/tienda/bombas-calor", price: "€1.249,00", power: "7 kW", type: "Full Inverter", pool: "30-45 m³", stars: "4,6/5", best: "Mejor eficiencia" },
+  { pos: 1, name: "Gre HPM20 — Mini Bomba de Calor hasta 20 m³", asin: "B07L491GK5", power: "2,5 kW", type: "On/Off", pool: "Hasta 20 m³", },
+  { pos: 2, name: "Gre HPM30 — Mini Bomba de Calor hasta 30 m³", asin: "B07L489LBM", power: "4,2 kW", type: "On/Off (COP 4)", pool: "Hasta 30 m³", },
+  { pos: 3, name: "Gre HPGIC30 — Full Inverter hasta 30 m³", asin: "B0CPR89ZNR", power: "—", type: "Full Inverter", pool: "Hasta 30 m³", },
+  { pos: 4, name: "Gre HPGI50 — Inverter hasta 50 m³", href: "/tienda/bombas-calor", power: "—", type: "Inverter", pool: "Hasta 50 m³", },
+  { pos: 5, name: "Poolex Q-Line 7 Full Inverter 7 kW", href: "/tienda/bombas-calor", power: "7 kW", type: "Full Inverter", pool: "30-45 m³", },
 ];
 
 const faqs = [

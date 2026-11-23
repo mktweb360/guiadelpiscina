@@ -21,11 +21,11 @@ export const metadata: Metadata = {
 };
 
 const products = [
-  { pos: 1, name: "Dolphin Nauty — Robot compacto", href: "/tienda/robots-limpiafondos", price: "€249,99", coverage: "Fondo", pool: "Hasta 7,5 m", cycle: "2,5 horas", stars: "4,4/5", best: "Mejor precio" },
-  { pos: 2, name: "Bestway Flowclear AquaGlide (batería litio)", href: "/tienda/robots-limpiafondos", price: "€329,00", coverage: "Fondo + Paredes", pool: "Hasta 12 m", cycle: "2 horas", stars: "4,3/5", best: "Mejor calidad-precio" },
-  { pos: 3, name: "Dolphin Carrera 35 — Robot premium", href: "/tienda/robots-limpiafondos", price: "€449,99", coverage: "Fondo + Paredes + Línea de agua", pool: "Hasta 15 m", cycle: "2,5 horas", stars: "4,6/5", best: "Mejor rendimiento" },
-  { pos: 4, name: "Dolphin Formula 30 — Piscinas enterradas 12m", href: "/tienda/robots-limpiafondos", price: "€529,00", coverage: "Fondo + Paredes + Línea de agua", pool: "Hasta 12 m", cycle: "2 horas", stars: "4,5/5", best: "Piscinas enterradas" },
-  { pos: 5, name: "Dolphin Poolstyle 35 Plus", href: "/tienda/robots-limpiafondos", price: "€599,99", coverage: "Fondo + Paredes completas", pool: "Hasta 12 m", cycle: "2 horas", stars: "4,7/5", best: "Mejor limpieza de paredes" },
+  { pos: 1, name: "Dolphin Nauty — Robot compacto", href: "/tienda/robots-limpiafondos", coverage: "Fondo", pool: "Hasta 7,5 m", cycle: "2,5 horas", },
+  { pos: 2, name: "Bestway Flowclear AquaGlide (batería litio)", href: "/tienda/robots-limpiafondos", coverage: "Fondo + Paredes", pool: "Hasta 12 m", cycle: "2 horas", },
+  { pos: 3, name: "Dolphin Carrera 35 — Robot premium", href: "/tienda/robots-limpiafondos", coverage: "Fondo + Paredes + Línea de agua", pool: "Hasta 15 m", cycle: "2,5 horas", },
+  { pos: 4, name: "Dolphin Formula 30 — Piscinas enterradas 12m", href: "/tienda/robots-limpiafondos", coverage: "Fondo + Paredes + Línea de agua", pool: "Hasta 12 m", cycle: "2 horas", },
+  { pos: 5, name: "Dolphin Poolstyle 35 Plus", href: "/tienda/robots-limpiafondos", coverage: "Fondo + Paredes completas", pool: "Hasta 12 m", cycle: "2 horas", },
 ];
 
 const faqs = [
