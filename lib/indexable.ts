@@ -97,6 +97,10 @@ export const FEATURED_PRODUCT_SLUGS = new Set<string>([
   "tamar-cloro-5-acciones-tabletas-200g-5kg",
   "tamar-invernador-liquido-5-litros",
   "your-gear-cobertor-solar-redondo-366-cm-300-micras",
+  "beatbot-sora-30-robot-limpiafondos-paredes-linea-agua",
+  "gosvor-litevac-g1-robot-limpiafondos-7kg-200min",
+  "bestway-58515-depuradora-arena-2-m3h-32mm",
+  "monzana-depuradora-arena-sf12k-10200-lh",
   "intex-cobertor-piscina-redonda-366-cm-todas-temporadas",
   "pooltester-kit-ph-cloro-bromo-40-pastillas",
 ]);
