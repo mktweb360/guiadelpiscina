@@ -225,7 +225,6 @@ export const products: Product[] = [
   // Añadidos 23/09/2026 (loop) — verificados en vivo en Amazon.es el 23/09/2026. Cierran enlaces internos rotos desde /aiper-scuba-se-analisis.
   {
     slug: "aiper-scuba-se-robot-piscina",
-    image: "/images/products/aiper-scuba-se-robot-piscina.jpg",
     name: "AIPER Scuba SE Robot Limpiafondos sin Cable 90 min para Piscinas Elevadas",
     asin: "B0D58DGSZK",
     category: "Robots limpiafondos",
@@ -244,7 +243,6 @@ export const products: Product[] = [
   },
   {
     slug: "pooleco-10-robot-limpiafondos-90min",
-    image: "/images/products/pooleco-10-robot-limpiafondos-90min.jpg",
     name: "Pooleco 10 Robot Limpiafondos Automático sin Cable 90 min 80 m²",
     asin: "B0GL7QGNQH",
     category: "Robots limpiafondos",
@@ -323,7 +321,6 @@ export const products: Product[] = [
   // PISCINAS DESMONTABLES
   {
     slug: "intex-mango-telescopico-aluminio-239-cm-29054",
-    image: "/images/products/intex-mango-telescopico-aluminio-239-cm-29054.jpg",
     // Comprobada en amazon.es el 21/11/2026: botón de compra activo, vendida por un tercero. Datos solo de la ficha de Amazon.
     name: "Intex 29054 Mango Telescópico de Aluminio 239 cm",
     asin: "B00I165R4Y",
@@ -343,7 +340,6 @@ export const products: Product[] = [
   },
   {
     slug: "bestway-pertiga-3-secciones-360-cm",
-    image: "/images/products/bestway-pertiga-3-secciones-360-cm.jpg",
     // Comprobada en amazon.es el 21/11/2026: botón de compra activo, vendida por un tercero. Datos solo de la ficha de Amazon.
     name: "Bestway Pértiga de Aluminio 3 Secciones 360 cm",
     asin: "B0CDXQDZ7V",
@@ -600,7 +596,6 @@ export const products: Product[] = [
   // Añadidos 23/09/2026 (loop) — verificados en vivo en Amazon.es el 23/09/2026. Cierran enlaces internos rotos desde /gardena-flex-1890-20-analisis.
   {
     slug: "gardena-flexcontrol-programador-riego",
-    image: "/images/products/gardena-flexcontrol-programador-riego.jpg",
     name: "GARDENA Programador de Riego Flex 1890-20 con Función Water Now",
     asin: "B07JLVB5JP",
     category: "Riego automático",
@@ -619,7 +614,6 @@ export const products: Product[] = [
   },
   {
     slug: "gardena-select-programador-riego-1891-20",
-    image: "/images/products/gardena-select-programador-riego-1891-20.jpg",
     name: "GARDENA Programador de Riego Select 1891-20 con 3 Programaciones y Water Now",
     asin: "B07JM7NXQT",
     category: "Riego automático",
@@ -638,7 +632,6 @@ export const products: Product[] = [
   },
   {
     slug: "gardena-temporizador-estandar-riego",
-    image: "/images/products/gardena-temporizador-estandar-riego.jpg",
     name: "GARDENA Temporizador de Riego Estándar Mecánico 5-120 min",
     asin: "B0001E3RZ0",
     category: "Riego automático",
@@ -698,7 +691,6 @@ export const products: Product[] = [
   // TRATAMIENTO DEL AGUA
   {
     slug: "intex-clorador-salino-55250-2-g-h",
-    image: "/images/products/intex-clorador-salino-55250-2-g-h.jpg",
     // Comprobada en amazon.es el 19/11/2026: botón de compra activo, vendido y enviado por Amazon. Datos solo de la ficha de Amazon.
     name: "Intex 55250 Clorador Salino 2 g/h",
     asin: "B09M5QTL1M",
@@ -718,7 +710,6 @@ export const products: Product[] = [
   },
   {
     slug: "espa-leader-clorador-salino-20g",
-    image: "/images/products/espa-leader-clorador-salino-20g.jpg",
     // Comprobada en amazon.es el 19/11/2026: botón de compra activo, vendido y enviado por Amazon. Datos solo de la ficha de Amazon.
     name: "ESPA Leader Clorador Salino 20G",
     asin: "B0C3HQ7LMJ",
@@ -738,7 +729,6 @@ export const products: Product[] = [
   },
   {
     slug: "gre-gss25-clorador-salino-dream-salt",
-    image: "/images/products/gre-gss25-clorador-salino-dream-salt.jpg",
     // Comprobada en amazon.es el 19/11/2026: botón de compra activo, vendido y enviado por Amazon. Datos solo de la ficha de Amazon.
     name: "Gre GSS25 Clorador Salino Dream Salt",
     asin: "B0CQZ6XXPC",
@@ -851,7 +841,6 @@ export const products: Product[] = [
   },
   {
     slug: "easytest-tiras-reactivas-7-en-1-piscina-150",
-    image: "/images/products/easytest-tiras-reactivas-7-en-1-piscina-150.jpg",
     name: "EASYTEST 150 Tiras Reactivas 7 en 1 para Piscina y Spa (pH, cloro, alcalinidad, dureza, ácido cianúrico y bromo)",
     asin: "B09MSY8BLB",
     category: "Tratamiento del agua",
@@ -870,7 +859,6 @@ export const products: Product[] = [
   },
   {
     slug: "diamas-ph-gr-elevador-ph-granulado-5kg",
-    image: "/images/products/diamas-ph-gr-elevador-ph-granulado-5kg.jpg",
     name: "DIAMAS PH GR Elevador del pH para Piscinas 5 kg Granulado",
     asin: "B08XVZ8R8X",
     category: "Tratamiento del agua",
@@ -888,7 +876,6 @@ export const products: Product[] = [
   },
   {
     slug: "bayrol-alca-plus-granulado-5kg",
-    image: "/images/products/bayrol-alca-plus-granulado-5kg.jpg",
     name: "Bayrol Alca-Plus Granulado 5 kg – Corrector de Baja Alcalinidad",
     asin: "B00I476HLC",
     category: "Tratamiento del agua",
@@ -906,7 +893,6 @@ export const products: Product[] = [
   },
   {
     slug: "diaclor-gr-60-cloro-choque-granulado-5kg",
-    image: "/images/products/diaclor-gr-60-cloro-choque-granulado-5kg.jpg",
     name: "DIACLOR GR 60 Cloro Choque Dicloro Granulado 5 kg – Disolución Rápida",
     asin: "B08XBX7WBH",
     category: "Tratamiento del agua",
@@ -925,7 +911,6 @@ export const products: Product[] = [
   },
   {
     slug: "yaheetech-conjunto-jardin-ratan-cojines",
-    image: "/images/products/yaheetech-conjunto-jardin-ratan-cojines.jpg",
     name: "Yaheetech Conjunto de Muebles de Jardín de Ratán con Cojines y Mesa de Cristal",
     asin: "B09SFQRXMB",
     category: "Muebles de jardín",
@@ -943,7 +928,6 @@ export const products: Product[] = [
   },
   {
     slug: "casaria-conjunto-jardin-poliratan-4-piezas",
-    image: "/images/products/casaria-conjunto-jardin-poliratan-4-piezas.jpg",
     name: "CASARIA Conjunto de Muebles de Jardín 4 Piezas de Poliratán con Mesa de Cristal",
     asin: "B0DTYT2L5M",
     category: "Muebles de jardín",
@@ -961,7 +945,6 @@ export const products: Product[] = [
   },
   {
     slug: "pack-2-tumbonas-gravedad-cero-bandeja",
-    image: "/images/products/pack-2-tumbonas-gravedad-cero-bandeja.jpg",
     name: "Pack 2 Tumbonas Plegables Reclinables con Posición de Gravedad Cero y Bandeja",
     asin: "B07HP94QTN",
     category: "Muebles de jardín",
@@ -979,7 +962,6 @@ export const products: Product[] = [
   },
   {
     slug: "outsunny-2-tumbonas-plegables-aluminio",
-    image: "/images/products/outsunny-2-tumbonas-plegables-aluminio.jpg",
     name: "Outsunny Conjunto de 2 Tumbonas Plegables de Aluminio con Respaldo de 5 Posiciones",
     asin: "B0856SPXWM",
     category: "Muebles de jardín",
@@ -997,7 +979,6 @@ export const products: Product[] = [
   },
   {
     slug: "devoko-pergola-3x3-aluminio-techo-retractil",
-    image: "/images/products/devoko-pergola-3x3-aluminio-techo-retractil.jpg",
     name: "Devoko Pérgola de Jardín 3x3 m de Aluminio con Toldo Ajustable",
     asin: "B0DYDCZ8DK",
     category: "Pérgolas",
@@ -1015,7 +996,6 @@ export const products: Product[] = [
   },
   {
     slug: "cazeboo-pergola-bioclimatica-adosada-3x3",
-    image: "/images/products/cazeboo-pergola-bioclimatica-adosada-3x3.jpg",
     name: "CAZEBOO Pérgola Bioclimática Adosada Piana 3x3 m de Aluminio con Lamas Orientables",
     asin: "B0FH5JXGDV",
     category: "Pérgolas",
@@ -1033,7 +1013,6 @@ export const products: Product[] = [
   },
   {
     slug: "songmics-cenador-plegable-3x3-paneles",
-    image: "/images/products/songmics-cenador-plegable-3x3-paneles.jpg",
     name: "SONGMICS Cenador Plegable 3x3 m con Paneles Laterales, Gris Oscuro",
     asin: "B0FNM9JQZT",
     category: "Pérgolas",
@@ -1051,7 +1030,6 @@ export const products: Product[] = [
   },
   {
     slug: "gre-mini-bomba-calor-30m3",
-    image: "/images/products/gre-mini-bomba-calor-30m3.jpg",
     name: "Gre Mini Bomba de Calor para Piscinas Elevadas hasta 30 m³ sin Bypass",
     asin: "B07L489LBM",
     category: "Bombas de calor",
@@ -1069,7 +1047,6 @@ export const products: Product[] = [
   },
   {
     slug: "poolex-silverline-inverter-70-bomba-calor",
-    image: "/images/products/poolex-silverline-inverter-70-bomba-calor.jpg",
     name: "POOLEX Silverline Inverter 70 Bomba de Calor para Piscina con Wi-Fi",
     asin: "B084P5K5FJ",
     category: "Bombas de calor",
@@ -1087,7 +1064,6 @@ export const products: Product[] = [
   },
   {
     slug: "intex-55225-depuradora-arena-5700",
-    image: "/images/products/intex-55225-depuradora-arena-5700.jpg",
     name: "Intex 55225 Depuradora de Arena Krystal Clear 5.700 L/h",
     asin: "B07FBGSM8M",
     category: "Depuradoras",
@@ -1105,7 +1081,6 @@ export const products: Product[] = [
   },
   {
     slug: "intex-55249-depuradora-arena-3500",
-    image: "/images/products/intex-55249-depuradora-arena-3500.jpg",
     name: "Intex 55249 Depuradora de Arena Krystal Clear 3.500 L/h",
     asin: "B09M5S8BXB",
     category: "Depuradoras",
@@ -1123,7 +1098,6 @@ export const products: Product[] = [
   },
   {
     slug: "gosvor-litevac-g1-robot-piscina",
-    image: "/images/products/gosvor-litevac-g1-robot-piscina.jpg",
     name: "Gosvor LiteVac G1 Robot Limpiafondos sin Cable para Fondo, Paredes y Línea de Agua",
     asin: "B0FY6LSH92",
     category: "Robots limpiafondos",
@@ -1141,7 +1115,6 @@ export const products: Product[] = [
   },
   {
     slug: "wybot-os600-robot-piscina",
-    image: "/images/products/wybot-os600-robot-piscina.jpg",
     name: "WYBOT OS600 Robot Limpiafondos sin Cable para Fondo, Paredes y Línea de Agua",
     asin: "B0HFW1B26F",
     category: "Robots limpiafondos",
@@ -1159,7 +1132,6 @@ export const products: Product[] = [
   },
   {
     slug: "intex-28273np-piscina-small-frame-450x220",
-    image: "/images/products/intex-28273np-piscina-small-frame-450x220.jpg",
     // 27/10/2026: el set 28274NP (B0B6C2TK4Y) se queda sin compra y vuelve la 28273NP solo piscina (B000XO2RV8), vendida por Amore Animale Shop.
     name: "Intex 28273NP Piscina Desmontable Small Frame 450 x 220 x 84 cm",
     asin: "B000XO2RV8",
@@ -1178,7 +1150,6 @@ export const products: Product[] = [
   },
   {
     slug: "intex-28272np-piscina-small-frame-300x200",
-    image: "/images/products/intex-28272np-piscina-small-frame-300x200.jpg",
     name: "Intex 28272NP Piscina Desmontable Small Frame 300 x 200 x 75 cm",
     asin: "B001IWNDDA",
     // 26/10/2026: Decathlon 109,99 € frente a Amazon 110,34 €; primero el más barato (regla de José).
@@ -1201,7 +1172,6 @@ export const products: Product[] = [
   },
   {
     slug: "gre-inverter-bomba-calor-wifi-30m3",
-    image: "/images/products/gre-inverter-bomba-calor-wifi-30m3.jpg",
     name: "Gre Bomba de Calor Full Inverter con Wi-Fi para Piscinas Elevadas hasta 30 m³",
     asin: "B0CPR89ZNR",
     category: "Bombas de calor",
@@ -1219,7 +1189,6 @@ export const products: Product[] = [
   },
   {
     slug: "aqua-control-c4099n-programador-riego-grifo",
-    image: "/images/products/aqua-control-c4099n-programador-riego-grifo.jpg",
     name: "Aqua Control C4099N Programador de Riego para Grifo, Apertura a 0 Bar",
     asin: "B0166L5CGS",
     category: "Riego automático",
@@ -1237,7 +1206,6 @@ export const products: Product[] = [
   },
   {
     slug: "johgee-programador-riego-pantalla-lcd",
-    image: "/images/products/johgee-programador-riego-pantalla-lcd.jpg",
     name: "Johgee Programador de Riego Digital con Pantalla LCD de 3\" y Retraso por Lluvia",
     asin: "B07WSWNPPH",
     category: "Riego automático",
@@ -1255,7 +1223,6 @@ export const products: Product[] = [
   },
   {
     slug: "jardin202-cesped-artificial-almeria-40mm",
-    image: "/images/products/jardin202-cesped-artificial-almeria-40mm.jpg",
     name: "Jardin202 Césped Artificial Almería 40 mm Triple Tonalidad, Rollo 1x5 m",
     asin: "B0BV36SQYP",
     category: "Césped artificial",
@@ -1273,7 +1240,6 @@ export const products: Product[] = [
   },
   {
     slug: "cesped-artificial-40mm-4-tonos-rollo-2x5",
-    image: "/images/products/cesped-artificial-40mm-4-tonos-rollo-2x5.jpg",
     name: "Rollo de Césped Artificial 40 mm Cuatro Tonos con Drenaje, 2x5 m",
     asin: "B08BP7NJM9",
     category: "Césped artificial",
@@ -1291,7 +1257,6 @@ export const products: Product[] = [
   },
   {
     slug: "intex-escalera-piscina-122-cm-55058",
-    image: "/images/products/intex-escalera-piscina-122-cm-55058.jpg",
     // Comprobada en amazon.es el 19/11/2026: botón de compra activo, vendida y enviada por Amazon. Datos solo de la ficha de Amazon.
     name: "Intex Escalera Piscina Elevada 122 cm 55058",
     asin: "B0195A925O",
@@ -1311,7 +1276,6 @@ export const products: Product[] = [
   },
   {
     slug: "gre-ar109-escalera-acero-galvanizado-98-cm",
-    image: "/images/products/gre-ar109-escalera-acero-galvanizado-98-cm.jpg",
     // Comprobada en amazon.es el 19/11/2026: botón de compra activo, vendida y enviada por Amazon. Datos solo de la ficha de Amazon.
     name: "Gre AR109 Escalera Acero Galvanizado 98 cm",
     asin: "B00DVKFBWI",
@@ -1331,7 +1295,6 @@ export const products: Product[] = [
   },
   {
     slug: "intex-escalera-piscina-132-cm-4-peldanos",
-    image: "/images/products/intex-escalera-piscina-132-cm-4-peldanos.jpg",
     // Comprobada en amazon.es el 19/11/2026: botón de compra activo, vendida por un tercero (Distria). Datos solo de la ficha de Amazon.
     name: "Intex Escalera Desmontable Piscina 132 cm",
     asin: "B004DCANOY",
@@ -1351,7 +1314,6 @@ export const products: Product[] = [
   },
   {
     slug: "jardin202-cesped-artificial-ibiza-35mm-4x2",
-    image: "/images/products/jardin202-cesped-artificial-ibiza-35mm-4x2.jpg",
     // Comprobada en amazon.es el 19/11/2026: botón de compra activo, vendido y enviado por Jardin202 (marca). Datos solo de la ficha de Amazon.
     name: "Jardin202 Césped Artificial Ibiza 35 mm 4x2 m",
     asin: "B0DVH1PPYY",
@@ -1371,7 +1333,6 @@ export const products: Product[] = [
   },
   {
     slug: "forever-speed-kit-riego-goteo-315-piezas",
-    image: "/images/products/forever-speed-kit-riego-goteo-315-piezas.jpg",
     name: "Forever Speed Kit de Riego por Goteo 315 Piezas con 60 m + 15 m de Tubo",
     asin: "B0D6VW3SXQ",
     category: "Riego automático",
@@ -1389,7 +1350,6 @@ export const products: Product[] = [
   },
   {
     slug: "vivere-hamaca-doble-con-soporte",
-    image: "/images/products/vivere-hamaca-doble-con-soporte.jpg",
     name: "Vivere Hamaca Doble con Soporte y Funda de Transporte, 250 cm",
     asin: "B00PZYVSSE",
     category: "Muebles de jardín",
@@ -1407,7 +1367,6 @@ export const products: Product[] = [
   },
   {
     slug: "bestway-steel-pro-max-305x76-depuradora",
-    image: "/images/products/bestway-steel-pro-max-305x76-depuradora.jpg",
     name: "Bestway 56406 Piscina Desmontable Steel Pro MAX 305x76 cm con Depuradora",
     asin: "B08CB1R1BK",
     category: "Piscinas desmontables",
@@ -1425,7 +1384,6 @@ export const products: Product[] = [
   },
   {
     slug: "intex-28166-easy-set-457x107",
-    image: "/images/products/intex-28166-easy-set-457x107.jpg",
     name: "Intex 28166 Piscina Easy Set 457x107 cm Set Completo con Depuradora y Escalera",
     asin: "B00G9Z5SN4",
     category: "Piscinas desmontables",
@@ -1443,7 +1401,6 @@ export const products: Product[] = [
   },
   {
     slug: "intex-c2500-depuradora-cartucho",
-    image: "/images/products/intex-c2500-depuradora-cartucho.jpg",
     name: "Intex C2500 Depuradora de Cartucho 9.463 l/h con Temporizador",
     asin: "B0DSPWPYTF",
     category: "Depuradoras",
@@ -1461,7 +1418,6 @@ export const products: Product[] = [
   },
   {
     slug: "aiper-scuba-s1-2026-robot-piscina",
-    image: "/images/products/aiper-scuba-s1-2026-robot-piscina.jpg",
     name: "AIPER Scuba S1 (2026) Robot Limpiafondos sin Cable con hasta 270 min de Autonomía",
     asin: "B0H9RLVQP3",
     category: "Robots limpiafondos",
@@ -1479,7 +1435,6 @@ export const products: Product[] = [
   },
   {
     slug: "toolport-cenador-3x4-aluminio-paneles",
-    image: "/images/products/toolport-cenador-3x4-aluminio-paneles.jpg",
     name: "TOOLPORT Cenador de Jardín 3x4 m con Postes de Aluminio, Paneles Laterales y Mosquiteras",
     asin: "B0H9988346",
     category: "Pérgolas",
@@ -1497,7 +1452,6 @@ export const products: Product[] = [
   },
   {
     slug: "poolex-nano-3kw-wifi-bomba-calor",
-    image: "/images/products/poolex-nano-3kw-wifi-bomba-calor.jpg",
     name: "POOLEX Nano 3 kW Bomba de Calor con Wi-Fi para Piscinas Pequeñas hasta 20 m³",
     asin: "B0G931DPSL",
     category: "Bombas de calor",
@@ -1515,7 +1469,6 @@ export const products: Product[] = [
   },
   {
     slug: "wybot-c2-robot-piscina-180min",
-    image: "/images/products/wybot-c2-robot-piscina-180min.jpg",
     name: "WYBOT C2 Robot Limpiafondos Inalámbrico 180 min con Doble Filtro y 7 Modos",
     asin: "B0H4QS469J",
     category: "Robots limpiafondos",
@@ -1533,7 +1486,6 @@ export const products: Product[] = [
   },
   {
     slug: "wybot-c1-robot-piscina-155min",
-    image: "/images/products/wybot-c1-robot-piscina-155min.jpg",
     name: "WYBOT C1 Robot Limpiafondos Inalámbrico 155 min para Suelo, Paredes y Línea de Agua",
     asin: "B0H2TWCSR6",
     category: "Robots limpiafondos",
@@ -1551,7 +1503,6 @@ export const products: Product[] = [
   },
   {
     slug: "tamar-cloro-5-acciones-tabletas-20g-1kg",
-    image: "/images/products/tamar-cloro-5-acciones-tabletas-20g-1kg.jpg",
     name: "Tamar Cloro 5 Acciones en Tabletas de 20 g para Mini Piscinas, 1 kg",
     asin: "B078H7WSWK",
     category: "Tratamiento del agua",
@@ -1569,7 +1520,6 @@ export const products: Product[] = [
   },
   {
     slug: "aquachek-tiras-4-en-1-cloro-ph",
-    image: "/images/products/aquachek-tiras-4-en-1-cloro-ph.jpg",
     name: "AquaChek Amarillo Tiras Reactivas 4 en 1: Cloro Libre, pH, Alcalinidad y Estabilizador",
     asin: "B003TQM9XS",
     category: "Tratamiento del agua",
@@ -1587,7 +1537,6 @@ export const products: Product[] = [
   },
   {
     slug: "intex-28075-escalera-piscina-91-107cm",
-    image: "/images/products/intex-28075-escalera-piscina-91-107cm.jpg",
     name: "Intex 28075 Escalera de Seguridad para Piscinas Elevadas de 91 a 107 cm",
     asin: "B004DCANOO",
     category: "Piscinas desmontables",
@@ -1605,7 +1554,6 @@ export const products: Product[] = [
   },
   {
     slug: "vevor-cubierta-solar-piscina-732x366",
-    image: "/images/products/vevor-cubierta-solar-piscina-732x366.jpg",
     name: "VEVOR Cubierta Solar de Burbujas para Piscina Rectangular 7,32 × 3,66 m",
     asin: "B0D4YJ99QT",
     category: "Piscinas desmontables",
@@ -1623,7 +1571,6 @@ export const products: Product[] = [
   },
   {
     slug: "tectake-silla-colgante-jardin-con-soporte",
-    image: "/images/products/tectake-silla-colgante-jardin-con-soporte.jpg",
     name: "tectake Silla Colgante de Jardín con Soporte de Acero y Cojín Extragrueso",
     asin: "B0D9W37CB8",
     category: "Muebles de jardín",
@@ -1642,7 +1589,6 @@ export const products: Product[] = [
   // 27/10/2026: recambios de filtro (guía /arena-depuradora-piscina)
   {
     slug: "tecno-prodist-arena-silex-10kg",
-    image: "/images/products/tecno-prodist-arena-silex-10kg.jpg",
     name: "Tecno Prodist Arena de Sílex para Depuradora de Piscina, Saco de 10 kg (0,4-0,8 mm)",
     asin: "B0BT2HMMX4",
     category: "Depuradoras de piscina",
@@ -1660,7 +1606,6 @@ export const products: Product[] = [
   },
   {
     slug: "qp-vidrio-filtrante-20kg",
-    image: "/images/products/qp-vidrio-filtrante-20kg.jpg",
     name: "Productos QP Vidrio Filtrante para Depuradora de Piscina, Saco de 20 kg",
     asin: "B00UCC45PM",
     category: "Depuradoras de piscina",
@@ -1678,7 +1623,6 @@ export const products: Product[] = [
   },
   {
     slug: "intex-bolas-filtrantes-500g",
-    image: "/images/products/intex-bolas-filtrantes-500g.jpg",
     name: "Intex Bolas Filtrantes para Depuradora de Arena, 500 g (equivalen a 18 kg de sílice)",
     asin: "B0CG6J5J1F",
     category: "Depuradoras de piscina",
@@ -1696,7 +1640,6 @@ export const products: Product[] = [
   },
   {
     slug: "intex-29003-cartuchos-tipo-a-3",
-    image: "/images/products/intex-29003-cartuchos-tipo-a-3.jpg",
     name: "Intex 29003 Pack de 3 Cartuchos de Filtro Tipo A",
     asin: "B005TUK0R4",
     category: "Depuradoras de piscina",
@@ -1714,7 +1657,6 @@ export const products: Product[] = [
   },
   {
     slug: "intex-29007e-cartucho-tipo-h",
-    image: "/images/products/intex-29007e-cartucho-tipo-h.jpg",
     name: "Intex 29007E Cartucho de Filtro Tipo H",
     asin: "B00P84U97C",
     category: "Depuradoras de piscina",
@@ -1733,7 +1675,6 @@ export const products: Product[] = [
   // 27/10/2026: piscinas redondas (guía /piscina-desmontable-redonda)
   {
     slug: "intex-56007-easy-set-redonda-305x76",
-    image: "/images/products/intex-56007-easy-set-redonda-305x76.jpg",
     name: "Intex 56007 Piscina Easy Set Redonda 305 × 76 cm con Depuradora",
     asin: "B0002VZ2DW",
     category: "Piscinas desmontables",
@@ -1751,7 +1692,6 @@ export const products: Product[] = [
   },
   {
     slug: "intex-26726np-prism-frame-redonda-457x122",
-    image: "/images/products/intex-26726np-prism-frame-redonda-457x122.jpg",
     name: "Intex 26726NP Piscina Prism Frame Redonda 457 × 122 cm con Depuradora, Escalera, Tapiz y Cobertor",
     asin: "B07LFGZ15T",
     category: "Piscinas desmontables",
@@ -1770,7 +1710,6 @@ export const products: Product[] = [
   // 18/10/2026: piscinas desmontables rectangulares (guía /piscina-desmontable-rectangular)
   {
     slug: "intex-26784np-prism-frame-rectangular-300x175x80",
-    image: "/images/products/intex-26784np-prism-frame-rectangular-300x175x80.jpg",
     name: "Intex 26784NP Piscina Rectangular Prism Frame 300 x 175 x 80 cm con Depuradora",
     asin: "B07FB8274W",
     category: "Piscinas desmontables",
@@ -1788,7 +1727,6 @@ export const products: Product[] = [
   },
   {
     slug: "intex-chevron-prism-frame-premium-400x200x100",
-    image: "/images/products/intex-chevron-prism-frame-premium-400x200x100.jpg",
     name: "Intex Chevron Prism Frame Premium Piscina Rectangular 400 x 200 x 100 cm con Depuradora",
     asin: "B0BQ3H8TCR",
     category: "Piscinas desmontables",
@@ -1806,7 +1744,6 @@ export const products: Product[] = [
   },
   {
     slug: "intex-55212-prism-frame-rectangular-488x244x107",
-    image: "/images/products/intex-55212-prism-frame-rectangular-488x244x107.jpg",
     name: "Intex 55212 Piscina Rectangular Prism Frame 488 x 244 x 107 cm con Depuradora",
     asin: "B07FB8Y2FD",
     category: "Piscinas desmontables",
@@ -1824,7 +1761,6 @@ export const products: Product[] = [
   },
   {
     slug: "bestway-steel-pro-max-rectangular-488x244x122",
-    image: "/images/products/bestway-steel-pro-max-rectangular-488x244x122.jpg",
     name: "Bestway Steel Pro MAX Piscina Rectangular 488 x 244 x 122 cm con Depuradora",
     asin: "B0D9YVMTDY",
     category: "Piscinas desmontables",
@@ -1842,7 +1778,6 @@ export const products: Product[] = [
   },
   {
     slug: "bestway-steel-pro-max-rectangular-640x274x132",
-    image: "/images/products/bestway-steel-pro-max-rectangular-640x274x132.jpg",
     name: "Bestway Steel Pro MAX Piscina Rectangular 640 x 274 x 132 cm con Depuradora de Arena",
     asin: "B0D9YY473Y",
     category: "Piscinas desmontables",
@@ -1861,7 +1796,6 @@ export const products: Product[] = [
   // 18/10/2026 (ronda 2): depuradoras verificadas hoy en Amazon.es con botón de compra. Datos de sus fichas.
   {
     slug: "intex-c330-depuradora-cartucho-1250",
-    image: "/images/products/intex-c330-depuradora-cartucho-1250.jpg",
     name: "Intex C330 Depuradora de Cartucho 1.250 l/h Filtro Tipo H",
     asin: "B0DSPYGS9Z",
     category: "Depuradoras",
@@ -1879,7 +1813,6 @@ export const products: Product[] = [
   },
   {
     slug: "gre-ar125-depuradora-cartucho-3800",
-    image: "/images/products/gre-ar125-depuradora-cartucho-3800.jpg",
     name: "Gre AR125 Depuradora de Cartucho 3.800 l/h para Piscinas Elevadas",
     asin: "B00DVKH7AM",
     category: "Depuradoras",
@@ -1897,7 +1830,6 @@ export const products: Product[] = [
   },
   {
     slug: "gre-770803-depuradora-arena-4000",
-    image: "/images/products/gre-770803-depuradora-arena-4000.jpg",
     name: "Gre 770803 Depuradora de Arena 4.000 l/h",
     asin: "B07FVG3WKZ",
     category: "Depuradoras",
@@ -1915,7 +1847,6 @@ export const products: Product[] = [
   },
   {
     slug: "bestway-58497-depuradora-arena-5678",
-    image: "/images/products/bestway-58497-depuradora-arena-5678.jpg",
     name: "Bestway 58497 Depuradora de Arena 5.678 l/h 230 W",
     asin: "B07F2FGMSG",
     category: "Depuradoras",
@@ -1934,7 +1865,6 @@ export const products: Product[] = [
   // 19/10/2026 (ronda 3): floculantes y clarificante verificados hoy en Amazon.es con botón de compra. Datos de sus fichas.
   {
     slug: "astralpool-floculante-solido-saquitos-8x125g",
-    image: "/images/products/astralpool-floculante-solido-saquitos-8x125g.jpg",
     name: "AstralPool Floculante Sólido en Saquitos (8 × 125 g, 1 kg)",
     asin: "B0CLH5QRK7",
     category: "Tratamiento del agua",
@@ -1952,7 +1882,6 @@ export const products: Product[] = [
   },
   {
     slug: "gre-floculante-liquido-5l",
-    image: "/images/products/gre-floculante-liquido-5l.jpg",
     name: "Gre Floculante Líquido 5 L Clarificador para Piscinas",
     asin: "B01CGKC8QU",
     category: "Tratamiento del agua",
@@ -1970,7 +1899,6 @@ export const products: Product[] = [
   },
   {
     slug: "bayrol-quickflock-super-floculante-liquido-1l",
-    image: "/images/products/bayrol-quickflock-super-floculante-liquido-1l.jpg",
     name: "Bayrol Quickflock Super Floculante Líquido para Filtro de Arena 1 L",
     asin: "B07N1T34V3",
     category: "Tratamiento del agua",
@@ -2005,7 +1933,6 @@ export const products: Product[] = [
   },
   {
     slug: "ctx-floculante-cartuchos-8x125g",
-    image: "/images/products/ctx-floculante-cartuchos-8x125g.jpg",
     name: "CTX Flocculant Deluxe Floculante en Cartuchos (8 × 125 g, 1 kg)",
     asin: "B0747ZPBZ9",
     category: "Tratamiento del agua",
@@ -2330,7 +2257,6 @@ export const products: Product[] = [
   },
   {
     slug: "tillvex-cobertor-solar-piscina-800x400-120um",
-    image: "/images/products/tillvex-cobertor-solar-piscina-800x400-120um.jpg",
     name: "tillvex Cobertor Solar para Piscinas Rectangular 800 × 400 cm, 120 µm",
     asin: "B0924V9QN2",
     category: "Piscinas desmontables",
@@ -2348,7 +2274,6 @@ export const products: Product[] = [
   },
   {
     slug: "tillvex-cobertor-solar-piscina-450x220-120um",
-    image: "/images/products/tillvex-cobertor-solar-piscina-450x220-120um.jpg",
     name: "tillvex Cobertor Solar para Piscinas Rectangular 450 × 220 cm, 120 µm",
     asin: "B09258TZF9",
     category: "Piscinas desmontables",
@@ -2366,7 +2291,6 @@ export const products: Product[] = [
   },
   {
     slug: "arebos-cubierta-solar-piscina-450x220-120um",
-    image: "/images/products/arebos-cubierta-solar-piscina-450x220-120um.jpg",
     name: "Arebos Cubierta Solar para Piscina 4,5 × 2,2 m Azul, 120 µm",
     asin: "B0BXLVDKTX",
     category: "Piscinas desmontables",
@@ -2384,7 +2308,6 @@ export const products: Product[] = [
   },
   {
     slug: "arebos-cubierta-solar-piscina-500x800-400um",
-    image: "/images/products/arebos-cubierta-solar-piscina-500x800-400um.jpg",
     name: "Arebos Cubierta Solar para Piscina 500 × 800 cm, 400 micras",
     asin: "B07BDLT4TC",
     category: "Piscinas desmontables",
@@ -2421,7 +2344,6 @@ export const products: Product[] = [
   },
   {
     slug: "tamar-cloro-5-acciones-tabletas-200g-5kg",
-    image: "/images/products/tamar-cloro-5-acciones-tabletas-200g-5kg.jpg",
     // Comprobada en amazon.es el 23/11/2026: botón de compra activo, vendida por Industrias Químicas Tamar (tercero); aparece entre los más vendidos de Piscinas. Datos solo de la ficha de Amazon.
     name: "Tamar Cloro 5 Acciones, Tabletas de 200 g, Bote de 5 kg",
     asin: "B01G9828SS",
@@ -2440,7 +2362,6 @@ export const products: Product[] = [
   },
   {
     slug: "tamar-invernador-liquido-5-litros",
-    image: "/images/products/tamar-invernador-liquido-5-litros.jpg",
     // Comprobada en amazon.es el 23/11/2026: botón de compra activo, vendida por Industrias Químicas Tamar (tercero); aparece entre los más vendidos de Piscinas. Datos solo de la ficha de Amazon.
     name: "Tamar Invernador Líquido para Piscinas 5 Litros",
     asin: "B078GX338Q",
@@ -2459,7 +2380,6 @@ export const products: Product[] = [
   },
   {
     slug: "tamar-cloro-choque-3-acciones-granulado",
-    image: "/images/products/tamar-cloro-choque-3-acciones-granulado.jpg",
     // Comprobada en amazon.es el 23/11/2026: botón de compra activo, vendida por Industrias Químicas Tamar (tercero); aparece entre los más vendidos de Piscinas. Datos solo de la ficha de Amazon.
     name: "Tamar Cloro Choque 3 Acciones Granulado",
     asin: "B079X4G93Q",
@@ -2478,7 +2398,6 @@ export const products: Product[] = [
   },
   {
     slug: "tamar-algicida-larga-duracion-abrillantador",
-    image: "/images/products/tamar-algicida-larga-duracion-abrillantador.jpg",
     // Comprobada en amazon.es el 23/11/2026: botón de compra activo; aparece entre los más vendidos. Datos solo de la ficha de Amazon.
     name: "Tamar Algicida Larga Duración con Efecto Abrillantador",
     asin: "B0C6KR4TC8",
@@ -2497,7 +2416,6 @@ export const products: Product[] = [
   },
   {
     slug: "compacto-5-acciones-aquapool-pastillas-cloro-5kg",
-    image: "/images/products/compacto-5-acciones-aquapool-pastillas-cloro-5kg.jpg",
     // Comprobada en amazon.es el 23/11/2026: botón de compra activo; aparece entre los más vendidos. Datos solo de la ficha de Amazon.
     name: "Compacto 5 Acciones AQUAPOOL, Pastillas de Cloro Multifunción de Disolución Lenta (5 kg)",
     asin: "B0BWS6KTDK",
@@ -2516,7 +2434,6 @@ export const products: Product[] = [
   },
   {
     slug: "intex-28037-cobertor-rectangular-prism-frame-400x200",
-    image: "/images/products/intex-28037-cobertor-rectangular-prism-frame-400x200.jpg",
     // Comprobada en amazon.es el 23/11/2026: botón de compra activo; aparece entre los más vendidos. Datos solo de la ficha de Amazon.
     name: "INTEX 28037 Cobertor para Piscina Rectangular Prism Frame 400 x 200 cm, Azul",
     asin: "B01ARYW8C6",
@@ -2535,7 +2452,6 @@ export const products: Product[] = [
   },
   {
     slug: "vounot-lona-piscina-rectangular-8x4-pe-160",
-    image: "/images/products/vounot-lona-piscina-rectangular-8x4-pe-160.jpg",
     // Comprobada en amazon.es el 23/11/2026: botón de compra activo; aparece entre los más vendidos. Datos solo de la ficha de Amazon.
     name: "VOUNOT Lona para Piscina Rectangular 8 x 4 m, Cubierta de PE de 160 g/m² con Red de Drenaje",
     asin: "B0CKYLS3LT",
