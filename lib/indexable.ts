@@ -96,6 +96,9 @@ export const FEATURED_PRODUCT_SLUGS = new Set<string>([
   "bestway-tapiz-protector-suelo-335x335",
   "tamar-cloro-5-acciones-tabletas-200g-5kg",
   "tamar-invernador-liquido-5-litros",
+  "your-gear-cobertor-solar-redondo-366-cm-300-micras",
+  "intex-cobertor-piscina-redonda-366-cm-todas-temporadas",
+  "pooltester-kit-ph-cloro-bromo-40-pastillas",
 ]);
 
 export const isFeaturedProduct = (slug: string) => FEATURED_PRODUCT_SLUGS.has(slug);
