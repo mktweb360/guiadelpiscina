@@ -118,6 +118,13 @@ export default function RobotLimpiafondosPage() {
             <Link href="/tienda/robots-limpiafondos/beatbot-sora-30-robot-limpiafondos-paredes-linea-agua" className="text-sky-600 hover:underline">Beatbot Sora 30</Link> y{" "}
             <Link href="/tienda/robots-limpiafondos/gosvor-litevac-g1-robot-limpiafondos-7kg-200min" className="text-sky-600 hover:underline">Gosvor Litevac G1</Link>.
           </p>
+          <p className="text-sm text-gray-600">
+            Robots Zodiac en Decathlon:{" "}
+            <Link href="/tienda/robots-limpiafondos/zodiac-pixel-op-3220-robot-bateria-piscinas-7x5" className="text-sky-600 hover:underline">Pixel OP 3220</Link>,{" "}
+            <Link href="/tienda/robots-limpiafondos/zodiac-of-4220-iq-robot-limpiafondos-bateria" className="text-sky-600 hover:underline">OF 4220 IQ</Link> (los dos a batería),{" "}
+            <Link href="/tienda/robots-limpiafondos/zodiac-tornax-gt3220-robot-piscinas-9x4" className="text-sky-600 hover:underline">Tornax GT3220</Link> y{" "}
+            <Link href="/tienda/robots-limpiafondos/zodiac-cnx-2020-robot-limpiafondos-electrico-10x5" className="text-sky-600 hover:underline">CNX 2020</Link> (con cable de 15 m).
+          </p>
           <p>
             Hay modelos de entrada que solo limpian el fondo y modelos de gama alta que también suben por paredes y línea de agua; cualquiera de ellos se nota en el tiempo y el esfuerzo que ahorras durante toda la temporada.
           </p>
