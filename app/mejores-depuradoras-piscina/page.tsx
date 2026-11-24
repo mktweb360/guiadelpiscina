@@ -409,6 +409,11 @@ export default function DepuradorasPage() {
         <div className="mt-6 p-6 bg-blue-50 rounded-xl border border-blue-200">
           <h3 className="font-bold text-gray-900 mb-2">Ver en nuestra tienda</h3>
           <p className="text-sm text-gray-600 mb-4">Depuradoras de arena y de cartucho de nuestra selección, con su ficha completa.</p>
+          <p className="text-sm text-gray-600 mb-4">
+            Fichas de depuradoras de arena añadidas recientemente:{" "}
+            <Link href="/tienda/depuradoras/bestway-58515-depuradora-arena-2-m3h-32mm" className="text-sky-600 hover:underline">Bestway 58515</Link> y{" "}
+            <Link href="/tienda/depuradoras/monzana-depuradora-arena-sf12k-10200-lh" className="text-sky-600 hover:underline">Monzana SF12K</Link>.
+          </p>
           <Link href="/tienda/depuradoras" className="inline-block bg-sky-600 text-white font-semibold px-5 py-3 rounded-xl hover:bg-sky-700 transition-colors">
             Ver todas las depuradoras →
           </Link>

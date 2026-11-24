@@ -113,6 +113,11 @@ export default function RobotLimpiafondosPage() {
             <p className="text-xs font-bold text-sky-700 uppercase tracking-wide mb-1.5">Respuesta directa</p>
             <p className="text-gray-800 font-medium leading-relaxed">Un <strong>robot limpiafondos</strong> transforma el mantenimiento de la piscina: en lugar de pasar horas con el aspirador manual, el robot limpia el fondo, las paredes e incluso la línea de agua mientras tú disfrutas. En esta guía analizamos los <strong>5 mejores robots limpiafondos</strong> para piscina disponibles en el mercado. También puedes <Link href="/tienda/robots-limpiafondos" className="text-sky-600 hover:underline font-medium">comparar todos los robots limpiafondos en nuestra tienda</Link>.</p>
           </div>
+          <p className="text-sm text-gray-600">
+            Fichas de robots añadidas recientemente a la tienda:{" "}
+            <Link href="/tienda/robots-limpiafondos/beatbot-sora-30-robot-limpiafondos-paredes-linea-agua" className="text-sky-600 hover:underline">Beatbot Sora 30</Link> y{" "}
+            <Link href="/tienda/robots-limpiafondos/gosvor-litevac-g1-robot-limpiafondos-7kg-200min" className="text-sky-600 hover:underline">Gosvor Litevac G1</Link>.
+          </p>
           <p>
             Hay modelos de entrada que solo limpian el fondo y modelos de gama alta que también suben por paredes y línea de agua; cualquiera de ellos se nota en el tiempo y el esfuerzo que ahorras durante toda la temporada.
           </p>
