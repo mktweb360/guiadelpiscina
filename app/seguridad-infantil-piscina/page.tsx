@@ -208,7 +208,7 @@ export default function SeguridadInfantilPiscinaPage() {
 
               <h2>4. Flotadores y ayudas para aprender a nadar</h2>
               <p>
-                La AEP desaconseja los flotadores hinchables que pueden desinflarse y recomienda, para niños pequeños y no nadadores, chalecos salvavidas cerca del agua. Una ayuda de flotación para aprender, como la de la ficha de arriba, está pensada para clases y juegos con un adulto presente; el fabricante lo dice expresamente en su ficha. Ninguna de estas ayudas deja al niño sin vigilancia.
+                La AEP desaconseja los flotadores hinchables que pueden desinflarse y recomienda, para niños pequeños y no nadadores, chalecos salvavidas cerca del agua. Una ayuda de flotación para aprender, como la de la ficha de arriba, está pensada para clases y juegos con un adulto presente; el fabricante lo dice expresamente en su ficha. Ninguna de estas ayudas deja al niño sin vigilancia. Lo mismo vale para las piscinas hinchables bajas, como la <Link href="/tienda/piscinas-desmontables/intex-piscina-hinchable-infantil-147x33-cool-dots" className="text-sky-600 hover:underline">Intex Cool Dots de 147 x 33 cm</Link> (330 litros, según Decathlon): son para jugar con un adulto delante.
               </p>
 
               <h2>5. Alarmas y otros dispositivos</h2>
