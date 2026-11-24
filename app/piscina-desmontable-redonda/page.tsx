@@ -48,6 +48,7 @@ const tabla = [
   { slug: "bestway-steel-pro-max-305x76-depuradora", modelo: "Bestway Steel Pro MAX 305 × 76", tipo: "Tubular de acero", medidas: "Ø305 × 76 cm", litros: "4.678 L", depuradora: "Bomba de filtración", renovacion: "—" },
   { slug: "intex-prism-frame-piscina-redonda-366x76", modelo: "Intex Prism Frame 366 × 76", tipo: "Tubular de acero", medidas: "Ø366 × 76 cm", litros: "6.503 L", depuradora: "No incluida", renovacion: "—" },
   { slug: "bestway-steel-pro-max-366x100", modelo: "Bestway Steel Pro MAX 366 × 100", tipo: "Tubular de acero", medidas: "Ø366 × 100 cm", litros: "9.150 L", depuradora: "Cartucho 2.006 l/h + escalera", renovacion: "≈ 4 h 35 min" },
+  { slug: "piscina-desmontable-redonda-acero-366x99-depuradora-cartucho", modelo: "Decathlon redonda de acero 366 × 99", tipo: "Tubular de acero", medidas: "Ø366 × 99 cm", litros: "8.592 L", depuradora: "Cartucho 2.006 l/h + escalera", renovacion: "≈ 4 h 17 min" },
   { slug: "intex-28166-easy-set-457x107", modelo: "Intex Easy Set 457 × 107", tipo: "Aro hinchable", medidas: "Ø457 × 107 cm", litros: "12.430 L", depuradora: "Cartucho 3.785 l/h + escalera, tapiz y cobertor", renovacion: "≈ 3 h 17 min" },
   { slug: "intex-26726np-prism-frame-redonda-457x122", modelo: "Intex Prism Frame 457 × 122", tipo: "Tubular de acero", medidas: "Ø457 × 122 cm", litros: "16.805 L", depuradora: "Cartucho 3.785 l/h + escalera, tapiz y cobertor", renovacion: "≈ 4 h 25 min" },
 ];
@@ -362,7 +363,7 @@ export default function PiscinaDesmontableRedondaPage() {
 
         <div className="prose">
           <p className="text-sm text-gray-500">
-            Fuentes: fichas de producto de Intex y Bestway en Amazon.es y de Intex en Decathlon (medidas, litros, caudal de depuradora, contenido del set, edad recomendada y tiempo de montaje), consultadas el 27 de octubre de 2026. Los porcentajes de volumen, las cargas por metro cuadrado y los tiempos de renovación son cálculos nuestros a partir de esos datos.
+            Fuentes: fichas de producto de Intex y Bestway en Amazon.es y de Intex en Decathlon (medidas, litros, caudal de depuradora, contenido del set, edad recomendada y tiempo de montaje), consultadas el 27 de octubre de 2026 (la de la redonda de acero de 366 × 99 cm, en Decathlon, el 24 de noviembre de 2026). Los porcentajes de volumen, las cargas por metro cuadrado y los tiempos de renovación son cálculos nuestros a partir de esos datos.
           </p>
         </div>
 

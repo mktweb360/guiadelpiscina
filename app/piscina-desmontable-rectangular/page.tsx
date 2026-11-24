@@ -46,6 +46,7 @@ const quickPicks = [
 
 // Datos de la tabla: medidas y litros según el fabricante; el tiempo de renovación es litros ÷ caudal nominal.
 const tabla = [
+  { slug: "intex-small-frame-260x160x65-piscina-desmontable-rectangular", modelo: "Intex Small Frame 260 × 160", medidas: "260 × 160 × 65 cm", litros: "2.282 L", depuradora: "No incluida", renovacion: "—" },
   { slug: "intex-26784np-prism-frame-rectangular-300x175x80", modelo: "Intex Prism Frame 300 × 175", medidas: "300 × 175 × 80 cm", litros: "3.539 L", depuradora: "Cartucho 2.006 l/h + escalera", renovacion: "≈ 1 h 45 min" },
   { slug: "intex-28272np-piscina-small-frame-300x200", modelo: "Intex Small Frame 300 × 200", medidas: "300 × 200 × 75 cm", litros: "3.834 L", depuradora: "No incluida", renovacion: "—" },
   { slug: "intex-chevron-prism-frame-premium-400x200x100", modelo: "Intex Chevron Prism Frame Premium", medidas: "400 × 200 × 100 cm", litros: "6.836 L", depuradora: "Cartucho 2.006 l/h + escalera", renovacion: "≈ 3 h 25 min" },
@@ -389,7 +390,7 @@ export default function PiscinaDesmontableRectangularPage() {
 
         <div className="prose">
           <p className="text-sm text-gray-500">
-            Fuentes: fichas de producto de Intex y Bestway en Amazon.es (medidas, litros, caudal de depuradora, contenido del set y tiempos de montaje), consultadas el 18 de octubre de 2026. Los porcentajes de volumen, las cargas por metro cuadrado y los tiempos de renovación son cálculos nuestros a partir de esos datos.
+            Fuentes: fichas de producto de Intex y Bestway en Amazon.es (medidas, litros, caudal de depuradora, contenido del set y tiempos de montaje), consultadas el 18 de octubre de 2026, y ficha de Intex Small Frame 260 × 160 en Decathlon, consultada el 24 de noviembre de 2026. Los porcentajes de volumen, las cargas por metro cuadrado y los tiempos de renovación son cálculos nuestros a partir de esos datos.
           </p>
         </div>
 
