@@ -101,6 +101,10 @@ export const FEATURED_PRODUCT_SLUGS = new Set<string>([
   "gosvor-litevac-g1-robot-limpiafondos-7kg-200min",
   "bestway-58515-depuradora-arena-2-m3h-32mm",
   "monzana-depuradora-arena-sf12k-10200-lh",
+  "zodiac-pixel-op-3220-robot-bateria-piscinas-7x5",
+  "zodiac-tornax-gt3220-robot-piscinas-9x4",
+  "intex-small-frame-260x160x65-piscina-desmontable-rectangular",
+  "piscina-desmontable-redonda-acero-366x99-depuradora-cartucho",
   "intex-cobertor-piscina-redonda-366-cm-todas-temporadas",
   "pooltester-kit-ph-cloro-bromo-40-pastillas",
 ]);
