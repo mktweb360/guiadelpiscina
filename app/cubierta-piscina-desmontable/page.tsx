@@ -261,6 +261,13 @@ export default function CubiertaPiscinaPage() {
             <li><strong>Decide el uso principal:</strong> protección diaria, calentamiento del agua o invernada. Cada objetivo tiene su tipo de cubierta.</li>
             <li><strong>Comprueba la compatibilidad de marca:</strong> Intex y Bestway tienen medidas y sistemas de sujeción diferentes. Elige el cobertor de tu misma marca cuando sea posible.</li>
           </ol>
+          <p>
+            Si buscas cubierta por diámetro, en Decathlon hay modelos para piscinas redondas: la{" "}
+            <Link href="/tienda/piscinas-desmontables/cubierta-invierno-piscina-redonda-460-decathlon" className="text-sky-700 hover:underline">cubierta de invierno de 460 cm</Link>,{" "}
+            la <Link href="/tienda/piscinas-desmontables/cubierta-invierno-piscina-redonda-550-decathlon" className="text-sky-700 hover:underline">de 550 cm</Link>,{" "}
+            la <Link href="/tienda/piscinas-desmontables/cubierta-isotermica-gre-piscina-redonda-460-decathlon" className="text-sky-700 hover:underline">isotérmica GRE de 460 cm</Link> y la{" "}
+            <Link href="/tienda/piscinas-desmontables/cubierta-verano-gre-piscina-acero-300-decathlon" className="text-sky-700 hover:underline">cubierta de verano GRE de 300 cm</Link> para piscinas de acero.
+          </p>
 
           <h2>Ventajas de cubrir la piscina cuando no la usas</h2>
           <ul>
