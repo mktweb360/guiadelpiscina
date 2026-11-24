@@ -105,6 +105,9 @@ export const FEATURED_PRODUCT_SLUGS = new Set<string>([
   "zodiac-tornax-gt3220-robot-piscinas-9x4",
   "intex-small-frame-260x160x65-piscina-desmontable-rectangular",
   "piscina-desmontable-redonda-acero-366x99-depuradora-cartucho",
+  "zodiac-cnx-2020-robot-limpiafondos-electrico-10x5",
+  "zodiac-of-4220-iq-robot-limpiafondos-bateria",
+  "intex-piscina-hinchable-infantil-147x33-cool-dots",
   "intex-cobertor-piscina-redonda-366-cm-todas-temporadas",
   "pooltester-kit-ph-cloro-bromo-40-pastillas",
 ]);
