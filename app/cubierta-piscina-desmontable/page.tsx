@@ -263,7 +263,8 @@ export default function CubiertaPiscinaPage() {
           </ol>
           <p>
             Si buscas cubierta por diámetro, en Decathlon hay modelos para piscinas redondas: la{" "}
-            <Link href="/tienda/piscinas-desmontables/cubierta-invierno-piscina-redonda-460-decathlon" className="text-sky-700 hover:underline">cubierta de invierno de 460 cm</Link>,{" "}
+            <Link href="/tienda/piscinas-desmontables/cubierta-invierno-piscina-redonda-240-decathlon" className="text-sky-700 hover:underline">cubierta de invierno de 240 cm</Link>, la{" "}
+            <Link href="/tienda/piscinas-desmontables/cubierta-invierno-piscina-redonda-460-decathlon" className="text-sky-700 hover:underline">de 460 cm</Link>,{" "}
             la <Link href="/tienda/piscinas-desmontables/cubierta-invierno-piscina-redonda-550-decathlon" className="text-sky-700 hover:underline">de 550 cm</Link>,{" "}
             la <Link href="/tienda/piscinas-desmontables/cubierta-isotermica-gre-piscina-redonda-460-decathlon" className="text-sky-700 hover:underline">isotérmica GRE de 460 cm</Link> y la{" "}
             <Link href="/tienda/piscinas-desmontables/cubierta-verano-gre-piscina-acero-300-decathlon" className="text-sky-700 hover:underline">cubierta de verano GRE de 300 cm</Link> para piscinas de acero.
