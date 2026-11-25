@@ -108,6 +108,7 @@ export const FEATURED_PRODUCT_SLUGS = new Set<string>([
   "zodiac-cnx-2020-robot-limpiafondos-electrico-10x5",
   "zodiac-of-4220-iq-robot-limpiafondos-bateria",
   "intex-piscina-hinchable-infantil-147x33-cool-dots",
+  "cubierta-invierno-piscina-redonda-240-decathlon",
   "cubierta-invierno-piscina-redonda-460-decathlon",
   "cubierta-invierno-piscina-redonda-550-decathlon",
   "cubierta-isotermica-gre-piscina-redonda-460-decathlon",

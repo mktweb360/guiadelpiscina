@@ -2796,6 +2796,24 @@ export const products: Product[] = [
     cons: ["Solo sirve para piscinas de acero de 300 cm de diámetro","La ficha no indica que soporte el peso de una persona: no la uses como protección para niños","No hemos probado el producto: la información procede de la ficha de Decathlon"],
     specs: { "Marca": "GRE", "Tipo": "Cubierta de verano", "Espesor": "180 micras", "Diámetro": "300 cm", "Fijación": "Rápida" },
   },
+  {
+    slug: "cubierta-invierno-piscina-redonda-240-decathlon",
+    // Comprobada en decathlon.es el 25/11/2026: botón «Añadir a la cesta», sin «Agotado», vendida y enviada por Decathlon. Datos solo de la ficha de Decathlon.
+    name: "Cubierta de Invierno para Piscinas Redondas Ø240 cm",
+    offers: [{ store: "decathlon", path: "cubierta-de-invierno-para-piscinas-redondas-de-medida-o240-cm-cd/X8986441/m8986441" }],
+    category: "Piscinas desmontables",
+    categorySlug: "piscinas-desmontables",
+    categoryName: "Piscinas desmontables",
+    price: "Consultar precio",
+    priceMin: 0,
+    rating: 0,
+    reviewCount: 0,
+    shortDescription: "Cubierta de invierno para piscinas desmontables redondas de 240 cm de diámetro, de la marca GRE, que ayuda a mantener el agua en buen estado.",
+    fullDescription: "Cubierta de invierno de la marca GRE, vendida en Decathlon, para piscinas desmontables redondas de 240 cm de diámetro. Según la ficha, ayuda a mantener el agua en buen estado y disminuye la evaporación, con el consiguiente ahorro de agua. No se ha probado el producto.",
+    pros: ["Vendida y enviada por Decathlon","Pensada para piscinas redondas de 240 cm de diámetro","Reduce la evaporación del agua, según la ficha","Marca GRE"],
+    cons: ["Solo sirve para piscinas redondas de 240 cm de diámetro","La ficha no indica que soporte el peso de una persona: no la uses como protección para niños","No hemos probado el producto: la información procede de la ficha de Decathlon"],
+    specs: { "Tipo": "Cubierta de invierno", "Forma": "Redonda", "Diámetro": "240 cm", "Marca": "GRE" },
+  },
 ];
 
 export function getProductsByCategory(categorySlug: string): Product[] {
