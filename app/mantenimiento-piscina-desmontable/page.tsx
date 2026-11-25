@@ -210,7 +210,7 @@ export default function MantenimientoPiscinaPage() {
           <ol>
             <li><strong>Medir el pH y el cloro</strong> con tiras reactivas o medidor digital.</li>
             <li><strong>Ajustar si es necesario:</strong> corrige el pH con pH+ o pH−, y añade cloro si está por debajo de 1 ppm.</li>
-            <li><strong>Limpiar las paredes</strong> con un cepillo de piscina para desprender la suciedad adherida antes de que se convierta en algas.</li>
+            <li><strong>Limpiar las paredes</strong> con un <Link href="/tienda/piscinas-desmontables/intex-cepillo-pared-curvo-40-cm" className="text-sky-700 hover:underline">cepillo de pared</Link> para desprender la suciedad adherida antes de que se convierta en algas.</li>
             <li><strong>Limpiar o sustituir el filtro</strong> (cartucho o retrolavado de arena, según tu sistema).</li>
             <li><strong>Vaciar la cesta del <Link href="/skimmer-piscina-automatico-solar" className="text-sky-600 hover:underline">skimmer</Link></strong> si tu piscina tiene uno, para retirar hojas e insectos.</li>
             <li><strong>Revisar el clorador salino</strong> (si lo usas): comprobar el nivel de sal y que las placas de electrólisis estén limpias.</li>

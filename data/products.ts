@@ -141,6 +141,24 @@ export const products: Product[] = [
     badge: "Mantenimiento sencillo",
   },
   {
+    slug: "intex-cepillo-pared-curvo-40-cm",
+    // Comprobada en amazon.es el 25/11/2026: botón de compra activo, vendida y enviada por Amazon. Datos solo de la ficha de Amazon.
+    name: "Intex Cepillo de pared redondo curvo de 40,6 cm (0775448)",
+    asin: "B00O4CCZIK",
+    category: "Piscinas desmontables",
+    categorySlug: "piscinas-desmontables",
+    categoryName: "Piscinas desmontables",
+    price: "Consultar precio",
+    priceMin: 0,
+    rating: 0,
+    reviewCount: 0,
+    shortDescription: "Cepillo curvo de 40,6 cm para limpiar paredes y suelo de piscinas Intex; el mango telescópico se vende aparte.",
+    fullDescription: "Cepillo de pared de Intex, de forma curvada y 40,6 cm de ancho, que según la ficha de Amazon sirve para eliminar con rapidez algas y suciedad de las paredes y del suelo de la piscina. Es compatible con el mango telescópico de Intex de 29,8 mm de diámetro, que no está incluido. Pesa 200 gramos. No lo hemos probado: la información procede de la ficha de Amazon.",
+    pros: ["Vendido y enviado por Amazon", "Forma curvada para paredes y suelo", "Ligero: 200 gramos", "Compatible con el mango telescópico Intex de 29,8 mm"],
+    cons: ["El mango telescópico no está incluido", "Pensado para piscinas Intex; no hemos comprobado su encaje con otros mangos", "No lo hemos probado: la información procede de la ficha de Amazon"],
+    specs: { "Marca": "Intex", "Referencia": "0775448", "Ancho": "40,6 cm", "Peso": "200 g", "Mango compatible": "Telescópico Intex de 29,8 mm (no incluido)", "Vendido por": "Amazon" },
+  },
+  {
     slug: "intex-28648-depuradora-arena-14",
     image: "/images/products/intex-28648-depuradora-arena-14.jpg",
     // 18/10/2026: B00FA2KILO (28648) ya solo tenía «otros vendedores»; se cambia por la Intex 55227, la referencia actual de 10.500 l/h y tanque de 36 cm (14").
