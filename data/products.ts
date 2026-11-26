@@ -159,6 +159,24 @@ export const products: Product[] = [
     specs: { "Marca": "Intex", "Referencia": "0775448", "Ancho": "40,6 cm", "Peso": "200 g", "Mango compatible": "Telescópico Intex de 29,8 mm (no incluido)", "Vendido por": "Amazon" },
   },
   {
+    slug: "intex-28270np-piscina-small-frame-220x150",
+    // Comprobada en amazon.es el 26/11/2026: botón de compra activo, vendida y enviada por Amazon. Datos solo de la ficha de Amazon.
+    name: "Intex 28270NP Piscina Desmontable Small Frame 220 x 150 x 60 cm",
+    asin: "B004TTDYLA",
+    category: "Piscinas desmontables",
+    categorySlug: "piscinas-desmontables",
+    categoryName: "Piscinas desmontables",
+    price: "Consultar precio",
+    priceMin: 0,
+    rating: 0,
+    reviewCount: 0,
+    shortDescription: "Piscina rectangular tubular de 220 × 150 × 60 cm y 1.662 litros, para dos personas y espacios pequeños; no incluye depuradora.",
+    fullDescription: "La más pequeña de la gama Small Frame de Intex: 220 × 150 × 60 cm y 1.662 litros, para dos personas. Según la ficha de Amazon, la estructura es tubular, de acero con epoxi antióxido, se monta en unos 30 minutos y la lona es tricapa Super-Tough. No incluye depuradora, pero trae conexiones de 32 mm para adaptarla, y el tapón de vaciado se conecta a una manguera de jardín. Por tamaño, encaja en terrazas y patios pequeños. No la hemos probado: la información procede de la ficha de Amazon.",
+    pros: ["Vendida y enviada por Amazon", "Rectangular y compacta: encaja en espacios pequeños", "Montaje en unos 30 minutos, según la ficha", "Conexiones de 32 mm para añadir una depuradora"],
+    cons: ["No incluye depuradora", "Solo 1.662 litros y 60 cm de altura: pensada para dos personas, no para nadar", "No la hemos probado: la información procede de la ficha de Amazon"],
+    specs: { "Marca": "Intex", "Modelo": "28270NP", "Medidas": "220 × 150 × 60 cm", "Capacidad": "1.662 litros", "Capacidad de personas": "2", "Depuradora": "No incluida", "Conexiones": "32 mm", "Vendido por": "Amazon" },
+  },
+  {
     slug: "intex-28648-depuradora-arena-14",
     image: "/images/products/intex-28648-depuradora-arena-14.jpg",
     // 18/10/2026: B00FA2KILO (28648) ya solo tenía «otros vendedores»; se cambia por la Intex 55227, la referencia actual de 10.500 l/h y tanque de 36 cm (14").
