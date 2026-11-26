@@ -46,6 +46,7 @@ const quickPicks = [
 // Datos de la tabla: fichas de Amazon.es (18/10/2026). «—» = dato que la ficha no indica.
 const tabla = [
   { slug: "intex-c330-depuradora-cartucho-1250", modelo: "Intex C330", tipo: "Cartucho (tipo H)", caudal: "1.250 l/h", piscina: "7.900 L", conexion: "32 mm", potencia: "—" },
+  { slug: "intex-c530-depuradora-cartucho-2006-55275", modelo: "Intex C530", tipo: "Cartucho (tipo A)", caudal: "2.006 l/h", piscina: "13.600 L", conexion: "32 mm", potencia: "—" },
   { slug: "intex-55249-depuradora-arena-3500", modelo: "Intex 55249", tipo: "Arena", caudal: "3.500 l/h", piscina: "17.000 L", conexion: "32 mm", potencia: "90 W" },
   { slug: "gre-ar125-depuradora-cartucho-3800", modelo: "Gre AR125", tipo: "Cartucho", caudal: "3.800 l/h", piscina: "—", conexion: "—", potencia: "70 W" },
   { slug: "gre-770803-depuradora-arena-4000", modelo: "Gre 770803", tipo: "Arena", caudal: "4.000 l/h", piscina: "—", conexion: "—", potencia: "220 W" },
