@@ -2695,6 +2695,7 @@ export const products: Product[] = [
   },
   {
     slug: "zodiac-pixel-op-3220-robot-bateria-piscinas-7x5",
+    image: "https://contents.mediadecathlon.com/p2908276/k$5275f5c9b85fe1f36c82bfbfc3871671/picture.jpg?f=800x800",
     // Comprobada en decathlon.es el 24/11/2026: botón «Añadir a la cesta», sin «Agotado», vendida y enviada por Decathlon. Datos solo de la ficha de Decathlon.
     name: "Zodiac Pixel OP 3220 Robot Limpiafondos a Batería, Piscinas hasta 7x5 m",
     offers: [{ store: "decathlon", path: "robot-zodiac-pixel-op-3220-bateria-limpia-piscinas-7x5m/X8986596/m8986596" }],
@@ -2713,6 +2714,7 @@ export const products: Product[] = [
   },
   {
     slug: "zodiac-tornax-gt3220-robot-piscinas-9x4",
+    image: "https://contents.mediadecathlon.com/p2908340/k$aead5098315e03b7815c3a648f412ccd/picture.jpg?f=800x800",
     // Comprobada en decathlon.es el 24/11/2026: botón «Añadir a la cesta», sin «Agotado», vendida y enviada por Decathlon. Datos solo de la ficha de Decathlon.
     name: "Zodiac Tornax GT3220 Robot Limpiafondos para Piscinas hasta 9x4 m",
     offers: [{ store: "decathlon", path: "robot-zodiac-tornax-gt3220-limpieza-eficaz-piscinas-9x4m-cd/X8986410/m8986410" }],
@@ -2731,6 +2733,7 @@ export const products: Product[] = [
   },
   {
     slug: "intex-small-frame-260x160x65-piscina-desmontable-rectangular",
+    image: "https://contents.mediadecathlon.com/p1879958/k$27e8c8a4cbdcd2f1bc3ce49f373d4a37/picture.jpg?f=800x800",
     // Comprobada en decathlon.es el 24/11/2026: botón «Añadir a la cesta», sin «Agotado», vendida y enviada por Decathlon. Datos solo de la ficha de Decathlon.
     name: "Intex Small Frame 260 x 160 x 65 cm Piscina Desmontable Rectangular",
     offers: [{ store: "decathlon", path: "piscina-desmontable-rectangular-familiar-intex-260x160x65cm-2282l-cd/X8620199/m8620199" }],
@@ -2749,6 +2752,7 @@ export const products: Product[] = [
   },
   {
     slug: "piscina-desmontable-redonda-acero-366x99-depuradora-cartucho",
+    image: "https://contents.mediadecathlon.com/p3141074/k$ba835f5b7382a2da7ac74b813562d4ab/picture.jpg?f=800x800",
     // Comprobada en decathlon.es el 24/11/2026: botón «Añadir a la cesta», sin «Agotado», vendida y enviada por Decathlon. Datos solo de la ficha de Decathlon.
     name: "Piscina Desmontable Redonda de Acero 366 x 99 cm con Depuradora de Cartucho",
     offers: [{ store: "decathlon", path: "piscina-desmontable-redonda-acero-d366x99cm-8-592l-cd/X9054294/m9054294" }],
@@ -2767,6 +2771,7 @@ export const products: Product[] = [
   },
   {
     slug: "zodiac-cnx-2020-robot-limpiafondos-electrico-10x5",
+    image: "https://contents.mediadecathlon.com/p2910567/k$d8d08b3abe8732cd493db27248a86b79/picture.jpg?f=800x800",
     // Comprobada en decathlon.es el 24/11/2026: botón «Añadir a la cesta», sin «Agotado», vendida y enviada por Decathlon. Datos solo de la ficha de Decathlon.
     name: "Zodiac CNX 2020 Robot Limpiafondos Eléctrico para Piscinas hasta 10x5 m",
     offers: [{ store: "decathlon", path: "robot-zodiac-cnx-2020-para-piscinas-hasta-10x5m-limpieza-electrica/X8986381/m8986381" }],
@@ -2785,6 +2790,7 @@ export const products: Product[] = [
   },
   {
     slug: "zodiac-of-4220-iq-robot-limpiafondos-bateria",
+    image: "https://contents.mediadecathlon.com/p3201738/k$2b05f8052319040ab962eaacc4cb5517/picture.jpg?f=800x800",
     // Comprobada en decathlon.es el 24/11/2026: botón «Añadir a la cesta», sin «Agotado», vendida y enviada por Decathlon. Datos solo de la ficha de Decathlon.
     name: "Zodiac OF 4220 IQ Robot Limpiafondos Inalámbrico a Batería",
     offers: [{ store: "decathlon", path: "robot-limpiafondos-zodiac-of-4220-iq-a-bateria-cd/X9055632/m9055632" }],
@@ -2803,6 +2809,7 @@ export const products: Product[] = [
   },
   {
     slug: "intex-piscina-hinchable-infantil-147x33-cool-dots",
+    image: "https://contents.mediadecathlon.com/p3141944/k$2b51e7f63f65ec8dd69b2b35dc6d2933/picture.jpg?f=800x800",
     // Comprobada en decathlon.es el 24/11/2026: botón «Añadir a la cesta», sin «Agotado», vendida y enviada por Decathlon. Datos solo de la ficha de Decathlon.
     name: "Intex Cool Dots Piscina Hinchable Infantil 147 x 33 cm",
     offers: [{ store: "decathlon", path: "piscina-hinchable-infantil-intex-multicolor-cd/X9054808/m9054808" }],
@@ -2821,6 +2828,7 @@ export const products: Product[] = [
   },
   {
     slug: "cubierta-invierno-piscina-redonda-460-decathlon",
+    image: "https://contents.mediadecathlon.com/p2907777/k$240284cb365364c8526036e04c56f619/picture.jpg?f=800x800",
     // Comprobada en decathlon.es el 24/11/2026: botón «Añadir a la cesta», sin «Agotado», vendida y enviada por Decathlon. Datos solo de la ficha de Decathlon.
     name: "Cubierta de Invierno para Piscinas Redondas Ø460 cm",
     offers: [{ store: "decathlon", path: "cubierta-de-invierno-para-piscinas-redondas-de-medida-o460-cm-cd/X8986438/m8986438" }],
@@ -2839,6 +2847,7 @@ export const products: Product[] = [
   },
   {
     slug: "cubierta-invierno-piscina-redonda-550-decathlon",
+    image: "https://contents.mediadecathlon.com/p2907777/k$240284cb365364c8526036e04c56f619/picture.jpg?f=800x800",
     // Comprobada en decathlon.es el 24/11/2026: botón «Añadir a la cesta», sin «Agotado», vendida y enviada por Decathlon. Datos solo de la ficha de Decathlon.
     name: "Cubierta de Invierno para Piscinas Redondas Ø550 cm",
     offers: [{ store: "decathlon", path: "cubierta-de-invierno-para-piscinas-redondas-de-medida-o550-cm-cd/X8986437/m8986437" }],
@@ -2857,6 +2866,7 @@ export const products: Product[] = [
   },
   {
     slug: "cubierta-isotermica-gre-piscina-redonda-460-decathlon",
+    image: "https://contents.mediadecathlon.com/p2905997/k$65b8f081a449a04ba19903b26824d779/picture.jpg?f=800x800",
     // Comprobada en decathlon.es el 24/11/2026: botón «Añadir a la cesta», sin «Agotado», vendida y enviada por Decathlon. Datos solo de la ficha de Decathlon.
     name: "Cubierta Isotérmica GRE para Piscinas Redondas Ø460 cm",
     offers: [{ store: "decathlon", path: "cubierta-isotermica-gre-para-piscinas-redondas-de-o-460-cm-cd/X8986429/m8986429" }],
@@ -2875,6 +2885,7 @@ export const products: Product[] = [
   },
   {
     slug: "cubierta-verano-gre-piscina-acero-300-decathlon",
+    image: "https://contents.mediadecathlon.com/p3156817/k$a84c73cd704398cca8320a832672a7ba/picture.jpg?f=800x800",
     // Comprobada en decathlon.es el 24/11/2026: botón «Añadir a la cesta», sin «Agotado», vendida y enviada por Decathlon. Datos solo de la ficha de Decathlon.
     name: "Cubierta de Verano GRE para Piscina de Acero Ø300 cm",
     offers: [{ store: "decathlon", path: "cubierta-de-verano-gre-para-piscina-acero-de-o-300-cm-cd/X9055187/m9055187" }],
@@ -2893,6 +2904,7 @@ export const products: Product[] = [
   },
   {
     slug: "cubierta-invierno-piscina-redonda-240-decathlon",
+    image: "https://contents.mediadecathlon.com/p2907777/k$240284cb365364c8526036e04c56f619/picture.jpg?f=800x800",
     // Comprobada en decathlon.es el 25/11/2026: botón «Añadir a la cesta», sin «Agotado», vendida y enviada por Decathlon. Datos solo de la ficha de Decathlon.
     name: "Cubierta de Invierno para Piscinas Redondas Ø240 cm",
     offers: [{ store: "decathlon", path: "cubierta-de-invierno-para-piscinas-redondas-de-medida-o240-cm-cd/X8986441/m8986441" }],
