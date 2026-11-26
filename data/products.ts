@@ -1678,6 +1678,7 @@ export const products: Product[] = [
   },
   {
     slug: "qp-vidrio-filtrante-20kg",
+    unavailable: "2026-11-26",
     name: "Productos QP Vidrio Filtrante para Depuradora de Piscina, Saco de 20 kg",
     asin: "B00UCC45PM",
     category: "Depuradoras de piscina",
@@ -1764,6 +1765,7 @@ export const products: Product[] = [
   },
   {
     slug: "intex-26726np-prism-frame-redonda-457x122",
+    unavailable: "2026-11-26",
     name: "Intex 26726NP Piscina Prism Frame Redonda 457 × 122 cm con Depuradora, Escalera, Tapiz y Cobertor",
     asin: "B07LFGZ15T",
     category: "Piscinas desmontables",
@@ -1782,6 +1784,7 @@ export const products: Product[] = [
   // 18/10/2026: piscinas desmontables rectangulares (guía /piscina-desmontable-rectangular)
   {
     slug: "intex-26784np-prism-frame-rectangular-300x175x80",
+    unavailable: "2026-11-26",
     name: "Intex 26784NP Piscina Rectangular Prism Frame 300 x 175 x 80 cm con Depuradora",
     asin: "B07FB8274W",
     category: "Piscinas desmontables",
@@ -1868,6 +1871,7 @@ export const products: Product[] = [
   // 18/10/2026 (ronda 2): depuradoras verificadas hoy en Amazon.es con botón de compra. Datos de sus fichas.
   {
     slug: "intex-c330-depuradora-cartucho-1250",
+    unavailable: "2026-11-26",
     name: "Intex C330 Depuradora de Cartucho 1.250 l/h Filtro Tipo H",
     asin: "B0DSPYGS9Z",
     category: "Depuradoras",
@@ -1937,6 +1941,7 @@ export const products: Product[] = [
   // 19/10/2026 (ronda 3): floculantes y clarificante verificados hoy en Amazon.es con botón de compra. Datos de sus fichas.
   {
     slug: "astralpool-floculante-solido-saquitos-8x125g",
+    unavailable: "2026-11-26",
     name: "AstralPool Floculante Sólido en Saquitos (8 × 125 g, 1 kg)",
     asin: "B0CLH5QRK7",
     category: "Tratamiento del agua",

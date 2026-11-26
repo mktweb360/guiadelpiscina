@@ -4,6 +4,11 @@ import type { NextConfig } from "next";
 // 17/10/2026: 8 destinos que apuntaban a fichas marcadas `unavailable` (doble salto 301 + redirect de página) reapuntados a producto vivo/categoría.
 // Destino: producto vivo equivalente o, si no lo hay, categoría padre / artículo relacionado. Mantener al retirar URLs en el futuro.
 const productRedirects = [
+  { source: "/tienda/depuradoras/qp-vidrio-filtrante-20kg", destination: "/tienda/depuradoras/tecno-prodist-arena-silex-10kg", permanent: true },
+  { source: "/tienda/piscinas-desmontables/intex-26726np-prism-frame-redonda-457x122", destination: "/tienda/piscinas-desmontables/intex-28166-easy-set-457x107", permanent: true },
+  { source: "/tienda/piscinas-desmontables/intex-26784np-prism-frame-rectangular-300x175x80", destination: "/tienda/piscinas-desmontables/intex-28272np-piscina-small-frame-300x200", permanent: true },
+  { source: "/tienda/depuradoras/intex-c330-depuradora-cartucho-1250", destination: "/tienda/depuradoras/intex-c2500-depuradora-cartucho", permanent: true },
+  { source: "/tienda/tratamiento-agua/astralpool-floculante-solido-saquitos-8x125g", destination: "/tienda/tratamiento-agua/ctx-floculante-cartuchos-8x125g", permanent: true },
   { source: "/tienda/depuradoras/intex-26646-depuradora-arena", destination: "/tienda/depuradoras/intex-28648-depuradora-arena-14", permanent: true },
   { source: "/tienda/depuradoras/intex-28646gs-depuradora-arena", destination: "/tienda/depuradoras/intex-28648-depuradora-arena-14", permanent: true },
   { source: "/tienda/depuradoras/bestway-flowclear-depuradora-arena", destination: "/tienda/depuradoras/bestway-58497-depuradora-arena-5678", permanent: true },
