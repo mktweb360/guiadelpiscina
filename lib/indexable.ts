@@ -19,6 +19,7 @@ export const FEATURED_PRODUCT_SLUGS = new Set<string>([
   "aquachek-tiras-4-en-1-cloro-ph",
   "gre-770803-depuradora-arena-4000",
   "intex-c2500-depuradora-cartucho",
+  "intex-c530-depuradora-cartucho-2006-55275",
   "vevor-cubierta-solar-piscina-732x366",
   "pack-2-tumbonas-gravedad-cero-bandeja",
   "gre-ar125-depuradora-cartucho-3800",
