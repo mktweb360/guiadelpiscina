@@ -1,5 +1,1355 @@
 {
- "generatedAt": null,
+ "generatedAt": "2026-11-26",
  "marketplace": "www.amazon.es",
- "items": {}
+ "items": {
+  "B0001E3RZ0": {
+   "status": "ok",
+   "title": "Gardena Temporizador, Estándar, talla única",
+   "image": "https://m.media-amazon.com/images/I/31p2En6trqL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK_SCARCE",
+    "message": "Sólo queda(n) 4 en stock."
+   },
+   "merchant": "SD-Handel GmbH",
+   "checkedAt": "2026-11-26"
+  },
+  "B0002VZ2DW": {
+   "status": "ok",
+   "title": "Intex 56007 - Piscina Hinchable, Ø305x76 cm, 3.853 litros, Piscina Redonda, con depuradora Cartucho, 1.250 litros/Hora, Filtro Cartucho Tipo H, para 3 Personas",
+   "image": "https://m.media-amazon.com/images/I/41qZ1bBcH1L._SL500_.jpg",
+   "availability": {
+    "type": "OUT_OF_STOCK",
+    "message": "No disponible."
+   },
+   "checkedAt": "2026-11-26"
+  },
+  "B000XO2RV8": {
+   "status": "ok",
+   "title": "Intex 28273NP Small Frame - Piscina Desmontable Tubular, 450 x 220 x 84 cm, 7.127 litros, Color Azul",
+   "image": "https://m.media-amazon.com/images/I/31HEbTzdsJL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "Disponible para envío en 1 o 2 días"
+   },
+   "merchant": "Amazon",
+   "checkedAt": "2026-11-26"
+  },
+  "B001IWNDDA": {
+   "status": "ok",
+   "title": "Intex 28272NP Small Rectangular Frame - Piscina Desmontable, 300 x 200 x 75 cm, 3.834 litros, Color Azul",
+   "image": "https://m.media-amazon.com/images/I/31587OOdfEL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Amazon",
+   "checkedAt": "2026-11-26"
+  },
+  "B003TQM9XS": {
+   "status": "ok",
+   "title": "Aquachek AQC-470-0005 - Producto para Tratamiento de Aguas, Color Amarillo / Azul, Tiras de Prueba, Plástico, 50",
+   "image": "https://m.media-amazon.com/images/I/41ANXBj-aZL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "VIMAI",
+   "checkedAt": "2026-11-26"
+  },
+  "B004DCANOO": {
+   "status": "ok",
+   "title": "Intex 28075 - Escalera para Piscinas de Altura de 91 hasta 107 cm, Acero",
+   "image": "https://m.media-amazon.com/images/I/316fJdxj88L._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Amazon",
+   "checkedAt": "2026-11-26"
+  },
+  "B004DCANOY": {
+   "status": "ok",
+   "title": "Intex Escalera ESCALERAS Desmontables (para Piscinas DE 52 Pulgadas), Gris, 130x33x182 cm",
+   "image": "https://m.media-amazon.com/images/I/31ATbeVKYwL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Distria",
+   "checkedAt": "2026-11-26"
+  },
+  "B004TTDYLA": {
+   "status": "ok",
+   "title": "Intex 28270NP Small Frame - Piscina Desmontable, 220 x 150 x 60 cm, 1.662 litros, Color Azul",
+   "image": "https://m.media-amazon.com/images/I/31+SfQNrlCL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "rotex-italia",
+   "checkedAt": "2026-11-26"
+  },
+  "B005TUK0R4": {
+   "status": "ok",
+   "title": "Intex 29003-PACK 3 Cartuchos Filtro Tipo A",
+   "image": "https://m.media-amazon.com/images/I/41EDm1txHrL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Amazon",
+   "checkedAt": "2026-11-26"
+  },
+  "B00BQYSH1I": {
+   "status": "ok",
+   "title": "MONZANA Depuradora Piscina 10.200 L/h | Filtro Arena 35.000L, Adaptador Ø32-38mm, Indicador Presión, 400W Bomba, Válvula 7 Funciones Filtrado, Depósito 25L",
+   "image": "https://m.media-amazon.com/images/I/41+LCNUl2RL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "DEUBA-ES",
+   "checkedAt": "2026-11-26"
+  },
+  "B00DVKFBWI": {
+   "status": "ok",
+   "title": "Gre AR109 Escalera acero galvanizado piscinas elevadas antidesliz 98 cm",
+   "image": "https://m.media-amazon.com/images/I/41LEbBdcSQL._SL500_.jpg",
+   "availability": {
+    "type": "LEADTIME",
+    "message": "Envío en 2 a 3 días"
+   },
+   "merchant": "TradeINN",
+   "checkedAt": "2026-11-26"
+  },
+  "B00DVKH7AM": {
+   "status": "ok",
+   "title": "Gre AR125 - Filtro de Cartucho para Piscinas elevadas. con filtración de hasta 3.800 l/h y 70W de Potencia.",
+   "image": "https://m.media-amazon.com/images/I/41I9+zF1KHL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK_SCARCE",
+    "message": "Sólo queda(n) 2 en stock."
+   },
+   "merchant": "Amazon",
+   "checkedAt": "2026-11-26"
+  },
+  "B00G9YZ2Y0": {
+   "status": "ok",
+   "title": "INTEX Depuradora de cartucho 5.678 l/h, filtros tipo A",
+   "image": "https://m.media-amazon.com/images/I/31CEdj8dRpL._SL500_.jpg",
+   "availability": {
+    "type": "LEADTIME",
+    "message": "Envío en 2 a 3 días"
+   },
+   "merchant": "Miganeo",
+   "checkedAt": "2026-11-26"
+  },
+  "B00G9YZCL8": {
+   "status": "ok",
+   "title": "Intex 28646GS Depuradora de Arena Krystal Clear de 6.000 L/h",
+   "image": "https://m.media-amazon.com/images/I/31CekZau0rL._SL500_.jpg",
+   "availability": {
+    "type": "OUT_OF_STOCK",
+    "message": "No disponible."
+   },
+   "checkedAt": "2026-11-26"
+  },
+  "B00G9Z5SN4": {
+   "status": "ok",
+   "title": "Intex 28166-PISCINA Easy Set 457X107CM Set Completo 12430L",
+   "image": "https://m.media-amazon.com/images/I/31e+DGFKLDL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Amazon",
+   "checkedAt": "2026-11-26"
+  },
+  "B00I165R4Y": {
+   "status": "no-accesible",
+   "checkedAt": "2026-11-26"
+  },
+  "B00I476HLC": {
+   "status": "ok",
+   "title": "Granulado para corrección de un pH inestable debido a la baja alcalinidad (TA inferior a 80 mg/l) de Alca-Plus 5,0 kg de Bayrol",
+   "image": "https://m.media-amazon.com/images/I/41noYUH3cpL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Sumabi, S.L.",
+   "checkedAt": "2026-11-26"
+  },
+  "B00O4CCZIK": {
+   "status": "ok",
+   "title": "Intex - Cepillo Redondo Curvo - 40,6 cm (0775448)",
+   "image": "https://m.media-amazon.com/images/I/319M5xhQZ+L._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Amazon",
+   "checkedAt": "2026-11-26"
+  },
+  "B00P84U97C": {
+   "status": "ok",
+   "title": "Intex Cartucho de filtro tipo H para piscinas",
+   "image": "https://m.media-amazon.com/images/I/31qFSgrDJiL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Amazon US",
+   "checkedAt": "2026-11-26"
+  },
+  "B00PZYVSSE": {
+   "status": "ok",
+   "title": "Vivere UHSDO8--24 - Hamaca con soporte incluido y funda de transporte, multicolor, 250 cm, doble, diseño Oasis",
+   "image": "https://m.media-amazon.com/images/I/41BIIrSbx4L._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Amazon",
+   "checkedAt": "2026-11-26"
+  },
+  "B00UCC45PM": {
+   "status": "ok",
+   "title": "Productos QP Saco de vidrio filtrante para piscinas, 20Kg - QP 500047",
+   "image": "https://m.media-amazon.com/images/I/51hiGBQcAvL._SL500_.jpg",
+   "availability": {
+    "type": "OUT_OF_STOCK",
+    "message": "No disponible."
+   },
+   "checkedAt": "2026-11-26"
+  },
+  "B0166L5CGS": {
+   "status": "ok",
+   "title": "Aqua Control C4099N Programador de Riego para Jardín, Para todo tipo de Grifos, Apertura a 0 Bar, Color Azul y Negro, 10 x 10 x 16 cm",
+   "image": "https://m.media-amazon.com/images/I/41kZ-KHLQJL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Amazon",
+   "checkedAt": "2026-11-26"
+  },
+  "B0195A925O": {
+   "status": "ok",
+   "title": "Intex Escalera Piscina escalones extraíbles 122 cm (55058) | Peldaños exteriores desmontables con 2 cierres plegables aseguran el acceso, peldaños antideslizantes y tapas protectoras",
+   "image": "https://m.media-amazon.com/images/I/31sgA0PxQJL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Amore Animale Shop",
+   "checkedAt": "2026-11-26"
+  },
+  "B01ARYW8C6": {
+   "status": "ok",
+   "title": "INTEX 28037 - Cobertor Piscina Rectangular Prism Frame 400x200 cm, Color Azul",
+   "image": "https://m.media-amazon.com/images/I/31u6dtQSefL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Amazon",
+   "checkedAt": "2026-11-26"
+  },
+  "B01BIWN1YU": {
+   "status": "ok",
+   "title": "Gardena Smart - Conjunto de riego inteligentem Color Gris",
+   "image": "https://m.media-amazon.com/images/I/31RG3F162yL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK_SCARCE",
+    "message": "Sólo queda(n) 1 en stock."
+   },
+   "merchant": "Zeitoun Cie",
+   "checkedAt": "2026-11-26"
+  },
+  "B01CGKC8QU": {
+   "status": "ok",
+   "title": "Gre Floculante 5 L líquido clarificador agua transparente piscinas | Floculante líquido para mejorar la transparencia del agua de la piscina.",
+   "image": "https://m.media-amazon.com/images/I/31TYhu7y0PL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "J_COMMMERCE",
+   "checkedAt": "2026-11-26"
+  },
+  "B01G9828SS": {
+   "status": "ok",
+   "title": "Tamar - Cloro 5 Acciones, Tabletas Multifuncion de 200 grs, Bote de 5 Kilos",
+   "image": "https://m.media-amazon.com/images/I/41GtaBCqVlL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "INDUSTRIAS QUIMICAS TAMAR",
+   "checkedAt": "2026-11-26"
+  },
+  "B01M678EP4": {
+   "status": "ok",
+   "title": "Bayrol – Superklar – Clarificante líquido 0,5 l by Bayrol",
+   "image": "https://m.media-amazon.com/images/I/31KRQPfuK3L._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "PISCIVAL Tecnología en Piscinas",
+   "checkedAt": "2026-11-26"
+  },
+  "B06Y1S1H9Z": {
+   "status": "ok",
+   "title": "DIACLOR Multi 5 ACCIONES 5 KG - Pastillas de Cloro para Piscinas envasadas Individualmente - 25 Pastillas de Cloro Lento (200 gr- 7,5 cm Diámetro) - Tratamiento Completo 5 Efectos - SIN Cobre -",
+   "image": "https://m.media-amazon.com/images/I/410ClYq8t1L._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "King Kong Chemical",
+   "checkedAt": "2026-11-26"
+  },
+  "B0747ZPBZ9": {
+   "status": "ok",
+   "title": "Floculante CTX en cartuchos 8 unidades - 1 kg",
+   "image": "https://m.media-amazon.com/images/I/51sq0ulg2gL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "PISCIVAL Tecnología en Piscinas",
+   "checkedAt": "2026-11-26"
+  },
+  "B074FV73LX": {
+   "status": "ok",
+   "title": "NortemBio Pool pH Minus, Reductor pH Liquido, Disminuir pH Piscina y SPA, Regulador y Equilibrador pH, Mejora la Calidad del Agua de Forma 100% Natural 1 L",
+   "image": "https://m.media-amazon.com/images/I/41P+mzvv-XL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Nortem BioGroup",
+   "checkedAt": "2026-11-26"
+  },
+  "B078GX338Q": {
+   "status": "ok",
+   "title": "Tamar Invernador Liquido para Piscinas, Invernaje y conservación, alguicida, 5 litros",
+   "image": "https://m.media-amazon.com/images/I/41hBYbwjygL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "INDUSTRIAS QUIMICAS TAMAR",
+   "checkedAt": "2026-11-26"
+  },
+  "B078H7WSWK": {
+   "status": "ok",
+   "title": "Tamar Cloro 5 Acciones, Tabletas Multifuncion de 20 grs, Especial para Mini Piscinas, 1 Kilo",
+   "image": "https://m.media-amazon.com/images/I/41lY1LHF-vL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "tiendadeljardin",
+   "checkedAt": "2026-11-26"
+  },
+  "B079X4G93Q": {
+   "status": "ok",
+   "title": "Tamar Cloro Choque 3 Acciones, granulado, recuperador Agua Piscina deteriorada, Alta solubilidad, desinfectante, antialgas y clarificante Grano 5 KG",
+   "image": "https://m.media-amazon.com/images/I/41tJZbcHosL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "INDUSTRIAS QUIMICAS TAMAR",
+   "checkedAt": "2026-11-26"
+  },
+  "B07BDLT4TC": {
+   "status": "ok",
+   "title": "Arebos Cubierta Solar para Piscina | Cobertor Solar | Manta Solar | 500 x 800 cm | 400 micras | Rectangula | Acortable | Azul",
+   "image": "https://m.media-amazon.com/images/I/51QO07sYs0L._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "AREBOS",
+   "checkedAt": "2026-11-26"
+  },
+  "B07DM1D1Y8": {
+   "status": "ok",
+   "title": "JARDIN202 - Césped Artificial Málaga PREMIUM 40mm - Cesped Artificial Terraza, Jardín y Exterior | Rollo 4x2 metros -",
+   "image": "https://m.media-amazon.com/images/I/41pFc0aBW2L._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Jardin202",
+   "checkedAt": "2026-11-26"
+  },
+  "B07F23NP37": {
+   "status": "ok",
+   "title": "Bestway 58515 - Depuradora de Arena 2,006 m3/h Conexión 32 mm",
+   "image": "https://m.media-amazon.com/images/I/31kxOxTpF8L._SL500_.jpg",
+   "availability": {
+    "type": "LEADTIME",
+    "message": "Envío en 2 a 3 días"
+   },
+   "merchant": "Ferrogal ferreterías (31º Aniversario)",
+   "checkedAt": "2026-11-26"
+  },
+  "B07F2FGMSG": {
+   "status": "ok",
+   "title": "BESTWAY 58497 - Depuradora de Arena 5.678 l/h Conexión 38 mm 230 W con Prefiltro con Tapa Roscada Apta para Arena de Silice de 0.45-0.85 con Cesta Tamiz para Piscinas de 1.100-42.300 L",
+   "image": "https://m.media-amazon.com/images/I/41fPpygU2EL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK_SCARCE",
+    "message": "Sólo queda(n) 1 en stock."
+   },
+   "merchant": "temesa",
+   "checkedAt": "2026-11-26"
+  },
+  "B07FB8274W": {
+   "status": "ok",
+   "title": "Intex 26784NP - Piscina Rectangular Prism Frame 300x175x80 cm con depuradora",
+   "image": "https://m.media-amazon.com/images/I/41+Q78I9kVS._SL500_.jpg",
+   "availability": {
+    "type": "OUT_OF_STOCK",
+    "message": "Agotado temporalmente."
+   },
+   "checkedAt": "2026-11-26"
+  },
+  "B07FB8QSJX": {
+   "status": "ok",
+   "title": "Intex 55227 - Depuradora de Arena Krystal Clear 10.500 L/H, depuradora Piscina Arena, Filtro Piscina, Bomba Piscina, para Piscinas Desmontables de hasta 57.500 L., 6 Funciones y Sistema de Bloqueo",
+   "image": "https://m.media-amazon.com/images/I/31Xxjnx0HrL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "rotex-italia",
+   "checkedAt": "2026-11-26"
+  },
+  "B07FB8XZ7Z": {
+   "status": "ok",
+   "title": "Intex 26352NP - Piscina Desmontable Ultra Frame 549 x 274 x 132 cm, 17.203 litros",
+   "image": "https://m.media-amazon.com/images/I/31twFDxL4KL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Distria",
+   "checkedAt": "2026-11-26"
+  },
+  "B07FB8Y2FD": {
+   "status": "ok",
+   "title": "INTEX 55212 - Piscina Rectangular Prisma Frame 488x244x107 cm + depuradora",
+   "image": "https://m.media-amazon.com/images/I/41QAGlmhsWS._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "Disponible para envío en 1 o 2 días"
+   },
+   "merchant": "Amazon",
+   "checkedAt": "2026-11-26"
+  },
+  "B07FBGSM8M": {
+   "status": "ok",
+   "title": "Intex 55225 - Depuradora de Arena Krystal Clear 5.700 L/H, depuradora piscina arena, filtro piscina, bomba piscina, Para piscinas desmontables de hasta 29.100 L., 6 funciones y sistema de bloqueo",
+   "image": "https://m.media-amazon.com/images/I/4166Ql7rjdL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Distria",
+   "checkedAt": "2026-11-26"
+  },
+  "B07FVG3WKZ": {
+   "status": "ok",
+   "title": "Gre 770803 – Filtro de arena, 4 m3/h, potencia 220W, para piscinas elevadas o enterradas",
+   "image": "https://m.media-amazon.com/images/I/410iatyIEOL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK_SCARCE",
+    "message": "Sólo queda(n) 1 en stock."
+   },
+   "merchant": "Amazon",
+   "checkedAt": "2026-11-26"
+  },
+  "B07HP94QTN": {
+   "status": "ok",
+   "title": "Pack 2 Tumbonas o Sillas de Exterior Plegables para jardín | Playa | Piscina o Terraza | Hamacas Reclinables Camping con Portavasos y Reposacabezas | Hasta 150kg | Silla plegable playa o Tumbona",
+   "image": "https://m.media-amazon.com/images/I/41mvvgfKzgL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Inten Distribution",
+   "checkedAt": "2026-11-26"
+  },
+  "B07JLVB5JP": {
+   "status": "ok",
+   "title": "Gardena programador de riego Flex: riego automático y en poco tiempo para la terraza y el balcón, fácil manejo, función Water Now (1890-20)",
+   "image": "https://m.media-amazon.com/images/I/41iVs6gHgyL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Amazon",
+   "checkedAt": "2026-11-26"
+  },
+  "B07JM7NXQT": {
+   "status": "ok",
+   "title": "Gardena programador de riego Select: riego automático y en poco tiempo, 3 programaciones para un riego flexible, función Water Now (1891-20)",
+   "image": "https://m.media-amazon.com/images/I/41CDHSExxmL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Amazon",
+   "checkedAt": "2026-11-26"
+  },
+  "B07L489LBM": {
+   "status": "ok",
+   "title": "Gre Mini Bomba de Calor hasta 28°C sin Bypass Piscinas elevadas 30 m³",
+   "image": "https://m.media-amazon.com/images/I/419663unbHL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "Disponible para envío en 1 o 2 días"
+   },
+   "merchant": "Amazon",
+   "checkedAt": "2026-11-26"
+  },
+  "B07L491GK5": {
+   "status": "ok",
+   "title": "Gre Mini Bomba de Calor hasta 28°C sin bypass piscinas elevadas 20 m³",
+   "image": "https://m.media-amazon.com/images/I/412Li4qyq-S._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK_SCARCE",
+    "message": "Sólo queda(n) 3 en stock."
+   },
+   "merchant": "Amazon",
+   "checkedAt": "2026-11-26"
+  },
+  "B07LFGZ15T": {
+   "status": "ok",
+   "title": "Intex 26726NP - Piscina desmontable redonda prisma frame intex 457x122 con depuradora, Multicolor",
+   "image": "https://m.media-amazon.com/images/I/41F2Ooty6SL._SL500_.jpg",
+   "availability": {
+    "type": "OUT_OF_STOCK",
+    "message": "No disponible."
+   },
+   "checkedAt": "2026-11-26"
+  },
+  "B07N1166PD": {
+   "status": "ok",
+   "title": "Jardin202 - Césped Artificial Premium 40mm - Buen Drenaje, Alta Densidad y Fácil Instalación | Rollo 4x2 Metros () | Rollo 4x2 Metros",
+   "image": "https://m.media-amazon.com/images/I/41Pk-ACARQL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Jardin202",
+   "checkedAt": "2026-11-26"
+  },
+  "B07N1T34V3": {
+   "status": "ok",
+   "title": "Bayrol 4195170 Quickflock Super - Floculante líquido especial para filtro de arena con efecto de claraboya muy rápido para agua turbia.",
+   "image": "https://m.media-amazon.com/images/I/313pbZb-zCL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Amazon",
+   "checkedAt": "2026-11-26"
+  },
+  "B07NDR496D": {
+   "status": "ok",
+   "title": "Intex 26644FR Filtro de Arena 4 m3 h, Blanco, 4m3/h",
+   "image": "https://m.media-amazon.com/images/I/3186K4b0jsL._SL500_.jpg",
+   "availability": {
+    "type": "LEADTIME",
+    "message": "Envío en 2 a 3 días"
+   },
+   "merchant": "Yeppon",
+   "checkedAt": "2026-11-26"
+  },
+  "B07TGKTCWR": {
+   "status": "no-accesible",
+   "checkedAt": "2026-11-26"
+  },
+  "B07WSWNPPH": {
+   "status": "ok",
+   "title": "Johgee Temporizador de Riego Automatico Jardín, El Acoplamiento de Grifo de Agua ½ y ¾ Son Aplicables, Programa de Memoria Permanente, Programador de Riego Automático con Pantalla 3 ” LCD",
+   "image": "https://m.media-amazon.com/images/I/4122QF7xjbL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Wohl-Hausshop",
+   "checkedAt": "2026-11-26"
+  },
+  "B084P5K5FJ": {
+   "status": "ok",
+   "title": "POOLEX - PC-SLP070N Silverline Inverter 70 - Bomba de Calor para Piscina Silenciosa - Todas Las Piscinas - Compresor Multifrecuencia y Tecnología WiFi - 7kW - Volumen de la Piscina 30-45m³",
+   "image": "https://m.media-amazon.com/images/I/317HT1b85vL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Amazon",
+   "checkedAt": "2026-11-26"
+  },
+  "B0856SPXWM": {
+   "status": "sin-oferta",
+   "title": "Outsunny Conjunto de 2 Tumbonas Plegables de Aluminio 60x100x85 cm Blanco | Tumbonas de Jardín, Respaldo Regulable en 5 Posiciones, Reposacabezas, para Terraza Patio Exterior, Hamacas Jardín",
+   "image": "https://m.media-amazon.com/images/I/51zRxsDiTgL._SL500_.jpg",
+   "checkedAt": "2026-11-26"
+  },
+  "B089YLCJJ7": {
+   "status": "ok",
+   "title": "your GEAR Cobertor Solar SC-Ø-366 Cubierta Solar Redonda Calefacción de Piscina con lámina Solar de 300 µm de Espesor",
+   "image": "https://m.media-amazon.com/images/I/51d-t7G3QUL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "CampOutGmbH",
+   "checkedAt": "2026-11-26"
+  },
+  "B08BP7NJM9": {
+   "status": "ok",
+   "title": "Rollo de césped artificial de 40mm (2x5 Metros)",
+   "image": "https://m.media-amazon.com/images/I/41-QM+70LDL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Comercial Candela",
+   "checkedAt": "2026-11-26"
+  },
+  "B08CB1R1BK": {
+   "status": "ok",
+   "title": "BESTWAY 56406 - Piscina Desmontable Tubular Steel Pro MAX 305 x 76 cm, Multicolor",
+   "image": "https://m.media-amazon.com/images/I/31YyTQ7GJzL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK_SCARCE",
+    "message": "Sólo queda(n) 1 en stock."
+   },
+   "merchant": "Eoshop",
+   "checkedAt": "2026-11-26"
+  },
+  "B08CBBTLQQ": {
+   "status": "ok",
+   "title": "Bestway Steel Pro MAX Frame - Juego de Piscina con Bomba de Filtro (diámetro 366 x 100 cm), Color Gris Claro",
+   "image": "https://m.media-amazon.com/images/I/41cNs+xmkXL._SL500_.jpg",
+   "availability": {
+    "type": "LEADTIME",
+    "message": "Envío en 2 a 3 días"
+   },
+   "merchant": "Eoshop",
+   "checkedAt": "2026-11-26"
+  },
+  "B08F3DQQJ3": {
+   "status": "ok",
+   "title": "AKTIVE 62611 - Tumbona plegable aluminio con reposacabezas y bolsillo Beach",
+   "image": "https://m.media-amazon.com/images/I/41okO7NwrWS._SL500_.jpg",
+   "availability": {
+    "type": "OUT_OF_STOCK",
+    "message": "No disponible."
+   },
+   "checkedAt": "2026-11-26"
+  },
+  "B08KG2RDHC": {
+   "status": "ok",
+   "title": "tectake® Tumbona Plegable e Impermeable, Tumbona Playa Reclinable en 7 Posiciones, Tumbona Piscina en Aluminio, Tumbonas Jardín Exterior, Carga Máx. 120 kg, Ligera y de Fácil Montaje - Gris Plata",
+   "image": "https://m.media-amazon.com/images/I/41IPbhs4-GL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "IDOH,S.L.",
+   "checkedAt": "2026-11-26"
+  },
+  "B08LNQFX7G": {
+   "status": "ok",
+   "title": "Gardena Set de sensores de control de riego smart: control de riego para hasta 6 válvulas (24 V), incluido smart Sensor/smart Gateway, controlable con aplicación smart (19209-20)",
+   "image": "https://m.media-amazon.com/images/I/31oMntn0zwL._SL500_.jpg",
+   "availability": {
+    "type": "OUT_OF_STOCK",
+    "message": "No disponible."
+   },
+   "checkedAt": "2026-11-26"
+  },
+  "B08QHX2T8M": {
+   "status": "ok",
+   "title": "POOLEX POOLSTAR Nano Action 5 PC-Nano-A5 - Bomba de Calor para Piscina con pequeñas Piscinas Fuera del Suelo, Consumo de 990 W, Volumen de la Cuenca de 20 a 35 m3",
+   "image": "https://m.media-amazon.com/images/I/51Sw7TKQhGL._SL500_.jpg",
+   "availability": {
+    "type": "OUT_OF_STOCK",
+    "message": "No disponible."
+   },
+   "checkedAt": "2026-11-26"
+  },
+  "B08XBX7WBH": {
+   "status": "ok",
+   "title": "Cloro Choque disolución rápida para Piscinas DIACLOR GR 60 5 KG - Dicloro granulado Puro - DIASA INDUSTRIAL",
+   "image": "https://m.media-amazon.com/images/I/41xIJr3Hr5L._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "King Kong Chemical",
+   "checkedAt": "2026-11-26"
+  },
+  "B08XVZ8R8X": {
+   "status": "ok",
+   "title": "Elevador del pH para Piscinas DIAMAS PH GR 5 KG - Formato Granulado",
+   "image": "https://m.media-amazon.com/images/I/41mkxorwf3L._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "King Kong Chemical",
+   "checkedAt": "2026-11-26"
+  },
+  "B08XWJJB21": {
+   "status": "ok",
+   "title": "Algicida ULTRACONCENTRADO no espumante Piscinas y SPA DIAQUAT SPA 1 L - Antialgas de acción rápida - Sin Cobre",
+   "image": "https://m.media-amazon.com/images/I/3133kVAvk1L._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "King Kong Chemical",
+   "checkedAt": "2026-11-26"
+  },
+  "B08XWPV4YW": {
+   "status": "ok",
+   "title": "DIASA INDUSTRIAL Floculante líquido para Piscinas DIAFLOC SUPERCONCENTRADO - clarifica el Agua turbia - 5 litros",
+   "image": "https://m.media-amazon.com/images/I/41u2tj3GdAL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "King Kong Chemical",
+   "checkedAt": "2026-11-26"
+  },
+  "B0924V9QN2": {
+   "status": "ok",
+   "title": "tillvex Cobertor Solar para Piscinas Rectangular 800x400 cm | Espesor de 120 µm |Se Puede Cortar a Medida | Calefacción para el Calentamiento del Agua",
+   "image": "https://m.media-amazon.com/images/I/61FRXfH1lSL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "DWD-Company",
+   "checkedAt": "2026-11-26"
+  },
+  "B09258TZF9": {
+   "status": "ok",
+   "title": "tillvex Cobertor para piscinas Rectangular 450x220 cm | Espesor de la lámina Solar 120 µm | La Cubierta se Puede Cortar a Medida | Calefacción para el Calentamiento del Agua",
+   "image": "https://m.media-amazon.com/images/I/61FRXfH1lSL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "DWD-Company",
+   "checkedAt": "2026-11-26"
+  },
+  "B09M5QTL1M": {
+   "status": "ok",
+   "title": "Intex 55250 - Clorador salino, Sistema de cloración Salina para Mantenimiento de Piscinas Desmontables, Producción de Cloro Natural, Sistema Saludable y económico",
+   "image": "https://m.media-amazon.com/images/I/31WzGztHHeL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Amazon",
+   "checkedAt": "2026-11-26"
+  },
+  "B09M5S8BXB": {
+   "status": "ok",
+   "title": "Intex 55249 - Depuradora de Arena Krystal Clear 3.500 L/H, depuradora Piscina Arena, Filtro Piscina, Bomba Piscina, para Piscinas Desmontables de hasta 17.000 L., 4 Funciones y Sistema de Bloqueo",
+   "image": "https://m.media-amazon.com/images/I/41krfZF3vNL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Amore Animale Shop",
+   "checkedAt": "2026-11-26"
+  },
+  "B09MSY8BLB": {
+   "status": "ok",
+   "title": "EASYTEST 150 Tiras Reactivas de Prueba Piscina y Spa 7 en 1 Tiras | Para Bañera de Hidromasaje pH Prueba, Alcalinidad , Dureza Total, Medidor Cloro Libre, Ácido Cianúrico, Cloro y Bromo",
+   "image": "https://m.media-amazon.com/images/I/41V1FCaz6lL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "AArc",
+   "checkedAt": "2026-11-26"
+  },
+  "B09MW354JK": {
+   "status": "ok",
+   "title": "EASYTEST 150 Tiras tiras de prueba 3 en 1,Tiras de Prueba Para Piscina y SPA,Para Bañera de Hidromasaje pH Prueba, Alcalinidad, Cloro, Kit de Prueba de Agua Piscina Preciso",
+   "image": "https://m.media-amazon.com/images/I/41G1opzBqrL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "AArc",
+   "checkedAt": "2026-11-26"
+  },
+  "B09SFQRXMB": {
+   "status": "ok",
+   "title": "Yaheetech Conjunto de Muebles de Jardín Exterior Muebles Terraza con Cojin | Sillas Ratán PE y Mesa de Vidrio, para Balcon Jardin Patio, Marrón/Caqui",
+   "image": "https://m.media-amazon.com/images/I/41uvAU0njIL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Yahee365",
+   "checkedAt": "2026-11-26"
+  },
+  "B0B1N15ZNB": {
+   "status": "ok",
+   "title": "Kit medidor del pH y cloro o bromo para el analisis del agua de la piscina. Pooltester de 40 pastillas.",
+   "image": "https://m.media-amazon.com/images/I/51+ZkXFk87L._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "King Kong Chemical",
+   "checkedAt": "2026-11-26"
+  },
+  "B0B3QQ2S34": {
+   "status": "ok",
+   "title": "Intex 26356NP - Piscina Desmontable Rectangular Ultra XTR Frame INTEX 549x274x132 + depuradora + Skimmer Deluxe Filtro 3.028 l/h Easy Set-Metal Frame, 49x43x34 cm, Color Blanco",
+   "image": "https://m.media-amazon.com/images/I/31J8xSDx8JL._SL500_.jpg",
+   "availability": {
+    "type": "OUT_OF_STOCK",
+    "message": "No disponible."
+   },
+   "checkedAt": "2026-11-26"
+  },
+  "B0B8STCJ5V": {
+   "status": "ok",
+   "title": "Intex 55253 Aspiradora Manual Recargable, para Piscina, Limpiafondos Piscina, Batería Recargable con hasta 100 Minutos de Autonomía, Largo de 280 cm, Aspirador Piscina, Gray",
+   "image": "https://m.media-amazon.com/images/I/41TTi58Q6RL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Amazon",
+   "checkedAt": "2026-11-26"
+  },
+  "B0BQ3H8TCR": {
+   "status": "ok",
+   "title": "Intex Piscina Desmontable Rectangular Chevron Prism Frame Premium, Medidas 400x200x100cm, Capacidad 6.836 litros, Material Resistente Triple Capa, Incluye: depuradora y Escalera (55259)",
+   "image": "https://m.media-amazon.com/images/I/3100i5esp2L._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Amore Animale Shop",
+   "checkedAt": "2026-11-26"
+  },
+  "B0BT2HMMX4": {
+   "status": "ok",
+   "title": "Tecno Prodist Arena DE Silex Premium para Piscinas (Saco 10 Kg) Granulometría 0,4 a 0,8 mm - Ideal para el Filtro de su Piscina.",
+   "image": "https://m.media-amazon.com/images/I/41olL6oQPhL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK_SCARCE",
+    "message": "Sólo queda(n) 1 en stock."
+   },
+   "merchant": "Prodist Group",
+   "checkedAt": "2026-11-26"
+  },
+  "B0BV36SQYP": {
+   "status": "ok",
+   "title": "Jardin202 - Césped Artificial Almería 40mm - Rollos | Altura Muy Realista con Triple Tonalidad | Rollo: 1x5 Metros",
+   "image": "https://m.media-amazon.com/images/I/31MdSsvOcKL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Jardin202",
+   "checkedAt": "2026-11-26"
+  },
+  "B0BWS6KTDK": {
+   "status": "ok",
+   "title": "Compacto 5 ACCIONES AQUAPOOL (5 KG) - Pastillas de Cloro multifunción - Disolución Lenta - Apto Piscinas Liner",
+   "image": "https://m.media-amazon.com/images/I/41XT2lTwMQL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "King Kong Chemical",
+   "checkedAt": "2026-11-26"
+  },
+  "B0BXLVDKTX": {
+   "status": "ok",
+   "title": "Arebos Cubierta Solar Piscina 4,5 x 2,2 m Azul | Lona Cuadrada Espesor 120 µm | Rollo Recortable | Mantiene Temperatura y Calienta Agua | Protector Térmico con Ahorro Energía y Reducción Evaporación",
+   "image": "https://m.media-amazon.com/images/I/51CHlF45fVL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "AREBOS",
+   "checkedAt": "2026-11-26"
+  },
+  "B0C3HQ7LMJ": {
+   "status": "ok",
+   "title": "ESPA LEADER Clorador Salino 20G Dosificador Cloro por Electrólisis Salina | Para Piscinas hasta 85 m³, Producción de Cloro 20 g/h, Autolimpieza por Inversión de Polaridad, Función de Memoria",
+   "image": "https://m.media-amazon.com/images/I/31voHAe8ebL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Amazon",
+   "checkedAt": "2026-11-26"
+  },
+  "B0C6KR4TC8": {
+   "status": "ok",
+   "title": "Tamar Algicida Larga Duración Efecto Abrillantador,Piscinas Poliester/Liner y Electrólisis Salina,biocida especial piscinas,alguicida no espumante,antialgas preventivo,acción rápida,sin cobre 5 litros",
+   "image": "https://m.media-amazon.com/images/I/41-yHkBnyeL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "INDUSTRIAS QUIMICAS TAMAR",
+   "checkedAt": "2026-11-26"
+  },
+  "B0CDXN85QM": {
+   "status": "ok",
+   "title": "BESTWAY Tapiz Protector de Suelo 335x335 cm para Piscinas Desmontables Azul",
+   "image": "https://m.media-amazon.com/images/I/31rK6X8XW-L._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Amazon",
+   "checkedAt": "2026-11-26"
+  },
+  "B0CDXQDZ7V": {
+   "status": "no-accesible",
+   "checkedAt": "2026-11-26"
+  },
+  "B0CFFR9M2X": {
+   "status": "ok",
+   "title": "BESTWAY Depuradora de Arena Flowclear de 5.678 L/h 48x42x52,8 cm Blanco",
+   "image": "https://m.media-amazon.com/images/I/31FXfXy2yQL._SL500_.jpg",
+   "availability": {
+    "type": "OUT_OF_STOCK",
+    "message": "No disponible."
+   },
+   "checkedAt": "2026-11-26"
+  },
+  "B0CG6J5J1F": {
+   "status": "ok",
+   "title": "Intex, Bolas Filtro depuradora Piscina, Equivalen a 18 kg Arena sílice",
+   "image": "https://m.media-amazon.com/images/I/31rt4EYKHIL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Amazon",
+   "checkedAt": "2026-11-26"
+  },
+  "B0CKYLS3LT": {
+   "status": "ok",
+   "title": "VOUNOT® Lona para Piscina Rectangular 8 x 4 m, Cubierta Protectora PE de 160 g/m² con Red Central de Drenaje, Funda de Piscinas Anti-UV con Ojales Cada 100 cm, Azul-Gris",
+   "image": "https://m.media-amazon.com/images/I/31PxC1bGhtL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Amazon",
+   "checkedAt": "2026-11-26"
+  },
+  "B0CLH5QRK7": {
+   "status": "ok",
+   "title": "Floculante sólido en saquitos AstralPool - Contiene 8 saquitos con Tableta de 125 g.",
+   "image": "https://m.media-amazon.com/images/I/61LVT3jxcYL._SL500_.jpg",
+   "availability": {
+    "type": "OUT_OF_STOCK",
+    "message": "No disponible."
+   },
+   "checkedAt": "2026-11-26"
+  },
+  "B0CPR89ZNR": {
+   "status": "ok",
+   "title": "Gre Inverter Bomba de Calor Full Inverter WiFi Piscinas elevadas 30 m³",
+   "image": "https://m.media-amazon.com/images/I/41LT8Dtic1L._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK_SCARCE",
+    "message": "Sólo queda(n) 5 en stock."
+   },
+   "merchant": "Amazon",
+   "checkedAt": "2026-11-26"
+  },
+  "B0CQZ6XXPC": {
+   "status": "ok",
+   "title": "Gre - GSS25 Clorador Salino Dream Salt para Piscinas Elevadas hasta 25 m³ con Pantalla LED, Generador de Cloro 3 g/h, Electrodo Autolimpiante, IPX4, Temporizador e Interruptor de Flujo",
+   "image": "https://m.media-amazon.com/images/I/31VQ6Ex+nkL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK_SCARCE",
+    "message": "Sólo queda(n) 3 en stock."
+   },
+   "merchant": "Amazon",
+   "checkedAt": "2026-11-26"
+  },
+  "B0CS2ZHH1C": {
+   "status": "ok",
+   "title": "sweeek - Pérgola bioclimática 3x3m de Aluminio, Triomphe 3x3m, Madera, 301x301x250 cm",
+   "image": "https://m.media-amazon.com/images/I/31BQOlCGH4L._SL500_.jpg",
+   "availability": {
+    "type": "OUT_OF_STOCK",
+    "message": "No disponible."
+   },
+   "checkedAt": "2026-11-26"
+  },
+  "B0CTF91848": {
+   "status": "ok",
+   "title": "ECOPOOLTECH Mini Calentador Piscina de hasta 30 m3, Bomba de Calor para Piscina Desmontable/Piscina sobre Suelo(marrón-3,9KW)",
+   "image": "https://m.media-amazon.com/images/I/41MaBqFyDrL._SL500_.jpg",
+   "availability": {
+    "type": "OUT_OF_STOCK",
+    "message": "No disponible."
+   },
+   "checkedAt": "2026-11-26"
+  },
+  "B0CYGT4HGL": {
+   "status": "no-accesible",
+   "checkedAt": "2026-11-26"
+  },
+  "B0D41BXPGJ": {
+   "status": "ok",
+   "title": "INTEX 26646 - Depuradora de Arena Krystal Clear 7.900 L/H, Para piscinas desmontables de hasta 37.800 L., 6 funciones y sistema de bloqueo & 29061 - Pack 2 adaptadores(b) depuradoras",
+   "image": "https://m.media-amazon.com/images/I/31BPp4fGsZL._SL500_.jpg",
+   "availability": {
+    "type": "AVAILABLE_DATE",
+    "message": ""
+   },
+   "merchant": "Amazon",
+   "checkedAt": "2026-11-26"
+  },
+  "B0D4YJ99QT": {
+   "status": "ok",
+   "title": "VEVOR Cubierta Solar para Piscina Manta Solar Rectangular | De 7,32 × 3,66 m para Piscinas Cubierta Solar para Piscina Enterrada sobre el Suelo Cubiertas Solares de Color Azul",
+   "image": "https://m.media-amazon.com/images/I/51hdal6YnzL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK_SCARCE",
+    "message": "Sólo queda(n) 5 en stock."
+   },
+   "merchant": "Amazon",
+   "checkedAt": "2026-11-26"
+  },
+  "B0D58DGSZK": {
+   "status": "ok",
+   "title": "AIPER Scuba SE Limpiafondos Piscina, Robot de Piscina Sin Cable, 90 Minutos de Limpieza, Potente Aspiración, Autoaparcable, para Piscinas Elevadas de hasta 80㎡",
+   "image": "https://m.media-amazon.com/images/I/41paQ21S3wL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "AIPER INTELLIGENT SARL",
+   "checkedAt": "2026-11-26"
+  },
+  "B0D6VW3SXQ": {
+   "status": "ok",
+   "title": "Forever Speed Sistema de Riego Jardín 315PCS Sistema de Riego por Goteo, 60M+15M Tubos de Riego, Sistema Riego por Goteo di Enfriamiento para Jardín, Invernadero, Césped",
+   "image": "https://m.media-amazon.com/images/I/61OG5GXI7WL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Yardgear",
+   "checkedAt": "2026-11-26"
+  },
+  "B0D9W37CB8": {
+   "status": "ok",
+   "title": "tectake® Columpio Jardín Exterior, Silla Colgante con Cojín Extragrueso, Sillón Balancín con Estructura de Acero y 4 Pies en Base, Hamaca Colgante Interior/Exterior, Plegable, Capacidad 160Kg - Negro",
+   "image": "https://m.media-amazon.com/images/I/41HFsV8GB-L._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "IDOH,S.L.",
+   "checkedAt": "2026-11-26"
+  },
+  "B0D9YVMTDY": {
+   "status": "ok",
+   "title": "Bestway Juego de Piscina Rectangular de 16' x 8' x 48\"/4.88 m x 2.44 m x 1.22 m",
+   "image": "https://m.media-amazon.com/images/I/41FmgWmPLLL._SL500_.jpg",
+   "availability": {
+    "type": "LEADTIME",
+    "message": "Envío en 3 a 7 meses"
+   },
+   "merchant": "Amazon",
+   "checkedAt": "2026-11-26"
+  },
+  "B0D9YY473Y": {
+   "status": "ok",
+   "title": "Bestway Juego de Piscina Rectangular de 21' x 9' x 52\"/6.40 MX 2.74 MX 1.32 m",
+   "image": "https://m.media-amazon.com/images/I/41r7Ud0Nw5L._SL500_.jpg",
+   "availability": {
+    "type": "LEADTIME",
+    "message": "Envío en 3 a 7 meses"
+   },
+   "merchant": "Amazon",
+   "checkedAt": "2026-11-26"
+  },
+  "B0DL9HJZ58": {
+   "status": "ok",
+   "title": "WYBOT C2 Vision AI Robot de Piscina sin Cable con cámara y batería, Robot Piscina limpiafondos y Paredes, filtración de Dos Capas, Potente aspiración, Durante 180 mins, hasta 180㎡(Negro-Verde)",
+   "image": "https://m.media-amazon.com/images/I/41CAYE+ZtXL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK_SCARCE",
+    "message": "Sólo queda(n) 1 en stock."
+   },
+   "merchant": "Amazon Segunda mano",
+   "checkedAt": "2026-11-26"
+  },
+  "B0DQDL9M1Z": {
+   "status": "ok",
+   "title": "Intex Cobertor Piscina Rectangular, Mide 5,36x2,67 m, Azul Oscuro, Incluye cordón de Agarre, Agujeros de Drenaje, Voladizo de 20 cm, Funda de Piscinas, Lona Protectora (58019)",
+   "image": "https://m.media-amazon.com/images/I/31UN8YDf3oL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Amazon",
+   "checkedAt": "2026-11-26"
+  },
+  "B0DQDMY3LG": {
+   "status": "ok",
+   "title": "Intex Cobertor Piscina Redonda, Mide 3,66 Metros diámetro, Azul Oscuro, Incluye cordón de Agarre, Agujeros de Drenaje, Voladizo de 20 cm, Funda de Piscinas, Lona Circular Protectora (58013)",
+   "image": "https://m.media-amazon.com/images/I/311NIEIraNL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK_SCARCE",
+    "message": "Sólo queda(n) 1 en stock."
+   },
+   "merchant": "Amore Animale Shop",
+   "checkedAt": "2026-11-26"
+  },
+  "B0DSPWPYTF": {
+   "status": "ok",
+   "title": "Intex Depuradora cartucho C2500, Filtración 9.463 l/h, Cartucho tipo B, Compatible con piscinas hasta 52.900 L, Temporizador programable, Indicador cambio cartucho, Tecnología Hydro Aeration (55278)",
+   "image": "https://m.media-amazon.com/images/I/317R0jl9hZL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Amazon",
+   "checkedAt": "2026-11-26"
+  },
+  "B0DSPYGS9Z": {
+   "status": "ok",
+   "title": "Intex Depuradora cartucho C330, Filtración 1.250 l/h, Cartucho tipo H, Compatible con piscinas hasta 7.900 L, Tecnología Hydro Aeration, Fácil instalación (55274)",
+   "image": "https://m.media-amazon.com/images/I/31sS9La9p-L._SL500_.jpg",
+   "availability": {
+    "type": "OUT_OF_STOCK",
+    "message": "No disponible."
+   },
+   "checkedAt": "2026-11-26"
+  },
+  "B0DTMCHWKD": {
+   "status": "ok",
+   "title": "Habitat et Jardin Pérgola bioclimática de Aluminio <> - 3 x 3 m - Antracita",
+   "image": "https://m.media-amazon.com/images/I/31Lf5Z6rMzL._SL500_.jpg",
+   "availability": {
+    "type": "OUT_OF_STOCK",
+    "message": "No disponible."
+   },
+   "checkedAt": "2026-11-26"
+  },
+  "B0DTYT2L5M": {
+   "status": "ok",
+   "title": "CASARIA Conjunto de Muebles Jardín 4 Piezas Poliratán Mesa Cristal Gris | 2 Sillones, Banco, Cojines, Acero Galvanizado, Patas Regulables, Resistente Intemperie, Carga Asiento 160kg, Carga Mesa 80kg",
+   "image": "https://m.media-amazon.com/images/I/41koYr3ZpiL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "DEUBA-ES",
+   "checkedAt": "2026-11-26"
+  },
+  "B0DVH1PPYY": {
+   "status": "ok",
+   "title": "Jardin202 - Césped Artificial Ibiza 35mm – Realista y Resistente | Ideal para Jardines, Terrazas y Piscinas | Fácil Instalación | Rollo 4x2 Metros",
+   "image": "https://m.media-amazon.com/images/I/41DI+cgnCLL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Jardin202",
+   "checkedAt": "2026-11-26"
+  },
+  "B0DYDCZ8DK": {
+   "status": "ok",
+   "title": "Devoko Pergola Bioclimatica 3x3m, Pergolas de Jardin, con Fijaciones Magnéticas y Zona de Sombra Ajustable, Cenador Pergolas de Aluminio, Adecuada para Escenarios como Jardines y Patios, Beige",
+   "image": "https://m.media-amazon.com/images/I/51rbns7dG7L._SL500_.jpg",
+   "availability": {
+    "type": "OUT_OF_STOCK",
+    "message": "No disponible."
+   },
+   "checkedAt": "2026-11-26"
+  },
+  "B0F13S93MS": {
+   "status": "ok",
+   "title": "AIPER (2025 Mejorado) Scuba S1 Robot Piscina Limpiafondos y Paredes, Línea de Flotación, Batería de 180 Minutos, Filtración Ultrafina, Navegación Inteligente, con App",
+   "image": "https://m.media-amazon.com/images/I/41PsOmUXSoL._SL500_.jpg",
+   "availability": {
+    "type": "OUT_OF_STOCK",
+    "message": "No disponible."
+   },
+   "checkedAt": "2026-11-26"
+  },
+  "B0F3CH78QJ": {
+   "status": "ok",
+   "title": "Outsunny Conjunto de Jardín Exterior de Ratán de 4 Piezas Gris y Natural | Muebles de Jardín Exterior, Sofá de 2 Plazas, 2 Sillones, Mesa de Centro de Vidrio, con Cojines",
+   "image": "https://m.media-amazon.com/images/I/31jpMsEPADL._SL500_.jpg",
+   "availability": {
+    "type": "OUT_OF_STOCK",
+    "message": "No disponible."
+   },
+   "checkedAt": "2026-11-26"
+  },
+  "B0FH5JXGDV": {
+   "status": "ok",
+   "title": "CAZEBOO Pérgola Bioclimática Adosada Piana 297x298 cm (3x3 m – 9 m²) Aluminio Gris Antracita – Lamas Orientables 0-110° Acero – Resistente Viento 70 km/h – Kit Completo con Manivela y Anclajes",
+   "image": "https://m.media-amazon.com/images/I/51FTWZ88TLL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Hoortrade",
+   "checkedAt": "2026-11-26"
+  },
+  "B0FNM9JQZT": {
+   "status": "ok",
+   "title": "SONGMICS Cenador 3 x 3 m con Paneles Laterales, Carpa Plegable | Protección Solar, Resistente a Lluvia Ligera, Portátil, para Patio, Jardín, Mercadillo, Gris, Colección SHELD GCT104GZ01",
+   "image": "https://m.media-amazon.com/images/I/41zWxprCHQL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Amazon",
+   "checkedAt": "2026-11-26"
+  },
+  "B0FY6LSH92": {
+   "status": "ok",
+   "title": "(Nuevo 2026) Gosvor LiteVac G1 Robot Limpiafondos Piscina,Paredes,Línea y Plataformas,7kg,200min Autonomía,Doble Filtración,Navegación Inteligente y App,200m²,Gris",
+   "image": "https://m.media-amazon.com/images/I/41MvpoxCFGL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "AIPER INTELLIGENT SARL",
+   "checkedAt": "2026-11-26"
+  },
+  "B0FY6LTS55": {
+   "status": "ok",
+   "title": "(Nuevo 2026) Gosvor LiteVac G1 Robot Limpiafondos Piscina,Paredes,Línea y Plataformas,7kg,200min Autonomía,Doble Filtración,Navegación Inteligente y App,200m²,Gris Anaranjado",
+   "image": "https://m.media-amazon.com/images/I/41x3ZHfgmyL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "AIPER INTELLIGENT SARL",
+   "checkedAt": "2026-11-26"
+  },
+  "B0G6ZRHGFX": {
+   "status": "ok",
+   "title": "AIPER Seagull 800B Robot Piscina Sin Cable, Limpiafondos Piscina Automático con Succión Potente, 90 min Autonomía, Auto-Parking Inteligente, Indicador LED, hasta 80 m²",
+   "image": "https://m.media-amazon.com/images/I/41QWWe2GGcL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "AIPER INTELLIGENT SARL",
+   "checkedAt": "2026-11-26"
+  },
+  "B0G931DPSL": {
+   "status": "ok",
+   "title": "POOLEX – Nano 3kW – Bomba de Calor - Wi-Fi - con desescarche automático Inteligente para Piscinas pequeñas y compactas: elevadas, semienterradas, enterradas y de Madera. Silenciosa/Reversible.",
+   "image": "https://m.media-amazon.com/images/I/31hkU5Y2XjL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Amazon",
+   "checkedAt": "2026-11-26"
+  },
+  "B0GL7QGNQH": {
+   "status": "ok",
+   "title": "Pooleco 10 Robot Limpiafondos Automático sin Cable, 90Min, 80m², Recogida sin Palo, Autoaparcamiento, 2 Motores, Fácil de Usar para Piscina Elevada y Enterrada",
+   "image": "https://m.media-amazon.com/images/I/419nxdFqBOL._SL500_.jpg",
+   "availability": {
+    "type": "OUT_OF_STOCK",
+    "message": "No disponible."
+   },
+   "checkedAt": "2026-11-26"
+  },
+  "B0GWQR3LS6": {
+   "status": "ok",
+   "title": "Beatbot Sora 30 limpiafondos Piscina, paredes, Línea Agua, Mandarina | Paredes, Plataformas y línea flotación,25700 LPH, Posicionamiento Superficie,5l residuos,App,Piscinas enterradas y elevadas",
+   "image": "https://m.media-amazon.com/images/I/416ZjODHzEL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "BeatbotTech",
+   "checkedAt": "2026-11-26"
+  },
+  "B0H2TWCSR6": {
+   "status": "ok",
+   "title": "WYBOT C1 Robot Piscina 155min Batería, 155m² Suelo Paredes Línea de Agua | 4-en-1 Robot Limpiafondos Piscina sin Cable, 5 Modos, Navegación & App,(2026Upgrade)Verde Acero Jade",
+   "image": "https://m.media-amazon.com/images/I/41S0BYDrflL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Amazon",
+   "checkedAt": "2026-11-26"
+  },
+  "B0H4QS469J": {
+   "status": "no-accesible",
+   "checkedAt": "2026-11-26"
+  },
+  "B0H9988346": {
+   "status": "ok",
+   "title": "TOOLPORT Cenador de jardín 3x4 m, Postes de Aluminio, Lona 220 g/m², Beige | con laterales y mosquiteras - 100% impermeable - postes cuadrado aprox. 9x9 cm - montaje fácil con sistema clic",
+   "image": "https://m.media-amazon.com/images/I/31ZPefPLn8L._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "CARPASOL",
+   "checkedAt": "2026-11-26"
+  },
+  "B0H9RLVQP3": {
+   "status": "ok",
+   "title": "AIPER (2026) Scuba S1 Robot Piscina Limpiafondos y Paredes, Aspirador Piscinas Fondos con Batería Mejorada 270 min, Navegación Smart de Alta Precisión, Filtración Ultrafina + App y OTA, Negro",
+   "image": "https://m.media-amazon.com/images/I/41RGZFjMRqL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "AIPER INTELLIGENT SARL",
+   "checkedAt": "2026-11-26"
+  },
+  "B0HFW1B26F": {
+   "status": "ok",
+   "title": "WYBOT OS600 Limpiafondos Piscina, Robot Piscina y Paredes, 5 Modos, 120 Min | Navegación inteligente, app y OTA, aparcamiento auto, piscinas enterradas y elevadas, succión potente + filtración fina 180μm",
+   "image": "https://m.media-amazon.com/images/I/41qiUvjwkxL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Wybotics es",
+   "checkedAt": "2026-11-26"
+  }
+ }
 }
