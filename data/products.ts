@@ -393,6 +393,7 @@ export const products: Product[] = [
   // PISCINAS DESMONTABLES
   {
     slug: "intex-mango-telescopico-aluminio-239-cm-29054",
+    image: "https://m.media-amazon.com/images/I/51TVdEvDw0L._SL500_.jpg",
     // Comprobada en amazon.es el 21/11/2026: botón de compra activo, vendida por un tercero. Datos solo de la ficha de Amazon.
     name: "Intex 29054 Mango Telescópico de Aluminio 239 cm",
     asin: "B00I165R4Y",
@@ -412,6 +413,7 @@ export const products: Product[] = [
   },
   {
     slug: "bestway-pertiga-3-secciones-360-cm",
+    image: "https://m.media-amazon.com/images/I/414SkMyxkxL._SL500_.jpg",
     // Comprobada en amazon.es el 21/11/2026: botón de compra activo, vendida por un tercero. Datos solo de la ficha de Amazon.
     name: "Bestway Pértiga de Aluminio 3 Secciones 360 cm",
     asin: "B0CDXQDZ7V",
@@ -1473,6 +1475,7 @@ export const products: Product[] = [
   },
   {
     slug: "intex-c530-depuradora-cartucho-2006-55275",
+    image: "https://m.media-amazon.com/images/I/51tiZXO-7rL._SL500_.jpg",
     // Comprobada en amazon.es el 26/11/2026: botón de compra activo, vendida y enviada por Amazon. Datos solo de la ficha de Amazon.
     name: "Intex Depuradora de cartucho C530, 2.006 l/h, cartucho tipo A (modelo 55275)",
     asin: "B0DSPZTH98",
@@ -1559,6 +1562,7 @@ export const products: Product[] = [
   },
   {
     slug: "wybot-c2-robot-piscina-180min",
+    image: "https://m.media-amazon.com/images/I/61SzTdr03PL._SL500_.jpg",
     name: "WYBOT C2 Robot Limpiafondos Inalámbrico 180 min con Doble Filtro y 7 Modos",
     asin: "B0H4QS469J",
     category: "Robots limpiafondos",
