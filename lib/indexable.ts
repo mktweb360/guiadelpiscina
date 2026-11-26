@@ -103,6 +103,7 @@ export const FEATURED_PRODUCT_SLUGS = new Set<string>([
   "monzana-depuradora-arena-sf12k-10200-lh",
   "zodiac-pixel-op-3220-robot-bateria-piscinas-7x5",
   "zodiac-tornax-gt3220-robot-piscinas-9x4",
+  "intex-28270np-piscina-small-frame-220x150",
   "intex-small-frame-260x160x65-piscina-desmontable-rectangular",
   "piscina-desmontable-redonda-acero-366x99-depuradora-cartucho",
   "zodiac-cnx-2020-robot-limpiafondos-electrico-10x5",

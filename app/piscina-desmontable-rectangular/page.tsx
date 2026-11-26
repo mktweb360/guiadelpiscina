@@ -46,6 +46,7 @@ const quickPicks = [
 
 // Datos de la tabla: medidas y litros según el fabricante; el tiempo de renovación es litros ÷ caudal nominal.
 const tabla = [
+  { slug: "intex-28270np-piscina-small-frame-220x150", modelo: "Intex Small Frame 220 × 150", medidas: "220 × 150 × 60 cm", litros: "1.662 L", depuradora: "No incluida", renovacion: "—" },
   { slug: "intex-small-frame-260x160x65-piscina-desmontable-rectangular", modelo: "Intex Small Frame 260 × 160", medidas: "260 × 160 × 65 cm", litros: "2.282 L", depuradora: "No incluida", renovacion: "—" },
   { slug: "intex-26784np-prism-frame-rectangular-300x175x80", modelo: "Intex Prism Frame 300 × 175", medidas: "300 × 175 × 80 cm", litros: "3.539 L", depuradora: "Cartucho 2.006 l/h + escalera", renovacion: "≈ 1 h 45 min" },
   { slug: "intex-28272np-piscina-small-frame-300x200", modelo: "Intex Small Frame 300 × 200", medidas: "300 × 200 × 75 cm", litros: "3.834 L", depuradora: "No incluida", renovacion: "—" },
