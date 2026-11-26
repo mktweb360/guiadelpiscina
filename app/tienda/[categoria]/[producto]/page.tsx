@@ -4,6 +4,7 @@ import Link from "next/link";
 import { products, getProductsByCategory, getProductBySlug } from "@/data/products";
 import { offersOf, offerUrl, STORE_NAME } from "@/lib/affiliate";
 import ProductCard from "@/components/ProductCard";
+import { syncedImage } from "@/lib/amazon-sync";
 import { isFeaturedProduct } from "@/lib/indexable";
 import { productTitle, productTitleUnique, relatedInCategory } from "@/lib/seo";
 
@@ -174,7 +175,7 @@ export default async function ProductPage({
           {/* Left — imagen con badge overlay */}
           <div className="relative rounded-2xl overflow-hidden bg-gray-100 aspect-square lg:aspect-auto lg:min-h-[420px]">
             <img
-              src={product.image ?? `/images/products/${product.categorySlug}.jpg`}
+              src={product.image ?? syncedImage(product) ?? `/images/products/${product.categorySlug}.jpg`}
               alt={product.name}
               className="w-full h-full object-cover"
               loading="eager"

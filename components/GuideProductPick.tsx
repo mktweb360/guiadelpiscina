@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { products, type Product } from "@/data/products";
 import { primaryOffer, offerUrl, STORE_NAME } from "@/lib/affiliate";
+import { syncedImage } from "@/lib/amazon-sync";
 
 /**
  * Productos de products.ts por slug, descartando los que no existen o están marcados `unavailable`.
@@ -15,7 +16,7 @@ export function availableBySlug(slugs: string[]): Product[] {
 /** Ficha breve de producto para guías de temporada: sin precio, sin valoraciones y sin distintivos. */
 export default function GuideProductPick({ product, note }: { product: Product; note: string }) {
   const href = `/tienda/${product.categorySlug}/${product.slug}`;
-  const img = product.image ?? `/images/products/${product.categorySlug}.jpg`;
+  const img = product.image ?? syncedImage(product) ?? `/images/products/${product.categorySlug}.jpg`;
   const specs = Object.entries(product.specs).slice(0, 3);
   return (
     <div className="bg-white rounded-2xl border border-gray-100 shadow-sm overflow-hidden flex flex-col">
