@@ -111,6 +111,7 @@ export const FEATURED_PRODUCT_SLUGS = new Set<string>([
   "intex-piscina-hinchable-infantil-147x33-cool-dots",
   "cubierta-invierno-piscina-redonda-240-decathlon",
   "intex-cepillo-pared-curvo-40-cm",
+  "intex-55253-aspiradora-manual-recargable-piscina",
   "cubierta-invierno-piscina-redonda-460-decathlon",
   "cubierta-invierno-piscina-redonda-550-decathlon",
   "cubierta-isotermica-gre-piscina-redonda-460-decathlon",
