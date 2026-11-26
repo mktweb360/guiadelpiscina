@@ -159,6 +159,24 @@ export const products: Product[] = [
     specs: { "Marca": "Intex", "Referencia": "0775448", "Ancho": "40,6 cm", "Peso": "200 g", "Mango compatible": "Telescópico Intex de 29,8 mm (no incluido)", "Vendido por": "Amazon" },
   },
   {
+    slug: "intex-cobertor-piscina-rectangular-549x274",
+    // Comprobada en amazon.es el 26/11/2026: botón de compra activo, vendido y enviado por Amazon. Datos solo de la ficha de Amazon.
+    name: "Intex Cobertor deluxe para piscinas rectangulares de 5,49 x 2,74 m (modelo 58019)",
+    asin: "B0DQDL9M1Z",
+    category: "Piscinas desmontables",
+    categorySlug: "piscinas-desmontables",
+    categoryName: "Piscinas desmontables",
+    price: "Consultar precio",
+    priceMin: 0,
+    rating: 0,
+    reviewCount: 0,
+    shortDescription: "Cobertor todas las temporadas de vinilo laminado triple capa con protección UV, cuerdas de sujeción y drenaje, para piscinas Intex rectangulares de 5,49 x 2,74 m.",
+    fullDescription: "Cobertor deluxe de Intex (modelo 58019) para piscinas rectangulares de 5,49 x 2,74 m, de color azul oscuro. Según la ficha de Amazon, mide 5,36 x 2,67 m y lleva un voladizo de 20 cm. Está fabricado en vinilo laminado de triple capa con protección UV y resistencia a perforaciones, e incorpora cuerdas de sujeción y orificios de drenaje para evacuar el agua de lluvia acumulada. La ficha indica que facilita el mantenimiento, protege la estructura y ayuda a reducir la evaporación del agua, y lo da como cobertor de invierno apto para las piscinas rectangulares Intex de 5,49 x 2,74 m. Pesa 7,6 kg. No lo hemos probado: la información procede de la ficha de Amazon.",
+    pros: ["Vendido y enviado por Amazon", "Vinilo laminado triple capa con protección UV", "Cuerdas de sujeción y orificios de drenaje incluidos", "Voladizo de 20 cm, según la ficha"],
+    cons: ["Solo para piscinas rectangulares de 5,49 x 2,74 m: comprueba la medida de la tuya", "Pesa 7,6 kg y es voluminoso de manejar", "Si se acumula agua o nieve encima, hay que retirarla para evitar deformaciones", "No lo hemos probado: la información procede de la ficha de Amazon"],
+    specs: { "Marca": "Intex", "Modelo": "58019", "Medida del cobertor": "5,36 x 2,67 m", "Para piscinas de": "5,49 x 2,74 m (rectangulares Intex)", "Material": "Vinilo laminado triple capa con protección UV", "Voladizo": "20 cm", "Peso": "7,6 kg", "Vendido por": "Amazon" },
+  },
+  {
     slug: "intex-55253-aspiradora-manual-recargable-piscina",
     // Comprobada en amazon.es el 26/11/2026: botón de compra activo, vendida y enviada por Amazon. Datos solo de la ficha de Amazon.
     name: "Intex 55253 Aspiradora manual recargable para piscina, mástil de 280 cm",
