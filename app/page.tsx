@@ -3,6 +3,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { getFeaturedProducts } from "@/data/products";
 import EmailCaptureSection from "@/components/EmailCaptureSection";
+import ProductThumb from "@/components/ProductThumb";
 
 export const metadata: Metadata = {
   title: "Guía del Piscina — Todo lo que necesitas para tu piscina y jardín",
@@ -206,6 +207,7 @@ export default function HomePage() {
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
             {featuredProducts.map((product) => (
               <div key={product.slug} className="border border-gray-100 rounded-xl p-5 hover:shadow-md transition-all flex flex-col">
+                <ProductThumb product={product} />
                 <div className="flex items-start justify-between mb-2">
                   <span className="text-xs text-gray-400 uppercase tracking-wide">{product.categoryName}</span>
                   {product.badge && (

@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { categories, getFeaturedProducts, getProductsByCategory } from "@/data/products";
+import ProductThumb from "@/components/ProductThumb";
 
 export const metadata: Metadata = {
   title: "Tienda: productos para piscina y jardín",
@@ -147,6 +148,7 @@ export default function TiendaPage() {
                   key={product.slug}
                   className="border border-gray-100 rounded-xl p-4 hover:shadow-md transition-all flex flex-col bg-white"
                 >
+                  <ProductThumb product={product} />
                   <div className="flex items-start justify-between mb-2">
                     <span className="text-xs font-semibold text-gray-400 uppercase tracking-wide">
                       {product.categoryName}

@@ -1,12 +1,12 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { amazonLink } from "@/lib/amazon";
 import AffiliateDisclosure from "@/components/AffiliateDisclosure";
 import AdSenseAd from "@/components/AdSenseAd";
 import BlogSidebar from "@/components/BlogSidebar";
 import ArticleTocAuto from "@/components/ArticleTocAuto";
 import MktPromo from "@/components/MktPromo";
 import MoreGuides from "@/components/MoreGuides";
+import ProductCta from "@/components/ProductCta";
 
 export const metadata: Metadata = {
   title: "pH piscina: valor ideal y cómo corregirlo",
@@ -242,9 +242,7 @@ export default function PhPiscinaPage() {
         </div>
 
         <div className="not-prose my-4">
-          <a href={amazonLink(products.phPlus)} target="_blank" rel="nofollow noopener noreferrer sponsored" className="btn-primary">
-            Ver elevador de pH DIAMAS PH GR 5 kg →
-          </a>
+          <ProductCta asin={products.phPlus} label="Ver elevador de pH DIAMAS PH GR 5 kg →" />
         </div>
 
         <div className="prose">

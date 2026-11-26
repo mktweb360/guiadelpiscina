@@ -1,12 +1,12 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { amazonLink } from "@/lib/amazon";
 import AffiliateDisclosure from "@/components/AffiliateDisclosure";
 import AdSenseAd from "@/components/AdSenseAd";
 import BlogSidebar from "@/components/BlogSidebar";
 import ArticleTocAuto from "@/components/ArticleTocAuto";
 import MktPromo from "@/components/MktPromo";
 import MoreGuides from "@/components/MoreGuides";
+import ProductCta from "@/components/ProductCta";
 
 export const metadata: Metadata = {
   title: "Mejor césped artificial para jardín: precios",
@@ -138,10 +138,7 @@ export default function CespedArtificialPage() {
                   <td className="px-3 py-3 text-gray-600 text-xs">{p.feel}</td>
                   <td className="px-3 py-3">
                     {p.asin ? (
-                      <a href={amazonLink(p.asin)} target="_blank" rel="nofollow noopener noreferrer sponsored"
-                        className="inline-block bg-orange-500 text-white text-xs font-bold px-3 py-1.5 rounded-lg hover:bg-orange-600 transition-colors whitespace-nowrap">
-                        Ver precio →
-                      </a>
+                      <ProductCta asin={p.asin} label="Ver precio →" />
                     ) : (
                       <Link href={p.href!}
                         className="inline-block bg-orange-500 text-white text-xs font-bold px-3 py-1.5 rounded-lg hover:bg-orange-600 transition-colors whitespace-nowrap">

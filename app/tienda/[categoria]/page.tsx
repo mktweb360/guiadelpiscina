@@ -3,6 +3,7 @@ import { notFound } from "next/navigation";
 import Link from "next/link";
 import { categories, getProductsByCategory } from "@/data/products";
 import { primaryOffer, offerUrl } from "@/lib/affiliate";
+import ProductThumb from "@/components/ProductThumb";
 
 // ── Buying guides per category ────────────────────────────────────────────────
 
@@ -287,6 +288,7 @@ export default async function CategoryPage({
             <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-5">
               {catProducts.map((product) => (
                 <div key={product.slug} className="border border-gray-100 rounded-xl p-4 hover:shadow-md transition-all flex flex-col bg-white">
+                  <ProductThumb product={product} />
                   <div className="flex items-start justify-between mb-2">
                     <span className="text-xs font-semibold text-gray-400 uppercase tracking-wide">
                       {product.categoryName}

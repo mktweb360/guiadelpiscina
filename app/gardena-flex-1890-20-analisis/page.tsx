@@ -1,12 +1,12 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { amazonLink } from "@/lib/amazon";
 import AffiliateDisclosure from "@/components/AffiliateDisclosure";
 import AdSenseAd from "@/components/AdSenseAd";
 import BlogSidebar from "@/components/BlogSidebar";
 import ArticleTocAuto from "@/components/ArticleTocAuto";
 import MktPromo from "@/components/MktPromo";
 import MoreGuides from "@/components/MoreGuides";
+import ProductCta from "@/components/ProductCta";
 
 export const metadata: Metadata = {
   title: "GARDENA Flex 1890-20: análisis y opinión",
@@ -238,14 +238,7 @@ export default function GardenaFlexAnalisisPage() {
         </div>
 
         <div className="not-prose my-6">
-          <a
-            href={amazonLink("B07JLVB5JP")}
-            target="_blank"
-            rel="nofollow noopener noreferrer sponsored"
-            className="inline-block px-6 py-3 bg-orange-500 hover:bg-orange-600 text-white font-bold rounded-xl transition-colors"
-          >
-            Ver precio actual →
-          </a>
+          <ProductCta asin="B07JLVB5JP" label="Ver precio actual →" />
         </div>
 
         <div className="prose">

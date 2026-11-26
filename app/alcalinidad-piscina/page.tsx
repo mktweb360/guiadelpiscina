@@ -1,12 +1,12 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { amazonLink } from "@/lib/amazon";
 import AffiliateDisclosure from "@/components/AffiliateDisclosure";
 import AdSenseAd from "@/components/AdSenseAd";
 import BlogSidebar from "@/components/BlogSidebar";
 import ArticleTocAuto from "@/components/ArticleTocAuto";
 import MktPromo from "@/components/MktPromo";
 import MoreGuides from "@/components/MoreGuides";
+import ProductCta from "@/components/ProductCta";
 
 // Artículo generado 17/10/2026 (loop blogs-monetizacion). Sin precios ni valoraciones estáticas de Amazon (cumplimiento julio 2026).
 // Fuentes de los valores: rango de alcalinidad total 80-120 mg/L (ideal) y 60-180 mg/L (aceptable) según el documento
@@ -257,22 +257,8 @@ export default function AlcalinidadPiscinaPage() {
         </div>
 
         <div className="not-prose my-6 flex flex-wrap gap-3">
-          <a
-            href={amazonLink("B09MW354JK")}
-            target="_blank"
-            rel="nofollow noopener noreferrer sponsored"
-            className="inline-block px-6 py-3 bg-orange-500 hover:bg-orange-600 text-white font-bold rounded-xl transition-colors"
-          >
-            Ver tiras EASYTEST →
-          </a>
-          <a
-            href={amazonLink("B00I476HLC")}
-            target="_blank"
-            rel="nofollow noopener noreferrer sponsored"
-            className="inline-block px-6 py-3 bg-white border-2 border-orange-500 text-orange-600 hover:bg-orange-50 font-bold rounded-xl transition-colors"
-          >
-            Ver Bayrol Alca-Plus →
-          </a>
+          <ProductCta asin="B09MW354JK" label="Ver tiras EASYTEST →" />
+          <ProductCta asin="B00I476HLC" label="Ver Bayrol Alca-Plus →" />
         </div>
 
         <div className="prose">

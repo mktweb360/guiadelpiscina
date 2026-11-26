@@ -1,12 +1,12 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { amazonLink } from "@/lib/amazon";
 import AffiliateDisclosure from "@/components/AffiliateDisclosure";
 import AdSenseAd from "@/components/AdSenseAd";
 import BlogSidebar from "@/components/BlogSidebar";
 import ArticleTocAuto from "@/components/ArticleTocAuto";
 import MktPromo from "@/components/MktPromo";
 import MoreGuides from "@/components/MoreGuides";
+import ProductCta from "@/components/ProductCta";
 
 export const metadata: Metadata = {
   title: "Bomba de calor para piscina: cómo elegir",
@@ -156,10 +156,7 @@ export default function BombaCalorPage() {
                   <td className="px-3 py-3 text-gray-600">{p.pool}</td>
                   <td className="px-3 py-3">
                     {p.asin ? (
-                      <a href={amazonLink(p.asin)} target="_blank" rel="nofollow noopener noreferrer sponsored"
-                        className="inline-block bg-orange-500 text-white text-xs font-bold px-3 py-1.5 rounded-lg hover:bg-orange-600 transition-colors whitespace-nowrap">
-                        Ver precio →
-                      </a>
+                      <ProductCta asin={p.asin} label="Ver precio →" />
                     ) : (
                       <Link href={p.href!}
                         className="inline-block bg-orange-500 text-white text-xs font-bold px-3 py-1.5 rounded-lg hover:bg-orange-600 transition-colors whitespace-nowrap">
@@ -187,9 +184,7 @@ export default function BombaCalorPage() {
             <li><strong>Contras:</strong> Tecnología On/Off (no inverter), para piscinas de hasta 30 m³</li>
           </ul>
           <div className="not-prose my-4">
-            <a href={amazonLink("B07L489LBM")} target="_blank" rel="nofollow noopener noreferrer sponsored" className="btn-primary">
-              Ver Gre HPM30 →
-            </a>
+            <ProductCta asin="B07L489LBM" label="Ver Gre HPM30 →" />
           </div>
 
           <h3>2. Gre HPGIC30 — Full Inverter con WiFi</h3>
@@ -201,9 +196,7 @@ export default function BombaCalorPage() {
             <li><strong>Contras:</strong> Precio superior a los modelos On/Off, requiere red WiFi cercana</li>
           </ul>
           <div className="not-prose my-4">
-            <a href={amazonLink("B0CPR89ZNR")} target="_blank" rel="nofollow noopener noreferrer sponsored" className="btn-primary">
-              Ver Gre HPGIC30 →
-            </a>
+            <ProductCta asin="B0CPR89ZNR" label="Ver Gre HPGIC30 →" />
           </div>
 
           <h3>3. <Link href="/tienda/bombas-calor" className="text-sky-700 hover:underline">Poolex Q-Line 7 Full Inverter</Link> — La más eficiente</h3>

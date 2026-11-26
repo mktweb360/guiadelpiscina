@@ -1,12 +1,12 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { amazonLink } from "@/lib/amazon";
 import AffiliateDisclosure from "@/components/AffiliateDisclosure";
 import AdSenseAd from "@/components/AdSenseAd";
 import BlogSidebar from "@/components/BlogSidebar";
 import ArticleTocAuto from "@/components/ArticleTocAuto";
 import MktPromo from "@/components/MktPromo";
 import MoreGuides from "@/components/MoreGuides";
+import ProductCta from "@/components/ProductCta";
 
 // Artículo generado 23/09/2026 (loop blogs-monetizacion). Datos de producto verificados en vivo en Amazon.es el 23/09/2026.
 // Por cumplimiento (julio 2026) NO se muestran precios ni valoraciones estáticas de Amazon: solo características verificadas.
@@ -290,22 +290,8 @@ export default function ComoElegirProgramadorRiegoPage() {
         </div>
 
         <div className="not-prose my-6 flex flex-wrap gap-3">
-          <a
-            href={amazonLink("B07JLVB5JP")}
-            target="_blank"
-            rel="nofollow noopener noreferrer sponsored"
-            className="inline-block px-6 py-3 bg-orange-500 hover:bg-orange-600 text-white font-bold rounded-xl transition-colors"
-          >
-            Ver GARDENA Flex →
-          </a>
-          <a
-            href={amazonLink("B07JM7NXQT")}
-            target="_blank"
-            rel="nofollow noopener noreferrer sponsored"
-            className="inline-block px-6 py-3 bg-white border-2 border-orange-500 text-orange-600 hover:bg-orange-50 font-bold rounded-xl transition-colors"
-          >
-            Ver GARDENA Select →
-          </a>
+          <ProductCta asin="B07JLVB5JP" label="Ver GARDENA Flex →" />
+          <ProductCta asin="B07JM7NXQT" label="Ver GARDENA Select →" />
         </div>
 
         <div className="prose">

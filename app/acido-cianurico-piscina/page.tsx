@@ -1,12 +1,12 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { amazonLink } from "@/lib/amazon";
 import AffiliateDisclosure from "@/components/AffiliateDisclosure";
 import AdSenseAd from "@/components/AdSenseAd";
 import BlogSidebar from "@/components/BlogSidebar";
 import ArticleTocAuto from "@/components/ArticleTocAuto";
 import MktPromo from "@/components/MktPromo";
 import MoreGuides from "@/components/MoreGuides";
+import ProductCta from "@/components/ProductCta";
 
 // Artículo generado 07/10/2026 (loop blogs-monetizacion). Sin precios ni valoraciones estáticas de Amazon (cumplimiento julio 2026).
 // Fuentes de los valores: RD 742/2013 (piscinas de uso público; resumen de parámetros en la guía de control de calidad del Gobierno de Aragón)
@@ -271,22 +271,8 @@ export default function AcidoCianuricoPiscinaPage() {
         </div>
 
         <div className="not-prose my-6 flex flex-wrap gap-3">
-          <a
-            href={amazonLink("B06Y1S1H9Z")}
-            target="_blank"
-            rel="nofollow noopener noreferrer sponsored"
-            className="inline-block px-6 py-3 bg-orange-500 hover:bg-orange-600 text-white font-bold rounded-xl transition-colors"
-          >
-            Ver pastillas DIACLOR →
-          </a>
-          <a
-            href={amazonLink("B09MW354JK")}
-            target="_blank"
-            rel="nofollow noopener noreferrer sponsored"
-            className="inline-block px-6 py-3 bg-white border-2 border-orange-500 text-orange-600 hover:bg-orange-50 font-bold rounded-xl transition-colors"
-          >
-            Ver tiras EASYTEST →
-          </a>
+          <ProductCta asin="B06Y1S1H9Z" label="Ver pastillas DIACLOR →" />
+          <ProductCta asin="B09MW354JK" label="Ver tiras EASYTEST →" />
         </div>
 
         <div className="prose">
