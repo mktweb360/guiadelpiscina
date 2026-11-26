@@ -159,6 +159,24 @@ export const products: Product[] = [
     specs: { "Marca": "Intex", "Referencia": "0775448", "Ancho": "40,6 cm", "Peso": "200 g", "Mango compatible": "Telescópico Intex de 29,8 mm (no incluido)", "Vendido por": "Amazon" },
   },
   {
+    slug: "intex-55253-aspiradora-manual-recargable-piscina",
+    // Comprobada en amazon.es el 26/11/2026: botón de compra activo, vendida y enviada por Amazon. Datos solo de la ficha de Amazon.
+    name: "Intex 55253 Aspiradora manual recargable para piscina, mástil de 280 cm",
+    asin: "B0B8STCJ5V",
+    category: "Piscinas desmontables",
+    categorySlug: "piscinas-desmontables",
+    categoryName: "Piscinas desmontables",
+    price: "Consultar precio",
+    priceMin: 0,
+    rating: 0,
+    reviewCount: 0,
+    shortDescription: "Aspiradora manual con batería recargable de hasta 100 minutos de autonomía y mástil telescópico de hasta 2,8 m, para suelo, paredes y esquinas de la piscina.",
+    fullDescription: "Aspiradora manual de Intex (modelo 28628) para limpiar la suciedad del suelo, las paredes, las esquinas y los bordes de la piscina. Según la ficha de Amazon, funciona por aspiración sin cable ni manguera, se activa al sumergirla y se apaga sola al sacarla del agua. La batería Ni-MH recargable integrada da hasta 100 minutos por carga, con 6 horas de carga. Incluye un mástil telescópico de aluminio de hasta 2,8 m, 2 cabezales de limpieza, 2 filtros para partículas pequeñas y micropartículas y un contenedor extraíble de 1,1 l. La ficha la da como apta para spas, piscinas elevadas y enterradas. Mide 37 x 11 x 21 cm y pesa 2,86 kg. No la hemos probado: la información procede de la ficha de Amazon.",
+    pros: ["Vendida y enviada por Amazon", "Sin cable ni manguera: funciona por batería", "Hasta 100 minutos de autonomía por carga, según la ficha", "Incluye mástil telescópico de 2,8 m y 2 cabezales"],
+    cons: ["La carga tarda unas 6 horas, según la ficha", "Contenedor de 1,1 l: en piscinas muy sucias hay que vaciarlo con frecuencia", "Es una aspiradora manual: hay que pasarla tú, a diferencia de un robot limpiafondos", "No la hemos probado: la información procede de la ficha de Amazon"],
+    specs: { "Marca": "Intex", "Modelo": "55253 (28628)", "Funcionamiento": "Aspiración, batería Ni-MH recargable", "Autonomía": "Hasta 100 min; carga de 6 h", "Mástil": "Telescópico de aluminio, hasta 2,8 m", "Contenedor": "1,1 l extraíble", "Peso": "2,86 kg", "Vendido por": "Amazon" },
+  },
+  {
     slug: "intex-28270np-piscina-small-frame-220x150",
     // Comprobada en amazon.es el 26/11/2026: botón de compra activo, vendida y enviada por Amazon. Datos solo de la ficha de Amazon.
     name: "Intex 28270NP Piscina Desmontable Small Frame 220 x 150 x 60 cm",

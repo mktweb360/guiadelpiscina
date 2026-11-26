@@ -155,6 +155,7 @@ export default function ComoAbrirPiscinaPage() {
             <li><Link href="/floculante-piscina" className="text-sky-600 hover:underline">Floculante</Link> (por si el agua está muy turbia)</li>
             <li>Corrector de pH (pH minus y/o pH plus)</li>
             <li><Link href="/tienda/piscinas-desmontables/intex-cepillo-pared-curvo-40-cm" className="text-sky-700 hover:underline">Cepillo de piscina</Link> y manguera de aspiración</li>
+            <li><Link href="/tienda/piscinas-desmontables/intex-55253-aspiradora-manual-recargable-piscina" className="text-sky-700 hover:underline">Aspiradora manual recargable</Link> para el fondo, si no usas un robot limpiafondos</li>
           </ul>
 
           <h2>Los 7 pasos para abrir la piscina</h2>
