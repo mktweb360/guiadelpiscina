@@ -2646,6 +2646,26 @@ export const products: Product[] = [
     badge: "Cartucho tipo B",
   },
   {
+    slug: "intex-29000-cartucho-filtro-tipo-a",
+    image: "https://m.media-amazon.com/images/I/61QmtduRB6L._SL500_.jpg",
+    // Comprobada en amazon.es el 27/11/2026: botón de compra activo, vendido y enviado por Amazon. Datos solo de la ficha de Amazon.
+    name: "Intex 29000 Cartucho de filtro tipo A",
+    asin: "B00004YSYM",
+    category: "Depuradoras de piscina",
+    categorySlug: "depuradoras",
+    categoryName: "Depuradoras de piscina",
+    price: "Consultar precio",
+    priceMin: 0,
+    rating: 0,
+    reviewCount: 0,
+    shortDescription: "Cartucho de recambio tipo A de Intex, suelto (20,2 cm de alto y 10,8 cm de diámetro exterior), para depuradoras como las 603G, 604G, 637R/G y 635T.",
+    fullDescription: "Cartucho de filtro de recambio tipo A de Intex, modelo 29000, que se vende suelto. Según la ficha de Amazon, mide 20,2 cm de alto, 10,8 cm de diámetro exterior y 5 cm de diámetro interior, y encaja en las depuradoras Intex 603G, 604G, 637R/G, 635T, 636T/G, CS 7111, CS 7221/7231 y ECO 7221/7231. Se puede limpiar con agua a presión para que dure más durante el verano y la ficha recomienda cambiarlo cada dos semanas. No lo hemos probado: la información procede de la ficha de Amazon.",
+    pros: ["Recambio de la propia marca Intex", "Se vende suelto: sirve para cambiar uno sin comprar un pack", "Se puede limpiar con agua a presión para alargar su vida, según la ficha", "Compatibilidad con varias depuradoras indicada en la ficha", "Vendido y enviado por Amazon"],
+    cons: ["Es solo para depuradoras que usen el cartucho tipo A: conviene mirar la letra impresa en el cartucho actual o el manual", "La ficha recomienda cambiarlo cada dos semanas, así que si filtras a diario compensa tener un par de recambios", "El peso que aparece en la ficha (1,1 g) no parece corresponder a este producto y no lo usamos", "No lo hemos probado: la información procede de la ficha de Amazon"],
+    specs: { "Marca": "Intex", "Modelo": "29000", "Tipo": "A", "Unidades": "1", "Medidas": "20,2 cm de alto, 10,8 cm de diámetro exterior, 5 cm de diámetro interior", "Compatibles": "Intex 603G, 604G, 637R/G, 635T, 636T/G, CS 7111, CS 7221/7231, ECO 7221/7231", "Vendido por": "Amazon" },
+    badge: "Cartucho tipo A",
+  },
+  {
     slug: "pooltester-kit-ph-cloro-bromo-40-pastillas",
     // Comprobada en amazon.es el 23/11/2026: botón de compra activo, vendido por King Kong Chemical (tercero). Datos solo de la ficha de Amazon.
     name: "Kit Pooltester de pH y Cloro o Bromo (40 pastillas)",
