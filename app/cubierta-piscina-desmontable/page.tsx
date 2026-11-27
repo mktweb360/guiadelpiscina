@@ -272,7 +272,8 @@ export default function CubiertaPiscinaPage() {
             <Link href="/tienda/piscinas-desmontables/intex-cobertor-piscina-rectangular-549x274" className="text-sky-700 hover:underline">cobertor deluxe de 5,36 x 2,67 m</Link>.
             Si tu piscina rectangular mide 4,88 x 2,44 m, hay un{" "}
             <Link href="/tienda/piscinas-desmontables/intex-cobertor-solar-rectangular-488x244-azul" className="text-sky-700 hover:underline">cobertor solar de burbujas de Intex</Link>. Para una de 4 x 2 m existe el{" "}
-            <Link href="/tienda/piscinas-desmontables/intex-cobertor-solar-rectangular-400x200-azul" className="text-sky-700 hover:underline">cobertor solar de 400 x 200 cm</Link>.
+            <Link href="/tienda/piscinas-desmontables/intex-cobertor-solar-rectangular-400x200-azul" className="text-sky-700 hover:underline">cobertor solar de 400 x 200 cm</Link> y, para las Prisma y Small Frame de 3 x 2 m, el{" "}
+            <Link href="/tienda/piscinas-desmontables/intex-28038-cobertor-rectangular-prisma-small-frame-300x200" className="text-sky-700 hover:underline">cobertor de vinilo Intex 28038</Link>.
           </p>
 
           <h2>Ventajas de cubrir la piscina cuando no la usas</h2>
