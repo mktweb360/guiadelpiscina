@@ -215,6 +215,25 @@ export const products: Product[] = [
     specs: {"Marca": "Intex", "Medidas del cobertor": "378 x 186 cm", "Para piscinas de": "400 x 200 cm", "Material": "Polietileno con burbujas de aire, 150 micras", "Color": "Azul"},
   },
   {
+    slug: "intex-28038-cobertor-rectangular-prisma-small-frame-300x200",
+    image: "https://m.media-amazon.com/images/I/51hWccQvhlL._SL500_.jpg",
+    // Comprobada en amazon.es el 27/11/2026: botón de compra activo, sin «Vendido por» de tercero (remitente y vendedor Amazon). Datos solo de la ficha de Amazon.
+    name: "Intex 28038 Cobertor para piscina rectangular 300 x 200 cm, azul",
+    asin: "B00UHNCA3K",
+    category: "Piscinas desmontables",
+    categorySlug: "piscinas-desmontables",
+    categoryName: "Piscinas desmontables",
+    price: "Consultar precio",
+    priceMin: 0,
+    rating: 0,
+    reviewCount: 0,
+    shortDescription: "Cobertor de vinilo azul marino de 300 x 200 cm para piscinas rectangulares Intex Prisma y Small Frame, con cuerda de sujeción y orificios de drenaje.",
+    fullDescription: "Cobertor de Intex para piscinas desmontables rectangulares de las líneas Prisma y Small Frame, de 300 x 200 cm y con 20 cm de voladizo. Según la ficha de Amazon está hecho de vinilo azul marino de 0,18 mm, pesa unos 2 kg, tiene pequeños orificios de drenaje para evitar acumulaciones de agua e incluye una cuerda para sujetarlo a la piscina con viento. La ficha lo indica como compatible con la referencia 28272. No lo hemos probado: la información procede de la ficha de Amazon.",
+    pros: ["Remitente y vendedor Amazon", "Vinilo de 0,18 mm con 20 cm de voladizo, según la ficha", "Cuerda para sujetarlo a la piscina con viento", "Orificios de drenaje contra el agua acumulada"],
+    cons: ["Solo para piscinas rectangulares de 300 x 200 cm de las líneas Prisma y Small Frame: comprueba tu modelo", "No es una cubierta de seguridad: no sustituye la vigilancia de un adulto", "Vinilo fino de 0,18 mm, pensado como protección ligera", "No lo hemos probado: la información procede de la ficha de Amazon"],
+    specs: {"Marca": "Intex", "Modelo": "28038", "Medidas": "300 x 200 cm", "Voladizo": "20 cm", "Material": "Vinilo de 0,18 mm", "Color": "Azul marino", "Compatible según la ficha": "Referencia 28272"},
+  },
+  {
     slug: "intex-55253-aspiradora-manual-recargable-piscina",
     // Comprobada en amazon.es el 26/11/2026: botón de compra activo, vendida y enviada por Amazon. Datos solo de la ficha de Amazon.
     name: "Intex 55253 Aspiradora manual recargable para piscina, mástil de 280 cm",
