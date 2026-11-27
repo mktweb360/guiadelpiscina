@@ -118,7 +118,7 @@ const breadcrumbSchema = {
 export default function ArenaDepuradoraPiscinaPage() {
   const picks = quickPicks.flatMap((pk) => availableBySlug([pk.slug]).map((product) => ({ pk, product })));
   const filas = cargas.flatMap((row) => availableBySlug([row.slug]).map((product) => ({ row, product })));
-  const cartuchos = availableBySlug(["intex-29003-cartuchos-tipo-a-3", "intex-29007e-cartucho-tipo-h"]);
+  const cartuchos = availableBySlug(["intex-29003-cartuchos-tipo-a-3", "intex-29007e-cartucho-tipo-h", "intex-29005-cartucho-filtro-tipo-b"]);
   const arena = availableBySlug(["tecno-prodist-arena-silex-10kg"])[0];
   const vidrio = availableBySlug(["qp-vidrio-filtrante-20kg"])[0];
 
