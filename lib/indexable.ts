@@ -120,6 +120,7 @@ export const FEATURED_PRODUCT_SLUGS = new Set<string>([
   "cubierta-verano-gre-piscina-acero-300-decathlon",
   "intex-cobertor-piscina-redonda-366-cm-todas-temporadas",
   "intex-29041np-dispensador-quimico-flotante",
+  "intex-29005-cartucho-filtro-tipo-b",
   "pooltester-kit-ph-cloro-bromo-40-pastillas",
 ]);
 

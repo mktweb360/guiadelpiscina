@@ -2626,6 +2626,26 @@ export const products: Product[] = [
     badge: "Dosificador flotante",
   },
   {
+    slug: "intex-29005-cartucho-filtro-tipo-b",
+    image: "https://m.media-amazon.com/images/I/61c5FxKmFZL._SL500_.jpg",
+    // Comprobada en amazon.es el 27/11/2026: botón de compra activo, vendido y enviado por Amazon. Datos solo de la ficha de Amazon.
+    name: "Intex 29005 Cartucho de filtro tipo B",
+    asin: "B0001206R4",
+    category: "Depuradoras de piscina",
+    categorySlug: "depuradoras",
+    categoryName: "Depuradoras de piscina",
+    price: "Consultar precio",
+    priceMin: 0,
+    rating: 0,
+    reviewCount: 0,
+    shortDescription: "Cartucho de recambio tipo B de Intex (25,3 cm de alto y 14,5 cm de diámetro exterior) para depuradoras como las 633T, 634T, 634RC, CS8111, CS8221 y CS8231.",
+    fullDescription: "Cartucho de filtro de recambio tipo B de Intex, modelo 29005. Según la ficha de Amazon, mide 25,3 cm de alto, 14,5 cm de diámetro exterior y 5 cm de diámetro interior, y encaja en las depuradoras Intex 633T, 634T, 634RC, CS8111, CS8221 y CS8231. Se puede limpiar con agua a presión para que dure más y la ficha recomienda cambiarlo cada dos semanas. No lo hemos probado: la información procede de la ficha de Amazon.",
+    pros: ["Recambio de la propia marca Intex", "Se puede limpiar con agua a presión para alargar su vida, según la ficha", "Compatibilidad con seis modelos de depuradora indicada en la ficha", "Vendido y enviado por Amazon"],
+    cons: ["Es solo para depuradoras que usen el cartucho tipo B: conviene mirar la letra impresa en el cartucho actual o el manual", "La ficha recomienda cambiarlo cada dos semanas, así que a largo plazo conviene tener varios", "El peso y la pila que aparecen en la ficha no parecen corresponder a este producto y no los usamos", "No lo hemos probado: la información procede de la ficha de Amazon"],
+    specs: { "Marca": "Intex", "Modelo": "29005", "Tipo": "B", "Medidas": "25,3 cm de alto, 14,5 cm de diámetro exterior, 5 cm de diámetro interior", "Compatibles": "Intex 633T, 634T, 634RC, CS8111, CS8221, CS8231", "Vendido por": "Amazon" },
+    badge: "Cartucho tipo B",
+  },
+  {
     slug: "pooltester-kit-ph-cloro-bromo-40-pastillas",
     // Comprobada en amazon.es el 23/11/2026: botón de compra activo, vendido por King Kong Chemical (tercero). Datos solo de la ficha de Amazon.
     name: "Kit Pooltester de pH y Cloro o Bromo (40 pastillas)",
