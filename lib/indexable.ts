@@ -115,6 +115,7 @@ export const FEATURED_PRODUCT_SLUGS = new Set<string>([
   "intex-55253-aspiradora-manual-recargable-piscina",
   "intex-cobertor-piscina-rectangular-549x274",
   "intex-cobertor-solar-rectangular-488x244-azul",
+  "intex-cobertor-solar-rectangular-400x200-azul",
   "cubierta-invierno-piscina-redonda-460-decathlon",
   "cubierta-invierno-piscina-redonda-550-decathlon",
   "cubierta-isotermica-gre-piscina-redonda-460-decathlon",

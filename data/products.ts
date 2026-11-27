@@ -196,6 +196,25 @@ export const products: Product[] = [
     specs: {"Marca": "Intex", "Medidas del cobertor": "476 x 234 cm", "Para piscinas de": "488 x 244 cm", "Material": "Polietileno con burbujas de aire, 150 micras", "Color": "Azul", "Peso": "2,68 kg"},
   },
   {
+    slug: "intex-cobertor-solar-rectangular-400x200-azul",
+    image: "https://m.media-amazon.com/images/I/51p-gaEdAGL._SL500_.jpg",
+    // Comprobada en amazon.es el 27/11/2026: botón de compra activo, remitente y vendedor Amazon. Datos solo de la ficha de Amazon. La ficha mezcla «55269» en el título y «28028» como número de modelo.
+    name: "Intex Cobertor solar para piscina rectangular 400 x 200 cm, azul",
+    asin: "B09C3PN6PW",
+    category: "Piscinas desmontables",
+    categorySlug: "piscinas-desmontables",
+    categoryName: "Piscinas desmontables",
+    price: "Consultar precio",
+    priceMin: 0,
+    rating: 0,
+    reviewCount: 0,
+    shortDescription: "Cobertor solar azul de polietileno con burbujas de aire para piscinas rectangulares de 400 x 200 cm, con agujeros de drenaje.",
+    fullDescription: "Cobertor solar de Intex, en color azul, para piscinas rectangulares de 400 x 200 cm. Según la ficha de Amazon mide 378 cm de ancho por 186 cm de largo, es de polietileno con burbujas de aire selladas de 150 micras y tiene agujeros de drenaje para que no se acumule el agua de lluvia. La ficha indica que reduce hasta un 95 % la evaporación y ayuda a proteger de la suciedad y a mantener templada el agua. El título de la ficha lo llama INTEX 55269 y el número de modelo figura como 28028: comprueba las medidas de tu piscina antes de comprarlo. No lo hemos probado: la información procede de la ficha de Amazon.",
+    pros: ["Remitente y vendedor Amazon", "Burbujas de aire de 150 micras que ayudan a conservar el calor", "Agujeros de drenaje para el agua de lluvia", "Según la ficha, reduce hasta un 95 % la evaporación"],
+    cons: ["Solo para piscinas rectangulares de 400 x 200 cm: el cobertor es algo más pequeño que la piscina", "No es una cubierta de seguridad: no sustituye la vigilancia de un adulto", "La ficha mezcla dos referencias (55269 y 28028): verifica la compatibilidad", "No lo hemos probado: la información procede de la ficha de Amazon"],
+    specs: {"Marca": "Intex", "Medidas del cobertor": "378 x 186 cm", "Para piscinas de": "400 x 200 cm", "Material": "Polietileno con burbujas de aire, 150 micras", "Color": "Azul"},
+  },
+  {
     slug: "intex-55253-aspiradora-manual-recargable-piscina",
     // Comprobada en amazon.es el 26/11/2026: botón de compra activo, vendida y enviada por Amazon. Datos solo de la ficha de Amazon.
     name: "Intex 55253 Aspiradora manual recargable para piscina, mástil de 280 cm",
