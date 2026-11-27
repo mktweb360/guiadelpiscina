@@ -2649,7 +2649,7 @@ export const products: Product[] = [
     slug: "intex-29000-cartucho-filtro-tipo-a",
     image: "https://m.media-amazon.com/images/I/61QmtduRB6L._SL500_.jpg",
     // Comprobada en amazon.es el 27/11/2026: botón de compra activo, vendido y enviado por Amazon. Datos solo de la ficha de Amazon.
-    name: "Intex 29000 Cartucho de filtro tipo A",
+    name: "Intex 29000 Cartucho tipo A para depuradora",
     asin: "B00004YSYM",
     category: "Depuradoras de piscina",
     categorySlug: "depuradoras",
