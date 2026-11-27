@@ -270,6 +270,8 @@ export default function CubiertaPiscinaPage() {
             <Link href="/tienda/piscinas-desmontables/cubierta-verano-gre-piscina-acero-300-decathlon" className="text-sky-700 hover:underline">cubierta de verano GRE de 300 cm</Link> para piscinas de acero.
             Para una piscina rectangular de 5,49 x 2,74 m, Intex tiene el{" "}
             <Link href="/tienda/piscinas-desmontables/intex-cobertor-piscina-rectangular-549x274" className="text-sky-700 hover:underline">cobertor deluxe de 5,36 x 2,67 m</Link>.
+            Si tu piscina rectangular mide 4,88 x 2,44 m, hay un{" "}
+            <Link href="/tienda/piscinas-desmontables/intex-cobertor-solar-rectangular-488x244-azul" className="text-sky-700 hover:underline">cobertor solar de burbujas de Intex</Link>.
           </p>
 
           <h2>Ventajas de cubrir la piscina cuando no la usas</h2>
