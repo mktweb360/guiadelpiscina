@@ -121,6 +121,7 @@ export const FEATURED_PRODUCT_SLUGS = new Set<string>([
   "intex-cobertor-piscina-redonda-366-cm-todas-temporadas",
   "intex-29041np-dispensador-quimico-flotante",
   "intex-29005-cartucho-filtro-tipo-b",
+  "intex-29000-cartucho-filtro-tipo-a",
   "pooltester-kit-ph-cloro-bromo-40-pastillas",
 ]);
 
