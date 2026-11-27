@@ -2606,6 +2606,26 @@ export const products: Product[] = [
     badge: "Cobertor de invierno",
   },
   {
+    slug: "intex-29041np-dispensador-quimico-flotante",
+    image: "https://m.media-amazon.com/images/I/61L2Yx7ZDKL._SL500_.jpg",
+    // Comprobada en amazon.es el 27/11/2026: botón de compra activo, vendido y enviado por Amazon. Datos solo de la ficha de Amazon.
+    name: "Intex 29041NP Dispensador Químico Flotante (17,8 cm)",
+    asin: "B00JEXSU8S",
+    category: "Tratamiento del agua",
+    categorySlug: "tratamiento-agua",
+    categoryName: "Tratamiento del agua",
+    price: "Consultar precio",
+    priceMin: 0,
+    rating: 0,
+    reviewCount: 0,
+    shortDescription: "Dispensador flotante de polipropileno de 17,8 cm de diámetro para tres pastillas de cloro o bromo, con anillo de control de la liberación.",
+    fullDescription: "Dispensador químico flotante de Intex, según la ficha de Amazon pensado para todo tipo de piscinas Intex. Está fabricado en polipropileno, es resistente y anticorrosivo, y mide 17,8 cm de diámetro. Tiene capacidad para tres pastillas de cloro o bromo de hasta 7,6 cm, que no se incluyen, una tapa de doble cierre superior y un anillo de control ajustable para regular la liberación de los productos químicos. No lo hemos probado: la información procede de la ficha de Amazon.",
+    pros: ["Capacidad para tres pastillas de cloro o bromo de hasta 7,6 cm", "Anillo de control ajustable para regular la liberación", "Tapa de doble cierre superior", "Polipropileno resistente y anticorrosivo, según la ficha", "Vendido y enviado por Amazon"],
+    cons: ["Las pastillas no están incluidas", "La ficha lo plantea para piscinas Intex: conviene comprobar que encaja con tu piscina", "No lo hemos probado: la información procede de la ficha de Amazon"],
+    specs: { "Marca": "Intex", "Modelo": "29041NP", "Diámetro": "17,8 cm", "Material": "Polipropileno", "Capacidad": "3 pastillas de hasta 7,6 cm" },
+    badge: "Dosificador flotante",
+  },
+  {
     slug: "pooltester-kit-ph-cloro-bromo-40-pastillas",
     // Comprobada en amazon.es el 23/11/2026: botón de compra activo, vendido por King Kong Chemical (tercero). Datos solo de la ficha de Amazon.
     name: "Kit Pooltester de pH y Cloro o Bromo (40 pastillas)",

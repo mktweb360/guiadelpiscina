@@ -245,7 +245,7 @@ export default function CuantoCloroPage() {
           <ul>
             <li><strong>Echar cloro con gente en el agua:</strong> nunca añadas productos con la piscina en uso.</li>
             <li><strong>No medir el pH antes:</strong> el cloro pierde eficacia con <Link href="/ph-piscina" className="text-sky-600 hover:underline">pH</Link> superior a 7,6. Ajusta siempre el pH primero.</li>
-            <li><strong>Tabletas directamente en el skimmer:</strong> el cloro concentrado deteriora la bomba y el filtro; usa un dosificador flotante.</li>
+            <li><strong>Tabletas directamente en el skimmer:</strong> el cloro concentrado deteriora la bomba y el filtro; usa un <Link href="/tienda/tratamiento-agua/intex-29041np-dispensador-quimico-flotante" className="text-sky-600 hover:underline">dosificador flotante</Link>.</li>
             <li><strong>No agitar el agua tras añadir granulado:</strong> el granulado puede decolorar el liner si se deposita en el fondo sin diluir. Disuelve primero en un cubo con agua de la piscina.</li>
           </ul>
           <p>
