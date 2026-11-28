@@ -195,6 +195,24 @@ export const products: Product[] = [
     specs: { "Marca": "Intex", "Modelo": "28003", "Piezas": "5", "Mango telescópico": "Aluminio, 279 cm", "Caudal mínimo de la depuradora": "3.785 L/h", "Manguera": "7,50 m", "Peso": "2,7 kg", "Vendido por": "Amazon" },
   },
   {
+    slug: "intex-kit-limpieza-basico-29056",
+    // Comprobada en amazon.es el 28/11/2026: botón de compra activo, remitente y vendedor Amazon. Datos solo de la ficha de Amazon.
+    name: "Intex Kit de limpieza básico para piscinas (modelo 29056)",
+    asin: "B00IB1OG28",
+    category: "Piscinas desmontables",
+    categorySlug: "piscinas-desmontables",
+    categoryName: "Piscinas desmontables",
+    price: "Consultar precio",
+    priceMin: 0,
+    rating: 0,
+    reviewCount: 0,
+    shortDescription: "Kit básico de Intex con cepillo recto, red recogehojas y cabezal de aspiración con bolsa; el mango telescópico se vende aparte.",
+    fullDescription: "Kit de limpieza básico de Intex para piscinas elevadas. Según la ficha de Amazon, incluye un cepillo recto para limpiar paredes y suelo, una red recogehojas y un cabezal de aspiradora con bolsa de detritos, y se puede conectar a una manguera de jardín. Es compatible con el mango telescópico de Intex de 26,2 mm de diámetro (referencia 29054), que no está incluido en el embalaje. Su número de modelo es 29056; mide unos 34,3 x 9,5 x 47,6 cm empaquetado y pesa 655 g. No lo hemos probado: la información procede de la ficha de Amazon.",
+    pros: ["Remitente y vendedor Amazon", "Reúne cepillo, red recogehojas y cabezal de aspiración con bolsa", "Se puede conectar a una manguera de jardín", "Ligero: unos 655 g"],
+    cons: ["El mango telescópico no está incluido: la ficha indica el modelo compatible 29054 de 26,2 mm", "Es un kit básico: no incluye limpiafondos con manguera de depuradora", "No lo hemos probado: la información procede de la ficha de Amazon"],
+    specs: { "Marca": "Intex", "Modelo": "29056", "Incluye": "Cepillo recto, red recogehojas y cabezal de aspiración con bolsa", "Mango compatible": "Telescópico Intex de 26,2 mm, ref. 29054 (no incluido)", "Peso": "655 g", "Vendido por": "Amazon" },
+  },
+  {
     slug: "intex-cobertor-piscina-rectangular-549x274",
     // Comprobada en amazon.es el 26/11/2026: botón de compra activo, vendido y enviado por Amazon. Datos solo de la ficha de Amazon.
     name: "Intex Cobertor deluxe para piscinas rectangulares de 5,49 x 2,74 m (modelo 58019)",
