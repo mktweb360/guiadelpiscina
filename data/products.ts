@@ -159,6 +159,24 @@ export const products: Product[] = [
     specs: { "Marca": "Intex", "Referencia": "0775448", "Ancho": "40,6 cm", "Peso": "200 g", "Mango compatible": "Telescópico Intex de 29,8 mm (no incluido)", "Vendido por": "Amazon" },
   },
   {
+    slug: "intex-kit-mantenimiento-mango-telescopico-28002",
+    // Comprobada en amazon.es el 28/11/2026: botón de compra activo, remitente y vendedor Amazon. Datos solo de la ficha de Amazon.
+    name: "Intex Kit de mantenimiento con mango telescópico (modelo 28002)",
+    asin: "B004FEER0Q",
+    category: "Piscinas desmontables",
+    categorySlug: "piscinas-desmontables",
+    categoryName: "Piscinas desmontables",
+    price: "Consultar precio",
+    priceMin: 0,
+    rating: 0,
+    reviewCount: 0,
+    shortDescription: "Kit de Intex con mango telescópico de aluminio de 239 cm, red limpia-superficies y cabezal limpia-fondos, para piscinas Intex de hasta 488 cm.",
+    fullDescription: "Kit de mantenimiento de Intex que, según la ficha de Amazon, incluye un mango telescópico de aluminio de 239 cm, una red limpia-superficies y un cabezal limpia-fondos. Se utiliza en piscinas Intex de hasta 488 cm de diámetro, el limpia-fondos se conecta a una manguera de jardín y el conjunto se desmonta y pliega para transportarlo y guardarlo. Mide unos 29 x 11 x 43 cm empaquetado y pesa 880 g. No lo hemos probado: la información procede de la ficha de Amazon.",
+    pros: ["Remitente y vendedor Amazon", "Incluye mango, red limpia-superficies y cabezal limpia-fondos", "Se desmonta y pliega para guardarlo", "Pensado para piscinas Intex de hasta 488 cm de diámetro"],
+    cons: ["Solo para piscinas Intex de hasta 488 cm, según la ficha", "El limpia-fondos necesita conectarse a una manguera de jardín", "No lo hemos probado: la información procede de la ficha de Amazon"],
+    specs: { "Marca": "Intex", "Modelo": "28002", "Mango telescópico": "Aluminio, 239 cm", "Piscinas": "Intex hasta 488 cm de diámetro", "Peso": "880 g", "Vendido por": "Amazon" },
+  },
+  {
     slug: "intex-cobertor-piscina-rectangular-549x274",
     // Comprobada en amazon.es el 26/11/2026: botón de compra activo, vendido y enviado por Amazon. Datos solo de la ficha de Amazon.
     name: "Intex Cobertor deluxe para piscinas rectangulares de 5,49 x 2,74 m (modelo 58019)",
