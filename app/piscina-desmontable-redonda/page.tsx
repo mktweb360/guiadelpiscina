@@ -39,7 +39,7 @@ export const metadata: Metadata = {
 const quickPicks = [
   { slug: "intex-28166-easy-set-457x107", note: "Set completo de aro hinchable: depuradora de 3.785 l/h, escalera, tapiz y cobertor en 4,57 m de diámetro." },
   { slug: "bestway-steel-pro-max-366x100", note: "Tubular de acero de 366 cm y un metro de altura, con depuradora y escalera: el tamaño familiar más habitual." },
-  { slug: "intex-26726np-prism-frame-redonda-457x122", note: "La más alta de la selección (122 cm) y la de más agua: 16.805 litros, con depuradora, escalera, tapiz y cobertor." },
+  { slug: "intex-56093-greywood-prism-frame-redonda-457x122", note: "La más alta de la selección (122 cm) y la de más agua: 16.805 litros, con depuradora, escalera, tapiz y cobertor." },
 ];
 
 // Datos de la tabla: medidas y litros según el fabricante; la renovación es litros ÷ caudal nominal de la depuradora incluida.
@@ -50,7 +50,7 @@ const tabla = [
   { slug: "bestway-steel-pro-max-366x100", modelo: "Bestway Steel Pro MAX 366 × 100", tipo: "Tubular de acero", medidas: "Ø366 × 100 cm", litros: "9.150 L", depuradora: "Cartucho 2.006 l/h + escalera", renovacion: "≈ 4 h 35 min" },
   { slug: "piscina-desmontable-redonda-acero-366x99-depuradora-cartucho", modelo: "Decathlon redonda de acero 366 × 99", tipo: "Tubular de acero", medidas: "Ø366 × 99 cm", litros: "8.592 L", depuradora: "Cartucho 2.006 l/h + escalera", renovacion: "≈ 4 h 17 min" },
   { slug: "intex-28166-easy-set-457x107", modelo: "Intex Easy Set 457 × 107", tipo: "Aro hinchable", medidas: "Ø457 × 107 cm", litros: "12.430 L", depuradora: "Cartucho 3.785 l/h + escalera, tapiz y cobertor", renovacion: "≈ 3 h 17 min" },
-  { slug: "intex-26726np-prism-frame-redonda-457x122", modelo: "Intex Prism Frame 457 × 122", tipo: "Tubular de acero", medidas: "Ø457 × 122 cm", litros: "16.805 L", depuradora: "Cartucho 3.785 l/h + escalera, tapiz y cobertor", renovacion: "≈ 4 h 25 min" },
+  { slug: "intex-56093-greywood-prism-frame-redonda-457x122", modelo: "Intex Greywood Prism Frame 457 × 122", tipo: "Tubular de acero", medidas: "Ø457 × 122 cm", litros: "16.805 L", depuradora: "Cartucho 3.785 l/h + escalera, tapiz y cobertor", renovacion: "≈ 4 h 26 min" },
 ];
 
 const faqs = [

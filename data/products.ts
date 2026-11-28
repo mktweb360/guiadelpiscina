@@ -1968,6 +1968,24 @@ export const products: Product[] = [
     cons: ["Vendida por un tercero","Necesita un hueco de unos 5,6 × 5,6 m","Llenarla lleva muchas horas"],
     specs: {"Medidas":"Ø457 × 122 cm","Capacidad":"16.805 litros","Tipo":"Tubular de acero (Prism Frame)","Depuradora":"Cartucho tipo A, 3.785 l/h","Incluye":"Escalera, tapiz y cobertor","Edad":"Desde 6 años (fabricante)"},
   },
+  {
+    slug: "intex-56093-greywood-prism-frame-redonda-457x122",
+    // Comprobada en amazon.es el 28/11/2026: botón de compra activo, remitente y vendedor Amazon. Datos solo de la ficha de Amazon.
+    name: "Intex 56093 Piscina Greywood Prism Frame Redonda 457 × 122 cm con Depuradora, Escalera, Tapiz y Cobertor",
+    asin: "B0G2LVHLTF",
+    category: "Piscinas desmontables",
+    categorySlug: "piscinas-desmontables",
+    categoryName: "Piscinas desmontables",
+    price: "Consultar precio",
+    priceMin: 0,
+    rating: 0,
+    reviewCount: 0,
+    shortDescription: "Piscina tubular redonda de 457 × 122 cm y 16.805 litros con depuradora de cartucho de 3.785 l/h, escalera, tapiz y cobertor.",
+    fullDescription: "Piscina redonda Greywood de la gama Prism Frame Premium de Intex: 457 cm de diámetro, 122 cm de altura, 107 cm de altura de agua y 16.805 litros. Según la ficha de Amazon, la estructura es metálica con tubos de acero anticorrosión, la lona es de tres capas de PVC y poliéster, con el interior efecto gresite y el exterior efecto madera gris. Incluye depuradora de cartucho tipo A de 3.785 l/h con conexiones de 32 mm, escalera de seguridad con peldaños desmontables, tapiz y cobertor, y su tapón de vaciado permite conectar una manguera (no incluida). Se recomienda a partir de 6 años, con capacidad para 6 personas, y el montaje lleva unos 45 minutos sin herramientas sobre una base firme y nivelada. No la hemos probado: la información procede de la ficha de Amazon.",
+    pros: ["Vendida y enviada por Amazon", "Set completo: depuradora, escalera, tapiz y cobertor", "122 cm de altura y 16.805 litros", "Montaje en unos 45 minutos sin herramientas, según la ficha"],
+    cons: ["Necesita un hueco amplio y una base firme y nivelada", "Llenarla lleva muchas horas", "La manguera de llenado y vaciado no está incluida", "No la hemos probado: la información procede de la ficha de Amazon"],
+    specs: { "Marca": "Intex", "Modelo": "56093", "Medidas": "Ø457 × 122 cm", "Altura del agua": "107 cm", "Capacidad": "16.805 litros", "Tipo": "Tubular de acero (Prism Frame Premium)", "Depuradora": "Cartucho tipo A, 3.785 l/h", "Incluye": "Escalera, tapiz y cobertor", "Edad": "Desde 6 años", "Vendido por": "Amazon" },
+  },
   // 18/10/2026: piscinas desmontables rectangulares (guía /piscina-desmontable-rectangular)
   {
     slug: "intex-26784np-prism-frame-rectangular-300x175x80",
