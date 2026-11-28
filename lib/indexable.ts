@@ -16,6 +16,7 @@ export const FEATURED_PRODUCT_SLUGS = new Set<string>([
   "arebos-cubierta-solar-piscina-450x220-120um",
   "decathlon-bfit-gafas-natacion-antivaho-ahumadas",
   "intex-26726np-prism-frame-redonda-457x122",
+  "intex-56093-greywood-prism-frame-redonda-457x122",
   "aquachek-tiras-4-en-1-cloro-ph",
   "gre-770803-depuradora-arena-4000",
   "intex-c2500-depuradora-cartucho",
