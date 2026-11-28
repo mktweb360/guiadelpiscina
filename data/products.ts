@@ -231,6 +231,24 @@ export const products: Product[] = [
     specs: { "Marca": "Intex", "Modelo": "29050", "Mango compatible": "Telescópico de aluminio de 26,2 mm (no incluido)", "Peso": "170 g", "Vendido por": "Amazon" },
   },
   {
+    slug: "amazon-basics-manguera-piscina-9-14-m",
+    // Comprobada en amazon.es el 28/11/2026: botón de compra activo, remitente y vendedor Amazon. Datos solo de la ficha de Amazon.
+    name: "Amazon Basics Manguera para limpiafondos de piscina, 9,14 m",
+    asin: "B0FB372YQL",
+    category: "Piscinas desmontables",
+    categorySlug: "piscinas-desmontables",
+    categoryName: "Piscinas desmontables",
+    price: "Consultar precio",
+    priceMin: 0,
+    rating: 0,
+    reviewCount: 0,
+    shortDescription: "Manguera en espiral de 9,14 m y 3,8 cm de diámetro para conectar un limpiafondos manual, con manguito giratorio.",
+    fullDescription: "Manguera para limpiafondos de piscina de Amazon Basics. Según la ficha de Amazon, mide 9,14 metros con un diámetro de 3,8 cm, tiene un diseño en espiral resistente al aplastamiento y se puede usar en piscinas elevadas y enterradas. Incluye un manguito giratorio para unirla al cabezal manual del limpiafondos sin que se retuerza, y el otro extremo fijo se conecta al desagüe. La ficha la da como compatible con la mayoría de los limpiafondos y sirve también para aspirar y drenar agua. Su número de modelo es AMZ624018 y pesa 2,18 kg. No la hemos probado: la información procede de la ficha de Amazon.",
+    pros: ["Remitente y vendedor Amazon", "Manguito giratorio que evita que se retuerza", "Diseño en espiral resistente al aplastamiento, según la ficha", "Larga: 9,14 m para rodear el vaso"],
+    cons: ["Comprueba que el diámetro de 3,8 cm encaja con tu limpiafondos y tu depuradora", "No incluye cabezal ni limpiafondos", "No la hemos probado: la información procede de la ficha de Amazon"],
+    specs: { "Marca": "Amazon Basics", "Modelo": "AMZ624018", "Longitud": "9,14 m", "Diámetro": "3,8 cm", "Peso": "2,18 kg", "Vendido por": "Amazon" },
+  },
+  {
     slug: "intex-cobertor-piscina-rectangular-549x274",
     // Comprobada en amazon.es el 26/11/2026: botón de compra activo, vendido y enviado por Amazon. Datos solo de la ficha de Amazon.
     name: "Intex Cobertor deluxe para piscinas rectangulares de 5,49 x 2,74 m (modelo 58019)",
