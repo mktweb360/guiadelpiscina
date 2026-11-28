@@ -213,6 +213,24 @@ export const products: Product[] = [
     specs: { "Marca": "Intex", "Modelo": "29056", "Incluye": "Cepillo recto, red recogehojas y cabezal de aspiración con bolsa", "Mango compatible": "Telescópico Intex de 26,2 mm, ref. 29054 (no incluido)", "Peso": "655 g", "Vendido por": "Amazon" },
   },
   {
+    slug: "intex-red-recogehojas-29050",
+    // Comprobada en amazon.es el 28/11/2026: botón de compra activo, remitente y vendedor Amazon. Datos solo de la ficha de Amazon.
+    name: "Intex Red recogehojas para piscinas (modelo 29050)",
+    asin: "B00I5IXMKY",
+    category: "Piscinas desmontables",
+    categorySlug: "piscinas-desmontables",
+    categoryName: "Piscinas desmontables",
+    price: "Consultar precio",
+    priceMin: 0,
+    rating: 0,
+    reviewCount: 0,
+    shortDescription: "Red recogehojas de Intex para retirar hojas y suciedad de la superficie; se acopla a un mango telescópico de 26,2 mm que se vende aparte.",
+    fullDescription: "Red recogehojas de Intex para retirar las hojas y la suciedad que quedan en la superficie de la piscina. Según la ficha de Amazon, es compatible con un mango telescópico de aluminio de 26,2 mm de diámetro, que no está incluido, y su diseño facilita la recogida de residuos. La ficha añade que usarla ayuda a mejorar el rendimiento y la durabilidad de la depuradora. Su número de modelo es 29050; mide unos 29,5 x 2,5 x 31,5 cm y pesa 170 g. No lo hemos probado: la información procede de la ficha de Amazon.",
+    pros: ["Remitente y vendedor Amazon", "Muy ligera: unos 170 g", "Retira hojas y suciedad de la superficie antes de que lleguen al filtro", "Compatible con el mango telescópico Intex de 26,2 mm"],
+    cons: ["El mango telescópico no está incluido", "Solo retira lo que flota: no limpia el fondo ni las paredes", "No lo hemos probado: la información procede de la ficha de Amazon"],
+    specs: { "Marca": "Intex", "Modelo": "29050", "Mango compatible": "Telescópico de aluminio de 26,2 mm (no incluido)", "Peso": "170 g", "Vendido por": "Amazon" },
+  },
+  {
     slug: "intex-cobertor-piscina-rectangular-549x274",
     // Comprobada en amazon.es el 26/11/2026: botón de compra activo, vendido y enviado por Amazon. Datos solo de la ficha de Amazon.
     name: "Intex Cobertor deluxe para piscinas rectangulares de 5,49 x 2,74 m (modelo 58019)",
