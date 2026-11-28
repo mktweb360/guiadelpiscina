@@ -249,6 +249,24 @@ export const products: Product[] = [
     specs: { "Marca": "Amazon Basics", "Modelo": "AMZ624018", "Longitud": "9,14 m", "Diámetro": "3,8 cm", "Peso": "2,18 kg", "Vendido por": "Amazon" },
   },
   {
+    slug: "gre-limpiafondos-triangular-cepillos-40016n",
+    // Comprobada en amazon.es el 28/11/2026: botón de compra activo, remitente y vendedor Amazon. Datos solo de la ficha de Amazon.
+    name: "Gre 40016N Limpiafondos manual triangular con cepillos",
+    asin: "B079XMWZLV",
+    category: "Piscinas desmontables",
+    categorySlug: "piscinas-desmontables",
+    categoryName: "Piscinas desmontables",
+    price: "Consultar precio",
+    priceMin: 0,
+    rating: 0,
+    reviewCount: 0,
+    shortDescription: "Cabezal limpiafondos triangular de Gre con cepillos y conexión por clip a un mango telescópico, que se compra aparte.",
+    fullDescription: "Cabezal limpiafondos manual de la serie Confort de Gre (modelo 40016N). Según la ficha de Amazon, tiene forma triangular y lleva cepillos para limpiar el fondo de la piscina, vale para una amplia variedad de revestimientos y es ligero y de materiales duraderos. Se conecta con un sistema de clip a cualquier mango telescópico, que no está incluido, y tiene garantía de 4 años. Mide unos 25 x 26 x 11 cm. No lo hemos probado: la información procede de la ficha de Amazon.",
+    pros: ["Remitente y vendedor Amazon", "Forma triangular con cepillos para el fondo", "Conexión por clip compatible con cualquier mango telescópico, según la ficha", "Garantía de 4 años, según la ficha"],
+    cons: ["El mango telescópico no está incluido", "Es un cabezal manual: hay que moverlo a mano por el fondo", "No lo hemos probado: la información procede de la ficha de Amazon"],
+    specs: { "Marca": "Gre", "Modelo": "40016N", "Tipo": "Limpiafondos manual con cepillos", "Conexión": "Clip para mango telescópico (no incluido)", "Garantía": "4 años", "Medidas": "25 x 26 x 11 cm", "Vendido por": "Amazon" },
+  },
+  {
     slug: "intex-cobertor-piscina-rectangular-549x274",
     // Comprobada en amazon.es el 26/11/2026: botón de compra activo, vendido y enviado por Amazon. Datos solo de la ficha de Amazon.
     name: "Intex Cobertor deluxe para piscinas rectangulares de 5,49 x 2,74 m (modelo 58019)",
