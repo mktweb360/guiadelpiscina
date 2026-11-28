@@ -177,6 +177,24 @@ export const products: Product[] = [
     specs: { "Marca": "Intex", "Modelo": "28002", "Mango telescópico": "Aluminio, 239 cm", "Piscinas": "Intex hasta 488 cm de diámetro", "Peso": "880 g", "Vendido por": "Amazon" },
   },
   {
+    slug: "intex-kit-mantenimiento-deluxe-279-cm-28003",
+    // Comprobada en amazon.es el 28/11/2026: botón de compra activo, remitente y vendedor Amazon. Datos solo de la ficha de Amazon.
+    name: "Intex Kit de mantenimiento deluxe de 5 piezas con mango de 279 cm (modelo 28003)",
+    asin: "B005DUW6Z4",
+    category: "Piscinas desmontables",
+    categorySlug: "piscinas-desmontables",
+    categoryName: "Piscinas desmontables",
+    price: "Consultar precio",
+    priceMin: 0,
+    rating: 0,
+    reviewCount: 0,
+    shortDescription: "Kit deluxe de Intex con mango telescópico de aluminio de 279 cm, cepillo de pared, red recogehojas y limpiafondos de succión con manguera de 7,50 m.",
+    fullDescription: "Kit de mantenimiento deluxe de Intex que, según la ficha de Amazon, incluye un mango telescópico de aluminio de 279 cm, un cepillo para paredes, una red recogehojas, un limpiafondos de aspiración con dos boquillas y una manguera con conector en el extremo. Se conecta a la salida de la piscina con una manguera de 7,50 metros para moverse por todo el vaso y requiere una depuradora con un caudal mínimo de 3.785 litros por hora. Su número de modelo es 28003; mide unos 12,8 x 36,8 x 115 cm empaquetado y pesa 2,7 kg. No lo hemos probado: la información procede de la ficha de Amazon.",
+    pros: ["Remitente y vendedor Amazon", "Reúne mango, cepillo de pared, red recogehojas y limpiafondos de succión", "Mango telescópico de aluminio de 279 cm", "Manguera de 7,50 m para llegar a todo el vaso"],
+    cons: ["Necesita una depuradora con un caudal mínimo de 3.785 litros por hora, según la ficha", "Hay que conectarlo a la salida de la piscina con su manguera", "No lo hemos probado: la información procede de la ficha de Amazon"],
+    specs: { "Marca": "Intex", "Modelo": "28003", "Piezas": "5", "Mango telescópico": "Aluminio, 279 cm", "Caudal mínimo de la depuradora": "3.785 L/h", "Manguera": "7,50 m", "Peso": "2,7 kg", "Vendido por": "Amazon" },
+  },
+  {
     slug: "intex-cobertor-piscina-rectangular-549x274",
     // Comprobada en amazon.es el 26/11/2026: botón de compra activo, vendido y enviado por Amazon. Datos solo de la ficha de Amazon.
     name: "Intex Cobertor deluxe para piscinas rectangulares de 5,49 x 2,74 m (modelo 58019)",
